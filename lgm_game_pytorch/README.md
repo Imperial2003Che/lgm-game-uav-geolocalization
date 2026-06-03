@@ -16,6 +16,8 @@ lgm_game_pytorch/
   commands/
     train_sues_smoke.sh
     train_university_smoke.sh
+    generate_sues_clip_prompts.sh
+    train_sues_clip_first.sh
     generate_sues_vlgeo_prompts.sh
     train_sues_vlgeo_smoke.sh
   lgm_game_pytorch/
@@ -52,11 +54,11 @@ University-1652 使用官方 `train/drone`、`train/satellite`，测试时使用
 - `cache`: 只读取已生成的 JSONL prompt cache。
 - `metadata`: 仅作为快速调试 fallback。
 
-先生成 SUES-200 的 VLM prompt cache：
+先生成 SUES-200 的 CLIP prompt cache：
 
 ```bash
 cd /Users/chenche/Documents/New\ project
-bash lgm_game_pytorch/commands/generate_sues_vlgeo_prompts.sh
+bash lgm_game_pytorch/commands/generate_sues_clip_prompts.sh
 ```
 
 缓存位置：
@@ -65,11 +67,13 @@ bash lgm_game_pytorch/commands/generate_sues_vlgeo_prompts.sh
 /Users/chenche/Documents/New project/lgm_game_pytorch/prompt_cache/
 ```
 
-用真实 VLM prompt 做一次小训练：
+用真实 CLIP content/style prompt 做第一组小实验：
 
 ```bash
-bash lgm_game_pytorch/commands/train_sues_vlgeo_smoke.sh
+bash lgm_game_pytorch/commands/train_sues_clip_first.sh
 ```
+
+本地已跑出的第一组结果：SUES-200 32 个训练地点、16 个评估地点、ResNet18、1 epoch，metadata prompt baseline 为 R@1=0.2500 / R@5=0.8125 / R@10=1.0000，CLIP prompt 为 R@1=0.8125 / R@5=1.0000 / R@10=1.0000。
 
 ## 快速训练链路 Smoke Test
 

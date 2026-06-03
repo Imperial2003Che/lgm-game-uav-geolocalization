@@ -71,8 +71,8 @@ PYTHONPATH=lgm_game_pytorch python3 -m lgm_game_pytorch.train \
   --max-classes 32 \
   --eval-max-classes 16 \
   --max-steps 10 \
-  --prompt-backend vlgeo \
-  --prompt-cache lgm_game_pytorch/prompt_cache/sues200_vlgeo_train.jsonl \
+  --prompt-backend cache \
+  --prompt-cache lgm_game_pytorch/prompt_cache/sues200_clip_first.jsonl \
   --num-workers 0
 ```
 
