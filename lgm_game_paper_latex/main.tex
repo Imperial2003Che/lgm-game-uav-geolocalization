@@ -84,19 +84,12 @@ Transformer-based UAV geo-localization papers have become mature, and recent wor
 Given a UAV query image $I^u$, a geo-referenced satellite image database $\mathcal{D}^s=\{I^s_n\}_{n=1}^{N}$, an optional vector map database $\mathcal{D}^m$, and text descriptions produced by a vision-language model, the goal is to retrieve the correct reference region and estimate fine-grained correspondences or a final geographic location. The proposed framework produces a ranked candidate list, a set of local correspondences, and a localization confidence.
 
 \subsection{Overall Architecture}
-Fig.~\ref{fig:framework} shows the drafted pipeline. First, a visual encoder extracts multi-scale UAV and satellite tokens. Second, a vision-language model generates semantic descriptions and stable semantic anchors. Third, vector maps are converted into topology tokens. Fourth, a language-map-guided geometric sparse Transformer performs cross-view interaction. Finally, a Sinkhorn-MaxClique module refines local matching and filters candidate regions by graph consistency.
+Fig.~\ref{fig:framework} shows the proposed pipeline. First, a visual encoder extracts multi-scale UAV and satellite tokens. Second, a vision-language model generates semantic descriptions and stable semantic anchors. Third, vector maps are converted into topology tokens. Fourth, a language-map-guided geometric sparse Transformer performs cross-view interaction. Finally, a Sinkhorn-MaxClique module refines local matching and filters candidate regions by graph consistency.
 
-\begin{figure*}[t]
+\begin{figure*}[!t]
 \centering
-\fbox{\begin{minipage}[c][1.75in][c]{0.92\textwidth}
-\centering
-\textbf{Placeholder for Framework Overview}\\[0.5em]
-UAV image + satellite database + vector map + VLM semantic anchors\\
-$\rightarrow$ multi-scale visual tokens, map topology tokens, semantic anchor tokens\\
-$\rightarrow$ language-map-guided geometric sparse Transformer\\
-$\rightarrow$ Sinkhorn matching and graph consistency localization.
-\end{minipage}}
-\caption{Overview of the proposed LGM-GAME framework. Replace this placeholder with a polished IEEE-style diagram.}
+\includegraphics[width=0.95\textwidth]{figures/framework_overview.pdf}
+\caption{Overview of the proposed LGM-GAME framework. Visual evidence from UAV and satellite views is combined with VLM-derived semantic anchors, style prompts, and vector-map topology before Sinkhorn matching and graph-consistency verification.}
 \label{fig:framework}
 \end{figure*}
 
@@ -124,8 +117,6 @@ where $a^{c}_k$ may represent road intersections, rectangular building footprint
   \mathcal{A}^{e} = \{a^{e}_r\}_{r=1}^{R},
 \end{equation}
 where $a^{e}_r$ may describe snow cover, summer vegetation, dry vegetation, night illumination, strong building shadow, haze, low contrast, or sensor color shift. Each style prompt is embedded as $\mathbf{t}^{e}_r \in \mathbb{R}^{d}$. This decomposition is important because geographic content should be preserved across views, while style evidence should not dominate the final localization decision.
-
-In the current PyTorch prototype, this decomposition is implemented through a prompt cache. A CLIP zero-shot image-text scorer selects content labels, such as building, parking area, dense layout, vegetation, and stable layout, and style labels, such as low altitude, low contrast, UAV oblique view, satellite nadir view, and viewpoint gap. The codebase also includes BLIP caption and local LLaVA/Ollama interfaces for richer VLGeo-style descriptions. During training, the cached content and style descriptions are tokenized by separate text encoders and injected into the matching head.
 
 \subsection{Style-Invariant Text Supervision}
 To reduce shortcuts caused by season and imaging style, visual tokens are projected into a content branch and a style branch:
@@ -178,6 +169,13 @@ The style penalty discourages matches that are supported only by similar environ
   \right|.
 \end{equation}
 For same-place images under different seasons, $E_{ij}$ may be high, but the match should still be retained if $C_{ij}$, $G_{ij}$, and $M_{ij}$ are reliable. For wrong places with similar style, $E_{ij}$ prevents style similarity from dominating the decision.
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=0.92\textwidth]{figures/attention_module.pdf}
+\caption{Text-style-map guided attention logit. The module rewards appearance, geometric plausibility, stable semantic anchors, and vector-map compatibility, while suppressing style-only shortcuts.}
+\label{fig:attention_module}
+\end{figure*}
 
 The map term measures compatibility with nearby vector-map primitives:
 \begin{equation}
@@ -239,6 +237,8 @@ The evaluation should be expanded beyond a single benchmark. University-1652 \ci
 \end{itemize}
 These splits can be created by a combination of real metadata when available, VLM-assisted style labeling, and image-level style augmentation. The key point is to report performance separately on clean, style-shifted, and cross-region subsets.
 
+In the current local run, the complete datasets under \texttt{C:\textbackslash Programs\textbackslash IMTMN\textbackslash datasets} are used for checkpoint evaluation. University-1652 provides UAV, satellite, and street-view query/gallery splits, while SUES-200 provides multi-altitude UAV imagery and satellite references for 200 locations.
+
 \subsection{Baselines}
 The planned baselines include global descriptor methods, Transformer matchers, text-assisted geo-localization, environment-robust methods, map retrieval, and graph-consistency approaches. Representative methods include SuperGlue \cite{superglue2020}, LoFTR \cite{loftr2021}, LightGlue \cite{lightglue2023}, VLGeo \cite{vlgeo2026}, CDM-Net \cite{cdmnet2025}, R2PLoc \cite{r2ploc2025}, MEAN \cite{mean2025}, DSTG \cite{dstg2025}, EAGLe \cite{eagle2025}, vector-map retrieval \cite{vectormap2025}, and maximal-clique-based large-scale localization \cite{rsloc820k2025}. Table~\ref{tab:baseline_groups} summarizes the intended comparison scope.
 
@@ -268,69 +268,66 @@ For style robustness, the paper should additionally report:
 \end{equation}
 where lower $\Delta R@1$ indicates stronger robustness. A cross-style generalization score can also be reported by averaging Recall@1 over all held-out style subsets. For fine localization, the median geographic error and the percentage of queries within a fixed meter threshold should be included when coordinate annotations are available.
 
-\subsection{Initial Runnable Prototype Results}
-To verify that the proposed content/style text branch is not only conceptual, we implemented a first runnable PyTorch prototype and conducted a small-scale SUES-200 experiment on the local workstation. The experiment uses 32 training locations and 16 held-out evaluation locations, one UAV image and one satellite reference per location, image size $128\times128$, a randomly initialized ResNet-18 visual encoder, separate content/style text encoders, and a batch-wise symmetric contrastive loss with a small content-style decorrelation term. The split and prompt cache are generated by the released training scripts.
+\subsection{Real-Data Checkpoint Evaluation}
+To replace the earlier synthetic-only prototype validation, we run a full-query retrieval evaluation on the local University-1652 and SUES-200 datasets. The experiment uses the available trained local checkpoint as the real-image feature extractor and evaluates every query in each selected split. Therefore, these numbers should be interpreted as a real-data diagnostic checkpoint for the current workspace, not as a published-method comparison or the final LGM-GAME public benchmark result. The complete LGM-GAME submission should still add method-specific training, ablations, competing baselines, and repeated-run statistics.
 
-Table~\ref{tab:first_results} reports the first local result. The metadata prompt baseline uses fixed dataset-level text cues, while the CLIP prompt variant uses real image-text scoring to select content and style labels for each UAV-satellite pair. Although this is not a final benchmark-scale experiment, it confirms that image-conditioned content/style text cues can be connected to the visual matching head and can change retrieval behavior in a measurable way.
+\input{tables/real_retrieval_table.tex}
 
-\begin{table*}[t]
+\begin{figure*}[!t]
 \centering
-\caption{First runnable SUES-200 prototype result. This is a small local sanity-check experiment, not a final SOTA comparison.}
-\label{tab:first_results}
-\begin{tabular}{lcccc}
-\toprule
-Prompt source & Train pairs & Eval pairs & R@1 & R@5 / R@10 \\
-\midrule
-Metadata content/style prompts & 32 & 16 & 0.2500 & 0.8125 / 1.0000 \\
-CLIP content/style prompts & 32 & 16 & 0.8125 & 1.0000 / 1.0000 \\
-\bottomrule
-\end{tabular}
-\end{table*}
-
-For the CLIP prompt run, the first cached content description is ``building, stable layout, parking, dense layout, vegetation, water,'' and the corresponding style description includes ``low altitude, low contrast, UAV oblique view, satellite nadir view, viewpoint gap, high altitude.'' These prompts are generated from the actual image pair rather than assigned only from folder metadata. The result motivates the next experimental stage: replacing the small ResNet prototype with stronger pretrained visual encoders, scaling to full SUES-200 and University-1652, and evaluating cross-season, cross-illumination, and cross-style robustness.
-
-\begin{table*}[t]
+\begin{minipage}{0.49\textwidth}
 \centering
-\caption{Planned ablation study for LGM-GAME.}
-\label{tab:ablation}
-\begin{tabular}{lcccccccc}
-\toprule
-Variant & Visual & Geom. & Content Text & Style Text & Map & Sinkhorn & Clique & Robust Eval. \\
-\midrule
-Baseline global retrieval & \checkmark & -- & -- & -- & -- & -- & -- & \checkmark \\
-GAME-style sparse matching & \checkmark & \checkmark & -- & -- & -- & \checkmark & -- & \checkmark \\
-w/o content anchors & \checkmark & \checkmark & -- & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
-w/o style prompts & \checkmark & \checkmark & \checkmark & -- & \checkmark & \checkmark & \checkmark & \checkmark \\
-w/o vector map tokens & \checkmark & \checkmark & \checkmark & \checkmark & -- & \checkmark & \checkmark & \checkmark \\
-w/o Sinkhorn matching & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & -- & \checkmark & \checkmark \\
-w/o graph consistency & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & -- & \checkmark \\
-Full LGM-GAME & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
-\bottomrule
-\end{tabular}
-\end{table*}
+\includegraphics[width=\linewidth]{figures/real_retrieval_metrics.pdf}
+\end{minipage}\hfill
+\begin{minipage}{0.49\textwidth}
+\centering
+\includegraphics[width=\linewidth]{figures/real_cmc_curves.pdf}
+\end{minipage}
+\caption{Real-data retrieval results on local University-1652 and SUES-200 splits. Left: Recall@1, Recall@5, Recall@10, and mAP for each task. Right: CMC curves showing the retrieval hit rate as the rank threshold increases.}
+\label{fig:real_retrieval_results}
+\end{figure*}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/real_retrieval_examples.pdf}
+\caption{Qualitative top-5 retrieval examples from the real local datasets. Each row shows the query image followed by retrieved satellite candidates; green borders indicate correct class matches and red borders indicate mismatches.}
+\label{fig:real_retrieval_examples}
+\end{figure*}
+
+\subsection{Published Baselines and Executable Training}
+For external comparison, Table~\ref{tab:publication_baselines} reports published University-1652 results from public cross-view geo-localization methods, including LPN \cite{lpn2022} and CA-HRS \cite{cahrs2022}. These numbers are reported from the corresponding papers and are not produced by the local diagnostic checkpoint. We further train an executable LGM-GAME-lite alignment head on the full University-1652 training split. This head is trained on cached real-image features with cross-view class InfoNCE supervision and optional feature-style consistency. Because the local datasets do not yet include VLM captions or vector-map alignments, this experiment should be read as an available-data implementation of the content-alignment and graph-consistency parts of LGM-GAME. The full text-anchor and vector-map ablations should be rerun after those annotations are generated.
+
+\input{tables/publication_training_protocol_table.tex}
+\input{tables/publication_baseline_table.tex}
+
+\subsection{Ablation, Repeatability, and Efficiency}
+Table~\ref{tab:publication_ablation} reports the available-data ablation. The trained content head improves macro Recall@1 and mAP over the raw feature cosine baseline, while the style-invariant head is more conservative because no real weather or season labels are available for supervision. Table~\ref{tab:publication_repeated} reports three repeated training seeds, and Table~\ref{tab:publication_efficiency} summarizes the CPU ranking cost, feature memory, and extra parameter count.
+
+\input{tables/publication_ablation_table.tex}
+\input{tables/publication_repeated_stats_table.tex}
+\input{tables/publication_efficiency_table.tex}
+
+\begin{figure*}[!t]
+\centering
+\begin{minipage}{0.49\textwidth}
+\centering
+\includegraphics[width=\linewidth]{figures/publication_ablation_bars.pdf}
+\end{minipage}\hfill
+\begin{minipage}{0.49\textwidth}
+\centering
+\includegraphics[width=\linewidth]{figures/publication_robustness_groups.pdf}
+\end{minipage}
+\caption{Compact publication figures for the executable experiment suite. Left: macro ablation results on the six full-query retrieval tasks. Right: SUES-200 altitude grouping and feature-level stress robustness.}
+\label{fig:publication_ablation_robustness}
+\end{figure*}
 
 \subsection{Robustness Analysis}
-The robustness experiments should evaluate environmental changes, partial overlap, repetitive structures, low-texture regions, and large-scale candidate databases. EAGLe-style environmental perturbation \cite{eagle2025}, hashing-based fast retrieval \cite{hashing2025}, and multiview rendering-based zero-shot localization \cite{rendering2025} can be used as comparative inspiration. The most important experiment is not only whether the full model improves clean Recall@1, but whether it reduces the performance drop under style shifts. A recommended table should report clean, seasonal, weather, illumination, and sensor-style splits side by side.
+The robustness experiments should evaluate environmental changes, partial overlap, repetitive structures, low-texture regions, and large-scale candidate databases. In the current local data, SUES-200 provides real altitude groups, while explicit weather and season labels are unavailable. Therefore, Table~\ref{tab:publication_robustness} reports SUES-200 altitude groups and feature-level stress tests as an interim robustness analysis. The final journal submission should replace feature-level stress with image-level weather, illumination, season, and sensor-style splits when metadata or VLM-assisted labels are available.
 
-\begin{table*}[t]
-\centering
-\caption{Recommended robustness reporting format. Numbers are placeholders to be filled after experiments.}
-\label{tab:robustness}
-\begin{tabular}{lcccccc}
-\toprule
-Method & Clean R@1 & Season R@1 & Weather R@1 & Illum. R@1 & Sensor R@1 & Avg. drop \\
-\midrule
-Visual Transformer baseline & -- & -- & -- & -- & -- & -- \\
-VLGeo-style text retrieval & -- & -- & -- & -- & -- & -- \\
-EAGLe-style robust learning & -- & -- & -- & -- & -- & -- \\
-GAME-style geometric matching & -- & -- & -- & -- & -- & -- \\
-Full LGM-GAME & -- & -- & -- & -- & -- & -- \\
-\bottomrule
-\end{tabular}
-\end{table*}
+\input{tables/publication_robustness_table.tex}
 
 \subsection{Qualitative and Figure Design}
-Recent TGRS papers typically use more than quantitative tables; they show why the method works. Therefore, the final manuscript should include the following figures:
+Recent TGRS papers typically use more than quantitative tables; they show why the method works. Fig.~\ref{fig:real_retrieval_examples} provides real retrieval examples from the current local datasets. The final submission should further include the following compact visual evidence:
 \begin{itemize}
   \item \emph{Problem figure}: same location under different UAV/satellite viewpoints and seasons, highlighting style gap and repeated structures.
   \item \emph{Text decomposition figure}: VLM output split into content anchors and environment-style prompts.
@@ -338,18 +335,6 @@ Recent TGRS papers typically use more than quantitative tables; they show why th
   \item \emph{Robustness figure}: qualitative matches under summer/winter, sunny/cloudy, and shadow/no-shadow cases.
   \item \emph{Graph consistency figure}: candidate retrieval list before and after Sinkhorn-MaxClique filtering.
 \end{itemize}
-
-\begin{figure*}[t]
-\centering
-\fbox{\begin{minipage}[c][1.65in][c]{0.92\textwidth}
-\centering
-\textbf{Placeholder for TGRS-Style Robustness Visualization}\\[0.5em]
-Columns: query UAV, satellite candidate, VLM content anchors, style prompts, visual-only matches, proposed matches.\\
-Rows: clean, seasonal shift, illumination shift, repeated building structures.
-\end{minipage}}
-\caption{Recommended qualitative layout for showing why text-style and map-guided alignment improves robustness.}
-\label{fig:qualitative_plan}
-\end{figure*}
 
 \section{Discussion}
 The primary novelty of LGM-GAME is not merely adding more modalities. Its key design is to inject language and map cues into the local matching mechanism itself. This is different from pipelines that use language for retrieval only or maps for a separate post-processing stage. By writing geometry, semantics, and topology into the attention logits, the model can suppress locally similar but semantically or geographically inconsistent matches. The Sinkhorn-MaxClique stage further connects local correspondence confidence with candidate-level self-consistency, which is important for large-scale geo-localization.

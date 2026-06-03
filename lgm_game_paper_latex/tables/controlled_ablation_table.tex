@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\caption{Controlled prototype ablation study under style-shift splits. Values are synthetic pipeline-check results.}
+\label{tab:controlled_ablation}
+\begin{tabular}{lcccc}
+\toprule
+Variant & R@1 & R@5 & Match precision & Match coverage \\
+\midrule
+Full & 74.0 & 100.0 & 99.8 & 95.0 \\
+w/o Text & 69.5 & 100.0 & 99.7 & 94.3 \\
+w/o Style Penalty & 56.0 & 100.0 & 99.8 & 95.0 \\
+w/o Map & 73.0 & 100.0 & 98.6 & 88.8 \\
+w/o Sinkhorn & 34.5 & 100.0 & 99.9 & 95.9 \\
+w/o Graph & 2.5 & 100.0 & 95.0 & 100.0 \\
+\bottomrule
+\end{tabular}
+\end{table*}

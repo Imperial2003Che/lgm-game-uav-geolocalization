@@ -1,0 +1,15 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Efficiency profile on CPU using cached features. Similarity FLOPs are counted for all six full-query ranking tasks.}
+\label{tab:publication_efficiency}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Backbone params & Extra params & Rank GFLOPs & Feat. mem. & Time/task \\
+\midrule
+Feature cosine & 9.07M & 0.000M & 11.07 & 37.8 MB & 0.82s \\
+CSLS & 9.07M & 0.000M & 11.07 & 37.8 MB & 0.82s \\
+LGM-lite & 9.07M & 0.017M & 11.07 & 37.8 MB & 1.18s \\
+\bottomrule
+\end{tabular}
+\end{table*}

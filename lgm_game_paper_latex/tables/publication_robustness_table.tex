@@ -1,0 +1,20 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Robustness grouping on SUES-200 altitude splits and feature-level stress tests. Feature stress is used only because weather/season labels are unavailable in the local datasets.}
+\label{tab:publication_robustness}
+\begin{tabular}{lrrrrr}
+\toprule
+Group & Queries & Feature base R@1 & Feature base R@5 & LGM-lite R@1 & LGM-lite R@5 \\
+\midrule
+SUES 150m & 10000 & 2.69 & 10.42 & 3.06 & 12.36 \\
+SUES 200m & 10000 & 3.63 & 12.58 & 4.15 & 14.96 \\
+SUES 250m & 10000 & 4.26 & 14.06 & 4.75 & 14.93 \\
+SUES 300m & 10000 & 4.96 & 14.25 & 5.10 & 15.84 \\
+Feature noise & 40000 & 3.89 & 12.53 & 3.79 & 13.34 \\
+Feature dropout & 40000 & 3.17 & 11.48 & 3.24 & 11.86 \\
+Feature scale & 40000 & 3.89 & 12.83 & 4.14 & 14.19 \\
+Feature mixed & 40000 & 3.25 & 11.52 & 3.28 & 12.00 \\
+\bottomrule
+\end{tabular}
+\end{table*}

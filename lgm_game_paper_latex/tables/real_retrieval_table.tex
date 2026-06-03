@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+\centering
+\caption{Real-data retrieval evaluation using the available local feature checkpoint on University-1652 and SUES-200 datasets.}
+\label{tab:real_retrieval}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Task & Queries & Gallery & R@1 & R@5 & R@10 & mAP & MRR \\
+\midrule
+U-1652 D$\rightarrow$S & 37855 & 951 & 2.02 & 6.07 & 9.36 & 4.86 & 4.86 \\
+U-1652 S$\rightarrow$D & 701 & 51355 & 5.71 & 15.12 & 19.69 & 1.47 & 10.78 \\
+U-1652 St$\rightarrow$S & 2579 & 951 & 0.12 & 0.58 & 1.12 & 0.79 & 0.79 \\
+SUES UAV$\rightarrow$S & 40000 & 200 & 3.89 & 12.83 & 20.24 & 9.98 & 9.98 \\
+SUES 150m$\rightarrow$S & 10000 & 200 & 2.69 & 10.42 & 17.74 & 8.28 & 8.28 \\
+SUES 300m$\rightarrow$S & 10000 & 200 & 4.96 & 14.25 & 21.69 & 11.16 & 11.16 \\
+\bottomrule
+\end{tabular}
+\end{table*}

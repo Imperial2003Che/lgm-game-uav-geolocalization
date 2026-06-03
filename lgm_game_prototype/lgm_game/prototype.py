@@ -220,8 +220,40 @@ class LGMGamePrototype:
     def _make_feature(self, rng: random.Random, label: str) -> tuple[float, ...]:
         base = [rng.uniform(-0.5, 0.5) for _ in range(self.config.feature_dim)]
         if label:
-            label_rng = random.Random(self._seed(label))
-            base = [value + label_rng.uniform(-0.8, 0.8) for value in base]
+            lower = label.lower()
+            content_terms = [
+                "road intersection",
+                "building",
+                "road",
+                "vegetation",
+                "field",
+                "water",
+                "parking",
+            ]
+            style_terms = [
+                "snow",
+                "winter",
+                "summer",
+                "shadow",
+                "night",
+                "haze",
+                "rain",
+                "blur",
+                "color",
+                "occluded",
+            ]
+            content_hits = [term for term in content_terms if term in lower]
+            style_hits = [term for term in style_terms if term in lower]
+
+            for term in content_hits:
+                label_rng = random.Random(self._seed(f"content:{term}"))
+                base = [value + label_rng.uniform(-0.9, 0.9) for value in base]
+            for term in style_hits:
+                style_rng = random.Random(self._seed(f"style:{term}"))
+                base = [value + style_rng.uniform(-0.25, 0.25) for value in base]
+            if not content_hits and not style_hits:
+                label_rng = random.Random(self._seed(label))
+                base = [value + label_rng.uniform(-0.5, 0.5) for value in base]
         norm = math.sqrt(sum(value * value for value in base)) or 1.0
         return tuple(value / norm for value in base)
 
@@ -263,10 +295,10 @@ class LGMGamePrototype:
             style_key = prompt.name.split("_")[0]
             q_hit = style_key in query.label_hint
             r_hit = style_key in ref.label_hint
-            if q_hit != r_hit:
+            if q_hit and r_hit:
                 penalty += 0.35 * prompt.weight
-            elif q_hit and r_hit:
-                penalty += 0.15 * prompt.weight
+            elif q_hit != r_hit:
+                penalty += 0.05 * prompt.weight
         return penalty / max(len(style_prompts), 1)
 
     @staticmethod
@@ -283,7 +315,15 @@ class LGMGamePrototype:
         for token in map_tokens:
             distance = math.sqrt((midpoint_x - token.x) ** 2 + (midpoint_y - token.y) ** 2)
             spatial = 1.0 - min(distance, 1.0)
-            best = max(best, spatial * token.confidence)
+            q_hit = token.category in query.label_hint
+            r_hit = token.category in ref.label_hint
+            if q_hit and r_hit:
+                compatibility = 1.0
+            elif q_hit or r_hit:
+                compatibility = 0.45
+            else:
+                compatibility = 0.15
+            best = max(best, spatial * token.confidence * compatibility)
         return best
 
     @staticmethod

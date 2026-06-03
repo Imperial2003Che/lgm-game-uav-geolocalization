@@ -31,6 +31,10 @@ lgm_game_pytorch/prompt_cache/
 __pycache__/
 *.py[cod]
 
+# Reproducible experiment caches and local lightweight checkpoints.
+lgm_game_prototype/results/real_imtmn/feature_cache/
+lgm_game_prototype/results/publication_suite/models/
+
 # Local TeX/GitHub install scratch dirs should stay outside the repo, but keep
 # this defensive ignore in case a future command writes them here.
 .local/

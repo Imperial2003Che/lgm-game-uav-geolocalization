@@ -1,0 +1,8 @@
+Variant,R@1,R@5,mAP,R@1_mean,mAP_mean
+Feature baseline,3.23,9.88,6.09,3.2293,6.0894
++ domain centering,2.82,9.43,6.59,2.8183,6.5934
++ CSLS,4.03,10.69,6.57,4.0325,6.5715
++ graph consistency,3.30,9.92,6.12,3.3048,6.1247
++ trained content head,4.11$\pm$0.24,12.24$\pm$0.32,7.53$\pm$0.20,4.1111,7.5261
++ style-invariant head,3.64$\pm$0.15,11.11$\pm$0.14,7.10$\pm$0.03,3.6354,7.1035
+Full available model,3.64$\pm$0.16,11.11$\pm$0.14,7.11$\pm$0.04,3.6381,7.1059

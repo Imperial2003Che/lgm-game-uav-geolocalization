@@ -1,0 +1,18 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Executable training protocol used for the current local LGM-GAME-lite experiments.}
+\label{tab:training_protocol}
+\begin{tabular}{lp{0.66\textwidth}}
+\toprule
+Item & Setting \\
+\midrule
+Training split & University-1652 train drone/satellite \\
+Trainable module & LGM-GAME-lite content alignment head \\
+Seeds & 1, 2, 3 \\
+Epochs per seed & 40 \\
+Classes / UAV / satellite & 701 / 37854 / 701 \\
+Supervision & Cross-view class InfoNCE + optional feature-style consistency \\
+\bottomrule
+\end{tabular}
+\end{table*}
