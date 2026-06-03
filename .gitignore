@@ -2,6 +2,7 @@
 
 # Local analysis caches containing extracted paper text.
 .codex_analysis/
+.codex_reference/
 
 # LaTeX generated files.
 *.aux
@@ -21,6 +22,9 @@ output/
 outputs/
 assets/
 scripts/
+lgm_game_pytorch/runs/
+*.pt
+*.pth
 
 # Python cache.
 __pycache__/
