@@ -40,7 +40,15 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--seed", type=int, default=7)
     parser.add_argument("--device", type=str, default="auto")
     parser.add_argument("--log-interval", type=int, default=10)
-    parser.add_argument("--use-class-token", action="store_true", help="Add place_<id> pseudo content tokens for ablation only.")
+    parser.add_argument("--use-class-token", action="store_true", help="Add place_<id> class identity tokens for ablation only.")
+    parser.add_argument("--prompt-backend", choices=["vlgeo", "blip", "clip", "blip_clip", "llava", "cache", "metadata"], default="vlgeo")
+    parser.add_argument("--prompt-cache", type=str, default="", help="JSONL cache for generated VLM prompts.")
+    parser.add_argument("--caption-model", type=str, default="Salesforce/blip-image-captioning-base")
+    parser.add_argument("--clip-model", type=str, default="openai/clip-vit-base-patch32")
+    parser.add_argument("--llava-model", type=str, default="llava")
+    parser.add_argument("--llava-endpoint", type=str, default="http://localhost:11434/api/generate")
+    parser.add_argument("--prompt-device", type=str, default="auto")
+    parser.add_argument("--allow-prompt-fallback", action="store_true", help="Fall back to metadata prompts if a VLM backend fails.")
     parser.add_argument("--no-eval", action="store_true")
     return parser.parse_args()
 
@@ -51,6 +59,7 @@ def main() -> None:
     device = choose_device(args.device)
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    prompt_cache = args.prompt_cache or str(output_dir / f"{args.dataset}_{args.prompt_backend}_prompts.jsonl")
 
     vocab = PromptVocabulary.default()
     train_set = CrossViewPairDataset(
@@ -63,6 +72,14 @@ def main() -> None:
         seed=args.seed,
         vocab=vocab,
         use_class_token=args.use_class_token,
+        prompt_backend=args.prompt_backend,
+        prompt_cache=prompt_cache,
+        caption_model=args.caption_model,
+        clip_model=args.clip_model,
+        llava_model=args.llava_model,
+        llava_endpoint=args.llava_endpoint,
+        prompt_device=args.prompt_device,
+        allow_prompt_fallback=args.allow_prompt_fallback,
     )
     train_loader = DataLoader(
         train_set,
@@ -85,6 +102,14 @@ def main() -> None:
             seed=args.seed,
             vocab=vocab,
             use_class_token=args.use_class_token,
+            prompt_backend=args.prompt_backend,
+            prompt_cache=prompt_cache,
+            caption_model=args.caption_model,
+            clip_model=args.clip_model,
+            llava_model=args.llava_model,
+            llava_endpoint=args.llava_endpoint,
+            prompt_device=args.prompt_device,
+            allow_prompt_fallback=args.allow_prompt_fallback,
         )
         eval_loader = DataLoader(
             eval_set,
@@ -108,13 +133,17 @@ def main() -> None:
     run_info = {
         "args": vars(args),
         "device": str(device),
+        "prompt_cache": prompt_cache,
         "vocab_size": len(vocab),
         "train": summarize_records(train_set.records),
         "eval": summarize_records(eval_set.records) if eval_set is not None else None,
     }
     save_json(output_dir / "run_config.json", run_info)
     print(f"[config] device={device} train_pairs={len(train_set)} eval_pairs={len(eval_set) if eval_set else 0}")
+    print(f"[config] prompt_backend={args.prompt_backend} prompt_cache={prompt_cache}")
     print(f"[config] first_query={run_info['train']['first_query']}")
+    print(f"[config] first_content={run_info['train']['first_content_text']}")
+    print(f"[config] first_style={run_info['train']['first_style_text']}")
 
     history: list[dict] = []
     start = time()

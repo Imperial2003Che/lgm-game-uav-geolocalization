@@ -10,7 +10,7 @@ import torch
 from torch.utils.data import Dataset
 from torchvision import transforms
 
-from .text_prompts import PromptVocabulary, class_tokens_for, content_tokens_for, style_tokens_for
+from .text_prompts import PromptProvider, PromptVocabulary, class_tokens_for
 
 
 IMG_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff"}
@@ -22,8 +22,11 @@ class PairRecord:
     label: int
     query_path: Path
     ref_path: Path
+    content_text: str
+    style_text: str
     content_tokens: list[str]
     style_tokens: list[str]
+    prompt_backend: str
 
 
 class CrossViewPairDataset(Dataset):
@@ -40,6 +43,15 @@ class CrossViewPairDataset(Dataset):
         seed: int = 7,
         vocab: PromptVocabulary | None = None,
         use_class_token: bool = False,
+        prompt_backend: str = "vlgeo",
+        prompt_cache: str | Path | None = None,
+        caption_model: str = "Salesforce/blip-image-captioning-base",
+        clip_model: str = "openai/clip-vit-base-patch32",
+        llava_model: str = "llava",
+        llava_endpoint: str = "http://localhost:11434/api/generate",
+        prompt_device: str = "auto",
+        allow_prompt_fallback: bool = False,
+        freeze_vocab: bool = False,
         content_max_len: int = 10,
         style_max_len: int = 10,
     ) -> None:
@@ -50,6 +62,16 @@ class CrossViewPairDataset(Dataset):
         self.content_max_len = content_max_len
         self.style_max_len = style_max_len
         self.use_class_token = use_class_token
+        prompt_provider = PromptProvider(
+            backend=prompt_backend,
+            cache_path=prompt_cache,
+            caption_model=caption_model,
+            clip_model=clip_model,
+            llava_model=llava_model,
+            llava_endpoint=llava_endpoint,
+            device=prompt_device,
+            allow_fallback=allow_prompt_fallback,
+        )
         self.records = build_pair_records(
             root=self.root,
             dataset_name=self.dataset_name,
@@ -58,12 +80,16 @@ class CrossViewPairDataset(Dataset):
             samples_per_class=samples_per_class,
             seed=seed,
             use_class_token=use_class_token,
+            prompt_provider=prompt_provider,
         )
         if not self.records:
             raise RuntimeError(f"No image pairs found for {self.dataset_name} at {self.root} split={split}.")
 
         self.vocab = vocab or PromptVocabulary.default()
-        if use_class_token:
+        if not freeze_vocab:
+            for record in self.records:
+                self.vocab.add_tokens(record.content_tokens + record.style_tokens)
+        if use_class_token and not freeze_vocab:
             self.vocab.add_tokens(class_tokens_for(sorted({record.class_id for record in self.records})))
 
         self.transform = build_transform(image_size=image_size, train=split == "train")
@@ -84,6 +110,9 @@ class CrossViewPairDataset(Dataset):
             "class_id": record.class_id,
             "query_path": str(record.query_path),
             "ref_path": str(record.ref_path),
+            "content_text": record.content_text,
+            "style_text": record.style_text,
+            "prompt_backend": record.prompt_backend,
             "content_ids": content.ids,
             "content_mask": content.mask,
             "style_ids": style.ids,
@@ -119,6 +148,7 @@ def build_pair_records(
     samples_per_class: int,
     seed: int,
     use_class_token: bool,
+    prompt_provider: PromptProvider,
 ) -> list[PairRecord]:
     dataset_name = _normalize_dataset_name(dataset_name)
     if dataset_name == "sues200":
@@ -148,14 +178,24 @@ def build_pair_records(
             chosen_queries = query_paths
         for idx, query_path in enumerate(chosen_queries):
             ref_path = ref_paths[idx % len(ref_paths)]
+            prompt = prompt_provider.describe_pair(
+                dataset_name=dataset_name,
+                class_id=class_id,
+                query_path=query_path,
+                ref_path=ref_path,
+                use_class_token=use_class_token,
+            )
             records.append(
                 PairRecord(
                     class_id=class_id,
                     label=label,
                     query_path=query_path,
                     ref_path=ref_path,
-                    content_tokens=content_tokens_for(class_id, use_class_token=use_class_token),
-                    style_tokens=style_tokens_for(dataset_name, query_path, ref_path),
+                    content_text=prompt.content_text,
+                    style_text=prompt.style_text,
+                    content_tokens=prompt.content_tokens,
+                    style_tokens=prompt.style_tokens,
+                    prompt_backend=prompt.backend,
                 )
             )
     return records
@@ -169,6 +209,9 @@ def summarize_records(records: list[PairRecord]) -> dict:
         "first_classes": class_ids[:8],
         "first_query": str(records[0].query_path) if records else "",
         "first_reference": str(records[0].ref_path) if records else "",
+        "first_content_text": records[0].content_text if records else "",
+        "first_style_text": records[0].style_text if records else "",
+        "prompt_backends": sorted({record.prompt_backend for record in records}),
     }
 
 

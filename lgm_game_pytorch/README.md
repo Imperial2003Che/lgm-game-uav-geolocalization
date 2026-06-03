@@ -3,8 +3,8 @@
 这是把原来的纯 Python prototype 升级成的第一版可训练 PyTorch 工程。当前目标不是直接冲 SOTA，而是先把论文里的核心创新落成能跑的实验管线：
 
 1. `visual encoder`: ResNet18/ResNet50 提取 UAV/drone 与 satellite 图像特征。
-2. `content text encoder`: 编码稳定地物语义 token，例如 campus、building、road、vegetation、stable_layout。
-3. `style text encoder`: 编码干扰风格 token，例如 UAV/satellite、height_150/200/250/300、viewpoint_gap、sensor_gap。
+2. `content text encoder`: 编码由 VLGeo/BLIP/CLIP/LLaVA 生成的稳定地物语义描述。
+3. `style text encoder`: 编码由 VLM 生成或打分得到的视角、传感器、高度、光照、季节等风格描述。
 4. `matching head`: 用 content token 增强跨视角共享语义，同时从视觉 embedding 中抑制 style 投影，最后做 batch 内对比匹配。
 5. `training/evaluation`: 支持 SUES-200 和 University-1652 的第一组可跑实验。
 
@@ -16,9 +16,12 @@ lgm_game_pytorch/
   commands/
     train_sues_smoke.sh
     train_university_smoke.sh
+    generate_sues_vlgeo_prompts.sh
+    train_sues_vlgeo_smoke.sh
   lgm_game_pytorch/
     data.py
     evaluate.py
+    build_prompts.py
     losses.py
     metrics.py
     model.py
@@ -34,13 +37,43 @@ lgm_game_pytorch/
 /Users/chenche/Documents/dataset/University-1652
 ```
 
-SUES-200 使用 `drone_view_512/<id>/<height>` 与 `satellite-view/<id>`。其中 `<height>` 会自动转成 style token，例如 `height_150`。
+SUES-200 使用 `drone_view_512/<id>/<height>` 与 `satellite-view/<id>`。其中 `<height>` 会作为 style cue 进入 VLM style description，例如 `height_150`。
 
 University-1652 使用官方 `train/drone`、`train/satellite`，测试时使用 `test/query_drone` 与 `test/gallery_satellite`。
 
-## 快速 smoke test
+## 真实 VLM Prompt
 
-在仓库根目录运行：
+`text_prompts.py` 已经从固定 token 替换为 VLM prompt provider。现在支持：
+
+- `vlgeo`: BLIP caption + CLIP content/style label scoring，输出 VLGeo-style content/style 描述。
+- `blip`: BLIP 生成 UAV/satellite caption，再转成 content/style prompt。
+- `clip`: CLIP 对候选内容/风格标签打分，输出 top labels。
+- `llava`: 调用本地 Ollama/LLaVA 接口生成描述。
+- `cache`: 只读取已生成的 JSONL prompt cache。
+- `metadata`: 仅作为快速调试 fallback。
+
+先生成 SUES-200 的 VLM prompt cache：
+
+```bash
+cd /Users/chenche/Documents/New\ project
+bash lgm_game_pytorch/commands/generate_sues_vlgeo_prompts.sh
+```
+
+缓存位置：
+
+```text
+/Users/chenche/Documents/New project/lgm_game_pytorch/prompt_cache/
+```
+
+用真实 VLM prompt 做一次小训练：
+
+```bash
+bash lgm_game_pytorch/commands/train_sues_vlgeo_smoke.sh
+```
+
+## 快速训练链路 Smoke Test
+
+这个命令用 `metadata` prompt，只用于验证数据读取、forward/backward、checkpoint 和 eval 链路：
 
 ```bash
 cd /Users/chenche/Documents/New\ project
@@ -60,6 +93,8 @@ PYTHONPATH=lgm_game_pytorch python3 -m lgm_game_pytorch.train \
   --max-classes 32 \
   --eval-max-classes 16 \
   --max-steps 10 \
+  --prompt-backend vlgeo \
+  --prompt-cache lgm_game_pytorch/prompt_cache/sues200_vlgeo_train.jsonl \
   --num-workers 0
 ```
 
@@ -90,6 +125,8 @@ PYTHONPATH=lgm_game_pytorch python3 -m lgm_game_pytorch.train \
   --max-classes 160 \
   --eval-max-classes 40 \
   --samples-per-class 1 \
+  --prompt-backend vlgeo \
+  --prompt-cache lgm_game_pytorch/prompt_cache/sues200_vlgeo_train.jsonl \
   --num-workers 0
 ```
 
@@ -106,9 +143,11 @@ PYTHONPATH=lgm_game_pytorch python3 -m lgm_game_pytorch.train \
   --max-classes 500 \
   --eval-max-classes 200 \
   --samples-per-class 1 \
+  --prompt-backend vlgeo \
+  --prompt-cache lgm_game_pytorch/prompt_cache/university1652_vlgeo_train.jsonl \
   --num-workers 0
 ```
 
 ## 注意
 
-当前文本 token 是从数据集元信息自动生成的 pseudo prompt，不等于真正 VLM caption。这样做的作用是先把多模态训练接口跑通。后续论文升级时，可以把 `text_prompts.py` 替换为 BLIP/CLIP/LLaVA/VLGeo 风格的真实内容描述与风格描述，然后保留训练主干不变。
+第一次运行 `vlgeo` / `blip` / `clip` backend 时，`transformers` 会下载对应 Hugging Face 模型。后续会读取 JSONL cache，不需要重复生成。

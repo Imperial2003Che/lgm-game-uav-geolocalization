@@ -50,7 +50,7 @@ The trainable PyTorch engineering version is in:
 lgm_game_pytorch/
 ```
 
-It implements content/style text encoders, a ResNet visual encoder, a style-suppressed matching head, SUES-200 / University-1652 dataset loaders, training, checkpointing, and retrieval evaluation.
+It implements VLM-generated content/style text prompts, content/style text encoders, a ResNet visual encoder, a style-suppressed matching head, SUES-200 / University-1652 dataset loaders, training, checkpointing, and retrieval evaluation.
 
 Quick SUES-200 smoke test:
 
@@ -71,6 +71,8 @@ PYTHONPATH=lgm_game_pytorch python3 -m lgm_game_pytorch.train \
   --max-classes 32 \
   --eval-max-classes 16 \
   --max-steps 10 \
+  --prompt-backend vlgeo \
+  --prompt-cache lgm_game_pytorch/prompt_cache/sues200_vlgeo_train.jsonl \
   --num-workers 0
 ```
 
@@ -98,6 +100,6 @@ lgm_game_paper_latex/main.pdf
 ## Notes
 
 - The original `lgm_game_prototype/` remains a lightweight logic demo.
-- The trainable PyTorch code is in `lgm_game_pytorch/`.
+- The trainable PyTorch code is in `lgm_game_pytorch/`; VLM prompt generation is in `lgm_game_pytorch/lgm_game_pytorch/text_prompts.py`.
 - Bibliographic entries in `refs.bib` are preliminary and should be replaced with official metadata before submission.
 - The local `.codex_analysis/` cache is intentionally excluded because it contains extracted text from local papers.

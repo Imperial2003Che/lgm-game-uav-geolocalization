@@ -23,6 +23,7 @@ outputs/
 assets/
 scripts/
 lgm_game_pytorch/runs/
+lgm_game_pytorch/prompt_cache/
 *.pt
 *.pth
 

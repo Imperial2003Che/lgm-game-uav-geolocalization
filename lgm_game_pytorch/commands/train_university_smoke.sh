@@ -13,5 +13,6 @@ PYTHONPATH=lgm_game_pytorch python3 -m lgm_game_pytorch.train \
   --max-classes 8 \
   --eval-max-classes 8 \
   --max-steps 2 \
+  --prompt-backend metadata \
   --num-workers 0 \
   --device cpu
