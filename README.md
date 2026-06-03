@@ -2,13 +2,14 @@
 
 This repository contains an early research prototype and IEEE-style manuscript draft for:
 
-**LGM-GAME: Language- and Vector-Map-Guided Geometric Sparse Transformer for UAV-View Geo-Localization**
+**LGM-GAME: Text-Style and Vector-Map Guided Geometric Alignment for Robust UAV-View Geo-Localization**
 
 The project is built around a new paper idea that extends geometric-aware sparse Transformer matching with:
 
 - vision-language semantic anchors,
+- text-derived style prompts for weather, season, illumination, and sensor style,
 - vector-map topology tokens,
-- geometric sparse cross-view attention,
+- text-style-map guided geometric sparse cross-view attention,
 - Sinkhorn optimal transport matching with a dustbin mechanism,
 - graph-consistency filtering inspired by maximal clique optimization.
 
@@ -63,4 +64,3 @@ lgm_game_paper_latex/main.pdf
 - This is a research planning draft, not a complete trainable model.
 - Bibliographic entries in `refs.bib` are preliminary and should be replaced with official metadata before submission.
 - The local `.codex_analysis/` cache is intentionally excluded because it contains extracted text from local papers.
-

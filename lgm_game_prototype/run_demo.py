@@ -8,6 +8,7 @@ def main() -> None:
         geometry_weight=0.35,
         semantic_weight=0.30,
         map_weight=0.25,
+        style_penalty_weight=0.20,
         clique_threshold=0.25,
     )
     model = LGMGamePrototype(config)
@@ -36,9 +37,11 @@ def main() -> None:
 
     description = (
         "The scene contains several buildings, a road intersection, "
-        "a sports field, vegetation blocks, parking area, and water boundary."
+        "a sports field, vegetation blocks, parking area, and water boundary. "
+        "The UAV image has strong shadow and summer vegetation style."
     )
     anchors = model.build_semantic_anchors(description)
+    style_prompts = model.build_style_prompts(description)
     map_tokens = model.build_map_tokens(
         [
             {"id": "m_road_1", "category": "road", "x": 0.66, "y": 0.33, "confidence": 0.95},
@@ -48,13 +51,19 @@ def main() -> None:
         ]
     )
 
-    edges = model.topk_sparse_attention(uav_tokens, satellite_tokens, anchors, map_tokens)
+    edges = model.topk_sparse_attention(
+        uav_tokens, satellite_tokens, anchors, style_prompts, map_tokens
+    )
     matches = model.sinkhorn_match(uav_tokens, satellite_tokens, edges)
     final_matches = model.greedy_consistency_clique(matches)
 
     print("=== Semantic Anchors ===")
     for anchor in anchors:
         print(f"{anchor.name:20s} weight={anchor.weight:.2f}")
+
+    print("\n=== Style Prompts ===")
+    for prompt in style_prompts:
+        print(f"{prompt.name:20s} weight={prompt.weight:.2f}")
 
     print("\n=== Top Sparse Attention Edges (first 12) ===")
     for edge in edges[:12]:
@@ -71,4 +80,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

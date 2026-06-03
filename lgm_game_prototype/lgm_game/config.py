@@ -14,5 +14,5 @@ class LGMGameConfig:
     geometry_weight: float = 0.35
     semantic_weight: float = 0.25
     map_weight: float = 0.25
+    style_penalty_weight: float = 0.20
     clique_threshold: float = 0.48
-

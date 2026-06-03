@@ -8,10 +8,11 @@
 
 1. UAV / satellite visual tokens
 2. VLM semantic anchors
-3. vector map topology tokens
-4. language-map-geometry guided sparse attention
-5. Sinkhorn + dustbin matching
-6. greedy clique-style consistency selection
+3. VLM style prompts for season, weather, illumination, and sensor style
+4. vector map topology tokens
+5. text-style-map-geometry guided sparse attention
+6. Sinkhorn + dustbin matching
+7. greedy clique-style consistency selection
 
 ## 文件结构
 
@@ -42,8 +43,8 @@ python3 run_demo.py
 
 - 把 `prototype.py` 中的 `encode_visual_tokens` 替换为 ResNet/FPN/ViT 特征提取。
 - 把 `build_semantic_anchors` 替换为真实 VLM prompt 生成与文本编码。
+- 把 `build_style_prompts` 替换为真实风格/季节/天气文本标签，并作为风格不变学习监督。
 - 把 `build_map_tokens` 接入 OSM / shapefile / vector tile。
-- 把 `language_map_geometry_score` 换成 PyTorch attention logits。
+- 把 `language_map_geometry_score` 换成 PyTorch attention logits：奖励稳定地物语义和地图拓扑一致性，同时惩罚风格依赖。
 - 把 `sinkhorn_match` 改成可微最优传输匹配头。
 - 把 `greedy_consistency_clique` 替换为 maximal clique 或图优化模块。
-

@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from typing import Iterable
 
 from .config import LGMGameConfig
-from .tokens import MapToken, SemanticAnchor, VisualToken
+from .tokens import MapToken, SemanticAnchor, StylePrompt, VisualToken
 
 
 @dataclass(frozen=True)
@@ -78,6 +78,30 @@ class LGMGamePrototype:
                 anchors[name] = SemanticAnchor(name=name, weight=weight)
         return list(anchors.values())
 
+    def build_style_prompts(self, description: str) -> list[StylePrompt]:
+        """Extract nuisance style prompts from text.
+
+        In the full paper idea, these prompts supervise style-invariant content
+        features. Here they become a simple penalty against style-only matches.
+        """
+        keywords = {
+            "snow": ("snow_cover", 1.2),
+            "winter": ("winter_leafless", 1.0),
+            "summer": ("summer_vegetation", 0.8),
+            "shadow": ("strong_shadow", 1.0),
+            "night": ("low_illumination", 1.1),
+            "haze": ("haze_low_contrast", 0.9),
+            "rain": ("rain_degradation", 0.9),
+            "blur": ("sensor_blur", 0.8),
+            "color": ("color_tone_shift", 0.7),
+        }
+        prompts: dict[str, StylePrompt] = {}
+        lower = description.lower()
+        for key, (name, weight) in keywords.items():
+            if key in lower:
+                prompts[name] = StylePrompt(name=name, weight=weight)
+        return list(prompts.values())
+
     def build_map_tokens(self, raw_features: Iterable[dict]) -> list[MapToken]:
         """Convert simplified vector-map features into topology tokens."""
         tokens: list[MapToken] = []
@@ -99,6 +123,7 @@ class LGMGamePrototype:
         query_tokens: list[VisualToken],
         ref_tokens: list[VisualToken],
         anchors: list[SemanticAnchor],
+        style_prompts: list[StylePrompt],
         map_tokens: list[MapToken],
     ) -> list[AttentionEdge]:
         """Keep only top-k reference tokens for each query token."""
@@ -108,7 +133,9 @@ class LGMGamePrototype:
                 AttentionEdge(
                     query_id=query.token_id,
                     ref_id=ref.token_id,
-                    score=self.language_map_geometry_score(query, ref, anchors, map_tokens),
+                    score=self.language_map_geometry_score(
+                        query, ref, anchors, style_prompts, map_tokens
+                    ),
                 )
                 for ref in ref_tokens
             ]
@@ -121,18 +148,21 @@ class LGMGamePrototype:
         query: VisualToken,
         ref: VisualToken,
         anchors: list[SemanticAnchor],
+        style_prompts: list[StylePrompt],
         map_tokens: list[MapToken],
     ) -> float:
-        """Simulated attention logit with feature, geometry, semantic, and map terms."""
+        """Simulated attention logit with content reward and style penalty."""
         appearance = self._cosine(query.feature, ref.feature)
         geometry = self._geometry_bias(query, ref)
         semantic = self._semantic_bias(query, ref, anchors)
         map_bias = self._map_bias(query, ref, map_tokens)
+        style_penalty = self._style_penalty(query, ref, style_prompts)
         return (
             appearance
             + self.config.geometry_weight * geometry
             + self.config.semantic_weight * semantic
             + self.config.map_weight * map_bias
+            - self.config.style_penalty_weight * style_penalty
         )
 
     def sinkhorn_match(
@@ -221,6 +251,25 @@ class LGMGamePrototype:
         return score / max(len(anchors), 1)
 
     @staticmethod
+    def _style_penalty(
+        query: VisualToken,
+        ref: VisualToken,
+        style_prompts: list[StylePrompt],
+    ) -> float:
+        if not style_prompts:
+            return 0.0
+        penalty = 0.0
+        for prompt in style_prompts:
+            style_key = prompt.name.split("_")[0]
+            q_hit = style_key in query.label_hint
+            r_hit = style_key in ref.label_hint
+            if q_hit != r_hit:
+                penalty += 0.35 * prompt.weight
+            elif q_hit and r_hit:
+                penalty += 0.15 * prompt.weight
+        return penalty / max(len(style_prompts), 1)
+
+    @staticmethod
     def _map_bias(
         query: VisualToken,
         ref: VisualToken,
@@ -253,4 +302,3 @@ class LGMGamePrototype:
             total = sum(row[col] for row in matrix) or 1.0
             for row in matrix:
                 row[col] /= total
-

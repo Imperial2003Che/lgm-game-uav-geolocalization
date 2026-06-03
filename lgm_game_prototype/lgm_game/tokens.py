@@ -22,6 +22,14 @@ class SemanticAnchor:
 
 
 @dataclass(frozen=True)
+class StylePrompt:
+    """A VLM-derived nuisance style cue such as season, weather, or lighting."""
+
+    name: str
+    weight: float = 1.0
+
+
+@dataclass(frozen=True)
 class MapToken:
     """A simplified vector-map topology token."""
 
@@ -31,4 +39,3 @@ class MapToken:
     y: float
     orientation: float = 0.0
     confidence: float = 1.0
-
