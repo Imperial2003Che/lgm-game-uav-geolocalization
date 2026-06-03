@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.analysis.extraPaths": [
+      "./lgm_game"
+    ],
+    "python.defaultInterpreterPath": "python3"
+  }
+}
+

@@ -1,0 +1,54 @@
+{
+  "latex-workshop.latex.outDir": "%DIR%",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "local-latexmk",
+      "command": "/Users/chenche/.local/texlive/2026/bin/universal-darwin/latexmk",
+      "args": [
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-synctex=1",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "local-pdflatex",
+      "command": "/Users/chenche/.local/texlive/2026/bin/universal-darwin/pdflatex",
+      "args": [
+        "-interaction=nonstopmode",
+        "-synctex=1",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "local-bibtex",
+      "command": "/Users/chenche/.local/texlive/2026/bin/universal-darwin/bibtex",
+      "args": [
+        "%DOCFILE%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (local TeX Live)",
+      "tools": [
+        "local-latexmk"
+      ]
+    },
+    {
+      "name": "pdflatex -> bibtex -> pdflatex x2 (local TeX Live)",
+      "tools": [
+        "local-pdflatex",
+        "local-bibtex",
+        "local-pdflatex",
+        "local-pdflatex"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "latexmk (local TeX Live)",
+  "files.associations": {
+    "*.tex": "latex"
+  }
+}

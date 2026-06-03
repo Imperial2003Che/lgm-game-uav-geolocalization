@@ -1,0 +1,239 @@
+\newif\ifieeetran
+\IfFileExists{IEEEtran.cls}{%
+  \ieeetrantrue
+  \documentclass[journal]{IEEEtran}
+}{%
+  \ieeetranfalse
+  \documentclass[10pt,twocolumn]{article}
+}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{array}
+
+\ifieeetran
+\else
+  \usepackage[a4paper,margin=0.68in,columnsep=0.22in]{geometry}
+  \newenvironment{IEEEkeywords}{\par\noindent\textbf{Index Terms---}}{\par}
+  \providecommand{\IEEEPARstart}[2]{#1#2}
+  \providecommand{\markboth}[2]{}
+  \providecommand{\IEEEauthorrefmark}[1]{#1}
+\fi
+
+\title{LGM-GAME: Language- and Vector-Map-Guided Geometric Sparse Transformer for UAV-View Geo-Localization}
+
+\author{Chen~Che%
+\thanks{This manuscript is an initial LaTeX draft prepared for research planning. The bibliography contains preliminary entries and should be replaced with official metadata before submission.}}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Unmanned aerial vehicle (UAV)-view geo-localization aims to determine the geographic position of a UAV image by matching it with geo-referenced satellite images or maps. Existing cross-view geo-localization methods have achieved substantial progress by learning viewpoint-invariant global descriptors, semantic alignment, or local geometric correspondences. However, most methods still rely primarily on image-to-image similarity, which is vulnerable to extreme viewpoint changes, repeated urban structures, environmental shifts, partial overlap, and ambiguous local textures. Recent studies have shown that vision-language descriptions, vector map tiles, region-to-point matching, environment-agnostic representation learning, and graph consistency optimization are individually useful for remote sensing localization. This paper drafts a unified framework, termed LGM-GAME, that integrates these directions into a language- and vector-map-guided geometric sparse Transformer. The proposed framework converts visual patches, vision-language semantic anchors, and vector-map topology primitives into a joint token space. It then introduces a language-map-guided geometric attention mechanism that injects appearance similarity, geometric bias, semantic-anchor consistency, and map-topology consistency into sparse cross-view attention. Finally, an uncertainty-aware Sinkhorn-MaxClique localization module combines local optimal transport matching with candidate-level graph consistency filtering. The resulting pipeline is designed to bridge global retrieval, local correspondence estimation, and fine-grained geographic localization in a single interpretable framework.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Cross-view geo-localization, UAV localization, vision-language model, vector map, sparse Transformer, optimal transport, maximal clique, remote sensing.
+\end{IEEEkeywords}
+
+\section{Introduction}
+\IEEEPARstart{U}{nmanned} aerial vehicles have become an important sensing platform for remote sensing, urban monitoring, disaster response, and autonomous navigation. In many practical scenarios, however, global navigation satellite system signals may be unreliable or unavailable. Visual geo-localization provides a complementary solution by matching an onboard UAV image to a geo-referenced satellite database or map. Compared with conventional same-view image retrieval, UAV-view geo-localization is more challenging because UAV images and satellite references differ in viewpoint, altitude, scale, orientation, illumination, season, and sensor characteristics.
+
+Most existing cross-view geo-localization methods formulate the task as global image retrieval. They learn a shared embedding space for UAV and satellite views and rank database images according to feature similarity. This paradigm is efficient, but it often lacks fine-grained correspondences and geometric interpretability. Other methods improve local matching with Transformer attention, region-to-point refinement, or optimal transport. Nevertheless, when the viewpoint gap is extreme, visually similar but geographically incorrect structures may still receive high similarity scores.
+
+Recent IEEE TGRS studies suggest several promising but still relatively separated directions. VLGeo introduces text-assisted UAV geo-localization using a large vision-language model, showing that textual descriptions can provide complementary semantic cues for cross-view matching \cite{vlgeo2026}. CDM-Net employs multimodal descriptions and conditional diffusion to reduce view-domain discrepancy \cite{cdmnet2025}. R2PLoc combines region retrieval with point-level matching for UAV visual geo-localization \cite{r2ploc2025}. Vector-map-based localization demonstrates that map symbols such as roads and building outlines provide stable reference structures that are less affected by environmental appearance changes \cite{vectormap2025}. Large-scale remote sensing localization based on maximal clique theory further indicates that graph-level spatial consistency can filter ambiguous retrieval candidates \cite{rsloc820k2025}.
+
+This manuscript drafts a new framework, LGM-GAME, that extends the prior GAME-Net/IMTMN idea of geometric-aware sparse Transformer matching. Instead of relying only on image-to-image features, the proposed framework treats language descriptions and vector maps as structured localization priors. The core hypothesis is that reliable UAV-view geo-localization should be guided simultaneously by visual appearance, local geometry, semantic landmarks, and map topology.
+
+The intended contributions are summarized as follows:
+\begin{itemize}
+  \item We propose a language- and vector-map-guided UAV geo-localization framework that unifies visual tokens, semantic anchor tokens, vector-map topology tokens, and geometric constraints.
+  \item We design a language-map-guided geometric sparse attention mechanism that augments cross-view attention logits with geometric, semantic, and map-topology bias terms.
+  \item We introduce an uncertainty-aware Sinkhorn-MaxClique localization strategy that combines local optimal transport matching with candidate-level graph consistency optimization.
+  \item We provide an experimental protocol covering retrieval accuracy, local matching quality, fine-grained localization error, efficiency, and robustness under environmental shifts.
+\end{itemize}
+
+\section{Related Work}
+
+\subsection{UAV-View Cross-View Geo-Localization}
+Drone-based geo-localization benchmarks such as University-1652 have promoted research on UAV-satellite matching \cite{university1652}. Early methods mainly optimize global descriptors for cross-view retrieval. Recent methods further improve alignment with local partitions, semantic aggregation, and Transformer-based feature interaction. MEAN emphasizes lightweight multilevel embedding and cross-domain alignment \cite{mean2025}, while DSTG uses Swin Transformer distillation to reduce computation \cite{dstg2025}. These works improve retrieval performance but are still limited when repeated structures or partial overlaps require explicit local correspondence reasoning.
+
+\subsection{Transformer-Based Local Matching}
+Transformer-based matchers such as SuperGlue \cite{superglue2020}, LoFTR \cite{loftr2021}, and LightGlue \cite{lightglue2023} have demonstrated strong feature interaction and local matching ability. SuperGlue uses graph neural matching and Sinkhorn optimal transport, LoFTR performs dense detector-free matching, and LightGlue improves efficiency with adaptive pruning. However, most of these methods were designed for two-view natural-image matching rather than UAV-satellite geo-localization with multi-source references. They also typically model geometric consistency after feature interaction rather than injecting geometric and map priors directly into attention.
+
+\subsection{Vision-Language and Multimodal Geo-Localization}
+Vision-language models can describe scene-level and object-level semantics that are difficult to preserve in pure visual embeddings. VLGeo shows that triplet-based textual descriptions can enhance UAV-view geo-localization by extracting common features across views and modalities \cite{vlgeo2026}. CDM-Net combines remote sensing textual information and conditional diffusion to synthesize vertical-view images before structural matching \cite{cdmnet2025}. These methods reveal the value of language, but language is often used as a retrieval-level cue. In contrast, LGM-GAME aims to inject semantic anchors directly into local cross-view attention.
+
+\subsection{Map-Aware and Graph-Consistent Localization}
+Vector map tiles provide compact and stable representations of road networks, building outlines, and linear geographic symbols \cite{vectormap2025}. Such structures can remain useful when satellite appearance varies because of weather, season, or illumination. In large-scale retrieval, RSLoc-820K uses maximal clique theory to enforce semantic-spatial-geographic consistency across candidates \cite{rsloc820k2025}. These ideas motivate our map-aware tokenization and graph-consistency localization stage. Related robustness concerns are also highlighted by EAGLe, which learns environment-invariant features under dynamic UAV conditions \cite{eagle2025}, and by geolocation calibration studies that model sensor and timing errors \cite{mersi2025}.
+
+\section{Proposed Method}
+
+\subsection{Problem Definition}
+Given a UAV query image $I^u$, a geo-referenced satellite image database $\mathcal{D}^s=\{I^s_n\}_{n=1}^{N}$, an optional vector map database $\mathcal{D}^m$, and text descriptions produced by a vision-language model, the goal is to retrieve the correct reference region and estimate fine-grained correspondences or a final geographic location. The proposed framework produces a ranked candidate list, a set of local correspondences, and a localization confidence.
+
+\subsection{Overall Architecture}
+Fig.~\ref{fig:framework} shows the drafted pipeline. First, a visual encoder extracts multi-scale UAV and satellite tokens. Second, a vision-language model generates semantic descriptions and stable semantic anchors. Third, vector maps are converted into topology tokens. Fourth, a language-map-guided geometric sparse Transformer performs cross-view interaction. Finally, a Sinkhorn-MaxClique module refines local matching and filters candidate regions by graph consistency.
+
+\begin{figure*}[t]
+\centering
+\fbox{\begin{minipage}[c][1.75in][c]{0.92\textwidth}
+\centering
+\textbf{Placeholder for Framework Overview}\\[0.5em]
+UAV image + satellite database + vector map + VLM semantic anchors\\
+$\rightarrow$ multi-scale visual tokens, map topology tokens, semantic anchor tokens\\
+$\rightarrow$ language-map-guided geometric sparse Transformer\\
+$\rightarrow$ Sinkhorn matching and graph consistency localization.
+\end{minipage}}
+\caption{Overview of the proposed LGM-GAME framework. Replace this placeholder with a polished IEEE-style diagram.}
+\label{fig:framework}
+\end{figure*}
+
+\subsection{Visual Tokenization}
+For each image $I$, a shared visual encoder extracts a multi-scale feature pyramid. The features are projected into $d$-dimensional tokens:
+\begin{equation}
+  \mathbf{X}^{v} = \{\mathbf{x}^{v}_{i}\}_{i=1}^{M}, \quad
+  \mathbf{x}^{v}_{i} \in \mathbb{R}^{d},
+\end{equation}
+where $v \in \{u,s\}$ denotes UAV or satellite view. The visual encoder can be implemented using a CNN-FPN backbone, a Swin Transformer, or a lightweight distilled backbone depending on the target deployment scenario.
+
+\subsection{Semantic Anchor Generation}
+Following the motivation of text-assisted geo-localization \cite{vlgeo2026}, a vision-language model generates a description for each UAV or satellite image. Instead of using the sentence only for global image-text retrieval, LGM-GAME extracts stable semantic anchors:
+\begin{equation}
+  \mathcal{A} = \{a_k\}_{k=1}^{K},
+\end{equation}
+where $a_k$ may represent road intersections, rectangular building footprints, sports fields, water boundaries, vegetation blocks, or parking grids. Each anchor is embedded into a semantic token $\mathbf{t}_k \in \mathbb{R}^{d}$ and assigned a reliability weight $\omega_k$.
+
+\subsection{Vector Map Topology Tokenization}
+Vector maps are converted into topology tokens:
+\begin{equation}
+  \mathcal{M} = \{m_l=(c_l,\mathbf{p}_l,\theta_l,\rho_l)\}_{l=1}^{L},
+\end{equation}
+where $c_l$ denotes the map primitive category, $\mathbf{p}_l$ is its normalized location, $\theta_l$ is the orientation or structural direction, and $\rho_l$ is a confidence score. These tokens encode structural priors such as road adjacency, building-outline closure, and water-boundary continuity.
+
+\subsection{Language-Map-Guided Geometric Attention}
+The key module modifies standard cross-attention by adding three bias terms to the visual appearance score. For a UAV token $\mathbf{x}^{u}_{i}$ and a satellite token $\mathbf{x}^{s}_{j}$, the attention logit is:
+\begin{equation}
+\label{eq:lgm_attention}
+  A_{ij} =
+  \frac{(\mathbf{q}^{u}_{i})^{\top}\mathbf{k}^{s}_{j}}{\sqrt{d}}
+  + \lambda_g G_{ij}
+  + \lambda_l L_{ij}
+  + \lambda_m M_{ij},
+\end{equation}
+where $G_{ij}$ is a geometric bias, $L_{ij}$ is a semantic-anchor consistency bias, and $M_{ij}$ is a map-topology bias. $\lambda_g$, $\lambda_l$, and $\lambda_m$ control their relative contributions.
+
+The geometric term encourages spatially plausible correspondences:
+\begin{equation}
+  G_{ij}= \phi_g(\mathbf{p}^{u}_{i},\mathbf{p}^{s}_{j},\hat{\mathbf{F}}),
+\end{equation}
+where $\hat{\mathbf{F}}$ is an estimated or learned cross-view geometric relation. If camera calibration is unavailable, $\phi_g$ can be learned as a soft spatial prior.
+
+The semantic term measures whether two visual tokens are supported by the same semantic anchors:
+\begin{equation}
+  L_{ij} = \sum_{k=1}^{K} \omega_k
+  \sigma((\mathbf{x}^{u}_{i})^{\top}\mathbf{t}_k)
+  \sigma((\mathbf{x}^{s}_{j})^{\top}\mathbf{t}_k).
+\end{equation}
+
+The map term measures compatibility with nearby vector-map primitives:
+\begin{equation}
+  M_{ij} = \max_{m_l \in \mathcal{M}}
+  \phi_m(\mathbf{p}^{u}_{i},\mathbf{p}^{s}_{j},m_l).
+\end{equation}
+
+To improve efficiency, only the top-$k$ reference tokens are retained for each query token:
+\begin{equation}
+  \mathcal{N}_k(i)=\operatorname{TopK}_{j}(A_{ij}),
+\end{equation}
+which reduces the cross-view interaction from all-to-all dense attention to sparse candidate attention.
+
+\subsection{Sinkhorn Matching With Dustbin}
+Given the sparse attention scores, a matching cost matrix is constructed as $\mathbf{C}=-\mathbf{A}$. Following optimal transport matching \cite{sinkhorn1967,superglue2020}, the method appends dustbin rows and columns to absorb unmatched tokens:
+\begin{equation}
+  \mathbf{P}= \operatorname{Sinkhorn}\left(\exp(\mathbf{A}'/\tau)\right),
+\end{equation}
+where $\mathbf{A}'$ is the dustbin-augmented score matrix and $\tau$ is a temperature parameter. The final local correspondences are selected by mutual confidence filtering from $\mathbf{P}$.
+
+\subsection{Uncertainty-Aware Sinkhorn-MaxClique Localization}
+Local matching alone may still select visually plausible but geographically inconsistent candidates. Therefore, LGM-GAME builds a candidate consistency graph $\mathcal{G}=(\mathcal{V},\mathcal{E})$. A node represents a candidate region or a local correspondence. An edge connects two nodes when they satisfy semantic, spatial, map-topology, and matching-confidence consistency:
+\begin{equation}
+  e_{ab}=1
+  \quad \text{if} \quad
+  \Psi(v_a,v_b) > \delta.
+\end{equation}
+The final localization is obtained from a maximal clique or an approximate graph optimization:
+\begin{equation}
+  \mathcal{V}^{*} = \arg\max_{\mathcal{C}\subseteq\mathcal{V}}
+  \sum_{v_a,v_b\in\mathcal{C}} \Psi(v_a,v_b).
+\end{equation}
+This stage converts independent retrieval scores into a self-consistent semantic-map-geometric decision.
+
+\subsection{Training Objective}
+The full training objective combines retrieval, matching, geometric consistency, semantic alignment, and map-topology losses:
+\begin{equation}
+\begin{aligned}
+  \mathcal{L} =
+  &\lambda_r\mathcal{L}_{ret}
+  +\lambda_o\mathcal{L}_{ot}
+  +\lambda_g\mathcal{L}_{geo} \\
+  &+\lambda_l\mathcal{L}_{lang}
+  +\lambda_m\mathcal{L}_{map}.
+\end{aligned}
+\end{equation}
+Here $\mathcal{L}_{ret}$ can be an InfoNCE or triplet retrieval loss, $\mathcal{L}_{ot}$ supervises the Sinkhorn assignment, $\mathcal{L}_{geo}$ penalizes geometric residuals, $\mathcal{L}_{lang}$ aligns image tokens with semantic anchors, and $\mathcal{L}_{map}$ aligns image evidence with map primitives.
+
+\section{Experimental Plan}
+
+\subsection{Datasets}
+The initial evaluation should include University-1652 \cite{university1652} and SUES-200 for comparability with UAV-view geo-localization methods. If available, a region-to-point dataset such as UAV-R2P \cite{r2ploc2025} can evaluate fine-grained localization. A map-augmented benchmark can be built by associating UAV/satellite samples with OpenStreetMap or other vector-map primitives.
+
+\subsection{Baselines}
+The planned baselines include global descriptor methods, Transformer matchers, text-assisted geo-localization, map retrieval, and graph-consistency approaches. Representative methods include SuperGlue \cite{superglue2020}, LoFTR \cite{loftr2021}, LightGlue \cite{lightglue2023}, VLGeo \cite{vlgeo2026}, CDM-Net \cite{cdmnet2025}, R2PLoc \cite{r2ploc2025}, MEAN \cite{mean2025}, DSTG \cite{dstg2025}, vector-map retrieval \cite{vectormap2025}, and maximal-clique-based large-scale localization \cite{rsloc820k2025}.
+
+\subsection{Metrics}
+Retrieval performance can be measured by Recall@1, Recall@5, Recall@10, Average Precision, and Median Rank. Matching quality can be evaluated using inlier ratio, matching precision, and geometric residual. Localization quality can be measured by center-point error, region IoU, and topology consistency score. Efficiency should be reported using parameter count, FLOPs, inference time, and memory usage.
+
+\begin{table*}[t]
+\centering
+\caption{Planned ablation study for LGM-GAME.}
+\label{tab:ablation}
+\begin{tabular}{lcccccc}
+\toprule
+Variant & Visual & Geometry & Language & Vector Map & Sinkhorn & Graph Consistency \\
+\midrule
+Baseline global retrieval & \checkmark & -- & -- & -- & -- & -- \\
+GAME-style sparse matching & \checkmark & \checkmark & -- & -- & \checkmark & -- \\
+w/o language anchors & \checkmark & \checkmark & -- & \checkmark & \checkmark & \checkmark \\
+w/o vector map tokens & \checkmark & \checkmark & \checkmark & -- & \checkmark & \checkmark \\
+w/o Sinkhorn matching & \checkmark & \checkmark & \checkmark & \checkmark & -- & \checkmark \\
+w/o graph consistency & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & -- \\
+Full LGM-GAME & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Robustness Analysis}
+The robustness experiments should evaluate environmental changes, partial overlap, repetitive structures, low-texture regions, and large-scale candidate databases. EAGLe-style environmental perturbation \cite{eagle2025}, hashing-based fast retrieval \cite{hashing2025}, and multiview rendering-based zero-shot localization \cite{rendering2025} can be used as comparative inspiration.
+
+\section{Discussion}
+The primary novelty of LGM-GAME is not merely adding more modalities. Its key design is to inject language and map cues into the local matching mechanism itself. This is different from pipelines that use language for retrieval only or maps for a separate post-processing stage. By writing geometry, semantics, and topology into the attention logits, the model can suppress locally similar but semantically or geographically inconsistent matches. The Sinkhorn-MaxClique stage further connects local correspondence confidence with candidate-level self-consistency, which is important for large-scale geo-localization.
+
+The expected limitations are also clear. First, the quality of language anchors depends on the vision-language model and prompt design. Second, vector-map coverage may be incomplete or outdated. Third, graph optimization adds computational cost when many candidates are retained. These limitations can be mitigated by confidence-aware anchor filtering, map-source fusion, and approximate clique search.
+
+\section{Conclusion}
+This manuscript provides an initial IEEE-style draft for LGM-GAME, a language- and vector-map-guided geometric sparse Transformer for UAV-view geo-localization. The proposed framework extends geometric-aware sparse matching by introducing semantic anchor tokens, vector-map topology tokens, and uncertainty-aware graph consistency optimization. The resulting design aims to unify global retrieval, local matching, and fine-grained geographic localization under a single multimodal and interpretable framework.
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\end{document}
+

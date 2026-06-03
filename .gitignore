@@ -1,0 +1,30 @@
+.DS_Store
+
+# Local analysis caches containing extracted paper text.
+.codex_analysis/
+
+# LaTeX generated files.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Temporary outputs and unrelated generated artifacts.
+output/
+outputs/
+
+# Python cache.
+__pycache__/
+*.py[cod]
+
+# Local TeX/GitHub install scratch dirs should stay outside the repo, but keep
+# this defensive ignore in case a future command writes them here.
+.local/
+
