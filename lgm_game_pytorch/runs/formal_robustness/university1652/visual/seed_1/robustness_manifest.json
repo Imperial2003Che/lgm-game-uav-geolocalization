@@ -1,0 +1,938 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "status": "completed",
+  "completed_utc": "2026-09-29T07:46:04.909970+00:00",
+  "run_config_sha256": "51edb3f929b337ec3c129ad502336a5f5676ef15fbd606d760526b04a2dbfbd0",
+  "dataset": "university1652",
+  "variant": "visual",
+  "checkpoint": {
+    "variant": "visual",
+    "seed": 1,
+    "selected_training_epoch_one_based": 80,
+    "checkpoint_sha256": "3845e67389e89f600edc8321ff7357341a48ec3ad6e411d8657506fd50b30103",
+    "training_run_config_sha256": "ff3bb3dbd6deb7cce7d715ee6797e3f0479097e91418d232cc942976387645fa",
+    "training_code_sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862",
+    "training_manifest_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_1\\run_manifest.json",
+    "training_manifest_sha256": "1b148e7ccb794b5efd2aa76e0b86b1fa91730cf77fd4745174a0afe1a0a8e3e2"
+  },
+  "expected_corruption_conditions": 30,
+  "completed_corruption_conditions": 30,
+  "condition_count_complete": true,
+  "clean_query_coverage": {
+    "expected_unique_images": 41135,
+    "encoded_unique_images": 41135,
+    "coverage_fraction": 1.0,
+    "missing_images": 0,
+    "extra_images": 0,
+    "complete": true,
+    "path_membership_sha256": "1f83323bb372cd5c461c14c8b1de4676f0389dfa0d212ea45d5adddc47822b4a",
+    "encoded_feature_sha256": "5536ae3c18cba53b2dbae2bdf7bba552ab846cc252eeda14d1ea708263fa97f7",
+    "embedding_dim": 512,
+    "embedding_storage_dtype_for_hash": "little-endian float32",
+    "pixels_decoded_for_every_active_visual_embedding": true,
+    "corruption_applied_before_all_model_preprocessing": false,
+    "query_content_style_evidence_mode": "clean_cache",
+    "elapsed_seconds": 150.08885699999882
+  },
+  "clean_gallery_coverage": {
+    "expected_unique_images": 52306,
+    "encoded_unique_images": 52306,
+    "coverage_fraction": 1.0,
+    "missing_images": 0,
+    "extra_images": 0,
+    "complete": true,
+    "path_membership_sha256": "26d1b7e041b3da069254f5f05ccfe668e776fde79eeb0f82ed0173fb7fd182c0",
+    "encoded_feature_sha256": "9a1e6ce9720aaa4fd506595a39866a9fc8bb2a501fe594b156ee042223111984",
+    "embedding_dim": 512,
+    "embedding_storage_dtype_for_hash": "little-endian float32",
+    "pixels_decoded_for_every_active_visual_embedding": true,
+    "corruption_applied_before_all_model_preprocessing": false,
+    "query_content_style_evidence_mode": "clean_cache",
+    "elapsed_seconds": 188.12160629999926
+  },
+  "clip_clean_reproduction_audit": null,
+  "full_gallery": true,
+  "clean_gallery_for_every_condition": true,
+  "all_official_queries_for_every_condition": true,
+  "feature_level_corruption_used": false,
+  "elapsed_seconds": 7657.209791999998,
+  "artifacts": {
+    "clean/condition_manifest.json": {
+      "sha256": "df4cf77ab8b043b144338c72739e7e941dfe92baae4c2f8f6b35161ac9140cdb",
+      "bytes": 2253
+    },
+    "clean/metrics.csv": {
+      "sha256": "ac65e29208d16cc182861d89ece6a82b28e3dee25722127db82df21e79878bae",
+      "bytes": 871
+    },
+    "clean/metrics.json": {
+      "sha256": "1e95549520a2721be6aa817e5a977908c0e20a161ab988e1a65a770c67f8de8d",
+      "bytes": 2072
+    },
+    "clean/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "c4e726f78c45cbaaea34141fa9dfb1bef647e90c0d61e1a0620a00e70ec477c4",
+      "bytes": 524445
+    },
+    "clean/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "1a637d98338cd35d204e29f26e2e390e02e0b8f253ee2ddd285a9b1cdb0a665d",
+      "bytes": 21527
+    },
+    "clean/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "c94dff89875d5453ca47cb2e8d94e276aac59d43fa7e2b0927ecb459509648d9",
+      "bytes": 67346
+    },
+    "conditions/brightness/severity_01/condition_manifest.json": {
+      "sha256": "1562975859b5bc621177073aa8fd6dc5afe5620b334876c9444f88a5150dfc37",
+      "bytes": 2682
+    },
+    "conditions/brightness/severity_01/degradation_vs_clean.csv": {
+      "sha256": "301237e103c6de80494b44f0de466fa2bad03d5b7a888b419c3a4936464e1451",
+      "bytes": 3120
+    },
+    "conditions/brightness/severity_01/metrics.csv": {
+      "sha256": "9cb3ea533fdd249957a88e31b2dcac6755455445e4e356c40cfae8e05e7ea16f",
+      "bytes": 867
+    },
+    "conditions/brightness/severity_01/metrics.json": {
+      "sha256": "85faa9487b3a10753db657bf850d1e107d8a21f26c5cae8eaa8d62e673c89494",
+      "bytes": 8397
+    },
+    "conditions/brightness/severity_01/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "61d280820f38d97c6c7e692e76a41ab1860a23ae658c8cf4692638ca5c77b7f8",
+      "bytes": 864926
+    },
+    "conditions/brightness/severity_01/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "9187289b671d4e1559278bb925e44a201fb395a2cf73507317f6c7f780fb0ba3",
+      "bytes": 34287
+    },
+    "conditions/brightness/severity_01/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "1a02e9e1d24bc5d0200234d2ee683660873a000157831a27a50fee95d6ccbbbc",
+      "bytes": 113244
+    },
+    "conditions/brightness/severity_02/condition_manifest.json": {
+      "sha256": "763039a82ffb4e0171edb921910314bc4e82110f8068c8f67b1aed5f478fb92e",
+      "bytes": 2683
+    },
+    "conditions/brightness/severity_02/degradation_vs_clean.csv": {
+      "sha256": "86c156ce42dbd86de40477d03266bcbf973fc39426461e92f975489ad88c5ba9",
+      "bytes": 3089
+    },
+    "conditions/brightness/severity_02/metrics.csv": {
+      "sha256": "0d628c2253b047ac9789df3bbdff5de29ea05a95a9713466dfd10e67f8e9743d",
+      "bytes": 872
+    },
+    "conditions/brightness/severity_02/metrics.json": {
+      "sha256": "f11cad6a866aae64f3d5952a24118cd6fa2351b588ad38d569fcf6f1849eed4e",
+      "bytes": 8372
+    },
+    "conditions/brightness/severity_02/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "4149d2b9314edff66ff34c643650b5fc7f3d899d61331f44b5d716303ad7d075",
+      "bytes": 883636
+    },
+    "conditions/brightness/severity_02/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "6901e78a59e37df5c46db5fddefe72e5346497653feb507d02c498054d3da028",
+      "bytes": 34559
+    },
+    "conditions/brightness/severity_02/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "73f68a7d6397597cf23fbf786783673b28e83f548e6e8bd24540fc79675beae7",
+      "bytes": 113795
+    },
+    "conditions/brightness/severity_03/condition_manifest.json": {
+      "sha256": "8aaa27d15fac50ed720a86ffa44fc2033fac132b19549301ade9f393cb754538",
+      "bytes": 2683
+    },
+    "conditions/brightness/severity_03/degradation_vs_clean.csv": {
+      "sha256": "66169f3d0fb08523ab47cbb2bfed579dcdb502b2191ec37f08f332f265deed6c",
+      "bytes": 3044
+    },
+    "conditions/brightness/severity_03/metrics.csv": {
+      "sha256": "299f5a5d10b2d3e0b154d2cdb96d14197209a1599cbea9ba4d9d2aba54e8519f",
+      "bytes": 865
+    },
+    "conditions/brightness/severity_03/metrics.json": {
+      "sha256": "9c491f6f7ba965e303a8e844d7624f03d214b9178759269fe50036dcaf282fda",
+      "bytes": 8319
+    },
+    "conditions/brightness/severity_03/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "43d58694cf9082a6d181f92dc9eb822a2509e2ce00d025a2c95c763bfcc4ce21",
+      "bytes": 904079
+    },
+    "conditions/brightness/severity_03/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "1dad29365de494edd74e87a52bcd72ed3bfa2f7d9a922c68ebc4ace6b9c552dc",
+      "bytes": 34899
+    },
+    "conditions/brightness/severity_03/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "5eeda3a2a7486b784e1602cfbd090a969b16ae24ab5a4ebcb135e70dd6e06c87",
+      "bytes": 114152
+    },
+    "conditions/brightness/severity_04/condition_manifest.json": {
+      "sha256": "fc0e0f2f72bf9f7e1691b9d55305f44e4149a84730980feb1f6db10fc50a13bf",
+      "bytes": 2683
+    },
+    "conditions/brightness/severity_04/degradation_vs_clean.csv": {
+      "sha256": "31c4216144a804d7cc11696d5d754f97ea21623fd9fdc9d4278769f29d8515eb",
+      "bytes": 3038
+    },
+    "conditions/brightness/severity_04/metrics.csv": {
+      "sha256": "773a1096f9516278ae4fe54ac008971c228123161cb0171531ff3015a80b0eb7",
+      "bytes": 872
+    },
+    "conditions/brightness/severity_04/metrics.json": {
+      "sha256": "f552dfa510549d66e2d4494c7eb25c0d04bbf0b5fb071e1d87c1a3359cfdc4c7",
+      "bytes": 8321
+    },
+    "conditions/brightness/severity_04/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "1a996661c5429305bcbada14105c90dbe8a362f1bb997b942242899208c58407",
+      "bytes": 945526
+    },
+    "conditions/brightness/severity_04/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "0937a03e6a695580b2a708bba09db91c70412b3a916c098af7ffb6b3cfbb12d5",
+      "bytes": 35618
+    },
+    "conditions/brightness/severity_04/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "5002fe7803d6da87b69966498f47ec3450cf42ccd3c7dd0c83b22b242631b1a5",
+      "bytes": 113897
+    },
+    "conditions/brightness/severity_05/condition_manifest.json": {
+      "sha256": "a7fa26946429723f826837f783dcb38b6a27562544c99393781e7cd531eacd09",
+      "bytes": 2684
+    },
+    "conditions/brightness/severity_05/degradation_vs_clean.csv": {
+      "sha256": "163d0d8e8fa198a7161239591083e23ff30c75e79251abea1d783667754784db",
+      "bytes": 2973
+    },
+    "conditions/brightness/severity_05/metrics.csv": {
+      "sha256": "f53e95719c8c050087da35de9318bc7d66d0a322edce240ca600001499cc9b8e",
+      "bytes": 873
+    },
+    "conditions/brightness/severity_05/metrics.json": {
+      "sha256": "e30e588b1a793da51aa6d14abde98a1e87323449447db9a019a00f99de4e0327",
+      "bytes": 8256
+    },
+    "conditions/brightness/severity_05/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "53aea5b2489d02245a6b324c0ed348f08271cec1a24540f305331c320d3675f7",
+      "bytes": 1045903
+    },
+    "conditions/brightness/severity_05/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "829a57c1a949d2ad264df956cc9685c9ff3985dd63fb7ff6740059ab8b259e93",
+      "bytes": 36913
+    },
+    "conditions/brightness/severity_05/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "279fa1f184770f38e90a74c2226e8e8cfea16725b10ed8f7e22d0e68a8a8baf2",
+      "bytes": 112506
+    },
+    "conditions/center_occlusion/severity_01/condition_manifest.json": {
+      "sha256": "3b414a81e9c5b57522d3b2521ea5a137579bfebf3270b3b38ab852696b39313d",
+      "bytes": 2813
+    },
+    "conditions/center_occlusion/severity_01/degradation_vs_clean.csv": {
+      "sha256": "b07db029d328d8e2b6b10ea2e06f384ce07e4e1033c267738dd9b14b153931f9",
+      "bytes": 3020
+    },
+    "conditions/center_occlusion/severity_01/metrics.csv": {
+      "sha256": "9d51ac1419e46efc1a7f06f991dd390abc0148643835fed8b2723700671c5b30",
+      "bytes": 872
+    },
+    "conditions/center_occlusion/severity_01/metrics.json": {
+      "sha256": "12db0795c76173bae8696af404c7422c9305215437880e3dd2297847e47047b6",
+      "bytes": 8435
+    },
+    "conditions/center_occlusion/severity_01/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "6aef7cf8abf6205024ae5742600f3d6827a142d25e4c4fc42adef872bfa2d39c",
+      "bytes": 999302
+    },
+    "conditions/center_occlusion/severity_01/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "8fd45b8777de361f14a9513f4475a7d98ae262d3865d1b68cabcd0b9a5e2b712",
+      "bytes": 36070
+    },
+    "conditions/center_occlusion/severity_01/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "b50d15db0bd5a7140cd433b1f4a6d9a9493a1d8d0bb6500b0b076dee7d7003e8",
+      "bytes": 113994
+    },
+    "conditions/center_occlusion/severity_02/condition_manifest.json": {
+      "sha256": "e3ee01dc8dab34bc10576b526b3a2cfec35258c763cc9c17f8d5b443ccfb976b",
+      "bytes": 2816
+    },
+    "conditions/center_occlusion/severity_02/degradation_vs_clean.csv": {
+      "sha256": "b8dd9b018e2c18e9963109e9c26448c215d86cac8610389b0e28022192fb6349",
+      "bytes": 2918
+    },
+    "conditions/center_occlusion/severity_02/metrics.csv": {
+      "sha256": "fdeb0ea93dfabc92a923d6facf80fefc5dd18e9cf4692358bb5724ef5573bcf8",
+      "bytes": 876
+    },
+    "conditions/center_occlusion/severity_02/metrics.json": {
+      "sha256": "0ef922fd6537b8d0deb1be61c8fb4356625b77f6d1278cb83e0c858eb4a64b99",
+      "bytes": 8336
+    },
+    "conditions/center_occlusion/severity_02/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "d1bf929ff6aae92a63bbbf80cf38858843ff492974f11bf1deabb22a030c20bc",
+      "bytes": 1046753
+    },
+    "conditions/center_occlusion/severity_02/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "316276d720cd3065be3f4ef23e263a5e06b31a4a4b8dfdb85e1f21c71448ac4a",
+      "bytes": 36779
+    },
+    "conditions/center_occlusion/severity_02/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "c041139bcdea6add4ebf47ab52d3834a4ee704e3170e5cfe0e01f226461a6bcb",
+      "bytes": 114005
+    },
+    "conditions/center_occlusion/severity_03/condition_manifest.json": {
+      "sha256": "23a59cc877601be7da459ceadea86a7b10355b15816765a34ed01aeea566302b",
+      "bytes": 2816
+    },
+    "conditions/center_occlusion/severity_03/degradation_vs_clean.csv": {
+      "sha256": "02e180ed95353e9332fefb459b1c057a24370f9e07cf38c1a982c63d68d8f56a",
+      "bytes": 2984
+    },
+    "conditions/center_occlusion/severity_03/metrics.csv": {
+      "sha256": "041c5ae09d12a9718b09752b2a971a607391ac6675f800fe7fc6d2a7a75548ba",
+      "bytes": 881
+    },
+    "conditions/center_occlusion/severity_03/metrics.json": {
+      "sha256": "57cc4a532aade25cb964089ff7fb9dde11ec8439d173d3c9cd8cbc8c42ecdf05",
+      "bytes": 8407
+    },
+    "conditions/center_occlusion/severity_03/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "6789c33ba2c1c39c51f8a6467e26d4b113e0cf7aa60594902244ad67f68f6ce5",
+      "bytes": 1073855
+    },
+    "conditions/center_occlusion/severity_03/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "932fca760e53a6d2b0d9191b054b8005c13b826845f59eae3a694296ef95387f",
+      "bytes": 36758
+    },
+    "conditions/center_occlusion/severity_03/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "0c36e0bb43e80a3c90ab8e5b538059b0c5d2f781b5f15e46cea30d99eb37ac59",
+      "bytes": 112741
+    },
+    "conditions/center_occlusion/severity_04/condition_manifest.json": {
+      "sha256": "bc64ff5fb31bd94d7799e120762fdc748d7bba4ed3fd39b24678d5070b829273",
+      "bytes": 2815
+    },
+    "conditions/center_occlusion/severity_04/degradation_vs_clean.csv": {
+      "sha256": "443b48e11eb7c9f4004b598f671770bb69db3928c51ec6446ba52f431c0d12b8",
+      "bytes": 2991
+    },
+    "conditions/center_occlusion/severity_04/metrics.csv": {
+      "sha256": "48b0a0d2369396f95ec3f8a88e52e2e80d12f9d308bf52d7de62686c0ca5d760",
+      "bytes": 889
+    },
+    "conditions/center_occlusion/severity_04/metrics.json": {
+      "sha256": "3e677fc406a712eabeffc27ae5829f12c52fcda4358c2335c5c19163c95743ff",
+      "bytes": 8422
+    },
+    "conditions/center_occlusion/severity_04/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "f65fc6d8818ca6ed600a5c3bb3b6f2850638dc369d538617194185b6c379bc0e",
+      "bytes": 1075757
+    },
+    "conditions/center_occlusion/severity_04/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "7c0aad3da87c7c172deccaf0c9b67771a3a1785380e8f5be9f9bc1642bc7041d",
+      "bytes": 36727
+    },
+    "conditions/center_occlusion/severity_04/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "c90e6026b2527800f655add46c4f5c0becc44ac31d35f1065d2f5e53e400c9a6",
+      "bytes": 111644
+    },
+    "conditions/center_occlusion/severity_05/condition_manifest.json": {
+      "sha256": "feceb8f453d5d6285859e177f970d2251b8579dcb91ead8768ce57de4f197f6a",
+      "bytes": 2816
+    },
+    "conditions/center_occlusion/severity_05/degradation_vs_clean.csv": {
+      "sha256": "95af031a37ded75805c9f39129c21a6af882d555c08f44c2ddad1c73894f3364",
+      "bytes": 2995
+    },
+    "conditions/center_occlusion/severity_05/metrics.csv": {
+      "sha256": "9a63c5d9d9a260dd9e076853c7f0b02a9cb5a877f03647bd4806ad8c09eba0dc",
+      "bytes": 890
+    },
+    "conditions/center_occlusion/severity_05/metrics.json": {
+      "sha256": "82bb8155af482ff3895bcefd6873715063f9ebd0e200b4da05a28a3bf9f2ffaf",
+      "bytes": 8427
+    },
+    "conditions/center_occlusion/severity_05/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "eaf2cc20998a9d6cd6a9d75c9a6b15f3cc6b011766d3797a88d0b36fdde7eb9b",
+      "bytes": 1067418
+    },
+    "conditions/center_occlusion/severity_05/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "fc7bc3a6ab5a34be3d74cf18d9473a19874bb272b3a65ac1c2d80380511ff926",
+      "bytes": 36446
+    },
+    "conditions/center_occlusion/severity_05/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "6954632e4499295171d64670bcd50c78f5d3800e85c7006b6026b5454581f149",
+      "bytes": 110046
+    },
+    "conditions/contrast/severity_01/condition_manifest.json": {
+      "sha256": "01cb73b2599baa5c300493b28de552e6e8203ee090bfb28c5dc192361647b374",
+      "bytes": 2674
+    },
+    "conditions/contrast/severity_01/degradation_vs_clean.csv": {
+      "sha256": "6c9c894e2f375fb7400b54542201a8b02fff8e0a3a5450858ca9686eb543aade",
+      "bytes": 3100
+    },
+    "conditions/contrast/severity_01/metrics.csv": {
+      "sha256": "7917bd3bd704ea79d6ad43f838d7399c0bd7d1ef5c30888f9b9caa12dccebbf3",
+      "bytes": 871
+    },
+    "conditions/contrast/severity_01/metrics.json": {
+      "sha256": "6387f4ff0355262d30cfb23d763a2841c4f6cf59014696160080eec9cfd1a753",
+      "bytes": 8373
+    },
+    "conditions/contrast/severity_01/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "5a2a8397659fbe1393e6d6e555c3e1fd7c0b8372b0bf329872de6277ef333180",
+      "bytes": 863422
+    },
+    "conditions/contrast/severity_01/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "c00db0903fcc9e559604f0ae97f4e2a1274cf3468f1bf59a92f031ba093f3eeb",
+      "bytes": 34260
+    },
+    "conditions/contrast/severity_01/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "06f06d82c71acfe5b51d092dd8f8c7112aa45c8f1cc00457692541bb49862db7",
+      "bytes": 113119
+    },
+    "conditions/contrast/severity_02/condition_manifest.json": {
+      "sha256": "ff88318ee0b0d7c51a4f7bec174de3fb5dd2d9e99d3b3d021c7344f2d5a96112",
+      "bytes": 2675
+    },
+    "conditions/contrast/severity_02/degradation_vs_clean.csv": {
+      "sha256": "3d094350f3b538750e9485e1776d68b8332c693a9867bdd623816c0e0475a3cb",
+      "bytes": 3047
+    },
+    "conditions/contrast/severity_02/metrics.csv": {
+      "sha256": "4bf0ae1cb2bf838df233ed3826f958a56f11a59d376893824d8ae802cfaa5f10",
+      "bytes": 870
+    },
+    "conditions/contrast/severity_02/metrics.json": {
+      "sha256": "9fd55b4fc97351cbebad4e983501a07efbaa81add90853935ad6e7965da8ff91",
+      "bytes": 8320
+    },
+    "conditions/contrast/severity_02/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "d6e6a94ece7be45f4638064fa715f1504672c7d4b36d90cd4ad48a074ada0ad7",
+      "bytes": 884161
+    },
+    "conditions/contrast/severity_02/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "65b28e3416159726a955e60472adce3fcaf495e1d0b68f894db251f482e3d6ea",
+      "bytes": 34634
+    },
+    "conditions/contrast/severity_02/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "3d36389ae053b115b71652a0500ed7a21e886fbf37a08d1df21d4dc2cb156c35",
+      "bytes": 113761
+    },
+    "conditions/contrast/severity_03/condition_manifest.json": {
+      "sha256": "b059371815367622dc7ce257dfd7a4e059f569afc7a8ed940060241aa3e30f5b",
+      "bytes": 2674
+    },
+    "conditions/contrast/severity_03/degradation_vs_clean.csv": {
+      "sha256": "41b581c1756ed9629186af922f774c964b95bf3c3a8e019924470f0aaed68fc8",
+      "bytes": 3017
+    },
+    "conditions/contrast/severity_03/metrics.csv": {
+      "sha256": "153bef82ed74d136b5c6e066fc7173e6b2ab68410d932bc55a8f26cebb329e5e",
+      "bytes": 868
+    },
+    "conditions/contrast/severity_03/metrics.json": {
+      "sha256": "13ca9a22d56cf58b645aeb9566088d5e78a266c1b9478f35f64e8e609472e21f",
+      "bytes": 8287
+    },
+    "conditions/contrast/severity_03/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "68f7afb4b951cae71d74b005aa55c32cb8ee12d996a7dd736bd239ce842aab75",
+      "bytes": 909349
+    },
+    "conditions/contrast/severity_03/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "e44e2f7fb425adc380ca512976e3b806fd4a9a05b06a8c083accec9b3bcdd0f7",
+      "bytes": 35102
+    },
+    "conditions/contrast/severity_03/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "33f3d38d3b4e8322529a6555bc31573b7122a93d28e7a0277989a8276b5105db",
+      "bytes": 114373
+    },
+    "conditions/contrast/severity_04/condition_manifest.json": {
+      "sha256": "db0ebf7f581cbe75e6304e417e95d14a35fd747fdc6c1d4c37dced6caf8e1759",
+      "bytes": 2676
+    },
+    "conditions/contrast/severity_04/degradation_vs_clean.csv": {
+      "sha256": "f8ba2ab0a8c713939687beaf30bebf871767696067faa031139daf920e747cc3",
+      "bytes": 3017
+    },
+    "conditions/contrast/severity_04/metrics.csv": {
+      "sha256": "3a8838b6b5c343b1d2bf1f21753089fa663aacbba75c33755c225d950fbee7ec",
+      "bytes": 871
+    },
+    "conditions/contrast/severity_04/metrics.json": {
+      "sha256": "5612d7ef3aaebd9f1224a818d0841c02466c3034eb3af5c340255e3a30c1030a",
+      "bytes": 8291
+    },
+    "conditions/contrast/severity_04/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "5119e67967941e3f31859b6cef090e71ada1f9c80b952c894b822d603675c32e",
+      "bytes": 958559
+    },
+    "conditions/contrast/severity_04/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "f3c698972b104b25c84b950210f90f3e7787c4f9d2c5f2203ce39096c9833614",
+      "bytes": 35976
+    },
+    "conditions/contrast/severity_04/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "94fb8a263b8533f8f5d3ae83232541ec4b736548337f4287c46016d44d66847f",
+      "bytes": 114391
+    },
+    "conditions/contrast/severity_05/condition_manifest.json": {
+      "sha256": "7ea27b0d7340762b97fcdfd116e498a3f32a7f88bcbbd8b0d8ebfeeb404f3093",
+      "bytes": 2676
+    },
+    "conditions/contrast/severity_05/degradation_vs_clean.csv": {
+      "sha256": "1d0c649726c8066cb5a5afe8412839f5ae614783a00fac24407503090d2b798f",
+      "bytes": 2984
+    },
+    "conditions/contrast/severity_05/metrics.csv": {
+      "sha256": "1855fb9033138569547501da68c66b727d5091efd8c4301e239f8a8f9782f6e5",
+      "bytes": 876
+    },
+    "conditions/contrast/severity_05/metrics.json": {
+      "sha256": "2e1ddf98392c1f0b5caa6c15a963b66732593a848b23200ba812ce8f32235378",
+      "bytes": 8262
+    },
+    "conditions/contrast/severity_05/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "df41716f2b516529feff7b2f63b7e511b728c0984942a8cbf9d3180f5fcb3950",
+      "bytes": 1061723
+    },
+    "conditions/contrast/severity_05/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "00a55b0c0faac0389d6499f890b3542bdadcce5ff0456a2893cff1347a9d13ad",
+      "bytes": 37237
+    },
+    "conditions/contrast/severity_05/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "8b29977e8794045589fdf69a5f3b88b51329b2c06d9624d03b3aa68efe43d467",
+      "bytes": 112821
+    },
+    "conditions/gaussian_blur/severity_01/condition_manifest.json": {
+      "sha256": "588d29194a2f248101f26b60a14429735a9f8a404f9477151f29492a4ce4ae27",
+      "bytes": 2692
+    },
+    "conditions/gaussian_blur/severity_01/degradation_vs_clean.csv": {
+      "sha256": "10138ba72884f5ae22ab5bdd5476804216a6fb6ff96062d3e9b3995b79fa5c5d",
+      "bytes": 3088
+    },
+    "conditions/gaussian_blur/severity_01/metrics.csv": {
+      "sha256": "4d28fff69fe9f975355c929a07a024af36753337ede82e401fda53d6751e38bd",
+      "bytes": 869
+    },
+    "conditions/gaussian_blur/severity_01/metrics.json": {
+      "sha256": "86da85e455350f70d968d904372f6e48e792a81fe79508cb1d7c2466bc4b9aaf",
+      "bytes": 8377
+    },
+    "conditions/gaussian_blur/severity_01/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "bc2315d25cc786899c13578e7bf6783b555489343f0ba50db2761d86fae8da15",
+      "bytes": 867456
+    },
+    "conditions/gaussian_blur/severity_01/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "d2d75024ab692510f0abaea8224d2f235acfd2e6f46f811980c8dcb3f948b5c1",
+      "bytes": 34351
+    },
+    "conditions/gaussian_blur/severity_01/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "391aaf06c22518d71e862de067bc04234138dc45801fcb9c46f7d8b3efb879ae",
+      "bytes": 112726
+    },
+    "conditions/gaussian_blur/severity_02/condition_manifest.json": {
+      "sha256": "a1685588c1c93518c60f4722a53bd4cc010cd79826bfc9a67ee217f5657de21a",
+      "bytes": 2692
+    },
+    "conditions/gaussian_blur/severity_02/degradation_vs_clean.csv": {
+      "sha256": "13a4c0c0ddcde316ffe3d811dab34edbde829ce3bd71672760d56619d7e175f7",
+      "bytes": 3014
+    },
+    "conditions/gaussian_blur/severity_02/metrics.csv": {
+      "sha256": "bbbc2bdacc8e800004ff3f9b58807f57d5daa214805bf4df1bd6b6881c86c583",
+      "bytes": 872
+    },
+    "conditions/gaussian_blur/severity_02/metrics.json": {
+      "sha256": "6b7fcb0916151c8266eb4663579bcd5fa58c6451e7caba44aba3a42b5b774592",
+      "bytes": 8306
+    },
+    "conditions/gaussian_blur/severity_02/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "7c405ff7278cd15947080eb55c277409a2f89d2f08751359ef8dfd4b740093e5",
+      "bytes": 919001
+    },
+    "conditions/gaussian_blur/severity_02/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "0afc676e172ec7139a9fb94bf20c9d34ca08c3601a6c213978b45b9ba7b4a8aa",
+      "bytes": 35186
+    },
+    "conditions/gaussian_blur/severity_02/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "ed7da1c5669af1ee87351e3ea7533cccf39ce57479bc2506f97ec89bb422c55b",
+      "bytes": 113302
+    },
+    "conditions/gaussian_blur/severity_03/condition_manifest.json": {
+      "sha256": "8412ab8d0b736c2f1b0ab1f66e621f5251165ff0009f64d18c349e786602cb5b",
+      "bytes": 2693
+    },
+    "conditions/gaussian_blur/severity_03/degradation_vs_clean.csv": {
+      "sha256": "af0822b227a3bbe46c7e57b4345655bbe3a4d54d7e54f2c2b0f14e766f1ab987",
+      "bytes": 2997
+    },
+    "conditions/gaussian_blur/severity_03/metrics.csv": {
+      "sha256": "7bf29923137adc393de368ca4bc3e7fa8718fbbbddb68d86cd26e16bba8b6596",
+      "bytes": 878
+    },
+    "conditions/gaussian_blur/severity_03/metrics.json": {
+      "sha256": "1d88cc38f042bf6ab1af3c7fc87f33601877f3bccc6c50737b7667614cef056d",
+      "bytes": 8295
+    },
+    "conditions/gaussian_blur/severity_03/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "1ca0d89111b9606a4b1d7716512facdc39c0a32225a230eb3b63d1d810208cc5",
+      "bytes": 1005417
+    },
+    "conditions/gaussian_blur/severity_03/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "72975cb3cff51c49c9039311eb3b88932fefff059f57e22f0947da60d8911eb2",
+      "bytes": 36646
+    },
+    "conditions/gaussian_blur/severity_03/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "4a109c3f1ce9dfe056f84786687229d0fdaad220cdd094b68f5b2abf69f63a71",
+      "bytes": 111272
+    },
+    "conditions/gaussian_blur/severity_04/condition_manifest.json": {
+      "sha256": "2bb56423ff2d11849364d23ca8a882e3890cb050f922112fe69882931d3529c5",
+      "bytes": 2693
+    },
+    "conditions/gaussian_blur/severity_04/degradation_vs_clean.csv": {
+      "sha256": "5389ffe861e0cca56c807a4b036490d9d7cf570c28c44a6bdc5b97e739d815ff",
+      "bytes": 2988
+    },
+    "conditions/gaussian_blur/severity_04/metrics.csv": {
+      "sha256": "4ecae7c06730699590980055686d5066ee62ab7399eaa523f1eb4ca00e30f583",
+      "bytes": 882
+    },
+    "conditions/gaussian_blur/severity_04/metrics.json": {
+      "sha256": "f90585af7c53ed48295304845df50b21004745eedb309d1563a84d30ef6c3c75",
+      "bytes": 8290
+    },
+    "conditions/gaussian_blur/severity_04/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "69fbe1eaa149ac0e08b8dcfd047afa9f56f2b109586952f9db921c77e202ec79",
+      "bytes": 1033253
+    },
+    "conditions/gaussian_blur/severity_04/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "b2c1cbe086ce8b7d917ed1d9dacc257863329781f2c77cdc20c9b4e132b699fc",
+      "bytes": 36442
+    },
+    "conditions/gaussian_blur/severity_04/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "7439e6dc4c8114008196b7c825f96858c2780be5df818f55554464537f8a34fe",
+      "bytes": 109880
+    },
+    "conditions/gaussian_blur/severity_05/condition_manifest.json": {
+      "sha256": "df72a3649a256e0384898782ff38330e41a26469d394fe098d058d4e8a2958c1",
+      "bytes": 2694
+    },
+    "conditions/gaussian_blur/severity_05/degradation_vs_clean.csv": {
+      "sha256": "97bab51a5010564d456d3931297d55569a2ce8a03e9b9ee4e58f80f83f6dac84",
+      "bytes": 2997
+    },
+    "conditions/gaussian_blur/severity_05/metrics.csv": {
+      "sha256": "7efce5b369a273262c213e6edbe9f54900fcdad559dd0615c316a3ccc62a35a4",
+      "bytes": 885
+    },
+    "conditions/gaussian_blur/severity_05/metrics.json": {
+      "sha256": "aed9859f0f40dd34673ce187ecad5dc54c3188d6e1a9636c7d0babba66408b5c",
+      "bytes": 8302
+    },
+    "conditions/gaussian_blur/severity_05/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "f5d35d99c455ef4eba22c707b82d0ecd903f78f56c0a54abb3a8ff0af51a0850",
+      "bytes": 1038672
+    },
+    "conditions/gaussian_blur/severity_05/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "332ba498e9b43a8b29d91da1a3386027c9ce5100a49e8c2abcaa8275d2a9ae53",
+      "bytes": 36008
+    },
+    "conditions/gaussian_blur/severity_05/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "57728e368f9af6dfa8078c26ca8d7306ee77faddd0decd20c5e852c4fe5c6fcd",
+      "bytes": 108942
+    },
+    "conditions/gaussian_noise/severity_01/condition_manifest.json": {
+      "sha256": "9c5fa51ecf88b8007b53bf82e985f5315c1c21d97bb5a01788e8c64c9676bbd7",
+      "bytes": 2850
+    },
+    "conditions/gaussian_noise/severity_01/degradation_vs_clean.csv": {
+      "sha256": "57b2e0ab50925c79f8b8b8013d3ce53b409750c002d1841662f2a3b4dbc642cc",
+      "bytes": 3130
+    },
+    "conditions/gaussian_noise/severity_01/metrics.csv": {
+      "sha256": "51a9961044ebcf76df8824950466a7a1c514c3f1fff81fd80db32ee583226eaf",
+      "bytes": 872
+    },
+    "conditions/gaussian_noise/severity_01/metrics.json": {
+      "sha256": "abf757866b1befa674fc276aced9848e60bcf93b240b28203b32a9630803baa5",
+      "bytes": 8580
+    },
+    "conditions/gaussian_noise/severity_01/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "abe123eb82f7ef429b46664f855b2990793f47eee19b7da234208ff0c101438f",
+      "bytes": 844560
+    },
+    "conditions/gaussian_noise/severity_01/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "323688e797f1476b3df7d33aaaa4aebf6746f7e9df58f0e2628a0771c100329c",
+      "bytes": 34133
+    },
+    "conditions/gaussian_noise/severity_01/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "2276d1e76e17a92e6fd064dea9268a32be47b60d8c57ab571d6aa56772e046a5",
+      "bytes": 112406
+    },
+    "conditions/gaussian_noise/severity_02/condition_manifest.json": {
+      "sha256": "eadd34daaccaa2e28b2f799752e706d2420ace828bfb79a6ab52a03995978fec",
+      "bytes": 2849
+    },
+    "conditions/gaussian_noise/severity_02/degradation_vs_clean.csv": {
+      "sha256": "d443e225c183295b076c821c2aa460cdce6c335b37e0f69adb2f348d843eda40",
+      "bytes": 3071
+    },
+    "conditions/gaussian_noise/severity_02/metrics.csv": {
+      "sha256": "9df3c62a7a2826f808a7615b51ac5b529ec19b8bf3fe6c6972104373054bd237",
+      "bytes": 869
+    },
+    "conditions/gaussian_noise/severity_02/metrics.json": {
+      "sha256": "e0effce709c36587c34fe04d787b0ec20e502a81ca3839a3d3847afcdf2441c6",
+      "bytes": 8518
+    },
+    "conditions/gaussian_noise/severity_02/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "6ebf6041984195719d14463201b57547815c270d1f9591ba5e6953d857dc2b6e",
+      "bytes": 871676
+    },
+    "conditions/gaussian_noise/severity_02/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "35133fa888445c8b6955e2525922178ee49c19079ced11e87b2a700e53cb0723",
+      "bytes": 34523
+    },
+    "conditions/gaussian_noise/severity_02/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "4c7633260e9aa58351f0a693f63dd87c3fc7e041c14b0e76ddb8148e90086c94",
+      "bytes": 113197
+    },
+    "conditions/gaussian_noise/severity_03/condition_manifest.json": {
+      "sha256": "5aed46f733ee296ae4177c288088eb03528d340a7cf56a5a4facc0a685c475f4",
+      "bytes": 2849
+    },
+    "conditions/gaussian_noise/severity_03/degradation_vs_clean.csv": {
+      "sha256": "71ba114e6ec71cee2a58ac5bdeb210a4b1af28d8cdedeeb4068a06d3f4718696",
+      "bytes": 2997
+    },
+    "conditions/gaussian_noise/severity_03/metrics.csv": {
+      "sha256": "4be95a3a4c306b895ec8952dc944e780ebb10e614ea36394b8e45eba7862306f",
+      "bytes": 872
+    },
+    "conditions/gaussian_noise/severity_03/metrics.json": {
+      "sha256": "6f993dbcf4941b958e24f14a61e89ab5901593ce3e24b4430db4fad66b13d74e",
+      "bytes": 8447
+    },
+    "conditions/gaussian_noise/severity_03/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "9cbb5fc1d6df69d7e431f7717cd781540d9621669619240d222d29c1dfc73ac8",
+      "bytes": 914615
+    },
+    "conditions/gaussian_noise/severity_03/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "45ee52f019d53eee70aeece97658db63f7495ac82ee5b8890df36be3c90cdf39",
+      "bytes": 35177
+    },
+    "conditions/gaussian_noise/severity_03/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "34cfa68c268866e61ef69e167553d0940d7005b7ae605c14f22904cc56c2a8a7",
+      "bytes": 113571
+    },
+    "conditions/gaussian_noise/severity_04/condition_manifest.json": {
+      "sha256": "e1ebeaf310d75cdbbed111b35fe48e238764d20efa89f10318fc109f6d6cb567",
+      "bytes": 2850
+    },
+    "conditions/gaussian_noise/severity_04/degradation_vs_clean.csv": {
+      "sha256": "e4664d56c6c9b9d258f086ca1c9dc8697e23acef021982d9abaea0e023e572dc",
+      "bytes": 3009
+    },
+    "conditions/gaussian_noise/severity_04/metrics.csv": {
+      "sha256": "cd6cc26e7fe1bf09baa67e637d4f4fa9aad8dc492242ac8d7d644b3d75527a5f",
+      "bytes": 875
+    },
+    "conditions/gaussian_noise/severity_04/metrics.json": {
+      "sha256": "fee3a50e24c7d3f0d72f2bf8826a42e21bb3ea05f65243946b3cab84d222eadb",
+      "bytes": 8462
+    },
+    "conditions/gaussian_noise/severity_04/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "837e0cf50057d10d47b548ad088e328d4abf292b9f02a0e05fa59c2495c5c397",
+      "bytes": 965718
+    },
+    "conditions/gaussian_noise/severity_04/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "1b5ce6800cf03727f1af1a397b87dbfc1c71859d54d3b9d491da9a8dd12a7be9",
+      "bytes": 36145
+    },
+    "conditions/gaussian_noise/severity_04/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "a13613286ccb5996491904e82727cc74973614b5cac8c2f540bf6fec2a830b0d",
+      "bytes": 113450
+    },
+    "conditions/gaussian_noise/severity_05/condition_manifest.json": {
+      "sha256": "608c8d8d7ddeb82d90cf6931eb5859adc960843ee301aaab4bc5f854277307fc",
+      "bytes": 2850
+    },
+    "conditions/gaussian_noise/severity_05/degradation_vs_clean.csv": {
+      "sha256": "5f6e22af2e4682b2fce4f703da52c861e180e49cf51368816f326a7414b97565",
+      "bytes": 2990
+    },
+    "conditions/gaussian_noise/severity_05/metrics.csv": {
+      "sha256": "2445bd59b9137f3e19ea316cb2468b34f7fcfa10d2a068d89812ef58d83d84ee",
+      "bytes": 875
+    },
+    "conditions/gaussian_noise/severity_05/metrics.json": {
+      "sha256": "272a454ea3f1f62f0b2fa3e976b7a61275575ddfd085c5a9c0ed0169b9c90b27",
+      "bytes": 8443
+    },
+    "conditions/gaussian_noise/severity_05/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "81220527cd3c09b8a5fb2fc82176121bc19b580b1c50bca03b633e705caf7205",
+      "bytes": 1034502
+    },
+    "conditions/gaussian_noise/severity_05/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "d4541539a6799e2d32420cd388000dfa73407477ae051a7cdf7c27520019f766",
+      "bytes": 36904
+    },
+    "conditions/gaussian_noise/severity_05/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "906749e4bb2f2786a1a6c5baa37e47da72bc6dc8f1e630006feac21d768db121",
+      "bytes": 113268
+    },
+    "conditions/rotation/severity_01/condition_manifest.json": {
+      "sha256": "e473f14ca2c184d4ea82c51de0c390713e08d54f30e0bf6851dd1b7c8fea2f76",
+      "bytes": 2798
+    },
+    "conditions/rotation/severity_01/degradation_vs_clean.csv": {
+      "sha256": "3a9221c49855c4a27b20a3c558d7fd99d9d119d119a51f2015b02f10efcec7f8",
+      "bytes": 3025
+    },
+    "conditions/rotation/severity_01/metrics.csv": {
+      "sha256": "592d62960e537159432fd2e4c3e0d4b55972f94259a257e739478d2f5cfdae85",
+      "bytes": 870
+    },
+    "conditions/rotation/severity_01/metrics.json": {
+      "sha256": "3b7a7594093faee032ebcad9ff2e578817d3e04b50ef2c8e2c718f98c2193d3a",
+      "bytes": 8420
+    },
+    "conditions/rotation/severity_01/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "178ac4126127dc1fb131f91be950b5c23d8bebf81757d5d85f5dfe1f2ec08de6",
+      "bytes": 873925
+    },
+    "conditions/rotation/severity_01/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "c276f06d47e3a022311fea4430c993a0f22284c50d78cdf515fb643a8f6c6e61",
+      "bytes": 34495
+    },
+    "conditions/rotation/severity_01/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "d7e3fb6f275d5326fb3be9739dbecc67b325f8609dd5dbf7cdee9446e0bfaf6e",
+      "bytes": 113559
+    },
+    "conditions/rotation/severity_02/condition_manifest.json": {
+      "sha256": "1f672d5502cbfe29bce7b759e7b981220009dde76679b2d03d7ed95fbe87f1c3",
+      "bytes": 2797
+    },
+    "conditions/rotation/severity_02/degradation_vs_clean.csv": {
+      "sha256": "249eee756238243a5aa24ee8bcd41cb06e5a13c813a17ca3a76334cf46050e38",
+      "bytes": 3037
+    },
+    "conditions/rotation/severity_02/metrics.csv": {
+      "sha256": "000fb0404ec5ae9d33632665db39a7d7b32e267d20bb2fc8876b687029cf5b18",
+      "bytes": 869
+    },
+    "conditions/rotation/severity_02/metrics.json": {
+      "sha256": "7beca1a5a7fea5bb86e0140ee34ad8a7da448c098df6f574fafc616dfa6505ea",
+      "bytes": 8431
+    },
+    "conditions/rotation/severity_02/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "3c78722368ba8db52213e0d9466174ebed9606635a3d2eb99763e632200d6162",
+      "bytes": 881165
+    },
+    "conditions/rotation/severity_02/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "e6ca00a4c44a1dd35b68ab638849b8ce2d7f31515cacc93e9ac4b84408757ed7",
+      "bytes": 34543
+    },
+    "conditions/rotation/severity_02/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "1c1961e265fabe1c564c3f9688aba9f8f3e69eceea0bb5e6982bedff06c15240",
+      "bytes": 114193
+    },
+    "conditions/rotation/severity_03/condition_manifest.json": {
+      "sha256": "d4e710258526e1d06b1615bba20a715fa90ea6f3e62dd04798ab5aaa6e0dff6e",
+      "bytes": 2799
+    },
+    "conditions/rotation/severity_03/degradation_vs_clean.csv": {
+      "sha256": "618fa90bea23ac8b24e088a0da8fc67057ace16703a18ce9e08dabfd04418dbc",
+      "bytes": 3082
+    },
+    "conditions/rotation/severity_03/metrics.csv": {
+      "sha256": "816b24fb4f59fb9dd0502c14539a36d6bf14b01ad6a50d746f657e347d94d388",
+      "bytes": 872
+    },
+    "conditions/rotation/severity_03/metrics.json": {
+      "sha256": "819795dd5ed0fc4e2ae8b7e824aabaa9b3f9d6a758810ef1430d13a817b57402",
+      "bytes": 8480
+    },
+    "conditions/rotation/severity_03/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "2877aa2316da379b718e00bd41a27e863ca81cfd15d13c800e1ad47d77a230af",
+      "bytes": 890603
+    },
+    "conditions/rotation/severity_03/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "13e3079197432f98c6feeea13eef135cb432b2f5edeb9c0b7e921dcf45457984",
+      "bytes": 34408
+    },
+    "conditions/rotation/severity_03/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "6742474ca7a7481e2f179f09f3f62676b330a2960204571fb0f48508e5a67923",
+      "bytes": 114440
+    },
+    "conditions/rotation/severity_04/condition_manifest.json": {
+      "sha256": "6f62d5ff1ed4679fedc1c030a094b312764497b84184857952b2266b15236f5d",
+      "bytes": 2799
+    },
+    "conditions/rotation/severity_04/degradation_vs_clean.csv": {
+      "sha256": "9f09388528e6d463ebedb347ededfd992d3f7d19d2fc0428ef2eb3438af9fa80",
+      "bytes": 3075
+    },
+    "conditions/rotation/severity_04/metrics.csv": {
+      "sha256": "d754a155e6dc2cb37ab9fd222f37a1f3d905d9723e0d108e9a622dbbd14b204d",
+      "bytes": 868
+    },
+    "conditions/rotation/severity_04/metrics.json": {
+      "sha256": "0577eccb67641db57f28944135a6218458a57294419ffdb295c7a4768920107f",
+      "bytes": 8469
+    },
+    "conditions/rotation/severity_04/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "9318c6b3491106f2c1831547f2876b1e78e3b3f0421734345df66b07bd9b991a",
+      "bytes": 897976
+    },
+    "conditions/rotation/severity_04/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "a3b207564c939953b1d75d9f16f24166b5abed92773b8a1b65fa53137f44b9ae",
+      "bytes": 34528
+    },
+    "conditions/rotation/severity_04/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "7f3371c8a7df6c2b258c938435068784a62f5a5c673127f32ae6c117d0a7851c",
+      "bytes": 114794
+    },
+    "conditions/rotation/severity_05/condition_manifest.json": {
+      "sha256": "b581adc035b136e817f4a9c70d657909fe0e9aafa8d1021c8a631db425fbf8dd",
+      "bytes": 2798
+    },
+    "conditions/rotation/severity_05/degradation_vs_clean.csv": {
+      "sha256": "aa98583a7ae42a37dc2913f6a4f645156c53056125d86b5ed5f80dc3a5159a8a",
+      "bytes": 2997
+    },
+    "conditions/rotation/severity_05/metrics.csv": {
+      "sha256": "dd7a8ba9bcfcc60846c0c380e98664ff904328be97c0d8a99b456ad852e4b5d8",
+      "bytes": 872
+    },
+    "conditions/rotation/severity_05/metrics.json": {
+      "sha256": "74119022c23162160446d2b0d77fe697abec2cd2078e71299b85b1f2d91f743b",
+      "bytes": 8395
+    },
+    "conditions/rotation/severity_05/per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "38e54b23bfaa930a050b2c8aa33b83d7e1fded212f80ca6e3e8c126ff5890f08",
+      "bytes": 908053
+    },
+    "conditions/rotation/severity_05/per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "209eb8fa79f51de4d346a91a39b406fe6b6eb0b79697fec8e029b204da772002",
+      "bytes": 34492
+    },
+    "conditions/rotation/severity_05/per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "f6bd6c1c175a0adb4fbe5d1b12a8b58bbba9b7f2b7dc67490e9927e9a294c55d",
+      "bytes": 115053
+    },
+    "robustness_summary.csv": {
+      "sha256": "156f4e578f0e448669b671f86056c281cb70ab0d2022cb2daedcd3a7f2f2fcc6",
+      "bytes": 121685
+    },
+    "robustness_summary.json": {
+      "sha256": "8ffb2146f7680cf529bf2d8618fa82b05cd0d2829eedac5079556ab5436b6139",
+      "bytes": 317761
+    },
+    "run_config.json": {
+      "sha256": "15768aef9be574e0a89b0aa31dc3cefd49c3b7b7e57bcd6bfe97cc392025b0e5",
+      "bytes": 9568
+    }
+  },
+  "payload_sha256": "698e1db6eca440c4761c86377582690f9b17eb13847bae6960abd4aee1be94b1"
+}

@@ -1,0 +1,283 @@
+{
+  "schema": "root-independent-completion-adoption.v1",
+  "adopted_utc": "2026-09-28T12:38:16.7644736+00:00",
+  "adopted": true,
+  "root_script": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\adopt_sues_embed_dim_1024_seed1.ps1",
+    "bytes": 7172,
+    "sha256": "db7fbf5984ee1c1d4564b064f77bbf8a3d82c0513aeb3c0d5f7810e071b4f39a"
+  },
+  "independent_report": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\SUES_EMBED_DIM_1024_SEED1_COMPLETION.json",
+    "bytes": 25156,
+    "sha256": "5136b0acd9cc7bcc67d6d49a41fff5476b40d2f647c0b0239a95bed691d84475"
+  },
+  "reviewed_source_diff": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\SUES_EMBED_DIM_1024_SEED1_SOURCE_DIFF.patch",
+    "bytes": 11725,
+    "sha256": "dfc9ca366730ebdc58432737e3d92482e5d6b09a20e8c68ca4967b0b9bbe6fe3"
+  },
+  "verified_small_evidence_bindings": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\review_sues_embed_dim_1024_seed1.py",
+      "bytes": 17512,
+      "sha256": "beac28b678f5423d33b2c6006aa73354483060d1fbc332d436978acd4cfc7821"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\review_sues_embed_dim_256_seed1.py",
+      "bytes": 17216,
+      "sha256": "074d249a71696f5a2e3fb3b77a0c044bdd0b1389652b2b2413adeb77ac031ab5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260927_2145\\OWNER_SNAPSHOT_20260928_133459473.json",
+      "bytes": 11627,
+      "sha256": "01f16a077b9d005322ffc739b30d97b7899db6bd5b6df663cf85f857d8c35d28"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\ROOT_FIT_41_ADOPTION_20260928.json",
+      "bytes": 15647,
+      "sha256": "e5f1c6512f829a66e9dc73915627d985aec174dfe7f4226696b631298369bd05"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\SUES_EMBED_DIM_256_SEED1_COMPLETION.json",
+      "bytes": 20913,
+      "sha256": "68d37cb7f5dc09d0dec190ac3c30fb128c01bb8de1a3c7f1101edfcdaa24541e"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_frozen_formal_matrix.py",
+      "bytes": 44894,
+      "sha256": "f251e5088b306ddec4769fab06799008d06194bc459282f2432ac3238f4ba59f"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\lgm_game_pytorch\\formal_retrieval.py",
+      "bytes": 102924,
+      "sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\FORMAL_EXPERIMENT_PROTOCOL.md",
+      "bytes": 6247,
+      "sha256": "29c0502b07f09d45c6fd7d4a5b582fdd9a443acc9e8b818cd9941c18a0ee34f9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\SUES_EMBED_DIM_1024_SEED1_PARENT_STATUS_RAW.json",
+      "bytes": 33395,
+      "sha256": "5a0499fcb07a07fb99b38f6b4ffdd9faee2558a58f35c76aa36b7865d2d5be66"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\SUES_EMBED_DIM_1024_SEED1_LEDGER_RAW.json",
+      "bytes": 357060,
+      "sha256": "7e30828d633fab4e933c0280b869fd55a717dff2dbc9823a2cb4b92ef70a8e83"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\raw_runs\\formal_sensitivity\\sues200\\embed_dim_1024\\seed_1\\run_manifest.json",
+      "bytes": 2578,
+      "sha256": "794b1970aa5bb5416effb1d12212e4497afe814d8854872a97654f3678e2c322"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\raw_runs\\formal_sensitivity\\sues200\\embed_dim_1024\\seed_1\\run_config.json",
+      "bytes": 9383,
+      "sha256": "56b38267227fe07421347f6c9f0ff98b7c54d239c16c614f392e1b7c4ffa07ba"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\raw_runs\\formal_sensitivity\\sues200\\embed_dim_1024\\seed_1\\history.json",
+      "bytes": 36090,
+      "sha256": "ce59a16cb9ec79d97b72bc2a43b880ee53820b11f58d8393a6cd0abd3424ee22"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_sensitivity\\sues200\\embed_dim_1024\\seed_1\\run_manifest.json",
+      "bytes": 2578,
+      "sha256": "794b1970aa5bb5416effb1d12212e4497afe814d8854872a97654f3678e2c322"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_sensitivity\\sues200\\embed_dim_1024\\seed_1\\run_config.json",
+      "bytes": 9383,
+      "sha256": "56b38267227fe07421347f6c9f0ff98b7c54d239c16c614f392e1b7c4ffa07ba"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_sensitivity\\sues200\\embed_dim_1024\\seed_1\\history.json",
+      "bytes": 36090,
+      "sha256": "ce59a16cb9ec79d97b72bc2a43b880ee53820b11f58d8393a6cd0abd3424ee22"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_sensitivity\\sues200\\embed_dim_1024\\seed_1\\run.log",
+      "bytes": 10376,
+      "sha256": "7453feb82f26f425d0a1c7c00f36a144c9fd8dfa3094b7ca8f05da452c3e94a2"
+    }
+  ],
+  "verified_small_evidence_count": 17,
+  "root_read_independent_source_and_diff": true,
+  "independent_verified_all_five_new_artifacts": true,
+  "root_repeated_old_41_checkpoint_hashes": false,
+  "root_repeated_new_checkpoint_hashes": false,
+  "completed_fit_count": 42,
+  "completed_fit_ids": [
+    "formal_main/sues200/content/seed_1/resnet18/dim_512",
+    "formal_main/sues200/content/seed_2/resnet18/dim_512",
+    "formal_main/sues200/content/seed_3/resnet18/dim_512",
+    "formal_main/sues200/full/seed_1/resnet18/dim_512",
+    "formal_main/sues200/full/seed_2/resnet18/dim_512",
+    "formal_main/sues200/full/seed_3/resnet18/dim_512",
+    "formal_main/sues200/style/seed_1/resnet18/dim_512",
+    "formal_main/sues200/style/seed_2/resnet18/dim_512",
+    "formal_main/sues200/style/seed_3/resnet18/dim_512",
+    "formal_main/sues200/visual/seed_1/resnet18/dim_512",
+    "formal_main/sues200/visual/seed_2/resnet18/dim_512",
+    "formal_main/sues200/visual/seed_3/resnet18/dim_512",
+    "formal_main/sues200/visual_content/seed_1/resnet18/dim_512",
+    "formal_main/sues200/visual_content/seed_2/resnet18/dim_512",
+    "formal_main/sues200/visual_content/seed_3/resnet18/dim_512",
+    "formal_main/sues200/visual_style/seed_1/resnet18/dim_512",
+    "formal_main/sues200/visual_style/seed_2/resnet18/dim_512",
+    "formal_main/sues200/visual_style/seed_3/resnet18/dim_512",
+    "formal_main/university1652/content/seed_1/resnet18/dim_512",
+    "formal_main/university1652/content/seed_2/resnet18/dim_512",
+    "formal_main/university1652/content/seed_3/resnet18/dim_512",
+    "formal_main/university1652/full/seed_1/resnet18/dim_512",
+    "formal_main/university1652/full/seed_2/resnet18/dim_512",
+    "formal_main/university1652/full/seed_3/resnet18/dim_512",
+    "formal_main/university1652/style/seed_1/resnet18/dim_512",
+    "formal_main/university1652/style/seed_2/resnet18/dim_512",
+    "formal_main/university1652/style/seed_3/resnet18/dim_512",
+    "formal_main/university1652/visual/seed_1/resnet18/dim_512",
+    "formal_main/university1652/visual/seed_2/resnet18/dim_512",
+    "formal_main/university1652/visual/seed_3/resnet18/dim_512",
+    "formal_main/university1652/visual_content/seed_1/resnet18/dim_512",
+    "formal_main/university1652/visual_content/seed_2/resnet18/dim_512",
+    "formal_main/university1652/visual_content/seed_3/resnet18/dim_512",
+    "formal_main/university1652/visual_style/seed_1/resnet18/dim_512",
+    "formal_main/university1652/visual_style/seed_2/resnet18/dim_512",
+    "formal_main/university1652/visual_style/seed_3/resnet18/dim_512",
+    "formal_sensitivity/sues200/full/seed_1/resnet18/dim_1024",
+    "formal_sensitivity/sues200/full/seed_1/resnet18/dim_256",
+    "formal_sensitivity/sues200/full/seed_1/resnet50/dim_512",
+    "formal_sensitivity/university1652/full/seed_1/resnet18/dim_1024",
+    "formal_sensitivity/university1652/full/seed_1/resnet18/dim_256",
+    "formal_sensitivity/university1652/full/seed_1/resnet50/dim_512"
+  ],
+  "formal_evaluation_manifest_count_at_independent_train_audit": 3,
+  "formal_evaluation_manifests_not_accepted_by_this_train_adoption": [
+    "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\formal_main\\university1652\\content\\seed_1\\evaluation_manifest.json",
+    "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\formal_main\\university1652\\content\\seed_2\\evaluation_manifest.json",
+    "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\formal_main\\university1652\\content\\seed_3\\evaluation_manifest.json"
+  ],
+  "accepted_evaluations_by_this_train_adoption": 0,
+  "completed_run": "formal_sensitivity/sues200/full/seed_1/resnet18/dim_1024",
+  "parent_completed_event": {
+    "started_utc": "2026-09-28T11:07:22.587044+01:00",
+    "command": [
+      "C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe",
+      "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\primary_path_repair_20260918\\run_formal_worker.py",
+      "--path-compat-sha256",
+      "11de17bd611431e4471eec1b8ac072a2159fbd02e4eb2cb041b4f3b0f00012a1",
+      "train",
+      "--dataset",
+      "sues200",
+      "--data-root",
+      "C:\\项目\\IMTMN\\datasets\\SUES-200",
+      "--evidence",
+      "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.npz",
+      "--output-dir",
+      "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_sensitivity\\sues200\\embed_dim_1024\\seed_1",
+      "--device",
+      "cuda",
+      "--workers",
+      "8",
+      "--seed",
+      "1",
+      "--data-hash-mode",
+      "content",
+      "--amp",
+      "--eval-batch-size",
+      "128",
+      "--eval-chunk-size",
+      "128",
+      "--variant",
+      "full",
+      "--backbone",
+      "resnet18",
+      "--embed-dim",
+      "1024",
+      "--dropout",
+      "0.20",
+      "--pretrained",
+      "--image-size",
+      "224",
+      "--resize-size",
+      "256",
+      "--epochs",
+      "80",
+      "--warmup-epochs",
+      "5",
+      "--learning-rate",
+      "0.0003",
+      "--backbone-lr-multiplier",
+      "0.1",
+      "--weight-decay",
+      "0.0001",
+      "--gradient-clip-norm",
+      "5.0",
+      "--identities-per-batch",
+      "16",
+      "--instances-per-identity",
+      "4",
+      "--samples-per-class-per-epoch",
+      "0",
+      "--steps-per-epoch",
+      "0",
+      "--val-fraction",
+      "0",
+      "--patience",
+      "0",
+      "--resume",
+      "none"
+    ],
+    "output_dir": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_sensitivity\\sues200\\embed_dim_1024\\seed_1",
+    "status": "completed",
+    "pid": 19004,
+    "finished_utc": "2026-09-28T13:20:45.068066+01:00",
+    "exit_code": 0,
+    "elapsed_seconds": 8002.7
+  },
+  "old_pids_absent_at_root_sample": [
+    19004,
+    31612
+  ],
+  "independently_held_training_exit_handles": false,
+  "interpreter_exit_code_observed": false,
+  "exit_evidence_basis": "Original parent Popen launcher exit0 and later CIM absence; no independent dual-handle exit proof.",
+  "owner_snapshot": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260927_2145\\OWNER_SNAPSHOT_20260928_133721457.json",
+    "bytes": 11610,
+    "sha256": "9a9e17c9b0c2ae9a6c8c1352f2b1c42bec9c5454337c659f04651226335d926b"
+  },
+  "transition_evidence": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260927_2145\\TRANSITION_20260928_133652.json",
+    "bytes": 33828,
+    "sha256": "26043523e817f4fff477f06d018f85c8751d522f0c2ce88977fcf25b7fe4bbf7"
+  },
+  "fresh_root_identity_count": 12,
+  "current_science": [
+    {
+      "pid": 31708,
+      "parent": 16412,
+      "creation": "2026-09-28T13:36:51.024279+01:00",
+      "creation_utc_ticks": 639261958110242790,
+      "command": "C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\primary_path_repair_20260918\\run_formal_worker.py --path-compat-sha256 11de17bd611431e4471eec1b8ac072a2159fbd02e4eb2cb041b4f3b0f00012a1 evaluate --dataset university1652 --data-root C:\\项目\\IMTMN\\datasets\\University-1652 --evidence C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.npz --output-dir C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\formal_main\\university1652\\style\\seed_1 --device cuda --workers 8 --seed 1 --data-hash-mode content --amp --eval-batch-size 128 --eval-chunk-size 128 --checkpoint C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\style\\seed_1\\best.pt"
+    },
+    {
+      "pid": 16524,
+      "parent": 31708,
+      "creation": "2026-09-28T13:36:51.046254+01:00",
+      "creation_utc_ticks": 639261958110462540,
+      "command": "\"C:\\Users\\17703\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\" C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\primary_path_repair_20260918\\run_formal_worker.py --path-compat-sha256 11de17bd611431e4471eec1b8ac072a2159fbd02e4eb2cb041b4f3b0f00012a1 evaluate --dataset university1652 --data-root C:\\项目\\IMTMN\\datasets\\University-1652 --evidence C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.npz --output-dir C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\formal_main\\university1652\\style\\seed_1 --device cuda --workers 8 --seed 1 --data-hash-mode content --amp --eval-batch-size 128 --eval-chunk-size 128 --checkpoint C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\style\\seed_1\\best.pt"
+    }
+  ],
+  "current_history_count": 0,
+  "current_history_at_snapshot": null,
+  "running_resource_snapshot_not_a_stop_threshold": true,
+  "runtime_commit_headroom_GiB": 43.8432502746582,
+  "no_live_state_or_source_changes": true,
+  "no_scientific_library_imports": true,
+  "no_recovery_or_validateonly": true,
+  "resumed_segment_time_not_used_as_complete_training_efficiency": true
+}

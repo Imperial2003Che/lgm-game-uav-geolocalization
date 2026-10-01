@@ -1,0 +1,23 @@
+{
+  "schema": "offline-native-visio-actual-full-tool-receipt.v1",
+  "recorded_utc": "2026-09-30T10:12:07.264051+00:00",
+  "scope": "post-execution actual tool transcript, not held-process or native application proof",
+  "tool": {
+    "chunk_id": "5ab393",
+    "exit_code": 0,
+    "wall_time_seconds": 8.5316605
+  },
+  "build_report": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\BUILD_REPORT.json",
+    "bytes": 92748,
+    "sha256": "9a25ed045d253652ebfa6363ad274b745fff74f80ef2b8665aeda0d0bd826475"
+  },
+  "figure_count": 68,
+  "native_object_count": 19945,
+  "native_text_count": 8879,
+  "sample_replayed": false,
+  "COM_or_Office_invoked": false,
+  "scientific_execution": false,
+  "visio_open_validated": false,
+  "visio_roundtrip_pending": true
+}

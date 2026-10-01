@@ -1,0 +1,87 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "status": "completed",
+  "completed_utc": "2026-09-29T13:12:45.135500+00:00",
+  "run_config_sha256": "f5f1752ceb01cb8f9e28cf70712d8bd4f4045cbf1d44f53b4c07a7babf8f9f21",
+  "condition_sha256": "5760be33274b8d8921a35fc4391cdd8b4870f87d7f9ab75657704a5373248ffc",
+  "condition": {
+    "kind": "corruption",
+    "name": "center_occlusion",
+    "display_name": "Center occlusion",
+    "severity_index": 1,
+    "parameter": "area_fraction",
+    "value": 0.05,
+    "units": "fraction of decoded source-image area",
+    "implementation": "A centered rectangle with width and height scaled by sqrt(area_fraction) is filled with the per-image mean RGB colour; integer dimensions are rounded and clipped to the source image.",
+    "corruption_seed": 20260727,
+    "query_only": true,
+    "gallery": "clean"
+  },
+  "query_coverage": {
+    "expected_unique_images": 16080,
+    "encoded_unique_images": 16080,
+    "coverage_fraction": 1.0,
+    "missing_images": 0,
+    "extra_images": 0,
+    "complete": true,
+    "path_membership_sha256": "40405ea014d1198d3b050b4891f34b12e5a172de37802a9778a40d22c8f5157b",
+    "encoded_feature_sha256": "fbf343b1b0eeb0346bfd5062043fda0e7eb2774478b14b65a1a737ac7c376b8c",
+    "embedding_dim": 512,
+    "embedding_storage_dtype_for_hash": "little-endian float32",
+    "pixels_decoded_for_every_active_visual_embedding": true,
+    "corruption_applied_before_all_model_preprocessing": true,
+    "query_content_style_evidence_mode": "recomputed_from_corrupted_rgb_pixels",
+    "elapsed_seconds": 143.67975480000314
+  },
+  "all_official_queries_used": true,
+  "clean_gallery_used": true,
+  "feature_level_corruption_used": false,
+  "elapsed_seconds": 144.3839627999987,
+  "artifacts": {
+    "degradation_vs_clean.csv": {
+      "sha256": "bbe52da4af246f1058b25f70d82b17ac663aa99db70b8b3aedc76b65d8087bb1",
+      "bytes": 6687
+    },
+    "metrics.csv": {
+      "sha256": "afd481aded817349dfd55e5e4db00e4530094c214c8bec46719211f435f3a009",
+      "bytes": 1717
+    },
+    "metrics.json": {
+      "sha256": "239cafbbd3e4f4046592cde573b82fc6c239770140ba09313fd4a9f4ace9dbb9",
+      "bytes": 19702
+    },
+    "per_query_arrays/sues200_satellite_to_uav_150m_per_query.npz": {
+      "sha256": "01dfd4e3076ee1cc9de1cdaa1b9f1803e30dac88c8d8befed3af2854aa631211",
+      "bytes": 8246
+    },
+    "per_query_arrays/sues200_satellite_to_uav_200m_per_query.npz": {
+      "sha256": "5d30abe1f2235a5515545c2bb6995ea46feab42ae9caf7569c3cee446b7035b0",
+      "bytes": 8081
+    },
+    "per_query_arrays/sues200_satellite_to_uav_250m_per_query.npz": {
+      "sha256": "6636b6eab051a97362b2282af8d4c0352df80694e97ab426eb2be74a8c23555f",
+      "bytes": 8056
+    },
+    "per_query_arrays/sues200_satellite_to_uav_300m_per_query.npz": {
+      "sha256": "2e49bada524e64db75a08205ace4b51539fd372c728effc163316374251eb777",
+      "bytes": 8051
+    },
+    "per_query_arrays/sues200_uav_150m_to_satellite_per_query.npz": {
+      "sha256": "0e53beaf3759d828b1a7a377c795a9c7df7478bd13a8beb0ba7de04846ea9c56",
+      "bytes": 93869
+    },
+    "per_query_arrays/sues200_uav_200m_to_satellite_per_query.npz": {
+      "sha256": "ded862b9ca13fa73cdaabc3587cd836c6db843bd9b0574e96d367ba1ab458740",
+      "bytes": 91658
+    },
+    "per_query_arrays/sues200_uav_250m_to_satellite_per_query.npz": {
+      "sha256": "e2c61a399f6c3670df8284b6c9fc96fdd64e63924b052e5eff61ac8c63fc3581",
+      "bytes": 90347
+    },
+    "per_query_arrays/sues200_uav_300m_to_satellite_per_query.npz": {
+      "sha256": "98f8ca1a662089981d3e20fbdc5013673bea1eb7e2e7c767e164bb7499e46b44",
+      "bytes": 89550
+    }
+  },
+  "payload_sha256": "ee2cd2a15cb0b46a7a934a2cff0f48e7f82f85143b3c7329c49d3810db84f3cc"
+}

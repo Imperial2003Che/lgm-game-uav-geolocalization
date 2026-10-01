@@ -1,0 +1,15 @@
+$ErrorActionPreference='Stop'
+function J($p){Get-Content -LiteralPath $p -Raw|ConvertFrom-Json -DateKind String}
+function D($p){$f=Get-Item -LiteralPath $p;[ordered]@{path=$p;bytes=$f.Length;sha256=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash.ToLowerInvariant()}}
+$base='C:\OneDrive\文档\LGM-GAME\outputs\paper_evidence_rebuild_20260914\execution\host_boot_change_20260930_0008'
+$newPath=Join-Path $base 'OBSERVATION_WRAPPER_INCLUDED.json';$new=J $newPath;$old=J (Join-Path $base 'OBSERVATION.json')
+if((D $newPath).sha256 -ne '3beae07f423116a525d048622ffdd26c021a369ce13239e7fddb8115fb2b6a84'){throw 'New observation SHA mismatch'}
+$rawOld=Get-Content -LiteralPath $old.source.path -Raw;$rawNew=Get-Content -LiteralPath $new.source.path -Raw
+$expected=$rawOld.Replace('-match ''(supervise_pipeline|','-match ''(run_controller_with_state_retry_v2|supervise_pipeline|').Replace("Save 'OBSERVATION.json'","Save 'OBSERVATION_WRAPPER_INCLUDED.json'")
+if($expected -cne $rawNew){throw 'Additional unreviewed source differences'}
+$newSource=D $new.source.path;if($newSource.sha256 -ne $new.source.sha256 -or $newSource.bytes -ne $new.source.bytes){throw 'Source binding mismatch'}
+$rows=@();foreach($f in $new.files){$prior=@($old.files|Where-Object path -eq $f.path);if($prior.Count -ne 1 -or $prior[0].bytes -ne $f.bytes -or $prior[0].sha256 -ne $f.sha256){throw 'File binding changed'};$rows+=$f}
+if($rows.Count -ne 16){throw 'Expected16 file bindings'}
+foreach($snap in @($new.first,$new.second)){if($snap.boot_utc_ticks -ne '639263179115000000' -or $snap.matches.Count -ne 1 -or $snap.matches[0].pid -ne 14420 -or $snap.matches[0].name -ne 'AppActions.exe' -or $snap.matches[0].creation_utc_ticks -ne '639263185295777970'){throw 'New snapshot identity differs'}}
+$r=[ordered]@{schema='independent-host-boot-wrapper-selector-addendum.v1';utc=[DateTime]::UtcNow.ToString('o');passed_with_stated_scope=$true;base_review=D (Join-Path $PSScriptRoot 'REVIEW.json');new_observation=D $newPath;new_source=$newSource;exact_source_diff='Only prepend run_controller_with_state_retry_v2 to command regex and use distinct output filename';source_full_text_diff_verified=$true;unchanged_sixteen_file_bindings=$rows.Count;new_samples=@($new.first,$new.second);joint_conclusion='New recorded selector now also explicitly covers the known state-retry wrapper. Both saved samples find only unrelated AppActions.exe reusing numeric PID14420, and no matching known scientific command or VISIO.EXE. Old/new identity and boot conclusions remain unchanged.';limitations=@('Saved root observations only; reviewer did not perform new CIM/GPU queries or execute observer.','Not an exhaustive assertion about arbitrary renamed commands, inaccessible command lines or unobserved short-lived processes.','No independent process exit code or full historical parent lineage is inferred.','No release/launch/recovery/COM/native probe/lock/state/old-root mutation.')}
+$p=Join-Path $PSScriptRoot 'WRAPPER_ADDENDUM.json';if(Test-Path -LiteralPath $p){throw 'addendum exists'};[IO.File]::WriteAllText($p,($r|ConvertTo-Json -Depth 12),[Text.UTF8Encoding]::new($false));D $p|ConvertTo-Json

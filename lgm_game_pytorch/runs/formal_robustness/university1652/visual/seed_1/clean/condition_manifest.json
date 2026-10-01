@@ -1,0 +1,56 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "status": "completed",
+  "completed_utc": "2026-09-29T05:48:57.218790+00:00",
+  "run_config_sha256": "51edb3f929b337ec3c129ad502336a5f5676ef15fbd606d760526b04a2dbfbd0",
+  "condition_sha256": "bacb0951f432a96ac787aec3eccfa5140d6b5b0e859eb3bb38f77d9d3c937b98",
+  "condition": {
+    "kind": "clean",
+    "name": "clean",
+    "query_pixels": "decoded without corruption",
+    "gallery": "clean"
+  },
+  "query_coverage": {
+    "expected_unique_images": 41135,
+    "encoded_unique_images": 41135,
+    "coverage_fraction": 1.0,
+    "missing_images": 0,
+    "extra_images": 0,
+    "complete": true,
+    "path_membership_sha256": "1f83323bb372cd5c461c14c8b1de4676f0389dfa0d212ea45d5adddc47822b4a",
+    "encoded_feature_sha256": "5536ae3c18cba53b2dbae2bdf7bba552ab846cc252eeda14d1ea708263fa97f7",
+    "embedding_dim": 512,
+    "embedding_storage_dtype_for_hash": "little-endian float32",
+    "pixels_decoded_for_every_active_visual_embedding": true,
+    "corruption_applied_before_all_model_preprocessing": false,
+    "query_content_style_evidence_mode": "clean_cache",
+    "elapsed_seconds": 150.08885699999882
+  },
+  "all_official_queries_used": true,
+  "clean_gallery_used": true,
+  "feature_level_corruption_used": false,
+  "elapsed_seconds": 150.08885699999882,
+  "artifacts": {
+    "metrics.csv": {
+      "sha256": "ac65e29208d16cc182861d89ece6a82b28e3dee25722127db82df21e79878bae",
+      "bytes": 871
+    },
+    "metrics.json": {
+      "sha256": "1e95549520a2721be6aa817e5a977908c0e20a161ab988e1a65a770c67f8de8d",
+      "bytes": 2072
+    },
+    "per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "c4e726f78c45cbaaea34141fa9dfb1bef647e90c0d61e1a0620a00e70ec477c4",
+      "bytes": 524445
+    },
+    "per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "1a637d98338cd35d204e29f26e2e390e02e0b8f253ee2ddd285a9b1cdb0a665d",
+      "bytes": 21527
+    },
+    "per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "c94dff89875d5453ca47cb2e8d94e276aac59d43fa7e2b0927ecb459509648d9",
+      "bytes": 67346
+    }
+  },
+  "payload_sha256": "5e25bd856032a280cc5ce9b942fa07330f80f11bef185716d5a2f3ebb84868c0"
+}

@@ -1,0 +1,2609 @@
+{
+  "schema": "offline-native-visio-build.v1",
+  "mode": "full68",
+  "source_manifest": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\INPUT_MANIFEST_v2.json",
+    "bytes": 1052344,
+    "sha256": "506aa8f9bee244714e61ec610a21345ecbdd89b91cf816d57db1c9c490b10bdd"
+  },
+  "figures": [
+    {
+      "family": "transfer",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\native_svg\\transfer_sues_to_university.svg",
+        "bytes": 24592,
+        "sha256": "02934476b3f90471332d99381afe3b1d827c94e358ce203a2f032c68bb97ad13"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\transfer\\transfer_sues_to_university__native_editable.vsdx",
+        "bytes": 22113,
+        "sha256": "c654826a30d9028d171a567c0bd140c6f3a491a01b318082087de6a4cf7a7ad9"
+      },
+      "native_objects": 152,
+      "native_texts": 48,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 113.94722222222221,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          323.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 11,
+          "text": 48,
+          "circle": 10,
+          "line": 83
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "transfer",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\native_svg\\transfer_university_to_sues.svg",
+        "bytes": 54147,
+        "sha256": "44b895a8f12fc07fbafe80afafa32dc1db6cd7542ae9750ea5a0b666d336b6ea"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\transfer\\transfer_university_to_sues__native_editable.vsdx",
+        "bytes": 37989,
+        "sha256": "f9433fd1f16f23de92b79bafe73f575f04949fe389b8f0e83866c81bd06b2439"
+      },
+      "native_objects": 335,
+      "native_texts": 96,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 195.0861111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          553.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 26,
+          "text": 96,
+          "circle": 25,
+          "line": 188
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_satellite_to_uav_150m__official_trapezoid_map.svg",
+        "bytes": 108853,
+        "sha256": "1ffefac42e5caf28beeafb57bc87fef1db90fd6901f6ac3619d663d61742649d"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_satellite_to_uav_150m__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47789,
+        "sha256": "dd8d2af2422321bc0995ab15837b41a3fe35d4cf63eff64539e16ad72da24a60"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_satellite_to_uav_150m__r_at_1.svg",
+        "bytes": 101873,
+        "sha256": "4963d88bc1e070930ea1b24cb59c02b8bfcfc6b337ffdfb58a727d4bf3a6ed51"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_satellite_to_uav_150m__r_at_1__native_editable.vsdx",
+        "bytes": 46132,
+        "sha256": "a61d3b0beb21a1900865452dbf6cebb42ef3681ff690b698ce9590badad26409"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_satellite_to_uav_200m__official_trapezoid_map.svg",
+        "bytes": 108738,
+        "sha256": "71743ec4400f41fdb760a08fec57ee938cdf8c237f7d41e9038129ddfbdfbd9f"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_satellite_to_uav_200m__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47730,
+        "sha256": "041dc825ee56e510183d8ffcf05660397985f119ee776248b947c74213ad22ca"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_satellite_to_uav_200m__r_at_1.svg",
+        "bytes": 101916,
+        "sha256": "899cf4bdfd9abf98695d532e62b371f924b9e0e58e3661ccc4e07dd112d9b08b"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_satellite_to_uav_200m__r_at_1__native_editable.vsdx",
+        "bytes": 45763,
+        "sha256": "a6f4b1786051e3b180c6f4b7d67171d88ca4654f970a21e30ca58d26e9b01acd"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_satellite_to_uav_250m__official_trapezoid_map.svg",
+        "bytes": 108746,
+        "sha256": "01930276dd7aad940d76d3e7d1897735b44a91c81b4a027fa76e42796a046883"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_satellite_to_uav_250m__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47737,
+        "sha256": "52998eb7e7bcdf3d91793462b0f39c32dc43280ec0fd74d871f00aafd7b390c4"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_satellite_to_uav_250m__r_at_1.svg",
+        "bytes": 101578,
+        "sha256": "4bd0cc42cc19a7f48ba731c18604d2ad30dbae3d4342571472fbe835357fcbc9"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_satellite_to_uav_250m__r_at_1__native_editable.vsdx",
+        "bytes": 45848,
+        "sha256": "272e6610dae1a4d0bafb795d6bdd3f98f8cc4e458c0c3323418c624e5acb8b8d"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_satellite_to_uav_300m__official_trapezoid_map.svg",
+        "bytes": 108716,
+        "sha256": "4a2d1a435f188b4fae593f8e1f9afc8fa81a5ba0976d2e270a27301853c32854"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_satellite_to_uav_300m__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47765,
+        "sha256": "6cab40161706ad02ed06226d877ebe9297849cf30cbc1f2ac19d594e37906436"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_satellite_to_uav_300m__r_at_1.svg",
+        "bytes": 101399,
+        "sha256": "2c21b6e6bb469638f09971e6544625bbc496fdc46217e6bdb5034fdfdb91a94f"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_satellite_to_uav_300m__r_at_1__native_editable.vsdx",
+        "bytes": 45746,
+        "sha256": "afb8aff00720c3f833204752334127d9ccc60e18e667d7cef5605852415b66ca"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_uav_150m_to_satellite__official_trapezoid_map.svg",
+        "bytes": 108783,
+        "sha256": "422e0461fd748e1ee38430ae25ce750a4bf9ed6a182859db06ba61ef2f8fa3b2"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_uav_150m_to_satellite__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47700,
+        "sha256": "20a29383290c29a4dba743402f8ff29a3f72f2b166dbc0c3b3ebc99cb1202efb"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_uav_150m_to_satellite__r_at_1.svg",
+        "bytes": 101987,
+        "sha256": "65956924a1fd53d39f0bc3c7f9cc9edb8a4b145cf4ff3d5d82dec65fec82f417"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_uav_150m_to_satellite__r_at_1__native_editable.vsdx",
+        "bytes": 46794,
+        "sha256": "4bdd1d75527dd98f51fdf1975abb94007422738e39ce0706323e063e0039b335"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_uav_200m_to_satellite__official_trapezoid_map.svg",
+        "bytes": 108711,
+        "sha256": "a3dca4b1e62c5a32bcc05a44dff9a34b5ee160227a65fa50c39a6e942d367bb2"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_uav_200m_to_satellite__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47699,
+        "sha256": "039f11bd1ff577d274bc32418282f9d66531ffadea079ab64bda91f0445241b8"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_uav_200m_to_satellite__r_at_1.svg",
+        "bytes": 102011,
+        "sha256": "406173a86f98b7166ad5151e719e1665f014b105af1525ca6501d3252af3e16a"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_uav_200m_to_satellite__r_at_1__native_editable.vsdx",
+        "bytes": 46776,
+        "sha256": "340a4ddef985a1a169861a9fc65576cf7edb3ba540ec7bdc44e6a96484e72c31"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_uav_250m_to_satellite__official_trapezoid_map.svg",
+        "bytes": 108746,
+        "sha256": "8c3cc45f227140a160e9533dd6298b2427a2ded2bc7e334e5aa7d07f937ddc97"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_uav_250m_to_satellite__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47639,
+        "sha256": "d8f6ddbe983291873d62c2d7b65031fa29ddbd965b66792fde917a509984f1a9"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_uav_250m_to_satellite__r_at_1.svg",
+        "bytes": 102061,
+        "sha256": "80f4d4b2b6e160d708bb741563412a9256958033c634b728412b500c9cf7151c"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_uav_250m_to_satellite__r_at_1__native_editable.vsdx",
+        "bytes": 46818,
+        "sha256": "96f55f41f8d5e279f3487a1b75dfead2a272c0d08e5fe2eb4562038f9630355e"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_uav_300m_to_satellite__official_trapezoid_map.svg",
+        "bytes": 108731,
+        "sha256": "c96d03d3f1e885ca066f75a1090bbd0170912bb1100a4f2849526c7628057470"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_uav_300m_to_satellite__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47665,
+        "sha256": "de33aeb9f921d8f911e5101d180ee5b2e41dc324d5123873f24842254db16496"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\sues200_uav_300m_to_satellite__r_at_1.svg",
+        "bytes": 102024,
+        "sha256": "222b81ddf66ad9aa79debafe3eef5ca4a1e70883d01f8a2bdc8eeda2c5c1b1f9"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\sues200_uav_300m_to_satellite__r_at_1__native_editable.vsdx",
+        "bytes": 46834,
+        "sha256": "3fdfe0f8608381e01a0cb39a2b0772a02441fe39f0f91d3140b26965a705b48b"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\university1652_drone_to_satellite__official_trapezoid_map.svg",
+        "bytes": 110069,
+        "sha256": "6bbb36e8191c514d66812fa4eb2f917435446421cd9cfbe420d44a64b5e4f7be"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\university1652_drone_to_satellite__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47637,
+        "sha256": "3a63fe347fadb7f3d018d36a5b3f5db7f4525cdbfb299749a3d99fe4a093cc1d"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\university1652_drone_to_satellite__r_at_1.svg",
+        "bytes": 104931,
+        "sha256": "7aacb66f642e7c775bf16826e1a6e2d60bb0a5abc0b435fa8ec421a894d7c2c8"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\university1652_drone_to_satellite__r_at_1__native_editable.vsdx",
+        "bytes": 47537,
+        "sha256": "bc4976bc6b459529d19b99ce2250515773ceab1d3ef9e164c878f246708ab2b9"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\university1652_satellite_to_drone__official_trapezoid_map.svg",
+        "bytes": 110084,
+        "sha256": "85c1ac85d0aa991193e1af7aaaa339912c866e803e79cbf85a67ceecb0dd5fe1"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\university1652_satellite_to_drone__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47671,
+        "sha256": "b787b1a0aca31c8226d933f9da8b213fe855b8f5346718b528657a4bc04b47a6"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\university1652_satellite_to_drone__r_at_1.svg",
+        "bytes": 104910,
+        "sha256": "66cd09ea6f6dafdf872b9093cbad06b7b607b03ff4278678aa82167b04d9aed2"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\university1652_satellite_to_drone__r_at_1__native_editable.vsdx",
+        "bytes": 47249,
+        "sha256": "25f2ac6c6818a0a021f5280fdb51b619e536a296259c1d8e3deae1f98d9e4eb5"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\university1652_street_to_satellite__official_trapezoid_map.svg",
+        "bytes": 110601,
+        "sha256": "32db728a3d295068581986de0d9c0adefc2415976638cbedd6733c62fec47305"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\university1652_street_to_satellite__official_trapezoid_map__native_editable.vsdx",
+        "bytes": 47727,
+        "sha256": "716d6b860296210175ede2a87dc33a62acf31facdcb82ed8b00151229e994c82"
+      },
+      "native_objects": 320,
+      "native_texts": 95,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 95,
+          "circle": 37,
+          "line": 150
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "robustness",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\native_svg\\university1652_street_to_satellite__r_at_1.svg",
+        "bytes": 109167,
+        "sha256": "119bad710c34593138172072ce7ac8b4c2a0ffbd914355c34e1c25bf6894cc38"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\robustness\\university1652_street_to_satellite__r_at_1__native_editable.vsdx",
+        "bytes": 47327,
+        "sha256": "9139af513715728a1d0982b9bb5d0c113bd8fd49bf7e79ba2a6a335aed1cf147"
+      },
+      "native_objects": 344,
+      "native_texts": 107,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 165.0,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          467.7165354330709
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 107,
+          "circle": 37,
+          "line": 162
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_sues200_satellite_to_uav_150m.svg",
+        "bytes": 28223,
+        "sha256": "ee0912f429db50b4d48bb381e314abb2630651747734dd825ca146ae6a34d881"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_sues200_satellite_to_uav_150m__native_editable.vsdx",
+        "bytes": 29844,
+        "sha256": "db084c5774a1a39e2edfddf18d26924c4826917085d8802b5b5b69b941bd1640"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_sues200_satellite_to_uav_200m.svg",
+        "bytes": 28205,
+        "sha256": "b2530fb36877ed67c522ba2a91b384a491b9e40960e37934e3bf5251926b6938"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_sues200_satellite_to_uav_200m__native_editable.vsdx",
+        "bytes": 30020,
+        "sha256": "9536f46d63fb47ed5bf7a8b716cba9134c6ec0f40568ca6a81c7b15c744e181f"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_sues200_satellite_to_uav_250m.svg",
+        "bytes": 28225,
+        "sha256": "7b997a9378c92962bdbd40d64af74f9eb3bb5b089a479224e9aba2ad0b9d7808"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_sues200_satellite_to_uav_250m__native_editable.vsdx",
+        "bytes": 29627,
+        "sha256": "4ab9fb2872ef7aa944718ef88174451d999953aabc0088be93d401b5ecca523f"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_sues200_satellite_to_uav_300m.svg",
+        "bytes": 28310,
+        "sha256": "46dbd2bf3e7a2a7a5cad5a2d65a952ec7df32d3b86a41e6c8b1daff819053eaf"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_sues200_satellite_to_uav_300m__native_editable.vsdx",
+        "bytes": 29715,
+        "sha256": "1ed53432e0f8c9423d2d9bcc52fcb6d0136c3ffb55ff6872382c3205986f7bee"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_sues200_uav_150m_to_satellite.svg",
+        "bytes": 28814,
+        "sha256": "f32c5795aa98a6dd9aa3f35448579b4ba9861ac9d8e995385e22fc8cbf209caf"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_sues200_uav_150m_to_satellite__native_editable.vsdx",
+        "bytes": 30637,
+        "sha256": "3f6e397f091fc9fd36cb0f05474c613e29f6cc64be69adc5cb76d1aa0abfe0e3"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_sues200_uav_200m_to_satellite.svg",
+        "bytes": 28843,
+        "sha256": "e0ba8b60b1bb7d7d58e3f8701d9117948af55644f90eed6b08ad3d4cce26c208"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_sues200_uav_200m_to_satellite__native_editable.vsdx",
+        "bytes": 30602,
+        "sha256": "5d10fb8e69a8a92b58474cc98fb65713a65f6a40e17416d45d9bc277f2ffd04d"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_sues200_uav_250m_to_satellite.svg",
+        "bytes": 28809,
+        "sha256": "af9c261a6b16664722f722801075de7f3111d27f98f8ca826195c7e7a5e2c50a"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_sues200_uav_250m_to_satellite__native_editable.vsdx",
+        "bytes": 30628,
+        "sha256": "5835fd9df5deae84956aa19d5782035f9684b6bd4739ed04b7123dd4234467ea"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_sues200_uav_300m_to_satellite.svg",
+        "bytes": 28778,
+        "sha256": "56a5e9d671c9bbb27f9606c0c3607be70aea749d4bcb279e69a1d017e033025b"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_sues200_uav_300m_to_satellite__native_editable.vsdx",
+        "bytes": 30674,
+        "sha256": "0e93b0cba0ca7c591e8d273952626c833447677b0800df981b789b3fbb0196eb"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_university1652_drone_to_satellite.svg",
+        "bytes": 31227,
+        "sha256": "ba360301326dd99f6ff485dd6fce90b5ad8bf959e3cf4c00be1eb0b11edf1837"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_university1652_drone_to_satellite__native_editable.vsdx",
+        "bytes": 31782,
+        "sha256": "323b18d78e99467c96c7f5ea46df4342e8e0ce05c1060b898a0a51ab6ded4c28"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_university1652_satellite_to_drone.svg",
+        "bytes": 32034,
+        "sha256": "48f5882bc39721700bee1a1d06ee18644cc8ddc17ef74a29921eef18d7608bdb"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_university1652_satellite_to_drone__native_editable.vsdx",
+        "bytes": 32140,
+        "sha256": "d6c498438f7e26b57500f2279953a15e0b0dff46af6fdba6ce20b43b74daf48d"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "risk",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\native_svg\\t5_university1652_street_to_satellite.svg",
+        "bytes": 32184,
+        "sha256": "a2fa14dd8ab91538d82d2773ddaadb16395bc89781e04279946fac17ab0468a1"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\risk\\t5_university1652_street_to_satellite__native_editable.vsdx",
+        "bytes": 31470,
+        "sha256": "aeab0a0ba68a1d8528f47f74d6f63701665808f5b00a3ee7678a2c161653f880"
+      },
+      "native_objects": 205,
+      "native_texts": 52,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 135.11388888888888,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          383.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 32,
+          "text": 52,
+          "circle": 31,
+          "line": 90
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_sues200_satellite_to_uav_150m.svg",
+        "bytes": 74899,
+        "sha256": "66b8e75bd443acbca92f3b721f778781f34a1b40875f4ce329879edfc768b4e7"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_sues200_satellite_to_uav_150m__native_editable.vsdx",
+        "bytes": 46389,
+        "sha256": "204601dea4930ec9b2f09fbb8e0462975b37364ff89f3bdcde0105688df78b8b"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_sues200_satellite_to_uav_200m.svg",
+        "bytes": 74903,
+        "sha256": "e487b7f4fd8d4888c3bc6e80745c8e6664eb715bfe4b1ab9c290260c45b46f74"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_sues200_satellite_to_uav_200m__native_editable.vsdx",
+        "bytes": 46311,
+        "sha256": "6a4bc0f45ea9cd30d39015626da1901a25775a69bf8b5e19939f256088491066"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_sues200_satellite_to_uav_250m.svg",
+        "bytes": 74904,
+        "sha256": "8f37a2277a6896ae2c9d04fc20d221bbacf262330d211bd6318d286b9d6d7c1d"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_sues200_satellite_to_uav_250m__native_editable.vsdx",
+        "bytes": 46491,
+        "sha256": "9595f4c1b31c6d4f1aca3bc1fc3655312f74ebdc094bd9da675225383e9c01a0"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_sues200_satellite_to_uav_300m.svg",
+        "bytes": 74920,
+        "sha256": "3cca09acfc10377d11149966a54fa813408277589de81e15c3efe673eb3da68c"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_sues200_satellite_to_uav_300m__native_editable.vsdx",
+        "bytes": 46185,
+        "sha256": "7fb4abeb8d0945b220286dfbfe132eae42b5952be1d256510bf9b555f31bb535"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_sues200_uav_150m_to_satellite.svg",
+        "bytes": 75019,
+        "sha256": "5b8c5ceec3f18b7b08bce7450350b2c9723a7e28da4772f18b0baee882b80186"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_sues200_uav_150m_to_satellite__native_editable.vsdx",
+        "bytes": 46995,
+        "sha256": "abeeb18c2a952f5673dab4e3315ff0b3af411b2f22a77bf76d299f814f828668"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_sues200_uav_200m_to_satellite.svg",
+        "bytes": 75023,
+        "sha256": "473ef158a71b19b38f10c4b67574e0acca0d233092ee47c6ca0970766f238dd2"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_sues200_uav_200m_to_satellite__native_editable.vsdx",
+        "bytes": 46962,
+        "sha256": "8db87f32b61082f9c5d7734d3a9e26fa24d737b5a68713f767f4213f98194320"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_sues200_uav_250m_to_satellite.svg",
+        "bytes": 75065,
+        "sha256": "101949ea3036a20628d086ec8c86d442db6c47cf7d0dd2281f0d548f8a61a203"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_sues200_uav_250m_to_satellite__native_editable.vsdx",
+        "bytes": 47079,
+        "sha256": "a7bbdb033ffa3a8ba363476ec4fb723c42432d8623ebef0a2e8b23d264c36542"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_sues200_uav_300m_to_satellite.svg",
+        "bytes": 74958,
+        "sha256": "f72b7292aa624b3b3d7849edd07c7b98fb7bcb04cca61028deaa9c9047ddcd7a"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_sues200_uav_300m_to_satellite__native_editable.vsdx",
+        "bytes": 47004,
+        "sha256": "3d40b443783167cc14ae399a63d20da65069b03f1ce806a4731a3e030e793239"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_university1652_drone_to_satellite.svg",
+        "bytes": 77180,
+        "sha256": "d47d925b064207949a09a9e4855217c4079776c9ac987d3aecd96b63587deef6"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_university1652_drone_to_satellite__native_editable.vsdx",
+        "bytes": 47498,
+        "sha256": "3395dabf761939aef85528f31a400fd3ff55e5adf15b8370aab7e795619ba1a7"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_university1652_satellite_to_drone.svg",
+        "bytes": 76577,
+        "sha256": "0dc70851a09aacff454ee4bf12c0d459d91e5d1c4e21613d9af709247638ce51"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_university1652_satellite_to_drone__native_editable.vsdx",
+        "bytes": 46928,
+        "sha256": "3640030678910de4efc8d007f26a79ca1ba8f748c9fccae7e778f8744a3fd5a8"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "margin",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\native_svg\\t4_university1652_street_to_satellite.svg",
+        "bytes": 77491,
+        "sha256": "6c32cf42b71f73a8fa7a8b3446c360854cfa7cd58be9753c38d3f5a623f69fa9"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\margin\\t4_university1652_street_to_satellite__native_editable.vsdx",
+        "bytes": 46535,
+        "sha256": "d285525098d0a66926ad47215ad2c53c8d7648721acc172f4aee57cfb0fe967a"
+      },
+      "native_objects": 442,
+      "native_texts": 214,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 214.1361111111111,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          607.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 38,
+          "text": 214,
+          "circle": 37,
+          "line": 153
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_sues200_satellite_to_uav_150m.svg",
+        "bytes": 44573,
+        "sha256": "d105e36a98a6e95777d57b4c69556b6da068786de71994fa5799f5dd1aa8966d"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_sues200_satellite_to_uav_150m__native_editable.vsdx",
+        "bytes": 27624,
+        "sha256": "c7dc45228b381309194b0062b66620c5e82ed7591ab807933d5a1c4306923a76"
+      },
+      "native_objects": 251,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 5,
+          "text": 199,
+          "circle": 4,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_sues200_satellite_to_uav_200m.svg",
+        "bytes": 44576,
+        "sha256": "ce985c6b2478328659d800acfff30cc0564466e292c7f40099cf56ae57c59613"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_sues200_satellite_to_uav_200m__native_editable.vsdx",
+        "bytes": 27625,
+        "sha256": "d69d651e84451b30994548ac1eb71f3ea334400be88fbf7c0642b327e54d42bb"
+      },
+      "native_objects": 251,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 5,
+          "text": 199,
+          "circle": 4,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_sues200_satellite_to_uav_250m.svg",
+        "bytes": 44567,
+        "sha256": "94ea218b649ed071356692cf0869e310e6307c63868837f501078c8a6c20f498"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_sues200_satellite_to_uav_250m__native_editable.vsdx",
+        "bytes": 27639,
+        "sha256": "ab6f953aa0ad815cf6691fdf774ac3a5008b35521de9481d2a980e6ec9785761"
+      },
+      "native_objects": 251,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 5,
+          "text": 199,
+          "circle": 4,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_sues200_satellite_to_uav_300m.svg",
+        "bytes": 44577,
+        "sha256": "cc68634f76f26b3991fe871e016ef4aff0708cb10a8d2078e102cfdf490b039e"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_sues200_satellite_to_uav_300m__native_editable.vsdx",
+        "bytes": 27616,
+        "sha256": "a58559cd1bc374a1b4cdf3d9d98cbbbd7c5d41729decc3896a1b1269de6f36c4"
+      },
+      "native_objects": 251,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 5,
+          "text": 199,
+          "circle": 4,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_sues200_uav_150m_to_satellite.svg",
+        "bytes": 47023,
+        "sha256": "bf355c5c26f345741ff5919adcbe1a5e2998450c3803e67d208e36f5816b00ed"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_sues200_uav_150m_to_satellite__native_editable.vsdx",
+        "bytes": 29427,
+        "sha256": "a355dfda2607d2087a118687c111339334088784ae7f6f8af375c295ee134ebb"
+      },
+      "native_objects": 264,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 12,
+          "text": 199,
+          "circle": 10,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_sues200_uav_200m_to_satellite.svg",
+        "bytes": 47334,
+        "sha256": "b26940f5f28d24c07650851146d60667322a9151080aeea452694580c502c17d"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_sues200_uav_200m_to_satellite__native_editable.vsdx",
+        "bytes": 29781,
+        "sha256": "97213900edb66bb63e133050972e96cc88491aece23ec96a7b12141d6c6d682e"
+      },
+      "native_objects": 266,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 199,
+          "circle": 10,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_sues200_uav_250m_to_satellite.svg",
+        "bytes": 46991,
+        "sha256": "e2820fb934827860477d2aaec8588e16cc67bf86b3ad7091d5dffe4c3b27a84b"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_sues200_uav_250m_to_satellite__native_editable.vsdx",
+        "bytes": 29437,
+        "sha256": "08a28bafbe3cd810b63dc05d9c81488ba452bffdf69a9d51cd62f81b7cd700a0"
+      },
+      "native_objects": 264,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 11,
+          "text": 199,
+          "circle": 11,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_sues200_uav_300m_to_satellite.svg",
+        "bytes": 47155,
+        "sha256": "b514c524e482e334c28351860f58ad315453287fdc9095181aa2adb6933470c0"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_sues200_uav_300m_to_satellite__native_editable.vsdx",
+        "bytes": 29595,
+        "sha256": "f79d93b6f109858922f67d31f2402995fbff70e37d8fba6dc38952b9d8dc3950"
+      },
+      "native_objects": 265,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 13,
+          "text": 199,
+          "circle": 10,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_university1652_drone_to_satellite.svg",
+        "bytes": 47792,
+        "sha256": "545498882f5698dbfa9ed43c514d20c0e0ebb82fe32ea71eaa319b9c73791873"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_university1652_drone_to_satellite__native_editable.vsdx",
+        "bytes": 29223,
+        "sha256": "e5a0245aabacf9cbf6fb1df1f42f5aef83cf34c9060bcd7e432348ab83dd3369"
+      },
+      "native_objects": 263,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 11,
+          "text": 199,
+          "circle": 10,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_university1652_satellite_to_drone.svg",
+        "bytes": 45590,
+        "sha256": "40e1375cd35684d1d0c3ba7c2ae26d15eb799dfa5320efda4970be6753b643de"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_university1652_satellite_to_drone__native_editable.vsdx",
+        "bytes": 27754,
+        "sha256": "59b9304ff8e80c4e8e9cd632d3f03a77e0c63dc14400ab6b48288f53ec2c7185"
+      },
+      "native_objects": 251,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 5,
+          "text": 199,
+          "circle": 4,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "reliability",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\native_svg\\t5_reliability_university1652_street_to_satellite.svg",
+        "bytes": 47067,
+        "sha256": "04ec3ddb80ff07859dbf35f1b73ba0ade3730932c5fa51b4954104ed3020bda7"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\reliability\\t5_reliability_university1652_street_to_satellite__native_editable.vsdx",
+        "bytes": 28655,
+        "sha256": "182943519c4d0bbd10107277d215dd1e85de6f676a33ccf0603e8149ece4052d"
+      },
+      "native_objects": 258,
+      "native_texts": 199,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 213.07777777777775,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          604.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 9,
+          "text": 199,
+          "circle": 7,
+          "line": 43
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_sues200_satellite_to_uav_150m.svg",
+        "bytes": 38047,
+        "sha256": "454cb0066391d7829ca9fe711680b85e6b2e10f80eefdce38b76fd5464e17276"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_sues200_satellite_to_uav_150m__native_editable.vsdx",
+        "bytes": 28627,
+        "sha256": "f010a937a44191a72020a7c7ad5ad8371c1ea3605c5ba02f24f7179ea62e6419"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_sues200_satellite_to_uav_200m.svg",
+        "bytes": 38045,
+        "sha256": "c2c3e65a0e512af7d7be625d85856f7432d62a2e5dc594b405017d8a47efe702"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_sues200_satellite_to_uav_200m__native_editable.vsdx",
+        "bytes": 28583,
+        "sha256": "edf680124562df33880b4261d2629152b05c9795236f3e25b899069aa59fe636"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_sues200_satellite_to_uav_250m.svg",
+        "bytes": 38037,
+        "sha256": "a00e67ccf923da55ee0bfd611e17c2f4eac400249aa0da698b194e5f715c571e"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_sues200_satellite_to_uav_250m__native_editable.vsdx",
+        "bytes": 28679,
+        "sha256": "a00fce4925c3a0a6f42d8e454c91375caa6e3a4ac9b606cbc9a07f6aaa38975a"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_sues200_satellite_to_uav_300m.svg",
+        "bytes": 38053,
+        "sha256": "a8bdc2e75a4920a3bebaf5ec6911910555c0b3a497799ef4505acfa6bc4b03c7"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_sues200_satellite_to_uav_300m__native_editable.vsdx",
+        "bytes": 28665,
+        "sha256": "30cc4c5eee1de2048992bdaaddee71bbf5ea471675b6bb476ee165528a4824b7"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_sues200_uav_150m_to_satellite.svg",
+        "bytes": 38253,
+        "sha256": "64d341e34f6ef6c0dd97e27625ba00017cca950d361a712d81d111bb9ee03c8c"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_sues200_uav_150m_to_satellite__native_editable.vsdx",
+        "bytes": 28914,
+        "sha256": "999eeea9f4355c4b607075ca498a863382731943600039bf0de92273769a94cf"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_sues200_uav_200m_to_satellite.svg",
+        "bytes": 38324,
+        "sha256": "3d23aac564e91101c6711daadd3efe7b2471ac79a369b469b93269ab974329ba"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_sues200_uav_200m_to_satellite__native_editable.vsdx",
+        "bytes": 28936,
+        "sha256": "90f06d7e804264ae3330c39cbcb6e7fa148a8b6bbe28e53b27e4e7f615fd5b20"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_sues200_uav_250m_to_satellite.svg",
+        "bytes": 38303,
+        "sha256": "416e6ceb1bf7daa6c72109b438165946bb10aa2fdcbc7f8535b3da9121e21b35"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_sues200_uav_250m_to_satellite__native_editable.vsdx",
+        "bytes": 28987,
+        "sha256": "5b2f388ccdcc9b443d600a9993dffb11a95a67490b4812f727fb78fd1dac34e5"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_sues200_uav_300m_to_satellite.svg",
+        "bytes": 38252,
+        "sha256": "ee25cae4ebbe9ff54362233530c2d71ee2f872383e0eb9004f1457b9295ee88d"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_sues200_uav_300m_to_satellite__native_editable.vsdx",
+        "bytes": 29012,
+        "sha256": "616f9a760c5e406c30ae42e952f90701c275c85ae2534efef5643847f98e2a95"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_university1652_drone_to_satellite.svg",
+        "bytes": 40382,
+        "sha256": "24ff787288985667ce388f0b58c71ae8bccc51fb2abf7c58a0e1ed9e984135b4"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_university1652_drone_to_satellite__native_editable.vsdx",
+        "bytes": 29679,
+        "sha256": "18be6a2b43c3ca2418453bc8beac5e6b2f6c0176e75c372ceea5a5ae66c84f35"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_university1652_satellite_to_drone.svg",
+        "bytes": 40310,
+        "sha256": "b60d6fc186d21f09d0a124a6c62aaa66358a2d63468bbdd1233770eab309bbcd"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_university1652_satellite_to_drone__native_editable.vsdx",
+        "bytes": 29708,
+        "sha256": "1cd8488a146bb100f4f49f00203356e3fe8297452edc45bafa8eb0201037aa5c"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    },
+    {
+      "family": "paired",
+      "source_svg": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\native_svg\\t5_paired_university1652_street_to_satellite.svg",
+        "bytes": 40522,
+        "sha256": "97647ed8460d7ce9d86ee789e225ad4468ec01167e11bf59410926c2fc6b3aba"
+      },
+      "output": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\output68\\paired\\t5_paired_university1652_street_to_satellite__native_editable.vsdx",
+        "bytes": 29613,
+        "sha256": "78effb168ca401291a59ea07ed964c1168faa5dde32b073bb0361d571c8403e1"
+      },
+      "native_objects": 222,
+      "native_texts": 138,
+      "inventory": {
+        "width_mm": 181.9,
+        "height_mm": 188.38333333333333,
+        "viewBox": [
+          0.0,
+          0.0,
+          515.6220472440946,
+          534.0
+        ],
+        "scale_inch_per_svg_unit": 0.013888888888888888,
+        "counts": {
+          "title": 1,
+          "desc": 1,
+          "rect": 14,
+          "text": 138,
+          "circle": 13,
+          "line": 57
+        },
+        "minimum_font_pt": 8.0
+      },
+      "part_count": 9,
+      "author_zip_crc_and_xml_checks": true,
+      "visio_open_validated": false
+    }
+  ],
+  "figure_count": 68,
+  "native_shape_files_created": true,
+  "visio_open_validated": false,
+  "visio_roundtrip_pending": true,
+  "native_application_render_validated": false,
+  "CPU_XML_preview_validated": false,
+  "independent_xml_checks": false,
+  "scientific_execution": false,
+  "limits": [
+    "Actual native files are an intermediate deliverable; application opening/rendering/editing pending.",
+    "Text boxes use bound installed Arial cmap/hmtx/ascent/descent and legacy kern. GPOS/shaping/native kerning may differ.",
+    "SVG lines have default butt caps. Native LineCap=1 cap appearance parity is not Visio-validated.",
+    "All accepted captions/source data and negative-result/evidence limitations remain unchanged."
+  ]
+}

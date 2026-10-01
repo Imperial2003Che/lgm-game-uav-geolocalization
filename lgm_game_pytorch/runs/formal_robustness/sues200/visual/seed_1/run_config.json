@@ -1,0 +1,283 @@
+{
+  "created_utc": "2026-09-29T11:21:16.222864+00:00",
+  "run_config_sha256": "d19283877ee9967fc36ca82155564cdc5945a44f7633273e119a661bf684f6d9",
+  "immutable_config": {
+    "schema_version": "lgm-game.image-level-robustness.v1",
+    "dataset": "sues200",
+    "data_root": "C:\\项目\\IMTMN\\datasets\\SUES-200",
+    "checkpoint": {
+      "variant": "visual",
+      "seed": 1,
+      "selected_training_epoch_one_based": 80,
+      "checkpoint_sha256": "b9da9c88f13541f05c17848eab9c43a2f332adbd22ee8880b82149ee8cc03a7a",
+      "training_run_config_sha256": "af58d1bfe504df2be63a7aa228b8edb10f2ebdbb9060b075b4038e3eae8701a0",
+      "training_code_sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862",
+      "training_manifest_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_main\\sues200\\visual\\seed_1\\run_manifest.json",
+      "training_manifest_sha256": "d3a547da70e5d475967c1f7331a0a60f9373e672ac7cec4123e6946cf7ee9bd4"
+    },
+    "evidence_caches": [
+      {
+        "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.npz",
+        "sha256": "6c3a82fdcf59e401f5da4ed0f3d9dca99fdcbab0a46aa66fb47a055c832cdabd",
+        "bytes": 1722147,
+        "meta_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.meta.json",
+        "meta_sha256": "3dc42892bbff9339d058fc0d6abaf2fd9e92cc94f9f9b7fd58ed0ae725b57dca",
+        "model": "{'architecture': 'CLIPModel', 'name': 'openai/clip-vit-base-patch32', 'pretrained_logit_scale': 100.0, 'revision_requested': '3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268', 'revision_resolved': '3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268'}",
+        "dataset_root_hint": "{'directory_name': 'SUES-200', 'expected_layout': 'drone_view_512/* and satellite-view/*', 'paths_are_relative_to_dataset_root': True}",
+        "rows": 40200
+      }
+    ],
+    "sues_manifest": {
+      "path_or_source": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\manifests\\sues200_official_train_ids.yaml",
+      "sha256": "c1386d5c746aca48bbb2793ed1ee19d6cd7330a7f5f1b27a5ec43727317ec226",
+      "official_source_url": "https://github.com/Reza-Zhu/SUES-200-Benchmark/blob/master/script/indexs.yaml",
+      "train_id_count": 120,
+      "test_id_count": 80
+    },
+    "protocol_membership_sha256": "1f543fb48416204dacfb5ac48b3bbf3ce4080ce164e75e7a86be748e3d798772",
+    "image_inventory": {
+      "mode": "content",
+      "sha256": "0688f8ffd16e9cc11f506faf4f993f80446904740a3b127251dd1d5f57b4b029",
+      "file_count": 40200,
+      "total_bytes": 5693433493
+    },
+    "official_task_scale": {
+      "sues200_uav_150m_to_satellite": {
+        "queries": 4000,
+        "gallery": 200,
+        "query_identities": 80,
+        "gallery_identities": 200,
+        "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+      },
+      "sues200_satellite_to_uav_150m": {
+        "queries": 80,
+        "gallery": 10000,
+        "query_identities": 80,
+        "gallery_identities": 200,
+        "protocol": "official 80 test IDs as query; all 200 150m UAV IDs in gallery"
+      },
+      "sues200_uav_200m_to_satellite": {
+        "queries": 4000,
+        "gallery": 200,
+        "query_identities": 80,
+        "gallery_identities": 200,
+        "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+      },
+      "sues200_satellite_to_uav_200m": {
+        "queries": 80,
+        "gallery": 10000,
+        "query_identities": 80,
+        "gallery_identities": 200,
+        "protocol": "official 80 test IDs as query; all 200 200m UAV IDs in gallery"
+      },
+      "sues200_uav_250m_to_satellite": {
+        "queries": 4000,
+        "gallery": 200,
+        "query_identities": 80,
+        "gallery_identities": 200,
+        "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+      },
+      "sues200_satellite_to_uav_250m": {
+        "queries": 80,
+        "gallery": 10000,
+        "query_identities": 80,
+        "gallery_identities": 200,
+        "protocol": "official 80 test IDs as query; all 200 250m UAV IDs in gallery"
+      },
+      "sues200_uav_300m_to_satellite": {
+        "queries": 4000,
+        "gallery": 200,
+        "query_identities": 80,
+        "gallery_identities": 200,
+        "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+      },
+      "sues200_satellite_to_uav_300m": {
+        "queries": 80,
+        "gallery": 10000,
+        "query_identities": 80,
+        "gallery_identities": 200,
+        "protocol": "official 80 test IDs as query; all 200 300m UAV IDs in gallery"
+      }
+    },
+    "unique_query_images": 16080,
+    "unique_clean_gallery_images": 40200,
+    "query_path_membership_sha256": "40405ea014d1198d3b050b4891f34b12e5a172de37802a9778a40d22c8f5157b",
+    "gallery_path_membership_sha256": "fe536e65267a3ff74fca00c411520f1cf5c0e59d8724d0a4eceb1a3209f6913a",
+    "corruption_matrix": [
+      {
+        "name": "gaussian_noise",
+        "display_name": "Gaussian noise",
+        "parameter": "standard_deviation",
+        "values": [
+          0.02,
+          0.04,
+          0.08,
+          0.12,
+          0.18
+        ],
+        "units": "fraction of the [0,1] RGB intensity range",
+        "implementation": "Independent zero-mean Gaussian noise is sampled for every RGB pixel with a SHA-256-derived per-image seed, added in float32 [0,1], clipped, rounded to uint8, and then passed through the unmodified model pipeline."
+      },
+      {
+        "name": "gaussian_blur",
+        "display_name": "Gaussian blur",
+        "parameter": "radius",
+        "values": [
+          0.5,
+          1.0,
+          2.0,
+          3.0,
+          4.0
+        ],
+        "units": "pixels in the decoded source image",
+        "implementation": "Pillow GaussianBlur is applied to the decoded RGB query at the fixed radius."
+      },
+      {
+        "name": "brightness",
+        "display_name": "Brightness",
+        "parameter": "factor",
+        "values": [
+          0.8,
+          0.65,
+          0.5,
+          0.35,
+          0.2
+        ],
+        "units": "multiplicative Pillow brightness factor",
+        "implementation": "Pillow ImageEnhance.Brightness is applied to the decoded RGB query."
+      },
+      {
+        "name": "contrast",
+        "display_name": "Contrast",
+        "parameter": "factor",
+        "values": [
+          0.8,
+          0.65,
+          0.5,
+          0.35,
+          0.2
+        ],
+        "units": "multiplicative Pillow contrast factor",
+        "implementation": "Pillow ImageEnhance.Contrast is applied to the decoded RGB query."
+      },
+      {
+        "name": "center_occlusion",
+        "display_name": "Center occlusion",
+        "parameter": "area_fraction",
+        "values": [
+          0.05,
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ],
+        "units": "fraction of decoded source-image area",
+        "implementation": "A centered rectangle with width and height scaled by sqrt(area_fraction) is filled with the per-image mean RGB colour; integer dimensions are rounded and clipped to the source image."
+      },
+      {
+        "name": "rotation",
+        "display_name": "Rotation",
+        "parameter": "magnitude",
+        "values": [
+          2.0,
+          5.0,
+          10.0,
+          15.0,
+          20.0
+        ],
+        "units": "degrees",
+        "implementation": "The absolute angle is fixed by severity; a SHA-256-derived per-image sign prevents a one-direction bias. Pillow bicubic rotation keeps the original canvas and fills exposed pixels with the per-image mean RGB colour."
+      }
+    ],
+    "corruption_seed": 20260727,
+    "ranking": {
+      "score": "float32 query matrix @ float32 clean-gallery matrix.T",
+      "sort": "numpy stable descending argsort",
+      "chunk_size": 128,
+      "full_gallery": true
+    },
+    "encoding": {
+      "eval_batch_size": 128,
+      "image_workers": 8,
+      "amp": true,
+      "clip_precision": "match-cache",
+      "clip_local_files_only": true,
+      "clip_clean_audit_samples": 64
+    },
+    "sources": {
+      "robustness_evaluator": {
+        "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\experiments\\run_image_level_robustness.py",
+        "sha256": "4f33b8aa96fb7d046f570bc65cce36bdb3c47b1875395b11b1565f2dd71c167a"
+      },
+      "formal_retrieval": {
+        "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\lgm_game_pytorch\\formal_retrieval.py",
+        "sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862"
+      },
+      "clip_evidence_generator": {
+        "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\lgm_game_pytorch\\generate_clip_image_evidence.py",
+        "sha256": "cd4002aafef9979bf601c6e80882ab6492bd6fbc774335381960d32c3e64100d"
+      },
+      "frozen_protocol": {
+        "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\FORMAL_EXPERIMENT_PROTOCOL.md",
+        "sha256": "29c0502b07f09d45c6fd7d4a5b582fdd9a443acc9e8b818cd9941c18a0ee34f9"
+      }
+    },
+    "environment": {
+      "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "packages": {
+        "numpy": "2.4.4",
+        "Pillow": "12.2.0",
+        "torch": "2.11.0+cu126",
+        "torchvision": "0.26.0+cu126",
+        "transformers": "4.57.6",
+        "huggingface-hub": "0.36.2",
+        "tokenizers": "0.22.2",
+        "safetensors": "0.7.0"
+      },
+      "torch_cuda_available": true,
+      "device": {
+        "requested_or_selected": "cuda",
+        "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "total_memory_bytes": 8585216000,
+        "compute_capability": "8.9",
+        "cuda_runtime": "12.6",
+        "cudnn": 91002,
+        "device_index": 0
+      }
+    },
+    "environment_sha256": "4c56a53ee480af3fb131f5dcba89eedf7d6c0eecd680376561ddf7edab6c0d17",
+    "integrity_constraints": {
+      "corrupt_decoded_query_rgb_pixels": true,
+      "feature_level_corruption": false,
+      "clean_gallery_for_all_conditions": true,
+      "recompute_full_variant_query_clip_evidence_after_corruption": true,
+      "all_official_queries_required": true,
+      "condition_failures_never_skipped": true
+    }
+  },
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "torch": "2.11.0+cu126",
+      "torchvision": "0.26.0+cu126",
+      "transformers": "4.57.6",
+      "huggingface-hub": "0.36.2",
+      "tokenizers": "0.22.2",
+      "safetensors": "0.7.0"
+    },
+    "torch_cuda_available": true,
+    "device": {
+      "requested_or_selected": "cuda",
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "total_memory_bytes": 8585216000,
+      "compute_capability": "8.9",
+      "cuda_runtime": "12.6",
+      "cudnn": 91002,
+      "device_index": 0
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "schema": "native-visio-build.v1",
+  "utc": "2026-09-29T22:06:33.4186327+00:00",
+  "passed": true,
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\build_visio_v2.ps1",
+    "sha256": "ea62656245b300cdbd5a306519342c352b997891c84e450b9fd9be4d3ac65665",
+    "bytes": 10238
+  },
+  "spec": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\CONVERSION_SPEC.json",
+    "sha256": "3acb5843979a6332f56e3182d1db333c79dbd8d343d7262ea81b796f26ff1816",
+    "bytes": 392372
+  },
+  "initialVisio": [],
+  "events": [
+    {
+      "event": "created",
+      "purpose": "author native shapes",
+      "utc": "2026-09-29T22:06:01.3702454+00:00",
+      "pid": 42148,
+      "visioInstanceID": 4293,
+      "hwnd": 852832,
+      "parent": 2224,
+      "creationUTC": "2026-09-29T22:06:00.6499000Z",
+      "ticks": "639263163606499000",
+      "handleTicks": "639263163606499001",
+      "command": "\"C:\\Program Files\\Microsoft Office\\Root\\Office16\\VISIO.EXE\" /Automation /Invisible -Embedding",
+      "version": "16.0",
+      "fullBuild": 1073762150,
+      "visible": false
+    },
+    {
+      "event": "saved_then_closed",
+      "dataset": "university1652",
+      "utc": "2026-09-29T22:06:10.6794594+00:00",
+      "shapes": 280,
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_university1652_native_editable.vsdx"
+    },
+    {
+      "event": "saved_then_closed",
+      "dataset": "sues200",
+      "utc": "2026-09-29T22:06:26.2676800+00:00",
+      "shapes": 505,
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_sues200_native_editable.vsdx"
+    },
+    {
+      "event": "own_instance_quit",
+      "pid": 42148,
+      "utc": "2026-09-29T22:06:28.6782018+00:00",
+      "hasExited": true,
+      "actualExitCode": 0
+    },
+    {
+      "event": "created",
+      "purpose": "reopen saved VSDX and export",
+      "utc": "2026-09-29T22:06:29.2700991+00:00",
+      "pid": 36900,
+      "visioInstanceID": 4309,
+      "hwnd": 919750,
+      "parent": 2224,
+      "creationUTC": "2026-09-29T22:06:28.6803500Z",
+      "ticks": "639263163886803500",
+      "handleTicks": "639263163886803504",
+      "command": "\"C:\\Program Files\\Microsoft Office\\Root\\Office16\\VISIO.EXE\" /Automation /Invisible -Embedding",
+      "version": "16.0",
+      "fullBuild": 1073762150,
+      "visible": false
+    },
+    {
+      "event": "reopened_exported_closed",
+      "dataset": "university1652",
+      "utc": "2026-09-29T22:06:30.3890075+00:00",
+      "shapes": 280
+    },
+    {
+      "event": "reopened_exported_closed",
+      "dataset": "sues200",
+      "utc": "2026-09-29T22:06:31.0044287+00:00",
+      "shapes": 505
+    },
+    {
+      "event": "own_instance_quit",
+      "pid": 36900,
+      "utc": "2026-09-29T22:06:33.3973021+00:00",
+      "hasExited": true,
+      "actualExitCode": 0
+    }
+  ],
+  "figures": [
+    {
+      "dataset": "university1652",
+      "vsdx": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_university1652_native_editable.vsdx",
+        "sha256": "590539c239e1c46615e316dd71f61a73b487ab26a24545eb7fcc62c54b411cfc",
+        "bytes": 47145
+      },
+      "shapes": 280,
+      "texts": 73,
+      "widthMm": 181.9,
+      "heightMm": 137.9,
+      "notes": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\notes\\university1652_NOTES.txt",
+        "sha256": "838adfedd2cd6e776a5b39b5fba91a7fc38a73493749bf45fbc4db53a2bd246b",
+        "bytes": 8174
+      },
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_university1652_visio_reopened.png",
+        "sha256": "d8b0ce1dd22ad4c32f587d56d39b03dd77d3a69345f5c1a9411e47e9760a871c",
+        "bytes": 39694
+      },
+      "pdf": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_university1652_visio_reopened.pdf",
+        "sha256": "c11c8cbeccda69b9f9094bd38ce2a280b638814051d17e2b25634140b23c0121",
+        "bytes": 99437
+      }
+    },
+    {
+      "dataset": "sues200",
+      "vsdx": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_sues200_native_editable.vsdx",
+        "sha256": "32ff5b3a83d8c5c1e9c7a2c3227835ca74d6c9643ce4416f76953f66f8db3973",
+        "bytes": 77842
+      },
+      "shapes": 505,
+      "texts": 143,
+      "widthMm": 181.9,
+      "heightMm": 240.3,
+      "notes": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\notes\\sues200_NOTES.txt",
+        "sha256": "0d66a71d7a1b549bd9177652a8ddadc9132dcabf7c6a2200e8a54850f74ac992",
+        "bytes": 15849
+      },
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_sues200_visio_reopened.png",
+        "sha256": "2ab04307728fa7c507337e49d5b989aed6a259b6e9b48559a445b557e51ddbe4",
+        "bytes": 82331
+      },
+      "pdf": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_sues200_visio_reopened.pdf",
+        "sha256": "0439c9fe76ace18e1086e0ec9eb001019fe8ac4b5fa2d6d2db5f38150e7e814b",
+        "bytes": 112154
+      }
+    }
+  ],
+  "shapeMap": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\NATIVE_SHAPE_MAP.json",
+    "sha256": "b0cc2e051f61fcc35c7ab1f4d25d415dc59e8c004ed485e2db4b49cfdb385b40",
+    "bytes": 296530
+  },
+  "settingsChanged": false,
+  "existingApplicationsTouched": false,
+  "method": "Direct native ShapeSheet primitives; no import/embed; fresh invisible instance for reread/export",
+  "scientificExecution": false
+}

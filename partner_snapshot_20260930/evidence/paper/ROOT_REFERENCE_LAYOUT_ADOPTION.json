@@ -1,0 +1,1312 @@
+{
+  "schema": "root-reference-layout-working-draft-adoption.v1",
+  "utc": "2026-09-30T21:16:36.053812+00:00",
+  "adopted_parent": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_camp_dac_context_20260930_1948\\ROOT_CAMP_DAC_CONTEXT_ADOPTION.json",
+    "bytes": 75910,
+    "sha256": "af7fa415e13b790fb26abe6f25e857c5164ec331648de3078d0f3146b9ef15d8"
+  },
+  "scoped_source_revision": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\SCOPED_DISPLAY_REVISION.json",
+    "bytes": 31534,
+    "sha256": "4bcb8181980aaf43a3aac46b2fcd5f526a0c38fa121b1484ccafc68bfe6bd083"
+  },
+  "independent_source_and_bbl_scope_review": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\ieee_reference_author_display_review_20260930_2142\\SOURCE_SCOPE_ADDENDUM.json",
+    "bytes": 15182,
+    "sha256": "8bcdbc8235c9f8b2a95409b461bfb87210b0b4421ceccbc7107b6503baf5dbfd"
+  },
+  "observation_snapshot": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\heartbeat_observation_20260930_2130\\ROOT_OBSERVATION_SEAL.json",
+    "bytes": 21851,
+    "sha256": "f0fb009f6ac62b5fad95939e42027e97c1742c34bc215ae4094e646ec84212b4"
+  },
+  "root_visual_review": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\ROOT_VISUAL_REVIEW.json",
+    "bytes": 1899,
+    "sha256": "8b29d8e301e98c84e6a78de74abc42a7d5370801d44be7e2909c2025be4cf24d"
+  },
+  "source_dependencies": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\build.py",
+      "bytes": 593,
+      "sha256": "a6999d3d389a46f68adb8a8851f510ff3d580f9a1c0e9d82f7a886382376fa59"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig01_motivation.pdf",
+      "bytes": 252935,
+      "sha256": "3ddd9d7bd5917e485dd3a0093ca240f3654fe382b18a1c08796056bcc870a315"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig02_framework.pdf",
+      "bytes": 259446,
+      "sha256": "e00a716d5c984761f59c8ea3d934ea1f17ae0587f11b5bda21ce76ce6fd5a936"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig03_mechanism.pdf",
+      "bytes": 79640,
+      "sha256": "3a63aa2b2faf1558abe4e633babba4def03588162477af0437a2b16eea54a5e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig04_protocol.pdf",
+      "bytes": 254120,
+      "sha256": "b72a77a619df66e4ab248dfecf3bda364928476fefbb67b56e79242876559fbc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig05_exact_effects.pdf",
+      "bytes": 48358,
+      "sha256": "02fac07e1497cfc149d88353f6755cdc7450bc8fe24e8fe9ac186677d120e543"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig06_rule_sensitivity.pdf",
+      "bytes": 67262,
+      "sha256": "0373afb34043403c85f3ea9d1c31e14043876e6897a66905bc4187277b102905"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig07_gallery_scaling.pdf",
+      "bytes": 55245,
+      "sha256": "4bfb212310f41de24dfec8894d2bc464af15fd6f474e41721a5a69ab43b8a262"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig08_complementarity.pdf",
+      "bytes": 74212,
+      "sha256": "a8476eb34ca2340126e0feaa820d4adf76a77b00ddd536bac66e14fd3e812ba4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig09_accuracy_cost.pdf",
+      "bytes": 43176,
+      "sha256": "76f86f5cb6880a6121eaf1dde4c3d7008b529194ae9b0952d3461e941a698acf"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig10_qualitative.pdf",
+      "bytes": 5659870,
+      "sha256": "114f333b30c51bcb50f69e665bbca732af870da0586385c7c42803560b74db32"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\main.tex",
+      "bytes": 51250,
+      "sha256": "d12d89810ab46c059e02b483bff4b06099fde32d1af6faab37564144f39c6a2b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\README_OVERLEAF.md",
+      "bytes": 463,
+      "sha256": "3db291780b225d556b36064fd3724b4ad5fbc26ad4fe0ea6045545ed6f141d4e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\results\\semantic_results.tex",
+      "bytes": 5122,
+      "sha256": "69e9564363d162db5dd727691ad48a10df12727e4c5a09b8c5bc527cce980f9f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\supplementary.tex",
+      "bytes": 9855,
+      "sha256": "8886ecc95e046284356e74c4f5b7ec9a096fdf0af710ceb010cf3bf643a43a10"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\formal_best_fusion_comparison_table.tex",
+      "bytes": 864,
+      "sha256": "93557176df0e0688e37555daafbd8ee213f3c9b320aa73a714f18425d8485c00"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\formal_gallery_scale_table.tex",
+      "bytes": 700,
+      "sha256": "c333b737ff5a44b4051ea585c39951b9f909e0fc829b27bfb8876e33e4646bc2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\formal_retrieval_rule_table.tex",
+      "bytes": 713,
+      "sha256": "e0f607a44728dca6930d7d62f8c3057b808c6bf433806a08d6a5df64c5e9d612"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\generated_exact_public_baselines.tex",
+      "bytes": 962,
+      "sha256": "817ee0d4327d33b695618a1ae8519ef831ac62af23ec65dbb495e1d476135cbe"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\generated_exact_public_significance.tex",
+      "bytes": 902,
+      "sha256": "a1911585157583a01ae0e09e51942e8654d4391f66da0c70abd4100c4b5d1773"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\formal_baseline_exact_official_table.tex",
+      "bytes": 1142,
+      "sha256": "09bb751f3f36d51406a76766379f49b71796b756e82d467b59f52a9506641152"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\formal_best_fusion_comparison_table.tex",
+      "bytes": 748,
+      "sha256": "0afa52a5a099ca6ec7ef4ff8b892f52f27bdc79ce95429762d51e35298022721"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\literature\\table_literature_standard.tex",
+      "bytes": 1598,
+      "sha256": "8af2924581be39e96ba76f1f27706e39af932e57a99e33dfc884ad604df47bb1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\literature\\table_literature_sues.tex",
+      "bytes": 1292,
+      "sha256": "dbe2dae7827bb609e4f81cb0466522a83ff05dedb54ebd43438887e0d65c6274"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\literature\\table_literature_transfer.tex",
+      "bytes": 1073,
+      "sha256": "a2fac6b89e97ed716e46434efcf1b9bc0ab7e8e8ed786f06ddf3ea0c47684e9f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\results\\supplementary_evidence.tex",
+      "bytes": 5425,
+      "sha256": "0279ea20760be40edc25a5542e8ccb83ebca8a6e32767ccefe7f79fb0bcb2e8f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\official_r1.tex",
+      "bytes": 2043,
+      "sha256": "30e9c94ba5b82211f82ec2c709aa9dbf69b33c1770d95a23db1231e44a6f95b2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\official_map.tex",
+      "bytes": 2056,
+      "sha256": "5eb2f7f8af9d72b763680a63a20f5861ba62a5b8cb88bf9dcf12120e6345b942"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\transfer_all_tasks.tex",
+      "bytes": 2399,
+      "sha256": "a8e4dc91a447edbbe0c8886df28bc8e77b11e28dd0589dc88eb7f76099c383d1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\sensitivity_r1.tex",
+      "bytes": 1192,
+      "sha256": "c2f9941a969f567754b2e80e468bb205cfddd0d8c272f0d6a65ffa05932bdb3f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\sensitivity_map.tex",
+      "bytes": 1214,
+      "sha256": "42c7dec4476f29a967ebdd1ac1d3a4a3dee83aefba5d224f6081f0d86b8c9ee4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\refs.bib",
+      "bytes": 21693,
+      "sha256": "8403472bc99049a410e0c17b5dd1860fcd4bab7919ed4809e5a4258d3226d06a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\ieee_controls.bib",
+      "bytes": 135,
+      "sha256": "43a23068802f46c5ceb03356ca5b50a21b3b1e2df4d6969a985878ec4688465a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\IEEEtran_lgm_display.bst",
+      "bytes": 57919,
+      "sha256": "1a523d7c81d4e7334ec4569511d311fc2e4b91ad435473e9d003659b5ce95835"
+    }
+  ],
+  "source_dependency_count": 34,
+  "main_pdf": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\main.pdf",
+    "bytes": 7147305,
+    "sha256": "5c9ff9ab71417826490ea101cd23088094b55f7a42d2acbf22acb3567e82495f"
+  },
+  "main_pages": 16,
+  "supplementary_pdf": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\supplementary.pdf",
+    "bytes": 273344,
+    "sha256": "34b94ffde568cb2f32b72f7b0905bec28cd2bdc83c8b30728b21cabad0a7e2f3"
+  },
+  "supplementary_pages": 6,
+  "supplement_recompiled_this_turn": false,
+  "compile_report": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\compile_main_attempt_1\\COMPILE.json",
+    "bytes": 12030,
+    "sha256": "6178e899c3200c061dbd80ae57ab7f2c4b1a33ac8e89548667fc50cd9bb9dace"
+  },
+  "final_main_compile_command_count": 4,
+  "final_main_compile_all_exit_zero": true,
+  "main_underfull_hbox_count": 4,
+  "main_overfull_or_undefined": false,
+  "author_metadata_complete_and_unchanged": true,
+  "regular_reference_count": 44,
+  "reference_order_unchanged": true,
+  "six_current_ieee_keys_with_shortened_display": [
+    "lpn2022",
+    "sdpl2024",
+    "vlgeo2026",
+    "eagle2025",
+    "r2ploc2025",
+    "rendering2025"
+  ],
+  "other_38_bbl_entry_bodies_byte_unchanged": true,
+  "six_title_to_end_suffixes_whitespace_normalized_equal": true,
+  "fonts_and_scientific_source_restored_exact_parent_sha256": "5f20b79e9dc3e369b5b4cc8fee86b66cff8acbceb5bf0016bdbcc570993a3a85",
+  "zip": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\LGM_GAME_Reference_Layout_Working_Draft_20260930.zip",
+    "bytes": 17958565,
+    "sha256": "2b2fae042e838dcf30441657499a87b905db6377c96dc8f372f105e61b93de1f"
+  },
+  "zip_members": [
+    {
+      "name": "manuscript/build.py",
+      "bytes": 593,
+      "sha256": "a6999d3d389a46f68adb8a8851f510ff3d580f9a1c0e9d82f7a886382376fa59",
+      "crc32": 2224559067
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig01_motivation.pdf",
+      "bytes": 252935,
+      "sha256": "3ddd9d7bd5917e485dd3a0093ca240f3654fe382b18a1c08796056bcc870a315",
+      "crc32": 3614515651
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig02_framework.pdf",
+      "bytes": 259446,
+      "sha256": "e00a716d5c984761f59c8ea3d934ea1f17ae0587f11b5bda21ce76ce6fd5a936",
+      "crc32": 2205664556
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig03_mechanism.pdf",
+      "bytes": 79640,
+      "sha256": "3a63aa2b2faf1558abe4e633babba4def03588162477af0437a2b16eea54a5e1",
+      "crc32": 3069398266
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig04_protocol.pdf",
+      "bytes": 254120,
+      "sha256": "b72a77a619df66e4ab248dfecf3bda364928476fefbb67b56e79242876559fbc",
+      "crc32": 3907702663
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig05_exact_effects.pdf",
+      "bytes": 48358,
+      "sha256": "02fac07e1497cfc149d88353f6755cdc7450bc8fe24e8fe9ac186677d120e543",
+      "crc32": 2420374851
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig06_rule_sensitivity.pdf",
+      "bytes": 67262,
+      "sha256": "0373afb34043403c85f3ea9d1c31e14043876e6897a66905bc4187277b102905",
+      "crc32": 3346800870
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig07_gallery_scaling.pdf",
+      "bytes": 55245,
+      "sha256": "4bfb212310f41de24dfec8894d2bc464af15fd6f474e41721a5a69ab43b8a262",
+      "crc32": 1796302154
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig08_complementarity.pdf",
+      "bytes": 74212,
+      "sha256": "a8476eb34ca2340126e0feaa820d4adf76a77b00ddd536bac66e14fd3e812ba4",
+      "crc32": 2994545191
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig09_accuracy_cost.pdf",
+      "bytes": 43176,
+      "sha256": "76f86f5cb6880a6121eaf1dde4c3d7008b529194ae9b0952d3461e941a698acf",
+      "crc32": 1935030551
+    },
+    {
+      "name": "manuscript/figures/journal_20260914/fig10_qualitative.pdf",
+      "bytes": 5659870,
+      "sha256": "114f333b30c51bcb50f69e665bbca732af870da0586385c7c42803560b74db32",
+      "crc32": 550067642
+    },
+    {
+      "name": "manuscript/main.tex",
+      "bytes": 51250,
+      "sha256": "d12d89810ab46c059e02b483bff4b06099fde32d1af6faab37564144f39c6a2b",
+      "crc32": 2284937903
+    },
+    {
+      "name": "manuscript/README_OVERLEAF.md",
+      "bytes": 463,
+      "sha256": "3db291780b225d556b36064fd3724b4ad5fbc26ad4fe0ea6045545ed6f141d4e",
+      "crc32": 2027858993
+    },
+    {
+      "name": "manuscript/results/semantic_results.tex",
+      "bytes": 5122,
+      "sha256": "69e9564363d162db5dd727691ad48a10df12727e4c5a09b8c5bc527cce980f9f",
+      "crc32": 572661011
+    },
+    {
+      "name": "manuscript/supplementary.tex",
+      "bytes": 9855,
+      "sha256": "8886ecc95e046284356e74c4f5b7ec9a096fdf0af710ceb010cf3bf643a43a10",
+      "crc32": 712214582
+    },
+    {
+      "name": "manuscript/tables/20260821_v1.1.0/formal_best_fusion_comparison_table.tex",
+      "bytes": 864,
+      "sha256": "93557176df0e0688e37555daafbd8ee213f3c9b320aa73a714f18425d8485c00",
+      "crc32": 996575028
+    },
+    {
+      "name": "manuscript/tables/20260821_v1.1.0/formal_gallery_scale_table.tex",
+      "bytes": 700,
+      "sha256": "c333b737ff5a44b4051ea585c39951b9f909e0fc829b27bfb8876e33e4646bc2",
+      "crc32": 3296477830
+    },
+    {
+      "name": "manuscript/tables/20260821_v1.1.0/formal_retrieval_rule_table.tex",
+      "bytes": 713,
+      "sha256": "e0f607a44728dca6930d7d62f8c3057b808c6bf433806a08d6a5df64c5e9d612",
+      "crc32": 707902933
+    },
+    {
+      "name": "manuscript/tables/20260821_v1.1.0/generated_exact_public_baselines.tex",
+      "bytes": 962,
+      "sha256": "817ee0d4327d33b695618a1ae8519ef831ac62af23ec65dbb495e1d476135cbe",
+      "crc32": 2674358624
+    },
+    {
+      "name": "manuscript/tables/20260821_v1.1.0/generated_exact_public_significance.tex",
+      "bytes": 902,
+      "sha256": "a1911585157583a01ae0e09e51942e8654d4391f66da0c70abd4100c4b5d1773",
+      "crc32": 1666874831
+    },
+    {
+      "name": "manuscript/tables/formal_baseline_exact_official_table.tex",
+      "bytes": 1142,
+      "sha256": "09bb751f3f36d51406a76766379f49b71796b756e82d467b59f52a9506641152",
+      "crc32": 106068332
+    },
+    {
+      "name": "manuscript/tables/formal_best_fusion_comparison_table.tex",
+      "bytes": 748,
+      "sha256": "0afa52a5a099ca6ec7ef4ff8b892f52f27bdc79ce95429762d51e35298022721",
+      "crc32": 1141364766
+    },
+    {
+      "name": "manuscript/tables/literature/table_literature_standard.tex",
+      "bytes": 1598,
+      "sha256": "8af2924581be39e96ba76f1f27706e39af932e57a99e33dfc884ad604df47bb1",
+      "crc32": 3513754422
+    },
+    {
+      "name": "manuscript/tables/literature/table_literature_sues.tex",
+      "bytes": 1292,
+      "sha256": "dbe2dae7827bb609e4f81cb0466522a83ff05dedb54ebd43438887e0d65c6274",
+      "crc32": 1015245550
+    },
+    {
+      "name": "manuscript/tables/literature/table_literature_transfer.tex",
+      "bytes": 1073,
+      "sha256": "a2fac6b89e97ed716e46434efcf1b9bc0ab7e8e8ed786f06ddf3ea0c47684e9f",
+      "crc32": 4048311040
+    },
+    {
+      "name": "manuscript/results/supplementary_evidence.tex",
+      "bytes": 5425,
+      "sha256": "0279ea20760be40edc25a5542e8ccb83ebca8a6e32767ccefe7f79fb0bcb2e8f",
+      "crc32": 1051455819
+    },
+    {
+      "name": "manuscript/tables/evidence_20260930/official_r1.tex",
+      "bytes": 2043,
+      "sha256": "30e9c94ba5b82211f82ec2c709aa9dbf69b33c1770d95a23db1231e44a6f95b2",
+      "crc32": 1059006005
+    },
+    {
+      "name": "manuscript/tables/evidence_20260930/official_map.tex",
+      "bytes": 2056,
+      "sha256": "5eb2f7f8af9d72b763680a63a20f5861ba62a5b8cb88bf9dcf12120e6345b942",
+      "crc32": 379596715
+    },
+    {
+      "name": "manuscript/tables/evidence_20260930/transfer_all_tasks.tex",
+      "bytes": 2399,
+      "sha256": "a8e4dc91a447edbbe0c8886df28bc8e77b11e28dd0589dc88eb7f76099c383d1",
+      "crc32": 3824542813
+    },
+    {
+      "name": "manuscript/tables/evidence_20260930/sensitivity_r1.tex",
+      "bytes": 1192,
+      "sha256": "c2f9941a969f567754b2e80e468bb205cfddd0d8c272f0d6a65ffa05932bdb3f",
+      "crc32": 1622965881
+    },
+    {
+      "name": "manuscript/tables/evidence_20260930/sensitivity_map.tex",
+      "bytes": 1214,
+      "sha256": "42c7dec4476f29a967ebdd1ac1d3a4a3dee83aefba5d224f6081f0d86b8c9ee4",
+      "crc32": 3146977298
+    },
+    {
+      "name": "manuscript/refs.bib",
+      "bytes": 21693,
+      "sha256": "8403472bc99049a410e0c17b5dd1860fcd4bab7919ed4809e5a4258d3226d06a",
+      "crc32": 4078705622
+    },
+    {
+      "name": "manuscript/ieee_controls.bib",
+      "bytes": 135,
+      "sha256": "43a23068802f46c5ceb03356ca5b50a21b3b1e2df4d6969a985878ec4688465a",
+      "crc32": 156572085
+    },
+    {
+      "name": "manuscript/IEEEtran_lgm_display.bst",
+      "bytes": 57919,
+      "sha256": "1a523d7c81d4e7334ec4569511d311fc2e4b91ad435473e9d003659b5ce95835",
+      "crc32": 12997973
+    },
+    {
+      "name": "manuscript/main.pdf",
+      "bytes": 7147305,
+      "sha256": "5c9ff9ab71417826490ea101cd23088094b55f7a42d2acbf22acb3567e82495f",
+      "crc32": 2347973886
+    },
+    {
+      "name": "manuscript/supplementary.pdf",
+      "bytes": 273344,
+      "sha256": "34b94ffde568cb2f32b72f7b0905bec28cd2bdc83c8b30728b21cabad0a7e2f3",
+      "crc32": 2633196471
+    },
+    {
+      "name": "previews/main-01.png",
+      "bytes": 286271,
+      "sha256": "79d8a67b90cbdf1b822809e9e9b0df8cde174b46b3b4fafc6e80b8e4531241e0",
+      "crc32": 3607021806
+    },
+    {
+      "name": "previews/main-02.png",
+      "bytes": 360339,
+      "sha256": "03a7b3d71c800514112d129f93eff87e097f4afee5a0b0f6dcb78b09a7a006ff",
+      "crc32": 1770967611
+    },
+    {
+      "name": "previews/main-03.png",
+      "bytes": 293917,
+      "sha256": "ecc7baacc85d760f92dd3b9b879d0cb2b871121baf6d4b1ad7409e416bf79e84",
+      "crc32": 4050817153
+    },
+    {
+      "name": "previews/main-04.png",
+      "bytes": 195574,
+      "sha256": "139c5a935c01d6f376e833860261ff88441594d62f648b14ffdc0985143c015b",
+      "crc32": 1777208430
+    },
+    {
+      "name": "previews/main-05.png",
+      "bytes": 140998,
+      "sha256": "58d57eb94c6333f18d04febcf7baeda05f48a19a067b84b756e297dcf06813b4",
+      "crc32": 699949621
+    },
+    {
+      "name": "previews/main-06.png",
+      "bytes": 283596,
+      "sha256": "abc3fc5220a130b9a245d6e542015f29b05568d3e208648bd7cfd85daf1ae1fe",
+      "crc32": 4005215284
+    },
+    {
+      "name": "previews/main-07.png",
+      "bytes": 200639,
+      "sha256": "486f35b364b088d3ff26be28444ac7373424ce2d4b806e708f8fa4988ec6810c",
+      "crc32": 4141118868
+    },
+    {
+      "name": "previews/main-08.png",
+      "bytes": 270280,
+      "sha256": "123effb5874f079179e3b6839b4119b6dc03a52b6ce0d2247196567a4fa0e488",
+      "crc32": 3441295924
+    },
+    {
+      "name": "previews/main-09.png",
+      "bytes": 208167,
+      "sha256": "88303bbc7f6f9ee81380239f351b804bdf8de7b0bf35787e6c909da6b71ecca3",
+      "crc32": 3880981850
+    },
+    {
+      "name": "previews/main-10.png",
+      "bytes": 309080,
+      "sha256": "5ec3a57da11a7708bc76a70fbd69b033c0913cba11db0f54c371d5552a1d7219",
+      "crc32": 2966736630
+    },
+    {
+      "name": "previews/main-11.png",
+      "bytes": 152776,
+      "sha256": "58734dce08a2d1ffe14312afc4d96220c1c6be8ae90163e8b0c338a994e902f6",
+      "crc32": 3743012950
+    },
+    {
+      "name": "previews/main-12.png",
+      "bytes": 218246,
+      "sha256": "df9e6a918db8b23527a00c868ed8887fe005e2bd44bd7d45fa9c3aac9c78cfe0",
+      "crc32": 687373287
+    },
+    {
+      "name": "previews/main-13.png",
+      "bytes": 203511,
+      "sha256": "45b14a199bece93de042ce572d74d6c947e232dc0e5f51f025937bcedda35d26",
+      "crc32": 384882944
+    },
+    {
+      "name": "previews/main-14.png",
+      "bytes": 124510,
+      "sha256": "de2aeb561ca63a86632ebfb758b1500dac4a5fe4ffd309e47cb3c1c970e5a778",
+      "crc32": 1458415377
+    },
+    {
+      "name": "previews/main-15.png",
+      "bytes": 433567,
+      "sha256": "c3adbb2c1ffa9bd55dd65ef6cf194e49111d40f889b6562b08a8740948da18c6",
+      "crc32": 898422727
+    },
+    {
+      "name": "previews/main-16.png",
+      "bytes": 352148,
+      "sha256": "e56915db58a0a966bdb15ffd05050c7d698390b1e8385c576958a430c51420f9",
+      "crc32": 1348193480
+    },
+    {
+      "name": "evidence/root/SCOPED_DISPLAY_REVISION.json",
+      "bytes": 31534,
+      "sha256": "4bcb8181980aaf43a3aac46b2fcd5f526a0c38fa121b1484ccafc68bfe6bd083",
+      "crc32": 4044485802
+    },
+    {
+      "name": "evidence/root/ROOT_ACTUAL_TOOLS.json",
+      "bytes": 22488,
+      "sha256": "dcfc347376ba555eded210cc44e58d50901a3766ba3e3c28d7d11c0ec8a527af",
+      "crc32": 1023324857
+    },
+    {
+      "name": "evidence/root/ROOT_RULE_INDEX_EVIDENCE.json",
+      "bytes": 872,
+      "sha256": "d3e5526041b8bbd54c47d7a1b76e9bf380167118f34f7c3ace5348f0e155a6a1",
+      "crc32": 3248461749
+    },
+    {
+      "name": "evidence/root/ROOT_VISUAL_REVIEW.json",
+      "bytes": 1899,
+      "sha256": "8b29d8e301e98c84e6a78de74abc42a7d5370801d44be7e2909c2025be4cf24d",
+      "crc32": 1508425978
+    },
+    {
+      "name": "evidence/root/main.tex.patch",
+      "bytes": 302,
+      "sha256": "d29cf58fcb754932a540ecca1424fa79fe22dfb561d2b9754628515788e19313",
+      "crc32": 3275007986
+    },
+    {
+      "name": "evidence/root/IEEEtran_lgm_display.bst.patch",
+      "bytes": 488,
+      "sha256": "d478edd047dac990a170d71bc2295b3a461ea92ab423d4b8e86ae00ab4b7a0bb",
+      "crc32": 3444065344
+    },
+    {
+      "name": "evidence/root/derive_scoped_author_display.py",
+      "bytes": 5864,
+      "sha256": "fc9dfed09122254e8a82d738cf4880cd9b7cb0251eb4fd7a453f55a9ded818c6",
+      "crc32": 3646879934
+    },
+    {
+      "name": "evidence/root/finalize_braced_venue_fields.py",
+      "bytes": 5641,
+      "sha256": "81d903b844d8ab874bc52fb270ce1913a9020e646ae1a8b62fa5a87a133b8352",
+      "crc32": 1489208060
+    },
+    {
+      "name": "evidence/root/compile_main_only.py",
+      "bytes": 3637,
+      "sha256": "201e553a462b41f6db4fb801a308aa20da15be91edef0af9c316b64ae92e4983",
+      "crc32": 604662535
+    },
+    {
+      "name": "evidence/root/render_main_only.py",
+      "bytes": 2974,
+      "sha256": "02b1a9abcec3ed98096645fad14e89db9ba47a15a85c4b7b902019c9e84bf1a0",
+      "crc32": 1828480032
+    },
+    {
+      "name": "evidence/root/adopt_and_package_scoped.py",
+      "bytes": 17426,
+      "sha256": "dad28d9d774432656da94d694bc5efd14e8aad3abb08d81323d150b7f00bd530",
+      "crc32": 3699078660
+    },
+    {
+      "name": "evidence/root/IEEEtran.bst.before",
+      "bytes": 57748,
+      "sha256": "314f0ece704568faf827011bac498650691b2b5ee06320720830e782416d5a5f",
+      "crc32": 3387107699
+    },
+    {
+      "name": "evidence/root/PDF_LAYOUT.json",
+      "bytes": 10960,
+      "sha256": "b4ef027f24c261fd6bf9aeecc1f4c66226f217475a0e10e103189ca4e4219d91",
+      "crc32": 4292817027
+    },
+    {
+      "name": "evidence/compile/COMPILE.json",
+      "bytes": 12030,
+      "sha256": "6178e899c3200c061dbd80ae57ab7f2c4b1a33ac8e89548667fc50cd9bb9dace",
+      "crc32": 359219054
+    },
+    {
+      "name": "evidence/compile/main.1.stdout.txt",
+      "bytes": 16005,
+      "sha256": "e045b4b9b053bccfc68f857d9a3d1c04e6f68172022967d3bd7c55fbbcf40c83",
+      "crc32": 57220341
+    },
+    {
+      "name": "evidence/compile/main.2.stdout.txt",
+      "bytes": 451,
+      "sha256": "96935ee67a62999e869c7cb3cfd100d08f4a79de4229c22d1419f95225bc49b6",
+      "crc32": 1366499160
+    },
+    {
+      "name": "evidence/compile/main.3.stdout.txt",
+      "bytes": 13321,
+      "sha256": "6ef6bf4896d8fc8a39b845d2f706477420c177fe05adf9d40eeb4ae396ae8b11",
+      "crc32": 137547881
+    },
+    {
+      "name": "evidence/compile/main.4.stdout.txt",
+      "bytes": 7008,
+      "sha256": "9d3ae90f46d0790a8ad920b4fbd570864fe4883e4dd612fb324816d5fd19b615",
+      "crc32": 2847473822
+    },
+    {
+      "name": "evidence/compile/main.bbl",
+      "bytes": 12421,
+      "sha256": "0bfa3667ceeb41a2aee7b2fc9e9fb210c717c30bad35b7a361ed0cd49d5b0195",
+      "crc32": 1468418244
+    },
+    {
+      "name": "evidence/compile/main.blg",
+      "bytes": 1723,
+      "sha256": "008d8638183f2a2d701b3eed084cb73260bde6821c13002fc438f5a27bc6500f",
+      "crc32": 471446432
+    },
+    {
+      "name": "evidence/compile/main.log",
+      "bytes": 22429,
+      "sha256": "c3cad812ad06e2c17b760b3fc89bff9571a57428ddd100413496771b09c62c5d",
+      "crc32": 2739767902
+    },
+    {
+      "name": "evidence/independent/SOURCE_SCOPE_ADDENDUM.json",
+      "bytes": 15182,
+      "sha256": "8bcdbc8235c9f8b2a95409b461bfb87210b0b4421ceccbc7107b6503baf5dbfd",
+      "crc32": 2988852614
+    },
+    {
+      "name": "evidence/independent/check_scoped_source_and_bbl_delta.py",
+      "bytes": 10447,
+      "sha256": "338b6bc6593076339e5f91151f8a929199b3c117149f3c41a09a4a8b5c88442a",
+      "crc32": 542965755
+    },
+    {
+      "name": "evidence/independent/SCOPE_DELTA_ACTUAL_TOOL_RECEIPT.json",
+      "bytes": 1180,
+      "sha256": "79029f9f2a3fd99665d9f6457e78c854b3a4c71dd58cda8e2d4ab09f0f6f351b",
+      "crc32": 85678707
+    },
+    {
+      "name": "evidence/independent/IEEE_AUTHOR_DISPLAY_REVIEW.md",
+      "bytes": 5972,
+      "sha256": "6d086c2c7fb9c5ca20467e906228235889115d2c974ce1bf910ab80d81fe2a17",
+      "crc32": 727451875
+    },
+    {
+      "name": "evidence/independent/SELECTED_AUTHORS_AND_LOCAL_BST.json",
+      "bytes": 20683,
+      "sha256": "0736beb7861debccc8ccfc860b9f134132894a4055b381945f87cd09b1d99d2a",
+      "crc32": 4024203020
+    },
+    {
+      "name": "evidence/independent/LOCAL_READ_ACTUAL_TOOL_RECEIPT.json",
+      "bytes": 1169,
+      "sha256": "0c734572a98c21894f3d0fd729bfb92a1c24f17c5dca7c0ed4eed21a518ca16f",
+      "crc32": 299788190
+    },
+    {
+      "name": "evidence/observation/ROOT_OBSERVATION_SEAL.json",
+      "bytes": 21851,
+      "sha256": "f0fb009f6ac62b5fad95939e42027e97c1742c34bc215ae4094e646ec84212b4",
+      "crc32": 2796816983
+    },
+    {
+      "name": "evidence/observation/OBSERVATION_WRAPPER_INCLUDED.json",
+      "bytes": 15692,
+      "sha256": "4901fa248c7ab39afdb29549d606ab485036943b66ade6af1b7a45510f517f84",
+      "crc32": 3318698236
+    },
+    {
+      "name": "evidence/observation/STOPPED_OBSERVATION.json",
+      "bytes": 5767,
+      "sha256": "a8e8c3f3886d2c645281bd3dd41c9cb958aac9f82d1016abe182f90296c895b8",
+      "crc32": 3267920775
+    },
+    {
+      "name": "evidence/observation/ACTUAL_TOOL_RETURNS.json",
+      "bytes": 89594,
+      "sha256": "3657d3fb51a5e25ac16dcfa86dceab7cbc224e2ccee812bf2a2628e71487c9a9",
+      "crc32": 2270337784
+    },
+    {
+      "name": "README.md",
+      "bytes": 3116,
+      "sha256": "d84176a4d66744f6ed3d7d6fb7eeca882ce60b1daa2e51a89690a8173c9e344d",
+      "crc32": 3381254714
+    }
+  ],
+  "bounded_file_bindings": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\SCOPED_DISPLAY_REVISION.json",
+      "bytes": 31534,
+      "sha256": "4bcb8181980aaf43a3aac46b2fcd5f526a0c38fa121b1484ccafc68bfe6bd083"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_camp_dac_context_20260930_1948\\ROOT_CAMP_DAC_CONTEXT_ADOPTION.json",
+      "bytes": 75910,
+      "sha256": "af7fa415e13b790fb26abe6f25e857c5164ec331648de3078d0f3146b9ef15d8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\ieee_reference_author_display_review_20260930_2142\\SOURCE_SCOPE_ADDENDUM.json",
+      "bytes": 15182,
+      "sha256": "8bcdbc8235c9f8b2a95409b461bfb87210b0b4421ceccbc7107b6503baf5dbfd"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\heartbeat_observation_20260930_2130\\ROOT_OBSERVATION_SEAL.json",
+      "bytes": 21851,
+      "sha256": "f0fb009f6ac62b5fad95939e42027e97c1742c34bc215ae4094e646ec84212b4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\compile_main_attempt_1\\COMPILE.json",
+      "bytes": 12030,
+      "sha256": "6178e899c3200c061dbd80ae57ab7f2c4b1a33ac8e89548667fc50cd9bb9dace"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\derive_scoped_author_display.py",
+      "bytes": 5864,
+      "sha256": "fc9dfed09122254e8a82d738cf4880cd9b7cb0251eb4fd7a453f55a9ded818c6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\finalize_braced_venue_fields.py",
+      "bytes": 5641,
+      "sha256": "81d903b844d8ab874bc52fb270ce1913a9020e646ae1a8b62fa5a87a133b8352"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main.tex.patch",
+      "bytes": 302,
+      "sha256": "d29cf58fcb754932a540ecca1424fa79fe22dfb561d2b9754628515788e19313"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\IEEEtran_lgm_display.bst.patch",
+      "bytes": 488,
+      "sha256": "d478edd047dac990a170d71bc2295b3a461ea92ab423d4b8e86ae00ab4b7a0bb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_display_20260930_2145\\manuscript\\main.tex",
+      "bytes": 51238,
+      "sha256": "16737a57ac80ae7a97631cfbad35c4f0788c57f413c5e3ff171b4556281c0535"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\main.tex",
+      "bytes": 51250,
+      "sha256": "d12d89810ab46c059e02b483bff4b06099fde32d1af6faab37564144f39c6a2b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\ieee_controls.bib",
+      "bytes": 135,
+      "sha256": "43a23068802f46c5ceb03356ca5b50a21b3b1e2df4d6969a985878ec4688465a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\IEEEtran.bst.before",
+      "bytes": 57748,
+      "sha256": "314f0ece704568faf827011bac498650691b2b5ee06320720830e782416d5a5f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\IEEEtran_lgm_display.bst",
+      "bytes": 57919,
+      "sha256": "1a523d7c81d4e7334ec4569511d311fc2e4b91ad435473e9d003659b5ce95835"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_camp_dac_context_20260930_1948\\manuscript\\refs.bib",
+      "bytes": 21693,
+      "sha256": "8403472bc99049a410e0c17b5dd1860fcd4bab7919ed4809e5a4258d3226d06a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\refs.bib",
+      "bytes": 21693,
+      "sha256": "8403472bc99049a410e0c17b5dd1860fcd4bab7919ed4809e5a4258d3226d06a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_camp_dac_context_20260930_1948\\manuscript\\main.bbl",
+      "bytes": 12695,
+      "sha256": "b212760a1c491d0d7bafe80e41833dcc4f8adeed0902d23a1fc13e1f82891204"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\main.bbl",
+      "bytes": 12421,
+      "sha256": "0bfa3667ceeb41a2aee7b2fc9e9fb210c717c30bad35b7a361ed0cd49d5b0195"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\build.py",
+      "bytes": 593,
+      "sha256": "a6999d3d389a46f68adb8a8851f510ff3d580f9a1c0e9d82f7a886382376fa59"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig01_motivation.pdf",
+      "bytes": 252935,
+      "sha256": "3ddd9d7bd5917e485dd3a0093ca240f3654fe382b18a1c08796056bcc870a315"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig02_framework.pdf",
+      "bytes": 259446,
+      "sha256": "e00a716d5c984761f59c8ea3d934ea1f17ae0587f11b5bda21ce76ce6fd5a936"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig03_mechanism.pdf",
+      "bytes": 79640,
+      "sha256": "3a63aa2b2faf1558abe4e633babba4def03588162477af0437a2b16eea54a5e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig04_protocol.pdf",
+      "bytes": 254120,
+      "sha256": "b72a77a619df66e4ab248dfecf3bda364928476fefbb67b56e79242876559fbc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig05_exact_effects.pdf",
+      "bytes": 48358,
+      "sha256": "02fac07e1497cfc149d88353f6755cdc7450bc8fe24e8fe9ac186677d120e543"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig06_rule_sensitivity.pdf",
+      "bytes": 67262,
+      "sha256": "0373afb34043403c85f3ea9d1c31e14043876e6897a66905bc4187277b102905"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig07_gallery_scaling.pdf",
+      "bytes": 55245,
+      "sha256": "4bfb212310f41de24dfec8894d2bc464af15fd6f474e41721a5a69ab43b8a262"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig08_complementarity.pdf",
+      "bytes": 74212,
+      "sha256": "a8476eb34ca2340126e0feaa820d4adf76a77b00ddd536bac66e14fd3e812ba4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig09_accuracy_cost.pdf",
+      "bytes": 43176,
+      "sha256": "76f86f5cb6880a6121eaf1dde4c3d7008b529194ae9b0952d3461e941a698acf"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\figures\\journal_20260914\\fig10_qualitative.pdf",
+      "bytes": 5659870,
+      "sha256": "114f333b30c51bcb50f69e665bbca732af870da0586385c7c42803560b74db32"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\README_OVERLEAF.md",
+      "bytes": 463,
+      "sha256": "3db291780b225d556b36064fd3724b4ad5fbc26ad4fe0ea6045545ed6f141d4e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\results\\semantic_results.tex",
+      "bytes": 5122,
+      "sha256": "69e9564363d162db5dd727691ad48a10df12727e4c5a09b8c5bc527cce980f9f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\supplementary.tex",
+      "bytes": 9855,
+      "sha256": "8886ecc95e046284356e74c4f5b7ec9a096fdf0af710ceb010cf3bf643a43a10"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\formal_best_fusion_comparison_table.tex",
+      "bytes": 864,
+      "sha256": "93557176df0e0688e37555daafbd8ee213f3c9b320aa73a714f18425d8485c00"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\formal_gallery_scale_table.tex",
+      "bytes": 700,
+      "sha256": "c333b737ff5a44b4051ea585c39951b9f909e0fc829b27bfb8876e33e4646bc2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\formal_retrieval_rule_table.tex",
+      "bytes": 713,
+      "sha256": "e0f607a44728dca6930d7d62f8c3057b808c6bf433806a08d6a5df64c5e9d612"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\generated_exact_public_baselines.tex",
+      "bytes": 962,
+      "sha256": "817ee0d4327d33b695618a1ae8519ef831ac62af23ec65dbb495e1d476135cbe"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\20260821_v1.1.0\\generated_exact_public_significance.tex",
+      "bytes": 902,
+      "sha256": "a1911585157583a01ae0e09e51942e8654d4391f66da0c70abd4100c4b5d1773"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\formal_baseline_exact_official_table.tex",
+      "bytes": 1142,
+      "sha256": "09bb751f3f36d51406a76766379f49b71796b756e82d467b59f52a9506641152"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\formal_best_fusion_comparison_table.tex",
+      "bytes": 748,
+      "sha256": "0afa52a5a099ca6ec7ef4ff8b892f52f27bdc79ce95429762d51e35298022721"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\literature\\table_literature_standard.tex",
+      "bytes": 1598,
+      "sha256": "8af2924581be39e96ba76f1f27706e39af932e57a99e33dfc884ad604df47bb1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\literature\\table_literature_sues.tex",
+      "bytes": 1292,
+      "sha256": "dbe2dae7827bb609e4f81cb0466522a83ff05dedb54ebd43438887e0d65c6274"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\literature\\table_literature_transfer.tex",
+      "bytes": 1073,
+      "sha256": "a2fac6b89e97ed716e46434efcf1b9bc0ab7e8e8ed786f06ddf3ea0c47684e9f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\results\\supplementary_evidence.tex",
+      "bytes": 5425,
+      "sha256": "0279ea20760be40edc25a5542e8ccb83ebca8a6e32767ccefe7f79fb0bcb2e8f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\official_r1.tex",
+      "bytes": 2043,
+      "sha256": "30e9c94ba5b82211f82ec2c709aa9dbf69b33c1770d95a23db1231e44a6f95b2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\official_map.tex",
+      "bytes": 2056,
+      "sha256": "5eb2f7f8af9d72b763680a63a20f5861ba62a5b8cb88bf9dcf12120e6345b942"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\transfer_all_tasks.tex",
+      "bytes": 2399,
+      "sha256": "a8e4dc91a447edbbe0c8886df28bc8e77b11e28dd0589dc88eb7f76099c383d1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\sensitivity_r1.tex",
+      "bytes": 1192,
+      "sha256": "c2f9941a969f567754b2e80e468bb205cfddd0d8c272f0d6a65ffa05932bdb3f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\tables\\evidence_20260930\\sensitivity_map.tex",
+      "bytes": 1214,
+      "sha256": "42c7dec4476f29a967ebdd1ac1d3a4a3dee83aefba5d224f6081f0d86b8c9ee4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\PDF_LAYOUT.json",
+      "bytes": 10960,
+      "sha256": "b4ef027f24c261fd6bf9aeecc1f4c66226f217475a0e10e103189ca4e4219d91"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_camp_dac_context_20260930_1948\\main_preview_1\\PDF_LAYOUT.json",
+      "bytes": 11489,
+      "sha256": "b1f5dd378bc2c2e250e1931267f5a1695f859a1874ea011a1dcc081bedb7ecc1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_camp_dac_context_20260930_1948\\ROOT_VISUAL_REVIEW.json",
+      "bytes": 9125,
+      "sha256": "4b32cba043950f713fc475233e256c87fcd999cd5312d4612a8ac675fa9c4d52"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\main.pdf",
+      "bytes": 7147305,
+      "sha256": "5c9ff9ab71417826490ea101cd23088094b55f7a42d2acbf22acb3567e82495f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\supplementary.pdf",
+      "bytes": 273344,
+      "sha256": "34b94ffde568cb2f32b72f7b0905bec28cd2bdc83c8b30728b21cabad0a7e2f3"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-01.png",
+      "bytes": 286271,
+      "sha256": "79d8a67b90cbdf1b822809e9e9b0df8cde174b46b3b4fafc6e80b8e4531241e0"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-02.png",
+      "bytes": 360339,
+      "sha256": "03a7b3d71c800514112d129f93eff87e097f4afee5a0b0f6dcb78b09a7a006ff"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-03.png",
+      "bytes": 293917,
+      "sha256": "ecc7baacc85d760f92dd3b9b879d0cb2b871121baf6d4b1ad7409e416bf79e84"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-04.png",
+      "bytes": 195574,
+      "sha256": "139c5a935c01d6f376e833860261ff88441594d62f648b14ffdc0985143c015b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-05.png",
+      "bytes": 140998,
+      "sha256": "58d57eb94c6333f18d04febcf7baeda05f48a19a067b84b756e297dcf06813b4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-06.png",
+      "bytes": 283596,
+      "sha256": "abc3fc5220a130b9a245d6e542015f29b05568d3e208648bd7cfd85daf1ae1fe"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-07.png",
+      "bytes": 200639,
+      "sha256": "486f35b364b088d3ff26be28444ac7373424ce2d4b806e708f8fa4988ec6810c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-08.png",
+      "bytes": 270280,
+      "sha256": "123effb5874f079179e3b6839b4119b6dc03a52b6ce0d2247196567a4fa0e488"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-09.png",
+      "bytes": 208167,
+      "sha256": "88303bbc7f6f9ee81380239f351b804bdf8de7b0bf35787e6c909da6b71ecca3"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-10.png",
+      "bytes": 309080,
+      "sha256": "5ec3a57da11a7708bc76a70fbd69b033c0913cba11db0f54c371d5552a1d7219"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-11.png",
+      "bytes": 152776,
+      "sha256": "58734dce08a2d1ffe14312afc4d96220c1c6be8ae90163e8b0c338a994e902f6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-12.png",
+      "bytes": 218246,
+      "sha256": "df9e6a918db8b23527a00c868ed8887fe005e2bd44bd7d45fa9c3aac9c78cfe0"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-13.png",
+      "bytes": 203511,
+      "sha256": "45b14a199bece93de042ce572d74d6c947e232dc0e5f51f025937bcedda35d26"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-14.png",
+      "bytes": 124510,
+      "sha256": "de2aeb561ca63a86632ebfb758b1500dac4a5fe4ffd309e47cb3c1c970e5a778"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-15.png",
+      "bytes": 433567,
+      "sha256": "c3adbb2c1ffa9bd55dd65ef6cf194e49111d40f889b6562b08a8740948da18c6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\main_preview_1\\main-16.png",
+      "bytes": 352148,
+      "sha256": "e56915db58a0a966bdb15ffd05050c7d698390b1e8385c576958a430c51420f9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\ROOT_VISUAL_REVIEW.json",
+      "bytes": 1899,
+      "sha256": "8b29d8e301e98c84e6a78de74abc42a7d5370801d44be7e2909c2025be4cf24d"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\ROOT_ACTUAL_TOOLS.json",
+      "bytes": 22488,
+      "sha256": "dcfc347376ba555eded210cc44e58d50901a3766ba3e3c28d7d11c0ec8a527af"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\ROOT_RULE_INDEX_EVIDENCE.json",
+      "bytes": 872,
+      "sha256": "d3e5526041b8bbd54c47d7a1b76e9bf380167118f34f7c3ace5348f0e155a6a1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\compile_main_only.py",
+      "bytes": 3637,
+      "sha256": "201e553a462b41f6db4fb801a308aa20da15be91edef0af9c316b64ae92e4983"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\render_main_only.py",
+      "bytes": 2974,
+      "sha256": "02b1a9abcec3ed98096645fad14e89db9ba47a15a85c4b7b902019c9e84bf1a0"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\adopt_and_package_scoped.py",
+      "bytes": 17426,
+      "sha256": "dad28d9d774432656da94d694bc5efd14e8aad3abb08d81323d150b7f00bd530"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\compile_main_attempt_1\\main.1.stdout.txt",
+      "bytes": 16005,
+      "sha256": "e045b4b9b053bccfc68f857d9a3d1c04e6f68172022967d3bd7c55fbbcf40c83"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\compile_main_attempt_1\\main.2.stdout.txt",
+      "bytes": 451,
+      "sha256": "96935ee67a62999e869c7cb3cfd100d08f4a79de4229c22d1419f95225bc49b6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\compile_main_attempt_1\\main.3.stdout.txt",
+      "bytes": 13321,
+      "sha256": "6ef6bf4896d8fc8a39b845d2f706477420c177fe05adf9d40eeb4ae396ae8b11"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\manuscript_ieee_reference_scope_20260930_2155\\compile_main_attempt_1\\main.4.stdout.txt",
+      "bytes": 7008,
+      "sha256": "9d3ae90f46d0790a8ad920b4fbd570864fe4883e4dd612fb324816d5fd19b615"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\main.blg",
+      "bytes": 1723,
+      "sha256": "008d8638183f2a2d701b3eed084cb73260bde6821c13002fc438f5a27bc6500f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\manuscript\\main.log",
+      "bytes": 22429,
+      "sha256": "c3cad812ad06e2c17b760b3fc89bff9571a57428ddd100413496771b09c62c5d"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\ieee_reference_author_display_review_20260930_2142\\check_scoped_source_and_bbl_delta.py",
+      "bytes": 10447,
+      "sha256": "338b6bc6593076339e5f91151f8a929199b3c117149f3c41a09a4a8b5c88442a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\ieee_reference_author_display_review_20260930_2142\\SCOPE_DELTA_ACTUAL_TOOL_RECEIPT.json",
+      "bytes": 1180,
+      "sha256": "79029f9f2a3fd99665d9f6457e78c854b3a4c71dd58cda8e2d4ab09f0f6f351b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\ieee_reference_author_display_review_20260930_2142\\IEEE_AUTHOR_DISPLAY_REVIEW.md",
+      "bytes": 5972,
+      "sha256": "6d086c2c7fb9c5ca20467e906228235889115d2c974ce1bf910ab80d81fe2a17"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\ieee_reference_author_display_review_20260930_2142\\SELECTED_AUTHORS_AND_LOCAL_BST.json",
+      "bytes": 20683,
+      "sha256": "0736beb7861debccc8ccfc860b9f134132894a4055b381945f87cd09b1d99d2a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\ieee_reference_author_display_review_20260930_2142\\LOCAL_READ_ACTUAL_TOOL_RECEIPT.json",
+      "bytes": 1169,
+      "sha256": "0c734572a98c21894f3d0fd729bfb92a1c24f17c5dca7c0ed4eed21a518ca16f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\heartbeat_observation_20260930_2130\\OBSERVATION_WRAPPER_INCLUDED.json",
+      "bytes": 15692,
+      "sha256": "4901fa248c7ab39afdb29549d606ab485036943b66ade6af1b7a45510f517f84"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260930_213044958\\OBSERVATION.json",
+      "bytes": 5767,
+      "sha256": "a8e8c3f3886d2c645281bd3dd41c9cb958aac9f82d1016abe182f90296c895b8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\heartbeat_observation_20260930_2130\\ACTUAL_TOOL_RETURNS.json",
+      "bytes": 89594,
+      "sha256": "3657d3fb51a5e25ac16dcfa86dceab7cbc224e2ccee812bf2a2628e71487c9a9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\status.json",
+      "bytes": 51769,
+      "sha256": "0bd5b1b7b486fb442d7e9f6624839e7b2b2ce1600efd5f6bbbdf00cf22093d8a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_status.json",
+      "bytes": 7268,
+      "sha256": "47fd31336b8e742da91891a87c28a0767989cb45c375aeb000854f50e37acf12"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\extension_status.json",
+      "bytes": 40092,
+      "sha256": "02a21093347100b5a17671f676cf5c9b7c5819a552729733677a1b4b52b2b074"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\latest_baseline_status.json",
+      "bytes": 45792,
+      "sha256": "83fd30e4d1b0efa0a806ceb033f20b6c49553f3c9a649004509929751d91e94a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\independent_comparison_status.json",
+      "bytes": 72886,
+      "sha256": "a1389f862ec7560e32fb29aeb8dafb93349eaf19a6ae149979c50357760234ee"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\pipeline.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\pipeline.stderr.log",
+      "bytes": 723,
+      "sha256": "ce6482a7a929ef5ca181de34ccfe8ce47e9668651c8f1ca51ffc39550702b67f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\extensions.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\extensions.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\latest.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\latest.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\independent.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\independent.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\stage_logs\\formal_efficiency_component.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\stage_logs\\formal_efficiency_component.stderr.log",
+      "bytes": 2387,
+      "sha256": "27cde8cc55651bab5bd2c2adbb8efb19002539f328c8bad753c8ac95350fc9ed"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\state_io_retry_20260920_v2\\io_retry_pipeline_14420.jsonl",
+      "bytes": 4770,
+      "sha256": "85cbb8f83edd26f52025fd263173f7f6b391811f06f2ba761802769dbc64a526"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\latest_baseline_gpu.lock",
+      "bytes": 1,
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\README.md",
+      "bytes": 3116,
+      "sha256": "d84176a4d66744f6ed3d7d6fb7eeca882ce60b1daa2e51a89690a8173c9e344d"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\manuscript_ieee_reference_scope_20260930_2155\\LGM_GAME_Reference_Layout_Working_Draft_20260930.zip",
+      "bytes": 17958565,
+      "sha256": "2b2fae042e838dcf30441657499a87b905db6377c96dc8f372f105e61b93de1f"
+    }
+  ],
+  "current_16_state_log_bytes_and_carrier_unchanged_at_packaging": true,
+  "new_os_or_gpu_or_commit_admission_at_packaging": false,
+  "working_draft_adopted": true,
+  "final_submission_manuscript": false,
+  "new_scientific_result": false,
+  "scientific_execution_released": false,
+  "new_native_figures": false,
+  "Overleaf_updated": false,
+  "automation_complete": false,
+  "trial_outcomes": {
+    "LF_clearpage_candidate": "Original CRLF anchor derivation exit1; different LF continuation exit0. Compiled 17 pages, poor column balance; not adopted.",
+    "global_display_candidate": "Compiled 16 pages; non-IEEE author-display scope too broad; not adopted. Independent checker had a wrapped-name parser failure with a cached-text correction, not a rerun.",
+    "scoped_display_candidate": "First protected-brace parser derivation exit1 with partial files retained; different scoped finalizer exit0; final four compiler commands exit0 and 16 pages. Source review and working-draft delivery are separate from scientific execution."
+  },
+  "limits": [
+    "Root and independent reviewers are AI, not human reviewers.",
+    "The current six-key venue decisions use preserved source metadata and a limited official indexed reference rule, not a new complete bibliography audit.",
+    "The final compiler helper checks text inputs; root additionally checks the derived BST bytes against the pinned source before packaging. This is not arbitrary-writer exclusion.",
+    "Only changed final main page 16 was actually viewed for this final candidate; exact saved hashes inherit the adopted review for the other 15 and the unchanged supplement.",
+    "All adopted-parent scientific limitations, negative results, pending experiments and evidence-chain gaps remain. Old large archives, model weights, NPZ/cache and dataset image corpora were not reread or rehashed."
+  ]
+}

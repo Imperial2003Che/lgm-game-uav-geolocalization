@@ -1,0 +1,61 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "unit": "fraction",
+  "condition": {
+    "kind": "clean",
+    "name": "clean",
+    "query_pixels": "decoded without corruption",
+    "gallery": "clean"
+  },
+  "full_gallery": true,
+  "clean_gallery_for_every_condition": true,
+  "AP_definition": "Official trapezoidal interpolation used by the University-1652/SUES reference evaluator.",
+  "results": {
+    "university1652_drone_to_satellite": {
+      "unit": "fraction",
+      "queries": 37855,
+      "gallery": 951,
+      "query_identities": 701,
+      "gallery_identities": 951,
+      "r_at_1": 0.31905956940958924,
+      "r_at_5": 0.5841764628186501,
+      "r_at_10": 0.6886540747589486,
+      "r_at_20": 0.7862897899881125,
+      "official_trapezoid_mAP": 0.38141995668411255,
+      "MRR": 0.4437803328037262,
+      "mean_top1_margin": 0.04357342794537544,
+      "protocol": "official test/query_drone -> test/gallery_satellite"
+    },
+    "university1652_satellite_to_drone": {
+      "unit": "fraction",
+      "queries": 701,
+      "gallery": 51355,
+      "query_identities": 701,
+      "gallery_identities": 951,
+      "r_at_1": 0.4593437945791726,
+      "r_at_5": 0.6191155492154066,
+      "r_at_10": 0.6776034236804565,
+      "r_at_20": 0.7517831669044223,
+      "official_trapezoid_mAP": 0.2924031913280487,
+      "MRR": 0.538109540939331,
+      "mean_top1_margin": 0.012498866766691208,
+      "protocol": "official test/query_satellite -> test/gallery_drone"
+    },
+    "university1652_street_to_satellite": {
+      "unit": "fraction",
+      "queries": 2579,
+      "gallery": 951,
+      "query_identities": 701,
+      "gallery_identities": 951,
+      "r_at_1": 0.009305932531989143,
+      "r_at_5": 0.04420317952694843,
+      "r_at_10": 0.06863125242341993,
+      "r_at_20": 0.12175261729352463,
+      "official_trapezoid_mAP": 0.021849311888217926,
+      "MRR": 0.03439268842339516,
+      "mean_top1_margin": 0.028152059763669968,
+      "protocol": "official test/query_street -> test/gallery_satellite"
+    }
+  },
+  "degradation_vs_clean": null
+}

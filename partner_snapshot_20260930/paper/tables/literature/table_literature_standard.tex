@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\caption{Author-reported retrieval results (\%) on University-1652 and its UAV-VLL extension, grouped by input and evaluation setting.}
+\label{tab:literature_context}
+\fontsize{9}{10.5}\selectfont
+\setlength{\tabcolsep}{3.3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{lllrrrr}
+\toprule
+Method & Input / protocol & Source & \multicolumn{2}{c}{UAV $\rightarrow$ satellite} & \multicolumn{2}{c}{Satellite $\rightarrow$ UAV} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7} & & & R@1 & AP & R@1 & AP \\
+\midrule
+MEAN & RGB, 384 & \cite{mean2025} & 93.55 & 94.53 & 96.01 & 92.08 \\
+MobileGeo (core) & RGB, 224; distillation & \cite{mobilegeo2026} & 93.87 & 94.83 & 95.72 & 92.57 \\
+\midrule
+CDM-Net & Text / generated view, 512 & \cite{cdmnet2025} & 95.13 & 96.04 & 96.68 & 94.05 \\
+MGS2-Net (v2) & Depth prior, 336 & \cite{mgs2026v2} & 97.60 & 98.03 & 98.86 & 97.25 \\
+\midrule
+MobileGeo (+MSRM) & Multi-view postprocessing & \cite{mobilegeo2026} & 97.15 & 97.50 & 95.58 & 96.27 \\
+\midrule
+VLGeo (RGB only) & UAV-VLL RGB, 224 & \cite{vlgeo2026} & 93.15 & 96.03 & 92.01 & 95.25 \\
+VLGeo (RGB + text) & UAV-VLL RGB + text, 224 & \cite{vlgeo2026} & 98.57 & 99.17 & 98.14 & 98.98 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\textwidth}\fontsize{9}{10.5}\selectfont Input size is in pixels. Horizontal groups separate RGB encoders, auxiliary inputs, multi-view postprocessing, and the UAV-VLL extension. Sources: MEAN Table I; CDM-Net Table III; MGS2-Net v2 Table 1; MobileGeo v3 Table I; VLGeo Table II.\end{minipage}
+\end{table*}

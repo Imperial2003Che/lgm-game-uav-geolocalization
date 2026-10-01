@@ -1,0 +1,33 @@
+\begin{table*}[t]
+\centering
+\caption{Frozen main-matrix results on University-1652, reported task by task. All cells are mean $\pm$ sample SD over the three frozen seeds. No macro or duplicate overall/subset average is formed.}
+\label{tab:formal_main_university1652}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrr}
+\toprule
+Task & Variant & R@1 & R@5 & R@10 & R@20 & Official mAP \\
+\midrule
+Drone$\rightarrow$Satellite & Visual & 37.86\pm1.01 & 62.43\pm0.73 & 72.09\pm0.60 & 80.67\pm0.65 & 43.65\pm0.95 \\
+Drone$\rightarrow$Satellite & Content & 0.82\pm0.01 & 3.12\pm0.03 & 5.48\pm0.05 & 8.84\pm0.03 & 1.79\pm0.01 \\
+Drone$\rightarrow$Satellite & Style & 0.47\pm0.00 & 1.93\pm0.04 & 3.25\pm0.04 & 5.48\pm0.05 & 1.15\pm0.01 \\
+Drone$\rightarrow$Satellite & Visual+Content & 32.55\pm0.24 & 58.29\pm0.31 & 68.66\pm0.36 & 78.09\pm0.25 & 38.62\pm0.29 \\
+Drone$\rightarrow$Satellite & Visual+Style & 31.28\pm0.20 & 56.42\pm0.88 & 66.97\pm1.11 & 76.86\pm1.09 & 37.25\pm0.31 \\
+Drone$\rightarrow$Satellite & Full & 32.30\pm0.35 & 58.38\pm0.43 & 68.80\pm0.87 & 78.45\pm0.73 & 38.45\pm0.27 \\
+\addlinespace
+Satellite$\rightarrow$Drone & Visual & 54.30\pm3.42 & 68.76\pm3.36 & 74.32\pm1.87 & 78.98\pm1.58 & 35.62\pm1.32 \\
+Satellite$\rightarrow$Drone & Content & 1.52\pm0.22 & 6.09\pm0.22 & 9.22\pm0.50 & 12.41\pm0.29 & 0.74\pm0.00 \\
+Satellite$\rightarrow$Drone & Style & 0.10\pm0.08 & 1.43\pm0.14 & 3.00\pm0.29 & 5.14\pm0.29 & 0.33\pm0.00 \\
+Satellite$\rightarrow$Drone & Visual+Content & 45.36\pm0.62 & 61.72\pm0.92 & 68.43\pm1.94 & 73.94\pm1.16 & 29.10\pm0.41 \\
+Satellite$\rightarrow$Drone & Visual+Style & 44.22\pm2.49 & 61.25\pm2.22 & 67.57\pm2.97 & 73.56\pm2.79 & 28.55\pm0.61 \\
+Satellite$\rightarrow$Drone & Full & 44.17\pm1.54 & 61.48\pm0.74 & 67.95\pm1.86 & 74.85\pm1.39 & 28.97\pm0.27 \\
+\addlinespace
+Street$\rightarrow$Satellite & Visual & 0.79\pm0.23 & 3.46\pm0.22 & 5.87\pm0.23 & 10.38\pm0.20 & 1.91\pm0.21 \\
+Street$\rightarrow$Satellite & Content & 0.13\pm0.02 & 0.87\pm0.06 & 1.95\pm0.10 & 3.79\pm0.09 & 0.67\pm0.02 \\
+Street$\rightarrow$Satellite & Style & 0.03\pm0.02 & 0.67\pm0.08 & 1.38\pm0.14 & 2.51\pm0.08 & 0.43\pm0.03 \\
+Street$\rightarrow$Satellite & Visual+Content & 1.11\pm0.28 & 4.10\pm0.24 & 6.95\pm0.21 & 11.74\pm0.30 & 2.32\pm0.23 \\
+Street$\rightarrow$Satellite & Visual+Style & 1.11\pm0.09 & 3.94\pm0.28 & 6.45\pm0.38 & 11.13\pm0.31 & 2.27\pm0.13 \\
+Street$\rightarrow$Satellite & Full & 0.97\pm0.04 & 4.38\pm0.49 & 7.08\pm0.48 & 12.06\pm0.88 & 2.27\pm0.11 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

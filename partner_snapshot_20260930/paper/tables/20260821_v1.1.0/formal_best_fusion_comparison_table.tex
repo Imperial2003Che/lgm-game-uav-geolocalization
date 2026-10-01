@@ -1,0 +1,22 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Strongest path-aligned z-score fusion versus the strongest single
+baseline (LPN+CA-HRS). Fusion combines LPN without Google, LPN, and
+LPN+CA-HRS. Intervals here use 10,000 ordinary query-paired bootstrap
+resamples; the main-text complementarity analysis reports the corresponding
+location-cluster sensitivity analysis. Exact McNemar tests are Holm-adjusted
+over the two directions.}
+\label{tab:formal-best-fusion}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Direction & Single R@1 & Fusion R@1 & $\Delta$R@1 [95\% CI]
+& Single mAP & Fusion mAP & $\Delta$mAP & $p_{\rm Holm}$ \\
+\midrule
+D2S & 76.94 & 80.85 & +3.91 [3.62, 4.19]
+    & 80.04 & 83.52 & +3.48 & $2.71{\times}10^{-163}$ \\
+S2D & 87.45 & 89.16 & +1.71 [0.14, 3.28]
+    & 76.58 & 80.46 & +3.88 & 0.0428 \\
+\bottomrule
+\end{tabular}
+\end{table*}

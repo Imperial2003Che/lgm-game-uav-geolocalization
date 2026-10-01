@@ -1,0 +1,1081 @@
+{
+  "schema": "adopted-aggregate-input-reconciliation.v1",
+  "utc": "2026-09-29T14:07:47.375019+00:00",
+  "passed": true,
+  "root_adoption_pending": true,
+  "aggregate_SUES_Full_input_adoption_pending": false,
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\review_adopted_aggregate_inputs_v2.py",
+    "sha256": "70d4c1cd808c3a21ea7d58667468aa2bc072a39ff1ca24507a841ce4a1aa4512"
+  },
+  "assertions": 131538,
+  "run_reports": [
+    {
+      "dataset": "university1652",
+      "variant": "visual",
+      "seed": 1,
+      "root": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json",
+      "root_sha256": "81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6",
+      "metrics_files": 31,
+      "tasks": 3,
+      "clean_tasks": 3,
+      "corrupt_tasks": 90
+    },
+    {
+      "dataset": "university1652",
+      "variant": "full",
+      "seed": 1,
+      "root": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json",
+      "root_sha256": "ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5",
+      "metrics_files": 31,
+      "tasks": 3,
+      "clean_tasks": 3,
+      "corrupt_tasks": 90
+    },
+    {
+      "dataset": "sues200",
+      "variant": "visual",
+      "seed": 1,
+      "root": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json",
+      "root_sha256": "a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74",
+      "metrics_files": 31,
+      "tasks": 8,
+      "clean_tasks": 8,
+      "corrupt_tasks": 240
+    },
+    {
+      "dataset": "sues200",
+      "variant": "full",
+      "seed": 1,
+      "root": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json",
+      "root_sha256": "abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596",
+      "metrics_files": 31,
+      "tasks": 8,
+      "clean_tasks": 8,
+      "corrupt_tasks": 240
+    }
+  ],
+  "clean_task_records": 22,
+  "corrupt_task_records": 660,
+  "metric_files": 124,
+  "input_bindings": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\REVIEW.json",
+      "sha256": "e350ca764a7b6a053afbab3062eee6412306685ffeb2c5b9185578896ff451bc",
+      "bytes": 15161
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\CAPTURE.json",
+      "sha256": "473d5fba90c3fc0d044733ffb19e1f2955f08df96f89d4c643ad54d6ff15ca09",
+      "bytes": 98212
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\aggregation_run_config.json",
+      "sha256": "2d70fb838b0b19a89ebeaa7f7fdafe0f66035de6b3bc06b49893a50d21677064",
+      "bytes": 3881,
+      "authority": "main immutable capture"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\robustness_all_tasks.json",
+      "sha256": "cdbae72896fb3a71d3065a2133337510fb67eb7f4e8fc1492e1bcd548f27f8b2",
+      "bytes": 2114565,
+      "authority": "main immutable capture"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\source_data\\robustness_all_tasks_source.csv",
+      "sha256": "2e45857d3f78e9d06083b7b0d4a48c490d640b717d51a91805a34a04063ae2a1",
+      "bytes": 2067186,
+      "authority": "main immutable capture"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json",
+      "sha256": "81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6",
+      "bytes": 193523,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\ROOT.json"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\robustness_manifest.json",
+      "sha256": "c28032dfd608c467d83649c6a21085478d4fec7d0fa5081811d7a7a457d64bb8",
+      "bytes": 45183,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\robustness_manifest.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\run_config.json",
+      "sha256": "15768aef9be574e0a89b0aa31dc3cefd49c3b7b7e57bcd6bfe97cc392025b0e5",
+      "bytes": 9568,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\run_config.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\clean\\metrics.json",
+      "sha256": "1e95549520a2721be6aa817e5a977908c0e20a161ab988e1a65a770c67f8de8d",
+      "bytes": 2072,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\clean\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_noise\\severity_01\\metrics.json",
+      "sha256": "abf757866b1befa674fc276aced9848e60bcf93b240b28203b32a9630803baa5",
+      "bytes": 8580,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_noise\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_noise\\severity_02\\metrics.json",
+      "sha256": "e0effce709c36587c34fe04d787b0ec20e502a81ca3839a3d3847afcdf2441c6",
+      "bytes": 8518,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_noise\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_noise\\severity_03\\metrics.json",
+      "sha256": "6f993dbcf4941b958e24f14a61e89ab5901593ce3e24b4430db4fad66b13d74e",
+      "bytes": 8447,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_noise\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_noise\\severity_04\\metrics.json",
+      "sha256": "fee3a50e24c7d3f0d72f2bf8826a42e21bb3ea05f65243946b3cab84d222eadb",
+      "bytes": 8462,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_noise\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_noise\\severity_05\\metrics.json",
+      "sha256": "272a454ea3f1f62f0b2fa3e976b7a61275575ddfd085c5a9c0ed0169b9c90b27",
+      "bytes": 8443,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_noise\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_blur\\severity_01\\metrics.json",
+      "sha256": "86da85e455350f70d968d904372f6e48e792a81fe79508cb1d7c2466bc4b9aaf",
+      "bytes": 8377,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_blur\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_blur\\severity_02\\metrics.json",
+      "sha256": "6b7fcb0916151c8266eb4663579bcd5fa58c6451e7caba44aba3a42b5b774592",
+      "bytes": 8306,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_blur\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_blur\\severity_03\\metrics.json",
+      "sha256": "1d88cc38f042bf6ab1af3c7fc87f33601877f3bccc6c50737b7667614cef056d",
+      "bytes": 8295,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_blur\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_blur\\severity_04\\metrics.json",
+      "sha256": "f90585af7c53ed48295304845df50b21004745eedb309d1563a84d30ef6c3c75",
+      "bytes": 8290,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_blur\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\gaussian_blur\\severity_05\\metrics.json",
+      "sha256": "aed9859f0f40dd34673ce187ecad5dc54c3188d6e1a9636c7d0babba66408b5c",
+      "bytes": 8302,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\gaussian_blur\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\brightness\\severity_01\\metrics.json",
+      "sha256": "85faa9487b3a10753db657bf850d1e107d8a21f26c5cae8eaa8d62e673c89494",
+      "bytes": 8397,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\brightness\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\brightness\\severity_02\\metrics.json",
+      "sha256": "f11cad6a866aae64f3d5952a24118cd6fa2351b588ad38d569fcf6f1849eed4e",
+      "bytes": 8372,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\brightness\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\brightness\\severity_03\\metrics.json",
+      "sha256": "9c491f6f7ba965e303a8e844d7624f03d214b9178759269fe50036dcaf282fda",
+      "bytes": 8319,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\brightness\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\brightness\\severity_04\\metrics.json",
+      "sha256": "f552dfa510549d66e2d4494c7eb25c0d04bbf0b5fb071e1d87c1a3359cfdc4c7",
+      "bytes": 8321,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\brightness\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\brightness\\severity_05\\metrics.json",
+      "sha256": "e30e588b1a793da51aa6d14abde98a1e87323449447db9a019a00f99de4e0327",
+      "bytes": 8256,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\brightness\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\contrast\\severity_01\\metrics.json",
+      "sha256": "6387f4ff0355262d30cfb23d763a2841c4f6cf59014696160080eec9cfd1a753",
+      "bytes": 8373,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\contrast\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\contrast\\severity_02\\metrics.json",
+      "sha256": "9fd55b4fc97351cbebad4e983501a07efbaa81add90853935ad6e7965da8ff91",
+      "bytes": 8320,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\contrast\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\contrast\\severity_03\\metrics.json",
+      "sha256": "13ca9a22d56cf58b645aeb9566088d5e78a266c1b9478f35f64e8e609472e21f",
+      "bytes": 8287,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\contrast\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\contrast\\severity_04\\metrics.json",
+      "sha256": "5612d7ef3aaebd9f1224a818d0841c02466c3034eb3af5c340255e3a30c1030a",
+      "bytes": 8291,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\contrast\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\contrast\\severity_05\\metrics.json",
+      "sha256": "2e1ddf98392c1f0b5caa6c15a963b66732593a848b23200ba812ce8f32235378",
+      "bytes": 8262,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\contrast\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\center_occlusion\\severity_01\\metrics.json",
+      "sha256": "12db0795c76173bae8696af404c7422c9305215437880e3dd2297847e47047b6",
+      "bytes": 8435,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\center_occlusion\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\center_occlusion\\severity_02\\metrics.json",
+      "sha256": "0ef922fd6537b8d0deb1be61c8fb4356625b77f6d1278cb83e0c858eb4a64b99",
+      "bytes": 8336,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\center_occlusion\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\center_occlusion\\severity_03\\metrics.json",
+      "sha256": "57cc4a532aade25cb964089ff7fb9dde11ec8439d173d3c9cd8cbc8c42ecdf05",
+      "bytes": 8407,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\center_occlusion\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\center_occlusion\\severity_04\\metrics.json",
+      "sha256": "3e677fc406a712eabeffc27ae5829f12c52fcda4358c2335c5c19163c95743ff",
+      "bytes": 8422,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\center_occlusion\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\center_occlusion\\severity_05\\metrics.json",
+      "sha256": "82bb8155af482ff3895bcefd6873715063f9ebd0e200b4da05a28a3bf9f2ffaf",
+      "bytes": 8427,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\center_occlusion\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\rotation\\severity_01\\metrics.json",
+      "sha256": "3b7a7594093faee032ebcad9ff2e578817d3e04b50ef2c8e2c718f98c2193d3a",
+      "bytes": 8420,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\rotation\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\rotation\\severity_02\\metrics.json",
+      "sha256": "7beca1a5a7fea5bb86e0140ee34ad8a7da448c098df6f574fafc616dfa6505ea",
+      "bytes": 8431,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\rotation\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\rotation\\severity_03\\metrics.json",
+      "sha256": "819795dd5ed0fc4e2ae8b7e824aabaa9b3f9d6a758810ef1430d13a817b57402",
+      "bytes": 8480,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\rotation\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\rotation\\severity_04\\metrics.json",
+      "sha256": "0577eccb67641db57f28944135a6218458a57294419ffdb295c7a4768920107f",
+      "bytes": 8469,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\rotation\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\a1\\r\\conditions\\rotation\\severity_05\\metrics.json",
+      "sha256": "74119022c23162160446d2b0d77fe697abec2cd2078e71299b85b1f2d91f743b",
+      "bytes": 8395,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\visual\\conditions\\rotation\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_audit_20260929_0946\\ROOT_VISUAL1_ADOPTION.json#81ec5d80b7370ae5dc79c3f12e0633b88ade73be3422ec155ea11def68713cc6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json",
+      "sha256": "ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5",
+      "bytes": 200255,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\ROOT.json"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\robustness_manifest.json",
+      "sha256": "ea0cf3add63b66efa57120416937c5c894471b98859eafb2df37010299d155a5",
+      "bytes": 46798,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\robustness_manifest.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\run_config.json",
+      "sha256": "8dafe466bb5306298dae4a840dc1f14128c0eeff4b310abab46f71be5045e87c",
+      "bytes": 9564,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\run_config.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\clean\\metrics.json",
+      "sha256": "b95b1fab71dd046098613160906e035ad284722ede5382a3f6689541c74ab93d",
+      "bytes": 2071,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\clean\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_noise\\severity_01\\metrics.json",
+      "sha256": "88f74785e3c5ffd06e5d42060ef395f76802fa1374e523dabbb650593561ecb7",
+      "bytes": 8553,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_noise\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_noise\\severity_02\\metrics.json",
+      "sha256": "e62e9045ae3e9f8c85efdddef5ff9728305325c5877c582e2424efaeebe14653",
+      "bytes": 8527,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_noise\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_noise\\severity_03\\metrics.json",
+      "sha256": "ed24957476f9b3ef5a628d451aae92a04bb47ca2542ede6f63a00de2be38b9e6",
+      "bytes": 8501,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_noise\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_noise\\severity_04\\metrics.json",
+      "sha256": "3ce7eeec07932c098a6af2cd43a34bc17571edc6c62d0eda5c3a35fc7fc328b2",
+      "bytes": 8471,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_noise\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_noise\\severity_05\\metrics.json",
+      "sha256": "784f71b8b6410f440e3119f426efcabc9cb4c8cb4ca74ab306327169a3050250",
+      "bytes": 8432,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_noise\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_blur\\severity_01\\metrics.json",
+      "sha256": "bc1c68c68c042033b172f89e6b2ff70e42d3fc9e47cda3e7bdb5f5c785f75873",
+      "bytes": 8317,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_blur\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_blur\\severity_02\\metrics.json",
+      "sha256": "a5a1d29a58231273ecb151c0f9b8bc6946e30124bc4f589cc8369ab3b9b5cba2",
+      "bytes": 8307,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_blur\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_blur\\severity_03\\metrics.json",
+      "sha256": "d377b6933ed89f9ff9e37e1a35cb5bac88afceeba971dcb59f5e19aa39c143d3",
+      "bytes": 8304,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_blur\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_blur\\severity_04\\metrics.json",
+      "sha256": "513a938ff991a88dae07905a5833ad170498e5614f8963787f52427b4f134f58",
+      "bytes": 8298,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_blur\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\gaussian_blur\\severity_05\\metrics.json",
+      "sha256": "9e1b4f3cc8563d9700a8094fa47ca3b8535b721faa0a3a35a9a2979cbf56d273",
+      "bytes": 8294,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\gaussian_blur\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\brightness\\severity_01\\metrics.json",
+      "sha256": "a9c955d97c92d4196bc05e7abd21e7a19d64c2e5b42d9a5ee82a0825f3f066ec",
+      "bytes": 8418,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\brightness\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\brightness\\severity_02\\metrics.json",
+      "sha256": "4a776bebb1f95f7a9d647307595750cb63f4d31f707e26f23cf06ab35ec494c4",
+      "bytes": 8260,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\brightness\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\brightness\\severity_03\\metrics.json",
+      "sha256": "845c95641ac74d7ee06f996330b9040e7793762d3cebeb2b9a670f28e4001f84",
+      "bytes": 8279,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\brightness\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\brightness\\severity_04\\metrics.json",
+      "sha256": "85f40061b867395c7a7486bac27a41b0ae0962b7077ec4c5f34863abe9184fb5",
+      "bytes": 8317,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\brightness\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\brightness\\severity_05\\metrics.json",
+      "sha256": "a97be3498a8c5807dddd41a286c699a7c9703faa6628f35db8172280f3357a77",
+      "bytes": 8248,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\brightness\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\contrast\\severity_01\\metrics.json",
+      "sha256": "2a6eba903e0ca01d8df8063214db79300f914251a9394abfc7512aec52418055",
+      "bytes": 8274,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\contrast\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\contrast\\severity_02\\metrics.json",
+      "sha256": "ca71a9d5976dfb2af6f45fa23d9da42f10910faac6eb3f65f8570e823bc25300",
+      "bytes": 8251,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\contrast\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\contrast\\severity_03\\metrics.json",
+      "sha256": "00b165f979a92f672451efeb41f3225d153f91d7d4eca3f5fe350fe16547602d",
+      "bytes": 8272,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\contrast\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\contrast\\severity_04\\metrics.json",
+      "sha256": "e91e642929d8b6092e55d380e1c81c94ca42de4486d7fc7ce618e05535ee75b6",
+      "bytes": 8291,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\contrast\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\contrast\\severity_05\\metrics.json",
+      "sha256": "c9d826b24eb3fe96e924be61ede35c5f6feb06bf34b618ec01dc77640222e341",
+      "bytes": 8270,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\contrast\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\center_occlusion\\severity_01\\metrics.json",
+      "sha256": "1798f93767e6d39b10c577ca9a9cf95f2df8a5ca9046f8824b10601b5077b62e",
+      "bytes": 8403,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\center_occlusion\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\center_occlusion\\severity_02\\metrics.json",
+      "sha256": "cfa62d706764cc5f3b30bf6076233b28f7ee31912def4099f7e8ec55e1c7cf23",
+      "bytes": 8424,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\center_occlusion\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\center_occlusion\\severity_03\\metrics.json",
+      "sha256": "7a24aba57aff1027517d565e602da88e0627f9dbf48bf81719dbd549a822adc9",
+      "bytes": 8392,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\center_occlusion\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\center_occlusion\\severity_04\\metrics.json",
+      "sha256": "b4f4d264a854e42d0505ab339ffe46fe9a698eb4529131ecf03975a338c49a0e",
+      "bytes": 8423,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\center_occlusion\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\center_occlusion\\severity_05\\metrics.json",
+      "sha256": "ac8a1d55db32bd956699eb7ec9cab901d7bfcd45ddc4e489bd8c9b2d2ca27749",
+      "bytes": 8428,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\center_occlusion\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\rotation\\severity_01\\metrics.json",
+      "sha256": "8411d5594aac5b353119ae8ff2e8ee5068377a91da92ecd0d974027bf7eb6f23",
+      "bytes": 8506,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\rotation\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\rotation\\severity_02\\metrics.json",
+      "sha256": "ae93600cdea29e232f47320d97138334fdd5a1903323b55726c390abfdec97c2",
+      "bytes": 8448,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\rotation\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\rotation\\severity_03\\metrics.json",
+      "sha256": "f8646fe472a46c9a45d02bff44dd30e866daa6fda82a127ad48b1506c5fe766f",
+      "bytes": 8418,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\rotation\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\rotation\\severity_04\\metrics.json",
+      "sha256": "123f8e16a05cca02481e6165f3eb8327e3ae5bfb24ad5e1b9878878ea76af991",
+      "bytes": 8466,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\rotation\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\a1\\r\\conditions\\rotation\\severity_05\\metrics.json",
+      "sha256": "7672779eac86008b1b10e6fae49e47bf2854b1dac69fa7608a43e3c75d2fbf2b",
+      "bytes": 8391,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\university1652\\full\\conditions\\rotation\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_full_audit_20260929_1247\\ROOT_FULL1_ADOPTION.json#ea8c3065092db79c67005b6b6aa1b54a5433ba39ae4b143504f09618f98fd1f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json",
+      "sha256": "a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74",
+      "bytes": 321478,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\ROOT.json"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\robustness_manifest.json",
+      "sha256": "2828ab1bac3b49297ec41d3500825e23a8c4f339c00c4934f8112f209cc8f952",
+      "bytes": 78202,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\robustness_manifest.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\run_config.json",
+      "sha256": "bdeb5ec7b96d04c6a3e6903a86475183bf6d4f0f25c659f4fe3ed82f352998ba",
+      "bytes": 11214,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\run_config.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\clean\\metrics.json",
+      "sha256": "d3fcb5904e058a20425899af569238f69ae6e13e6b9b86c6d7eb6d3ccc4e1c16",
+      "bytes": 4393,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\clean\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_noise\\severity_01\\metrics.json",
+      "sha256": "72c9ea9a106bb3f3c09f917ee7bbca2c47fc955ec6fe43d9fa96398bbdcb72ec",
+      "bytes": 19866,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_noise\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_noise\\severity_02\\metrics.json",
+      "sha256": "d3a5954f98162bdb46c748b5508c42504051318afa1f9d68a73966ebf059c880",
+      "bytes": 19889,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_noise\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_noise\\severity_03\\metrics.json",
+      "sha256": "5730ed6663e3efc51f1dd24ec201f9096c2936f118e0e6bfee02f7080ff6ac27",
+      "bytes": 19436,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_noise\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_noise\\severity_04\\metrics.json",
+      "sha256": "a317f0d8100bfca9e507d3e0ff4807beea6e132124033283d6c8cf6602406cc9",
+      "bytes": 19274,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_noise\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_noise\\severity_05\\metrics.json",
+      "sha256": "1bec0c15b3d21b59e8775915827d3e0f0cd283f0d37846dc7339661587e06f07",
+      "bytes": 19235,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_noise\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_blur\\severity_01\\metrics.json",
+      "sha256": "7abd98d95419acd165bdf07585938d04ad277f5b3f342cddcd26ce0220be5c02",
+      "bytes": 19365,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_blur\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_blur\\severity_02\\metrics.json",
+      "sha256": "b852cf94e44077327daa2e061a3c134783654a771df2df9ba71aaa69c2da7ec0",
+      "bytes": 19685,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_blur\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_blur\\severity_03\\metrics.json",
+      "sha256": "e8bd9258ea2c8527c8bfef92119c75c08065ad9433a38d2e42a21672be2f616f",
+      "bytes": 19436,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_blur\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_blur\\severity_04\\metrics.json",
+      "sha256": "46250439cb6e4340d703f8487de6782bb6317f3352ccd8a8bcd7569c2ffce40f",
+      "bytes": 19287,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_blur\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\gaussian_blur\\severity_05\\metrics.json",
+      "sha256": "bd5e20f5b2eb82008c7cecd70fa7f01b10e2a51dd5a9d72865f5e28b4b6f014d",
+      "bytes": 18930,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\gaussian_blur\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\brightness\\severity_01\\metrics.json",
+      "sha256": "0de4f79b60aebfdc5a85ea5ebff221c0b673a362c0676db8976b8540b992af9f",
+      "bytes": 19639,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\brightness\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\brightness\\severity_02\\metrics.json",
+      "sha256": "da2cd089422642e81b194c18aebde681ac3c3ecb0ac51989d7abc372abb8b737",
+      "bytes": 19619,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\brightness\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\brightness\\severity_03\\metrics.json",
+      "sha256": "b976c7f04b7a080b1df578ec70992b8a1d269d94ce0268a3ddd69fa79f492d9d",
+      "bytes": 19688,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\brightness\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\brightness\\severity_04\\metrics.json",
+      "sha256": "a88f56d211f06ad317a884e6c65ea101c6e25423fdc176d9a785c6834561c009",
+      "bytes": 19456,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\brightness\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\brightness\\severity_05\\metrics.json",
+      "sha256": "db2c03484e614c5db1e0db3016a96dc6f19819aeb72e837d847cc463084df18c",
+      "bytes": 19138,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\brightness\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\contrast\\severity_01\\metrics.json",
+      "sha256": "a231b49fd45cff12039b5004c07f0ed8ccb4e93c447cb1defeea6ae9e9c9d45e",
+      "bytes": 19656,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\contrast\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\contrast\\severity_02\\metrics.json",
+      "sha256": "37e966298fa9415397bc8c5c8130b7be4544a6ce5a74b7f742510bc7ff3ca09c",
+      "bytes": 19568,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\contrast\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\contrast\\severity_03\\metrics.json",
+      "sha256": "1df350f9847baf000acfd427b375163fff768ac456d20e2f344d0eb9cb9090ae",
+      "bytes": 19543,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\contrast\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\contrast\\severity_04\\metrics.json",
+      "sha256": "4b5870f7d1e78597ef1ca50d4c8190c8c95121d7b61936881269691649de8aa2",
+      "bytes": 19445,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\contrast\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\contrast\\severity_05\\metrics.json",
+      "sha256": "f2110b67fb91f916b3c59f43ae490b85dcedc761f4ca7ee145dc52a25ca75287",
+      "bytes": 19247,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\contrast\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\center_occlusion\\severity_01\\metrics.json",
+      "sha256": "07c33f94894ca990615a06f0783104511c0be0451b586f4bffb0f7863c5df127",
+      "bytes": 19713,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\center_occlusion\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\center_occlusion\\severity_02\\metrics.json",
+      "sha256": "f94c004dd37dfb0a2f26638d1eebce6dc02523c85efc0f93fdd9829971f68bf6",
+      "bytes": 19375,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\center_occlusion\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\center_occlusion\\severity_03\\metrics.json",
+      "sha256": "d1c7e6fe294ff1265014e8cadc85e6c134a978dae2fcb7bf9be650e146c9dbae",
+      "bytes": 19250,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\center_occlusion\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\center_occlusion\\severity_04\\metrics.json",
+      "sha256": "01b31b2daea6ce84dfa199331c861299a8a2ba030a3761662227f6d3a0995ada",
+      "bytes": 19122,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\center_occlusion\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\center_occlusion\\severity_05\\metrics.json",
+      "sha256": "714a363cf92a3b3df8b3a6e9d18abeecb0e5b144832319d2f159dd90c24f20c8",
+      "bytes": 19047,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\center_occlusion\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\rotation\\severity_01\\metrics.json",
+      "sha256": "4d3045df44e8579af99840d4892110c2b71db145f8519ea3573460b1363adfe2",
+      "bytes": 19729,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\rotation\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\rotation\\severity_02\\metrics.json",
+      "sha256": "2935d96ade563d606ce70a73062f17f53fc10ab5c670c0102a915b4642098079",
+      "bytes": 19678,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\rotation\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\rotation\\severity_03\\metrics.json",
+      "sha256": "91042feef797b62e22131c8122dbfff5b669d061c79989f7d76fd615cb4eadff",
+      "bytes": 19790,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\rotation\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\rotation\\severity_04\\metrics.json",
+      "sha256": "2371c4944e7c3ff2e77c7545aab973d364381a8c2b685cf8dbfc7671f14d4900",
+      "bytes": 19789,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\rotation\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\a1\\r\\conditions\\rotation\\severity_05\\metrics.json",
+      "sha256": "d97c7bbee634f1d5fddb1216f0f90b35b27c63bc901a65ad49c0b89134dc9446",
+      "bytes": 19715,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\visual\\conditions\\rotation\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_visual_audit_20260929_1351\\ROOT_SUES_VISUAL1_ADOPTION.json#a6795283cb384c77732bdb1e63af93d582d7844879f415e45ef38c8861d3af74"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json",
+      "sha256": "abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596",
+      "bytes": 319853,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\ROOT.json"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\robustness_manifest.json",
+      "sha256": "19e8c7b0b9d929dd19b677f09459836542678f901641ff241ff31a967d906760",
+      "bytes": 79826,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\robustness_manifest.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\run_config.json",
+      "sha256": "9263a79925e409f8d761cd7a4663d8c1ba21a629f75ce581894aab3242a0a589",
+      "bytes": 11210,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\run_config.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\clean\\metrics.json",
+      "sha256": "5a084c0c8027340ad2cd88fa5d71e50af7c19b2d9f7ad99ffd09984f5b0f631d",
+      "bytes": 4390,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\clean\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_noise\\severity_01\\metrics.json",
+      "sha256": "da130933561273f306ee3a7273dce0d9c976436cc22fcb075fed8e7d30f9b105",
+      "bytes": 19595,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_noise\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_noise\\severity_02\\metrics.json",
+      "sha256": "20b8f268180597a644a5afc7667502f39cbce04c4d9d2ac8dae800202badf7d0",
+      "bytes": 19791,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_noise\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_noise\\severity_03\\metrics.json",
+      "sha256": "af41bec7006073e3d6da8efa20b4413cfb16bddac15068546f40c2268d24a386",
+      "bytes": 19544,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_noise\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_noise\\severity_04\\metrics.json",
+      "sha256": "5bf8078afa0522dbce905a5d45b735b347a4ab2a53831cd9f1e7f2f6d5249120",
+      "bytes": 19307,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_noise\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_noise\\severity_05\\metrics.json",
+      "sha256": "c46a390f0017ac6bed0d527b594346c136da73033ee1af220950512c95e28420",
+      "bytes": 19209,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_noise\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_blur\\severity_01\\metrics.json",
+      "sha256": "91356d730c5c4d91965430ebc5fcba1e86f9d66ebd4801991010857a840f01d1",
+      "bytes": 19629,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_blur\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_blur\\severity_02\\metrics.json",
+      "sha256": "0cd6d059a7423fcd677a790bfeff7cc4e33272d97a21bcd360bdb29e5b37b3d6",
+      "bytes": 19638,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_blur\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_blur\\severity_03\\metrics.json",
+      "sha256": "0ebc462ca1f909728e9fa6e993a2c9e87f3e7d72f887801cb7330b01768d3cee",
+      "bytes": 19507,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_blur\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_blur\\severity_04\\metrics.json",
+      "sha256": "38616987df3119eea837e78c99cffc10efaffe0366c54b28130e255501bd7cb5",
+      "bytes": 19180,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_blur\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\gaussian_blur\\severity_05\\metrics.json",
+      "sha256": "154bda9f3ce04609675d951cb96b95c5019a7469c0769a8ab5f12720d923f0c2",
+      "bytes": 19145,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\gaussian_blur\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\brightness\\severity_01\\metrics.json",
+      "sha256": "c32fb2f3a4a60b4e95cfabe273d291ba155955f69f126ce4ae3fd0a7c1bc42a0",
+      "bytes": 19655,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\brightness\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\brightness\\severity_02\\metrics.json",
+      "sha256": "fed07f7adfa3b67a60053783df8f9607e9d2c799ca1eb15c9dcebab43d650365",
+      "bytes": 19763,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\brightness\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\brightness\\severity_03\\metrics.json",
+      "sha256": "f6a4a16b32b1625c4cebdde5ab50475f014094f4a1cc7032a633c369a08178ac",
+      "bytes": 19615,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\brightness\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\brightness\\severity_04\\metrics.json",
+      "sha256": "29381ae712edebbc71c73450a9324da0ddd4996039eb08f0015d2cd3020faa8f",
+      "bytes": 19377,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\brightness\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\brightness\\severity_05\\metrics.json",
+      "sha256": "091f22cd4602a1c77fde198ca03a8ef5d993a5ac85bfa565ad0bb7b22a54d5ab",
+      "bytes": 19075,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\brightness\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\contrast\\severity_01\\metrics.json",
+      "sha256": "243d44519c5707872449f7ba56bac99283fec5f64626ff3008d7ae717fa0acba",
+      "bytes": 19446,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\contrast\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\contrast\\severity_02\\metrics.json",
+      "sha256": "3708072cf5c35a5bd8745ec9d03863bfb2eb2040f96df189a7960420e997e997",
+      "bytes": 19679,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\contrast\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\contrast\\severity_03\\metrics.json",
+      "sha256": "3e44d3e55c90eda76798eeeac1fb7fbf9948dc11eb07180e19d525d0357ef188",
+      "bytes": 19534,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\contrast\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\contrast\\severity_04\\metrics.json",
+      "sha256": "f2ab9ef8fef3e4d36dad8b6a6c2c8e5aeb1e179d12a0e6af136a78d611bcc1ca",
+      "bytes": 19448,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\contrast\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\contrast\\severity_05\\metrics.json",
+      "sha256": "4298d88166009cc5f171a20aaf6aa599cfaf9c3acbd07eb5a68d6ccfab5e3ce3",
+      "bytes": 19117,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\contrast\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\center_occlusion\\severity_01\\metrics.json",
+      "sha256": "239cafbbd3e4f4046592cde573b82fc6c239770140ba09313fd4a9f4ace9dbb9",
+      "bytes": 19702,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\center_occlusion\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\center_occlusion\\severity_02\\metrics.json",
+      "sha256": "dd46f84614249dfa8247285260b1244371113c8eb6e16fbb4eae9e571cce5ed3",
+      "bytes": 19392,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\center_occlusion\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\center_occlusion\\severity_03\\metrics.json",
+      "sha256": "5cca4f19c5ce45154f02281aad0cdea0ba4b6af2445c0b43eb3e4a9fba2817fa",
+      "bytes": 19116,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\center_occlusion\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\center_occlusion\\severity_04\\metrics.json",
+      "sha256": "3361e9060042301a9e2e4f7786ea7252d3ace8079bf00d1447398441ae1b16d7",
+      "bytes": 19118,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\center_occlusion\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\center_occlusion\\severity_05\\metrics.json",
+      "sha256": "df11cb3015d7a83e959d4d26df4b739621a9463164bd7756b40c324b0fec0235",
+      "bytes": 19101,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\center_occlusion\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\rotation\\severity_01\\metrics.json",
+      "sha256": "9939c3fde19387fe9654da576ffcab890f61a625f54e0011f1bc013440542a87",
+      "bytes": 19771,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\rotation\\severity_01\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\rotation\\severity_02\\metrics.json",
+      "sha256": "123b5dacb0d3e6f82b9f58a254e1746f78c344ce7acad6dfa3835578ad9df033",
+      "bytes": 19808,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\rotation\\severity_02\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\rotation\\severity_03\\metrics.json",
+      "sha256": "f54114638ec31c33224ea2152bb83bc44bc0918d5555e9470d3faa249a7b8b13",
+      "bytes": 19583,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\rotation\\severity_03\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\rotation\\severity_04\\metrics.json",
+      "sha256": "f2e8fd8814a531f01c3c97a5ba4e210160f29014cff8e22ad3f7fe6c69390785",
+      "bytes": 19732,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\rotation\\severity_04\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\a1\\r\\conditions\\rotation\\severity_05\\metrics.json",
+      "sha256": "f2c1d6efe98454c7739583dcaf5206546130dcde0d2bad75a7dc1222ef82f1ba",
+      "bytes": 19750,
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\adopted_inputs_v2\\sues200\\full\\conditions\\rotation\\severity_05\\metrics.json",
+      "authority": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_sues_full_audit_20260929_1448\\ROOT_SUES_FULL1_ADOPTION.json#abe0d740103c44792f134ac69816030e40947170f2c245c0e6e37efda0190596"
+    }
+  ],
+  "actual_junction_identity_checks": [
+    {
+      "declared_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_robustness\\university1652\\visual\\seed_1\\robustness_manifest.json",
+      "adopted_original_path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_robustness\\university1652\\visual\\seed_1\\robustness_manifest.json",
+      "actual_samefile": true,
+      "current_bytes_rehashed": false
+    },
+    {
+      "declared_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_robustness\\university1652\\full\\seed_1\\robustness_manifest.json",
+      "adopted_original_path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_robustness\\university1652\\full\\seed_1\\robustness_manifest.json",
+      "actual_samefile": true,
+      "current_bytes_rehashed": false
+    },
+    {
+      "declared_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_robustness\\sues200\\visual\\seed_1\\robustness_manifest.json",
+      "adopted_original_path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_robustness\\sues200\\visual\\seed_1\\robustness_manifest.json",
+      "actual_samefile": true,
+      "current_bytes_rehashed": false
+    },
+    {
+      "declared_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_robustness\\sues200\\full\\seed_1\\robustness_manifest.json",
+      "adopted_original_path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_robustness\\sues200\\full\\seed_1\\robustness_manifest.json",
+      "actual_samefile": true,
+      "current_bytes_rehashed": false
+    }
+  ],
+  "prior_official_input_authority_mandatory_gate": {
+    "metadata_nodes": 6,
+    "exact_input_path_sha_size_bindings": 66,
+    "not_directly_found": [],
+    "all_12_run_identifiers_adopted": true
+  },
+  "limits": [
+    "Joint adoption requires the unmodified main REVIEW and this annex.",
+    "Existing query statistics limitations remain: bootstrap not resampled; entropy/semantic memberships not recomputed.",
+    "No old science suite, NPZ, model, cache, image or checkpoint bytes are read by this annex.",
+    "Upstream checkpoint/cache/image evidence and historical metadata-chain gaps remain inherited.",
+    "Robustness is seed1 only, with no multi-seed SD or significance. No task/severity pooling.",
+    "Full clean cached evidence and corrupted-query online CLIP differ in evidence path; diagnostic64 has no numerical parity gate.",
+    "Producer figures are source-bound but not final geometry/layout-validated or minimum8pt-compliant.",
+    "Root adoption is separate; original stage parent exit0 is not independent dual-handle exit proof."
+  ]
+}

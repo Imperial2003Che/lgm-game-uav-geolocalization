@@ -1,0 +1,67 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "status": "completed",
+  "completed_utc": "2026-09-29T11:18:37.514278+00:00",
+  "run_config_sha256": "c7bfc6c41ccadf0f52cf79609a76ef921bf456c5d06334b78ece284a5b4c9ce1",
+  "condition_sha256": "ade11b349d9416c28b350e276d1767783eb1fcf26e724d110c6cc8dc4ddca2cf",
+  "condition": {
+    "kind": "corruption",
+    "name": "rotation",
+    "display_name": "Rotation",
+    "severity_index": 5,
+    "parameter": "magnitude",
+    "value": 20.0,
+    "units": "degrees",
+    "implementation": "The absolute angle is fixed by severity; a SHA-256-derived per-image sign prevents a one-direction bias. Pillow bicubic rotation keeps the original canvas and fills exposed pixels with the per-image mean RGB colour.",
+    "corruption_seed": 20260727,
+    "query_only": true,
+    "gallery": "clean"
+  },
+  "query_coverage": {
+    "expected_unique_images": 41135,
+    "encoded_unique_images": 41135,
+    "coverage_fraction": 1.0,
+    "missing_images": 0,
+    "extra_images": 0,
+    "complete": true,
+    "path_membership_sha256": "1f83323bb372cd5c461c14c8b1de4676f0389dfa0d212ea45d5adddc47822b4a",
+    "encoded_feature_sha256": "7ff3e89c623e65dba0f370016a581eb9dc852645e05798342a26276b6be545ca",
+    "embedding_dim": 512,
+    "embedding_storage_dtype_for_hash": "little-endian float32",
+    "pixels_decoded_for_every_active_visual_embedding": true,
+    "corruption_applied_before_all_model_preprocessing": true,
+    "query_content_style_evidence_mode": "recomputed_from_corrupted_rgb_pixels",
+    "elapsed_seconds": 407.22701249999955
+  },
+  "all_official_queries_used": true,
+  "clean_gallery_used": true,
+  "feature_level_corruption_used": false,
+  "elapsed_seconds": 412.7501800999962,
+  "artifacts": {
+    "degradation_vs_clean.csv": {
+      "sha256": "cfaef39f543759529ac02c73c466a792ea9729e099e268607da403dc2fedb3d1",
+      "bytes": 2995
+    },
+    "metrics.csv": {
+      "sha256": "0293b1c1ac31e1ae8eb53f14341743dc707cbdac403fdefc762444bc31901f7c",
+      "bytes": 870
+    },
+    "metrics.json": {
+      "sha256": "7672779eac86008b1b10e6fae49e47bf2854b1dac69fa7608a43e3c75d2fbf2b",
+      "bytes": 8391
+    },
+    "per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "1d48d182651b1461975bbefd01a583d4a8d74227a461a0fee7e160a90ebfd167",
+      "bytes": 942123
+    },
+    "per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "f56ddcbd835ced6b67e94c5b4ad108db31cd42c97c7a1248520ae9448d9dd4e7",
+      "bytes": 35381
+    },
+    "per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "adb0c0e372063a5f6360f60f20e713d429407e396e2cdbdbd5cf56007534144b",
+      "bytes": 114076
+    }
+  },
+  "payload_sha256": "38cb3fea2ea6d82cfec82110e53b270250fdd10036aa2910c6c3915d5fbb5e4d"
+}

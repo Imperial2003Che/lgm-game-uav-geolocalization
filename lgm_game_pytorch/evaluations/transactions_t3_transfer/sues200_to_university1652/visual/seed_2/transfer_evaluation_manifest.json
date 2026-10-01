@@ -1,0 +1,94 @@
+{
+  "all_official_gallery_images_used": true,
+  "all_official_queries_used": true,
+  "amp": true,
+  "checkpoint_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\runs\\formal_main\\sues200\\visual\\seed_2\\best.pt",
+  "checkpoint_sha256": "a38a8f1d8143e8a404742b59a1bccb81263012b6cbbc0c7047ceba43fb51a996",
+  "completed_utc": "2026-09-29T05:10:44.661770+00:00",
+  "config_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\transfer_evaluation_config.json",
+  "config_sha256": "8c3f4ef46a39d49b86669668782c38484bf4b4321a9a9bbcc16c98ced7681c30",
+  "elapsed_seconds": 419.180683999999,
+  "environment": {
+    "device": {
+      "compute_capability": "8.9",
+      "cuda_runtime": "12.6",
+      "cudnn": 91002,
+      "device_index": 0,
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "requested_or_selected": "cuda:0",
+      "total_memory_bytes": 8585216000
+    },
+    "packages": {
+      "Pillow": "12.2.0",
+      "numpy": "2.4.4",
+      "torch": "2.11.0+cu126",
+      "torchvision": "0.26.0+cu126"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "torch_cuda_available": true
+  },
+  "metrics_csv_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\metrics.csv",
+  "metrics_csv_sha256": "c250a2163d4c967493e02f7e212ebff6363bdfb992cf77664c212f731fd76bf4",
+  "metrics_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\metrics.json",
+  "metrics_sha256": "c76e6519c915046dde2130cc589f3168755ef5ac8072fd53b691099cfd307a36",
+  "payload_sha256": "1b921447e759c60c80924dc258410ab7f90023dca745da5476beedfdf96ecb52",
+  "per_query_arrays": {
+    "university1652_drone_to_satellite": {
+      "bytes": 600930,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\per_query_arrays\\university1652_drone_to_satellite_per_query.npz",
+      "sha256": "f57094c0fffc9b045298d305ccc9e190c5db265f35f5dbbbec308478f1129346"
+    },
+    "university1652_satellite_to_drone": {
+      "bytes": 21474,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\per_query_arrays\\university1652_satellite_to_drone_per_query.npz",
+      "sha256": "05b26055540f7c01e299a2b0cce7b1df675861344c762d9dc6c7f7019ca11395"
+    },
+    "university1652_street_to_satellite": {
+      "bytes": 59263,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\per_query_arrays\\university1652_street_to_satellite_per_query.npz",
+      "sha256": "f2a18955246b99bf36be9b5127f1e572b6e9a8435eced430e518ee55f68710dc"
+    }
+  },
+  "schema_version": "lgm-game.cross-dataset-evaluation.v1",
+  "seed": 2,
+  "selected_training_epoch": 79,
+  "source_dataset": "sues200",
+  "status": "completed",
+  "sues_manifest": null,
+  "target_dataset": "university1652",
+  "target_dataset_used_for_selection_or_calibration": false,
+  "target_dataset_used_for_training": false,
+  "target_evidence_sha256": "8a2333d58dbb0ca56c5d5829159a32f294e11e686bb6b91d05098d4b170c2bc3",
+  "target_image_inventory": {
+    "file_count": 93441,
+    "mode": "content",
+    "sha256": "a720bfa1e1d545ba56b0b1e0912c83874b0200ec73a1b2c26a2c2616cd2edf50",
+    "total_bytes": 5826667007
+  },
+  "target_protocol_membership_sha256": "c271b8b342a9642a8ee7bd767ace06f9d934cd58a4c83885d51db2e7b94221df",
+  "target_task_scale": {
+    "university1652_drone_to_satellite": {
+      "gallery_identities": 951,
+      "gallery_images": 951,
+      "protocol": "official test/query_drone -> test/gallery_satellite",
+      "queries": 37855,
+      "query_identities": 701
+    },
+    "university1652_satellite_to_drone": {
+      "gallery_identities": 951,
+      "gallery_images": 51355,
+      "protocol": "official test/query_satellite -> test/gallery_drone",
+      "queries": 701,
+      "query_identities": 701
+    },
+    "university1652_street_to_satellite": {
+      "gallery_identities": 951,
+      "gallery_images": 951,
+      "protocol": "official test/query_street -> test/gallery_satellite",
+      "queries": 2579,
+      "query_identities": 701
+    }
+  },
+  "variant": "visual"
+}

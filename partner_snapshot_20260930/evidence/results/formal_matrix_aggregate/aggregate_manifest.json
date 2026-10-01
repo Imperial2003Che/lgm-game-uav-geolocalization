@@ -1,0 +1,142 @@
+{
+  "allow_partial": false,
+  "delivery_root": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程",
+  "generated_utc": "2026-09-29T04:35:32.124581+00:00",
+  "input_artifact_count": 572,
+  "matrix": {
+    "completed_pairwise_tests": 33,
+    "expected_main_runs": 36,
+    "expected_pairwise_tests": 33,
+    "expected_sensitivity_runs": 6,
+    "valid_main_runs": 36,
+    "valid_sensitivity_runs": 6
+  },
+  "output_artifacts": [
+    {
+      "bytes": 213903,
+      "path": "aggregate_results.json",
+      "sha256": "096ea8ce053d70e29f731677605056594783fd92a69ee5e167ace515839cbf3d"
+    },
+    {
+      "bytes": 155263,
+      "path": "input_artifact_sha256.csv",
+      "sha256": "6986c4c94b70de0607122525f15a9ce684e35492c4b4c3f7dddfff844bf22949"
+    },
+    {
+      "bytes": 129710,
+      "path": "main_metrics_by_seed.csv",
+      "sha256": "058f385a9860af9f8157cc2af3d51a7f63207df8c65abaf125d8da2cc68ae731"
+    },
+    {
+      "bytes": 6329,
+      "path": "main_sues200_mean_sample_sd.tex",
+      "sha256": "88fdc997198ec6be3d4812e05dbcb1ece9ce997ea4f74f36ca45f063eeed956b"
+    },
+    {
+      "bytes": 19116,
+      "path": "main_three_seed_mean_sample_sd.csv",
+      "sha256": "2643b354d8af37e16b77ae1a909763c287f8a8bd642c4b0590761c0e1e8d3432"
+    },
+    {
+      "bytes": 2535,
+      "path": "main_university1652_mean_sample_sd.tex",
+      "sha256": "06ce9d5da284bcf644f3ad7c8857f0d33c0f870ff247243315839783ecf866b1"
+    },
+    {
+      "bytes": 29524,
+      "path": "matrix_completeness_audit.json",
+      "sha256": "356260c56c5946ae89fd346ebc4e0ccba9e3edb62d86c8e2983d849974024071"
+    },
+    {
+      "bytes": 17079,
+      "path": "run_audit.csv",
+      "sha256": "b9da08d92dae2af274966be2913d0d1ff1ed7185effa6b642b678b6ca7f7e6ea"
+    },
+    {
+      "bytes": 22267,
+      "path": "sensitivity_metrics.csv",
+      "sha256": "2256233e5d1e27f3fe89c31a38d5d70428bb81f99aa14f7cb4facc0c95f2d4e1"
+    },
+    {
+      "bytes": 3687,
+      "path": "sensitivity_sues200.tex",
+      "sha256": "6950a397eb7cf6d6751ee4caf96132e52805931a7041ab21119f4896a0c1e252"
+    },
+    {
+      "bytes": 1569,
+      "path": "sensitivity_university1652.tex",
+      "sha256": "4044c6ad554fbe8f9529a4674ab34d38dfd94b6fbc1fb76c51ea68b57f135c93"
+    },
+    {
+      "bytes": 30391,
+      "path": "sensitivity_with_main_reference.csv",
+      "sha256": "24aa3d4baf1188dddf1db2327b4439493a1b69df1066185fb9ad4d6ad84161f7"
+    },
+    {
+      "bytes": 10542,
+      "path": "visual_vs_full_exact_mcnemar_holm.csv",
+      "sha256": "541945a6433ea447d01c0045e490d24e3c5e7554c89f58ccd60eda056ba4c0af"
+    },
+    {
+      "bytes": 11539,
+      "path": "visual_vs_full_paired_bootstrap.csv",
+      "sha256": "9451bae31e06a8463073ae9544f7eddc758b14d7d68e83965259d45ca6b9b111"
+    },
+    {
+      "bytes": 2964,
+      "path": "visual_vs_full_sues200.tex",
+      "sha256": "adebc63af9557dfda7b5a6bdf776ee431938672478d56eb9334d9aaefd058f1d"
+    },
+    {
+      "bytes": 1386,
+      "path": "visual_vs_full_university1652.tex",
+      "sha256": "1024e151b172bb2cec01fc5dc9567922ac3bf3cf5495d89781f4be066abf9c1e"
+    }
+  ],
+  "output_dir": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\results\\formal_matrix_aggregate",
+  "payload_sha256": "d8ee1820e7374b9fde9aa032295167b5508d641ec6aceecf779590c773fae007",
+  "provenance": {
+    "aggregator_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\experiments\\aggregate_frozen_formal_results.py",
+    "aggregator_sha256": "4e6be8fb2dc8c07127b025cf19ce00c87f968ad9d4ad19e6a3e760fa24d301c5",
+    "formal_script_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\lgm_game_pytorch\\formal_retrieval.py",
+    "formal_script_sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862",
+    "ledger_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\frozen_formal_matrix_ledger.json",
+    "ledger_sha256": "6fa1ad2b7ac0b653c692e844f4b31855ef91d56c163b8c0c8a795e782c942446",
+    "protocol_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\FORMAL_EXPERIMENT_PROTOCOL.md",
+    "protocol_sha256": "29c0502b07f09d45c6fd7d4a5b582fdd9a443acc9e8b818cd9941c18a0ee34f9",
+    "runner_path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\experiments\\run_frozen_formal_matrix.py",
+    "runner_sha256": "f251e5088b306ddec4769fab06799008d06194bc459282f2432ac3238f4ba59f"
+  },
+  "schema_version": "lgm-game.formal-aggregate.v1",
+  "statistics": {
+    "holm_family": "all 33 visual-vs-full task-by-seed comparisons",
+    "main_summary": "mean and sample SD (ddof=1) over frozen seeds 1,2,3",
+    "mcnemar": "two-sided exact conditional test",
+    "paired_bootstrap_metric": "R@1",
+    "paired_bootstrap_samples": 10000,
+    "paired_bootstrap_seed": 20260727,
+    "paired_bootstrap_unit": "path-aligned official query",
+    "underflow_policy": "log10 probabilities are retained and printable probabilities use '<1e-300'; exact zero is never emitted"
+  },
+  "status": "complete",
+  "task_policy": {
+    "macro_average_rows_generated": false,
+    "overall_plus_subset_duplicate_average_generated": false,
+    "sues200_tasks": [
+      "sues200_uav_150m_to_satellite",
+      "sues200_satellite_to_uav_150m",
+      "sues200_uav_200m_to_satellite",
+      "sues200_satellite_to_uav_200m",
+      "sues200_uav_250m_to_satellite",
+      "sues200_satellite_to_uav_250m",
+      "sues200_uav_300m_to_satellite",
+      "sues200_satellite_to_uav_300m"
+    ],
+    "task_level_only": true,
+    "university1652_tasks": [
+      "university1652_drone_to_satellite",
+      "university1652_satellite_to_drone",
+      "university1652_street_to_satellite"
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema": "root-native-ppt-review.v1",
+  "utc": "2026-09-29T14:59:57.778826+00:00",
+  "status": "passed_root_source_structure_data_and_visual_review",
+  "checks": 962,
+  "inputs_and_outputs": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\BUILD_REPORT_V2.json",
+      "sha256": "d5ef93d7185f0a4a2565b30175a2790c0ab18cec899b49eadc0c3715b9326bf3",
+      "bytes": 14809
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\build\\build_native_v2.mjs",
+      "sha256": "16933b51afc22c0cb2f52b626946927c6cab635a2ad7fe126e0ef27b343959b9",
+      "bytes": 11716
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\ROOT_NATIVE_SVG_REVIEW.json",
+      "sha256": "ac010cc27c27fa94a9fdd3e860af84c330a8e4cc6efa3c66b2e6a8000d6253ca",
+      "bytes": 6821
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\INDEPENDENT_NATIVE_SVG_REVIEW.json",
+      "sha256": "9dbcc7f38df2057e900f8a13571b00eadb867d2e890e8948f3eea6e1f6501977",
+      "bytes": 11243
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\CAPTIONS.md",
+      "sha256": "2dd6fef4c13f2348256b68ede5e099e51ae307b65b93b0ead3afcc88cd3697a9",
+      "bytes": 2366
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_university1652_variants_native.svg",
+      "sha256": "a103659da037e8edffd1c0ffd3f19bb1b3f431c04de323361164d4209e997a6a",
+      "bytes": 48737
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_university1652_variants_source.csv",
+      "sha256": "364fd0c5c9f28e97e5d316ed96a847d2ed70cb691507e01797a7a3f0806154e1",
+      "bytes": 5898
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_sues200_variants_native.svg",
+      "sha256": "b35c007fe48dc4508411fc4f1ad795a1c3fd13b9ac618167559c4ba4cf5294b1",
+      "bytes": 89668
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_sues200_variants_source.csv",
+      "sha256": "3494bf630df6f81d8c00c63881335257e2d38a489d40ca15dbdc17c083c27730",
+      "bytes": 13544
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_university1652_native_editable_v2.pptx",
+      "sha256": "57fb00c88afe732b5482c7afc4fd96dc180be520527977bafa24a133ef74d7ad",
+      "bytes": 38480
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_university1652_native_editable_v2.png",
+      "sha256": "b5329a434201b3a2b951b4c9d50151fb23e743d8d9145311736f4e65dcf15d1a",
+      "bytes": 95362
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\build\\university1652.native_map.json",
+      "sha256": "788d11f0adea098dbf6b2ccfc4386386a3a69d48d2a8fe107544be68bb864a88",
+      "bytes": 163116
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\build\\university1652.validation_v2.json",
+      "sha256": "367fc3bc61fa68a395af3a6f00b6b5ba32b13ebb84dc2b2f2d1219a4f3bf18e7",
+      "bytes": 3661
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_sues200_native_editable_v2.pptx",
+      "sha256": "772cf4b81afb83bf54bdc4cc155ab809f291dc79dde43e3e178e4aecabc00673",
+      "bytes": 52489
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_sues200_native_editable_v2.png",
+      "sha256": "2fdad8502ef5506df11e8f0bd6beecdf332a0700f9c9bad5a6a9d7e767815b80",
+      "bytes": 196123
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\build\\sues200.native_map.json",
+      "sha256": "28762ec7fb2fd6bb2367ab3f957b9878615b1e1730182bc561235edb98aca7fb",
+      "bytes": 303110
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\build\\sues200.validation_v2.json",
+      "sha256": "c32be36d46cba0700403cba22adb1ee7808770b1c37e0a320b617a33d7963309",
+      "bytes": 3667
+    }
+  ],
+  "figures": [
+    {
+      "dataset": "university1652",
+      "shape_count": 280,
+      "editable_text_count": 73,
+      "source_rows": 18,
+      "minimum_font_pt": 8,
+      "pptx": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_university1652_native_editable_v2.pptx",
+        "sha256": "57fb00c88afe732b5482c7afc4fd96dc180be520527977bafa24a133ef74d7ad",
+        "bytes": 38480
+      },
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_university1652_native_editable_v2.png",
+        "sha256": "b5329a434201b3a2b951b4c9d50151fb23e743d8d9145311736f4e65dcf15d1a",
+        "bytes": 95362
+      }
+    },
+    {
+      "dataset": "sues200",
+      "shape_count": 505,
+      "editable_text_count": 143,
+      "source_rows": 48,
+      "minimum_font_pt": 8,
+      "pptx": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_sues200_native_editable_v2.pptx",
+        "sha256": "772cf4b81afb83bf54bdc4cc155ab809f291dc79dde43e3e178e4aecabc00673",
+        "bytes": 52489
+      },
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_sues200_native_editable_v2.png",
+        "sha256": "2fdad8502ef5506df11e8f0bd6beecdf332a0700f9c9bad5a6a9d7e767815b80",
+        "bytes": 196123
+      }
+    }
+  ],
+  "root_visual_review": {
+    "performed": true,
+    "method": "Root inspected both final PPTX re-import CPU-rendered PNGs via view_image",
+    "findings": "Readable labels and cells, no clipping or overlap observed; correct 150/200/250/300 m labels, consistent marker legend, SD bars and layout."
+  },
+  "limits": [
+    "Native editable shapes/text, not Excel-linked native chart objects.",
+    "CPU import/render only; no Microsoft PowerPoint application opened or native application render claimed.",
+    "No new science or new upstream validation; all accepted CSV/SVG evidence limits retained.",
+    "Only these two main figures delivered; other figures, manuscript and final Overleaf remain pending."
+  ],
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\review_native_ppt_root.py",
+    "sha256": "f3cd7e8721bc9cbf5c01a014ea88ab93687d59f7a19285f92afa382ccf4b990f"
+  }
+}

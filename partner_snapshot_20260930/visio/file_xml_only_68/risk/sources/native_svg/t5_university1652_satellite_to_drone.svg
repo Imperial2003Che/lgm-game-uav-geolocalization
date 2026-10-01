@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="181.9mm" height="135.11388888888888mm" viewBox="0 0 515.6220472440946 383">
+<title>University-1652: Satellite → drone: selective risk and coverage</title>
+<desc>Three seeds shown separately. Sixty native observed points at actual selected-count coverage. Connecting lines are visual guides, not complete all-prefix curves. Saved AURC uses all prefixes. No CI or significance. Margin is not a calibrated posterior.</desc>
+<rect id="background" x="0" y="0" width="515.6220472440946" height="383" fill="white"/>
+<text id="title" x="15" y="18" font-family="Arial" font-size="10" font-weight="bold" text-anchor="start" fill="#222222">University-1652: Satellite → drone</text>
+<text id="subtitle" x="15" y="34" font-family="Arial" font-size="9" font-weight="bold" text-anchor="start" fill="#222222">Selective risk by margin-ranked coverage; N = 701 queries</text>
+<circle id="legend/visual/marker" cx="18" cy="48" r="1.85" fill="#0072B2"/>
+<text id="legend/visual/text" x="26" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Visual</text>
+<rect id="legend/full/marker" x="87.15" y="46.15" width="3.7" height="3.7" fill="#D55E00"/>
+<text id="legend/full/text" x="97" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Full</text>
+<text id="risk-axis-label" x="15" y="70" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Selective risk = 1 − R@1 among selected queries (%)</text>
+<text id="seed-1/heading" x="105" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 1</text>
+<line id="seed-1/y-grid-0" x1="42" y1="235" x2="168" y2="235" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-0" x="37" y="237.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="seed-1/x-tick-0" x1="42" y1="235" x2="42" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-0" x="42" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="seed-1/y-grid-25" x1="42" y1="201" x2="168" y2="201" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-25" x="37" y="203.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="seed-1/x-tick-25" x1="73.5" y1="235" x2="73.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-25" x="73.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="seed-1/y-grid-50" x1="42" y1="167" x2="168" y2="167" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-50" x="37" y="169.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="seed-1/x-tick-50" x1="105" y1="235" x2="105" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-50" x="105" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="seed-1/y-grid-75" x1="42" y1="133" x2="168" y2="133" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-75" x="37" y="135.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="seed-1/x-tick-75" x1="136.5" y1="235" x2="136.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-75" x="136.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="seed-1/y-grid-100" x1="42" y1="99" x2="168" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-100" x="37" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="seed-1/x-tick-100" x1="168" y1="235" x2="168" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-100" x="168" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="seed-1/y-axis" x1="42" y1="99" x2="42" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="seed-1/x-axis" x1="42" y1="235" x2="168" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_satellite_to_drone/seed-1/visual/segment-1-2" x1="54.761768901569184" y1="175.61971830985917" x2="67.34379457917261" y2="181.9503546099291" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/visual/segment-2-3" x1="67.34379457917261" y1="181.9503546099291" x2="79.92582025677603" y2="181.50236966824644" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/visual/segment-3-4" x1="79.92582025677603" y1="181.50236966824644" x2="92.50784593437946" y2="175.95373665480426" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/visual/segment-4-5" x1="92.50784593437946" y1="175.95373665480426" x2="105.08987161198289" y2="176.1054131054131" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/visual/segment-5-6" x1="105.08987161198289" y1="176.1054131054131" x2="117.6718972895863" y2="176.85273159144893" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/visual/segment-6-7" x1="117.6718972895863" y1="176.85273159144893" x2="130.25392296718974" y2="178.77189409368634" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/visual/segment-7-8" x1="130.25392296718974" y1="178.77189409368634" x2="142.83594864479315" y2="177.54545454545453" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/visual/segment-8-9" x1="142.83594864479315" y1="177.54545454545453" x2="155.41797432239656" y2="176.8066561014263" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/visual/segment-9-10" x1="155.41797432239656" y1="176.8066561014263" x2="168" y2="175.82738944365192" stroke="#0072B2" stroke-width="1"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-1" cx="54.761768901569184" cy="175.61971830985917" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-2" cx="67.34379457917261" cy="181.9503546099291" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-3" cx="79.92582025677603" cy="181.50236966824644" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-4" cx="92.50784593437946" cy="175.95373665480426" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-5" cx="105.08987161198289" cy="176.1054131054131" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-6" cx="117.6718972895863" cy="176.85273159144893" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-7" cx="130.25392296718974" cy="178.77189409368634" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-8" cx="142.83594864479315" cy="177.54545454545453" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-9" cx="155.41797432239656" cy="176.8066561014263" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-1/visual/point-10" cx="168" cy="175.82738944365192" r="1.85" fill="#0072B2"/>
+<text id="seed-1/visual/AURC" x="105" y="294" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">Visual 0.4210</text>
+<line id="university1652_satellite_to_drone/seed-1/full/segment-1-2" x1="54.761768901569184" y1="156.46478873239437" x2="67.34379457917261" y2="155.9078014184397" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/full/segment-2-3" x1="67.34379457917261" y1="155.9078014184397" x2="79.92582025677603" y2="158.94312796208533" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/full/segment-3-4" x1="79.92582025677603" y1="158.94312796208533" x2="92.50784593437946" y2="158.0462633451957" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/full/segment-4-5" x1="92.50784593437946" y1="158.0462633451957" x2="105.08987161198289" y2="156.73219373219374" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/full/segment-5-6" x1="105.08987161198289" y1="156.73219373219374" x2="117.6718972895863" y2="156.50118764845607" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/full/segment-6-7" x1="117.6718972895863" y1="156.50118764845607" x2="130.25392296718974" y2="158.5519348268839" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/full/segment-7-8" x1="130.25392296718974" y1="158.5519348268839" x2="142.83594864479315" y2="159.6060606060606" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/full/segment-8-9" x1="142.83594864479315" y1="159.6060606060606" x2="155.41797432239656" y2="161.0729001584786" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-1/full/segment-9-10" x1="155.41797432239656" y1="161.0729001584786" x2="168" y2="161.47075606276746" stroke="#D55E00" stroke-width="1"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-1" x="52.91176890156918" y="154.61478873239437" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-2" x="65.49379457917262" y="154.0578014184397" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-3" x="78.07582025677604" y="157.09312796208533" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-4" x="90.65784593437947" y="156.19626334519572" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-5" x="103.23987161198289" y="154.88219373219374" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-6" x="115.8218972895863" y="154.65118764845607" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-7" x="128.40392296718974" y="156.7019348268839" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-8" x="140.98594864479315" y="157.7560606060606" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-9" x="153.56797432239657" y="159.2229001584786" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-1/full/point-10" x="166.15" y="159.62075606276747" width="3.7" height="3.7" fill="#D55E00"/>
+<text id="seed-1/full/AURC" x="105" y="306" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">Full 0.5621</text>
+<text id="seed-1/AURC-label" x="105" y="282" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">All-prefix AURC (fraction)</text>
+<text id="seed-2/heading" x="263" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 2</text>
+<line id="seed-2/y-grid-0" x1="200" y1="235" x2="326" y2="235" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-0" x="195" y="237.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="seed-2/x-tick-0" x1="200" y1="235" x2="200" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-0" x="200" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="seed-2/y-grid-25" x1="200" y1="201" x2="326" y2="201" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-25" x="195" y="203.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="seed-2/x-tick-25" x1="231.5" y1="235" x2="231.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-25" x="231.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="seed-2/y-grid-50" x1="200" y1="167" x2="326" y2="167" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-50" x="195" y="169.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="seed-2/x-tick-50" x1="263" y1="235" x2="263" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-50" x="263" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="seed-2/y-grid-75" x1="200" y1="133" x2="326" y2="133" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-75" x="195" y="135.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="seed-2/x-tick-75" x1="294.5" y1="235" x2="294.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-75" x="294.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="seed-2/y-grid-100" x1="200" y1="99" x2="326" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-100" x="195" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="seed-2/x-tick-100" x1="326" y1="235" x2="326" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-100" x="326" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="seed-2/y-axis" x1="200" y1="99" x2="200" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="seed-2/x-axis" x1="200" y1="235" x2="326" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_satellite_to_drone/seed-2/visual/segment-1-2" x1="212.76176890156918" y1="158.38028169014086" x2="225.3437945791726" y2="163.6241134751773" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/visual/segment-2-3" x1="225.3437945791726" y1="163.6241134751773" x2="237.92582025677603" y2="162.81042654028437" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/visual/segment-3-4" x1="237.92582025677603" y1="162.81042654028437" x2="250.50784593437947" y2="166.27402135231318" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/visual/segment-4-5" x1="250.50784593437947" y1="166.27402135231318" x2="263.08987161198286" y2="169.51851851851853" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/visual/segment-5-6" x1="263.08987161198286" y1="169.51851851851853" x2="275.6718972895863" y2="167.16152019002374" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/visual/segment-6-7" x1="275.6718972895863" y1="167.16152019002374" x2="288.25392296718974" y2="166.8615071283096" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/visual/segment-7-8" x1="288.25392296718974" y1="166.8615071283096" x2="300.8359486447931" y2="167.12121212121212" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/visual/segment-8-9" x1="300.8359486447931" y1="167.12121212121212" x2="313.41797432239656" y2="167.32329635499207" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/visual/segment-9-10" x1="313.41797432239656" y1="167.32329635499207" x2="326" y2="167.48502139800286" stroke="#0072B2" stroke-width="1"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-1" cx="212.76176890156918" cy="158.38028169014086" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-2" cx="225.3437945791726" cy="163.6241134751773" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-3" cx="237.92582025677603" cy="162.81042654028437" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-4" cx="250.50784593437947" cy="166.27402135231318" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-5" cx="263.08987161198286" cy="169.51851851851853" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-6" cx="275.6718972895863" cy="167.16152019002374" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-7" cx="288.25392296718974" cy="166.8615071283096" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-8" cx="300.8359486447931" cy="167.12121212121212" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-9" cx="313.41797432239656" cy="167.32329635499207" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-2/visual/point-10" cx="326" cy="167.48502139800286" r="1.85" fill="#0072B2"/>
+<text id="seed-2/visual/AURC" x="263" y="294" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">Visual 0.5041</text>
+<line id="university1652_satellite_to_drone/seed-2/full/segment-1-2" x1="212.76176890156918" y1="150.7183098591549" x2="225.3437945791726" y2="155.9078014184397" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/full/segment-2-3" x1="225.3437945791726" y1="155.9078014184397" x2="237.92582025677603" y2="158.29857819905214" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/full/segment-3-4" x1="237.92582025677603" y1="158.29857819905214" x2="250.50784593437947" y2="159.4982206405694" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/full/segment-4-5" x1="250.50784593437947" y1="159.4982206405694" x2="263.08987161198286" y2="157.50712250712252" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/full/segment-5-6" x1="263.08987161198286" y1="157.50712250712252" x2="275.6718972895863" y2="156.82422802850357" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/full/segment-6-7" x1="275.6718972895863" y1="156.82422802850357" x2="288.25392296718974" y2="156.89002036659878" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/full/segment-7-8" x1="288.25392296718974" y1="156.89002036659878" x2="300.8359486447931" y2="156.2121212121212" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/full/segment-8-9" x1="300.8359486447931" y1="156.2121212121212" x2="313.41797432239656" y2="157.1933438985737" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-2/full/segment-9-10" x1="313.41797432239656" y1="157.1933438985737" x2="326" y2="157.59058487874466" stroke="#D55E00" stroke-width="1"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-1" x="210.9117689015692" y="148.86830985915492" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-2" x="223.4937945791726" y="154.0578014184397" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-3" x="236.07582025677604" y="156.44857819905215" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-4" x="248.65784593437948" y="157.6482206405694" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-5" x="261.23987161198284" y="155.65712250712252" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-6" x="273.8218972895863" y="154.97422802850357" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-7" x="286.4039229671897" y="155.04002036659878" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-8" x="298.9859486447931" y="154.3621212121212" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-9" x="311.56797432239654" y="155.3433438985737" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-2/full/point-10" x="324.15" y="155.74058487874467" width="3.7" height="3.7" fill="#D55E00"/>
+<text id="seed-2/full/AURC" x="263" y="306" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">Full 0.5830</text>
+<text id="seed-2/AURC-label" x="263" y="282" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">All-prefix AURC (fraction)</text>
+<text id="seed-3/heading" x="421" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 3</text>
+<line id="seed-3/y-grid-0" x1="358" y1="235" x2="484" y2="235" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-0" x="353" y="237.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="seed-3/x-tick-0" x1="358" y1="235" x2="358" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-0" x="358" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="seed-3/y-grid-25" x1="358" y1="201" x2="484" y2="201" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-25" x="353" y="203.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="seed-3/x-tick-25" x1="389.5" y1="235" x2="389.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-25" x="389.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="seed-3/y-grid-50" x1="358" y1="167" x2="484" y2="167" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-50" x="353" y="169.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="seed-3/x-tick-50" x1="421" y1="235" x2="421" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-50" x="421" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="seed-3/y-grid-75" x1="358" y1="133" x2="484" y2="133" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-75" x="353" y="135.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="seed-3/x-tick-75" x1="452.5" y1="235" x2="452.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-75" x="452.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="seed-3/y-grid-100" x1="358" y1="99" x2="484" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-100" x="353" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="seed-3/x-tick-100" x1="484" y1="235" x2="484" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-100" x="484" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="seed-3/y-axis" x1="358" y1="99" x2="358" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="seed-3/x-axis" x1="358" y1="235" x2="484" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_satellite_to_drone/seed-3/visual/segment-1-2" x1="370.7617689015692" y1="173.70422535211267" x2="383.3437945791726" y2="179.05673758865248" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/visual/segment-2-3" x1="383.3437945791726" y1="179.05673758865248" x2="395.92582025677603" y2="175.0568720379147" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/visual/segment-3-4" x1="395.92582025677603" y1="175.0568720379147" x2="408.5078459343795" y2="174.01779359430606" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/visual/segment-4-5" x1="408.5078459343795" y1="174.01779359430606" x2="421.08987161198286" y2="174.55555555555554" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/visual/segment-5-6" x1="421.08987161198286" y1="174.55555555555554" x2="433.6718972895863" y2="175.2375296912114" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/visual/segment-6-7" x1="433.6718972895863" y1="175.2375296912114" x2="446.25392296718974" y2="176.0020366598778" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/visual/segment-7-8" x1="446.25392296718974" y1="176.0020366598778" x2="458.8359486447931" y2="175.84848484848484" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/visual/segment-8-9" x1="458.8359486447931" y1="175.84848484848484" x2="471.41797432239656" y2="175.513470681458" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/visual/segment-9-10" x1="471.41797432239656" y1="175.513470681458" x2="484" y2="175.2453637660485" stroke="#0072B2" stroke-width="1"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-1" cx="370.7617689015692" cy="173.70422535211267" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-2" cx="383.3437945791726" cy="179.05673758865248" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-3" cx="395.92582025677603" cy="175.0568720379147" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-4" cx="408.5078459343795" cy="174.01779359430606" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-5" cx="421.08987161198286" cy="174.55555555555554" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-6" cx="433.6718972895863" cy="175.2375296912114" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-7" cx="446.25392296718974" cy="176.0020366598778" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-8" cx="458.8359486447931" cy="175.84848484848484" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-9" cx="471.41797432239656" cy="175.513470681458" r="1.85" fill="#0072B2"/>
+<circle id="university1652_satellite_to_drone/seed-3/visual/point-10" cx="484" cy="175.2453637660485" r="1.85" fill="#0072B2"/>
+<text id="seed-3/visual/AURC" x="421" y="294" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">Visual 0.4414</text>
+<line id="university1652_satellite_to_drone/seed-3/full/segment-1-2" x1="370.7617689015692" y1="154.54929577464787" x2="383.3437945791726" y2="156.8723404255319" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/full/segment-2-3" x1="383.3437945791726" y1="156.8723404255319" x2="395.92582025677603" y2="159.58767772511848" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/full/segment-3-4" x1="395.92582025677603" y1="159.58767772511848" x2="408.5078459343795" y2="156.59430604982208" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/full/segment-4-5" x1="408.5078459343795" y1="156.59430604982208" x2="421.08987161198286" y2="155.95726495726495" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/full/segment-5-6" x1="421.08987161198286" y1="155.95726495726495" x2="433.6718972895863" y2="158.4394299287411" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/full/segment-6-7" x1="433.6718972895863" y1="158.4394299287411" x2="446.25392296718974" y2="157.4439918533605" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/full/segment-7-8" x1="446.25392296718974" y1="157.4439918533605" x2="458.8359486447931" y2="156.6969696969697" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/full/segment-8-9" x1="458.8359486447931" y1="156.6969696969697" x2="471.41797432239656" y2="158.486529318542" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_satellite_to_drone/seed-3/full/segment-9-10" x1="471.41797432239656" y1="158.486529318542" x2="484" y2="158.17261055634808" stroke="#D55E00" stroke-width="1"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-1" x="368.9117689015692" y="152.69929577464788" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-2" x="381.4937945791726" y="155.0223404255319" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-3" x="394.075820256776" y="157.7376777251185" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-4" x="406.65784593437945" y="154.7443060498221" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-5" x="419.23987161198284" y="154.10726495726496" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-6" x="431.8218972895863" y="156.5894299287411" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-7" x="444.4039229671897" y="155.5939918533605" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-8" x="456.9859486447931" y="154.8469696969697" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-9" x="469.56797432239654" y="156.63652931854202" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_satellite_to_drone/seed-3/full/point-10" x="482.15" y="156.32261055634808" width="3.7" height="3.7" fill="#D55E00"/>
+<text id="seed-3/full/AURC" x="421" y="306" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">Full 0.5835</text>
+<text id="seed-3/AURC-label" x="421" y="282" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">All-prefix AURC (fraction)</text>
+<text id="coverage-axis-label" x="257.8110236220473" y="266" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">Realized coverage = selected queries / N (%)</text>
+<text id="footnote-1" x="15" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Selection: top k = ceil(requested coverage × N), ranked by raw cosine Top-1 margin.</text>
+<text id="footnote-2" x="15" y="343" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Margin is not a calibrated probability. Ties retain the source query order.</text>
+<text id="footnote-3" x="15" y="356" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Points: ten registered coverage levels; connecting segments are visual guides only.</text>
+<text id="footnote-4" x="15" y="369" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Seeds and tasks stay separate. No CI or significance shown; AURC uses all prefixes.</text>
+</svg>

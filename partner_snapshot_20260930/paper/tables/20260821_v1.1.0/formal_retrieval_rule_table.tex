@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Controlled retrieval rules averaged over the four fully trained baselines.}
+\label{tab:formal-retrieval-rules}
+\begin{tabular}{lrrrrrr}
+\toprule
+Retrieval rule & D$\rightarrow$S R@1 & D$\rightarrow$S mAP & D$\rightarrow$S MRR & S$\rightarrow$D R@1 & S$\rightarrow$D mAP & S$\rightarrow$D MRR \\
+\midrule
+Cosine & 73.06 & 76.52 & 79.98 & 85.20 & 73.13 & 87.47 \\
+CSLS-k10 & 74.68 & 78.34 & 82.00 & 88.80 & 78.05 & 90.57 \\
+Reciprocal-k10 & 72.77 & 76.29 & 79.82 & 85.20 & 73.14 & 87.48 \\
+AQE-k10 & 73.05 & 75.68 & 78.30 & 85.20 & 81.16 & 85.81 \\
+AQE+CSLS-k10 & 73.06 & 75.51 & 77.97 & 85.16 & 82.60 & 85.86 \\
+\bottomrule
+\end{tabular}
+\end{table*}

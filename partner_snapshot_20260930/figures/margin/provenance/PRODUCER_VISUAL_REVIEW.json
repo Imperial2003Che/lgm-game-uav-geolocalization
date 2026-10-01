@@ -1,0 +1,109 @@
+{
+  "schema": "producer-t4-actual-visual-review.v1",
+  "utc": "2026-09-29T19:06:26.544531+00:00",
+  "passed": true,
+  "independent": false,
+  "method": "Actual view_image(original) calls; final pages1-3,4-7,8-11, plus earlier2 samples separately.",
+  "finalPages": [
+    {
+      "page": 1,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\01_t4_university1652_drone_to_satellite.png",
+        "sha256": "de69b35e3c1a659d84785cdc3b995ca62c2a7c86b81ad33d642f28f0edf9d6b7",
+        "bytes": 192235
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 2,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\02_t4_university1652_satellite_to_drone.png",
+        "sha256": "a54e7e35b13238a915b9b2f7c9fd737818ad2767d7032998a7d32981700445ea",
+        "bytes": 187923
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 3,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\03_t4_university1652_street_to_satellite.png",
+        "sha256": "8a50e178d75200f1f0e11949d4f8c7c4efeaebd31af6e44ed907ff4a749d6487",
+        "bytes": 174667
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 4,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\04_t4_sues200_uav_150m_to_satellite.png",
+        "sha256": "b561d009be903416190e0df7778a61edcbf4d18abeb1c41bcb7a06fa848e89d9",
+        "bytes": 185940
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 5,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\05_t4_sues200_satellite_to_uav_150m.png",
+        "sha256": "60289216e3d3931a358d0ff47812bb6d641ef2c6c01d0d7ca0a36a536c4d6ab5",
+        "bytes": 185199
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 6,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\06_t4_sues200_uav_200m_to_satellite.png",
+        "sha256": "46f82cb0cfc27e3a3e804116512d0568c4f98d73b001531318bb9c6f19359143",
+        "bytes": 186371
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 7,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\07_t4_sues200_satellite_to_uav_200m.png",
+        "sha256": "e1a4a5cae33377771758d73c576e400d25d9329ace3dc7435916e5e8882be7d4",
+        "bytes": 185031
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 8,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\08_t4_sues200_uav_250m_to_satellite.png",
+        "sha256": "c81539180004e5cf276e6dceab0cd2b873bad24a85069f93cd564bd20732360d",
+        "bytes": 187721
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 9,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\09_t4_sues200_satellite_to_uav_250m.png",
+        "sha256": "f99329e77291d7b183e3a616137c144bd12e15d8dc032ad20acdc276e3e638e1",
+        "bytes": 189576
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 10,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\10_t4_sues200_uav_300m_to_satellite.png",
+        "sha256": "5230ab617c624bf3a49c4081ddb0ac7e958ce03b8809b565ce98bca8766c47e2",
+        "bytes": 188492
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    },
+    {
+      "page": 11,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\previews\\11_t4_sues200_satellite_to_uav_300m.png",
+        "sha256": "c1a1171205539d12878d0bcadb14816f453170367a4ab6f42ae4d5631ea8e92d",
+        "bytes": 182291
+      },
+      "observed": "Visible title/metric units/seed/Q labels/N and low values; no clipping or text overlap. Native nonmonotonic points preserved; false N20† groups visible on pages5,7,9,11."
+    }
+  ],
+  "limitations": "Visual readability review does not establish new scientific validity or inference."
+}

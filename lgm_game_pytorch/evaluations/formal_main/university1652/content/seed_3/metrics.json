@@ -1,0 +1,53 @@
+{
+  "schema_version": "formal-retrieval-v1",
+  "unit": "fraction",
+  "AP_definition": "Official trapezoidal interpolation used by the University-1652/SUES reference evaluator: each relevant rank contributes the average of precision immediately before and at that recall step.",
+  "full_gallery": true,
+  "results": {
+    "university1652_drone_to_satellite": {
+      "unit": "fraction",
+      "queries": 37855,
+      "gallery": 951,
+      "query_identities": 701,
+      "gallery_identities": 951,
+      "r_at_1": 0.008083476423193766,
+      "r_at_5": 0.03156782459384493,
+      "r_at_10": 0.054603090740985336,
+      "r_at_20": 0.08862765816933034,
+      "official_trapezoid_mAP": 0.017707152292132378,
+      "MRR": 0.027330832555890083,
+      "mean_top1_margin": 0.0006647522677667439,
+      "protocol": "official test/query_drone -> test/gallery_satellite"
+    },
+    "university1652_satellite_to_drone": {
+      "unit": "fraction",
+      "queries": 701,
+      "gallery": 51355,
+      "query_identities": 701,
+      "gallery_identities": 951,
+      "r_at_1": 0.012838801711840228,
+      "r_at_5": 0.06134094151212553,
+      "r_at_10": 0.09700427960057062,
+      "r_at_20": 0.12696148359486448,
+      "official_trapezoid_mAP": 0.007444529794156551,
+      "MRR": 0.041528280824422836,
+      "mean_top1_margin": 0.0003620162606239319,
+      "protocol": "official test/query_satellite -> test/gallery_drone"
+    },
+    "university1652_street_to_satellite": {
+      "unit": "fraction",
+      "queries": 2579,
+      "gallery": 951,
+      "query_identities": 701,
+      "gallery_identities": 951,
+      "r_at_1": 0.0015509887553315238,
+      "r_at_5": 0.009305932531989143,
+      "r_at_10": 0.02055060100814269,
+      "r_at_20": 0.038386971694455214,
+      "official_trapezoid_mAP": 0.006923459470272064,
+      "MRR": 0.012295931577682495,
+      "mean_top1_margin": 0.006256246939301491,
+      "protocol": "official test/query_street -> test/gallery_satellite"
+    }
+  }
+}

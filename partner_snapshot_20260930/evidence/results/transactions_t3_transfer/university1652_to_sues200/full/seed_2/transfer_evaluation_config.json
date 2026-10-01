@@ -1,0 +1,55 @@
+{
+  "adapter": {
+    "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\experiments\\run_cross_dataset_evaluation.py",
+    "sha256": "29cccd4ff3e975571b578288f7a691ceccaf4a8ed7ab9483812b68edbc4f5ed8"
+  },
+  "checkpoint": {
+    "bytes": 172346411,
+    "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\runs\\formal_main\\university1652\\full\\seed_2\\best.pt",
+    "selected_training_epoch": 79,
+    "sha256": "771fc0ff3daeae4ccbcecd774d63820c7b2bcfd7f214c512c39ce64091cf3309",
+    "training_manifest_payload_sha256": "54f67cbac819f15b6b71b4123c84a2c74b744708eab39f6a78ca37332a1bf638",
+    "training_run_config_sha256": "cccd5853196c6d610f3e9cdffd57fbd54bcfdaacfab82d5205f29a5c8162ccaa"
+  },
+  "controls": {
+    "target_dataset_used_for_calibration": false,
+    "target_dataset_used_for_checkpoint_selection": false,
+    "target_dataset_used_for_training": false,
+    "target_labels_used_only_by_evaluator": true
+  },
+  "design": "bidirectional_zero_shot_cross_dataset_transfer",
+  "evaluation": {
+    "all_official_gallery_images": true,
+    "all_official_queries": true,
+    "amp": true,
+    "data_hash_mode": "content",
+    "device": "cuda:0",
+    "eval_batch_size": 128,
+    "eval_chunk_size": 128,
+    "workers": 8
+  },
+  "frozen_core": {
+    "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\lgm_game_pytorch\\formal_retrieval.py",
+    "sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862"
+  },
+  "schema_version": "lgm-game.cross-dataset-evaluation-config.v1",
+  "seed": 2,
+  "source_dataset": "university1652",
+  "target": {
+    "data_root": "C:\\\u9879\u76ee\\IMTMN\\datasets\\SUES-200",
+    "evidence": {
+      "bytes": 1722147,
+      "meta_bytes": 6662,
+      "meta_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.meta.json",
+      "meta_sha256": "3dc42892bbff9339d058fc0d6abaf2fd9e92cc94f9f9b7fd58ed0ae725b57dca",
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.npz",
+      "sha256": "6c3a82fdcf59e401f5da4ed0f3d9dca99fdcbab0a46aa66fb47a055c832cdabd"
+    },
+    "sues_manifest": {
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\manifests\\sues200_official_train_ids.yaml",
+      "sha256": "c1386d5c746aca48bbb2793ed1ee19d6cd7330a7f5f1b27a5ec43727317ec226"
+    }
+  },
+  "target_dataset": "sues200",
+  "variant": "full"
+}

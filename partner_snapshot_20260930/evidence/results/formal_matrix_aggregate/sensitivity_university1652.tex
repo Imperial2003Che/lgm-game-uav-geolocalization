@@ -1,0 +1,27 @@
+\begin{table*}[t]
+\centering
+\caption{Frozen sensitivity results on University-1652, task by task. The main full seed-1 setting is included only as a reference. No task-level macro average is formed.}
+\label{tab:formal_sensitivity_university1652}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrr}
+\toprule
+Task & Setting & R@1 & R@5 & R@10 & R@20 & Official mAP \\
+\midrule
+Drone$\rightarrow$Satellite & ResNet-18, 512-D (main reference) & 31.91 & 58.42 & 68.87 & 78.63 & 38.14 \\
+Drone$\rightarrow$Satellite & ResNet-50, 512-D & 35.89 & 61.92 & 71.90 & 80.64 & 41.97 \\
+Drone$\rightarrow$Satellite & ResNet-18, 256-D & 31.77 & 57.93 & 68.40 & 78.25 & 37.91 \\
+Drone$\rightarrow$Satellite & ResNet-18, 1024-D & 32.92 & 58.09 & 68.57 & 78.36 & 38.91 \\
+\addlinespace
+Satellite$\rightarrow$Drone & ResNet-18, 512-D (main reference) & 45.93 & 61.91 & 67.76 & 75.18 & 29.24 \\
+Satellite$\rightarrow$Drone & ResNet-50, 512-D & 49.93 & 65.34 & 72.33 & 77.32 & 34.50 \\
+Satellite$\rightarrow$Drone & ResNet-18, 256-D & 43.22 & 61.63 & 67.90 & 75.46 & 29.01 \\
+Satellite$\rightarrow$Drone & ResNet-18, 1024-D & 46.50 & 60.06 & 67.76 & 73.32 & 30.09 \\
+\addlinespace
+Street$\rightarrow$Satellite & ResNet-18, 512-D (main reference) & 0.93 & 4.42 & 6.86 & 12.18 & 2.18 \\
+Street$\rightarrow$Satellite & ResNet-50, 512-D & 0.70 & 3.45 & 7.02 & 11.67 & 1.97 \\
+Street$\rightarrow$Satellite & ResNet-18, 256-D & 0.93 & 4.61 & 8.34 & 11.98 & 2.33 \\
+Street$\rightarrow$Satellite & ResNet-18, 1024-D & 0.97 & 4.07 & 6.67 & 11.87 & 2.24 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Author-reported SUES-200 results (\%) by flight height.}
+\label{tab:literature_sues}
+\fontsize{9}{10.5}\selectfont
+\setlength{\tabcolsep}{3.3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{llrrrrrrrr}
+\toprule
+Method & Direction & \multicolumn{2}{c}{150 m} & \multicolumn{2}{c}{200 m} & \multicolumn{2}{c}{250 m} & \multicolumn{2}{c}{300 m} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-10} & & R@1 & AP & R@1 & AP & R@1 & AP & R@1 & AP \\
+\midrule
+MEAN \cite{mean2025} & UAV $\rightarrow$ sat. & 95.50 & 96.46 & 98.38 & 98.72 & 98.95 & 99.17 & 99.52 & 99.63 \\
+MEAN \cite{mean2025} & Sat. $\rightarrow$ UAV & 97.50 & 94.75 & 100.00 & 97.09 & 100.00 & 98.28 & 100.00 & 99.21 \\
+CDM-Net \cite{cdmnet2025} & UAV $\rightarrow$ sat. & 93.78 & 95.16 & 97.62 & 98.16 & 98.28 & 98.69 & 99.20 & 99.31 \\
+CDM-Net \cite{cdmnet2025} & Sat. $\rightarrow$ UAV & 95.25 & 92.24 & 98.50 & 96.40 & 99.00 & 97.60 & 99.00 & 98.01 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\textwidth}\fontsize{9}{10.5}\selectfont MEAN uses RGB images at 384 pixels; CDM-Net uses generated descriptions and synthesized views at 512 pixels. Sources: MEAN Tables III/IV and CDM-Net Table IV.\end{minipage}
+\end{table*}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "lgm-game.transactions-t1-resource-profile.v1",
+  "status": "template_not_frozen",
+  "device": {
+    "name": "to be measured after the primary GPU matrix completes",
+    "total_memory_bytes": null
+  },
+  "feasibility_policy": {
+    "scope": "model construction, one complete optimizer step, and peak-memory measurement only",
+    "manuscript_status": "engineering feasibility evidence, never a reported experiment result",
+    "no_silent_oom_retry": true,
+    "selection_rule": "largest micro-batch that completes the declared feasibility procedure with a recorded safety margin",
+    "official_test_access": false
+  },
+  "configs": {
+    "qdfl_dinov2_b14": {
+      "micro_batch_size": null,
+      "workers": null,
+      "nominal_batch_size": 24,
+      "accumulate_grad_batches": null,
+      "feasibility_manifest_path": null,
+      "feasibility_manifest_sha256": null
+    },
+    "fsra_vit": {
+      "micro_batch_size": null,
+      "workers": null,
+      "nominal_batch_size": 8,
+      "accumulate_grad_batches": null,
+      "feasibility_manifest_path": null,
+      "feasibility_manifest_sha256": null
+    },
+    "sdpl_swinv2_b": {
+      "micro_batch_size": null,
+      "workers": null,
+      "nominal_batch_size": 24,
+      "accumulate_grad_batches": null,
+      "feasibility_manifest_path": null,
+      "feasibility_manifest_sha256": null
+    },
+    "ccr_convnext_b": {
+      "micro_batch_size": null,
+      "workers": null,
+      "nominal_batch_size": 8,
+      "accumulate_grad_batches": null,
+      "feasibility_manifest_path": null,
+      "feasibility_manifest_sha256": null
+    },
+    "mccg_convnext_tiny": {
+      "batch_size": 8,
+      "workers": 0,
+      "resource_adapted": false,
+      "feasibility_manifest_path": null,
+      "feasibility_manifest_sha256": null
+    }
+  },
+  "payload_sha256": null
+}

@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-09-29T13:40:38.082253+00:00",
+  "config_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\analysis\\transactions_t4_t5\\transactions_query_analysis_config.json",
+  "config_sha256": "6f4fb2c91bd657eb0ff4c36b8644a1b3b7a9ac7752c811814ae9fb213cfdc1a7",
+  "elapsed_seconds": 147.77182130000438,
+  "manuscript_result": true,
+  "payload_sha256": "4e103ecad809ce69ebc6dca5a151edb357f9d59300824d063538212300a7fdbd",
+  "schema_version": "lgm-game.transactions-query-analysis-manifest.v1",
+  "source_run_count": 12,
+  "status": "completed",
+  "t4_csv_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\analysis\\transactions_t4_t5\\transactions_t4_strata.csv",
+  "t4_csv_sha256": "bc1725e7d5a1ce298f2de579240d65ced823b57d0d2af8bcb077a9d697d66530",
+  "t4_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\analysis\\transactions_t4_t5\\transactions_t4_strata.json",
+  "t4_row_count": 462,
+  "t4_sha256": "42090c4ffdafedbfffd8ed2439e1e59756f0876e2c7ae612a87031a574b28cc8",
+  "t5_comparison_count": 132,
+  "t5_csv_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\analysis\\transactions_t4_t5\\transactions_t5_selective_comparisons.csv",
+  "t5_csv_sha256": "2dc5b6bf9fba1edbde657427f516e0b539b310fb93f49511444a2061e598b40e",
+  "t5_native_row_count": 66,
+  "t5_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\analysis\\transactions_t4_t5\\transactions_t5_selective_calibration.json",
+  "t5_sha256": "033b6eaea71b3084ca043902f6ba03b6487bf1762a9180963357103097d172cc"
+}

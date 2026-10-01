@@ -1,0 +1,29 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "purpose": "Audit that the pinned CLIP executable path reproduces clean cached evidence before it is used on corrupted pixels.",
+  "samples": 64,
+  "sample_path_membership_sha256": "039390fb104e00f586bf5a4858aa24675e2cd03f973c53588b2ec90f1e2bac13",
+  "selection_seed": 20260727,
+  "content": {
+    "mean_absolute_error": 0.00010020700574386865,
+    "max_absolute_error": 0.00244140625,
+    "float16_exact_fraction": 0.13494318181818182
+  },
+  "style": {
+    "mean_absolute_error": 8.360352512681857e-05,
+    "max_absolute_error": 0.001953125,
+    "float16_exact_fraction": 0.1484375
+  },
+  "clip_provenance": {
+    "model_name": "openai/clip-vit-base-patch32",
+    "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "loaded_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "model_config_sha256": "7349703ad0fe5af15f11d73fc079304f21580b26846d386be714f1bf248b3829",
+    "combined_candidates_sha256": "53765ab6da8f52b6896d2cdb9c166ab7ef2f6b7cdeefe8f355eec5260eddb726",
+    "precision": "fp16",
+    "local_files_only": true,
+    "transformers_version": "4.57.6",
+    "probability_semantics": "softmax of pretrained CLIP logit-scale cosine similarities within each ordered candidate family; relative zero-shot evidence, not a calibrated posterior"
+  },
+  "payload_sha256": "d8788767a0bd22ef51e0b2a81218b762c5ede896e1668991caa9626b833db10c"
+}

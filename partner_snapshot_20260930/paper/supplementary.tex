@@ -1,0 +1,199 @@
+% Supplementary local evidence-integration working draft: 20260930
+% Frozen experiment-delivery root: 20260815-v1.0.0
+\newcommand{\DoNotLoadEpstopdf}{}
+\documentclass[journal]{IEEEtran}
+
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{placeins}
+\usepackage{cite}
+\usepackage{url}
+
+\title{Supplementary Material: Independent Content and Style Evidence for UAV--Satellite Retrieval}
+\author{Chen Che}
+
+\begin{document}
+\maketitle
+\markboth{Local working draft --- 30 September 2026}{Independent Content and Style Evidence}
+\begin{center}\footnotesize\itshape
+Local working draft: completed-result integration; remaining experiments and final review are pending.
+\end{center}
+
+\input{results/supplementary_evidence.tex}
+
+\section{Historical Public-Baseline Query Alignment}
+
+The analysis uses retained per-query University-1652 outputs from four fully
+trained public baselines: Global CNN with Google imagery, LPN without Google
+imagery, LPN, and LPN with CA-HRS.  Comparisons align query paths and location labels across methods and
+retrieval rules.  This produces 37,855 drone-to-satellite (D2S) queries nested within
+701 location identities and 701 satellite-to-drone (S2D) queries, one per
+identity.  The analysis operates on the stored feature matrices and per-query
+retrieval outputs.
+
+\section{Numerical Results}
+
+Tables~\ref{tab:formal-baseline-exact}--\ref{tab:formal-best-fusion} provide
+the numerical values behind the separate historical public-baseline
+result summaries in the main paper.
+The exact baseline table uses the public per-query CUDA operation and reverse
+NumPy sorting.  The paired table uses the same exact path-aligned per-query outputs for
+point estimates, intervals, and tests. The controlled ranking-rule,
+gallery-scale, and fusion analyses use a separate vectorized ranking
+implementation; near-tie ordering can differ from exact per-query ranking.
+
+\input{tables/20260821_v1.1.0/generated_exact_public_baselines.tex}
+\input{tables/20260821_v1.1.0/generated_exact_public_significance.tex}
+\input{tables/20260821_v1.1.0/formal_retrieval_rule_table.tex}
+\input{tables/20260821_v1.1.0/formal_gallery_scale_table.tex}
+\input{tables/20260821_v1.1.0/formal_best_fusion_comparison_table.tex}
+
+\section{Published Reference Comparisons}
+
+Table~\ref{tab:literature_sues} lists MEAN and CDM-Net results on SUES-200 at
+each flight height. The rows follow the image inputs and training settings
+in their source papers. Table~\ref{tab:literature_transfer} reports the
+University-1652-to-SUES-200 transfer setting from InfoGeo v5, including its
+relational-distillation variant. These tables retain the published metrics
+and source table identifiers.
+
+\input{tables/literature/table_literature_sues.tex}
+\input{tables/literature/table_literature_transfer.tex}
+
+\section{Retrieval-Rule Sensitivity}
+
+Each of four alternatives---CSLS-k10, Reciprocal-k10, AQE-k10, and
+AQE+CSLS-k10---is compared with cosine ranking for every method and direction.
+The resulting 32 paired Top-1 comparisons form one complete family.  Exact
+two-sided McNemar probabilities are adjusted with the Holm procedure across
+that family.  Average-precision changes are paired descriptive means; they do
+not receive binary McNemar inference.
+
+Figure~\ref{fig:supp-rule-sensitivity} shows that CSLS-k10 increases Recall@1
+in all eight method--direction comparisons by 0.97--3.85 percentage points,
+and all eight changes remain significant after correction.  Reciprocal-k10
+reduces D2S Recall@1 by 0.18--0.39 points for all four methods; these four
+reductions also remain significant.  AQE-based variants leave Top-1 outcomes
+mostly unchanged while altering rank-sensitive average precision, especially
+for S2D.  Each comparison holds the trained checkpoint and query set fixed.
+
+\begin{figure*}[!t]
+  \centering
+  \includegraphics[width=180mm]
+    {figures/journal_20260914/fig06_rule_sensitivity.pdf}
+  \caption{Controlled retrieval-rule sensitivity on the same path-aligned full-gallery queries. The upper and lower rows show D2S and S2D, respectively; panels (a,c) show changes in Recall@1, and panels (b,d) show changes in official trapezoidal mAP. Values are percentage-point changes from cosine ranking, with $k=10$ for all rules. Each metric shares one zero-centered color scale across directions. Asterisks denote exact two-sided McNemar tests with Holm-adjusted $p<0.05$ across 32 comparisons; mAP changes are descriptive. G: Global CNN+Google; L0: LPN without Google; L: LPN; C: LPN+CA-HRS.}
+  \label{fig:supp-rule-sensitivity}
+\end{figure*}
+
+\section{Qualitative Selection Rule}
+
+The Top-5 image plate uses the lexicographically first path-aligned D2S query
+for which LPN+CA-HRS is incorrect at rank 1 and the retained three-model
+fusion is correct.  This rule is evaluated before image display.  The source
+table records the query path, identity, retrieved paths, ranks, correctness,
+and scores for both rows.  The aggregate rescue and harm counts summarize how frequently this
+behavior occurs in the query set.
+
+\section{Statistical Analysis and Subset Selection}
+
+The error-complementarity oracle counts a query as correct when at least
+one of the four baselines retrieves the correct identity at rank 1. It
+therefore measures the observed union of their successes. The retained
+fusion subset was selected on the evaluation set. Its identity-cluster
+bootstrap intervals condition on that selection and measure variation
+across resampled locations. The broader D2S baseline and retrieval-rule
+comparisons use paired query images as inferential units. Repeated images
+from the same location can be correlated, which narrows query-level
+intervals relative to an analysis that retains location clusters. The
+machine-readable records contain the resampling settings, comparison
+families, query counts, source hashes, and software versions.
+
+\section{Semantic Evidence Cache and Reproducibility}
+\label{app:supp-provenance}
+
+Table~\ref{tab:evidence} reports evidence-cache integrity.  Each image has one unique relative-path entry. Probability rows are
+finite, nonnegative within numerical tolerance, and normalized to sum to
+one.  The model revision, vocabulary
+order, metadata hash, and cache hash are recorded alongside the arrays.
+
+\begin{table*}[t]
+\centering
+\caption{Frozen evidence-cache integrity. Hashes show the first 10
+hexadecimal characters of each SHA-256 digest.}
+\label{tab:evidence}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr}
+\toprule
+Dataset & Rows & Coverage & Cache hash\\
+\midrule
+University-1652 & 146,520 & 100\% & 8a2333d58d\\
+SUES-200        &  40,200 & 100\% & 6c3a82fdcf\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Each run stores command and environment metadata, pretrained-weight records,
+evidence/data/code hashes, the sampler schedule, training history, checkpoint,
+and status.  Official evaluation additionally stores aggregate metrics and
+per-query paths, labels, AP, reciprocal rank, margins, Top-1 correctness, and
+retrieved paths.  The checkpoint record identifies its training epoch and associated
+evaluation outputs.
+
+Reproducing a comparison requires the same text order, frozen encoder,
+cache arrays, and per-run configuration. These identifiers accompany the
+probability inputs and retrieval checkpoints.
+
+\section{Semantic-Model Protocol Details}
+
+The completed main protocol comprises two datasets, six input configurations,
+and three seeds, for 36 independent 80-epoch fits. Six additional seed-1 full-model fits
+change ResNet-18 to ResNet-50 or the descriptor width from 512 to 256 or
+1024 on each dataset. The completed matrix contains 42 fits. QDFL, FSRA, SDPL,
+CCR, and MCCG define pending external visual-comparison targets; no completed
+results for those comparisons are asserted in this working draft.
+
+\subsection{Data Inventory and Training Schedule}
+
+The University-1652 evidence inventory contains 146,520 images. The formal
+protocol uses 137,576 supported official rows and excludes 8,944 auxiliary
+Google-view images. The SUES-200 inventory contains all 40,200 images.
+Image paths join the cached evidence to the official task manifest;
+CLIP scores the pixels of each image against the fixed vocabularies.
+
+Every official training query is scheduled at least once per epoch. A fixed
+least-loaded-bin allocation gives 652 optimizer steps per University-1652
+epoch and 375 per SUES-200 epoch. Training uses the official training identities and a predetermined final
+epoch. A separate evaluation command applies the final checkpoint to the
+official retrieval tasks.
+
+\subsection{Statistical Implementation}
+
+For discordant Top-1 counts $b$ and $c$, the exact two-sided McNemar
+probability is
+\begin{equation}
+  p=\min\!\left\{1,
+    2\sum_{k=0}^{\min(b,c)}\binom{b+c}{k}2^{-(b+c)}\right\}.
+\end{equation}
+The sum is evaluated in log space, and very small values are reported as
+numerical bounds rather than zero. Holm correction is applied within the
+declared comparison family. The official semantic-model protocol defines a 33-test family
+across three seeds and 11 official tasks. It is distinct from the T4/T5
+diagnostic records described above; the retained semantic bootstrap
+intervals have not been independently resampled. The public-baseline analysis uses a 12-comparison
+exact-reproduction family and a 32-comparison retrieval-rule family. Each
+adjustment is applied within its full declared family.
+
+\subsection{Experiment Records}
+
+The experiment record links the final checkpoint to its training
+configuration, software and code identifiers, logs, timing records, and
+path-aligned per-query arrays. The corruption protocol links visual/full
+seed-1 checkpoints to the corresponding clean-reference evaluation so that
+each perturbation is measured against the same model.
+
+\FloatBarrier
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+\end{document}

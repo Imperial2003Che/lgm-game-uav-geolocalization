@@ -1,0 +1,11 @@
+{
+  "schema_version": "formal-retrieval-v1",
+  "status": "running",
+  "updated_utc": "2026-07-27T05:40:41.907400+00:00",
+  "run_config_sha256": "083d829b4b507f3387f95e6290c41f21e514b7c44bd21d40d024ede715f7403e",
+  "last_completed_epoch": 10,
+  "best_epoch": 10,
+  "best_validation_mAP": 0.0,
+  "history_rows": 11,
+  "payload_sha256": "73ce6594c11a9e5f383a5a450d614148975ef4fb2df4c1c20866ddc0631cd6d5"
+}

@@ -1,0 +1,58 @@
+{
+  "AP_definition": "Official trapezoidal interpolation used by the frozen University-1652/SUES evaluator.",
+  "full_gallery": true,
+  "payload_sha256": "168395e888d7adaaad46f41380d0d922dcea5bc422736fb722782abe61217e42",
+  "results": {
+    "university1652_drone_to_satellite": {
+      "MRR": 0.18745988607406616,
+      "gallery": 951,
+      "gallery_identities": 951,
+      "mean_top1_margin": 0.023278044536709785,
+      "official_trapezoid_mAP": 0.14834623038768768,
+      "protocol": "official test/query_drone -> test/gallery_satellite",
+      "queries": 37855,
+      "query_identities": 701,
+      "r_at_1": 0.10923259807158896,
+      "r_at_10": 0.33884559503368117,
+      "r_at_20": 0.44538370096420554,
+      "r_at_5": 0.252780346057324,
+      "unit": "fraction"
+    },
+    "university1652_satellite_to_drone": {
+      "MRR": 0.34588366746902466,
+      "gallery": 51355,
+      "gallery_identities": 951,
+      "mean_top1_margin": 0.010598774068057537,
+      "official_trapezoid_mAP": 0.10077102482318878,
+      "protocol": "official test/query_satellite -> test/gallery_drone",
+      "queries": 701,
+      "query_identities": 701,
+      "r_at_1": 0.26961483594864477,
+      "r_at_10": 0.5135520684736091,
+      "r_at_20": 0.5891583452211127,
+      "r_at_5": 0.42368045649072755,
+      "unit": "fraction"
+    },
+    "university1652_street_to_satellite": {
+      "MRR": 0.01183057390153408,
+      "gallery": 951,
+      "gallery_identities": 951,
+      "mean_top1_margin": 0.027522878721356392,
+      "official_trapezoid_mAP": 0.007660148665308952,
+      "protocol": "official test/query_street -> test/gallery_satellite",
+      "queries": 2579,
+      "query_identities": 701,
+      "r_at_1": 0.0034897246994959287,
+      "r_at_10": 0.017836370686312525,
+      "r_at_20": 0.03218301667312912,
+      "r_at_5": 0.008530438154323382,
+      "unit": "fraction"
+    }
+  },
+  "schema_version": "lgm-game.cross-dataset-metrics.v1",
+  "seed": 2,
+  "source_dataset": "sues200",
+  "target_dataset": "university1652",
+  "unit": "fraction",
+  "variant": "visual"
+}

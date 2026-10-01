@@ -1,0 +1,93 @@
+\section{Completed Semantic-Model Evidence}
+
+The official evaluation contains 42 runs and 231 run--task records. The
+36 main fits produce 66 task--variant three-seed summaries over 198
+run--task records. The six additional fits are seed-1 sensitivity settings
+and produce 33 further task records. Tables~\ref{tab:sensitivity-r1}
+and \ref{tab:sensitivity-map} retain all sensitivity results and the
+matching main Full seed-1 reference for each of the 11 tasks. No SD is
+assigned to a single fit. The three-seed main and transfer tables in the
+main paper report sample SD with denominator $n-1=2$; they do not report
+standard errors, confidence intervals, or significance decisions.
+
+\input{tables/evidence_20260930/sensitivity_r1.tex}
+\input{tables/evidence_20260930/sensitivity_map.tex}
+
+\subsection{Corruption Metrics and Evidence Path}
+
+The four dataset--variant seed-1 runs evaluate six query-corruption families
+at five severities, yielding 660 task-level corrupted evaluations and 22
+clean references. The aggregate retains six metrics per corrupted task
+evaluation (3,960 rows). The R@1 and official mAP plot sources contain
+1,320 of these rows, with all tasks and severities retained. Relative
+retention is $100m_{\mathrm{corrupt}}/m_{\mathrm{clean}}$; the percentage-point
+drop is $100(m_{\mathrm{clean}}-m_{\mathrm{corrupt}})$ for metric fractions.
+Neither substitutes for the absolute corrupted metric. All supplied clean
+denominators are positive; a zero denominator would make retention undefined.
+
+Full uses cached CLIP evidence for clean evaluation and online CLIP evidence
+for corrupted queries. The 64-image clean diagnostic has no numerical
+equivalence threshold, so it establishes neither bitwise parity nor
+negligible effects on ranking. The curves combine pixel corruption with
+this evidence-path difference. They are seed-1 descriptive measurements,
+with no pooling across tasks, directions, heights or severities.
+
+\subsection{Clean-Query Diagnostic Definitions}
+
+T4's shared Visual-margin quartiles use linear 25th, 50th and 75th percentile
+cutpoints, with equality assigned to the lower interval. Full is aligned
+to Visual query order before applying the same mask. Quartiles are ordered
+categories rather than equal numerical margin intervals or necessarily
+equal-sized groups. The 132 margin strata comprise 84 groups meeting the
+registered 100-query threshold and 48 groups of 20 queries that do not.
+Eligibility is a count threshold, not evidence of significance. Other
+entropy and semantic strata remain outside the independently recounted
+membership/value scope.
+
+For T5, let $N$ be the full task's query count and let
+$k=\lceil cN\rceil$ at requested coverage $c$. Realized coverage is $k/N$.
+Each variant independently selects the leading $k$ queries after stable
+descending ordering by raw Top-1-minus-Top-2 cosine margin. The selective
+risk denominator is $k$; coverage-constrained success uses $N$ and counts
+queries that are both selected and correct. The selected-set overlap counts
+membership selected by both variants, not correctness shared by both.
+At full coverage, success equals ordinary R@1.
+
+The 66 native task--seed--variant series retain ten requested coverages
+from 0.1 to 1.0 (660 stored points). Saved AURC is computed upstream over
+all query prefixes, not by integrating those ten plotted points. The 132
+paired records use the four requested coverages 0.5, 0.75, 0.9 and 1.0;
+the 0.75 records are separate observations, not interpolation from the
+native ten-point display.
+
+The fixed reliability score is
+$\operatorname{clip}((s_1-s_2)/2,0,1)$, where $s_1-s_2$ is the cosine
+margin. It is not a posterior probability. All 15 bins for each of the
+66 series are retained (990 bin records): 140 occupied and 850 empty.
+Empty-bin count is zero while mean score and accuracy are undefined, not
+zero. ECE is the saved count-weighted absolute score--accuracy gap, a
+fraction rather than an accuracy percentage. A lower ECE can accompany
+lower accuracy and is not by itself evidence of improved probability
+calibration. Visual and Full can place different queries in the same
+numbered bin.
+
+\subsection{Statistical and Provenance Scope}
+
+The 33-comparison family for official Visual-versus-Full results is distinct
+from the T4 eligible 284-comparison family and the 132 T5 paired records.
+The completed query audit independently recounted the 132 shared margin
+strata and recomputed the 66 T5 native and 132 paired query records from
+their stored per-query inputs. Entropy/semantic-stratum memberships and
+values were not independently recomputed. T4 exact McNemar calculations
+were checked from saved discordance counts, with query recount restricted
+to the shared margin strata. Retained bootstrap intervals were not
+independently resampled or accepted as new inferential evidence; this draft
+does not use them to claim significance for the semantic results. These
+limits do not redefine the separate historical public-baseline analyses.
+
+This result integration formats existing measured summaries. Checkpoint,
+cache and full image-content SHA evidence is inherited, with documented
+historical metadata-chain gaps. It introduces no fresh model inference,
+full-ranking reconstruction or recomputation of AP from all positive ranks.
+The source tables and detailed provenance accompany this local working
+draft; these limits apply to both main and supplementary semantic results.

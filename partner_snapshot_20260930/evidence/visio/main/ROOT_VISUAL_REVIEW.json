@@ -1,0 +1,64 @@
+{
+  "schema": "root-main-visio-visual-record.v1",
+  "recorded_utc": "2026-09-29T22:12:07.439233+00:00",
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\record_root_visual.py",
+    "bytes": 1845,
+    "sha256": "bdee42b9a5aa24cf46194247de63e5886b8c4db5d8232abacbde3f60ca808acb"
+  },
+  "reviewer": "root",
+  "scope": "Both final PNGs were actually inspected via view_image(detail=original) before this record. PNGs were exported by the producer from final VSDX reopened in a second invisible Visio instance.",
+  "figures": [
+    {
+      "dataset": "university1652",
+      "vsdx": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_university1652_native_editable.vsdx",
+        "sha256": "590539c239e1c46615e316dd71f61a73b487ab26a24545eb7fcc62c54b411cfc",
+        "bytes": 47145
+      },
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_university1652_visio_reopened.png",
+        "bytes": 39694,
+        "sha256": "d8b0ce1dd22ad4c32f587d56d39b03dd77d3a69345f5c1a9411e47e9760a871c"
+      },
+      "png_dimensions": [
+        1031,
+        782
+      ],
+      "actual_view_image_detail": "original",
+      "observations": [
+        "All labels and panels legible at the actual export size; no visible cropping or text collision.",
+        "Six variant columns, task labels, mean and sample-SD lines, positive <0.1 convention and mAP markers/intervals remain visible.",
+        "All four SUES altitudes and both directions remain present; very low street/style values are preserved."
+      ]
+    },
+    {
+      "dataset": "sues200",
+      "vsdx": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_sues200_native_editable.vsdx",
+        "sha256": "32ff5b3a83d8c5c1e9c7a2c3227835ca74d6c9643ce4416f76953f66f8db3973",
+        "bytes": 77842
+      },
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_sues200_visio_reopened.png",
+        "bytes": 82331,
+        "sha256": "2ab04307728fa7c507337e49d5b989aed6a259b6e9b48559a445b557e51ddbe4"
+      },
+      "png_dimensions": [
+        1031,
+        1362
+      ],
+      "actual_view_image_detail": "original",
+      "observations": [
+        "All labels and panels legible at the actual export size; no visible cropping or text collision.",
+        "Six variant columns, task labels, mean and sample-SD lines, positive <0.1 convention and mAP markers/intervals remain visible.",
+        "All four SUES altitudes and both directions remain present; very low street/style values are preserved."
+      ]
+    }
+  ],
+  "limits": [
+    "Root did not interactively edit objects in the Visio GUI or independently hold producer application handles.",
+    "This is visual inspection of PNGs, not PDF-page visual review or scientific recalculation.",
+    "Native geometry/editability XML checks, source review and root adoption are separately recorded."
+  ]
+}

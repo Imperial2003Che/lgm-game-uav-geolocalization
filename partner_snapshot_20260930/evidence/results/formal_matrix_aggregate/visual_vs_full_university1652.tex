@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Visual versus full R@1 on University-1652. Differences are full minus visual in percentage points; intervals use 10,000 path-paired query bootstrap samples. Exact McNemar values are Holm-adjusted in one family over all 33 task-by-seed tests.}
+\label{tab:formal_visual_full_university1652}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Task & Seed & Visual R@1 & Full R@1 & $\Delta$R@1 & 95\% CI & $p_{\mathrm{Holm}}$ \\
+\midrule
+Drone$\rightarrow$Satellite & 1 & 38.56 & 31.91 & -6.65 & [-7.14, -6.16] & $3.36\times10^{-153}$ \\
+Drone$\rightarrow$Satellite & 2 & 36.70 & 32.56 & -4.15 & [-4.62, -3.66] & $2.62\times10^{-61}$ \\
+Drone$\rightarrow$Satellite & 3 & 38.33 & 32.44 & -5.89 & [-6.38, -5.40] & $1.30\times10^{-122}$ \\
+\addlinespace
+Satellite$\rightarrow$Drone & 1 & 56.49 & 45.93 & -10.56 & [-14.12, -6.99] & $3.28\times10^{-7}$ \\
+Satellite$\rightarrow$Drone & 2 & 50.36 & 43.08 & -7.28 & [-10.70, -3.85] & 0.001 \\
+Satellite$\rightarrow$Drone & 3 & 56.06 & 43.51 & -12.55 & [-16.26, -8.84] & $1.50\times10^{-9}$ \\
+\addlinespace
+Street$\rightarrow$Satellite & 1 & 0.54 & 0.93 & +0.39 & [-0.08, +0.85] & 1.000 \\
+Street$\rightarrow$Satellite & 2 & 0.81 & 0.97 & +0.16 & [-0.31, +0.62] & 1.000 \\
+Street$\rightarrow$Satellite & 3 & 1.01 & 1.01 & +0.00 & [-0.47, +0.47] & 1.000 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

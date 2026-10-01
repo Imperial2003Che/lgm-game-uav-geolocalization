@@ -1,0 +1,46 @@
+{
+  "schema": "native-paired-source-manifest.v1",
+  "files": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\build\\build_paired.mjs",
+      "sha256": "4430f83d37f48f9f3af3078442fe04dad8cf10395d282b85a11a88d31e05a76c",
+      "bytes": 19986
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\build\\build_paired_v2.mjs",
+      "sha256": "d2851e5de75e353b6aeba09ae121fd4f0215c02d0529cf39f1cd7724e1b14939",
+      "bytes": 20925
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\prepare_revision.py",
+      "sha256": "7f9070f544cc843073cd1fc907c7435fbd233fb4fed76676e0aabf47ec23eb9b",
+      "bytes": 2974
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\verify_package.py",
+      "sha256": "ea121798439ae3e4e0af3d47ff2a3ca0cf7c598c0fa8b178d3cc53bacaadde29",
+      "bytes": 10799
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\package_delivery.py",
+      "sha256": "8281ba8264d93f04eb69fb58bb72db5537f7103f1c82740a1438a5aeba0c5155",
+      "bytes": 9455
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\seal_final.py",
+      "sha256": "b876aaeade6fb4cb2bf5f8cc11e273ff2d755691efd551a926580e0bc989f453",
+      "bytes": 4273
+    }
+  ],
+  "revision": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\SOURCE_REVISION.json",
+    "sha256": "fce9cd7d537bdf4546319f8102840b439df2ecacfe951a835d35bc68fc7ad7da",
+    "bytes": 1598
+  },
+  "fullDiff": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\V1_SAMPLE_TO_FINAL_V2.patch",
+    "sha256": "6de0a0317486d44f6a49f17aa25e44c3bf5147b07cdb3a2b55ff641494ebf4ad",
+    "bytes": 12595
+  },
+  "rootOwnedFilesExcluded": true
+}

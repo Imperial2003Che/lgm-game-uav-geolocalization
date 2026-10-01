@@ -1,0 +1,142 @@
+{
+  "schema": "root-remaining-delivery-static-adoption.v1",
+  "time": "2026-09-29T20:07:10.465460+01:00",
+  "accepted_with_stated_limits": true,
+  "independent_review": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\remaining_delivery_dependency_review_20260929_1952\\REVIEW.json",
+    "bytes": 16614,
+    "sha256": "bbd7485dcf7d4ad28013bd6c46c402a27ebff2e6c972e40030c7a23d2f5daf67"
+  },
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\remaining_delivery_dependency_review_20260929_1952\\adopt_dependency_root.py",
+    "bytes": 4865,
+    "sha256": "4f0c1c5d6ffc5c416e91c47de1b3e8f58789daa6fb6b234ad5895a567123620f"
+  },
+  "checks": 110,
+  "unique_files": 21,
+  "bindings": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\remaining_delivery_dependency_review_20260929_1952\\REVIEW.json",
+      "bytes": 16614,
+      "sha256": "bbd7485dcf7d4ad28013bd6c46c402a27ebff2e6c972e40030c7a23d2f5daf67"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\HANDOFF.md",
+      "bytes": 330114,
+      "sha256": "8b72bc8c376e15a75762b69b844c4e8b8e72373d1691dfc14c88055154fd684c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\extension_plan.json",
+      "bytes": 38242,
+      "sha256": "13ef69f90ef105db4e55a463532fd6ed38f573b3dbe8cd345fd64176318e46be"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\extension_status.json",
+      "bytes": 40092,
+      "sha256": "02a21093347100b5a17671f676cf5c9b7c5819a552729733677a1b4b52b2b074"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\supervise_extensions.py",
+      "bytes": 13032,
+      "sha256": "75cb6bc90e087e0cd58cf1bfa51b1e5b9882364cb0551dfe2aea1167fd7c10e8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\real_visualization_plan.json",
+      "bytes": 1806,
+      "sha256": "8b60cb49c596e451b21d074873e55eb970b1d8ebc892843360da953c08390ecf"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\make_real_model_visualizations.py",
+      "bytes": 21023,
+      "sha256": "71c89111691a15423ad0bd1f572d708ede8bbc20c097aeec4eabcd20a2b90967"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\transactions_t2_heldout_matrix.json",
+      "bytes": 4269,
+      "sha256": "85d7f195cf80c5ba948931060c6e9d6349abbb42e6f9d5c13f3f373f9deaf958"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_transactions_t2_heldout_matrix.py",
+      "bytes": 26909,
+      "sha256": "ad2763cc9d9563cd97b616b55df8077b87609c20da2ea78304bc20c00a8bd991"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\heldout_evaluation\\run_heldout_evaluation.py",
+      "bytes": 28118,
+      "sha256": "3a9ddad0b5bf3d8799dbf8eefa393290972ad69629fb3392228819aee0fa4e21"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\transactions_query_analysis.py",
+      "bytes": 25491,
+      "sha256": "4cf500c09aef5f81c192e0975b024aea1da7c90bfba2c3a70b99632574608221"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\query\\transactions_t5_selective_calibration.json",
+      "bytes": 744943,
+      "sha256": "033b6eaea71b3084ca043902f6ba03b6487bf1762a9180963357103097d172cc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\query\\transactions_t4_strata.json",
+      "bytes": 896696,
+      "sha256": "42090c4ffdafedbfffd8ed2439e1e59756f0876e2c7ae612a87031a574b28cc8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\ROOT_POST_ROBUSTNESS_ADOPTION.json",
+      "bytes": 221193,
+      "sha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\README.md",
+      "bytes": 7452,
+      "sha256": "6042d5067a024781d8190a9a840bc2d5212f94ff4f03faa905a463eda8d8b877"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_tgrs_revision_20260909\\README_DELIVERY.md",
+      "bytes": 3637,
+      "sha256": "23aeccf07b62e915bee917600eecc5e1aaca2f6fd3534150704e6bfd4004a1fb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_tgrs_revision_20260909\\package_final.py",
+      "bytes": 9065,
+      "sha256": "4c3117b217c8dd091ebee77492338d2ac5a878c5f2921d9a2ad546beaae65c45"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_label_revision_20260914\\FINAL_REVIEW.json",
+      "bytes": 1854,
+      "sha256": "9a89779c91c58612e9be6ae4c4dd78b9dbf0d6d2fb11db307cb8171e304c9aad"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\remaining_delivery_dependency_review_20260929_1952\\REVIEW.md",
+      "bytes": 6805,
+      "sha256": "d63e40a71b1f17de3eafa33e346cee0726d430b9d30364a76d16886d6d04d8db"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\remaining_delivery_dependency_review_20260929_1952\\seal_review.ps1",
+      "bytes": 7964,
+      "sha256": "17c700d04eb35e63a8bba71ea2b4e893c97dac58314c0f698050d2e64d020c73"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\remaining_delivery_dependency_review_20260929_1952\\adopt_dependency_root.py",
+      "bytes": 4865,
+      "sha256": "4f0c1c5d6ffc5c416e91c47de1b3e8f58789daa6fb6b234ad5895a567123620f"
+    }
+  ],
+  "root_read_scope": "Complete independent JSON, Markdown and sealer; original extension predecessor, full LOHO registry, LOHO train/evaluation task/output blocks, real-visualization selection and gate, and margin-reliability helper blocks. Sources read only, not imported or executed.",
+  "scope": {
+    "additional_LOHO_fits_pending": 24,
+    "all_height_tasks_pending": 192,
+    "heldout_tasks": 48,
+    "seen_height_tasks": 144,
+    "saved_T5_reliability_records_available": 66,
+    "fixed_bins_available": 990
+  },
+  "no_scientific_execution": true,
+  "no_queue_release_or_state_change": true,
+  "limits": [
+    "24 LOHO fits are additional to completed42. Pending output absence is not a new scientific failure.",
+    "Original real visualization remains gated CUDA inference and Grad-CAM; no synthetic features or heatmaps accepted.",
+    "Visio absence is the independent bounded outputs filename inventory only, not a whole-computer/archive/application assessment.",
+    "Reliability/ECE is a possible next small-table graphical delivery, not completed graphics or new inference. Empty-bin nulls and fixed-score, non-posterior interpretation must persist.",
+    "No repeat of old scientific/control audits, no new GPU/native/recovery/lock operation, and no change to five-layer serial dependencies."
+  ]
+}

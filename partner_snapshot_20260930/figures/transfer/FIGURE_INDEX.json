@@ -1,0 +1,1573 @@
+{
+  "schema": "native-transfer-figure-index.v1",
+  "summaryGroups": 22,
+  "metricSummaries": 66,
+  "seedTaskRows": 66,
+  "figures": [
+    {
+      "ordinal": 1,
+      "id": "university_to_sues",
+      "sourceDataset": "university1652",
+      "targetDataset": "sues200",
+      "title": "Trained on University-1652 → evaluated on SUES-200",
+      "tasks": [
+        "sues200_uav_150m_to_satellite",
+        "sues200_satellite_to_uav_150m",
+        "sues200_uav_200m_to_satellite",
+        "sues200_satellite_to_uav_200m",
+        "sues200_uav_250m_to_satellite",
+        "sues200_satellite_to_uav_250m",
+        "sues200_uav_300m_to_satellite",
+        "sues200_satellite_to_uav_300m"
+      ],
+      "summaryGroups": 16,
+      "metricSummaries": 48,
+      "widthMm": 181.9,
+      "heightMm": 195.0861111111111,
+      "minFontPt": 8,
+      "axes": [
+        {
+          "metric": "r_at_1",
+          "x": 118,
+          "y": 104,
+          "width": 116,
+          "min": 0,
+          "max": 50,
+          "tickStep": 10
+        },
+        {
+          "metric": "official_trapezoid_mAP",
+          "x": 248,
+          "y": 104,
+          "width": 116,
+          "min": 0,
+          "max": 40,
+          "tickStep": 10
+        },
+        {
+          "metric": "MRR",
+          "x": 378,
+          "y": 104,
+          "width": 116,
+          "min": 0,
+          "max": 50,
+          "tickStep": 10
+        }
+      ],
+      "caption": "Trained on University-1652 → evaluated on SUES-200. Zero-shot retrieval for each target task. All three metrics are shown for Visual and Full using equally weighted seeds 1, 2 and 3; points and labels denote mean and bars denote sample SD with denominator n−1=2. SD is neither a confidence interval nor a significance test. The source fraction mean and SD are both multiplied by 100: R@1 and official trapezoidal mAP are percentages, while MRR ×100 is a scaled MRR value, not a percentage accuracy. Official mAP uses the frozen official trapezoidal AP semantics. All axes start at zero; each metric axis is separately scaled and the complete mean±SD interval is retained. Numeric labels use three decimal places; full-precision fractions and all individual seeds are preserved in source CSV/JSON and notes. Training/evaluation dataset direction in the title is distinct from the retrieval directions and heights within the target dataset. No pooling across tasks, heights, directions, datasets or query counts is performed. These are descriptive results and do not establish statistical significance or general superiority. The adopted results show Full mean R@1 below Visual in all 11 tasks; mAP/MRR are also below Visual except the small positive SUES→University street→satellite differences. No checkpoint bytes, caches, images, NPZs, model or full-ranking/AP computation is repeated here. All inherited checkpoint/cache/image SHA and historical evidence-chain limitations remain in force.",
+      "pptx": "transfer_university_to_sues_native_editable.pptx",
+      "svg": "native_svg/transfer_university_to_sues.svg",
+      "preview": "previews/transfer_university_to_sues.png",
+      "pptxSha256": "84331f1c2005d7b606364017f378c897561ebd1205ccc8b7be909a056ef01f58",
+      "svgSha256": "44b895a8f12fc07fbafe80afafa32dc1db6cd7542ae9750ea5a0b666d336b6ea",
+      "values": [
+        {
+          "task": "sues200_uav_150m_to_satellite",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.19141666666666668,
+          "sampleSdFraction": 0.02331353326575217,
+          "valueText": "19.142 ± 2.331",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.21625
+            },
+            {
+              "seed": 2,
+              "value": 0.188
+            },
+            {
+              "seed": 3,
+              "value": 0.17
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_150m_to_satellite",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.14591666666666667,
+          "sampleSdFraction": 0.009268000503524654,
+          "valueText": "14.592 ± 0.927",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.1555
+            },
+            {
+              "seed": 2,
+              "value": 0.14525
+            },
+            {
+              "seed": 3,
+              "value": 0.137
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_150m",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.19583333333333333,
+          "sampleSdFraction": 0.040181878170803986,
+          "valueText": "19.583 ± 4.018",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.225
+            },
+            {
+              "seed": 2,
+              "value": 0.2125
+            },
+            {
+              "seed": 3,
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_150m",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.12916666666666665,
+          "sampleSdFraction": 0.01909406539564933,
+          "valueText": "12.917 ± 1.909",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.1125
+            },
+            {
+              "seed": 2,
+              "value": 0.125
+            },
+            {
+              "seed": 3,
+              "value": 0.15
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_200m_to_satellite",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.23900000000000002,
+          "sampleSdFraction": 0.02718455443813638,
+          "valueText": "23.900 ± 2.718",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.269
+            },
+            {
+              "seed": 2,
+              "value": 0.232
+            },
+            {
+              "seed": 3,
+              "value": 0.216
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_200m_to_satellite",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.16066666666666668,
+          "sampleSdFraction": 0.007973915809270465,
+          "valueText": "16.067 ± 0.797",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.1645
+            },
+            {
+              "seed": 2,
+              "value": 0.166
+            },
+            {
+              "seed": 3,
+              "value": 0.1515
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_200m",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.2625,
+          "sampleSdFraction": 0.05,
+          "valueText": "26.250 ± 5.000",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.3125
+            },
+            {
+              "seed": 2,
+              "value": 0.2125
+            },
+            {
+              "seed": 3,
+              "value": 0.2625
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_200m",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.15416666666666667,
+          "sampleSdFraction": 0.01443375672974064,
+          "valueText": "15.417 ± 1.443",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.1625
+            },
+            {
+              "seed": 2,
+              "value": 0.1625
+            },
+            {
+              "seed": 3,
+              "value": 0.1375
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_250m_to_satellite",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.27275,
+          "sampleSdFraction": 0.02368148010577042,
+          "valueText": "27.275 ± 2.368",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.29975
+            },
+            {
+              "seed": 2,
+              "value": 0.263
+            },
+            {
+              "seed": 3,
+              "value": 0.2555
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_250m_to_satellite",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.18608333333333332,
+          "sampleSdFraction": 0.009856258586975765,
+          "valueText": "18.608 ± 0.986",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.195
+            },
+            {
+              "seed": 2,
+              "value": 0.18775
+            },
+            {
+              "seed": 3,
+              "value": 0.1755
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_250m",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.3,
+          "sampleSdFraction": 0.037500000000000006,
+          "valueText": "30.000 ± 3.750",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.3375
+            },
+            {
+              "seed": 2,
+              "value": 0.3
+            },
+            {
+              "seed": 3,
+              "value": 0.2625
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_250m",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.20416666666666666,
+          "sampleSdFraction": 0.026020824993326665,
+          "valueText": "20.417 ± 2.602",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.175
+            },
+            {
+              "seed": 2,
+              "value": 0.225
+            },
+            {
+              "seed": 3,
+              "value": 0.2125
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_300m_to_satellite",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.2995,
+          "sampleSdFraction": 0.027915049704415714,
+          "valueText": "29.950 ± 2.792",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.329
+            },
+            {
+              "seed": 2,
+              "value": 0.2735
+            },
+            {
+              "seed": 3,
+              "value": 0.296
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_300m_to_satellite",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.19533333333333333,
+          "sampleSdFraction": 0.0110151410945722,
+          "valueText": "19.533 ± 1.102",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.206
+            },
+            {
+              "seed": 2,
+              "value": 0.196
+            },
+            {
+              "seed": 3,
+              "value": 0.184
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_300m",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.3458333333333333,
+          "sampleSdFraction": 0.0563656219102862,
+          "valueText": "34.583 ± 5.637",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.4
+            },
+            {
+              "seed": 2,
+              "value": 0.2875
+            },
+            {
+              "seed": 3,
+              "value": 0.35
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_300m",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.19583333333333333,
+          "sampleSdFraction": 0.019094065395649337,
+          "valueText": "19.583 ± 1.909",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.175
+            },
+            {
+              "seed": 2,
+              "value": 0.2125
+            },
+            {
+              "seed": 3,
+              "value": 0.2
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_150m_to_satellite",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.24536707997322083,
+          "sampleSdFraction": 0.023951362036891934,
+          "valueText": "24.537 ± 2.395",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.27205491065979004
+            },
+            {
+              "seed": 2,
+              "value": 0.23830707371234894
+            },
+            {
+              "seed": 3,
+              "value": 0.2257392555475235
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_150m_to_satellite",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.1965915560722351,
+          "sampleSdFraction": 0.0066612365571674685,
+          "valueText": "19.659 ± 0.666",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.2011401355266571
+            },
+            {
+              "seed": 2,
+              "value": 0.19968894124031067
+            },
+            {
+              "seed": 3,
+              "value": 0.18894559144973755
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_150m",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.12802406152089438,
+          "sampleSdFraction": 0.016706063373970372,
+          "valueText": "12.802 ± 1.671",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.14510588347911835
+            },
+            {
+              "seed": 2,
+              "value": 0.12724530696868896
+            },
+            {
+              "seed": 3,
+              "value": 0.1117209941148758
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_150m",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.09085060159365337,
+          "sampleSdFraction": 0.007382535991600175,
+          "valueText": "9.085 ± 0.738",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.08296680450439453
+            },
+            {
+              "seed": 2,
+              "value": 0.09760072827339172
+            },
+            {
+              "seed": 3,
+              "value": 0.09198427200317383
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_200m_to_satellite",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.29546403884887695,
+          "sampleSdFraction": 0.027842889345702452,
+          "valueText": "29.546 ± 2.784",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.32705679535865784
+            },
+            {
+              "seed": 2,
+              "value": 0.2848300039768219
+            },
+            {
+              "seed": 3,
+              "value": 0.2745053172111511
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_200m_to_satellite",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.21624726553757986,
+          "sampleSdFraction": 0.007074737672715929,
+          "valueText": "21.625 ± 0.707",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.21794189512729645
+            },
+            {
+              "seed": 2,
+              "value": 0.2223207950592041
+            },
+            {
+              "seed": 3,
+              "value": 0.208479106426239
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_200m",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.16866588095823923,
+          "sampleSdFraction": 0.033538018107113106,
+          "valueText": "16.867 ± 3.354",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.20738501846790314
+            },
+            {
+              "seed": 2,
+              "value": 0.14995434880256653
+            },
+            {
+              "seed": 3,
+              "value": 0.14865827560424805
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_200m",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.12097141146659851,
+          "sampleSdFraction": 0.0055830528042217385,
+          "valueText": "12.097 ± 0.558",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.11578498035669327
+            },
+            {
+              "seed": 2,
+              "value": 0.1268806755542755
+            },
+            {
+              "seed": 3,
+              "value": 0.12024857848882675
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_250m_to_satellite",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.3297492067019145,
+          "sampleSdFraction": 0.02462981636584945,
+          "valueText": "32.975 ± 2.463",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.35811299085617065
+            },
+            {
+              "seed": 2,
+              "value": 0.3173699975013733
+            },
+            {
+              "seed": 3,
+              "value": 0.31376463174819946
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_250m_to_satellite",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.24333380162715912,
+          "sampleSdFraction": 0.0077685839459258384,
+          "valueText": "24.333 ± 0.777",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.2511157989501953
+            },
+            {
+              "seed": 2,
+              "value": 0.24330690503120422
+            },
+            {
+              "seed": 3,
+              "value": 0.23557870090007782
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_250m",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.21293873091538748,
+          "sampleSdFraction": 0.028945232355610116,
+          "valueText": "21.294 ± 2.895",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.2456352710723877
+            },
+            {
+              "seed": 2,
+              "value": 0.2025928497314453
+            },
+            {
+              "seed": 3,
+              "value": 0.1905880719423294
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_250m",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.15253807604312897,
+          "sampleSdFraction": 0.0035548827769509776,
+          "valueText": "15.254 ± 0.355",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.1488778293132782
+            },
+            {
+              "seed": 2,
+              "value": 0.1527591198682785
+            },
+            {
+              "seed": 3,
+              "value": 0.1559772789478302
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_300m_to_satellite",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.3560233215490977,
+          "sampleSdFraction": 0.02919257953227764,
+          "valueText": "35.602 ± 2.919",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.38771703839302063
+            },
+            {
+              "seed": 2,
+              "value": 0.33023473620414734
+            },
+            {
+              "seed": 3,
+              "value": 0.3501181900501251
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_300m_to_satellite",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.2527368664741516,
+          "sampleSdFraction": 0.009709850345002508,
+          "valueText": "25.274 ± 0.971",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.26265111565589905
+            },
+            {
+              "seed": 2,
+              "value": 0.2523142695426941
+            },
+            {
+              "seed": 3,
+              "value": 0.2432452142238617
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_300m",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.24482457836469015,
+          "sampleSdFraction": 0.025442668001477053,
+          "valueText": "24.482 ± 2.544",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.2710656225681305
+            },
+            {
+              "seed": 2,
+              "value": 0.2202635556459427
+            },
+            {
+              "seed": 3,
+              "value": 0.24314455687999725
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_300m",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.1647676775852839,
+          "sampleSdFraction": 0.0037117483579077073,
+          "valueText": "16.477 ± 0.371",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.1622217446565628
+            },
+            {
+              "seed": 2,
+              "value": 0.1630547195672989
+            },
+            {
+              "seed": 3,
+              "value": 0.16902656853199005
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_150m_to_satellite",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.29931747913360596,
+          "sampleSdFraction": 0.024974476013910785,
+          "valueText": "29.932 ± 2.497",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.3278597295284271
+            },
+            {
+              "seed": 2,
+              "value": 0.2886141836643219
+            },
+            {
+              "seed": 3,
+              "value": 0.28147852420806885
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_150m_to_satellite",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.24726644655068716,
+          "sampleSdFraction": 0.006631720542631009,
+          "valueText": "24.727 ± 0.663",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.24678030610084534
+            },
+            {
+              "seed": 2,
+              "value": 0.2541278600692749
+            },
+            {
+              "seed": 3,
+              "value": 0.24089117348194122
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_150m",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.25403207043806714,
+          "sampleSdFraction": 0.03848866843422622,
+          "valueText": "25.403 ± 3.849",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.28989744186401367
+            },
+            {
+              "seed": 2,
+              "value": 0.2588289678096771
+            },
+            {
+              "seed": 3,
+              "value": 0.21336980164051056
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_150m",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.18487652639547983,
+          "sampleSdFraction": 0.020941640268136837,
+          "valueText": "18.488 ± 2.094",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.16104421019554138
+            },
+            {
+              "seed": 2,
+              "value": 0.20033779740333557
+            },
+            {
+              "seed": 3,
+              "value": 0.19324757158756256
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_200m_to_satellite",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.35192809502283734,
+          "sampleSdFraction": 0.028833355400971296,
+          "valueText": "35.193 ± 2.883",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.38511359691619873
+            },
+            {
+              "seed": 2,
+              "value": 0.3376600444316864
+            },
+            {
+              "seed": 3,
+              "value": 0.33301064372062683
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_200m_to_satellite",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.2718278666337331,
+          "sampleSdFraction": 0.006602933079113227,
+          "valueText": "27.183 ± 0.660",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.27138376235961914
+            },
+            {
+              "seed": 2,
+              "value": 0.27864164113998413
+            },
+            {
+              "seed": 3,
+              "value": 0.26545819640159607
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_200m",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.33665284514427185,
+          "sampleSdFraction": 0.05415972483559212,
+          "valueText": "33.665 ± 5.416",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.3912224769592285
+            },
+            {
+              "seed": 2,
+              "value": 0.28291255235671997
+            },
+            {
+              "seed": 3,
+              "value": 0.33582350611686707
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_200m",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.21401216089725494,
+          "sampleSdFraction": 0.018102499343000497,
+          "valueText": "21.401 ± 1.810",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.21508249640464783
+            },
+            {
+              "seed": 2,
+              "value": 0.2315557450056076
+            },
+            {
+              "seed": 3,
+              "value": 0.1953982412815094
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_250m_to_satellite",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.38674837350845337,
+          "sampleSdFraction": 0.02574519251754456,
+          "valueText": "38.675 ± 2.575",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.41647589206695557
+            },
+            {
+              "seed": 2,
+              "value": 0.3717399835586548
+            },
+            {
+              "seed": 3,
+              "value": 0.37202924489974976
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_250m_to_satellite",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.30058425664901733,
+          "sampleSdFraction": 0.005975845708329588,
+          "valueText": "30.058 ± 0.598",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.307231605052948
+            },
+            {
+              "seed": 2,
+              "value": 0.29886379837989807
+            },
+            {
+              "seed": 3,
+              "value": 0.29565736651420593
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_250m",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.36849608023961383,
+          "sampleSdFraction": 0.031206019501608596,
+          "valueText": "36.850 ± 3.121",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.40372127294540405
+            },
+            {
+              "seed": 2,
+              "value": 0.3574565351009369
+            },
+            {
+              "seed": 3,
+              "value": 0.3443104326725006
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_250m",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.266576811671257,
+          "sampleSdFraction": 0.031452162334753335,
+          "valueText": "26.658 ± 3.145",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.23133568465709686
+            },
+            {
+              "seed": 2,
+              "value": 0.29179906845092773
+            },
+            {
+              "seed": 3,
+              "value": 0.27659568190574646
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_300m_to_satellite",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.41254664460817975,
+          "sampleSdFraction": 0.03059093316458032,
+          "valueText": "41.255 ± 3.059",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.4464340806007385
+            },
+            {
+              "seed": 2,
+              "value": 0.3869694769382477
+            },
+            {
+              "seed": 3,
+              "value": 0.404236376285553
+            }
+          ]
+        },
+        {
+          "task": "sues200_uav_300m_to_satellite",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.31014042099316913,
+          "sampleSdFraction": 0.008507315618893804,
+          "valueText": "31.014 ± 0.851",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.3193023204803467
+            },
+            {
+              "seed": 2,
+              "value": 0.30862852931022644
+            },
+            {
+              "seed": 3,
+              "value": 0.3024904131889343
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_300m",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.40241705377896625,
+          "sampleSdFraction": 0.05120712650032492,
+          "valueText": "40.242 ± 5.121",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.4560045599937439
+            },
+            {
+              "seed": 2,
+              "value": 0.3539794981479645
+            },
+            {
+              "seed": 3,
+              "value": 0.39726710319519043
+            }
+          ]
+        },
+        {
+          "task": "sues200_satellite_to_uav_300m",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.26014179984728497,
+          "sampleSdFraction": 0.0060459857887774,
+          "valueText": "26.014 ± 0.605",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.256194531917572
+            },
+            {
+              "seed": 2,
+              "value": 0.2671022415161133
+            },
+            {
+              "seed": 3,
+              "value": 0.25712862610816956
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ordinal": 2,
+      "id": "sues_to_university",
+      "sourceDataset": "sues200",
+      "targetDataset": "university1652",
+      "title": "Trained on SUES-200 → evaluated on University-1652",
+      "tasks": [
+        "university1652_drone_to_satellite",
+        "university1652_satellite_to_drone",
+        "university1652_street_to_satellite"
+      ],
+      "summaryGroups": 6,
+      "metricSummaries": 18,
+      "widthMm": 181.9,
+      "heightMm": 113.94722222222221,
+      "minFontPt": 8,
+      "axes": [
+        {
+          "metric": "r_at_1",
+          "x": 118,
+          "y": 104,
+          "width": 116,
+          "min": 0,
+          "max": 30,
+          "tickStep": 10
+        },
+        {
+          "metric": "official_trapezoid_mAP",
+          "x": 248,
+          "y": 104,
+          "width": 116,
+          "min": 0,
+          "max": 20,
+          "tickStep": 10
+        },
+        {
+          "metric": "MRR",
+          "x": 378,
+          "y": 104,
+          "width": 116,
+          "min": 0,
+          "max": 40,
+          "tickStep": 10
+        }
+      ],
+      "caption": "Trained on SUES-200 → evaluated on University-1652. Zero-shot retrieval for each target task. All three metrics are shown for Visual and Full using equally weighted seeds 1, 2 and 3; points and labels denote mean and bars denote sample SD with denominator n−1=2. SD is neither a confidence interval nor a significance test. The source fraction mean and SD are both multiplied by 100: R@1 and official trapezoidal mAP are percentages, while MRR ×100 is a scaled MRR value, not a percentage accuracy. Official mAP uses the frozen official trapezoidal AP semantics. All axes start at zero; each metric axis is separately scaled and the complete mean±SD interval is retained. Numeric labels use three decimal places; full-precision fractions and all individual seeds are preserved in source CSV/JSON and notes. Training/evaluation dataset direction in the title is distinct from the retrieval directions and heights within the target dataset. No pooling across tasks, heights, directions, datasets or query counts is performed. These are descriptive results and do not establish statistical significance or general superiority. The adopted results show Full mean R@1 below Visual in all 11 tasks; mAP/MRR are also below Visual except the small positive SUES→University street→satellite differences. No checkpoint bytes, caches, images, NPZs, model or full-ranking/AP computation is repeated here. All inherited checkpoint/cache/image SHA and historical evidence-chain limitations remain in force.",
+      "pptx": "transfer_sues_to_university_native_editable.pptx",
+      "svg": "native_svg/transfer_sues_to_university.svg",
+      "preview": "previews/transfer_sues_to_university.png",
+      "pptxSha256": "ae5d4100900c366d8e5cfd27b1df980572f8cf2a474e0f64f2e72501fe2d86a1",
+      "svgSha256": "02934476b3f90471332d99381afe3b1d827c94e358ce203a2f032c68bb97ad13",
+      "values": [
+        {
+          "task": "university1652_drone_to_satellite",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.11008673446924669,
+          "sampleSdFraction": 0.0011737807652226653,
+          "valueText": "11.009 ± 0.117",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.10960243032624488
+            },
+            {
+              "seed": 2,
+              "value": 0.10923259807158896
+            },
+            {
+              "seed": 3,
+              "value": 0.11142517500990622
+            }
+          ]
+        },
+        {
+          "task": "university1652_drone_to_satellite",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.08177695592832299,
+          "sampleSdFraction": 0.006092465877263827,
+          "valueText": "8.178 ± 0.609",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.08247259278827103
+            },
+            {
+              "seed": 2,
+              "value": 0.07536653018095364
+            },
+            {
+              "seed": 3,
+              "value": 0.08749174481574429
+            }
+          ]
+        },
+        {
+          "task": "university1652_satellite_to_drone",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.25677603423680456,
+          "sampleSdFraction": 0.017529537414328805,
+          "valueText": "25.678 ± 1.753",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.23680456490727533
+            },
+            {
+              "seed": 2,
+              "value": 0.26961483594864477
+            },
+            {
+              "seed": 3,
+              "value": 0.26390870185449355
+            }
+          ]
+        },
+        {
+          "task": "university1652_satellite_to_drone",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.1825962910128388,
+          "sampleSdFraction": 0.012436230937348561,
+          "valueText": "18.260 ± 1.244",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.19686162624821682
+            },
+            {
+              "seed": 2,
+              "value": 0.1768901569186876
+            },
+            {
+              "seed": 3,
+              "value": 0.17403708987161198
+            }
+          ]
+        },
+        {
+          "task": "university1652_street_to_satellite",
+          "variant": "visual",
+          "metric": "r_at_1",
+          "meanFraction": 0.002584981258885873,
+          "sampleSdFraction": 0.0009758090261433049,
+          "valueText": "0.258 ± 0.098",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.002714230321830167
+            },
+            {
+              "seed": 2,
+              "value": 0.0034897246994959287
+            },
+            {
+              "seed": 3,
+              "value": 0.0015509887553315238
+            }
+          ]
+        },
+        {
+          "task": "university1652_street_to_satellite",
+          "variant": "full",
+          "metric": "r_at_1",
+          "meanFraction": 0.0023264831329972858,
+          "sampleSdFraction": 0,
+          "valueText": "0.233 ± 0.000",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.0023264831329972858
+            },
+            {
+              "seed": 2,
+              "value": 0.0023264831329972858
+            },
+            {
+              "seed": 3,
+              "value": 0.0023264831329972858
+            }
+          ]
+        },
+        {
+          "task": "university1652_drone_to_satellite",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.14861383040746054,
+          "sampleSdFraction": 0.0006297831541397107,
+          "valueText": "14.861 ± 0.063",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.14816203713417053
+            },
+            {
+              "seed": 2,
+              "value": 0.14834623038768768
+            },
+            {
+              "seed": 3,
+              "value": 0.14933322370052338
+            }
+          ]
+        },
+        {
+          "task": "university1652_drone_to_satellite",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.11655119309822719,
+          "sampleSdFraction": 0.006995960861287066,
+          "valueText": "11.655 ± 0.700",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.11883430927991867
+            },
+            {
+              "seed": 2,
+              "value": 0.10869889706373215
+            },
+            {
+              "seed": 3,
+              "value": 0.12212037295103073
+            }
+          ]
+        },
+        {
+          "task": "university1652_satellite_to_drone",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.09543195863564809,
+          "sampleSdFraction": 0.004668779641118742,
+          "valueText": "9.543 ± 0.467",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.09340917319059372
+            },
+            {
+              "seed": 2,
+              "value": 0.10077102482318878
+            },
+            {
+              "seed": 3,
+              "value": 0.09211567789316177
+            }
+          ]
+        },
+        {
+          "task": "university1652_satellite_to_drone",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.06966795523961385,
+          "sampleSdFraction": 0.004376532360712236,
+          "valueText": "6.967 ± 0.438",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.07131051272153854
+            },
+            {
+              "seed": 2,
+              "value": 0.06470777094364166
+            },
+            {
+              "seed": 3,
+              "value": 0.07298558205366135
+            }
+          ]
+        },
+        {
+          "task": "university1652_street_to_satellite",
+          "variant": "visual",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.007036140964676936,
+          "sampleSdFraction": 0.0011232620533530374,
+          "valueText": "0.704 ± 0.112",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.007708859629929066
+            },
+            {
+              "seed": 2,
+              "value": 0.007660148665308952
+            },
+            {
+              "seed": 3,
+              "value": 0.005739414598792791
+            }
+          ]
+        },
+        {
+          "task": "university1652_street_to_satellite",
+          "variant": "full",
+          "metric": "official_trapezoid_mAP",
+          "meanFraction": 0.007434318618228038,
+          "sampleSdFraction": 0.000454016713253261,
+          "valueText": "0.743 ± 0.045",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.007645847741514444
+            },
+            {
+              "seed": 2,
+              "value": 0.006913135293871164
+            },
+            {
+              "seed": 3,
+              "value": 0.007743972819298506
+            }
+          ]
+        },
+        {
+          "task": "university1652_drone_to_satellite",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.1871409366528193,
+          "sampleSdFraction": 0.00037921644406391046,
+          "valueText": "18.714 ± 0.038",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.18672163784503937
+            },
+            {
+              "seed": 2,
+              "value": 0.18745988607406616
+            },
+            {
+              "seed": 3,
+              "value": 0.18724128603935242
+            }
+          ]
+        },
+        {
+          "task": "university1652_drone_to_satellite",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.15132541954517365,
+          "sampleSdFraction": 0.008086340405917136,
+          "valueText": "15.133 ± 0.809",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.15519599616527557
+            },
+            {
+              "seed": 2,
+              "value": 0.14203126728534698
+            },
+            {
+              "seed": 3,
+              "value": 0.15674899518489838
+            }
+          ]
+        },
+        {
+          "task": "university1652_satellite_to_drone",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.33548680941263836,
+          "sampleSdFraction": 0.01666768796874966,
+          "valueText": "33.549 ± 1.667",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.3162619471549988
+            },
+            {
+              "seed": 2,
+              "value": 0.34588366746902466
+            },
+            {
+              "seed": 3,
+              "value": 0.3443148136138916
+            }
+          ]
+        },
+        {
+          "task": "university1652_satellite_to_drone",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.25885044535001117,
+          "sampleSdFraction": 0.022711633232487958,
+          "valueText": "25.885 ± 2.271",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.2846488058567047
+            },
+            {
+              "seed": 2,
+              "value": 0.24187061190605164
+            },
+            {
+              "seed": 3,
+              "value": 0.2500319182872772
+            }
+          ]
+        },
+        {
+          "task": "university1652_street_to_satellite",
+          "variant": "visual",
+          "metric": "MRR",
+          "meanFraction": 0.01148730143904686,
+          "sampleSdFraction": 0.0014193073266615223,
+          "valueText": "1.149 ± 0.142",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.012703489512205124
+            },
+            {
+              "seed": 2,
+              "value": 0.01183057390153408
+            },
+            {
+              "seed": 3,
+              "value": 0.009927840903401375
+            }
+          ]
+        },
+        {
+          "task": "university1652_street_to_satellite",
+          "variant": "full",
+          "metric": "MRR",
+          "meanFraction": 0.01254215370863676,
+          "sampleSdFraction": 0.0009080321404511635,
+          "valueText": "1.254 ± 0.091",
+          "seedValues": [
+            {
+              "seed": 1,
+              "value": 0.01296521071344614
+            },
+            {
+              "seed": 2,
+              "value": 0.011499788612127304
+            },
+            {
+              "seed": 3,
+              "value": 0.013161461800336838
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

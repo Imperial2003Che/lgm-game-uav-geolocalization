@@ -1,0 +1,67 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "status": "completed",
+  "completed_utc": "2026-09-29T06:18:07.421034+00:00",
+  "run_config_sha256": "51edb3f929b337ec3c129ad502336a5f5676ef15fbd606d760526b04a2dbfbd0",
+  "condition_sha256": "0dac0345ab4a0945a4502e484998441415348ce1fba377778fa15a0a8ccb0200",
+  "condition": {
+    "kind": "corruption",
+    "name": "gaussian_noise",
+    "display_name": "Gaussian noise",
+    "severity_index": 5,
+    "parameter": "standard_deviation",
+    "value": 0.18,
+    "units": "fraction of the [0,1] RGB intensity range",
+    "implementation": "Independent zero-mean Gaussian noise is sampled for every RGB pixel with a SHA-256-derived per-image seed, added in float32 [0,1], clipped, rounded to uint8, and then passed through the unmodified model pipeline.",
+    "corruption_seed": 20260727,
+    "query_only": true,
+    "gallery": "clean"
+  },
+  "query_coverage": {
+    "expected_unique_images": 41135,
+    "encoded_unique_images": 41135,
+    "coverage_fraction": 1.0,
+    "missing_images": 0,
+    "extra_images": 0,
+    "complete": true,
+    "path_membership_sha256": "1f83323bb372cd5c461c14c8b1de4676f0389dfa0d212ea45d5adddc47822b4a",
+    "encoded_feature_sha256": "09fe6160f4f0a2e63854a48adfc52b7074a704170d5c269fba310a0260103ec0",
+    "embedding_dim": 512,
+    "embedding_storage_dtype_for_hash": "little-endian float32",
+    "pixels_decoded_for_every_active_visual_embedding": true,
+    "corruption_applied_before_all_model_preprocessing": true,
+    "query_content_style_evidence_mode": "not_used_by_visual_variant",
+    "elapsed_seconds": 340.9572707999978
+  },
+  "all_official_queries_used": true,
+  "clean_gallery_used": true,
+  "feature_level_corruption_used": false,
+  "elapsed_seconds": 346.5309042999943,
+  "artifacts": {
+    "degradation_vs_clean.csv": {
+      "sha256": "5f6e22af2e4682b2fce4f703da52c861e180e49cf51368816f326a7414b97565",
+      "bytes": 2990
+    },
+    "metrics.csv": {
+      "sha256": "2445bd59b9137f3e19ea316cb2468b34f7fcfa10d2a068d89812ef58d83d84ee",
+      "bytes": 875
+    },
+    "metrics.json": {
+      "sha256": "272a454ea3f1f62f0b2fa3e976b7a61275575ddfd085c5a9c0ed0169b9c90b27",
+      "bytes": 8443
+    },
+    "per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "81220527cd3c09b8a5fb2fc82176121bc19b580b1c50bca03b633e705caf7205",
+      "bytes": 1034502
+    },
+    "per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "d4541539a6799e2d32420cd388000dfa73407477ae051a7cdf7c27520019f766",
+      "bytes": 36904
+    },
+    "per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "906749e4bb2f2786a1a6c5baa37e47da72bc6dc8f1e630006feac21d768db121",
+      "bytes": 113268
+    }
+  },
+  "payload_sha256": "1502cde0fa72af20c2efe71d71bd8eae8c7545eb6938e91e6033cb868d72d285"
+}

@@ -1,0 +1,11 @@
+# University-1652
+
+**Figure X. Official retrieval results on University-1652.** Six model variants are compared separately for drone-to-satellite, satellite-to-drone, and street-to-satellite retrieval. (a) Heatmap cells show the three-seed mean R@1 (%) on the upper line and ± sample standard deviation (SD) on the lower line. (b) Markers show the three-seed mean official mAP (%), with horizontal error bars spanning mean ± sample SD. All summaries use seeds 1, 2, and 3 within the same retrieval task; tasks are not pooled. A positive displayed quantity x with 0 < x < 0.05 percentage points is shown as <0.1 to avoid displaying it as zero. Thus, ± <0.1 on a heatmap's lower line means that the sample SD is less than 0.1 percentage points; it is not a confidence interval. Exact values remain available in the source CSV and SVG data attributes.
+
+# SUES-200
+
+**Figure Y. Official retrieval results on SUES-200.** Six model variants are compared separately for UAV-to-satellite and satellite-to-UAV retrieval at each UAV altitude of 150, 200, 250, and 300 m. (a) Heatmap cells show the three-seed mean R@1 (%) on the upper line and ± sample standard deviation (SD) on the lower line. (b) Markers show the three-seed mean official mAP (%), with horizontal error bars spanning mean ± sample SD. All summaries use seeds 1, 2, and 3 within the same retrieval task and altitude; tasks and altitudes are not pooled. A positive displayed quantity x with 0 < x < 0.05 percentage points is shown as <0.1 to avoid displaying it as zero. Thus, ± <0.1 on a heatmap's lower line means that the sample SD is less than 0.1 percentage points; it is not a confidence interval. Exact values remain available in the source CSV and SVG data attributes.
+
+# Scope and interpretation
+
+These figures are native SVG versions of the accepted official main-result summaries. The markers, error bars, cell values, and colors are descriptive; they do not establish statistical significance, and no significance conclusion is implied. The figures inherit the accepted results' documented evidence limitations, including inherited checkpoint SHA verification, and do not constitute a new scientific evaluation. They are not the final full-project figure set or a completed PowerPoint/Visio delivery. Existing SVG, source CSV, build, rendering, and review artifacts are retained unchanged.

@@ -1,0 +1,266 @@
+{
+  "schema_version": "lgm-game.formal-robustness-pipeline.v1",
+  "figure_contract": {
+    "core_conclusion": "For each official task separately, quantify how much clean retrieval performance the visual and full models retain as six image corruptions increase through five frozen severities.",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib only",
+    "target": "double-column high-impact-journal figure",
+    "final_size_mm": {
+      "width": 183,
+      "height": 132
+    },
+    "panel_map": "Six panels map one-to-one to the six frozen corruptions; each panel contains only visual and full trajectories for one task and one metric.",
+    "evidence_hierarchy": {
+      "hero": "performance retained from each variant's own clean baseline",
+      "validation": "absolute clean/corrupted metrics in task-separated source data",
+      "controls": "fixed seed-1 checkpoint, complete official queries, clean full gallery"
+    },
+    "statistics": "Descriptive seed-1 robustness curves only; no error bars or inferential statistics are fabricated.",
+    "reviewer_risks": "No task macro-average, no truncated y-axis, no clean-evidence reuse for corrupted full queries, and source CSV beside every figure."
+  },
+  "task_aggregation_used": false,
+  "figures": [
+    {
+      "dataset": "university1652",
+      "task": "university1652_drone_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\university1652_drone_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_drone_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\university1652\\university1652_drone_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\university1652\\university1652_drone_to_satellite\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "university1652",
+      "task": "university1652_drone_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\university1652_drone_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_drone_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\university1652\\university1652_drone_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\university1652\\university1652_drone_to_satellite\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "university1652",
+      "task": "university1652_satellite_to_drone",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\university1652_satellite_to_drone__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_satellite_to_drone\\r_at_1_retention.pdf",
+        "svg": "figures\\university1652\\university1652_satellite_to_drone\\r_at_1_retention.svg",
+        "png": "figures\\university1652\\university1652_satellite_to_drone\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "university1652",
+      "task": "university1652_satellite_to_drone",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\university1652_satellite_to_drone__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_satellite_to_drone\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\university1652\\university1652_satellite_to_drone\\official_trapezoid_map_retention.svg",
+        "png": "figures\\university1652\\university1652_satellite_to_drone\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "university1652",
+      "task": "university1652_street_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\university1652_street_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_street_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\university1652\\university1652_street_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\university1652\\university1652_street_to_satellite\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "university1652",
+      "task": "university1652_street_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\university1652_street_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_street_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\university1652\\university1652_street_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\university1652\\university1652_street_to_satellite\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_uav_150m_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_uav_150m_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_150m_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_150m_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_150m_to_satellite\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_uav_150m_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_uav_150m_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_150m_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_150m_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_150m_to_satellite\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_150m",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_150m__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_150m\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_150m\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_150m\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_150m",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_150m__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_150m\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_150m\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_150m\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_uav_200m_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_uav_200m_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_200m_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_200m_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_200m_to_satellite\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_uav_200m_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_uav_200m_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_200m_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_200m_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_200m_to_satellite\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_200m",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_200m__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_200m\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_200m\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_200m\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_200m",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_200m__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_200m\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_200m\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_200m\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_uav_250m_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_uav_250m_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_250m_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_250m_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_250m_to_satellite\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_uav_250m_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_uav_250m_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_250m_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_250m_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_250m_to_satellite\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_250m",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_250m__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_250m\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_250m\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_250m\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_250m",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_250m__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_250m\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_250m\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_250m\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_uav_300m_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_uav_300m_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_300m_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_300m_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_300m_to_satellite\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_uav_300m_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_uav_300m_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_300m_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_300m_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_300m_to_satellite\\official_trapezoid_map_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_300m",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_300m__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_300m\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_300m\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_300m\\r_at_1_retention.png"
+      }
+    },
+    {
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_300m",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_300m__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_300m\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_300m\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_300m\\official_trapezoid_map_retention.png"
+      }
+    }
+  ]
+}

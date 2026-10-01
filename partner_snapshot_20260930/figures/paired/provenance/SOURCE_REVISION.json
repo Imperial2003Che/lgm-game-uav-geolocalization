@@ -1,0 +1,28 @@
+{
+  "schema": "native-t5-paired-preexecution-revision.v1",
+  "before": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\build\\build_paired.mjs",
+    "sha256": "4430f83d37f48f9f3af3078442fe04dad8cf10395d282b85a11a88d31e05a76c",
+    "bytes": 19986
+  },
+  "after": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\build\\build_paired_v2.mjs",
+    "sha256": "d2851e5de75e353b6aeba09ae121fd4f0215c02d0529cf39f1cd7724e1b14939",
+    "bytes": 20925
+  },
+  "diff": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\V1_SAMPLE_TO_FINAL_V2.patch",
+    "sha256": "6de0a0317486d44f6a49f17aa25e44c3bf5147b07cdb3a2b55ff641494ebf4ad",
+    "bytes": 12595
+  },
+  "executedSample": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\BUILD_REPORT_SAMPLE.json",
+    "sha256": "b0dcda2adab1ee01ea5dda3b63f708df1e5a69864cacb3ca9ab2dfa90c5e37ee",
+    "bytes": 184931
+  },
+  "v1SampleExitCode": 0,
+  "v1SourceAndSampleOutputsRetained": true,
+  "reason": "Independent reviewer requested visible V/F success values for low street results. Add saved three-decimal percentages and coverage headings below count tables, page467→534pt, footer384→448pt. No new statistics, saved values or point-coordinate changes.",
+  "beforeFirstFinalExecution": true,
+  "scientificFailure": false
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": "formal-retrieval-v1",
+  "status": "completed",
+  "completed_utc": "2026-09-29T03:19:24.867601+00:00",
+  "dataset": "sues200",
+  "checkpoint": {
+    "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\style\\seed_3\\best.pt",
+    "sha256": "06322bb64f167f6685fd68ba2fe5f5f39e34b407fe44f12059a39319715eac45",
+    "selected_training_epoch": 79,
+    "training_run_config_sha256": "93adc10d7f89de3968862e439d9d2c665bc7d3fe0a24e9c458352d1fb9f4e1f6",
+    "variant": "style"
+  },
+  "evidence_caches": [
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.npz",
+      "sha256": "6c3a82fdcf59e401f5da4ed0f3d9dca99fdcbab0a46aa66fb47a055c832cdabd",
+      "bytes": 1722147,
+      "meta_path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.meta.json",
+      "meta_sha256": "3dc42892bbff9339d058fc0d6abaf2fd9e92cc94f9f9b7fd58ed0ae725b57dca",
+      "model": "{'architecture': 'CLIPModel', 'name': 'openai/clip-vit-base-patch32', 'pretrained_logit_scale': 100.0, 'revision_requested': '3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268', 'revision_resolved': '3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268'}",
+      "dataset_root_hint": "{'directory_name': 'SUES-200', 'expected_layout': 'drone_view_512/* and satellite-view/*', 'paths_are_relative_to_dataset_root': True}",
+      "rows": 40200
+    }
+  ],
+  "evidence_schema": {
+    "content_dim": 11,
+    "style_dim": 10,
+    "content_candidates": [
+      "{'id': 'campus', 'text': 'a university campus scene'}",
+      "{'id': 'building', 'text': 'campus buildings and rooftops'}",
+      "{'id': 'road', 'text': 'roads and paved paths'}",
+      "{'id': 'intersection', 'text': 'road intersections and geometric junctions'}",
+      "{'id': 'parking', 'text': 'parking lots and regular parked vehicles'}",
+      "{'id': 'vegetation', 'text': 'trees lawns and vegetation blocks'}",
+      "{'id': 'sports_field', 'text': 'sports field or playground'}",
+      "{'id': 'open_area', 'text': 'open plaza or square'}",
+      "{'id': 'water', 'text': 'water body or river boundary'}",
+      "{'id': 'dense_layout', 'text': 'dense urban layout'}",
+      "{'id': 'stable_layout', 'text': 'stable spatial layout useful for geo localization'}"
+    ],
+    "style_candidates": [
+      "{'id': 'uav_oblique', 'text': 'an oblique UAV aerial photograph'}",
+      "{'id': 'satellite_nadir', 'text': 'a nadir satellite image'}",
+      "{'id': 'viewpoint_gap', 'text': 'a large viewpoint difference between UAV and satellite'}",
+      "{'id': 'sensor_gap', 'text': 'different sensors and image styles'}",
+      "{'id': 'low_altitude', 'text': 'low altitude UAV image with detailed facade cues'}",
+      "{'id': 'high_altitude', 'text': 'high altitude UAV image with smaller objects'}",
+      "{'id': 'strong_shadow', 'text': 'strong building shadows'}",
+      "{'id': 'bright_light', 'text': 'bright daylight illumination'}",
+      "{'id': 'low_contrast', 'text': 'low contrast remote sensing image'}",
+      "{'id': 'seasonal_vegetation', 'text': 'seasonal vegetation appearance'}"
+    ]
+  },
+  "sues_manifest": {
+    "path_or_source": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\manifests\\sues200_official_train_ids.yaml",
+    "sha256": "c1386d5c746aca48bbb2793ed1ee19d6cd7330a7f5f1b27a5ec43727317ec226",
+    "official_source_url": "https://github.com/Reza-Zhu/SUES-200-Benchmark/blob/master/script/indexs.yaml",
+    "train_id_count": 120,
+    "test_id_count": 80
+  },
+  "protocol_membership_sha256": "1f543fb48416204dacfb5ac48b3bbf3ce4080ce164e75e7a86be748e3d798772",
+  "task_scale": {
+    "sues200_uav_150m_to_satellite": {
+      "queries": 4000,
+      "gallery_images": 200,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+    },
+    "sues200_satellite_to_uav_150m": {
+      "queries": 80,
+      "gallery_images": 10000,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "protocol": "official 80 test IDs as query; all 200 150m UAV IDs in gallery"
+    },
+    "sues200_uav_200m_to_satellite": {
+      "queries": 4000,
+      "gallery_images": 200,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+    },
+    "sues200_satellite_to_uav_200m": {
+      "queries": 80,
+      "gallery_images": 10000,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "protocol": "official 80 test IDs as query; all 200 200m UAV IDs in gallery"
+    },
+    "sues200_uav_250m_to_satellite": {
+      "queries": 4000,
+      "gallery_images": 200,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+    },
+    "sues200_satellite_to_uav_250m": {
+      "queries": 80,
+      "gallery_images": 10000,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "protocol": "official 80 test IDs as query; all 200 250m UAV IDs in gallery"
+    },
+    "sues200_uav_300m_to_satellite": {
+      "queries": 4000,
+      "gallery_images": 200,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+    },
+    "sues200_satellite_to_uav_300m": {
+      "queries": 80,
+      "gallery_images": 10000,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "protocol": "official 80 test IDs as query; all 200 300m UAV IDs in gallery"
+    }
+  },
+  "image_inventory": {
+    "mode": "content",
+    "sha256": "0688f8ffd16e9cc11f506faf4f993f80446904740a3b127251dd1d5f57b4b029",
+    "file_count": 40200,
+    "total_bytes": 5693433493
+  },
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "torch": "2.11.0+cu126",
+      "torchvision": "0.26.0+cu126"
+    },
+    "torch_cuda_available": true,
+    "device": {
+      "requested_or_selected": "cuda",
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "total_memory_bytes": 8585216000,
+      "compute_capability": "8.9",
+      "cuda_runtime": "12.6",
+      "cudnn": 91002,
+      "device_index": 0
+    }
+  },
+  "amp": true,
+  "elapsed_seconds": 30.038872100001754,
+  "artifacts": {
+    "metrics.csv": {
+      "sha256": "27f2d6d2f3d3d1d8f99a1fb636e33d19b523a363408f6a6b4a7e39b06b8692a5",
+      "bytes": 1731
+    },
+    "metrics.json": {
+      "sha256": "67c9b676b3a3e8bd2d25e6cc509e1149d6756277ed7e62b8cf8c25abeca73cef",
+      "bytes": 4288
+    },
+    "per_query_arrays/sues200_satellite_to_uav_150m_per_query.npz": {
+      "sha256": "a5346552e0ce3562e192830b4500944d39655a2fa0d8e29ab02dc835fa86d8aa",
+      "bytes": 4023
+    },
+    "per_query_arrays/sues200_satellite_to_uav_200m_per_query.npz": {
+      "sha256": "a3a1119f0431c10de08877cdf66a669cb7fd1385755b31290069a98527afe5c8",
+      "bytes": 3957
+    },
+    "per_query_arrays/sues200_satellite_to_uav_250m_per_query.npz": {
+      "sha256": "7bb58828a9fff7df2507d5d504cf17f7c02f8e3b7b3b1259fa8cd05d6caa8a26",
+      "bytes": 3977
+    },
+    "per_query_arrays/sues200_satellite_to_uav_300m_per_query.npz": {
+      "sha256": "021a026169640a2b7640377291496a03c03fc5a4f7b21ac80cb86a26acfa8d04",
+      "bytes": 4053
+    },
+    "per_query_arrays/sues200_uav_150m_to_satellite_per_query.npz": {
+      "sha256": "dad899fb54bf03ff6ba975c31b999ff6209b2852e7a586a10433d4dd67e9b167",
+      "bytes": 50023
+    },
+    "per_query_arrays/sues200_uav_200m_to_satellite_per_query.npz": {
+      "sha256": "e9982668f1836c1bf1974f01a787b1b72a939bc55aafa3d43172715f4a7649c6",
+      "bytes": 50940
+    },
+    "per_query_arrays/sues200_uav_250m_to_satellite_per_query.npz": {
+      "sha256": "943fedf4aea40e465ec08c80f27105a10157bfdaa214447f1bf2df7258c0fe95",
+      "bytes": 51567
+    },
+    "per_query_arrays/sues200_uav_300m_to_satellite_per_query.npz": {
+      "sha256": "b35f843dcbbaba2b98723ea6970f8993c2798e329b202e3cfcd3e660329a9f79",
+      "bytes": 51921
+    },
+    "process_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "process_stdout.log": {
+      "sha256": "a40b8af2f55e0d8ca9f8a2690a8946cb24e561b6218748fe48284393a50fdc51",
+      "bytes": 3361
+    }
+  },
+  "leakage_controls": {
+    "labels_and_splits_from_cache_used": false,
+    "labels_and_splits_derived_from_dataset_paths_and_official_manifest": true,
+    "each_image_encoded_independently": true,
+    "test_used_during_training_or_model_selection": false,
+    "all_official_queries_used": true,
+    "all_official_gallery_images_used": true
+  },
+  "payload_sha256": "2696ef2df8515fc3fe694dd160ab510b8921d61d22e8856d5d2f1793596f721e"
+}

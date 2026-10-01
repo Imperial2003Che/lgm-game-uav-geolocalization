@@ -1,0 +1,127 @@
+{
+  "schema_version": "lgm-game.transactions-t3-transfer-matrix.v1",
+  "status": "registered_not_executed",
+  "registered_evaluation_count": 12,
+  "design": "bidirectional_zero_shot_cross_dataset_transfer",
+  "source_variants": [
+    "visual",
+    "full"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "checkpoint_selection": "pre-specified final epoch",
+  "target_dataset_training_or_calibration": false,
+  "evaluations": [
+    {
+      "ordinal": 1,
+      "evaluation_id": "university1652_to_sues200/visual/seed_1",
+      "source_dataset": "university1652",
+      "target_dataset": "sues200",
+      "variant": "visual",
+      "seed": 1,
+      "expected_target_task_count": 8
+    },
+    {
+      "ordinal": 2,
+      "evaluation_id": "university1652_to_sues200/visual/seed_2",
+      "source_dataset": "university1652",
+      "target_dataset": "sues200",
+      "variant": "visual",
+      "seed": 2,
+      "expected_target_task_count": 8
+    },
+    {
+      "ordinal": 3,
+      "evaluation_id": "university1652_to_sues200/visual/seed_3",
+      "source_dataset": "university1652",
+      "target_dataset": "sues200",
+      "variant": "visual",
+      "seed": 3,
+      "expected_target_task_count": 8
+    },
+    {
+      "ordinal": 4,
+      "evaluation_id": "university1652_to_sues200/full/seed_1",
+      "source_dataset": "university1652",
+      "target_dataset": "sues200",
+      "variant": "full",
+      "seed": 1,
+      "expected_target_task_count": 8
+    },
+    {
+      "ordinal": 5,
+      "evaluation_id": "university1652_to_sues200/full/seed_2",
+      "source_dataset": "university1652",
+      "target_dataset": "sues200",
+      "variant": "full",
+      "seed": 2,
+      "expected_target_task_count": 8
+    },
+    {
+      "ordinal": 6,
+      "evaluation_id": "university1652_to_sues200/full/seed_3",
+      "source_dataset": "university1652",
+      "target_dataset": "sues200",
+      "variant": "full",
+      "seed": 3,
+      "expected_target_task_count": 8
+    },
+    {
+      "ordinal": 7,
+      "evaluation_id": "sues200_to_university1652/visual/seed_1",
+      "source_dataset": "sues200",
+      "target_dataset": "university1652",
+      "variant": "visual",
+      "seed": 1,
+      "expected_target_task_count": 3
+    },
+    {
+      "ordinal": 8,
+      "evaluation_id": "sues200_to_university1652/visual/seed_2",
+      "source_dataset": "sues200",
+      "target_dataset": "university1652",
+      "variant": "visual",
+      "seed": 2,
+      "expected_target_task_count": 3
+    },
+    {
+      "ordinal": 9,
+      "evaluation_id": "sues200_to_university1652/visual/seed_3",
+      "source_dataset": "sues200",
+      "target_dataset": "university1652",
+      "variant": "visual",
+      "seed": 3,
+      "expected_target_task_count": 3
+    },
+    {
+      "ordinal": 10,
+      "evaluation_id": "sues200_to_university1652/full/seed_1",
+      "source_dataset": "sues200",
+      "target_dataset": "university1652",
+      "variant": "full",
+      "seed": 1,
+      "expected_target_task_count": 3
+    },
+    {
+      "ordinal": 11,
+      "evaluation_id": "sues200_to_university1652/full/seed_2",
+      "source_dataset": "sues200",
+      "target_dataset": "university1652",
+      "variant": "full",
+      "seed": 2,
+      "expected_target_task_count": 3
+    },
+    {
+      "ordinal": 12,
+      "evaluation_id": "sues200_to_university1652/full/seed_3",
+      "source_dataset": "sues200",
+      "target_dataset": "university1652",
+      "variant": "full",
+      "seed": 3,
+      "expected_target_task_count": 3
+    }
+  ]
+}

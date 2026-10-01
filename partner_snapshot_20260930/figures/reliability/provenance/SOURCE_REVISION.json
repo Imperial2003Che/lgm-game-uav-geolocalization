@@ -1,0 +1,28 @@
+{
+  "schema": "native-t5-reliability-preexecution-revision.v1",
+  "before": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\build\\build_reliability.mjs",
+    "sha256": "77db4571457189808e731b1f98743bddf25a29aa118ef68c50da64c9c92a1775",
+    "bytes": 20875
+  },
+  "after": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\build\\build_reliability_v2.mjs",
+    "sha256": "4dfcb86b379719e564d224682cb23b23e36231c4f51ce8e5d2590db1ab79d779",
+    "bytes": 21312
+  },
+  "diff": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\V1_SAMPLE_TO_FINAL_V2.patch",
+    "sha256": "e18f63b7a9f802a8c212c097cf13e62fdd460a148835eb6e5e7c6e17a3921244",
+    "bytes": 10454
+  },
+  "executedSample": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\BUILD_REPORT_SAMPLE.json",
+    "sha256": "2f6d859fb4b5b7a583e6c437a381f4575da550999c48f993b25ff9dd1739d89c",
+    "bytes": 336647
+  },
+  "v1SampleExitCode": 0,
+  "v1SourceAndAllSampleOutputsRetained": true,
+  "reason": "Root/independent clarification received after successful sample: smaller fixed-score ECE is not evidence of higher accuracy or improved probability calibration. Add visible footer and caption, extend page height19pt. No data/plot coordinate/ECE/count edits.",
+  "v2BeforeFirstFinalExecution": true,
+  "rejectedScientificResult": false
+}

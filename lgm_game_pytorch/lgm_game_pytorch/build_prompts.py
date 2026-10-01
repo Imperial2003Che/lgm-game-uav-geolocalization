@@ -17,7 +17,7 @@ older `--output-jsonl` spelling as a small convenience wrapper.
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build VLM content/style prompt cache for LGM-GAME.")
     parser.add_argument("--dataset", choices=["sues200", "university1652"], default="sues200")
-    parser.add_argument("--data-root", type=str, default="/Users/chenche/Documents/dataset/SUES-200")
+    parser.add_argument("--data-root", type=str, default="data/SUES-200")
     parser.add_argument("--split", choices=["train", "test"], default="train")
     parser.add_argument("--output-jsonl", type=str, required=True)
     parser.add_argument("--prompt-backend", choices=["vlgeo", "blip", "clip", "blip_clip", "llava", "metadata"], default="vlgeo")

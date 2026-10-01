@@ -1,0 +1,1086 @@
+{
+  "schema": "root-main-native-visio-adoption.v1",
+  "utc": "2026-09-29T23:17:19.207925+01:00",
+  "accepted_with_stated_limits": true,
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\adopt_visio_root.py",
+    "bytes": 11576,
+    "sha256": "e271f53685e34ed8dd65d2728f9e3d9a98e7f2091293019b6730cad26af14427"
+  },
+  "checks": 4160,
+  "figures": [
+    {
+      "dataset": "university1652",
+      "vsdx": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_university1652_native_editable.vsdx",
+        "sha256": "590539c239e1c46615e316dd71f61a73b487ab26a24545eb7fcc62c54b411cfc",
+        "bytes": 47145
+      },
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_university1652_visio_reopened.png",
+        "sha256": "d8b0ce1dd22ad4c32f587d56d39b03dd77d3a69345f5c1a9411e47e9760a871c",
+        "bytes": 39694
+      },
+      "pdf": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_university1652_visio_reopened.pdf",
+        "sha256": "c11c8cbeccda69b9f9094bd38ce2a280b638814051d17e2b25634140b23c0121",
+        "bytes": 99437
+      },
+      "shapes": 280,
+      "texts": 73,
+      "page_mm": [
+        181.9,
+        137.9
+      ]
+    },
+    {
+      "dataset": "sues200",
+      "vsdx": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_sues200_native_editable.vsdx",
+        "sha256": "32ff5b3a83d8c5c1e9c7a2c3227835ca74d6c9643ce4416f76953f66f8db3973",
+        "bytes": 77842
+      },
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_sues200_visio_reopened.png",
+        "sha256": "2ab04307728fa7c507337e49d5b989aed6a259b6e9b48559a445b557e51ddbe4",
+        "bytes": 82331
+      },
+      "pdf": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_sues200_visio_reopened.pdf",
+        "sha256": "0439c9fe76ace18e1086e0ec9eb001019fe8ac4b5fa2d6d2db5f38150e7e814b",
+        "bytes": 112154
+      },
+      "shapes": 505,
+      "texts": 143,
+      "page_mm": [
+        181.9,
+        240.3
+      ]
+    }
+  ],
+  "delivery_zip": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_native_visio_and_sources.zip",
+    "sha256": "246bf69c42e62757895236e4e83cc9d115b7e473aaf6f258e4bc3ec1b5c1e9e6",
+    "bytes": 520635
+  },
+  "zip_members": 48,
+  "native_shapes": 785,
+  "editable_text_objects": 216,
+  "saved_summary_rows": 66,
+  "independent_checks": {
+    "contract": 2663,
+    "geometry": 22396,
+    "editability": 47890
+  },
+  "root_visual": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\ROOT_VISUAL_REVIEW.json",
+    "bytes": 3418,
+    "sha256": "1ac7e82f7815d9bbb44b57263faecb086546c01de16939df8a8aed1cbf992fd1"
+  },
+  "current_observation": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_231608481\\OBSERVATION.json",
+    "bytes": 5381,
+    "sha256": "ae30b73a85005f3a137e8c58748ba4b31caf533b6978cef637f48a0ca8262fad"
+  },
+  "broad_observation": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_visio_root_observation_20260929_2258\\ROOT_STOPPED_OBSERVATION.json",
+    "bytes": 6325,
+    "sha256": "3b6d1fbd836598900cc36f3deb4c9d97fb8b28bb8962ed65e3598eb050b0e9f7"
+  },
+  "bindings": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\BUILD_REPORT.json",
+      "bytes": 6645,
+      "sha256": "cd6be22fe4adbb490422014d965b7ebf1ac89d224362cbf1ec931bd575a605ca"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\DATA_CONTRACT.json",
+      "bytes": 443533,
+      "sha256": "d474e39a9dcb90b7d43fa6d83030a15f44174e5d1950aa022afe83942f14380c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\ARTIFACT_REVIEW.json",
+      "bytes": 8732,
+      "sha256": "e7e18313492ba36eab82503999c13d7f4a6e4df37dfdab70c45237ee55289278"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\EDITABILITY_REVIEW.json",
+      "bytes": 2615,
+      "sha256": "3ead2f5af7c325b6de637656c1c23191fecc574bbd092c3afb3c451f7b2334c9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_scope_review_20260929_2258\\REVIEW.json",
+      "bytes": 12709,
+      "sha256": "5f21400c74515f1d0aa0cef0f09d7853f8bab15e80497dda35982d324db939aa"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_scope_review_20260929_2258\\V3_ADDENDUM.json",
+      "bytes": 4301,
+      "sha256": "0e26b6e02e5c3ff9adce3fe369f198bfd5c525dee8b2a213e8b7dd5f7004926d"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\INPUT_PROVENANCE.json",
+      "bytes": 4191,
+      "sha256": "5fc719072e97249a8edb9b7a1195ad4f429b58331e87e13ee41271b82ebc93e6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\ROOT_NATIVE_SVG_REVIEW.json",
+      "bytes": 6821,
+      "sha256": "ac010cc27c27fa94a9fdd3e860af84c330a8e4cc6efa3c66b2e6a8000d6253ca"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\INDEPENDENT_NATIVE_SVG_REVIEW.json",
+      "bytes": 11243,
+      "sha256": "9dbcc7f38df2057e900f8a13571b00eadb867d2e890e8948f3eea6e1f6501977"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\ROOT_DELIVERY_ADOPTION.json",
+      "bytes": 19396,
+      "sha256": "4d01ad9310e8d726e7a0b5e9852142a51f56a079a30e386d814161f8b328787b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\PRIMARY_CLAIM_REVIEW.json",
+      "bytes": 5700,
+      "sha256": "0e29cdb0412b148100788b02276e9a9ef4a7aed4a1f5d892fb088a0ff184cdb6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\CAPTIONS.md",
+      "bytes": 2366,
+      "sha256": "2dd6fef4c13f2348256b68ede5e099e51ae307b65b93b0ead3afcc88cd3697a9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_university1652_variants_native.svg",
+      "bytes": 48737,
+      "sha256": "a103659da037e8edffd1c0ffd3f19bb1b3f431c04de323361164d4209e997a6a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_university1652_variants_source.csv",
+      "bytes": 5898,
+      "sha256": "364fd0c5c9f28e97e5d316ed96a847d2ed70cb691507e01797a7a3f0806154e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_university1652_native_editable_v2.pptx",
+      "bytes": 38480,
+      "sha256": "57fb00c88afe732b5482c7afc4fd96dc180be520527977bafa24a133ef74d7ad"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_sues200_variants_native.svg",
+      "bytes": 89668,
+      "sha256": "b35c007fe48dc4508411fc4f1ad795a1c3fd13b9ac618167559c4ba4cf5294b1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_sues200_variants_source.csv",
+      "bytes": 13544,
+      "sha256": "3494bf630df6f81d8c00c63881335257e2d38a489d40ca15dbdc17c083c27730"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\output\\formal_main_sues200_native_editable_v2.pptx",
+      "bytes": 52489,
+      "sha256": "772cf4b81afb83bf54bdc4cc155ab809f291dc79dde43e3e178e4aecabc00673"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\prepare_inputs_v2.py",
+      "bytes": 4653,
+      "sha256": "3203c9584af60bdbc8ec69771e11c874f97932ba0347fe4ad77f66a5ee44e302"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\notes\\university1652_NOTES.txt",
+      "bytes": 8174,
+      "sha256": "838adfedd2cd6e776a5b39b5fba91a7fc38a73493749bf45fbc4db53a2bd246b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\notes\\sues200_NOTES.txt",
+      "bytes": 15849,
+      "sha256": "0d66a71d7a1b549bd9177652a8ddadc9132dcabf7c6a2200e8a54850f74ac992"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\SOURCE_REVISION.json",
+      "bytes": 3029,
+      "sha256": "010edd8d00f9d5456f681babde2d3fc616a6a2c4f6233874018ab5d49f22aaed"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\build_visio.ps1",
+      "bytes": 9108,
+      "sha256": "ff8d55bcf7b3271cf33b5f2d70fd671cb08dff392281410a90053d005ca35372"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\BUILD_FAILURE.json",
+      "bytes": 1323,
+      "sha256": "17dc7fcd4b454517e35c94456c79e3cc00976707f6fa3de79ab30a5aa7a2b161"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\prepare_inputs.py",
+      "bytes": 4679,
+      "sha256": "a5cd8f5f13e8da6a1b82f6099bdf2cf1f650f8853a4a50b2e05bbb6a9489719f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\OWN_ORPHAN_BEFORE.json",
+      "bytes": 790,
+      "sha256": "2d3d3e4255131100da5689222cf9cfc2811c85548bedbd7193b9d2c6f8844838"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\OWN_ORPHAN_CLEANUP.json",
+      "bytes": 222,
+      "sha256": "fced4c2c848d4fdcd8250486ec08e925e8360cb8a45b1da0df333a988a6a3864"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\build_visio_v2.ps1",
+      "bytes": 10238,
+      "sha256": "ea62656245b300cdbd5a306519342c352b997891c84e450b9fd9be4d3ac65665"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\BUILD_V1_TO_V2.patch",
+      "bytes": 4853,
+      "sha256": "012f8301ab805290b5aa1885a48a17d6d6e1d7d38673a43e1c70890af170a525"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\PREPARE_V1_TO_V2.patch",
+      "bytes": 2965,
+      "sha256": "1669b9d940e5a133d2ef3ba2acdb1e4ef45f3b1dc4728af7f1a78967d342951f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\UNEXECUTED_HARDENING.json",
+      "bytes": 1767,
+      "sha256": "47ef6f0d6a82d6dbdac3e2688dc01fa6fa7c6d54b59c3e17fa14ca08eef87c72"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\build_visio_v3_unexecuted.ps1",
+      "bytes": 10660,
+      "sha256": "e17a9c81680de7b9af5830f021b3481c8edfb414bf7ae7f4d0b03de9a15e728f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\BUILD_V2_TO_V3_UNEXECUTED.patch",
+      "bytes": 4245,
+      "sha256": "bb81fee508eeeeb2a5a90be233b406288df8cb7097afb1d6a9bbbcbf6ecf7cc1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\PRODUCER_PACKAGE_REVIEW.json",
+      "bytes": 2261,
+      "sha256": "f5da889c5cf7d05ea4cb4c1d1671e43afe156fa84f59231595325f954f339eb2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\verify_visio.py",
+      "bytes": 6806,
+      "sha256": "f4ea6de0b5d3181f5d9e8acbb8d63a44b91ef7974c75acd48cc968c83a0882b5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\DELIVERY.json",
+      "bytes": 8402,
+      "sha256": "50e3fc9cc428ec9aea38930428b3d7b722f135cb2ad599e92fc0f7d3137ab445"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_university1652_native_editable.vsdx",
+      "bytes": 47145,
+      "sha256": "590539c239e1c46615e316dd71f61a73b487ab26a24545eb7fcc62c54b411cfc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_university1652_visio_reopened.png",
+      "bytes": 39694,
+      "sha256": "d8b0ce1dd22ad4c32f587d56d39b03dd77d3a69345f5c1a9411e47e9760a871c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_university1652_visio_reopened.pdf",
+      "bytes": 99437,
+      "sha256": "c11c8cbeccda69b9f9094bd38ce2a280b638814051d17e2b25634140b23c0121"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_sues200_native_editable.vsdx",
+      "bytes": 77842,
+      "sha256": "32ff5b3a83d8c5c1e9c7a2c3227835ca74d6c9643ce4416f76953f66f8db3973"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_sues200_visio_reopened.png",
+      "bytes": 82331,
+      "sha256": "2ab04307728fa7c507337e49d5b989aed6a259b6e9b48559a445b557e51ddbe4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\previews\\formal_main_sues200_visio_reopened.pdf",
+      "bytes": 112154,
+      "sha256": "0439c9fe76ace18e1086e0ec9eb001019fe8ac4b5fa2d6d2db5f38150e7e814b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\formal_main_native_visio_and_sources.zip",
+      "bytes": 520635,
+      "sha256": "246bf69c42e62757895236e4e83cc9d115b7e473aaf6f258e4bc3ec1b5c1e9e6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\SOURCE_MANIFEST.json",
+      "bytes": 3625,
+      "sha256": "44030bcb45db729cf37f2f366fb26a4da316d62a10c9d7f5dacdc22ccb93a3fb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\ARTIFACT_MANIFEST.json",
+      "bytes": 18331,
+      "sha256": "e6c58ca5203766b906316e90d37fcad5ad70556b317daae2e6e8dd5a556d6ab8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\ZIP_CONTENTS.json",
+      "bytes": 17311,
+      "sha256": "a5079739dfa295c9721f6675ead3647184c50152a84eb76cd661dbddbb61b380"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\PRODUCER_VISUAL_REVIEW.json",
+      "bytes": 1516,
+      "sha256": "dbb58327b38dbff2ada64b51d8b6de54c3bc148a6df82272f0be9841470d74e7"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\DELIVERY.json",
+      "bytes": 11260,
+      "sha256": "be8969613ff087489f138c6109b6ecbecd605fd5e0ecde3f3a551b46255e6c49"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\README.md",
+      "bytes": 7695,
+      "sha256": "bd8f625ea0755772432068f1298bc2b8ce7d28e57dfc9f91ad536fd5ade895d8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\CAPTIONS.md",
+      "bytes": 2450,
+      "sha256": "a28503ff2094e096f4610297be5c2e853dffe960944f4a00835717f085e26a2a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\FIGURE_INDEX.csv",
+      "bytes": 490,
+      "sha256": "502fd18af39e21563ea4cab91b04eeeca63f4033a05d6985907552f13cb8d8b4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\cleanup_owned_orphan.ps1",
+      "bytes": 2160,
+      "sha256": "38f78b6cd807bf81cd6112718f810842a673ecdb25a8dd1a5e0c112c9400a1b1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\revise_com_builder.py",
+      "bytes": 4561,
+      "sha256": "f023c62839725931a69ad3c5ba02a6270533dbe18ef6cf6b3743a4a483b4611c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\harden_future_source.py",
+      "bytes": 3055,
+      "sha256": "e9440a8a7c93f1ad508653df4d611d5ca7c4fd2d8d952fbc0b968ae75950a970"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\package_delivery.py",
+      "bytes": 13375,
+      "sha256": "0e9ff866e6b946250f1fa5c1a606511ea9d697b33f1f727efb2a6e1749b0c68e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\seal_final.py",
+      "bytes": 3685,
+      "sha256": "51f8a43f1cfd056d6f0c3ff15a25ee7b8515b96f06b4f1733a2b9f857d03adbf"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\build_visio.ps1",
+      "bytes": 9108,
+      "sha256": "ff8d55bcf7b3271cf33b5f2d70fd671cb08dff392281410a90053d005ca35372"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\build_visio_v2.ps1",
+      "bytes": 10238,
+      "sha256": "ea62656245b300cdbd5a306519342c352b997891c84e450b9fd9be4d3ac65665"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\build_visio_v3_unexecuted.ps1",
+      "bytes": 10660,
+      "sha256": "e17a9c81680de7b9af5830f021b3481c8edfb414bf7ae7f4d0b03de9a15e728f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\cleanup_owned_orphan.ps1",
+      "bytes": 2160,
+      "sha256": "38f78b6cd807bf81cd6112718f810842a673ecdb25a8dd1a5e0c112c9400a1b1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\harden_future_source.py",
+      "bytes": 3055,
+      "sha256": "e9440a8a7c93f1ad508653df4d611d5ca7c4fd2d8d952fbc0b968ae75950a970"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\package_delivery.py",
+      "bytes": 13375,
+      "sha256": "0e9ff866e6b946250f1fa5c1a606511ea9d697b33f1f727efb2a6e1749b0c68e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\prepare_inputs.py",
+      "bytes": 4679,
+      "sha256": "a5cd8f5f13e8da6a1b82f6099bdf2cf1f650f8853a4a50b2e05bbb6a9489719f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\prepare_inputs_v2.py",
+      "bytes": 4653,
+      "sha256": "3203c9584af60bdbc8ec69771e11c874f97932ba0347fe4ad77f66a5ee44e302"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\revise_com_builder.py",
+      "bytes": 4561,
+      "sha256": "f023c62839725931a69ad3c5ba02a6270533dbe18ef6cf6b3743a4a483b4611c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\seal_final.py",
+      "bytes": 3685,
+      "sha256": "51f8a43f1cfd056d6f0c3ff15a25ee7b8515b96f06b4f1733a2b9f857d03adbf"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\build_source\\verify_visio.py",
+      "bytes": 6806,
+      "sha256": "f4ea6de0b5d3181f5d9e8acbb8d63a44b91ef7974c75acd48cc968c83a0882b5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\BUILD_FAILURE.json",
+      "bytes": 1323,
+      "sha256": "17dc7fcd4b454517e35c94456c79e3cc00976707f6fa3de79ab30a5aa7a2b161"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\BUILD_REPORT.json",
+      "bytes": 6645,
+      "sha256": "cd6be22fe4adbb490422014d965b7ebf1ac89d224362cbf1ec931bd575a605ca"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\BUILD_V1_TO_V2.patch",
+      "bytes": 4853,
+      "sha256": "012f8301ab805290b5aa1885a48a17d6d6e1d7d38673a43e1c70890af170a525"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\BUILD_V2_TO_V3_UNEXECUTED.patch",
+      "bytes": 4245,
+      "sha256": "bb81fee508eeeeb2a5a90be233b406288df8cb7097afb1d6a9bbbcbf6ecf7cc1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\CONVERSION_SPEC.json",
+      "bytes": 392372,
+      "sha256": "3acb5843979a6332f56e3182d1db333c79dbd8d343d7262ea81b796f26ff1816"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\INPUT_PROVENANCE.json",
+      "bytes": 4191,
+      "sha256": "5fc719072e97249a8edb9b7a1195ad4f429b58331e87e13ee41271b82ebc93e6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\NATIVE_SHAPE_MAP.json",
+      "bytes": 296530,
+      "sha256": "b0cc2e051f61fcc35c7ab1f4d25d415dc59e8c004ed485e2db4b49cfdb385b40"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\OWN_ORPHAN_BEFORE.json",
+      "bytes": 790,
+      "sha256": "2d3d3e4255131100da5689222cf9cfc2811c85548bedbd7193b9d2c6f8844838"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\OWN_ORPHAN_CLEANUP.json",
+      "bytes": 222,
+      "sha256": "fced4c2c848d4fdcd8250486ec08e925e8360cb8a45b1da0df333a988a6a3864"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\PDF_AUXILIARY_PROBE_RECORD.json",
+      "bytes": 297,
+      "sha256": "3cce71a31fd3cc3c3688d73a8889a92750e832e23d8d3b8c9677ee37be166e40"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\PREPARATION_FAILURE_RECORD.json",
+      "bytes": 807,
+      "sha256": "8d13961c7b2119bcd45c19c1f6d782a9cdff6d0eb21b46a29759654ec1873d6a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\PREPARE_V1_TO_V2.patch",
+      "bytes": 2965,
+      "sha256": "1669b9d940e5a133d2ef3ba2acdb1e4ef45f3b1dc4728af7f1a78967d342951f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\PRODUCER_PACKAGE_REVIEW.json",
+      "bytes": 2261,
+      "sha256": "f5da889c5cf7d05ea4cb4c1d1671e43afe156fa84f59231595325f954f339eb2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\PRODUCER_VISUAL_REVIEW.json",
+      "bytes": 1516,
+      "sha256": "dbb58327b38dbff2ada64b51d8b6de54c3bc148a6df82272f0be9841470d74e7"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\SOURCE_MANIFEST.json",
+      "bytes": 3625,
+      "sha256": "44030bcb45db729cf37f2f366fb26a4da316d62a10c9d7f5dacdc22ccb93a3fb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\SOURCE_REVISION.json",
+      "bytes": 3029,
+      "sha256": "010edd8d00f9d5456f681babde2d3fc616a6a2c4f6233874018ab5d49f22aaed"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\provenance\\UNEXECUTED_HARDENING.json",
+      "bytes": 1767,
+      "sha256": "47ef6f0d6a82d6dbdac3e2688dc01fa6fa7c6d54b59c3e17fa14ca08eef87c72"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\CAPTIONS.md",
+      "bytes": 2366,
+      "sha256": "2dd6fef4c13f2348256b68ede5e099e51ae307b65b93b0ead3afcc88cd3697a9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\formal_main_sues200_native_editable_v2.pptx",
+      "bytes": 52489,
+      "sha256": "772cf4b81afb83bf54bdc4cc155ab809f291dc79dde43e3e178e4aecabc00673"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\formal_main_sues200_variants_native.svg",
+      "bytes": 89668,
+      "sha256": "b35c007fe48dc4508411fc4f1ad795a1c3fd13b9ac618167559c4ba4cf5294b1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\formal_main_sues200_variants_source.csv",
+      "bytes": 13544,
+      "sha256": "3494bf630df6f81d8c00c63881335257e2d38a489d40ca15dbdc17c083c27730"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\formal_main_university1652_native_editable_v2.pptx",
+      "bytes": 38480,
+      "sha256": "57fb00c88afe732b5482c7afc4fd96dc180be520527977bafa24a133ef74d7ad"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\formal_main_university1652_variants_native.svg",
+      "bytes": 48737,
+      "sha256": "a103659da037e8edffd1c0ffd3f19bb1b3f431c04de323361164d4209e997a6a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\formal_main_university1652_variants_source.csv",
+      "bytes": 5898,
+      "sha256": "364fd0c5c9f28e97e5d316ed96a847d2ed70cb691507e01797a7a3f0806154e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\INDEPENDENT_NATIVE_SVG_REVIEW.json",
+      "bytes": 11243,
+      "sha256": "9dbcc7f38df2057e900f8a13571b00eadb867d2e890e8948f3eea6e1f6501977"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\PRIMARY_CLAIM_REVIEW.json",
+      "bytes": 5700,
+      "sha256": "0e29cdb0412b148100788b02276e9a9ef4a7aed4a1f5d892fb088a0ff184cdb6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\ROOT_DELIVERY_ADOPTION.json",
+      "bytes": 19396,
+      "sha256": "4d01ad9310e8d726e7a0b5e9852142a51f56a079a30e386d814161f8b328787b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\output_v2\\sources\\ROOT_NATIVE_SVG_REVIEW.json",
+      "bytes": 6821,
+      "sha256": "ac010cc27c27fa94a9fdd3e860af84c330a8e4cc6efa3c66b2e6a8000d6253ca"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\ROOT_VISUAL_REVIEW.json",
+      "bytes": 3418,
+      "sha256": "1ac7e82f7815d9bbb44b57263faecb086546c01de16939df8a8aed1cbf992fd1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\record_root_visual.py",
+      "bytes": 1845,
+      "sha256": "bdee42b9a5aa24cf46194247de63e5886b8c4db5d8232abacbde3f60ca808acb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\ROOT_OS_AFTER.json",
+      "bytes": 804,
+      "sha256": "df31085d0bd8e60cb92e8b6a2441c107463effb5d0e73ef9f358869646714d4c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\observe_after.ps1",
+      "bytes": 2150,
+      "sha256": "e34b70496caf38158a2400e3f868b6fa008fd5d1a35556a2d3e0cd391451b9db"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\seal_review.py",
+      "bytes": 12172,
+      "sha256": "fd30f44a5f902e9b317e126daaeb74c1c4c725a982d31d399491794856901e7b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\SOURCE_REVIEW.json",
+      "bytes": 4198,
+      "sha256": "5111192722c90b339d9f6cb7d0b0a30ca9fcc801541cb7b797ac2006009d55f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\VISUAL_REVIEW.json",
+      "bytes": 2634,
+      "sha256": "618e17f80cb9ad9994aa8c3b5ad2227706e0a0023957e1b6d3eaa7a742de5804"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\METADATA.json",
+      "bytes": 37017,
+      "sha256": "8e332e603342dc25d1cde799fe8b9c082fded67a5b4057231321ef1d92cf723b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\README.md",
+      "bytes": 1651,
+      "sha256": "5de682d58c61ccfba4bb53dfdc1024478e00edcc26027dac5ebf385738431fb1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\derive_contract.py",
+      "bytes": 6048,
+      "sha256": "115f20044046887b9560608dcf545b502c728a61bdddca059a74c7b627442b7e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\review_vsdx.py",
+      "bytes": 12968,
+      "sha256": "a58055516cf62ef4612beacaeec9feaf434eb3df128ea620e80b54ec29d15eb7"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\review_vsdx_v2.py",
+      "bytes": 13024,
+      "sha256": "39b99a89b0254e817e5dfce3be89fee75b991615b907600e58c414cf07ea0073"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\review_editability.py",
+      "bytes": 2939,
+      "sha256": "46d3d9050d992a56f2968d9626c3fd61449269bb2b2ce59d1c4ddbef0cd6cac5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\ARTIFACT_FAILURE.json",
+      "bytes": 1211,
+      "sha256": "67069579940e6aacbaeac2835a6dda3ad729d6f1492e69e61175980282c8de8d"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\REVIEW_V1_TO_V2.patch",
+      "bytes": 1332,
+      "sha256": "1fa1956b1dac63394f84c213e53db0b6617c5a9aa713ff855e3cc7fc474435b2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\001_ROOT_DELIVERY_ADOPTION.json",
+      "bytes": 19396,
+      "sha256": "4d01ad9310e8d726e7a0b5e9852142a51f56a079a30e386d814161f8b328787b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\002_ROOT_NATIVE_SVG_REVIEW.json",
+      "bytes": 6821,
+      "sha256": "ac010cc27c27fa94a9fdd3e860af84c330a8e4cc6efa3c66b2e6a8000d6253ca"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\003_PRIMARY_CLAIM_REVIEW.json",
+      "bytes": 5700,
+      "sha256": "0e29cdb0412b148100788b02276e9a9ef4a7aed4a1f5d892fb088a0ff184cdb6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\004_formal_main_university1652_variants_native.svg",
+      "bytes": 48737,
+      "sha256": "a103659da037e8edffd1c0ffd3f19bb1b3f431c04de323361164d4209e997a6a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\005_formal_main_university1652_variants_source.csv",
+      "bytes": 5898,
+      "sha256": "364fd0c5c9f28e97e5d316ed96a847d2ed70cb691507e01797a7a3f0806154e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\006_formal_main_sues200_variants_native.svg",
+      "bytes": 89668,
+      "sha256": "b35c007fe48dc4508411fc4f1ad795a1c3fd13b9ac618167559c4ba4cf5294b1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\007_formal_main_sues200_variants_source.csv",
+      "bytes": 13544,
+      "sha256": "3494bf630df6f81d8c00c63881335257e2d38a489d40ca15dbdc17c083c27730"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\008_CAPTIONS.md",
+      "bytes": 2366,
+      "sha256": "2dd6fef4c13f2348256b68ede5e099e51ae307b65b93b0ead3afcc88cd3697a9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\009_formal_main_university1652_native_editable.vsdx",
+      "bytes": 47145,
+      "sha256": "590539c239e1c46615e316dd71f61a73b487ab26a24545eb7fcc62c54b411cfc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\010_formal_main_university1652_visio_reopened.png",
+      "bytes": 39694,
+      "sha256": "d8b0ce1dd22ad4c32f587d56d39b03dd77d3a69345f5c1a9411e47e9760a871c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\011_formal_main_university1652_visio_reopened.pdf",
+      "bytes": 99437,
+      "sha256": "c11c8cbeccda69b9f9094bd38ce2a280b638814051d17e2b25634140b23c0121"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\012_university1652_NOTES.txt",
+      "bytes": 8174,
+      "sha256": "838adfedd2cd6e776a5b39b5fba91a7fc38a73493749bf45fbc4db53a2bd246b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\013_formal_main_sues200_native_editable.vsdx",
+      "bytes": 77842,
+      "sha256": "32ff5b3a83d8c5c1e9c7a2c3227835ca74d6c9643ce4416f76953f66f8db3973"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\014_formal_main_sues200_visio_reopened.png",
+      "bytes": 82331,
+      "sha256": "2ab04307728fa7c507337e49d5b989aed6a259b6e9b48559a445b557e51ddbe4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\015_formal_main_sues200_visio_reopened.pdf",
+      "bytes": 112154,
+      "sha256": "0439c9fe76ace18e1086e0ec9eb001019fe8ac4b5fa2d6d2db5f38150e7e814b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\016_sues200_NOTES.txt",
+      "bytes": 15849,
+      "sha256": "0d66a71d7a1b549bd9177652a8ddadc9132dcabf7c6a2200e8a54850f74ac992"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\017_prepare_inputs.py",
+      "bytes": 4679,
+      "sha256": "a5cd8f5f13e8da6a1b82f6099bdf2cf1f650f8853a4a50b2e05bbb6a9489719f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\018_prepare_inputs_v2.py",
+      "bytes": 4653,
+      "sha256": "3203c9584af60bdbc8ec69771e11c874f97932ba0347fe4ad77f66a5ee44e302"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\019_PREPARE_V1_TO_V2.patch",
+      "bytes": 2965,
+      "sha256": "1669b9d940e5a133d2ef3ba2acdb1e4ef45f3b1dc4728af7f1a78967d342951f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\020_build_visio.ps1",
+      "bytes": 9108,
+      "sha256": "ff8d55bcf7b3271cf33b5f2d70fd671cb08dff392281410a90053d005ca35372"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\021_build_visio_v2.ps1",
+      "bytes": 10238,
+      "sha256": "ea62656245b300cdbd5a306519342c352b997891c84e450b9fd9be4d3ac65665"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\022_BUILD_V1_TO_V2.patch",
+      "bytes": 4853,
+      "sha256": "012f8301ab805290b5aa1885a48a17d6d6e1d7d38673a43e1c70890af170a525"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\023_BUILD_FAILURE.json",
+      "bytes": 1323,
+      "sha256": "17dc7fcd4b454517e35c94456c79e3cc00976707f6fa3de79ab30a5aa7a2b161"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\024_BUILD_REPORT.json",
+      "bytes": 6645,
+      "sha256": "cd6be22fe4adbb490422014d965b7ebf1ac89d224362cbf1ec931bd575a605ca"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\025_SOURCE_REVISION.json",
+      "bytes": 3029,
+      "sha256": "010edd8d00f9d5456f681babde2d3fc616a6a2c4f6233874018ab5d49f22aaed"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\026_UNEXECUTED_HARDENING.json",
+      "bytes": 1767,
+      "sha256": "47ef6f0d6a82d6dbdac3e2688dc01fa6fa7c6d54b59c3e17fa14ca08eef87c72"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\027_BUILD_V2_TO_V3_UNEXECUTED.patch",
+      "bytes": 4245,
+      "sha256": "bb81fee508eeeeb2a5a90be233b406288df8cb7097afb1d6a9bbbcbf6ecf7cc1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\028_build_visio_v3_unexecuted.ps1",
+      "bytes": 10660,
+      "sha256": "e17a9c81680de7b9af5830f021b3481c8edfb414bf7ae7f4d0b03de9a15e728f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\CONVERSION_SPEC.json",
+      "bytes": 392372,
+      "sha256": "3acb5843979a6332f56e3182d1db333c79dbd8d343d7262ea81b796f26ff1816"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\029_CONVERSION_SPEC.json",
+      "bytes": 392372,
+      "sha256": "3acb5843979a6332f56e3182d1db333c79dbd8d343d7262ea81b796f26ff1816"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\030_INPUT_PROVENANCE.json",
+      "bytes": 4191,
+      "sha256": "5fc719072e97249a8edb9b7a1195ad4f429b58331e87e13ee41271b82ebc93e6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\NATIVE_SHAPE_MAP.json",
+      "bytes": 296530,
+      "sha256": "b0cc2e051f61fcc35c7ab1f4d25d415dc59e8c004ed485e2db4b49cfdb385b40"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\031_NATIVE_SHAPE_MAP.json",
+      "bytes": 296530,
+      "sha256": "b0cc2e051f61fcc35c7ab1f4d25d415dc59e8c004ed485e2db4b49cfdb385b40"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\032_README.md",
+      "bytes": 7695,
+      "sha256": "bd8f625ea0755772432068f1298bc2b8ce7d28e57dfc9f91ad536fd5ade895d8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\033_CAPTIONS.md",
+      "bytes": 2450,
+      "sha256": "a28503ff2094e096f4610297be5c2e853dffe960944f4a00835717f085e26a2a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\034_FIGURE_INDEX.csv",
+      "bytes": 490,
+      "sha256": "502fd18af39e21563ea4cab91b04eeeca63f4033a05d6985907552f13cb8d8b4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\035_REVIEW.json",
+      "bytes": 12709,
+      "sha256": "5f21400c74515f1d0aa0cef0f09d7853f8bab15e80497dda35982d324db939aa"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_scope_review_20260929_2258\\REVIEW.md",
+      "bytes": 9294,
+      "sha256": "57a31918e8692e55bca026c233b236f73aae7a8175e9d7cfc40ebff81c347ead"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\036_REVIEW.md",
+      "bytes": 9294,
+      "sha256": "57a31918e8692e55bca026c233b236f73aae7a8175e9d7cfc40ebff81c347ead"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\037_V3_ADDENDUM.json",
+      "bytes": 4301,
+      "sha256": "0e26b6e02e5c3ff9adce3fe369f198bfd5c525dee8b2a213e8b7dd5f7004926d"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_scope_review_20260929_2258\\V3_ADDENDUM.md",
+      "bytes": 2715,
+      "sha256": "52391ac6ff4d939ed8dfbbdd3856c8d611c860cf80c8f1c6ef04007588b71b0b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\038_V3_ADDENDUM.md",
+      "bytes": 2715,
+      "sha256": "52391ac6ff4d939ed8dfbbdd3856c8d611c860cf80c8f1c6ef04007588b71b0b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\039_derive_contract.py",
+      "bytes": 6048,
+      "sha256": "115f20044046887b9560608dcf545b502c728a61bdddca059a74c7b627442b7e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\040_DATA_CONTRACT.json",
+      "bytes": 443533,
+      "sha256": "d474e39a9dcb90b7d43fa6d83030a15f44174e5d1950aa022afe83942f14380c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\041_review_vsdx.py",
+      "bytes": 12968,
+      "sha256": "a58055516cf62ef4612beacaeec9feaf434eb3df128ea620e80b54ec29d15eb7"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\042_ARTIFACT_FAILURE.json",
+      "bytes": 1211,
+      "sha256": "67069579940e6aacbaeac2835a6dda3ad729d6f1492e69e61175980282c8de8d"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\043_review_vsdx_v2.py",
+      "bytes": 13024,
+      "sha256": "39b99a89b0254e817e5dfce3be89fee75b991615b907600e58c414cf07ea0073"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\044_REVIEW_V1_TO_V2.patch",
+      "bytes": 1332,
+      "sha256": "1fa1956b1dac63394f84c213e53db0b6617c5a9aa713ff855e3cc7fc474435b2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\045_ARTIFACT_REVIEW.json",
+      "bytes": 8732,
+      "sha256": "e7e18313492ba36eab82503999c13d7f4a6e4df37dfdab70c45237ee55289278"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\046_review_editability.py",
+      "bytes": 2939,
+      "sha256": "46d3d9050d992a56f2968d9626c3fd61449269bb2b2ce59d1c4ddbef0cd6cac5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\047_EDITABILITY_REVIEW.json",
+      "bytes": 2615,
+      "sha256": "3ead2f5af7c325b6de637656c1c23191fecc574bbd092c3afb3c451f7b2334c9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\048_SOURCE_REVIEW.json",
+      "bytes": 4198,
+      "sha256": "5111192722c90b339d9f6cb7d0b0a30ca9fcc801541cb7b797ac2006009d55f5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\049_VISUAL_REVIEW.json",
+      "bytes": 2634,
+      "sha256": "618e17f80cb9ad9994aa8c3b5ad2227706e0a0023957e1b6d3eaa7a742de5804"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_review_20260929_2258\\raw_final\\050_seal_review.py",
+      "bytes": 12172,
+      "sha256": "fd30f44a5f902e9b317e126daaeb74c1c4c725a982d31d399491794856901e7b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\PRIMARY_CLAIM_REVIEW.md",
+      "bytes": 2110,
+      "sha256": "fceb45605ec9e15e780359039f350d1e8e590f071a3366b065d2e36898addb85"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\README.md",
+      "bytes": 3685,
+      "sha256": "231d5bc4341aa7a777157fedbed486b239defd217ba150e9f42b31d1f75055d2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_ppt_20260929_1548\\build\\build_native_v2.mjs",
+      "bytes": 11716,
+      "sha256": "16933b51afc22c0cb2f52b626946927c6cab635a2ad7fe126e0ef27b343959b9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_scope_review_20260929_2258\\seal_review.ps1",
+      "bytes": 8670,
+      "sha256": "040ac972695f45b50f372ee04e6e41d470e95385131193c2148438c6cbb1f396"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_native_visio_scope_review_20260929_2258\\seal_v3_addendum.ps1",
+      "bytes": 3605,
+      "sha256": "6421ab26f3df3c3ae40c2cb6273aab5bd9be80278e979260df12b8bd58e72cff"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\formal_main_visio_root_observation_20260929_2258\\ROOT_STOPPED_OBSERVATION.json",
+      "bytes": 6325,
+      "sha256": "3b6d1fbd836598900cc36f3deb4c9d97fb8b28bb8962ed65e3598eb050b0e9f7"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\status.json",
+      "bytes": 51769,
+      "sha256": "0bd5b1b7b486fb442d7e9f6624839e7b2b2ce1600efd5f6bbbdf00cf22093d8a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_status.json",
+      "bytes": 7268,
+      "sha256": "47fd31336b8e742da91891a87c28a0767989cb45c375aeb000854f50e37acf12"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\extension_status.json",
+      "bytes": 40092,
+      "sha256": "02a21093347100b5a17671f676cf5c9b7c5819a552729733677a1b4b52b2b074"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\latest_baseline_status.json",
+      "bytes": 45792,
+      "sha256": "83fd30e4d1b0efa0a806ceb033f20b6c49553f3c9a649004509929751d91e94a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\independent_comparison_status.json",
+      "bytes": 72886,
+      "sha256": "a1389f862ec7560e32fb29aeb8dafb93349eaf19a6ae149979c50357760234ee"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\pipeline.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\pipeline.stderr.log",
+      "bytes": 723,
+      "sha256": "ce6482a7a929ef5ca181de34ccfe8ce47e9668651c8f1ca51ffc39550702b67f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\extensions.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\extensions.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\latest.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\latest.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\independent.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\independent.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\stage_logs\\formal_efficiency_component.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\stage_logs\\formal_efficiency_component.stderr.log",
+      "bytes": 2387,
+      "sha256": "27cde8cc55651bab5bd2c2adbb8efb19002539f328c8bad753c8ac95350fc9ed"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\state_io_retry_20260920_v2\\io_retry_pipeline_14420.jsonl",
+      "bytes": 4770,
+      "sha256": "85cbb8f83edd26f52025fd263173f7f6b391811f06f2ba761802769dbc64a526"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\latest_baseline_gpu.lock",
+      "bytes": 1,
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_231608481\\OBSERVATION.json",
+      "bytes": 5381,
+      "sha256": "ae30b73a85005f3a137e8c58748ba4b31caf533b6978cef637f48a0ca8262fad"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observe_stopped_incident.ps1",
+      "bytes": 3874,
+      "sha256": "e2adf515e61792fd15ff6a7cc8e65f778231a22cb836b674e2aa36a233e1d84b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_231608481\\latest_baseline_status.json",
+      "bytes": 45792,
+      "sha256": "83fd30e4d1b0efa0a806ceb033f20b6c49553f3c9a649004509929751d91e94a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_231608481\\extension_status.json",
+      "bytes": 40092,
+      "sha256": "02a21093347100b5a17671f676cf5c9b7c5819a552729733677a1b4b52b2b074"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_231608481\\independent_comparison_status.json",
+      "bytes": 72886,
+      "sha256": "a1389f862ec7560e32fb29aeb8dafb93349eaf19a6ae149979c50357760234ee"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_231608481\\pipeline_status.json",
+      "bytes": 7268,
+      "sha256": "47fd31336b8e742da91891a87c28a0767989cb45c375aeb000854f50e37acf12"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_231608481\\status.json",
+      "bytes": 51769,
+      "sha256": "0bd5b1b7b486fb442d7e9f6624839e7b2b2ce1600efd5f6bbbdf00cf22093d8a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_231608481\\gpu_compute_query.txt",
+      "bytes": 1883,
+      "sha256": "fb0aad974bbeaaf5d176c1b83796cc9983e5aca349dad268198e5023b43935fe"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_main_native_visio_20260929_2258\\adopt_visio_root.py",
+      "bytes": 11576,
+      "sha256": "e271f53685e34ed8dd65d2728f9e3d9a98e7f2091293019b6730cad26af14427"
+    }
+  ],
+  "limits": [
+    "New conversion display contract only; existing CSV means and sample SD are not recomputed from seeds.",
+    "R@1 percent heatmap and official trapezoidal mAP percent mean +/- sample SD; not CI. No pooling or significance.",
+    "All six variants, eleven tasks and four SUES heights retained; Full lower than Visual for both means on ten tasks, low absolute street exception.",
+    "Exact historical source caption is preserved; new Visio notes must describe only these two completed Visio figures.",
+    "Inherited checkpoint/cache/image SHA and historical provenance gaps remain; no scientific source, model, weights, NPZ, cache or image dataset reads.",
+    "No producer module or old validation suite was executed.",
+    "Only two main-result VSDX figures adopted; flat shapes and text, not linked charts or SVG groups. Package thumbnail.emf is distinct from page artwork.",
+    "Two real successful v2 invisible instances and their producer-held exit0 receipts; root did not independently hold those handles. First orphan forced cleanup -1 is retained separately.",
+    "v2 is accepted only for this actual successful trajectory. v3 ownership fixes receive source-level static acknowledgement only; not executed or comprehensively Windows-tested.",
+    "Root read full original sources plus complete derived diffs and new checker/sealers; bounded root XML/source/ZIP checks are separate from independent geometry/editability and each reviewer visual inspection.",
+    "All scientific negative results and historical SHA inheritance/gaps remain. No new scientific execution, old weights/NPZ/cache/images, full-ranking/AP or resampling.",
+    "No T6 release, native science probe, recovery, intent, retirement, lock or state changes. Existing scientific blocker is not a new failure."
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "schema_version": "lgm-game.transactions-t2-heldout-matrix.v1",
+  "status": "registered_not_executed",
+  "registered_run_count": 24,
+  "dataset": "sues200",
+  "design": "leave_one_altitude_out",
+  "altitudes_m": [
+    "150",
+    "200",
+    "250",
+    "300"
+  ],
+  "variants": [
+    "visual",
+    "full"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "epochs": 80,
+  "checkpoint_selection": "pre-specified final epoch",
+  "official_test_gate": "after all 24 registered held-out-altitude fits pass completion audit",
+  "runs": [
+    {
+      "ordinal": 1,
+      "run_id": "heldout_150m/visual/seed_1",
+      "heldout_altitude_m": "150",
+      "variant": "visual",
+      "seed": 1
+    },
+    {
+      "ordinal": 2,
+      "run_id": "heldout_150m/visual/seed_2",
+      "heldout_altitude_m": "150",
+      "variant": "visual",
+      "seed": 2
+    },
+    {
+      "ordinal": 3,
+      "run_id": "heldout_150m/visual/seed_3",
+      "heldout_altitude_m": "150",
+      "variant": "visual",
+      "seed": 3
+    },
+    {
+      "ordinal": 4,
+      "run_id": "heldout_150m/full/seed_1",
+      "heldout_altitude_m": "150",
+      "variant": "full",
+      "seed": 1
+    },
+    {
+      "ordinal": 5,
+      "run_id": "heldout_150m/full/seed_2",
+      "heldout_altitude_m": "150",
+      "variant": "full",
+      "seed": 2
+    },
+    {
+      "ordinal": 6,
+      "run_id": "heldout_150m/full/seed_3",
+      "heldout_altitude_m": "150",
+      "variant": "full",
+      "seed": 3
+    },
+    {
+      "ordinal": 7,
+      "run_id": "heldout_200m/visual/seed_1",
+      "heldout_altitude_m": "200",
+      "variant": "visual",
+      "seed": 1
+    },
+    {
+      "ordinal": 8,
+      "run_id": "heldout_200m/visual/seed_2",
+      "heldout_altitude_m": "200",
+      "variant": "visual",
+      "seed": 2
+    },
+    {
+      "ordinal": 9,
+      "run_id": "heldout_200m/visual/seed_3",
+      "heldout_altitude_m": "200",
+      "variant": "visual",
+      "seed": 3
+    },
+    {
+      "ordinal": 10,
+      "run_id": "heldout_200m/full/seed_1",
+      "heldout_altitude_m": "200",
+      "variant": "full",
+      "seed": 1
+    },
+    {
+      "ordinal": 11,
+      "run_id": "heldout_200m/full/seed_2",
+      "heldout_altitude_m": "200",
+      "variant": "full",
+      "seed": 2
+    },
+    {
+      "ordinal": 12,
+      "run_id": "heldout_200m/full/seed_3",
+      "heldout_altitude_m": "200",
+      "variant": "full",
+      "seed": 3
+    },
+    {
+      "ordinal": 13,
+      "run_id": "heldout_250m/visual/seed_1",
+      "heldout_altitude_m": "250",
+      "variant": "visual",
+      "seed": 1
+    },
+    {
+      "ordinal": 14,
+      "run_id": "heldout_250m/visual/seed_2",
+      "heldout_altitude_m": "250",
+      "variant": "visual",
+      "seed": 2
+    },
+    {
+      "ordinal": 15,
+      "run_id": "heldout_250m/visual/seed_3",
+      "heldout_altitude_m": "250",
+      "variant": "visual",
+      "seed": 3
+    },
+    {
+      "ordinal": 16,
+      "run_id": "heldout_250m/full/seed_1",
+      "heldout_altitude_m": "250",
+      "variant": "full",
+      "seed": 1
+    },
+    {
+      "ordinal": 17,
+      "run_id": "heldout_250m/full/seed_2",
+      "heldout_altitude_m": "250",
+      "variant": "full",
+      "seed": 2
+    },
+    {
+      "ordinal": 18,
+      "run_id": "heldout_250m/full/seed_3",
+      "heldout_altitude_m": "250",
+      "variant": "full",
+      "seed": 3
+    },
+    {
+      "ordinal": 19,
+      "run_id": "heldout_300m/visual/seed_1",
+      "heldout_altitude_m": "300",
+      "variant": "visual",
+      "seed": 1
+    },
+    {
+      "ordinal": 20,
+      "run_id": "heldout_300m/visual/seed_2",
+      "variant": "visual",
+      "seed": 2,
+      "heldout_altitude_m": "300"
+    },
+    {
+      "ordinal": 21,
+      "run_id": "heldout_300m/visual/seed_3",
+      "heldout_altitude_m": "300",
+      "variant": "visual",
+      "seed": 3
+    },
+    {
+      "ordinal": 22,
+      "run_id": "heldout_300m/full/seed_1",
+      "heldout_altitude_m": "300",
+      "variant": "full",
+      "seed": 1
+    },
+    {
+      "ordinal": 23,
+      "run_id": "heldout_300m/full/seed_2",
+      "heldout_altitude_m": "300",
+      "variant": "full",
+      "seed": 2
+    },
+    {
+      "ordinal": 24,
+      "run_id": "heldout_300m/full/seed_3",
+      "heldout_altitude_m": "300",
+      "variant": "full",
+      "seed": 3
+    }
+  ]
+}

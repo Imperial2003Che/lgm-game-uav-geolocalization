@@ -1,0 +1,759 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="181.9mm" height="137.9mm" viewBox="0 0 515.6 391" version="1.1" role="img">
+  <title>University-1652 frozen variant results</title>
+  <desc>R@1 mean and sample SD cells, and official trapezoidal mAP point intervals. Three seeds 1, 2, 3. Each task remains separate.</desc>
+  <g id="background" inkscape:groupmode="layer" inkscape:label="background">
+    <rect x="0.0" y="0.0" width="515.6" height="391.0" fill="white" stroke="none" stroke-width="0.5" />
+  </g>
+  <g id="heading" inkscape:groupmode="layer" inkscape:label="heading">
+    <g id="dataset-title">
+      <text x="16.0" y="16.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#222222" text-anchor="start">University-1652 frozen variant results</text>
+    </g>
+  </g>
+  <g id="panel-a-r-at-1" inkscape:groupmode="layer" inkscape:label="panel-a-r-at-1">
+    <g id="panel-a-title">
+      <text x="16.0" y="32.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#222222" text-anchor="start">(a) R@1 (%)</text>
+    </g>
+    <g id="column-visual-1">
+      <text x="170.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Visual</text>
+    </g>
+    <g id="column-content-1">
+      <text x="230.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Content</text>
+    </g>
+    <g id="column-style-1">
+      <text x="290.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Style</text>
+    </g>
+    <g id="column-visual_content-1">
+      <text x="350.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Visual</text>
+    </g>
+    <g id="column-visual_content-2">
+      <text x="350.0" y="51.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">+ content</text>
+    </g>
+    <g id="column-visual_style-1">
+      <text x="410.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Visual</text>
+    </g>
+    <g id="column-visual_style-2">
+      <text x="410.0" y="51.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">+ style</text>
+    </g>
+    <g id="column-full-1">
+      <text x="470.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Full</text>
+    </g>
+    <g id="row-0">
+      <text x="133.0" y="71.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Drone → satellite</text>
+    </g>
+    <g id="cell-0-visual" data-task="university1652_drone_to_satellite" data-variant="visual" data-mean="37.8637784528684" data-sd="1.0111873467138595">
+      <rect x="140.0" y="55.0" width="60.0" height="26.0" fill="#97c4e2" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-visual">
+        <text x="170.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">37.9</text>
+      </g>
+      <g id="sd-0-visual">
+        <text x="170.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.0</text>
+      </g>
+    </g>
+    <g id="cell-0-content" data-task="university1652_drone_to_satellite" data-variant="content" data-mean="0.8215559371285167" data-sd="0.011514724457906899">
+      <rect x="200.0" y="55.0" width="60.0" height="26.0" fill="#f5fafe" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-content">
+        <text x="230.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.8</text>
+      </g>
+      <g id="sd-0-content">
+        <text x="230.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="cell-0-style" data-task="university1652_drone_to_satellite" data-variant="style" data-mean="0.47461806014176905" data-sd="0.0040352007176117765">
+      <rect x="260.0" y="55.0" width="60.0" height="26.0" fill="#f6faff" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-style">
+        <text x="290.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.5</text>
+      </g>
+      <g id="sd-0-style">
+        <text x="290.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="cell-0-visual_content" data-task="university1652_drone_to_satellite" data-variant="visual_content" data-mean="32.548760621670404" data-sd="0.2448396542784632">
+      <rect x="320.0" y="55.0" width="60.0" height="26.0" fill="#abcde7" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-visual_content">
+        <text x="350.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">32.5</text>
+      </g>
+      <g id="sd-0-visual_content">
+        <text x="350.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.2</text>
+      </g>
+    </g>
+    <g id="cell-0-visual_style" data-task="university1652_drone_to_satellite" data-variant="visual_style" data-mean="31.27812266103113" data-sd="0.20332767403126123">
+      <rect x="380.0" y="55.0" width="60.0" height="26.0" fill="#afd0e9" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-visual_style">
+        <text x="410.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">31.3</text>
+      </g>
+      <g id="sd-0-visual_style">
+        <text x="410.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.2</text>
+      </g>
+    </g>
+    <g id="cell-0-full" data-task="university1652_drone_to_satellite" data-variant="full" data-mean="32.30044467925857" data-sd="0.3465443102891071">
+      <rect x="440.0" y="55.0" width="60.0" height="26.0" fill="#abcee8" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-full">
+        <text x="470.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">32.3</text>
+      </g>
+      <g id="sd-0-full">
+        <text x="470.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.3</text>
+      </g>
+    </g>
+    <g id="row-1">
+      <text x="133.0" y="97.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → drone</text>
+    </g>
+    <g id="cell-1-visual" data-task="university1652_satellite_to_drone" data-variant="visual" data-mean="54.30337612933905" data-sd="3.4246709614894613">
+      <rect x="140.0" y="81.0" width="60.0" height="26.0" fill="#5ea3d0" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-visual">
+        <text x="170.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">54.3</text>
+      </g>
+      <g id="sd-1-visual">
+        <text x="170.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 3.4</text>
+      </g>
+    </g>
+    <g id="cell-1-content" data-task="university1652_satellite_to_drone" data-variant="content" data-mean="1.5216357584403235" data-sd="0.21790659510013502">
+      <rect x="200.0" y="81.0" width="60.0" height="26.0" fill="#f4f9fe" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-content">
+        <text x="230.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">1.5</text>
+      </g>
+      <g id="sd-1-content">
+        <text x="230.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.2</text>
+      </g>
+    </g>
+    <g id="cell-1-style" data-task="university1652_satellite_to_drone" data-variant="style" data-mean="0.09510223490252022" data-sd="0.0823609513822576">
+      <rect x="260.0" y="81.0" width="60.0" height="26.0" fill="#f7fbff" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-style">
+        <text x="290.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.1</text>
+      </g>
+      <g id="sd-1-style">
+        <text x="290.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.1</text>
+      </g>
+    </g>
+    <g id="cell-1-visual_content" data-task="university1652_satellite_to_drone" data-variant="visual_content" data-mean="45.363766048502136" data-sd="0.6218115468674309">
+      <rect x="320.0" y="81.0" width="60.0" height="26.0" fill="#7cb6db" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-visual_content">
+        <text x="350.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">45.4</text>
+      </g>
+      <g id="sd-1-visual_content">
+        <text x="350.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.6</text>
+      </g>
+    </g>
+    <g id="cell-1-visual_style" data-task="university1652_satellite_to_drone" data-variant="visual_style" data-mean="44.222539229671895" data-sd="2.4872461874697147">
+      <rect x="380.0" y="81.0" width="60.0" height="26.0" fill="#80b8dc" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-visual_style">
+        <text x="410.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">44.2</text>
+      </g>
+      <g id="sd-1-visual_style">
+        <text x="410.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 2.5</text>
+      </g>
+    </g>
+    <g id="cell-1-full" data-task="university1652_satellite_to_drone" data-variant="full" data-mean="44.17498811222064" data-sd="1.538629547062618">
+      <rect x="440.0" y="81.0" width="60.0" height="26.0" fill="#80b8dc" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-full">
+        <text x="470.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">44.2</text>
+      </g>
+      <g id="sd-1-full">
+        <text x="470.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.5</text>
+      </g>
+    </g>
+    <g id="row-2">
+      <text x="133.0" y="123.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Street → satellite</text>
+    </g>
+    <g id="cell-2-visual" data-task="university1652_street_to_satellite" data-variant="visual" data-mean="0.7884192839601912" data-sd="0.23372290707024845">
+      <rect x="140.0" y="107.0" width="60.0" height="26.0" fill="#f5fafe" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-visual">
+        <text x="170.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.8</text>
+      </g>
+      <g id="sd-2-visual">
+        <text x="170.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.2</text>
+      </g>
+    </g>
+    <g id="cell-2-content" data-task="university1652_street_to_satellite" data-variant="content" data-mean="0.12924906294429364" data-sd="0.022386594385018447">
+      <rect x="200.0" y="107.0" width="60.0" height="26.0" fill="#f7fbff" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-content">
+        <text x="230.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.1</text>
+      </g>
+      <g id="sd-2-content">
+        <text x="230.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="cell-2-style" data-task="university1652_street_to_satellite" data-variant="style" data-mean="0.02584981258885873" data-sd="0.022386594385018447">
+      <rect x="260.0" y="107.0" width="60.0" height="26.0" fill="#f7fbff" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-style">
+        <text x="290.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">&lt;0.1</text>
+      </g>
+      <g id="sd-2-style">
+        <text x="290.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="cell-2-visual_content" data-task="university1652_street_to_satellite" data-variant="visual_content" data-mean="1.1115419413209253" data-sd="0.28050322365530184">
+      <rect x="320.0" y="107.0" width="60.0" height="26.0" fill="#f5fafe" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-visual_content">
+        <text x="350.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">1.1</text>
+      </g>
+      <g id="sd-2-visual_content">
+        <text x="350.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.3</text>
+      </g>
+    </g>
+    <g id="cell-2-visual_style" data-task="university1652_street_to_satellite" data-variant="visual_style" data-mean="1.1115419413209253" data-sd="0.08954637754007379">
+      <rect x="380.0" y="107.0" width="60.0" height="26.0" fill="#f5fafe" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-visual_style">
+        <text x="410.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">1.1</text>
+      </g>
+      <g id="sd-2-visual_style">
+        <text x="410.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.1</text>
+      </g>
+    </g>
+    <g id="cell-2-full" data-task="university1652_street_to_satellite" data-variant="full" data-mean="0.9693679720822024" data-sd="0.038774718883288095">
+      <rect x="440.0" y="107.0" width="60.0" height="26.0" fill="#f5fafe" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-full">
+        <text x="470.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">1.0</text>
+      </g>
+      <g id="sd-2-full">
+        <text x="470.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="r-at-1-color-scale">
+      <g id="color-step-0">
+        <rect x="280.0" y="143.0" width="2.3" height="5.0" fill="#f6faff" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-1">
+        <rect x="282.2" y="143.0" width="2.3" height="5.0" fill="#f4f9fe" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-2">
+        <rect x="284.4" y="143.0" width="2.3" height="5.0" fill="#f2f8fd" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-3">
+        <rect x="286.6" y="143.0" width="2.3" height="5.0" fill="#f0f7fd" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-4">
+        <rect x="288.8" y="143.0" width="2.3" height="5.0" fill="#eef5fc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-5">
+        <rect x="291.0" y="143.0" width="2.3" height="5.0" fill="#ecf4fb" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-6">
+        <rect x="293.2" y="143.0" width="2.3" height="5.0" fill="#eaf3fb" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-7">
+        <rect x="295.4" y="143.0" width="2.3" height="5.0" fill="#e8f1fa" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-8">
+        <rect x="297.6" y="143.0" width="2.3" height="5.0" fill="#e6f0fa" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-9">
+        <rect x="299.8" y="143.0" width="2.3" height="5.0" fill="#e4eff9" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-10">
+        <rect x="302.0" y="143.0" width="2.3" height="5.0" fill="#e2eef8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-11">
+        <rect x="304.2" y="143.0" width="2.3" height="5.0" fill="#e0ecf8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-12">
+        <rect x="306.4" y="143.0" width="2.3" height="5.0" fill="#deebf7" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-13">
+        <rect x="308.6" y="143.0" width="2.3" height="5.0" fill="#ddeaf6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-14">
+        <rect x="310.8" y="143.0" width="2.3" height="5.0" fill="#dbe8f6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-15">
+        <rect x="313.0" y="143.0" width="2.3" height="5.0" fill="#d9e7f5" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-16">
+        <rect x="315.2" y="143.0" width="2.3" height="5.0" fill="#d7e6f4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-17">
+        <rect x="317.4" y="143.0" width="2.3" height="5.0" fill="#d5e5f4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-18">
+        <rect x="319.6" y="143.0" width="2.3" height="5.0" fill="#d3e3f3" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-19">
+        <rect x="321.8" y="143.0" width="2.3" height="5.0" fill="#d1e2f3" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-20">
+        <rect x="324.0" y="143.0" width="2.3" height="5.0" fill="#cfe1f2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-21">
+        <rect x="326.2" y="143.0" width="2.3" height="5.0" fill="#cddff1" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-22">
+        <rect x="328.4" y="143.0" width="2.3" height="5.0" fill="#cbdef1" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-23">
+        <rect x="330.6" y="143.0" width="2.3" height="5.0" fill="#c9ddf0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-24">
+        <rect x="332.8" y="143.0" width="2.3" height="5.0" fill="#c7dcef" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-25">
+        <rect x="335.0" y="143.0" width="2.3" height="5.0" fill="#c4daee" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-26">
+        <rect x="337.2" y="143.0" width="2.3" height="5.0" fill="#c1d8ee" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-27">
+        <rect x="339.4" y="143.0" width="2.3" height="5.0" fill="#bdd6ec" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-28">
+        <rect x="341.6" y="143.0" width="2.3" height="5.0" fill="#b9d5ec" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-29">
+        <rect x="343.8" y="143.0" width="2.3" height="5.0" fill="#b6d3ea" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-30">
+        <rect x="346.0" y="143.0" width="2.3" height="5.0" fill="#b2d1ea" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-31">
+        <rect x="348.2" y="143.0" width="2.3" height="5.0" fill="#aecfe8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-32">
+        <rect x="350.4" y="143.0" width="2.3" height="5.0" fill="#abcee8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-33">
+        <rect x="352.6" y="143.0" width="2.3" height="5.0" fill="#a7cce6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-34">
+        <rect x="354.8" y="143.0" width="2.3" height="5.0" fill="#a3cae6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-35">
+        <rect x="357.0" y="143.0" width="2.3" height="5.0" fill="#a0c8e4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-36">
+        <rect x="359.2" y="143.0" width="2.3" height="5.0" fill="#9cc6e4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-37">
+        <rect x="361.4" y="143.0" width="2.3" height="5.0" fill="#98c4e2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-38">
+        <rect x="363.6" y="143.0" width="2.3" height="5.0" fill="#95c3e2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-39">
+        <rect x="365.8" y="143.0" width="2.3" height="5.0" fill="#91c1e0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-40">
+        <rect x="368.0" y="143.0" width="2.3" height="5.0" fill="#8ebfe0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-41">
+        <rect x="370.2" y="143.0" width="2.3" height="5.0" fill="#8abdde" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-42">
+        <rect x="372.4" y="143.0" width="2.3" height="5.0" fill="#86bcde" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-43">
+        <rect x="374.6" y="143.0" width="2.3" height="5.0" fill="#83badc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-44">
+        <rect x="376.8" y="143.0" width="2.3" height="5.0" fill="#7fb8dc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-45">
+        <rect x="379.0" y="143.0" width="2.3" height="5.0" fill="#7bb6da" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-46">
+        <rect x="381.2" y="143.0" width="2.3" height="5.0" fill="#78b4da" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-47">
+        <rect x="383.4" y="143.0" width="2.3" height="5.0" fill="#74b2d8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-48">
+        <rect x="385.6" y="143.0" width="2.3" height="5.0" fill="#70b1d8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-49">
+        <rect x="387.8" y="143.0" width="2.3" height="5.0" fill="#6dafd6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-50">
+        <rect x="390.0" y="143.0" width="2.3" height="5.0" fill="#6aadd5" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-51">
+        <rect x="392.2" y="143.0" width="2.3" height="5.0" fill="#67aad4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-52">
+        <rect x="394.4" y="143.0" width="2.3" height="5.0" fill="#64a8d3" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-53">
+        <rect x="396.6" y="143.0" width="2.3" height="5.0" fill="#61a5d1" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-54">
+        <rect x="398.8" y="143.0" width="2.3" height="5.0" fill="#5ea3d0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-55">
+        <rect x="401.0" y="143.0" width="2.3" height="5.0" fill="#5ba1cf" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-56">
+        <rect x="403.2" y="143.0" width="2.3" height="5.0" fill="#589ecd" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-57">
+        <rect x="405.4" y="143.0" width="2.3" height="5.0" fill="#559ccc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-58">
+        <rect x="407.6" y="143.0" width="2.3" height="5.0" fill="#5299cb" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-59">
+        <rect x="409.8" y="143.0" width="2.3" height="5.0" fill="#4f97c9" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-60">
+        <rect x="412.0" y="143.0" width="2.3" height="5.0" fill="#4c94c8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-61">
+        <rect x="414.2" y="143.0" width="2.3" height="5.0" fill="#4992c7" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-62">
+        <rect x="416.4" y="143.0" width="2.3" height="5.0" fill="#4690c6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-63">
+        <rect x="418.6" y="143.0" width="2.3" height="5.0" fill="#438dc4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-64">
+        <rect x="420.8" y="143.0" width="2.3" height="5.0" fill="#408bc3" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-65">
+        <rect x="423.0" y="143.0" width="2.3" height="5.0" fill="#3d88c2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-66">
+        <rect x="425.2" y="143.0" width="2.3" height="5.0" fill="#3a86c0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-67">
+        <rect x="427.4" y="143.0" width="2.3" height="5.0" fill="#3783bf" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-68">
+        <rect x="429.6" y="143.0" width="2.3" height="5.0" fill="#3481be" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-69">
+        <rect x="431.8" y="143.0" width="2.3" height="5.0" fill="#317ebc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-70">
+        <rect x="434.0" y="143.0" width="2.3" height="5.0" fill="#2e7cbb" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-71">
+        <rect x="436.2" y="143.0" width="2.3" height="5.0" fill="#2b7aba" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-72">
+        <rect x="438.4" y="143.0" width="2.3" height="5.0" fill="#2877b8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-73">
+        <rect x="440.6" y="143.0" width="2.3" height="5.0" fill="#2575b7" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-74">
+        <rect x="442.8" y="143.0" width="2.3" height="5.0" fill="#2272b6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-75">
+        <rect x="445.0" y="143.0" width="2.3" height="5.0" fill="#2070b4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-76">
+        <rect x="447.2" y="143.0" width="2.3" height="5.0" fill="#206db1" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-77">
+        <rect x="449.4" y="143.0" width="2.3" height="5.0" fill="#1e6aae" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-78">
+        <rect x="451.6" y="143.0" width="2.3" height="5.0" fill="#1d68ab" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-79">
+        <rect x="453.8" y="143.0" width="2.3" height="5.0" fill="#1c65a8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-80">
+        <rect x="456.0" y="143.0" width="2.3" height="5.0" fill="#1b63a5" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-81">
+        <rect x="458.2" y="143.0" width="2.3" height="5.0" fill="#1b60a2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-82">
+        <rect x="460.4" y="143.0" width="2.3" height="5.0" fill="#1a5e9f" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-83">
+        <rect x="462.6" y="143.0" width="2.3" height="5.0" fill="#195b9c" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-84">
+        <rect x="464.8" y="143.0" width="2.3" height="5.0" fill="#185899" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-85">
+        <rect x="467.0" y="143.0" width="2.3" height="5.0" fill="#165696" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-86">
+        <rect x="469.2" y="143.0" width="2.3" height="5.0" fill="#165393" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-87">
+        <rect x="471.4" y="143.0" width="2.3" height="5.0" fill="#145090" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-88">
+        <rect x="473.6" y="143.0" width="2.3" height="5.0" fill="#144e8d" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-89">
+        <rect x="475.8" y="143.0" width="2.3" height="5.0" fill="#124b8a" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-90">
+        <rect x="478.0" y="143.0" width="2.3" height="5.0" fill="#114987" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-91">
+        <rect x="480.2" y="143.0" width="2.3" height="5.0" fill="#104684" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-92">
+        <rect x="482.4" y="143.0" width="2.3" height="5.0" fill="#0f4381" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-93">
+        <rect x="484.6" y="143.0" width="2.3" height="5.0" fill="#0e417e" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-94">
+        <rect x="486.8" y="143.0" width="2.3" height="5.0" fill="#0e3e7b" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-95">
+        <rect x="489.0" y="143.0" width="2.3" height="5.0" fill="#0d3c78" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-96">
+        <rect x="491.2" y="143.0" width="2.3" height="5.0" fill="#0c3975" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-97">
+        <rect x="493.4" y="143.0" width="2.3" height="5.0" fill="#0b3772" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-98">
+        <rect x="495.6" y="143.0" width="2.3" height="5.0" fill="#0a346f" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-99">
+        <rect x="497.8" y="143.0" width="2.3" height="5.0" fill="#08316c" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-title">
+        <text x="140.0" y="148.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">R@1 mean (%)</text>
+      </g>
+      <g id="color-tick-0">
+        <text x="280.0" y="160.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">0</text>
+      </g>
+      <g id="color-tick-25">
+        <text x="335.0" y="160.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">25</text>
+      </g>
+      <g id="color-tick-50">
+        <text x="390.0" y="160.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">50</text>
+      </g>
+      <g id="color-tick-75">
+        <text x="445.0" y="160.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">75</text>
+      </g>
+      <g id="color-tick-100">
+        <text x="500.0" y="160.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">100</text>
+      </g>
+    </g>
+  </g>
+  <g id="panel-b-map" inkscape:groupmode="layer" inkscape:label="panel-b-map">
+    <g id="panel-b-title">
+      <text x="16.0" y="184.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#222222" text-anchor="start">(b) Official mAP (%)</text>
+    </g>
+    <g id="grid-0">
+      <line x1="140.0" y1="197.0" x2="140.0" y2="293.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-0">
+      <text x="140.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">0</text>
+    </g>
+    <g id="grid-20">
+      <line x1="212.0" y1="197.0" x2="212.0" y2="293.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-20">
+      <text x="212.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">20</text>
+    </g>
+    <g id="grid-40">
+      <line x1="284.0" y1="197.0" x2="284.0" y2="293.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-40">
+      <text x="284.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">40</text>
+    </g>
+    <g id="grid-60">
+      <line x1="356.0" y1="197.0" x2="356.0" y2="293.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-60">
+      <text x="356.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">60</text>
+    </g>
+    <g id="grid-80">
+      <line x1="428.0" y1="197.0" x2="428.0" y2="293.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-80">
+      <text x="428.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">80</text>
+    </g>
+    <g id="grid-100">
+      <line x1="500.0" y1="197.0" x2="500.0" y2="293.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-100">
+      <text x="500.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">100</text>
+    </g>
+    <g id="task-0">
+      <text x="133.0" y="215.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Drone → satellite</text>
+    </g>
+    <g id="interval-0-visual" data-task="university1652_drone_to_satellite" data-variant="visual" data-mean="43.652590115865074" data-sd="0.950125157569127">
+      <title>Drone → satellite; Visual: 43.652590 ± 0.950125%</title>
+      <line x1="293.7" y1="203.0" x2="300.6" y2="203.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="293.7" y1="201.0" x2="293.7" y2="205.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="300.6" y1="201.0" x2="300.6" y2="205.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="297.1" cy="203.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-0-content" data-task="university1652_drone_to_satellite" data-variant="content" data-mean="1.787887265284856" data-sd="0.014873346970343357">
+      <title>Drone → satellite; Content: 1.787887 ± 0.014873%</title>
+      <line x1="146.4" y1="207.0" x2="146.5" y2="207.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="146.4" y1="205.0" x2="146.4" y2="209.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="146.5" y1="205.0" x2="146.5" y2="209.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="144.4" y="205.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-0-style" data-task="university1652_drone_to_satellite" data-variant="style" data-mean="1.1549685150384903" data-sd="0.008945278645138176">
+      <title>Drone → satellite; Style: 1.154969 ± 0.008945%</title>
+      <line x1="144.1" y1="211.0" x2="144.2" y2="211.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="144.1" y1="209.0" x2="144.1" y2="213.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="144.2" y1="209.0" x2="144.2" y2="213.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="144.2,208.3 146.9,213.0 141.5,213.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-0-visual_content" data-task="university1652_drone_to_satellite" data-variant="visual_content" data-mean="38.620988527933754" data-sd="0.28750569100230916">
+      <title>Drone → satellite; Visual + content: 38.620989 ± 0.287506%</title>
+      <line x1="278.0" y1="215.0" x2="280.1" y2="215.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="278.0" y1="213.0" x2="278.0" y2="217.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="280.1" y1="213.0" x2="280.1" y2="217.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="279.0,212.3 281.7,215.0 279.0,217.7 276.3,215.0" fill="#378183" />
+    </g>
+    <g id="interval-0-visual_style" data-task="university1652_drone_to_satellite" data-variant="visual_style" data-mean="37.24586764971415" data-sd="0.3135300587720807">
+      <title>Drone → satellite; Visual + style: 37.245868 ± 0.313530%</title>
+      <line x1="273.0" y1="219.0" x2="275.2" y2="219.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="273.0" y1="217.0" x2="273.0" y2="221.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="275.2" y1="217.0" x2="275.2" y2="221.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="274.1,221.7 276.8,217.0 271.4,217.0" fill="#b5678e" />
+    </g>
+    <g id="interval-0-full" data-task="university1652_drone_to_satellite" data-variant="full" data-mean="38.44814797242483" data-sd="0.26924375702802644">
+      <title>Drone → satellite; Full: 38.448148 ± 0.269244%</title>
+      <line x1="277.4" y1="223.0" x2="279.4" y2="223.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="277.4" y1="221.0" x2="277.4" y2="225.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="279.4" y1="221.0" x2="279.4" y2="225.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="275.9" y1="223.0" x2="280.9" y2="223.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="278.4" y1="220.5" x2="278.4" y2="225.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+    <g id="task-1">
+      <text x="133.0" y="247.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → drone</text>
+    </g>
+    <g id="interval-1-visual" data-task="university1652_satellite_to_drone" data-variant="visual" data-mean="35.61984797318777" data-sd="1.323648652072696">
+      <title>Satellite → drone; Visual: 35.619848 ± 1.323649%</title>
+      <line x1="263.5" y1="235.0" x2="273.0" y2="235.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="263.5" y1="233.0" x2="263.5" y2="237.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="273.0" y1="233.0" x2="273.0" y2="237.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="268.2" cy="235.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-1-content" data-task="university1652_satellite_to_drone" data-variant="content" data-mean="0.7400127282987038" data-sd="0.00496780735532028">
+      <title>Satellite → drone; Content: 0.740013 ± 0.004968%</title>
+      <line x1="142.6" y1="239.0" x2="142.7" y2="239.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="142.6" y1="237.0" x2="142.6" y2="241.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="142.7" y1="237.0" x2="142.7" y2="241.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="140.7" y="237.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-1-style" data-task="university1652_satellite_to_drone" data-variant="style" data-mean="0.32551079833259183" data-sd="0.004137540977973238">
+      <title>Satellite → drone; Style: 0.325511 ± 0.004138%</title>
+      <line x1="141.2" y1="243.0" x2="141.2" y2="243.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="141.2" y1="241.0" x2="141.2" y2="245.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="141.2" y1="241.0" x2="141.2" y2="245.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="141.2,240.3 143.9,245.0 138.5,245.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-1-visual_content" data-task="university1652_satellite_to_drone" data-variant="visual_content" data-mean="29.09959654013316" data-sd="0.4093167170281946">
+      <title>Satellite → drone; Visual + content: 29.099597 ± 0.409317%</title>
+      <line x1="243.3" y1="247.0" x2="246.2" y2="247.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="243.3" y1="245.0" x2="243.3" y2="249.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="246.2" y1="245.0" x2="246.2" y2="249.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="244.8,244.3 247.5,247.0 244.8,249.7 242.1,247.0" fill="#378183" />
+    </g>
+    <g id="interval-1-visual_style" data-task="university1652_satellite_to_drone" data-variant="visual_style" data-mean="28.551138440767925" data-sd="0.6059607564741735">
+      <title>Satellite → drone; Visual + style: 28.551138 ± 0.605961%</title>
+      <line x1="240.6" y1="251.0" x2="245.0" y2="251.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="240.6" y1="249.0" x2="240.6" y2="253.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="245.0" y1="249.0" x2="245.0" y2="253.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="242.8,253.7 245.5,249.0 240.1,249.0" fill="#b5678e" />
+    </g>
+    <g id="interval-1-full" data-task="university1652_satellite_to_drone" data-variant="full" data-mean="28.97019386291504" data-sd="0.2696274672925815">
+      <title>Satellite → drone; Full: 28.970194 ± 0.269627%</title>
+      <line x1="243.3" y1="255.0" x2="245.3" y2="255.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="243.3" y1="253.0" x2="243.3" y2="257.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="245.3" y1="253.0" x2="245.3" y2="257.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="241.8" y1="255.0" x2="246.8" y2="255.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="244.3" y1="252.5" x2="244.3" y2="257.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+    <g id="task-2">
+      <text x="133.0" y="279.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Street → satellite</text>
+    </g>
+    <g id="interval-2-visual" data-task="university1652_street_to_satellite" data-variant="visual" data-mean="1.9064865385492642" data-sd="0.2084809265658298">
+      <title>Street → satellite; Visual: 1.906487 ± 0.208481%</title>
+      <line x1="146.1" y1="267.0" x2="147.6" y2="267.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="146.1" y1="265.0" x2="146.1" y2="269.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="147.6" y1="265.0" x2="147.6" y2="269.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="146.9" cy="267.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-2-content" data-task="university1652_street_to_satellite" data-variant="content" data-mean="0.6699835881590843" data-sd="0.019618581671756057">
+      <title>Street → satellite; Content: 0.669984 ± 0.019619%</title>
+      <line x1="142.3" y1="271.0" x2="142.5" y2="271.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="142.3" y1="269.0" x2="142.3" y2="273.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="142.5" y1="269.0" x2="142.5" y2="273.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="140.4" y="269.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-2-style" data-task="university1652_street_to_satellite" data-variant="style" data-mean="0.4315224165717761" data-sd="0.02968684242091861">
+      <title>Street → satellite; Style: 0.431522 ± 0.029687%</title>
+      <line x1="141.4" y1="275.0" x2="141.7" y2="275.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="141.4" y1="273.0" x2="141.4" y2="277.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="141.7" y1="273.0" x2="141.7" y2="277.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="141.6,272.3 144.3,277.0 138.9,277.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-2-visual_content" data-task="university1652_street_to_satellite" data-variant="visual_content" data-mean="2.324067118267218" data-sd="0.2300642909673789">
+      <title>Street → satellite; Visual + content: 2.324067 ± 0.230064%</title>
+      <line x1="147.5" y1="279.0" x2="149.2" y2="279.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="147.5" y1="277.0" x2="147.5" y2="281.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="149.2" y1="277.0" x2="149.2" y2="281.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="148.4,276.3 151.1,279.0 148.4,281.7 145.7,279.0" fill="#378183" />
+    </g>
+    <g id="interval-2-visual_style" data-task="university1652_street_to_satellite" data-variant="visual_style" data-mean="2.2730822985370955" data-sd="0.12726054314146856">
+      <title>Street → satellite; Visual + style: 2.273082 ± 0.127261%</title>
+      <line x1="147.7" y1="283.0" x2="148.6" y2="283.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="147.7" y1="281.0" x2="147.7" y2="285.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="148.6" y1="281.0" x2="148.6" y2="285.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="148.2,285.7 150.9,281.0 145.5,281.0" fill="#b5678e" />
+    </g>
+    <g id="interval-2-full" data-task="university1652_street_to_satellite" data-variant="full" data-mean="2.2666748613119125" data-sd="0.10963966449707996">
+      <title>Street → satellite; Full: 2.266675 ± 0.109640%</title>
+      <line x1="147.8" y1="287.0" x2="148.6" y2="287.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="147.8" y1="285.0" x2="147.8" y2="289.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="148.6" y1="285.0" x2="148.6" y2="289.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="145.7" y1="287.0" x2="150.7" y2="287.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="148.2" y1="284.5" x2="148.2" y2="289.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+  </g>
+  <g id="legend" inkscape:groupmode="layer" inkscape:label="legend">
+    <g id="legend-visual">
+      <circle cx="146.0" cy="326.0" r="2.0" fill="#484878" />
+      <g id="label-0">
+        <text x="155.0" y="328.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Visual</text>
+      </g>
+    </g>
+    <g id="legend-content">
+      <rect x="262.0" y="324.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+      <g id="label-1">
+        <text x="273.0" y="328.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Content</text>
+      </g>
+    </g>
+    <g id="legend-style">
+      <polygon points="382.0,323.3 384.7,328.0 379.3,328.0" fill="#7b6a91" />
+      <g id="label-2">
+        <text x="391.0" y="328.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Style</text>
+      </g>
+    </g>
+    <g id="legend-visual_content">
+      <polygon points="146.0,339.3 148.7,342.0 146.0,344.7 143.3,342.0" fill="#378183" />
+      <g id="label-3">
+        <text x="155.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Visual + content</text>
+      </g>
+    </g>
+    <g id="legend-visual_style">
+      <polygon points="264.0,344.7 266.7,340.0 261.3,340.0" fill="#b5678e" />
+      <g id="label-4">
+        <text x="273.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Visual + style</text>
+      </g>
+    </g>
+    <g id="legend-full">
+      <line x1="379.5" y1="342.0" x2="384.5" y2="342.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="382.0" y1="339.5" x2="382.0" y2="344.5" stroke="#0f4d92" stroke-width="1.8" />
+      <g id="label-5">
+        <text x="391.0" y="344.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Full</text>
+      </g>
+    </g>
+  </g>
+  <g id="notes" inkscape:groupmode="layer" inkscape:label="notes">
+    <g id="statistics">
+      <text x="16.0" y="366.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Cells and points show mean ± sample SD over seeds 1, 2 and 3.</text>
+    </g>
+    <g id="metric-definition">
+      <text x="16.0" y="380.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Official mAP uses the dataset protocol; retrieval tasks are not pooled.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+{
+  "schema_version": "formal-retrieval-v1",
+  "status": "completed",
+  "completed_utc": "2026-07-28T09:54:45.772240+00:00",
+  "run_config_sha256": "8cdefb5d62290467075d9a120b3ab664b343202c19480a68a3c8430e4ce85871",
+  "epochs_completed": 80,
+  "best_epoch": 79,
+  "best_validation_mAP": null,
+  "total_training_seconds": 2836.692053899984,
+  "sample_scale": {
+    "split_kind": "fixed_schedule_all_official_train_identities",
+    "holdout_seed": 3,
+    "holdout_fraction": 0.0,
+    "official_train_identity_count": 701,
+    "fit_identity_count": 701,
+    "validation_identity_count": 0,
+    "fit_query_image_count": 40513,
+    "fit_gallery_image_count": 701,
+    "validation_tasks": {},
+    "official_test_images_used_by_train_or_validation": 0,
+    "fit_identity_sha256": "7b2528d2920f7062f337b884825dd2de1de967810cac67ec516b10e5f995057e",
+    "validation_identity_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "dependencies_and_device": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "torch": "2.11.0+cu126",
+      "torchvision": "0.26.0+cu126"
+    },
+    "torch_cuda_available": true,
+    "device": {
+      "requested_or_selected": "cuda",
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "total_memory_bytes": 8585216000,
+      "compute_capability": "8.9",
+      "cuda_runtime": "12.6",
+      "cudnn": 91002,
+      "device_index": 0
+    }
+  },
+  "artifacts": {
+    "run_config.json": {
+      "sha256": "e443ba768bc64c3cee4fc867191f10a9658727610d244077a7b05f2bedc54472",
+      "bytes": 16911
+    },
+    "history.json": {
+      "sha256": "3864b3ba91c58bbe61d109c59d2fc117651222ac929b7fb92d555dc66709d3d1",
+      "bytes": 34084
+    },
+    "last.pt": {
+      "sha256": "f3f30eb5a8650954e09b605bab5fe1b0b382f8e0b509c49a37a5d9271541b865",
+      "bytes": 3288177
+    },
+    "best.pt": {
+      "sha256": "f3f30eb5a8650954e09b605bab5fe1b0b382f8e0b509c49a37a5d9271541b865",
+      "bytes": 3288177
+    },
+    "run.log": {
+      "sha256": "7c1d9a3e2eddcb4c05a6c67a855ad489433737f9640804b5e0f7087c637110d2",
+      "bytes": 10370
+    }
+  },
+  "test_protocol_was_evaluated": false,
+  "note": "The train subcommand used all official training identities for a pre-specified fixed epoch schedule; best.pt is the final completed epoch and no validation or test metric selected it.",
+  "payload_sha256": "c5faa7fbc21972cc8a452bb9007227a2bef9b793d1aae3f5edd4de3fb9bee259"
+}

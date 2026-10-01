@@ -1,0 +1,88 @@
+\section{Semantic-Model Results}
+\label{sec:semantic-results}
+
+The completed fixed-protocol evaluation covers 42 completed training runs
+and 231 run--task evaluations: 36 main fits across six input configurations,
+two datasets and three seeds, plus six seed-1 sensitivity fits. The main
+comparisons retain all 11 official tasks, including Street2S and each SUES-200
+height and retrieval direction. Task-level summaries weight seeds 1, 2 and 3
+equally and report their sample standard deviation (SD), not a confidence
+interval. No overall score pools tasks, directions or heights.
+
+\subsection{Official Retrieval Across Input Configurations}
+
+Tables~\ref{tab:semantic-r1} and \ref{tab:semantic-map} report all six
+configurations. Full has lower mean R@1 and official trapezoidal mAP than
+Visual on 10 of the 11 tasks. For University-1652 D2S, mean R@1 is
+32.300\% for Full and 37.864\% for Visual; for S2D, it is 44.175\% and
+54.303\%, respectively. All eight SUES-200 tasks have the same direction
+of difference for both metrics. Street2S is the exception: Full reaches
+0.969\% R@1 and 2.267\% mAP, compared with 0.788\% and 1.906\% for
+Visual. Its low absolute performance remains material to the interpretation.
+These descriptive comparisons do not support a general retrieval-accuracy
+advantage for the frozen Full configuration.
+
+\input{tables/evidence_20260930/official_r1.tex}
+\input{tables/evidence_20260930/official_map.tex}
+
+The content-only and style-only columns retain the standalone vocabulary
+results, while V+C and V+S retain both partial combinations. The complete
+matrix permits comparison of the observed input configurations without
+selecting favorable tasks or seeds. The additional ResNet-50 and
+256/1024-dimensional Full settings are reported with the corresponding
+512-dimensional seed-1 reference in the supplementary material. Each
+sensitivity setting has one fit per dataset; these are not three-seed
+estimates or capacity-matched causal tests of semantic information.
+
+\subsection{Cross-Dataset Transfer}
+
+The transfer evaluation reuses Visual and Full from three source-training
+seeds in both dataset directions, giving 12 source-model evaluations and
+66 seed--task records. University-1652-trained models are evaluated on the
+eight SUES-200 target tasks; SUES-200-trained models are evaluated on the
+three University-1652 tasks. Training-dataset direction is distinct from
+the target task's query-to-gallery direction.
+
+Table~\ref{tab:semantic-transfer} retains all 22 task--variant groups and
+their R@1, official mAP and MRR summaries. Full has lower mean R@1 in all
+11 target tasks. Mean mAP and MRR are also lower except for the
+SUES-200-to-University-1652 Street2S task, where the saved Full-minus-Visual
+differences are 0.040 percentage points for mAP and 0.105 scaled MRR
+points. Full Street2S R@1 is 0.233\% with an actual sample SD of zero,
+compared with 0.258\% for Visual. The small positive rank-sensitive
+differences do not establish a transfer advantage or statistical significance.
+
+\input{tables/evidence_20260930/transfer_all_tasks.tex}
+
+\subsection{Query Corruption and Conditional Diagnostics}
+
+The corruption block evaluates Visual and Full at seed 1 under six
+transformation families and five severities on all 11 tasks, with clean
+galleries. It contains 660 corrupted task evaluations and 22 clean
+task--variant references. The retained-percentage curves use
+$100\,m_{\mathrm{corrupt}}/m_{\mathrm{clean}}$ with each variant's own clean
+metric. Higher retention therefore does not imply higher absolute corrupted
+accuracy. Values above 100\% remain valid observations, and the analysis is
+descriptive without multi-seed SD or significance claims. For Full, clean
+evaluation uses cached CLIP evidence whereas corrupted queries use online
+CLIP evidence; the comparison includes this evidence-path change as well as
+pixel perturbation. The 64-image clean diagnostic did not impose a numerical
+equivalence gate.
+
+The clean-query diagnostics address a different question: how retrieval
+outcomes vary with the margin between the leading two cosine scores. T4
+uses the same Visual-defined margin-quartile membership for Visual and
+Full in each task and seed. Of its 132 margin strata, the 48 SUES-200
+satellite-to-UAV strata contain 20 queries each and are descriptive under
+the registered minimum of 100 queries. This is a Visual-anchored conditional
+comparison, not a causal explanation of the overall differences.
+
+T5 instead lets each variant select its own margin-ranked subset. Selective
+risk is one minus R@1 among the selected queries; coverage-constrained
+success divides selected-and-correct queries by the common full query count.
+Equal selected counts do not imply equal memberships. The saved all-prefix
+AURC is distinct from an area inferred from ten displayed coverage points.
+The fixed normalized margin score and its ECE diagnostic do not establish
+posterior probabilities or fitted calibration. These conditional diagnostics
+do not replace the official and transfer comparisons above. The
+supplementary material specifies their denominators and evidence limits.

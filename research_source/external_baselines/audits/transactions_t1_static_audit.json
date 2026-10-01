@@ -1,0 +1,104 @@
+{
+  "dataset": {
+    "class_count": 701,
+    "class_ids_sha256": "5fe2428c97e7ed2c4640c16f5b7244cb949526bf07e865507899b75b7b29d6ac",
+    "content_inventory": {
+      "file_count": 41214,
+      "mode": "content",
+      "relative_path_prefix": "train",
+      "sha256": "61852ee531d095ae4fd7507c12555fe9cac130df84a1308cacf00b2ca97bf3a6",
+      "total_bytes": 2670030871
+    },
+    "image_counts": {
+      "drone": 37854,
+      "satellite": 701,
+      "street": 2659
+    },
+    "train_root": "C:\\\u9879\u76ee\\IMTMN\\datasets\\University-1652\\train",
+    "views": [
+      "satellite",
+      "street",
+      "drone"
+    ]
+  },
+  "environment_lock_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\external_baselines\\transactions_environment_lock.json",
+  "environment_lock_payload_sha256": "54bf50de942ee9759f262a0b3fd9173a37752451f10ee0ed5529d9ab101beef6",
+  "environment_lock_sha256": "3c2b176e8c1bd706e0afa0f9f0bd62d73669549e47f16b2f1338ce05a4e8a087",
+  "interpreters": {
+    "mccg": "C:\\\u9879\u76ee\\.venvs\\lgm-mccg\\Scripts\\python.exe",
+    "qdfl_framework": "C:\\\u9879\u76ee\\.venvs\\lgm-transactions\\Scripts\\python.exe"
+  },
+  "matrix_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\external_baselines\\transactions_t1_matrix.json",
+  "matrix_sha256": "430475beeef2c81efd613c4fa61c2ea307583e63e398774cb5c94221d648d8dd",
+  "official_evaluation_code": {
+    "mccg_official_evaluation.py": {
+      "bytes": 26653,
+      "path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\external_baselines\\mccg_official_evaluation.py",
+      "sha256": "5f09ca925a76c544bd78884b234d47158764c3c41b756914d7358d95a35cc771"
+    },
+    "official_descriptor_evaluation.py": {
+      "bytes": 48472,
+      "path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\external_baselines\\official_descriptor_evaluation.py",
+      "sha256": "a2667a5ef803ce49c2d92f2b0c98f03185766f84fd673b02c3a409a5b51d0b7d"
+    },
+    "qdfl_official_evaluation.py": {
+      "bytes": 29458,
+      "path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\external_baselines\\qdfl_official_evaluation.py",
+      "sha256": "b313dadd8770b28e83be79e9ea35cad599840abc1de6cb10b64e1ff029677151"
+    }
+  },
+  "protocol_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\TRANSACTIONS_EXTENSION_PROTOCOL.md",
+  "protocol_sha256": "76b0b29ce7a09710dd8e4495f1fbed36eef2fddce148ad463d83fb115e8a2f4b",
+  "registered_run_count": 7,
+  "runner_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\external_baselines\\run_transactions_t1_matrix.py",
+  "runner_sha256": "865c8bdd61693007a3f73ce672408767617f4855228aaee2e3a5ef2310079cd7",
+  "schema_version": "lgm-game.transactions-t1-static-audit.v1",
+  "sources": {
+    "mccg": {
+      "patch_manifest_path": "C:\\\u9879\u76ee\\LGM-GAME-External-Baseline-Work\\patched_sources\\mccg-e1c51b01-adapter-v2.patch_manifest.json",
+      "patch_manifest_sha256": "3d9c8dffbeb5b6ea7a9fdf3064988b248d427b49d53cf0bec0a3201899c9059d",
+      "patch_plan_sha256": "a7e40504f5fd3c154be23bb61aabc5e37e8311b036c27d8d6b3d44f34e1fcf69",
+      "source_file_count": 54,
+      "source_root": "C:\\\u9879\u76ee\\LGM-GAME-External-Baseline-Work\\patched_sources\\mccg-e1c51b01-adapter-v2",
+      "source_tree_sha256": "b196be3713b583daa69880952d1289e24ccdccc41e1afa998cb518266da8ccde"
+    },
+    "qdfl": {
+      "patch_manifest_path": "C:\\\u9879\u76ee\\LGM-GAME-External-Baseline-Work\\patched_sources\\qdfl-627296d5-adapter-v4.patch_manifest.json",
+      "patch_manifest_sha256": "47e9084b979f987fac69ae1cb26c518a04e4af8ace27502e665359497cfe499b",
+      "patch_plan_sha256": "207fad544d5872ef41b4df8707982b99d712834127f3eea2242294550a021064",
+      "source_file_count": 108,
+      "source_root": "C:\\\u9879\u76ee\\LGM-GAME-External-Baseline-Work\\patched_sources\\qdfl-627296d5-adapter-v4",
+      "source_tree_sha256": "99cd2ffe01f5e4faac28dd216a342674c90d08eaf529066f4954c5cf86ab06a3"
+    }
+  },
+  "status": "static_inputs_verified",
+  "weight_registry_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\external_baselines\\transactions_weight_registry.json",
+  "weight_registry_sha256": "4a01bd968118de1609b1653e3d2b3c4ba915b9ca808044880c44dd1993149f23",
+  "weights": {
+    "convnext_base_22k_1k_224": {
+      "bytes": 354476359,
+      "path": "C:\\\u9879\u76ee\\LGM-GAME-External-Baseline-Work\\weights\\convnext_base_22k_1k_224.pth",
+      "sha256": "8afbd1fa254629e6db80df9822908a83c741bfe98778f58851a15c1639a80453"
+    },
+    "dinov2_vitb14": {
+      "bytes": 346378731,
+      "path": "C:\\\u9879\u76ee\\LGM-GAME-External-Baseline-Work\\weights\\dinov2_vitb14_pretrain.pth",
+      "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+    },
+    "fsra_vit_base": {
+      "bytes": 346292833,
+      "path": "C:\\\u9879\u76ee\\LGM-GAME-External-Baseline-Work\\weights\\jx_vit_base_p16_224-80ecf9dd.pth",
+      "sha256": "80ecf9dd5e3a58895e959af554c5666c4e7b4da4410de4f1f2b0025e93435d8c"
+    },
+    "mccg_convnext_tiny_22k_1k_224": {
+      "bytes": 114414741,
+      "path": "C:\\\u9879\u76ee\\LGM-GAME-External-Baseline-Work\\weights\\convnext_tiny_22k_1k_224.pth",
+      "sha256": "7ff80975b63ddbd30cdeb2f5c4b02ed537b1ba3f790d489817b7188fb2c3107a"
+    },
+    "swin_v2_b_imagenet1k_v1": {
+      "bytes": 352711377,
+      "path": "C:\\\u9879\u76ee\\LGM-GAME-External-Baseline-Work\\weights\\swin_v2_b-781e5279.pth",
+      "sha256": "781e527929786d129968a5de1d494f7d3d4daba99610f7df2c575ae98df77648"
+    }
+  }
+}

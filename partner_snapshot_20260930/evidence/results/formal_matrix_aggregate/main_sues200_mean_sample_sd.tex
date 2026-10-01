@@ -1,0 +1,68 @@
+\begin{table*}[t]
+\centering
+\caption{Frozen main-matrix results on SUES-200, reported task by task. All cells are mean $\pm$ sample SD over the three frozen seeds. No macro or duplicate overall/subset average is formed.}
+\label{tab:formal_main_sues200}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrr}
+\toprule
+Task & Variant & R@1 & R@5 & R@10 & R@20 & Official mAP \\
+\midrule
+UAV 150\,m$\rightarrow$Satellite & Visual & 35.56\pm2.77 & 72.83\pm2.23 & 84.50\pm1.78 & 92.41\pm2.13 & 43.90\pm2.63 \\
+UAV 150\,m$\rightarrow$Satellite & Content & 1.76\pm0.03 & 12.22\pm0.69 & 21.92\pm0.62 & 38.43\pm0.59 & 5.28\pm0.03 \\
+UAV 150\,m$\rightarrow$Satellite & Style & 0.18\pm0.03 & 2.31\pm0.42 & 6.27\pm0.24 & 13.61\pm0.31 & 1.70\pm0.05 \\
+UAV 150\,m$\rightarrow$Satellite & Visual+Content & 28.02\pm3.84 & 66.33\pm3.30 & 79.67\pm2.19 & 89.67\pm0.44 & 36.68\pm3.68 \\
+UAV 150\,m$\rightarrow$Satellite & Visual+Style & 27.07\pm0.53 & 62.73\pm0.54 & 77.58\pm0.50 & 89.30\pm1.76 & 35.35\pm0.40 \\
+UAV 150\,m$\rightarrow$Satellite & Full & 28.43\pm1.47 & 64.22\pm1.10 & 78.38\pm2.55 & 89.62\pm1.83 & 36.63\pm1.21 \\
+\addlinespace
+Satellite$\rightarrow$UAV 150\,m & Visual & 57.50\pm3.75 & 70.83\pm1.91 & 77.92\pm1.91 & 82.92\pm5.20 & 39.52\pm2.13 \\
+Satellite$\rightarrow$UAV 150\,m & Content & 4.58\pm0.72 & 11.67\pm2.89 & 18.75\pm1.25 & 24.58\pm1.44 & 4.05\pm0.02 \\
+Satellite$\rightarrow$UAV 150\,m & Style & 0.00\pm0.00 & 5.00\pm1.25 & 9.17\pm1.91 & 14.58\pm0.72 & 1.44\pm0.05 \\
+Satellite$\rightarrow$UAV 150\,m & Visual+Content & 44.17\pm5.64 & 57.50\pm3.31 & 63.33\pm1.91 & 70.00\pm2.50 & 30.77\pm1.84 \\
+Satellite$\rightarrow$UAV 150\,m & Visual+Style & 46.67\pm1.91 & 61.25\pm2.50 & 67.92\pm3.15 & 72.50\pm1.25 & 30.89\pm0.38 \\
+Satellite$\rightarrow$UAV 150\,m & Full & 47.92\pm0.72 & 61.25\pm2.17 & 66.67\pm3.15 & 72.08\pm3.15 & 33.18\pm1.15 \\
+\addlinespace
+UAV 200\,m$\rightarrow$Satellite & Visual & 42.98\pm1.66 & 79.50\pm2.41 & 88.99\pm2.35 & 95.15\pm1.48 & 51.07\pm1.31 \\
+UAV 200\,m$\rightarrow$Satellite & Content & 2.42\pm0.04 & 13.39\pm0.57 & 23.06\pm0.40 & 40.47\pm0.99 & 6.07\pm0.04 \\
+UAV 200\,m$\rightarrow$Satellite & Style & 0.12\pm0.03 & 2.57\pm0.39 & 6.86\pm0.49 & 13.48\pm0.48 & 1.67\pm0.08 \\
+UAV 200\,m$\rightarrow$Satellite & Visual+Content & 34.08\pm4.28 & 70.69\pm4.00 & 83.49\pm1.76 & 92.45\pm0.52 & 42.45\pm4.11 \\
+UAV 200\,m$\rightarrow$Satellite & Visual+Style & 35.42\pm0.58 & 67.48\pm0.25 & 81.42\pm0.95 & 92.12\pm2.17 & 42.93\pm0.49 \\
+UAV 200\,m$\rightarrow$Satellite & Full & 33.62\pm1.21 & 68.89\pm0.94 & 82.63\pm1.61 & 92.17\pm1.09 & 41.64\pm0.79 \\
+\addlinespace
+Satellite$\rightarrow$UAV 200\,m & Visual & 63.33\pm2.60 & 80.42\pm5.91 & 83.33\pm5.20 & 88.33\pm2.89 & 48.76\pm1.20 \\
+Satellite$\rightarrow$UAV 200\,m & Content & 6.25\pm1.25 & 12.08\pm0.72 & 15.83\pm1.91 & 22.92\pm1.91 & 4.27\pm0.07 \\
+Satellite$\rightarrow$UAV 200\,m & Style & 0.83\pm0.72 & 3.75\pm0.00 & 7.08\pm1.91 & 8.33\pm0.72 & 1.44\pm0.08 \\
+Satellite$\rightarrow$UAV 200\,m & Visual+Content & 50.42\pm4.73 & 61.67\pm5.05 & 68.75\pm4.51 & 75.42\pm3.61 & 36.59\pm3.13 \\
+Satellite$\rightarrow$UAV 200\,m & Visual+Style & 49.17\pm4.02 & 67.50\pm6.96 & 71.67\pm4.39 & 78.33\pm2.89 & 37.78\pm0.83 \\
+Satellite$\rightarrow$UAV 200\,m & Full & 55.00\pm5.45 & 65.83\pm4.73 & 70.00\pm4.33 & 77.50\pm3.31 & 38.96\pm1.14 \\
+\addlinespace
+UAV 250\,m$\rightarrow$Satellite & Visual & 46.96\pm1.36 & 81.95\pm2.94 & 90.77\pm1.97 & 95.89\pm1.06 & 54.66\pm1.48 \\
+UAV 250\,m$\rightarrow$Satellite & Content & 2.88\pm0.09 & 14.33\pm0.35 & 25.14\pm0.52 & 42.35\pm1.21 & 6.70\pm0.06 \\
+UAV 250\,m$\rightarrow$Satellite & Style & 0.40\pm0.07 & 3.07\pm0.29 & 7.47\pm0.47 & 13.59\pm0.23 & 1.98\pm0.09 \\
+UAV 250\,m$\rightarrow$Satellite & Visual+Content & 37.64\pm4.53 & 72.39\pm3.79 & 84.65\pm2.14 & 93.48\pm0.74 & 45.65\pm4.23 \\
+UAV 250\,m$\rightarrow$Satellite & Visual+Style & 37.91\pm2.23 & 70.50\pm0.75 & 83.48\pm1.33 & 93.33\pm2.12 & 45.46\pm1.91 \\
+UAV 250\,m$\rightarrow$Satellite & Full & 36.69\pm1.65 & 71.80\pm2.74 & 84.55\pm2.69 & 92.89\pm1.72 & 44.59\pm1.59 \\
+\addlinespace
+Satellite$\rightarrow$UAV 250\,m & Visual & 69.17\pm3.15 & 81.25\pm5.73 & 86.67\pm3.61 & 89.58\pm0.72 & 52.30\pm1.57 \\
+Satellite$\rightarrow$UAV 250\,m & Content & 5.83\pm0.72 & 12.08\pm0.72 & 20.42\pm0.72 & 32.50\pm1.25 & 3.72\pm0.11 \\
+Satellite$\rightarrow$UAV 250\,m & Style & 2.08\pm0.72 & 5.00\pm0.00 & 5.83\pm1.44 & 6.67\pm0.72 & 1.56\pm0.08 \\
+Satellite$\rightarrow$UAV 250\,m & Visual+Content & 52.50\pm4.51 & 62.92\pm6.88 & 68.33\pm5.05 & 74.58\pm3.82 & 40.86\pm2.89 \\
+Satellite$\rightarrow$UAV 250\,m & Visual+Style & 55.83\pm2.60 & 70.00\pm2.17 & 75.83\pm4.39 & 82.08\pm5.20 & 40.47\pm0.87 \\
+Satellite$\rightarrow$UAV 250\,m & Full & 57.08\pm4.02 & 69.17\pm4.39 & 75.00\pm2.17 & 78.33\pm3.15 & 42.75\pm1.36 \\
+\addlinespace
+UAV 300\,m$\rightarrow$Satellite & Visual & 49.71\pm0.33 & 83.67\pm2.62 & 91.03\pm2.13 & 95.64\pm0.99 & 57.20\pm0.62 \\
+UAV 300\,m$\rightarrow$Satellite & Content & 3.59\pm0.29 & 17.18\pm0.19 & 29.84\pm0.58 & 47.77\pm0.94 & 7.88\pm0.27 \\
+UAV 300\,m$\rightarrow$Satellite & Style & 0.48\pm0.05 & 3.69\pm0.23 & 8.20\pm0.48 & 13.89\pm0.38 & 2.13\pm0.04 \\
+UAV 300\,m$\rightarrow$Satellite & Visual+Content & 39.97\pm4.19 & 74.29\pm4.99 & 86.21\pm2.47 & 94.49\pm0.73 & 47.79\pm4.14 \\
+UAV 300\,m$\rightarrow$Satellite & Visual+Style & 39.18\pm1.83 & 73.04\pm1.35 & 86.14\pm1.25 & 94.57\pm1.79 & 46.91\pm1.70 \\
+UAV 300\,m$\rightarrow$Satellite & Full & 38.43\pm0.82 & 73.65\pm2.89 & 86.51\pm2.98 & 94.38\pm1.91 & 46.41\pm1.28 \\
+\addlinespace
+Satellite$\rightarrow$UAV 300\,m & Visual & 73.75\pm3.75 & 83.33\pm2.60 & 86.25\pm1.25 & 90.42\pm1.44 & 55.07\pm0.37 \\
+Satellite$\rightarrow$UAV 300\,m & Content & 9.58\pm0.72 & 15.83\pm0.72 & 21.25\pm2.17 & 30.83\pm3.82 & 4.42\pm0.13 \\
+Satellite$\rightarrow$UAV 300\,m & Style & 0.00\pm0.00 & 3.75\pm0.00 & 3.75\pm0.00 & 5.42\pm0.72 & 1.56\pm0.04 \\
+Satellite$\rightarrow$UAV 300\,m & Visual+Content & 58.33\pm2.60 & 63.75\pm3.31 & 70.00\pm3.31 & 77.08\pm5.05 & 44.24\pm4.19 \\
+Satellite$\rightarrow$UAV 300\,m & Visual+Style & 58.75\pm0.00 & 71.67\pm3.82 & 75.83\pm1.91 & 80.83\pm2.89 & 42.52\pm1.21 \\
+Satellite$\rightarrow$UAV 300\,m & Full & 58.33\pm1.44 & 68.33\pm0.72 & 74.58\pm5.64 & 80.42\pm4.02 & 44.50\pm0.65 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

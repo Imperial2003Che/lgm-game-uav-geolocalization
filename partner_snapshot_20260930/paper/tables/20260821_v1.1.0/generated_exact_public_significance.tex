@@ -1,0 +1,18 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Exact query-paired R@1 comparisons against LPN+CA-HRS. Confidence intervals use 10,000 paired bootstrap samples; two-sided exact McNemar tests are Holm-corrected over all 12 directional method pairs.}
+\label{tab:formal-baseline-exact-significance}
+\begin{tabular}{lllrrr}
+\toprule
+Direction & Method A & Method B & $\Delta$R@1 & 95\% CI & $p_{\rm Holm}$ \\
+\midrule
+D2S & Global CNN + Google & LPN + CA-HRS & +15.03 & [+14.57, +15.49] & $<10^{-300}$ \\
+D2S & LPN w/o Google & LPN + CA-HRS & +0.32 & [-0.04, +0.69] & 0.513 \\
+D2S & LPN & LPN + CA-HRS & +0.19 & [-0.16, +0.53] & 1 \\
+S2D & Global CNN + Google & LPN + CA-HRS & +7.85 & [+5.28, +10.41] & $2.86\times10^{-8}$ \\
+S2D & LPN w/o Google & LPN + CA-HRS & +0.43 & [-1.43, +2.43] & 1 \\
+S2D & LPN & LPN + CA-HRS & +0.71 & [-1.57, +3.00] & 1 \\
+\bottomrule
+\end{tabular}
+\end{table*}

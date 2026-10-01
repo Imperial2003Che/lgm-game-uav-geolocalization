@@ -1,0 +1,7 @@
+{
+  "completed_utc": "2026-09-29T05:31:05.310559+00:00",
+  "config_sha256": "d00a5f220eb9a163d6ed7271c9c6e049004e812c2661744f5b678a70ebe5c889",
+  "manifest_sha256": "d0edefec0da353bea1ead924b975967ee4a0df406dd6ee66ec2c6816f39e6508",
+  "schema_version": "lgm-game.cross-dataset-evaluation-status.v1",
+  "status": "completed"
+}

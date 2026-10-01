@@ -1,0 +1,1274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="181.9mm" height="240.3mm" viewBox="0 0 515.6 681" version="1.1" role="img">
+  <title>SUES-200 frozen variant results</title>
+  <desc>R@1 mean and sample SD cells, and official trapezoidal mAP point intervals. Three seeds 1, 2, 3. Each task remains separate.</desc>
+  <g id="background" inkscape:groupmode="layer" inkscape:label="background">
+    <rect x="0.0" y="0.0" width="515.6" height="681.0" fill="white" stroke="none" stroke-width="0.5" />
+  </g>
+  <g id="heading" inkscape:groupmode="layer" inkscape:label="heading">
+    <g id="dataset-title">
+      <text x="16.0" y="16.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#222222" text-anchor="start">SUES-200 frozen variant results</text>
+    </g>
+  </g>
+  <g id="panel-a-r-at-1" inkscape:groupmode="layer" inkscape:label="panel-a-r-at-1">
+    <g id="panel-a-title">
+      <text x="16.0" y="32.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#222222" text-anchor="start">(a) R@1 (%)</text>
+    </g>
+    <g id="column-visual-1">
+      <text x="170.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Visual</text>
+    </g>
+    <g id="column-content-1">
+      <text x="230.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Content</text>
+    </g>
+    <g id="column-style-1">
+      <text x="290.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Style</text>
+    </g>
+    <g id="column-visual_content-1">
+      <text x="350.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Visual</text>
+    </g>
+    <g id="column-visual_content-2">
+      <text x="350.0" y="51.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">+ content</text>
+    </g>
+    <g id="column-visual_style-1">
+      <text x="410.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Visual</text>
+    </g>
+    <g id="column-visual_style-2">
+      <text x="410.0" y="51.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">+ style</text>
+    </g>
+    <g id="column-full-1">
+      <text x="470.0" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">Full</text>
+    </g>
+    <g id="row-0">
+      <text x="133.0" y="71.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">UAV 150 m → satellite</text>
+    </g>
+    <g id="cell-0-visual" data-task="sues200_uav_150m_to_satellite" data-variant="visual" data-mean="35.55833333333334" data-sd="2.766352893853806">
+      <rect x="140.0" y="55.0" width="60.0" height="26.0" fill="#a0c8e4" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-visual">
+        <text x="170.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">35.6</text>
+      </g>
+      <g id="sd-0-visual">
+        <text x="170.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 2.8</text>
+      </g>
+    </g>
+    <g id="cell-0-content" data-task="sues200_uav_150m_to_satellite" data-variant="content" data-mean="1.7583333333333335" data-sd="0.028867513459481187">
+      <rect x="200.0" y="55.0" width="60.0" height="26.0" fill="#f4f9fe" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-content">
+        <text x="230.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">1.8</text>
+      </g>
+      <g id="sd-0-content">
+        <text x="230.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="cell-0-style" data-task="sues200_uav_150m_to_satellite" data-variant="style" data-mean="0.17500000000000002" data-sd="0.02500000000000001">
+      <rect x="260.0" y="55.0" width="60.0" height="26.0" fill="#f7fbff" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-style">
+        <text x="290.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.2</text>
+      </g>
+      <g id="sd-0-style">
+        <text x="290.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="cell-0-visual_content" data-task="sues200_uav_150m_to_satellite" data-variant="visual_content" data-mean="28.016666666666666" data-sd="3.837832504595963">
+      <rect x="320.0" y="55.0" width="60.0" height="26.0" fill="#bbd6ec" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-visual_content">
+        <text x="350.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">28.0</text>
+      </g>
+      <g id="sd-0-visual_content">
+        <text x="350.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 3.8</text>
+      </g>
+    </g>
+    <g id="cell-0-visual_style" data-task="sues200_uav_150m_to_satellite" data-variant="visual_style" data-mean="27.066666666666666" data-sd="0.525793051811579">
+      <rect x="380.0" y="55.0" width="60.0" height="26.0" fill="#bed7ed" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-visual_style">
+        <text x="410.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">27.1</text>
+      </g>
+      <g id="sd-0-visual_style">
+        <text x="410.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.5</text>
+      </g>
+    </g>
+    <g id="cell-0-full" data-task="sues200_uav_150m_to_satellite" data-variant="full" data-mean="28.433333333333334" data-sd="1.468275632615801">
+      <rect x="440.0" y="55.0" width="60.0" height="26.0" fill="#bad5ec" stroke="white" stroke-width="0.5" />
+      <g id="mean-0-full">
+        <text x="470.0" y="65.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">28.4</text>
+      </g>
+      <g id="sd-0-full">
+        <text x="470.0" y="76.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.5</text>
+      </g>
+    </g>
+    <g id="row-1">
+      <text x="133.0" y="97.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → UAV 150 m</text>
+    </g>
+    <g id="cell-1-visual" data-task="sues200_satellite_to_uav_150m" data-variant="visual" data-mean="57.5" data-sd="3.7500000000000036">
+      <rect x="140.0" y="81.0" width="60.0" height="26.0" fill="#559ccc" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-visual">
+        <text x="170.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">57.5</text>
+      </g>
+      <g id="sd-1-visual">
+        <text x="170.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="white" text-anchor="middle">± 3.8</text>
+      </g>
+    </g>
+    <g id="cell-1-content" data-task="sues200_satellite_to_uav_150m" data-variant="content" data-mean="4.583333333333333" data-sd="0.7216878364870322">
+      <rect x="200.0" y="81.0" width="60.0" height="26.0" fill="#eef5fc" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-content">
+        <text x="230.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">4.6</text>
+      </g>
+      <g id="sd-1-content">
+        <text x="230.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.7</text>
+      </g>
+    </g>
+    <g id="cell-1-style" data-task="sues200_satellite_to_uav_150m" data-variant="style" data-mean="0.0" data-sd="0.0">
+      <rect x="260.0" y="81.0" width="60.0" height="26.0" fill="#f7fbff" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-style">
+        <text x="290.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.0</text>
+      </g>
+      <g id="sd-1-style">
+        <text x="290.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.0</text>
+      </g>
+    </g>
+    <g id="cell-1-visual_content" data-task="sues200_satellite_to_uav_150m" data-variant="visual_content" data-mean="44.166666666666664" data-sd="5.636562191028617">
+      <rect x="320.0" y="81.0" width="60.0" height="26.0" fill="#80b8dc" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-visual_content">
+        <text x="350.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">44.2</text>
+      </g>
+      <g id="sd-1-visual_content">
+        <text x="350.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 5.6</text>
+      </g>
+    </g>
+    <g id="cell-1-visual_style" data-task="sues200_satellite_to_uav_150m" data-variant="visual_style" data-mean="46.666666666666664" data-sd="1.9094065395649333">
+      <rect x="380.0" y="81.0" width="60.0" height="26.0" fill="#77b4d9" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-visual_style">
+        <text x="410.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">46.7</text>
+      </g>
+      <g id="sd-1-visual_style">
+        <text x="410.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.9</text>
+      </g>
+    </g>
+    <g id="cell-1-full" data-task="sues200_satellite_to_uav_150m" data-variant="full" data-mean="47.916666666666664" data-sd="0.7216878364870322">
+      <rect x="440.0" y="81.0" width="60.0" height="26.0" fill="#73b2d8" stroke="white" stroke-width="0.5" />
+      <g id="mean-1-full">
+        <text x="470.0" y="91.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">47.9</text>
+      </g>
+      <g id="sd-1-full">
+        <text x="470.0" y="102.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.7</text>
+      </g>
+    </g>
+    <g id="row-2">
+      <text x="133.0" y="123.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">UAV 200 m → satellite</text>
+    </g>
+    <g id="cell-2-visual" data-task="sues200_uav_200m_to_satellite" data-variant="visual" data-mean="42.975" data-sd="1.6641439240642637">
+      <rect x="140.0" y="107.0" width="60.0" height="26.0" fill="#85bbdd" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-visual">
+        <text x="170.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">43.0</text>
+      </g>
+      <g id="sd-2-visual">
+        <text x="170.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.7</text>
+      </g>
+    </g>
+    <g id="cell-2-content" data-task="sues200_uav_200m_to_satellite" data-variant="content" data-mean="2.4166666666666665" data-sd="0.03818813079129877">
+      <rect x="200.0" y="107.0" width="60.0" height="26.0" fill="#f2f8fd" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-content">
+        <text x="230.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">2.4</text>
+      </g>
+      <g id="sd-2-content">
+        <text x="230.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="cell-2-style" data-task="sues200_uav_200m_to_satellite" data-variant="style" data-mean="0.11666666666666665" data-sd="0.02886751345948128">
+      <rect x="260.0" y="107.0" width="60.0" height="26.0" fill="#f7fbff" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-style">
+        <text x="290.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.1</text>
+      </g>
+      <g id="sd-2-style">
+        <text x="290.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="cell-2-visual_content" data-task="sues200_uav_200m_to_satellite" data-variant="visual_content" data-mean="34.083333333333336" data-sd="4.279627125502097">
+      <rect x="320.0" y="107.0" width="60.0" height="26.0" fill="#a5cbe6" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-visual_content">
+        <text x="350.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">34.1</text>
+      </g>
+      <g id="sd-2-visual_content">
+        <text x="350.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 4.3</text>
+      </g>
+    </g>
+    <g id="cell-2-visual_style" data-task="sues200_uav_200m_to_satellite" data-variant="visual_style" data-mean="35.416666666666664" data-sd="0.5811267790537066">
+      <rect x="380.0" y="107.0" width="60.0" height="26.0" fill="#a0c8e5" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-visual_style">
+        <text x="410.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">35.4</text>
+      </g>
+      <g id="sd-2-visual_style">
+        <text x="410.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.6</text>
+      </g>
+    </g>
+    <g id="cell-2-full" data-task="sues200_uav_200m_to_satellite" data-variant="full" data-mean="33.625" data-sd="1.2095970403402942">
+      <rect x="440.0" y="107.0" width="60.0" height="26.0" fill="#a7cbe6" stroke="white" stroke-width="0.5" />
+      <g id="mean-2-full">
+        <text x="470.0" y="117.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">33.6</text>
+      </g>
+      <g id="sd-2-full">
+        <text x="470.0" y="128.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.2</text>
+      </g>
+    </g>
+    <g id="row-3">
+      <text x="133.0" y="149.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → UAV 200 m</text>
+    </g>
+    <g id="cell-3-visual" data-task="sues200_satellite_to_uav_200m" data-variant="visual" data-mean="63.333333333333336" data-sd="2.602082499332663">
+      <rect x="140.0" y="133.0" width="60.0" height="26.0" fill="#448dc4" stroke="white" stroke-width="0.5" />
+      <g id="mean-3-visual">
+        <text x="170.0" y="143.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">63.3</text>
+      </g>
+      <g id="sd-3-visual">
+        <text x="170.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="white" text-anchor="middle">± 2.6</text>
+      </g>
+    </g>
+    <g id="cell-3-content" data-task="sues200_satellite_to_uav_200m" data-variant="content" data-mean="6.25" data-sd="1.25">
+      <rect x="200.0" y="133.0" width="60.0" height="26.0" fill="#ebf3fb" stroke="white" stroke-width="0.5" />
+      <g id="mean-3-content">
+        <text x="230.0" y="143.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">6.2</text>
+      </g>
+      <g id="sd-3-content">
+        <text x="230.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.2</text>
+      </g>
+    </g>
+    <g id="cell-3-style" data-task="sues200_satellite_to_uav_200m" data-variant="style" data-mean="0.8333333333333334" data-sd="0.7216878364870322">
+      <rect x="260.0" y="133.0" width="60.0" height="26.0" fill="#f5fafe" stroke="white" stroke-width="0.5" />
+      <g id="mean-3-style">
+        <text x="290.0" y="143.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.8</text>
+      </g>
+      <g id="sd-3-style">
+        <text x="290.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.7</text>
+      </g>
+    </g>
+    <g id="cell-3-visual_content" data-task="sues200_satellite_to_uav_200m" data-variant="visual_content" data-mean="50.416666666666664" data-sd="4.732423621500228">
+      <rect x="320.0" y="133.0" width="60.0" height="26.0" fill="#6aadd5" stroke="white" stroke-width="0.5" />
+      <g id="mean-3-visual_content">
+        <text x="350.0" y="143.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">50.4</text>
+      </g>
+      <g id="sd-3-visual_content">
+        <text x="350.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 4.7</text>
+      </g>
+    </g>
+    <g id="cell-3-visual_style" data-task="sues200_satellite_to_uav_200m" data-variant="visual_style" data-mean="49.166666666666664" data-sd="4.018187817080398">
+      <rect x="380.0" y="133.0" width="60.0" height="26.0" fill="#6eb0d7" stroke="white" stroke-width="0.5" />
+      <g id="mean-3-visual_style">
+        <text x="410.0" y="143.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">49.2</text>
+      </g>
+      <g id="sd-3-visual_style">
+        <text x="410.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 4.0</text>
+      </g>
+    </g>
+    <g id="cell-3-full" data-task="sues200_satellite_to_uav_200m" data-variant="full" data-mean="55.0" data-sd="5.4486236794258485">
+      <rect x="440.0" y="133.0" width="60.0" height="26.0" fill="#5ca2cf" stroke="white" stroke-width="0.5" />
+      <g id="mean-3-full">
+        <text x="470.0" y="143.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">55.0</text>
+      </g>
+      <g id="sd-3-full">
+        <text x="470.0" y="154.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 5.4</text>
+      </g>
+    </g>
+    <g id="row-4">
+      <text x="133.0" y="175.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">UAV 250 m → satellite</text>
+    </g>
+    <g id="cell-4-visual" data-task="sues200_uav_250m_to_satellite" data-variant="visual" data-mean="46.958333333333336" data-sd="1.3625191130157888">
+      <rect x="140.0" y="159.0" width="60.0" height="26.0" fill="#76b3d9" stroke="white" stroke-width="0.5" />
+      <g id="mean-4-visual">
+        <text x="170.0" y="169.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">47.0</text>
+      </g>
+      <g id="sd-4-visual">
+        <text x="170.0" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.4</text>
+      </g>
+    </g>
+    <g id="cell-4-content" data-task="sues200_uav_250m_to_satellite" data-variant="content" data-mean="2.875" data-sd="0.08660254037844407">
+      <rect x="200.0" y="159.0" width="60.0" height="26.0" fill="#f1f7fd" stroke="white" stroke-width="0.5" />
+      <g id="mean-4-content">
+        <text x="230.0" y="169.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">2.9</text>
+      </g>
+      <g id="sd-4-content">
+        <text x="230.0" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.1</text>
+      </g>
+    </g>
+    <g id="cell-4-style" data-task="sues200_uav_250m_to_satellite" data-variant="style" data-mean="0.39999999999999997" data-sd="0.06614378277661476">
+      <rect x="260.0" y="159.0" width="60.0" height="26.0" fill="#f6faff" stroke="white" stroke-width="0.5" />
+      <g id="mean-4-style">
+        <text x="290.0" y="169.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.4</text>
+      </g>
+      <g id="sd-4-style">
+        <text x="290.0" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.1</text>
+      </g>
+    </g>
+    <g id="cell-4-visual_content" data-task="sues200_uav_250m_to_satellite" data-variant="visual_content" data-mean="37.64166666666667" data-sd="4.525023020199273">
+      <rect x="320.0" y="159.0" width="60.0" height="26.0" fill="#98c4e2" stroke="white" stroke-width="0.5" />
+      <g id="mean-4-visual_content">
+        <text x="350.0" y="169.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">37.6</text>
+      </g>
+      <g id="sd-4-visual_content">
+        <text x="350.0" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 4.5</text>
+      </g>
+    </g>
+    <g id="cell-4-visual_style" data-task="sues200_uav_250m_to_satellite" data-variant="visual_style" data-mean="37.90833333333333" data-sd="2.2250468159868766">
+      <rect x="380.0" y="159.0" width="60.0" height="26.0" fill="#97c4e2" stroke="white" stroke-width="0.5" />
+      <g id="mean-4-visual_style">
+        <text x="410.0" y="169.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">37.9</text>
+      </g>
+      <g id="sd-4-visual_style">
+        <text x="410.0" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 2.2</text>
+      </g>
+    </g>
+    <g id="cell-4-full" data-task="sues200_uav_250m_to_satellite" data-variant="full" data-mean="36.69166666666666" data-sd="1.6464608508353078">
+      <rect x="440.0" y="159.0" width="60.0" height="26.0" fill="#9bc6e3" stroke="white" stroke-width="0.5" />
+      <g id="mean-4-full">
+        <text x="470.0" y="169.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">36.7</text>
+      </g>
+      <g id="sd-4-full">
+        <text x="470.0" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.6</text>
+      </g>
+    </g>
+    <g id="row-5">
+      <text x="133.0" y="201.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → UAV 250 m</text>
+    </g>
+    <g id="cell-5-visual" data-task="sues200_satellite_to_uav_250m" data-variant="visual" data-mean="69.16666666666667" data-sd="3.1457643480294792">
+      <rect x="140.0" y="185.0" width="60.0" height="26.0" fill="#327fbd" stroke="white" stroke-width="0.5" />
+      <g id="mean-5-visual">
+        <text x="170.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">69.2</text>
+      </g>
+      <g id="sd-5-visual">
+        <text x="170.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="white" text-anchor="middle">± 3.1</text>
+      </g>
+    </g>
+    <g id="cell-5-content" data-task="sues200_satellite_to_uav_250m" data-variant="content" data-mean="5.833333333333333" data-sd="0.7216878364870322">
+      <rect x="200.0" y="185.0" width="60.0" height="26.0" fill="#ecf4fb" stroke="white" stroke-width="0.5" />
+      <g id="mean-5-content">
+        <text x="230.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">5.8</text>
+      </g>
+      <g id="sd-5-content">
+        <text x="230.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.7</text>
+      </g>
+    </g>
+    <g id="cell-5-style" data-task="sues200_satellite_to_uav_250m" data-variant="style" data-mean="2.0833333333333335" data-sd="0.7216878364870322">
+      <rect x="260.0" y="185.0" width="60.0" height="26.0" fill="#f3f8fe" stroke="white" stroke-width="0.5" />
+      <g id="mean-5-style">
+        <text x="290.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">2.1</text>
+      </g>
+      <g id="sd-5-style">
+        <text x="290.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.7</text>
+      </g>
+    </g>
+    <g id="cell-5-visual_content" data-task="sues200_satellite_to_uav_250m" data-variant="visual_content" data-mean="52.5" data-sd="4.5069390943299865">
+      <rect x="320.0" y="185.0" width="60.0" height="26.0" fill="#64a8d3" stroke="white" stroke-width="0.5" />
+      <g id="mean-5-visual_content">
+        <text x="350.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">52.5</text>
+      </g>
+      <g id="sd-5-visual_content">
+        <text x="350.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 4.5</text>
+      </g>
+    </g>
+    <g id="cell-5-visual_style" data-task="sues200_satellite_to_uav_250m" data-variant="visual_style" data-mean="55.833333333333336" data-sd="2.6020824993326648">
+      <rect x="380.0" y="185.0" width="60.0" height="26.0" fill="#5aa0ce" stroke="white" stroke-width="0.5" />
+      <g id="mean-5-visual_style">
+        <text x="410.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">55.8</text>
+      </g>
+      <g id="sd-5-visual_style">
+        <text x="410.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 2.6</text>
+      </g>
+    </g>
+    <g id="cell-5-full" data-task="sues200_satellite_to_uav_250m" data-variant="full" data-mean="57.083333333333336" data-sd="4.018187817080398">
+      <rect x="440.0" y="185.0" width="60.0" height="26.0" fill="#569dcd" stroke="white" stroke-width="0.5" />
+      <g id="mean-5-full">
+        <text x="470.0" y="195.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">57.1</text>
+      </g>
+      <g id="sd-5-full">
+        <text x="470.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="white" text-anchor="middle">± 4.0</text>
+      </g>
+    </g>
+    <g id="row-6">
+      <text x="133.0" y="227.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">UAV 300 m → satellite</text>
+    </g>
+    <g id="cell-6-visual" data-task="sues200_uav_300m_to_satellite" data-variant="visual" data-mean="49.708333333333336" data-sd="0.3262795325075305">
+      <rect x="140.0" y="211.0" width="60.0" height="26.0" fill="#6cafd6" stroke="white" stroke-width="0.5" />
+      <g id="mean-6-visual">
+        <text x="170.0" y="221.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">49.7</text>
+      </g>
+      <g id="sd-6-visual">
+        <text x="170.0" y="232.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.3</text>
+      </g>
+    </g>
+    <g id="cell-6-content" data-task="sues200_uav_300m_to_satellite" data-variant="content" data-mean="3.591666666666667" data-sd="0.2897556441785617">
+      <rect x="200.0" y="211.0" width="60.0" height="26.0" fill="#f0f6fd" stroke="white" stroke-width="0.5" />
+      <g id="mean-6-content">
+        <text x="230.0" y="221.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">3.6</text>
+      </g>
+      <g id="sd-6-content">
+        <text x="230.0" y="232.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.3</text>
+      </g>
+    </g>
+    <g id="cell-6-style" data-task="sues200_uav_300m_to_satellite" data-variant="style" data-mean="0.47500000000000003" data-sd="0.04999999999999999">
+      <rect x="260.0" y="211.0" width="60.0" height="26.0" fill="#f6faff" stroke="white" stroke-width="0.5" />
+      <g id="mean-6-style">
+        <text x="290.0" y="221.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.5</text>
+      </g>
+      <g id="sd-6-style">
+        <text x="290.0" y="232.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± &lt;0.1</text>
+      </g>
+    </g>
+    <g id="cell-6-visual_content" data-task="sues200_uav_300m_to_satellite" data-variant="visual_content" data-mean="39.96666666666667" data-sd="4.193770181272854">
+      <rect x="320.0" y="211.0" width="60.0" height="26.0" fill="#90c0e0" stroke="white" stroke-width="0.5" />
+      <g id="mean-6-visual_content">
+        <text x="350.0" y="221.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">40.0</text>
+      </g>
+      <g id="sd-6-visual_content">
+        <text x="350.0" y="232.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 4.2</text>
+      </g>
+    </g>
+    <g id="cell-6-visual_style" data-task="sues200_uav_300m_to_satellite" data-variant="visual_style" data-mean="39.18333333333333" data-sd="1.830015937999809">
+      <rect x="380.0" y="211.0" width="60.0" height="26.0" fill="#92c1e1" stroke="white" stroke-width="0.5" />
+      <g id="mean-6-visual_style">
+        <text x="410.0" y="221.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">39.2</text>
+      </g>
+      <g id="sd-6-visual_style">
+        <text x="410.0" y="232.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 1.8</text>
+      </g>
+    </g>
+    <g id="cell-6-full" data-task="sues200_uav_300m_to_satellite" data-variant="full" data-mean="38.43333333333333" data-sd="0.8178987304876637">
+      <rect x="440.0" y="211.0" width="60.0" height="26.0" fill="#95c3e2" stroke="white" stroke-width="0.5" />
+      <g id="mean-6-full">
+        <text x="470.0" y="221.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">38.4</text>
+      </g>
+      <g id="sd-6-full">
+        <text x="470.0" y="232.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.8</text>
+      </g>
+    </g>
+    <g id="row-7">
+      <text x="133.0" y="253.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → UAV 300 m</text>
+    </g>
+    <g id="cell-7-visual" data-task="sues200_satellite_to_uav_300m" data-variant="visual" data-mean="73.75" data-sd="3.75">
+      <rect x="140.0" y="237.0" width="60.0" height="26.0" fill="#2574b7" stroke="white" stroke-width="0.5" />
+      <g id="mean-7-visual">
+        <text x="170.0" y="247.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">73.8</text>
+      </g>
+      <g id="sd-7-visual">
+        <text x="170.0" y="258.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="white" text-anchor="middle">± 3.8</text>
+      </g>
+    </g>
+    <g id="cell-7-content" data-task="sues200_satellite_to_uav_300m" data-variant="content" data-mean="9.583333333333334" data-sd="0.7216878364870322">
+      <rect x="200.0" y="237.0" width="60.0" height="26.0" fill="#e4eff9" stroke="white" stroke-width="0.5" />
+      <g id="mean-7-content">
+        <text x="230.0" y="247.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">9.6</text>
+      </g>
+      <g id="sd-7-content">
+        <text x="230.0" y="258.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.7</text>
+      </g>
+    </g>
+    <g id="cell-7-style" data-task="sues200_satellite_to_uav_300m" data-variant="style" data-mean="0.0" data-sd="0.0">
+      <rect x="260.0" y="237.0" width="60.0" height="26.0" fill="#f7fbff" stroke="white" stroke-width="0.5" />
+      <g id="mean-7-style">
+        <text x="290.0" y="247.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#222222" text-anchor="middle">0.0</text>
+      </g>
+      <g id="sd-7-style">
+        <text x="290.0" y="258.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">± 0.0</text>
+      </g>
+    </g>
+    <g id="cell-7-visual_content" data-task="sues200_satellite_to_uav_300m" data-variant="visual_content" data-mean="58.333333333333336" data-sd="2.602082499332671">
+      <rect x="320.0" y="237.0" width="60.0" height="26.0" fill="#529acb" stroke="white" stroke-width="0.5" />
+      <g id="mean-7-visual_content">
+        <text x="350.0" y="247.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">58.3</text>
+      </g>
+      <g id="sd-7-visual_content">
+        <text x="350.0" y="258.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="white" text-anchor="middle">± 2.6</text>
+      </g>
+    </g>
+    <g id="cell-7-visual_style" data-task="sues200_satellite_to_uav_300m" data-variant="visual_style" data-mean="58.75" data-sd="0.0">
+      <rect x="380.0" y="237.0" width="60.0" height="26.0" fill="#5199ca" stroke="white" stroke-width="0.5" />
+      <g id="mean-7-visual_style">
+        <text x="410.0" y="247.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">58.8</text>
+      </g>
+      <g id="sd-7-visual_style">
+        <text x="410.0" y="258.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="white" text-anchor="middle">± 0.0</text>
+      </g>
+    </g>
+    <g id="cell-7-full" data-task="sues200_satellite_to_uav_300m" data-variant="full" data-mean="58.333333333333336" data-sd="1.4433756729740685">
+      <rect x="440.0" y="237.0" width="60.0" height="26.0" fill="#529acb" stroke="white" stroke-width="0.5" />
+      <g id="mean-7-full">
+        <text x="470.0" y="247.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">58.3</text>
+      </g>
+      <g id="sd-7-full">
+        <text x="470.0" y="258.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="white" text-anchor="middle">± 1.4</text>
+      </g>
+    </g>
+    <g id="r-at-1-color-scale">
+      <g id="color-step-0">
+        <rect x="280.0" y="273.0" width="2.3" height="5.0" fill="#f6faff" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-1">
+        <rect x="282.2" y="273.0" width="2.3" height="5.0" fill="#f4f9fe" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-2">
+        <rect x="284.4" y="273.0" width="2.3" height="5.0" fill="#f2f8fd" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-3">
+        <rect x="286.6" y="273.0" width="2.3" height="5.0" fill="#f0f7fd" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-4">
+        <rect x="288.8" y="273.0" width="2.3" height="5.0" fill="#eef5fc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-5">
+        <rect x="291.0" y="273.0" width="2.3" height="5.0" fill="#ecf4fb" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-6">
+        <rect x="293.2" y="273.0" width="2.3" height="5.0" fill="#eaf3fb" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-7">
+        <rect x="295.4" y="273.0" width="2.3" height="5.0" fill="#e8f1fa" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-8">
+        <rect x="297.6" y="273.0" width="2.3" height="5.0" fill="#e6f0fa" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-9">
+        <rect x="299.8" y="273.0" width="2.3" height="5.0" fill="#e4eff9" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-10">
+        <rect x="302.0" y="273.0" width="2.3" height="5.0" fill="#e2eef8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-11">
+        <rect x="304.2" y="273.0" width="2.3" height="5.0" fill="#e0ecf8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-12">
+        <rect x="306.4" y="273.0" width="2.3" height="5.0" fill="#deebf7" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-13">
+        <rect x="308.6" y="273.0" width="2.3" height="5.0" fill="#ddeaf6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-14">
+        <rect x="310.8" y="273.0" width="2.3" height="5.0" fill="#dbe8f6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-15">
+        <rect x="313.0" y="273.0" width="2.3" height="5.0" fill="#d9e7f5" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-16">
+        <rect x="315.2" y="273.0" width="2.3" height="5.0" fill="#d7e6f4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-17">
+        <rect x="317.4" y="273.0" width="2.3" height="5.0" fill="#d5e5f4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-18">
+        <rect x="319.6" y="273.0" width="2.3" height="5.0" fill="#d3e3f3" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-19">
+        <rect x="321.8" y="273.0" width="2.3" height="5.0" fill="#d1e2f3" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-20">
+        <rect x="324.0" y="273.0" width="2.3" height="5.0" fill="#cfe1f2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-21">
+        <rect x="326.2" y="273.0" width="2.3" height="5.0" fill="#cddff1" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-22">
+        <rect x="328.4" y="273.0" width="2.3" height="5.0" fill="#cbdef1" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-23">
+        <rect x="330.6" y="273.0" width="2.3" height="5.0" fill="#c9ddf0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-24">
+        <rect x="332.8" y="273.0" width="2.3" height="5.0" fill="#c7dcef" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-25">
+        <rect x="335.0" y="273.0" width="2.3" height="5.0" fill="#c4daee" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-26">
+        <rect x="337.2" y="273.0" width="2.3" height="5.0" fill="#c1d8ee" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-27">
+        <rect x="339.4" y="273.0" width="2.3" height="5.0" fill="#bdd6ec" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-28">
+        <rect x="341.6" y="273.0" width="2.3" height="5.0" fill="#b9d5ec" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-29">
+        <rect x="343.8" y="273.0" width="2.3" height="5.0" fill="#b6d3ea" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-30">
+        <rect x="346.0" y="273.0" width="2.3" height="5.0" fill="#b2d1ea" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-31">
+        <rect x="348.2" y="273.0" width="2.3" height="5.0" fill="#aecfe8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-32">
+        <rect x="350.4" y="273.0" width="2.3" height="5.0" fill="#abcee8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-33">
+        <rect x="352.6" y="273.0" width="2.3" height="5.0" fill="#a7cce6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-34">
+        <rect x="354.8" y="273.0" width="2.3" height="5.0" fill="#a3cae6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-35">
+        <rect x="357.0" y="273.0" width="2.3" height="5.0" fill="#a0c8e4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-36">
+        <rect x="359.2" y="273.0" width="2.3" height="5.0" fill="#9cc6e4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-37">
+        <rect x="361.4" y="273.0" width="2.3" height="5.0" fill="#98c4e2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-38">
+        <rect x="363.6" y="273.0" width="2.3" height="5.0" fill="#95c3e2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-39">
+        <rect x="365.8" y="273.0" width="2.3" height="5.0" fill="#91c1e0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-40">
+        <rect x="368.0" y="273.0" width="2.3" height="5.0" fill="#8ebfe0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-41">
+        <rect x="370.2" y="273.0" width="2.3" height="5.0" fill="#8abdde" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-42">
+        <rect x="372.4" y="273.0" width="2.3" height="5.0" fill="#86bcde" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-43">
+        <rect x="374.6" y="273.0" width="2.3" height="5.0" fill="#83badc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-44">
+        <rect x="376.8" y="273.0" width="2.3" height="5.0" fill="#7fb8dc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-45">
+        <rect x="379.0" y="273.0" width="2.3" height="5.0" fill="#7bb6da" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-46">
+        <rect x="381.2" y="273.0" width="2.3" height="5.0" fill="#78b4da" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-47">
+        <rect x="383.4" y="273.0" width="2.3" height="5.0" fill="#74b2d8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-48">
+        <rect x="385.6" y="273.0" width="2.3" height="5.0" fill="#70b1d8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-49">
+        <rect x="387.8" y="273.0" width="2.3" height="5.0" fill="#6dafd6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-50">
+        <rect x="390.0" y="273.0" width="2.3" height="5.0" fill="#6aadd5" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-51">
+        <rect x="392.2" y="273.0" width="2.3" height="5.0" fill="#67aad4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-52">
+        <rect x="394.4" y="273.0" width="2.3" height="5.0" fill="#64a8d3" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-53">
+        <rect x="396.6" y="273.0" width="2.3" height="5.0" fill="#61a5d1" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-54">
+        <rect x="398.8" y="273.0" width="2.3" height="5.0" fill="#5ea3d0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-55">
+        <rect x="401.0" y="273.0" width="2.3" height="5.0" fill="#5ba1cf" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-56">
+        <rect x="403.2" y="273.0" width="2.3" height="5.0" fill="#589ecd" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-57">
+        <rect x="405.4" y="273.0" width="2.3" height="5.0" fill="#559ccc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-58">
+        <rect x="407.6" y="273.0" width="2.3" height="5.0" fill="#5299cb" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-59">
+        <rect x="409.8" y="273.0" width="2.3" height="5.0" fill="#4f97c9" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-60">
+        <rect x="412.0" y="273.0" width="2.3" height="5.0" fill="#4c94c8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-61">
+        <rect x="414.2" y="273.0" width="2.3" height="5.0" fill="#4992c7" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-62">
+        <rect x="416.4" y="273.0" width="2.3" height="5.0" fill="#4690c6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-63">
+        <rect x="418.6" y="273.0" width="2.3" height="5.0" fill="#438dc4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-64">
+        <rect x="420.8" y="273.0" width="2.3" height="5.0" fill="#408bc3" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-65">
+        <rect x="423.0" y="273.0" width="2.3" height="5.0" fill="#3d88c2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-66">
+        <rect x="425.2" y="273.0" width="2.3" height="5.0" fill="#3a86c0" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-67">
+        <rect x="427.4" y="273.0" width="2.3" height="5.0" fill="#3783bf" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-68">
+        <rect x="429.6" y="273.0" width="2.3" height="5.0" fill="#3481be" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-69">
+        <rect x="431.8" y="273.0" width="2.3" height="5.0" fill="#317ebc" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-70">
+        <rect x="434.0" y="273.0" width="2.3" height="5.0" fill="#2e7cbb" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-71">
+        <rect x="436.2" y="273.0" width="2.3" height="5.0" fill="#2b7aba" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-72">
+        <rect x="438.4" y="273.0" width="2.3" height="5.0" fill="#2877b8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-73">
+        <rect x="440.6" y="273.0" width="2.3" height="5.0" fill="#2575b7" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-74">
+        <rect x="442.8" y="273.0" width="2.3" height="5.0" fill="#2272b6" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-75">
+        <rect x="445.0" y="273.0" width="2.3" height="5.0" fill="#2070b4" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-76">
+        <rect x="447.2" y="273.0" width="2.3" height="5.0" fill="#206db1" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-77">
+        <rect x="449.4" y="273.0" width="2.3" height="5.0" fill="#1e6aae" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-78">
+        <rect x="451.6" y="273.0" width="2.3" height="5.0" fill="#1d68ab" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-79">
+        <rect x="453.8" y="273.0" width="2.3" height="5.0" fill="#1c65a8" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-80">
+        <rect x="456.0" y="273.0" width="2.3" height="5.0" fill="#1b63a5" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-81">
+        <rect x="458.2" y="273.0" width="2.3" height="5.0" fill="#1b60a2" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-82">
+        <rect x="460.4" y="273.0" width="2.3" height="5.0" fill="#1a5e9f" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-83">
+        <rect x="462.6" y="273.0" width="2.3" height="5.0" fill="#195b9c" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-84">
+        <rect x="464.8" y="273.0" width="2.3" height="5.0" fill="#185899" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-85">
+        <rect x="467.0" y="273.0" width="2.3" height="5.0" fill="#165696" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-86">
+        <rect x="469.2" y="273.0" width="2.3" height="5.0" fill="#165393" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-87">
+        <rect x="471.4" y="273.0" width="2.3" height="5.0" fill="#145090" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-88">
+        <rect x="473.6" y="273.0" width="2.3" height="5.0" fill="#144e8d" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-89">
+        <rect x="475.8" y="273.0" width="2.3" height="5.0" fill="#124b8a" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-90">
+        <rect x="478.0" y="273.0" width="2.3" height="5.0" fill="#114987" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-91">
+        <rect x="480.2" y="273.0" width="2.3" height="5.0" fill="#104684" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-92">
+        <rect x="482.4" y="273.0" width="2.3" height="5.0" fill="#0f4381" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-93">
+        <rect x="484.6" y="273.0" width="2.3" height="5.0" fill="#0e417e" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-94">
+        <rect x="486.8" y="273.0" width="2.3" height="5.0" fill="#0e3e7b" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-95">
+        <rect x="489.0" y="273.0" width="2.3" height="5.0" fill="#0d3c78" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-96">
+        <rect x="491.2" y="273.0" width="2.3" height="5.0" fill="#0c3975" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-97">
+        <rect x="493.4" y="273.0" width="2.3" height="5.0" fill="#0b3772" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-98">
+        <rect x="495.6" y="273.0" width="2.3" height="5.0" fill="#0a346f" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-step-99">
+        <rect x="497.8" y="273.0" width="2.3" height="5.0" fill="#08316c" stroke="none" stroke-width="0.5" />
+      </g>
+      <g id="color-title">
+        <text x="140.0" y="278.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">R@1 mean (%)</text>
+      </g>
+      <g id="color-tick-0">
+        <text x="280.0" y="290.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">0</text>
+      </g>
+      <g id="color-tick-25">
+        <text x="335.0" y="290.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">25</text>
+      </g>
+      <g id="color-tick-50">
+        <text x="390.0" y="290.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">50</text>
+      </g>
+      <g id="color-tick-75">
+        <text x="445.0" y="290.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">75</text>
+      </g>
+      <g id="color-tick-100">
+        <text x="500.0" y="290.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">100</text>
+      </g>
+    </g>
+  </g>
+  <g id="panel-b-map" inkscape:groupmode="layer" inkscape:label="panel-b-map">
+    <g id="panel-b-title">
+      <text x="16.0" y="314.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#222222" text-anchor="start">(b) Official mAP (%)</text>
+    </g>
+    <g id="grid-0">
+      <line x1="140.0" y1="327.0" x2="140.0" y2="583.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-0">
+      <text x="140.0" y="596.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">0</text>
+    </g>
+    <g id="grid-20">
+      <line x1="212.0" y1="327.0" x2="212.0" y2="583.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-20">
+      <text x="212.0" y="596.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">20</text>
+    </g>
+    <g id="grid-40">
+      <line x1="284.0" y1="327.0" x2="284.0" y2="583.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-40">
+      <text x="284.0" y="596.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">40</text>
+    </g>
+    <g id="grid-60">
+      <line x1="356.0" y1="327.0" x2="356.0" y2="583.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-60">
+      <text x="356.0" y="596.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">60</text>
+    </g>
+    <g id="grid-80">
+      <line x1="428.0" y1="327.0" x2="428.0" y2="583.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-80">
+      <text x="428.0" y="596.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">80</text>
+    </g>
+    <g id="grid-100">
+      <line x1="500.0" y1="327.0" x2="500.0" y2="583.0" stroke="#d7dce0" stroke-width="0.5" />
+    </g>
+    <g id="tick-100">
+      <text x="500.0" y="596.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="middle">100</text>
+    </g>
+    <g id="task-0">
+      <text x="133.0" y="345.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">UAV 150 m → satellite</text>
+    </g>
+    <g id="interval-0-visual" data-task="sues200_uav_150m_to_satellite" data-variant="visual" data-mean="43.90019873778025" data-sd="2.6268463086561185">
+      <title>UAV 150 m → satellite; Visual: 43.900199 ± 2.626846%</title>
+      <line x1="288.6" y1="333.0" x2="307.5" y2="333.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="288.6" y1="331.0" x2="288.6" y2="335.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="307.5" y1="331.0" x2="307.5" y2="335.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="298.0" cy="333.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-0-content" data-task="sues200_uav_150m_to_satellite" data-variant="content" data-mean="5.279777695735295" data-sd="0.030879001381559343">
+      <title>UAV 150 m → satellite; Content: 5.279778 ± 0.030879%</title>
+      <line x1="158.9" y1="337.0" x2="159.1" y2="337.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="158.9" y1="335.0" x2="158.9" y2="339.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="159.1" y1="335.0" x2="159.1" y2="339.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="157.0" y="335.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-0-style" data-task="sues200_uav_150m_to_satellite" data-variant="style" data-mean="1.695568673312664" data-sd="0.046374666260786505">
+      <title>UAV 150 m → satellite; Style: 1.695569 ± 0.046375%</title>
+      <line x1="145.9" y1="341.0" x2="146.3" y2="341.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="145.9" y1="339.0" x2="145.9" y2="343.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="146.3" y1="339.0" x2="146.3" y2="343.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="146.1,338.3 148.8,343.0 143.4,343.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-0-visual_content" data-task="sues200_uav_150m_to_satellite" data-variant="visual_content" data-mean="36.684583624204" data-sd="3.679342867191411">
+      <title>UAV 150 m → satellite; Visual + content: 36.684584 ± 3.679343%</title>
+      <line x1="258.8" y1="345.0" x2="285.3" y2="345.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="258.8" y1="343.0" x2="258.8" y2="347.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="285.3" y1="343.0" x2="285.3" y2="347.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="272.1,342.3 274.8,345.0 272.1,347.7 269.4,345.0" fill="#378183" />
+    </g>
+    <g id="interval-0-visual_style" data-task="sues200_uav_150m_to_satellite" data-variant="visual_style" data-mean="35.352895657221474" data-sd="0.40498373414777783">
+      <title>UAV 150 m → satellite; Visual + style: 35.352896 ± 0.404984%</title>
+      <line x1="265.8" y1="349.0" x2="268.7" y2="349.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="265.8" y1="347.0" x2="265.8" y2="351.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="268.7" y1="347.0" x2="268.7" y2="351.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="267.3,351.7 270.0,347.0 264.6,347.0" fill="#b5678e" />
+    </g>
+    <g id="interval-0-full" data-task="sues200_uav_150m_to_satellite" data-variant="full" data-mean="36.633941531181335" data-sd="1.2102712163798977">
+      <title>UAV 150 m → satellite; Full: 36.633942 ± 1.210271%</title>
+      <line x1="267.5" y1="353.0" x2="276.2" y2="353.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="267.5" y1="351.0" x2="267.5" y2="355.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="276.2" y1="351.0" x2="276.2" y2="355.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="269.4" y1="353.0" x2="274.4" y2="353.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="271.9" y1="350.5" x2="271.9" y2="355.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+    <g id="task-1">
+      <text x="133.0" y="377.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → UAV 150 m</text>
+    </g>
+    <g id="interval-1-visual" data-task="sues200_satellite_to_uav_150m" data-variant="visual" data-mean="39.52281177043915" data-sd="2.1339032448197304">
+      <title>Satellite → UAV 150 m; Visual: 39.522812 ± 2.133903%</title>
+      <line x1="274.6" y1="365.0" x2="290.0" y2="365.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="274.6" y1="363.0" x2="274.6" y2="367.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="290.0" y1="363.0" x2="290.0" y2="367.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="282.3" cy="365.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-1-content" data-task="sues200_satellite_to_uav_150m" data-variant="content" data-mean="4.0510572493076324" data-sd="0.01995523450836279">
+      <title>Satellite → UAV 150 m; Content: 4.051057 ± 0.019955%</title>
+      <line x1="154.5" y1="369.0" x2="154.7" y2="369.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="154.5" y1="367.0" x2="154.5" y2="371.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="154.7" y1="367.0" x2="154.7" y2="371.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="152.6" y="367.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-1-style" data-task="sues200_satellite_to_uav_150m" data-variant="style" data-mean="1.4390337280929089" data-sd="0.049511616628191694">
+      <title>Satellite → UAV 150 m; Style: 1.439034 ± 0.049512%</title>
+      <line x1="145.0" y1="373.0" x2="145.4" y2="373.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="145.0" y1="371.0" x2="145.0" y2="375.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="145.4" y1="371.0" x2="145.4" y2="375.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="145.2,370.3 147.9,375.0 142.5,375.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-1-visual_content" data-task="sues200_satellite_to_uav_150m" data-variant="visual_content" data-mean="30.765333771705627" data-sd="1.843647567082135">
+      <title>Satellite → UAV 150 m; Visual + content: 30.765334 ± 1.843648%</title>
+      <line x1="244.1" y1="377.0" x2="257.4" y2="377.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="244.1" y1="375.0" x2="244.1" y2="379.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="257.4" y1="375.0" x2="257.4" y2="379.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="250.8,374.3 253.5,377.0 250.8,379.7 248.1,377.0" fill="#378183" />
+    </g>
+    <g id="interval-1-visual_style" data-task="sues200_satellite_to_uav_150m" data-variant="visual_style" data-mean="30.8901309967041" data-sd="0.3829601840284882">
+      <title>Satellite → UAV 150 m; Visual + style: 30.890131 ± 0.382960%</title>
+      <line x1="249.8" y1="381.0" x2="252.6" y2="381.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="249.8" y1="379.0" x2="249.8" y2="383.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="252.6" y1="379.0" x2="252.6" y2="383.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="251.2,383.7 253.9,379.0 248.5,379.0" fill="#b5678e" />
+    </g>
+    <g id="interval-1-full" data-task="sues200_satellite_to_uav_150m" data-variant="full" data-mean="33.17751089731852" data-sd="1.147799871654821">
+      <title>Satellite → UAV 150 m; Full: 33.177511 ± 1.147800%</title>
+      <line x1="255.3" y1="385.0" x2="263.6" y2="385.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="255.3" y1="383.0" x2="255.3" y2="387.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="263.6" y1="383.0" x2="263.6" y2="387.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="256.9" y1="385.0" x2="261.9" y2="385.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="259.4" y1="382.5" x2="259.4" y2="387.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+    <g id="task-2">
+      <text x="133.0" y="409.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">UAV 200 m → satellite</text>
+    </g>
+    <g id="interval-2-visual" data-task="sues200_uav_200m_to_satellite" data-variant="visual" data-mean="51.07369422912598" data-sd="1.3102335409217187">
+      <title>UAV 200 m → satellite; Visual: 51.073694 ± 1.310234%</title>
+      <line x1="319.1" y1="397.0" x2="328.6" y2="397.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="319.1" y1="395.0" x2="319.1" y2="399.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="328.6" y1="395.0" x2="328.6" y2="399.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="323.9" cy="397.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-2-content" data-task="sues200_uav_200m_to_satellite" data-variant="content" data-mean="6.072142844398816" data-sd="0.03506968397595755">
+      <title>UAV 200 m → satellite; Content: 6.072143 ± 0.035070%</title>
+      <line x1="161.7" y1="401.0" x2="162.0" y2="401.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="161.7" y1="399.0" x2="161.7" y2="403.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="162.0" y1="399.0" x2="162.0" y2="403.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="159.9" y="399.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-2-style" data-task="sues200_uav_200m_to_satellite" data-variant="style" data-mean="1.670325609544913" data-sd="0.07574551250239747">
+      <title>UAV 200 m → satellite; Style: 1.670326 ± 0.075746%</title>
+      <line x1="145.7" y1="405.0" x2="146.3" y2="405.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="145.7" y1="403.0" x2="145.7" y2="407.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="146.3" y1="403.0" x2="146.3" y2="407.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="146.0,402.3 148.7,407.0 143.3,407.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-2-visual_content" data-task="sues200_uav_200m_to_satellite" data-variant="visual_content" data-mean="42.44981408119202" data-sd="4.11235234076485">
+      <title>UAV 200 m → satellite; Visual + content: 42.449814 ± 4.112352%</title>
+      <line x1="278.0" y1="409.0" x2="307.6" y2="409.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="278.0" y1="407.0" x2="278.0" y2="411.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="307.6" y1="407.0" x2="307.6" y2="411.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="292.8,406.3 295.5,409.0 292.8,411.7 290.1,409.0" fill="#378183" />
+    </g>
+    <g id="interval-2-visual_style" data-task="sues200_uav_200m_to_satellite" data-variant="visual_style" data-mean="42.93030599753062" data-sd="0.4938732524532833">
+      <title>UAV 200 m → satellite; Visual + style: 42.930306 ± 0.493873%</title>
+      <line x1="292.8" y1="413.0" x2="296.3" y2="413.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="292.8" y1="411.0" x2="292.8" y2="415.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="296.3" y1="411.0" x2="296.3" y2="415.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="294.5,415.7 297.2,411.0 291.8,411.0" fill="#b5678e" />
+    </g>
+    <g id="interval-2-full" data-task="sues200_uav_200m_to_satellite" data-variant="full" data-mean="41.635469595591225" data-sd="0.7873210312917109">
+      <title>UAV 200 m → satellite; Full: 41.635470 ± 0.787321%</title>
+      <line x1="287.1" y1="417.0" x2="292.7" y2="417.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="287.1" y1="415.0" x2="287.1" y2="419.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="292.7" y1="415.0" x2="292.7" y2="419.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="287.4" y1="417.0" x2="292.4" y2="417.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="289.9" y1="414.5" x2="289.9" y2="419.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+    <g id="task-3">
+      <text x="133.0" y="441.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → UAV 200 m</text>
+    </g>
+    <g id="interval-3-visual" data-task="sues200_satellite_to_uav_200m" data-variant="visual" data-mean="48.755234479904175" data-sd="1.1969440674442458">
+      <title>Satellite → UAV 200 m; Visual: 48.755234 ± 1.196944%</title>
+      <line x1="311.2" y1="429.0" x2="319.8" y2="429.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="311.2" y1="427.0" x2="311.2" y2="431.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="319.8" y1="427.0" x2="319.8" y2="431.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="315.5" cy="429.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-3-content" data-task="sues200_satellite_to_uav_200m" data-variant="content" data-mean="4.266616826256116" data-sd="0.06796607964197002">
+      <title>Satellite → UAV 200 m; Content: 4.266617 ± 0.067966%</title>
+      <line x1="155.1" y1="433.0" x2="155.6" y2="433.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="155.1" y1="431.0" x2="155.1" y2="435.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="155.6" y1="431.0" x2="155.6" y2="435.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="153.4" y="431.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-3-style" data-task="sues200_satellite_to_uav_200m" data-variant="style" data-mean="1.4408052898943424" data-sd="0.07868633418685075">
+      <title>Satellite → UAV 200 m; Style: 1.440805 ± 0.078686%</title>
+      <line x1="144.9" y1="437.0" x2="145.5" y2="437.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="144.9" y1="435.0" x2="144.9" y2="439.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="145.5" y1="435.0" x2="145.5" y2="439.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="145.2,434.3 147.9,439.0 142.5,439.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-3-visual_content" data-task="sues200_satellite_to_uav_200m" data-variant="visual_content" data-mean="36.58822874228159" data-sd="3.1316640764564103">
+      <title>Satellite → UAV 200 m; Visual + content: 36.588229 ± 3.131664%</title>
+      <line x1="260.4" y1="441.0" x2="283.0" y2="441.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="260.4" y1="439.0" x2="260.4" y2="443.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="283.0" y1="439.0" x2="283.0" y2="443.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="271.7,438.3 274.4,441.0 271.7,443.7 269.0,441.0" fill="#378183" />
+    </g>
+    <g id="interval-3-visual_style" data-task="sues200_satellite_to_uav_200m" data-variant="visual_style" data-mean="37.78478900591532" data-sd="0.8337738495594759">
+      <title>Satellite → UAV 200 m; Visual + style: 37.784789 ± 0.833774%</title>
+      <line x1="273.0" y1="445.0" x2="279.0" y2="445.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="273.0" y1="443.0" x2="273.0" y2="447.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="279.0" y1="443.0" x2="279.0" y2="447.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="276.0,447.7 278.7,443.0 273.3,443.0" fill="#b5678e" />
+    </g>
+    <g id="interval-3-full" data-task="sues200_satellite_to_uav_200m" data-variant="full" data-mean="38.96375993887583" data-sd="1.1374753169865797">
+      <title>Satellite → UAV 200 m; Full: 38.963760 ± 1.137475%</title>
+      <line x1="276.2" y1="449.0" x2="284.4" y2="449.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="276.2" y1="447.0" x2="276.2" y2="451.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="284.4" y1="447.0" x2="284.4" y2="451.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="277.8" y1="449.0" x2="282.8" y2="449.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="280.3" y1="446.5" x2="280.3" y2="451.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+    <g id="task-4">
+      <text x="133.0" y="473.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">UAV 250 m → satellite</text>
+    </g>
+    <g id="interval-4-visual" data-task="sues200_uav_250m_to_satellite" data-variant="visual" data-mean="54.655285676320396" data-sd="1.4790952881006392">
+      <title>UAV 250 m → satellite; Visual: 54.655286 ± 1.479095%</title>
+      <line x1="331.4" y1="461.0" x2="342.1" y2="461.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="331.4" y1="459.0" x2="331.4" y2="463.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="342.1" y1="459.0" x2="342.1" y2="463.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="336.8" cy="461.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-4-content" data-task="sues200_uav_250m_to_satellite" data-variant="content" data-mean="6.702367464701335" data-sd="0.05535838763885214">
+      <title>UAV 250 m → satellite; Content: 6.702367 ± 0.055358%</title>
+      <line x1="163.9" y1="465.0" x2="164.3" y2="465.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="163.9" y1="463.0" x2="163.9" y2="467.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="164.3" y1="463.0" x2="164.3" y2="467.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="162.1" y="463.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-4-style" data-task="sues200_uav_250m_to_satellite" data-variant="style" data-mean="1.97994497915109" data-sd="0.0912827295009851">
+      <title>UAV 250 m → satellite; Style: 1.979945 ± 0.091283%</title>
+      <line x1="146.8" y1="469.0" x2="147.5" y2="469.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="146.8" y1="467.0" x2="146.8" y2="471.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="147.5" y1="467.0" x2="147.5" y2="471.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="147.1,466.3 149.8,471.0 144.4,471.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-4-visual_content" data-task="sues200_uav_250m_to_satellite" data-variant="visual_content" data-mean="45.650859673817955" data-sd="4.233350123401841">
+      <title>UAV 250 m → satellite; Visual + content: 45.650860 ± 4.233350%</title>
+      <line x1="289.1" y1="473.0" x2="319.6" y2="473.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="289.1" y1="471.0" x2="289.1" y2="475.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="319.6" y1="471.0" x2="319.6" y2="475.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="304.3,470.3 307.0,473.0 304.3,475.7 301.6,473.0" fill="#378183" />
+    </g>
+    <g id="interval-4-visual_style" data-task="sues200_uav_250m_to_satellite" data-variant="visual_style" data-mean="45.4635351896286" data-sd="1.9060625446741462">
+      <title>UAV 250 m → satellite; Visual + style: 45.463535 ± 1.906063%</title>
+      <line x1="296.8" y1="477.0" x2="310.5" y2="477.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="296.8" y1="475.0" x2="296.8" y2="479.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="310.5" y1="475.0" x2="310.5" y2="479.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="303.7,479.7 306.4,475.0 301.0,475.0" fill="#b5678e" />
+    </g>
+    <g id="interval-4-full" data-task="sues200_uav_250m_to_satellite" data-variant="full" data-mean="44.59005296230316" data-sd="1.5903156275738748">
+      <title>UAV 250 m → satellite; Full: 44.590053 ± 1.590316%</title>
+      <line x1="294.8" y1="481.0" x2="306.2" y2="481.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="294.8" y1="479.0" x2="294.8" y2="483.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="306.2" y1="479.0" x2="306.2" y2="483.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="298.0" y1="481.0" x2="303.0" y2="481.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="300.5" y1="478.5" x2="300.5" y2="483.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+    <g id="task-5">
+      <text x="133.0" y="505.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → UAV 250 m</text>
+    </g>
+    <g id="interval-5-visual" data-task="sues200_satellite_to_uav_250m" data-variant="visual" data-mean="52.2980789343516" data-sd="1.5692723554709669">
+      <title>Satellite → UAV 250 m; Visual: 52.298079 ± 1.569272%</title>
+      <line x1="322.6" y1="493.0" x2="333.9" y2="493.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="322.6" y1="491.0" x2="322.6" y2="495.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="333.9" y1="491.0" x2="333.9" y2="495.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="328.3" cy="493.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-5-content" data-task="sues200_satellite_to_uav_250m" data-variant="content" data-mean="3.72201440234979" data-sd="0.10720333608377694">
+      <title>Satellite → UAV 250 m; Content: 3.722014 ± 0.107203%</title>
+      <line x1="153.0" y1="497.0" x2="153.8" y2="497.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="153.0" y1="495.0" x2="153.0" y2="499.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="153.8" y1="495.0" x2="153.8" y2="499.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="151.4" y="495.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-5-style" data-task="sues200_satellite_to_uav_250m" data-variant="style" data-mean="1.556985763212045" data-sd="0.07766203920379701">
+      <title>Satellite → UAV 250 m; Style: 1.556986 ± 0.077662%</title>
+      <line x1="145.3" y1="501.0" x2="145.9" y2="501.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="145.3" y1="499.0" x2="145.3" y2="503.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="145.9" y1="499.0" x2="145.9" y2="503.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="145.6,498.3 148.3,503.0 142.9,503.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-5-visual_content" data-task="sues200_satellite_to_uav_250m" data-variant="visual_content" data-mean="40.86455702781677" data-sd="2.894521635443688">
+      <title>Satellite → UAV 250 m; Visual + content: 40.864557 ± 2.894522%</title>
+      <line x1="276.7" y1="505.0" x2="297.5" y2="505.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="276.7" y1="503.0" x2="276.7" y2="507.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="297.5" y1="503.0" x2="297.5" y2="507.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="287.1,502.3 289.8,505.0 287.1,507.7 284.4,505.0" fill="#378183" />
+    </g>
+    <g id="interval-5-visual_style" data-task="sues200_satellite_to_uav_250m" data-variant="visual_style" data-mean="40.46723544597626" data-sd="0.8728585288933588">
+      <title>Satellite → UAV 250 m; Visual + style: 40.467235 ± 0.872859%</title>
+      <line x1="282.5" y1="509.0" x2="288.8" y2="509.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="282.5" y1="507.0" x2="282.5" y2="511.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="288.8" y1="507.0" x2="288.8" y2="511.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="285.7,511.7 288.4,507.0 283.0,507.0" fill="#b5678e" />
+    </g>
+    <g id="interval-5-full" data-task="sues200_satellite_to_uav_250m" data-variant="full" data-mean="42.746357123057045" data-sd="1.3599368873451994">
+      <title>Satellite → UAV 250 m; Full: 42.746357 ± 1.359937%</title>
+      <line x1="289.0" y1="513.0" x2="298.8" y2="513.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="289.0" y1="511.0" x2="289.0" y2="515.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="298.8" y1="511.0" x2="298.8" y2="515.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="291.4" y1="513.0" x2="296.4" y2="513.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="293.9" y1="510.5" x2="293.9" y2="515.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+    <g id="task-6">
+      <text x="133.0" y="537.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">UAV 300 m → satellite</text>
+    </g>
+    <g id="interval-6-visual" data-task="sues200_uav_300m_to_satellite" data-variant="visual" data-mean="57.203481594721474" data-sd="0.6218664997496934">
+      <title>UAV 300 m → satellite; Visual: 57.203482 ± 0.621866%</title>
+      <line x1="343.7" y1="525.0" x2="348.2" y2="525.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="343.7" y1="523.0" x2="343.7" y2="527.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="348.2" y1="523.0" x2="348.2" y2="527.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="345.9" cy="525.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-6-content" data-task="sues200_uav_300m_to_satellite" data-variant="content" data-mean="7.8836945195992785" data-sd="0.26833922654359393">
+      <title>UAV 300 m → satellite; Content: 7.883695 ± 0.268339%</title>
+      <line x1="167.4" y1="529.0" x2="169.3" y2="529.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="167.4" y1="527.0" x2="167.4" y2="531.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="169.3" y1="527.0" x2="169.3" y2="531.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="166.4" y="527.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-6-style" data-task="sues200_uav_300m_to_satellite" data-variant="style" data-mean="2.1286378304163613" data-sd="0.03991047225938726">
+      <title>UAV 300 m → satellite; Style: 2.128638 ± 0.039910%</title>
+      <line x1="147.5" y1="533.0" x2="147.8" y2="533.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="147.5" y1="531.0" x2="147.5" y2="535.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="147.8" y1="531.0" x2="147.8" y2="535.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="147.7,530.3 150.4,535.0 145.0,535.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-6-visual_content" data-task="sues200_uav_300m_to_satellite" data-variant="visual_content" data-mean="47.787328561147056" data-sd="4.14207965712991">
+      <title>UAV 300 m → satellite; Visual + content: 47.787329 ± 4.142080%</title>
+      <line x1="297.1" y1="537.0" x2="326.9" y2="537.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="297.1" y1="535.0" x2="297.1" y2="539.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="326.9" y1="535.0" x2="326.9" y2="539.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="312.0,534.3 314.7,537.0 312.0,539.7 309.3,537.0" fill="#378183" />
+    </g>
+    <g id="interval-6-visual_style" data-task="sues200_uav_300m_to_satellite" data-variant="visual_style" data-mean="46.91103398799896" data-sd="1.7048843621820524">
+      <title>UAV 300 m → satellite; Visual + style: 46.911034 ± 1.704884%</title>
+      <line x1="302.7" y1="541.0" x2="315.0" y2="541.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="302.7" y1="539.0" x2="302.7" y2="543.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="315.0" y1="539.0" x2="315.0" y2="543.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="308.9,543.7 311.6,539.0 306.2,539.0" fill="#b5678e" />
+    </g>
+    <g id="interval-6-full" data-task="sues200_uav_300m_to_satellite" data-variant="full" data-mean="46.411742766698204" data-sd="1.2794423503193033">
+      <title>UAV 300 m → satellite; Full: 46.411743 ± 1.279442%</title>
+      <line x1="302.5" y1="545.0" x2="311.7" y2="545.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="302.5" y1="543.0" x2="302.5" y2="547.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="311.7" y1="543.0" x2="311.7" y2="547.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="304.6" y1="545.0" x2="309.6" y2="545.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="307.1" y1="542.5" x2="307.1" y2="547.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+    <g id="task-7">
+      <text x="133.0" y="569.5" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="end">Satellite → UAV 300 m</text>
+    </g>
+    <g id="interval-7-visual" data-task="sues200_satellite_to_uav_300m" data-variant="visual" data-mean="55.07047176361084" data-sd="0.3687940910310283">
+      <title>Satellite → UAV 300 m; Visual: 55.070472 ± 0.368794%</title>
+      <line x1="336.9" y1="557.0" x2="339.6" y2="557.0" stroke="#484878" stroke-width="0.9" />
+      <line x1="336.9" y1="555.0" x2="336.9" y2="559.0" stroke="#484878" stroke-width="0.7" />
+      <line x1="339.6" y1="555.0" x2="339.6" y2="559.0" stroke="#484878" stroke-width="0.7" />
+      <circle cx="338.3" cy="557.0" r="2.0" fill="#484878" />
+    </g>
+    <g id="interval-7-content" data-task="sues200_satellite_to_uav_300m" data-variant="content" data-mean="4.4234298169612885" data-sd="0.13170408443766102">
+      <title>Satellite → UAV 300 m; Content: 4.423430 ± 0.131704%</title>
+      <line x1="155.5" y1="561.0" x2="156.4" y2="561.0" stroke="#927b45" stroke-width="0.9" />
+      <line x1="155.5" y1="559.0" x2="155.5" y2="563.0" stroke="#927b45" stroke-width="0.7" />
+      <line x1="156.4" y1="559.0" x2="156.4" y2="563.0" stroke="#927b45" stroke-width="0.7" />
+      <rect x="153.9" y="559.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+    </g>
+    <g id="interval-7-style" data-task="sues200_satellite_to_uav_300m" data-variant="style" data-mean="1.5625303300718467" data-sd="0.040595438287596645">
+      <title>Satellite → UAV 300 m; Style: 1.562530 ± 0.040595%</title>
+      <line x1="145.5" y1="565.0" x2="145.8" y2="565.0" stroke="#7b6a91" stroke-width="0.9" />
+      <line x1="145.5" y1="563.0" x2="145.5" y2="567.0" stroke="#7b6a91" stroke-width="0.7" />
+      <line x1="145.8" y1="563.0" x2="145.8" y2="567.0" stroke="#7b6a91" stroke-width="0.7" />
+      <polygon points="145.6,562.3 148.3,567.0 142.9,567.0" fill="#7b6a91" />
+    </g>
+    <g id="interval-7-visual_content" data-task="sues200_satellite_to_uav_300m" data-variant="visual_content" data-mean="44.23791170120239" data-sd="4.189212297897877">
+      <title>Satellite → UAV 300 m; Visual + content: 44.237912 ± 4.189212%</title>
+      <line x1="284.2" y1="569.0" x2="314.3" y2="569.0" stroke="#378183" stroke-width="0.9" />
+      <line x1="284.2" y1="567.0" x2="284.2" y2="571.0" stroke="#378183" stroke-width="0.7" />
+      <line x1="314.3" y1="567.0" x2="314.3" y2="571.0" stroke="#378183" stroke-width="0.7" />
+      <polygon points="299.3,566.3 302.0,569.0 299.3,571.7 296.6,569.0" fill="#378183" />
+    </g>
+    <g id="interval-7-visual_style" data-task="sues200_satellite_to_uav_300m" data-variant="visual_style" data-mean="42.5231804450353" data-sd="1.2063333809546972">
+      <title>Satellite → UAV 300 m; Visual + style: 42.523180 ± 1.206333%</title>
+      <line x1="288.7" y1="573.0" x2="297.4" y2="573.0" stroke="#b5678e" stroke-width="0.9" />
+      <line x1="288.7" y1="571.0" x2="288.7" y2="575.0" stroke="#b5678e" stroke-width="0.7" />
+      <line x1="297.4" y1="571.0" x2="297.4" y2="575.0" stroke="#b5678e" stroke-width="0.7" />
+      <polygon points="293.1,575.7 295.8,571.0 290.4,571.0" fill="#b5678e" />
+    </g>
+    <g id="interval-7-full" data-task="sues200_satellite_to_uav_300m" data-variant="full" data-mean="44.4995512564977" data-sd="0.6517510154769286">
+      <title>Satellite → UAV 300 m; Full: 44.499551 ± 0.651751%</title>
+      <line x1="297.9" y1="577.0" x2="302.5" y2="577.0" stroke="#0f4d92" stroke-width="0.9" />
+      <line x1="297.9" y1="575.0" x2="297.9" y2="579.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="302.5" y1="575.0" x2="302.5" y2="579.0" stroke="#0f4d92" stroke-width="0.7" />
+      <line x1="297.7" y1="577.0" x2="302.7" y2="577.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="300.2" y1="574.5" x2="300.2" y2="579.5" stroke="#0f4d92" stroke-width="1.8" />
+    </g>
+  </g>
+  <g id="legend" inkscape:groupmode="layer" inkscape:label="legend">
+    <g id="legend-visual">
+      <circle cx="146.0" cy="616.0" r="2.0" fill="#484878" />
+      <g id="label-0">
+        <text x="155.0" y="618.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Visual</text>
+      </g>
+    </g>
+    <g id="legend-content">
+      <rect x="262.0" y="614.0" width="4.0" height="4.0" fill="#927b45" stroke="none" stroke-width="0.5" />
+      <g id="label-1">
+        <text x="273.0" y="618.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Content</text>
+      </g>
+    </g>
+    <g id="legend-style">
+      <polygon points="382.0,613.3 384.7,618.0 379.3,618.0" fill="#7b6a91" />
+      <g id="label-2">
+        <text x="391.0" y="618.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Style</text>
+      </g>
+    </g>
+    <g id="legend-visual_content">
+      <polygon points="146.0,629.3 148.7,632.0 146.0,634.7 143.3,632.0" fill="#378183" />
+      <g id="label-3">
+        <text x="155.0" y="634.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Visual + content</text>
+      </g>
+    </g>
+    <g id="legend-visual_style">
+      <polygon points="264.0,634.7 266.7,630.0 261.3,630.0" fill="#b5678e" />
+      <g id="label-4">
+        <text x="273.0" y="634.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Visual + style</text>
+      </g>
+    </g>
+    <g id="legend-full">
+      <line x1="379.5" y1="632.0" x2="384.5" y2="632.0" stroke="#0f4d92" stroke-width="1.8" />
+      <line x1="382.0" y1="629.5" x2="382.0" y2="634.5" stroke="#0f4d92" stroke-width="1.8" />
+      <g id="label-5">
+        <text x="391.0" y="634.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Full</text>
+      </g>
+    </g>
+  </g>
+  <g id="notes" inkscape:groupmode="layer" inkscape:label="notes">
+    <g id="statistics">
+      <text x="16.0" y="656.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Cells and points show mean ± sample SD over seeds 1, 2 and 3.</text>
+    </g>
+    <g id="metric-definition">
+      <text x="16.0" y="670.0" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="normal" fill="#222222" text-anchor="start">Official mAP uses the dataset protocol; retrieval tasks are not pooled.</text>
+    </g>
+  </g>
+</svg>

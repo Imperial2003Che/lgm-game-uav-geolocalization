@@ -1,0 +1,339 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="181.9mm" height="195.0861111111111mm" viewBox="0 0 515.6220472440946 553">
+<title>Trained on University-1652 → evaluated on SUES-200</title>
+<desc>Three-seed mean and sample SD. SD uses denominator 2, not confidence intervals. Native editable text and shapes. R@1 and official trapezoidal mAP percentages; MRR multiplied by 100. Tasks remain separate.</desc>
+<rect id="background" x="0" y="0" width="515.6220472440946" height="553" fill="white"/>
+<text id="training-evaluation-direction" x="15" y="18" font-family="Arial" font-size="10" font-weight="bold" text-anchor="start" fill="#222222">Trained on University-1652 → evaluated on SUES-200</text>
+<text id="study-title" x="15" y="34" font-family="Arial" font-size="9" font-weight="bold" text-anchor="start" fill="#222222">Zero-shot cross-dataset retrieval</text>
+<circle id="legend/visual/marker" cx="18" cy="48" r="1.8" fill="#0072B2"/>
+<text id="legend/visual/text" x="25" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Visual</text>
+<rect id="legend/full/marker" x="84.2" y="46.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="legend/full/text" x="93" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Full</text>
+<text id="statistical-summary" x="153" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Mean ± sample SD; seeds 1, 2, 3</text>
+<text id="task-header" x="15" y="79" font-family="Arial" font-size="8" font-weight="bold" text-anchor="start" fill="#222222">Target retrieval</text>
+<text id="task-header-second" x="15" y="90" font-family="Arial" font-size="8" font-weight="bold" text-anchor="start" fill="#222222">task / height</text>
+<text id="r_at_1/heading" x="176" y="79" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">R@1 (%)</text>
+<line id="r_at_1/grid/0" x1="118" y1="104" x2="118" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/0" x1="118" y1="102" x2="118" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/0" x="118" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="r_at_1/grid/10" x1="141.2" y1="104" x2="141.2" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/10" x1="141.2" y1="102" x2="141.2" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/10" x="141.2" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">10</text>
+<line id="r_at_1/grid/20" x1="164.4" y1="104" x2="164.4" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/20" x1="164.4" y1="102" x2="164.4" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/20" x="164.4" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">20</text>
+<line id="r_at_1/grid/30" x1="187.6" y1="104" x2="187.6" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/30" x1="187.6" y1="102" x2="187.6" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/30" x="187.6" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">30</text>
+<line id="r_at_1/grid/40" x1="210.8" y1="104" x2="210.8" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/40" x1="210.8" y1="102" x2="210.8" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/40" x="210.8" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">40</text>
+<line id="r_at_1/grid/50" x1="234" y1="104" x2="234" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/50" x1="234" y1="102" x2="234" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/50" x="234" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="r_at_1/axis" x1="118" y1="104" x2="234" y2="104" stroke="#444444" stroke-width="0.6"/>
+<line id="sues200_uav_150m_to_satellite/visual/r_at_1/sd-line" x1="156.99992694901215" y1="116" x2="167.81740638432117" y2="116" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_150m_to_satellite/visual/r_at_1/sd-cap-left" x1="156.99992694901215" y1="113.9" x2="156.99992694901215" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_150m_to_satellite/visual/r_at_1/sd-cap-right" x1="167.81740638432117" y1="113.9" x2="167.81740638432117" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_150m_to_satellite/visual/r_at_1/mean" cx="162.40866666666668" cy="116" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_150m_to_satellite/visual/r_at_1/value" x="176" y="127" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">19.142 ± 2.331</text>
+<line id="sues200_uav_150m_to_satellite/full/r_at_1/sd-line" x1="149.70249054984896" y1="136" x2="154.0028427834844" y2="136" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_150m_to_satellite/full/r_at_1/sd-cap-left" x1="149.70249054984896" y1="133.9" x2="149.70249054984896" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_150m_to_satellite/full/r_at_1/sd-cap-right" x1="154.0028427834844" y1="133.9" x2="154.0028427834844" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_150m_to_satellite/full/r_at_1/mean" x="150.05266666666665" y="134.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_150m_to_satellite/full/r_at_1/value" x="176" y="147" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">14.592 ± 0.927</text>
+<line id="sues200_satellite_to_uav_150m/visual/r_at_1/sd-line" x1="154.1111375977068" y1="162" x2="172.75552906895985" y2="162" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_150m/visual/r_at_1/sd-cap-left" x1="154.1111375977068" y1="159.9" x2="154.1111375977068" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_150m/visual/r_at_1/sd-cap-right" x1="172.75552906895985" y1="159.9" x2="172.75552906895985" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_150m/visual/r_at_1/mean" cx="163.43333333333334" cy="162" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_150m/visual/r_at_1/value" x="176" y="173" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">19.583 ± 4.018</text>
+<line id="sues200_satellite_to_uav_150m/full/r_at_1/sd-line" x1="143.53684349487602" y1="182" x2="152.3964898384573" y2="182" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_150m/full/r_at_1/sd-cap-left" x1="143.53684349487602" y1="179.9" x2="143.53684349487602" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_150m/full/r_at_1/sd-cap-right" x1="152.3964898384573" y1="179.9" x2="152.3964898384573" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_150m/full/r_at_1/mean" x="146.16666666666666" y="180.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_150m/full/r_at_1/value" x="176" y="193" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">12.917 ± 1.909</text>
+<line id="sues200_uav_200m_to_satellite/visual/r_at_1/sd-line" x1="167.14118337035237" y1="208" x2="179.75481662964765" y2="208" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_200m_to_satellite/visual/r_at_1/sd-cap-left" x1="167.14118337035237" y1="205.9" x2="167.14118337035237" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_200m_to_satellite/visual/r_at_1/sd-cap-right" x1="179.75481662964765" y1="205.9" x2="179.75481662964765" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_200m_to_satellite/visual/r_at_1/mean" cx="173.448" cy="208" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_200m_to_satellite/visual/r_at_1/value" x="176" y="219" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">23.900 ± 2.718</text>
+<line id="sues200_uav_200m_to_satellite/full/r_at_1/sd-line" x1="153.4247181989159" y1="228" x2="157.1246151344174" y2="228" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_200m_to_satellite/full/r_at_1/sd-cap-left" x1="153.4247181989159" y1="225.9" x2="153.4247181989159" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_200m_to_satellite/full/r_at_1/sd-cap-right" x1="157.1246151344174" y1="225.9" x2="157.1246151344174" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_200m_to_satellite/full/r_at_1/mean" x="153.47466666666665" y="226.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_200m_to_satellite/full/r_at_1/value" x="176" y="239" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">16.067 ± 0.797</text>
+<line id="sues200_satellite_to_uav_200m/visual/r_at_1/sd-line" x1="167.3" y1="254" x2="190.5" y2="254" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/visual/r_at_1/sd-cap-left" x1="167.3" y1="251.9" x2="167.3" y2="256.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_200m/visual/r_at_1/sd-cap-right" x1="190.5" y1="251.9" x2="190.5" y2="256.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_200m/visual/r_at_1/mean" cx="178.9" cy="254" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_200m/visual/r_at_1/value" x="176" y="265" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">26.250 ± 5.000</text>
+<line id="sues200_satellite_to_uav_200m/full/r_at_1/sd-line" x1="150.41803510536684" y1="274" x2="157.1152982279665" y2="274" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/full/r_at_1/sd-cap-left" x1="150.41803510536684" y1="271.9" x2="150.41803510536684" y2="276.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_200m/full/r_at_1/sd-cap-right" x1="157.1152982279665" y1="271.9" x2="157.1152982279665" y2="276.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_200m/full/r_at_1/mean" x="151.96666666666664" y="272.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_200m/full/r_at_1/value" x="176" y="285" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">15.417 ± 1.443</text>
+<line id="sues200_uav_250m_to_satellite/visual/r_at_1/sd-line" x1="175.78389661546126" y1="300" x2="186.77210338453875" y2="300" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_250m_to_satellite/visual/r_at_1/sd-cap-left" x1="175.78389661546126" y1="297.9" x2="175.78389661546126" y2="302.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_250m_to_satellite/visual/r_at_1/sd-cap-right" x1="186.77210338453875" y1="297.9" x2="186.77210338453875" y2="302.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_250m_to_satellite/visual/r_at_1/mean" cx="181.278" cy="300" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_250m_to_satellite/visual/r_at_1/value" x="176" y="311" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">27.275 ± 2.368</text>
+<line id="sues200_uav_250m_to_satellite/full/r_at_1/sd-line" x1="158.88468134115496" y1="320" x2="163.45798532551171" y2="320" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_250m_to_satellite/full/r_at_1/sd-cap-left" x1="158.88468134115496" y1="317.9" x2="158.88468134115496" y2="322.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_250m_to_satellite/full/r_at_1/sd-cap-right" x1="163.45798532551171" y1="317.9" x2="163.45798532551171" y2="322.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_250m_to_satellite/full/r_at_1/mean" x="159.37133333333333" y="318.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_250m_to_satellite/full/r_at_1/value" x="176" y="331" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">18.608 ± 0.986</text>
+<line id="sues200_satellite_to_uav_250m/visual/r_at_1/sd-line" x1="178.9" y1="346" x2="196.3" y2="346" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_250m/visual/r_at_1/sd-cap-left" x1="178.9" y1="343.9" x2="178.9" y2="348.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_250m/visual/r_at_1/sd-cap-right" x1="196.3" y1="343.9" x2="196.3" y2="348.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_250m/visual/r_at_1/mean" cx="187.6" cy="346" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_250m/visual/r_at_1/value" x="176" y="357" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">30.000 ± 3.750</text>
+<line id="sues200_satellite_to_uav_250m/full/r_at_1/sd-line" x1="159.32983526821488" y1="366" x2="171.40349806511847" y2="366" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_250m/full/r_at_1/sd-cap-left" x1="159.32983526821488" y1="363.9" x2="159.32983526821488" y2="368.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_250m/full/r_at_1/sd-cap-right" x1="171.40349806511847" y1="363.9" x2="171.40349806511847" y2="368.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_250m/full/r_at_1/mean" x="163.56666666666666" y="364.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_250m/full/r_at_1/value" x="176" y="377" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">20.417 ± 2.602</text>
+<line id="sues200_uav_300m_to_satellite/visual/r_at_1/sd-line" x1="181.00770846857554" y1="392" x2="193.96029153142445" y2="392" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_300m_to_satellite/visual/r_at_1/sd-cap-left" x1="181.00770846857554" y1="389.9" x2="181.00770846857554" y2="394.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_300m_to_satellite/visual/r_at_1/sd-cap-right" x1="193.96029153142445" y1="389.9" x2="193.96029153142445" y2="394.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_300m_to_satellite/visual/r_at_1/mean" cx="187.48399999999998" cy="392" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_300m_to_satellite/visual/r_at_1/value" x="176" y="403" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">29.950 ± 2.792</text>
+<line id="sues200_uav_300m_to_satellite/full/r_at_1/sd-line" x1="160.7618205993926" y1="412" x2="165.87284606727408" y2="412" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_300m_to_satellite/full/r_at_1/sd-cap-left" x1="160.7618205993926" y1="409.9" x2="160.7618205993926" y2="414.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_300m_to_satellite/full/r_at_1/sd-cap-right" x1="165.87284606727408" y1="409.9" x2="165.87284606727408" y2="414.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_300m_to_satellite/full/r_at_1/mean" x="161.5173333333333" y="410.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_300m_to_satellite/full/r_at_1/value" x="176" y="423" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">19.533 ± 1.102</text>
+<line id="sues200_satellite_to_uav_300m/visual/r_at_1/sd-line" x1="185.15650905014695" y1="438" x2="211.31015761651975" y2="438" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_300m/visual/r_at_1/sd-cap-left" x1="185.15650905014695" y1="435.9" x2="185.15650905014695" y2="440.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_300m/visual/r_at_1/sd-cap-right" x1="211.31015761651975" y1="435.9" x2="211.31015761651975" y2="440.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_300m/visual/r_at_1/mean" cx="198.23333333333335" cy="438" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_300m/visual/r_at_1/value" x="176" y="449" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">34.583 ± 5.637</text>
+<line id="sues200_satellite_to_uav_300m/full/r_at_1/sd-line" x1="159.0035101615427" y1="458" x2="167.86315650512398" y2="458" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_300m/full/r_at_1/sd-cap-left" x1="159.0035101615427" y1="455.9" x2="159.0035101615427" y2="460.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_300m/full/r_at_1/sd-cap-right" x1="167.86315650512398" y1="455.9" x2="167.86315650512398" y2="460.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_300m/full/r_at_1/mean" x="161.63333333333333" y="456.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_300m/full/r_at_1/value" x="176" y="469" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">19.583 ± 1.909</text>
+<text id="official_trapezoid_mAP/heading" x="306" y="79" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Official mAP (%)</text>
+<text id="official_trapezoid_mAP/semantics" x="306" y="90" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">Trapezoidal AP</text>
+<line id="official_trapezoid_mAP/grid/0" x1="248" y1="104" x2="248" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="official_trapezoid_mAP/tick/0" x1="248" y1="102" x2="248" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="official_trapezoid_mAP/tick-label/0" x="248" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="official_trapezoid_mAP/grid/10" x1="277" y1="104" x2="277" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="official_trapezoid_mAP/tick/10" x1="277" y1="102" x2="277" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="official_trapezoid_mAP/tick-label/10" x="277" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">10</text>
+<line id="official_trapezoid_mAP/grid/20" x1="306" y1="104" x2="306" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="official_trapezoid_mAP/tick/20" x1="306" y1="102" x2="306" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="official_trapezoid_mAP/tick-label/20" x="306" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">20</text>
+<line id="official_trapezoid_mAP/grid/30" x1="335" y1="104" x2="335" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="official_trapezoid_mAP/tick/30" x1="335" y1="102" x2="335" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="official_trapezoid_mAP/tick-label/30" x="335" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">30</text>
+<line id="official_trapezoid_mAP/grid/40" x1="364" y1="104" x2="364" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="official_trapezoid_mAP/tick/40" x1="364" y1="102" x2="364" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="official_trapezoid_mAP/tick-label/40" x="364" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">40</text>
+<line id="official_trapezoid_mAP/axis" x1="248" y1="104" x2="364" y2="104" stroke="#444444" stroke-width="0.6"/>
+<line id="sues200_uav_150m_to_satellite/visual/official_trapezoid_mAP/sd-line" x1="312.2105582015354" y1="116" x2="326.1023481829327" y2="116" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_150m_to_satellite/visual/official_trapezoid_mAP/sd-cap-left" x1="312.2105582015354" y1="113.9" x2="312.2105582015354" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_150m_to_satellite/visual/official_trapezoid_mAP/sd-cap-right" x1="326.1023481829327" y1="113.9" x2="326.1023481829327" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_150m_to_satellite/visual/official_trapezoid_mAP/mean" cx="319.15645319223404" cy="116" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_150m_to_satellite/visual/official_trapezoid_mAP/value" x="306" y="127" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">24.537 ± 2.395</text>
+<line id="sues200_uav_150m_to_satellite/full/official_trapezoid_mAP/sd-line" x1="303.0797926593696" y1="136" x2="306.94330986252675" y2="136" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_150m_to_satellite/full/official_trapezoid_mAP/sd-cap-left" x1="303.0797926593696" y1="133.9" x2="303.0797926593696" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_150m_to_satellite/full/official_trapezoid_mAP/sd-cap-right" x1="306.94330986252675" y1="133.9" x2="306.94330986252675" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_150m_to_satellite/full/official_trapezoid_mAP/mean" x="303.21155126094817" y="134.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_150m_to_satellite/full/official_trapezoid_mAP/value" x="306" y="147" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">19.659 ± 0.666</text>
+<line id="sues200_satellite_to_uav_150m/visual/official_trapezoid_mAP/sd-line" x1="280.28221946260794" y1="162" x2="289.9717362195108" y2="162" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_150m/visual/official_trapezoid_mAP/sd-cap-left" x1="280.28221946260794" y1="159.9" x2="280.28221946260794" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_150m/visual/official_trapezoid_mAP/sd-cap-right" x1="289.9717362195108" y1="159.9" x2="289.9717362195108" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_150m/visual/official_trapezoid_mAP/mean" cx="285.1269778410594" cy="162" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_150m/visual/official_trapezoid_mAP/value" x="306" y="173" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">12.802 ± 1.671</text>
+<line id="sues200_satellite_to_uav_150m/full/official_trapezoid_mAP/sd-line" x1="272.2057390245954" y1="182" x2="276.4876098997235" y2="182" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_150m/full/official_trapezoid_mAP/sd-cap-left" x1="272.2057390245954" y1="179.9" x2="272.2057390245954" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_150m/full/official_trapezoid_mAP/sd-cap-right" x1="276.4876098997235" y1="179.9" x2="276.4876098997235" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_150m/full/official_trapezoid_mAP/mean" x="272.54667446215944" y="180.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_150m/full/official_trapezoid_mAP/value" x="306" y="193" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">9.085 ± 0.738</text>
+<line id="sues200_uav_200m_to_satellite/visual/official_trapezoid_mAP/sd-line" x1="325.6101333559206" y1="208" x2="341.75900917642804" y2="208" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_200m_to_satellite/visual/official_trapezoid_mAP/sd-cap-left" x1="325.6101333559206" y1="205.9" x2="325.6101333559206" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_200m_to_satellite/visual/official_trapezoid_mAP/sd-cap-right" x1="341.75900917642804" y1="205.9" x2="341.75900917642804" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_200m_to_satellite/visual/official_trapezoid_mAP/mean" cx="333.6845712661743" cy="208" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_200m_to_satellite/visual/official_trapezoid_mAP/value" x="306" y="219" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">29.546 ± 2.784</text>
+<line id="sues200_uav_200m_to_satellite/full/official_trapezoid_mAP/sd-line" x1="308.66003308081054" y1="228" x2="312.7633809309858" y2="228" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_200m_to_satellite/full/official_trapezoid_mAP/sd-cap-left" x1="308.66003308081054" y1="225.9" x2="308.66003308081054" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_200m_to_satellite/full/official_trapezoid_mAP/sd-cap-right" x1="312.7633809309858" y1="225.9" x2="312.7633809309858" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_200m_to_satellite/full/official_trapezoid_mAP/mean" x="308.91170700589817" y="226.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_200m_to_satellite/full/official_trapezoid_mAP/value" x="306" y="239" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">21.625 ± 0.707</text>
+<line id="sues200_satellite_to_uav_200m/visual/official_trapezoid_mAP/sd-line" x1="287.18708022682654" y1="254" x2="306.6391307289522" y2="254" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/visual/official_trapezoid_mAP/sd-cap-left" x1="287.18708022682654" y1="251.9" x2="287.18708022682654" y2="256.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_200m/visual/official_trapezoid_mAP/sd-cap-right" x1="306.6391307289522" y1="251.9" x2="306.6391307289522" y2="256.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_200m/visual/official_trapezoid_mAP/mean" cx="296.91310547788936" cy="254" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_200m/visual/official_trapezoid_mAP/value" x="306" y="265" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">16.867 ± 3.354</text>
+<line id="sues200_satellite_to_uav_200m/full/official_trapezoid_mAP/sd-line" x1="281.46262401208924" y1="274" x2="284.7007946385379" y2="274" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/full/official_trapezoid_mAP/sd-cap-left" x1="281.46262401208924" y1="271.9" x2="281.46262401208924" y2="276.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_200m/full/official_trapezoid_mAP/sd-cap-right" x1="284.7007946385379" y1="271.9" x2="284.7007946385379" y2="276.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_200m/full/official_trapezoid_mAP/mean" x="281.28170932531356" y="272.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_200m/full/official_trapezoid_mAP/value" x="306" y="285" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">12.097 ± 0.558</text>
+<line id="sues200_uav_250m_to_satellite/visual/official_trapezoid_mAP/sd-line" x1="336.48462319745886" y1="300" x2="350.76991668965155" y2="300" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_250m_to_satellite/visual/official_trapezoid_mAP/sd-cap-left" x1="336.48462319745886" y1="297.9" x2="336.48462319745886" y2="302.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_250m_to_satellite/visual/official_trapezoid_mAP/sd-cap-right" x1="350.76991668965155" y1="297.9" x2="350.76991668965155" y2="302.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_250m_to_satellite/visual/official_trapezoid_mAP/mean" cx="343.62726994355523" cy="300" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_250m_to_satellite/visual/official_trapezoid_mAP/value" x="306" y="311" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">32.975 ± 2.463</text>
+<line id="sues200_uav_250m_to_satellite/full/official_trapezoid_mAP/sd-line" x1="316.31391312755767" y1="320" x2="320.8196918161946" y2="320" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_250m_to_satellite/full/official_trapezoid_mAP/sd-cap-left" x1="316.31391312755767" y1="317.9" x2="316.31391312755767" y2="322.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_250m_to_satellite/full/official_trapezoid_mAP/sd-cap-right" x1="320.8196918161946" y1="317.9" x2="320.8196918161946" y2="322.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_250m_to_satellite/full/official_trapezoid_mAP/mean" x="316.76680247187613" y="318.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_250m_to_satellite/full/official_trapezoid_mAP/value" x="306" y="331" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">24.333 ± 0.777</text>
+<line id="sues200_satellite_to_uav_250m/visual/official_trapezoid_mAP/sd-line" x1="301.3581145823355" y1="346" x2="318.1463493485893" y2="346" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_250m/visual/official_trapezoid_mAP/sd-cap-left" x1="301.3581145823355" y1="343.9" x2="301.3581145823355" y2="348.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_250m/visual/official_trapezoid_mAP/sd-cap-right" x1="318.1463493485893" y1="343.9" x2="318.1463493485893" y2="348.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_250m/visual/official_trapezoid_mAP/mean" cx="309.7522319654624" cy="346" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_250m/visual/official_trapezoid_mAP/value" x="306" y="357" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">21.294 ± 2.895</text>
+<line id="sues200_satellite_to_uav_250m/full/official_trapezoid_mAP/sd-line" x1="291.20512604719164" y1="366" x2="293.26695805782316" y2="366" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_250m/full/official_trapezoid_mAP/sd-cap-left" x1="291.20512604719164" y1="363.9" x2="291.20512604719164" y2="368.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_250m/full/official_trapezoid_mAP/sd-cap-right" x1="293.26695805782316" y1="363.9" x2="293.26695805782316" y2="368.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_250m/full/official_trapezoid_mAP/mean" x="290.4360420525074" y="364.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_250m/full/official_trapezoid_mAP/value" x="306" y="377" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">15.254 ± 0.355</text>
+<line id="sues200_uav_300m_to_satellite/visual/official_trapezoid_mAP/sd-line" x1="342.7809151848778" y1="392" x2="359.71261131359887" y2="392" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_300m_to_satellite/visual/official_trapezoid_mAP/sd-cap-left" x1="342.7809151848778" y1="389.9" x2="342.7809151848778" y2="394.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_300m_to_satellite/visual/official_trapezoid_mAP/sd-cap-right" x1="359.71261131359887" y1="389.9" x2="359.71261131359887" y2="394.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_300m_to_satellite/visual/official_trapezoid_mAP/mean" cx="351.24676324923837" cy="392" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_300m_to_satellite/visual/official_trapezoid_mAP/value" x="306" y="403" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">35.602 ± 2.919</text>
+<line id="sues200_uav_300m_to_satellite/full/official_trapezoid_mAP/sd-line" x1="318.47783467745325" y1="412" x2="324.1095478775547" y2="412" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_300m_to_satellite/full/official_trapezoid_mAP/sd-cap-left" x1="318.47783467745325" y1="409.9" x2="318.47783467745325" y2="414.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_300m_to_satellite/full/official_trapezoid_mAP/sd-cap-right" x1="324.1095478775547" y1="409.9" x2="324.1095478775547" y2="414.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_300m_to_satellite/full/official_trapezoid_mAP/mean" x="319.49369127750396" y="410.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_300m_to_satellite/full/official_trapezoid_mAP/value" x="306" y="423" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">25.274 ± 0.971</text>
+<line id="sues200_satellite_to_uav_300m/visual/official_trapezoid_mAP/sd-line" x1="311.6207540053318" y1="438" x2="326.3775014461885" y2="438" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_300m/visual/official_trapezoid_mAP/sd-cap-left" x1="311.6207540053318" y1="435.9" x2="311.6207540053318" y2="440.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_300m/visual/official_trapezoid_mAP/sd-cap-right" x1="326.3775014461885" y1="435.9" x2="326.3775014461885" y2="440.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_300m/visual/official_trapezoid_mAP/mean" cx="318.99912772576016" cy="438" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_300m/visual/official_trapezoid_mAP/value" x="306" y="449" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">24.482 ± 2.544</text>
+<line id="sues200_satellite_to_uav_300m/full/official_trapezoid_mAP/sd-line" x1="294.70621947593906" y1="458" x2="296.85903352352557" y2="458" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_300m/full/official_trapezoid_mAP/sd-cap-left" x1="294.70621947593906" y1="455.9" x2="294.70621947593906" y2="460.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_300m/full/official_trapezoid_mAP/sd-cap-right" x1="296.85903352352557" y1="455.9" x2="296.85903352352557" y2="460.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_300m/full/official_trapezoid_mAP/mean" x="293.9826264997323" y="456.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_300m/full/official_trapezoid_mAP/value" x="306" y="469" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">16.477 ± 0.371</text>
+<text id="MRR/heading" x="436" y="79" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">MRR × 100</text>
+<line id="MRR/grid/0" x1="378" y1="104" x2="378" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/0" x1="378" y1="102" x2="378" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/0" x="378" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="MRR/grid/10" x1="401.2" y1="104" x2="401.2" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/10" x1="401.2" y1="102" x2="401.2" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/10" x="401.2" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">10</text>
+<line id="MRR/grid/20" x1="424.4" y1="104" x2="424.4" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/20" x1="424.4" y1="102" x2="424.4" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/20" x="424.4" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">20</text>
+<line id="MRR/grid/30" x1="447.6" y1="104" x2="447.6" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/30" x1="447.6" y1="102" x2="447.6" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/30" x="447.6" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">30</text>
+<line id="MRR/grid/40" x1="470.8" y1="104" x2="470.8" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/40" x1="470.8" y1="102" x2="470.8" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/40" x="470.8" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">40</text>
+<line id="MRR/grid/50" x1="494" y1="104" x2="494" y2="481" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/50" x1="494" y1="102" x2="494" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/50" x="494" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="MRR/axis" x1="378" y1="104" x2="494" y2="104" stroke="#444444" stroke-width="0.6"/>
+<line id="sues200_uav_150m_to_satellite/visual/MRR/sd-line" x1="441.64757672376925" y1="116" x2="453.2357335942239" y2="116" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_150m_to_satellite/visual/MRR/sd-cap-left" x1="441.64757672376925" y1="113.9" x2="441.64757672376925" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_150m_to_satellite/visual/MRR/sd-cap-right" x1="453.2357335942239" y1="113.9" x2="453.2357335942239" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_150m_to_satellite/visual/MRR/mean" cx="447.4416551589966" cy="116" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_150m_to_satellite/visual/MRR/value" x="436" y="127" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">29.932 ± 2.497</text>
+<line id="sues200_uav_150m_to_satellite/full/MRR/sd-line" x1="433.827256433869" y1="136" x2="436.90437476564983" y2="136" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_150m_to_satellite/full/MRR/sd-cap-left" x1="433.827256433869" y1="133.9" x2="433.827256433869" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_150m_to_satellite/full/MRR/sd-cap-right" x1="436.90437476564983" y1="133.9" x2="436.90437476564983" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_150m_to_satellite/full/MRR/mean" x="433.56581559975945" y="134.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_150m_to_satellite/full/MRR/value" x="436" y="147" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">24.727 ± 0.663</text>
+<line id="sues200_satellite_to_uav_150m/visual/MRR/sd-line" x1="428.0060692648911" y1="162" x2="445.864811418372" y2="162" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_150m/visual/MRR/sd-cap-left" x1="428.0060692648911" y1="159.9" x2="428.0060692648911" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_150m/visual/MRR/sd-cap-right" x1="445.864811418372" y1="159.9" x2="445.864811418372" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_150m/visual/MRR/mean" cx="436.9354403416316" cy="162" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_150m/visual/MRR/value" x="436" y="173" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">25.403 ± 3.849</text>
+<line id="sues200_satellite_to_uav_150m/full/MRR/sd-line" x1="416.0328935815436" y1="182" x2="425.74981466595904" y2="182" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_150m/full/MRR/sd-cap-left" x1="416.0328935815436" y1="179.9" x2="416.0328935815436" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_150m/full/MRR/sd-cap-right" x1="425.74981466595904" y1="179.9" x2="425.74981466595904" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_150m/full/MRR/mean" x="419.0913541237513" y="180.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_150m/full/MRR/value" x="436" y="193" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">18.488 ± 2.094</text>
+<line id="sues200_uav_200m_to_satellite/visual/MRR/sd-line" x1="452.9579795922729" y1="208" x2="466.3366564983236" y2="208" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_200m_to_satellite/visual/MRR/sd-cap-left" x1="452.9579795922729" y1="205.9" x2="452.9579795922729" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_200m_to_satellite/visual/MRR/sd-cap-right" x1="466.3366564983236" y1="205.9" x2="466.3366564983236" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_200m_to_satellite/visual/MRR/mean" cx="459.6473180452983" cy="208" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_200m_to_satellite/visual/MRR/value" x="436" y="219" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">35.193 ± 2.883</text>
+<line id="sues200_uav_200m_to_satellite/full/MRR/sd-line" x1="439.5321845846718" y1="228" x2="442.59594553338036" y2="228" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_200m_to_satellite/full/MRR/sd-cap-left" x1="439.5321845846718" y1="225.9" x2="439.5321845846718" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_200m_to_satellite/full/MRR/sd-cap-right" x1="442.59594553338036" y1="225.9" x2="442.59594553338036" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_200m_to_satellite/full/MRR/mean" x="439.26406505902605" y="226.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_200m_to_satellite/full/MRR/value" x="436" y="239" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">27.183 ± 0.660</text>
+<line id="sues200_satellite_to_uav_200m/visual/MRR/sd-line" x1="443.5384039116137" y1="254" x2="468.66851623532847" y2="254" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/visual/MRR/sd-cap-left" x1="443.5384039116137" y1="251.9" x2="443.5384039116137" y2="256.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_200m/visual/MRR/sd-cap-right" x1="468.66851623532847" y1="251.9" x2="468.66851623532847" y2="256.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_200m/visual/MRR/mean" cx="456.10346007347107" cy="254" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_200m/visual/MRR/value" x="436" y="265" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">33.665 ± 5.416</text>
+<line id="sues200_satellite_to_uav_200m/full/MRR/sd-line" x1="423.45104148058704" y1="274" x2="431.85060117573926" y2="274" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/full/MRR/sd-cap-left" x1="423.45104148058704" y1="271.9" x2="423.45104148058704" y2="276.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_200m/full/MRR/sd-cap-right" x1="431.85060117573926" y1="271.9" x2="431.85060117573926" y2="276.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_200m/full/MRR/mean" x="425.85082132816314" y="272.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_200m/full/MRR/value" x="436" y="285" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">21.401 ± 1.810</text>
+<line id="sues200_uav_250m_to_satellite/visual/MRR/sd-line" x1="461.7527379898909" y1="300" x2="473.6985073180315" y2="300" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_250m_to_satellite/visual/MRR/sd-cap-left" x1="461.7527379898909" y1="297.9" x2="461.7527379898909" y2="302.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_250m_to_satellite/visual/MRR/sd-cap-right" x1="473.6985073180315" y1="297.9" x2="473.6985073180315" y2="302.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_250m_to_satellite/visual/MRR/mean" cx="467.7256226539612" cy="300" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_250m_to_satellite/visual/MRR/value" x="436" y="311" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">38.675 ± 2.575</text>
+<line id="sues200_uav_250m_to_satellite/full/MRR/sd-line" x1="446.34915133823955" y1="320" x2="449.1219437469045" y2="320" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_250m_to_satellite/full/MRR/sd-cap-left" x1="446.34915133823955" y1="317.9" x2="446.34915133823955" y2="322.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_250m_to_satellite/full/MRR/sd-cap-right" x1="449.1219437469045" y1="317.9" x2="449.1219437469045" y2="322.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_250m_to_satellite/full/MRR/mean" x="445.935547542572" y="318.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_250m_to_satellite/full/MRR/value" x="436" y="331" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">30.058 ± 0.598</text>
+<line id="sues200_satellite_to_uav_250m/visual/MRR/sd-line" x1="456.25129409121723" y1="346" x2="470.7308871399636" y2="346" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_250m/visual/MRR/sd-cap-left" x1="456.25129409121723" y1="343.9" x2="456.25129409121723" y2="348.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_250m/visual/MRR/sd-cap-right" x1="470.7308871399636" y1="343.9" x2="470.7308871399636" y2="348.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_250m/visual/MRR/mean" cx="463.4910906155904" cy="346" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_250m/visual/MRR/value" x="436" y="357" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">36.850 ± 3.121</text>
+<line id="sues200_satellite_to_uav_250m/full/MRR/sd-line" x1="432.54891864606884" y1="366" x2="447.1427219693944" y2="366" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_250m/full/MRR/sd-cap-left" x1="432.54891864606884" y1="363.9" x2="432.54891864606884" y2="368.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_250m/full/MRR/sd-cap-right" x1="447.1427219693944" y1="363.9" x2="447.1427219693944" y2="368.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_250m/full/MRR/mean" x="438.0458203077316" y="364.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_250m/full/MRR/value" x="436" y="377" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">26.658 ± 3.145</text>
+<line id="sues200_uav_300m_to_satellite/visual/MRR/sd-line" x1="466.6137250549151" y1="392" x2="480.8079180432803" y2="392" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_uav_300m_to_satellite/visual/MRR/sd-cap-left" x1="466.6137250549151" y1="389.9" x2="466.6137250549151" y2="394.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_uav_300m_to_satellite/visual/MRR/sd-cap-right" x1="480.8079180432803" y1="389.9" x2="480.8079180432803" y2="394.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_uav_300m_to_satellite/visual/MRR/mean" cx="473.7108215490977" cy="392" r="1.8" fill="#0072B2"/>
+<text id="sues200_uav_300m_to_satellite/visual/MRR/value" x="436" y="403" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">41.255 ± 3.059</text>
+<line id="sues200_uav_300m_to_satellite/full/MRR/sd-line" x1="447.9788804468319" y1="412" x2="451.9262748939986" y2="412" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_uav_300m_to_satellite/full/MRR/sd-cap-left" x1="447.9788804468319" y1="409.9" x2="447.9788804468319" y2="414.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_uav_300m_to_satellite/full/MRR/sd-cap-right" x1="451.9262748939986" y1="409.9" x2="451.9262748939986" y2="414.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_uav_300m_to_satellite/full/MRR/mean" x="448.1525776704152" y="410.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_uav_300m_to_satellite/full/MRR/value" x="436" y="423" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">31.014 ± 0.851</text>
+<line id="sues200_satellite_to_uav_300m/visual/MRR/sd-line" x1="459.4807031286448" y1="438" x2="483.2408098247956" y2="438" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_300m/visual/MRR/sd-cap-left" x1="459.4807031286448" y1="435.9" x2="459.4807031286448" y2="440.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_300m/visual/MRR/sd-cap-right" x1="483.2408098247956" y1="435.9" x2="483.2408098247956" y2="440.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="sues200_satellite_to_uav_300m/visual/MRR/mean" cx="471.36075647672016" cy="438" r="1.8" fill="#0072B2"/>
+<text id="sues200_satellite_to_uav_300m/visual/MRR/value" x="436" y="449" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">40.242 ± 5.121</text>
+<line id="sues200_satellite_to_uav_300m/full/MRR/sd-line" x1="436.95022886157375" y1="458" x2="439.75556626756645" y2="458" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_300m/full/MRR/sd-cap-left" x1="436.95022886157375" y1="455.9" x2="436.95022886157375" y2="460.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="sues200_satellite_to_uav_300m/full/MRR/sd-cap-right" x1="439.75556626756645" y1="455.9" x2="439.75556626756645" y2="460.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="sues200_satellite_to_uav_300m/full/MRR/mean" x="436.5528975645701" y="456.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="sues200_satellite_to_uav_300m/full/MRR/value" x="436" y="469" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">26.014 ± 0.605</text>
+<text id="sues200_uav_150m_to_satellite/label/0" x="15" y="125" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">UAV → satellite</text>
+<text id="sues200_uav_150m_to_satellite/label/1" x="15" y="137" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">150 m</text>
+<line id="sues200_uav_150m_to_satellite/separator" x1="15" y1="154" x2="500.6220472440946" y2="154" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_satellite_to_uav_150m/label/0" x="15" y="171" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Satellite → UAV</text>
+<text id="sues200_satellite_to_uav_150m/label/1" x="15" y="183" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">150 m</text>
+<line id="sues200_satellite_to_uav_150m/separator" x1="15" y1="200" x2="500.6220472440946" y2="200" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_uav_200m_to_satellite/label/0" x="15" y="217" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">UAV → satellite</text>
+<text id="sues200_uav_200m_to_satellite/label/1" x="15" y="229" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">200 m</text>
+<line id="sues200_uav_200m_to_satellite/separator" x1="15" y1="246" x2="500.6220472440946" y2="246" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_satellite_to_uav_200m/label/0" x="15" y="263" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Satellite → UAV</text>
+<text id="sues200_satellite_to_uav_200m/label/1" x="15" y="275" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">200 m</text>
+<line id="sues200_satellite_to_uav_200m/separator" x1="15" y1="292" x2="500.6220472440946" y2="292" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_uav_250m_to_satellite/label/0" x="15" y="309" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">UAV → satellite</text>
+<text id="sues200_uav_250m_to_satellite/label/1" x="15" y="321" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">250 m</text>
+<line id="sues200_uav_250m_to_satellite/separator" x1="15" y1="338" x2="500.6220472440946" y2="338" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_satellite_to_uav_250m/label/0" x="15" y="355" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Satellite → UAV</text>
+<text id="sues200_satellite_to_uav_250m/label/1" x="15" y="367" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">250 m</text>
+<line id="sues200_satellite_to_uav_250m/separator" x1="15" y1="384" x2="500.6220472440946" y2="384" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_uav_300m_to_satellite/label/0" x="15" y="401" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">UAV → satellite</text>
+<text id="sues200_uav_300m_to_satellite/label/1" x="15" y="413" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">300 m</text>
+<line id="sues200_uav_300m_to_satellite/separator" x1="15" y1="430" x2="500.6220472440946" y2="430" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_satellite_to_uav_300m/label/0" x="15" y="447" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Satellite → UAV</text>
+<text id="sues200_satellite_to_uav_300m/label/1" x="15" y="459" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">300 m</text>
+<text id="footnote/sd" x="15" y="498" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Bars are sample SD (n − 1 = 2), not confidence intervals or significance tests.</text>
+<text id="footnote/tasks" x="15" y="511" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Each retrieval task is separate; no pooling across heights, directions or datasets.</text>
+<text id="footnote/units" x="15" y="524" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">R@1 and mAP are percentages; MRR × 100 is scaled MRR, not an accuracy percentage.</text>
+<text id="footnote/numerics" x="15" y="537" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Labels show mean ± sample SD; exact fractions and all seed values are in the source tables.</text>
+</svg>

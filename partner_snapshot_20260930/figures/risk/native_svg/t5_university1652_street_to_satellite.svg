@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="181.9mm" height="135.11388888888888mm" viewBox="0 0 515.6220472440946 383">
+<title>University-1652: Street → satellite: selective risk and coverage</title>
+<desc>Three seeds shown separately. Sixty native observed points at actual selected-count coverage. Connecting lines are visual guides, not complete all-prefix curves. Saved AURC uses all prefixes. No CI or significance. Margin is not a calibrated posterior.</desc>
+<rect id="background" x="0" y="0" width="515.6220472440946" height="383" fill="white"/>
+<text id="title" x="15" y="18" font-family="Arial" font-size="10" font-weight="bold" text-anchor="start" fill="#222222">University-1652: Street → satellite</text>
+<text id="subtitle" x="15" y="34" font-family="Arial" font-size="9" font-weight="bold" text-anchor="start" fill="#222222">Selective risk by margin-ranked coverage; N = 2,579 queries</text>
+<circle id="legend/visual/marker" cx="18" cy="48" r="1.85" fill="#0072B2"/>
+<text id="legend/visual/text" x="26" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Visual</text>
+<rect id="legend/full/marker" x="87.15" y="46.15" width="3.7" height="3.7" fill="#D55E00"/>
+<text id="legend/full/text" x="97" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Full</text>
+<text id="risk-axis-label" x="15" y="70" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Selective risk = 1 − R@1 among selected queries (%)</text>
+<text id="seed-1/heading" x="105" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 1</text>
+<line id="seed-1/y-grid-0" x1="42" y1="235" x2="168" y2="235" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-0" x="37" y="237.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="seed-1/x-tick-0" x1="42" y1="235" x2="42" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-0" x="42" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="seed-1/y-grid-25" x1="42" y1="201" x2="168" y2="201" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-25" x="37" y="203.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="seed-1/x-tick-25" x1="73.5" y1="235" x2="73.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-25" x="73.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="seed-1/y-grid-50" x1="42" y1="167" x2="168" y2="167" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-50" x="37" y="169.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="seed-1/x-tick-50" x1="105" y1="235" x2="105" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-50" x="105" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="seed-1/y-grid-75" x1="42" y1="133" x2="168" y2="133" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-75" x="37" y="135.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="seed-1/x-tick-75" x1="136.5" y1="235" x2="136.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-75" x="136.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="seed-1/y-grid-100" x1="42" y1="99" x2="168" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-1/y-label-100" x="37" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="seed-1/x-tick-100" x1="168" y1="235" x2="168" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-1/x-label-100" x="168" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="seed-1/y-axis" x1="42" y1="99" x2="42" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="seed-1/x-axis" x1="42" y1="235" x2="168" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_street_to_satellite/seed-1/visual/segment-1-2" x1="54.604885614579295" y1="99.52713178294573" x2="67.20977122915859" y2="99.52713178294573" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/visual/segment-2-3" x1="67.20977122915859" y1="99.52713178294573" x2="79.81465684373788" y2="99.70284237726099" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/visual/segment-3-4" x1="79.81465684373788" y1="99.70284237726099" x2="92.41954245831718" y2="99.65891472868216" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/visual/segment-4-5" x1="92.41954245831718" y1="99.65891472868216" x2="105.02442807289648" y2="99.6325581395349" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/visual/segment-5-6" x1="105.02442807289648" y1="99.6325581395349" x2="117.62931368747576" y2="99.52713178294573" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/visual/segment-6-7" x1="117.62931368747576" y1="99.52713178294573" x2="130.23419930205506" y2="99.67774086378736" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/visual/segment-7-8" x1="130.23419930205506" y1="99.67774086378736" x2="142.83908491663436" y2="99.59302325581396" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/visual/segment-8-9" x1="142.83908491663436" y1="99.59302325581396" x2="155.44397053121367" y2="99.58570198105082" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/visual/segment-9-10" x1="155.44397053121367" y1="99.58570198105082" x2="168" y2="99.7382706475378" stroke="#0072B2" stroke-width="1"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-1" cx="54.604885614579295" cy="99.52713178294573" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-2" cx="67.20977122915859" cy="99.52713178294573" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-3" cx="79.81465684373788" cy="99.70284237726099" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-4" cx="92.41954245831718" cy="99.65891472868216" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-5" cx="105.02442807289648" cy="99.6325581395349" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-6" cx="117.62931368747576" cy="99.52713178294573" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-7" cx="130.23419930205506" cy="99.67774086378736" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-8" cx="142.83908491663436" cy="99.59302325581396" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-9" cx="155.44397053121367" cy="99.58570198105082" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-10" cx="168" cy="99.7382706475378" r="1.85" fill="#0072B2"/>
+<text id="seed-1/visual/AURC" x="105" y="294" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">Visual 0.9958</text>
+<line id="university1652_street_to_satellite/seed-1/full/segment-1-2" x1="54.604885614579295" y1="101.10852713178295" x2="67.20977122915859" y2="100.31782945736435" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/full/segment-2-3" x1="67.20977122915859" y1="100.31782945736435" x2="79.81465684373788" y2="100.40568475452196" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/full/segment-3-4" x1="79.81465684373788" y1="100.40568475452196" x2="92.41954245831718" y2="100.44961240310079" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/full/segment-4-5" x1="92.41954245831718" y1="100.44961240310079" x2="105.02442807289648" y2="100.58139534883722" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/full/segment-5-6" x1="105.02442807289648" y1="100.58139534883722" x2="117.62931368747576" y2="100.58139534883722" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/full/segment-6-7" x1="117.62931368747576" y1="100.58139534883722" x2="130.23419930205506" y2="100.43078626799559" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/full/segment-7-8" x1="130.23419930205506" y1="100.43078626799559" x2="142.83908491663436" y2="100.31782945736435" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/full/segment-8-9" x1="142.83908491663436" y1="100.31782945736435" x2="155.44397053121367" y2="100.28854435831181" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-1/full/segment-9-10" x1="155.44397053121367" y1="100.28854435831181" x2="168" y2="100.26560682435053" stroke="#D55E00" stroke-width="1"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-1" x="52.754885614579294" y="99.25852713178296" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-2" x="65.3597712291586" y="98.46782945736436" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-3" x="77.96465684373788" y="98.55568475452196" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-4" x="90.56954245831719" y="98.59961240310079" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-5" x="103.17442807289649" y="98.73139534883722" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-6" x="115.77931368747576" y="98.73139534883722" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-7" x="128.38419930205507" y="98.58078626799559" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-8" x="140.98908491663437" y="98.46782945736436" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-9" x="153.59397053121367" y="98.43854435831182" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-10" x="166.15" y="98.41560682435053" width="3.7" height="3.7" fill="#D55E00"/>
+<text id="seed-1/full/AURC" x="105" y="306" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">Full 0.9896</text>
+<text id="seed-1/AURC-label" x="105" y="282" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">All-prefix AURC (fraction)</text>
+<text id="seed-2/heading" x="263" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 2</text>
+<line id="seed-2/y-grid-0" x1="200" y1="235" x2="326" y2="235" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-0" x="195" y="237.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="seed-2/x-tick-0" x1="200" y1="235" x2="200" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-0" x="200" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="seed-2/y-grid-25" x1="200" y1="201" x2="326" y2="201" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-25" x="195" y="203.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="seed-2/x-tick-25" x1="231.5" y1="235" x2="231.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-25" x="231.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="seed-2/y-grid-50" x1="200" y1="167" x2="326" y2="167" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-50" x="195" y="169.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="seed-2/x-tick-50" x1="263" y1="235" x2="263" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-50" x="263" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="seed-2/y-grid-75" x1="200" y1="133" x2="326" y2="133" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-75" x="195" y="135.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="seed-2/x-tick-75" x1="294.5" y1="235" x2="294.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-75" x="294.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="seed-2/y-grid-100" x1="200" y1="99" x2="326" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-2/y-label-100" x="195" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="seed-2/x-tick-100" x1="326" y1="235" x2="326" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-2/x-label-100" x="326" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="seed-2/y-axis" x1="200" y1="99" x2="200" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="seed-2/x-axis" x1="200" y1="235" x2="326" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_street_to_satellite/seed-2/visual/segment-1-2" x1="212.6048856145793" y1="99.52713178294573" x2="225.20977122915858" y2="100.05426356589146" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/visual/segment-2-3" x1="225.20977122915858" y1="100.05426356589146" x2="237.81465684373788" y2="100.22997416020672" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/visual/segment-3-4" x1="237.81465684373788" y1="100.22997416020672" x2="250.41954245831718" y2="100.31782945736435" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/visual/segment-4-5" x1="250.41954245831718" y1="100.31782945736435" x2="263.02442807289646" y2="100.26511627906976" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/visual/segment-5-6" x1="263.02442807289646" y1="100.26511627906976" x2="275.62931368747576" y2="100.31782945736435" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/visual/segment-6-7" x1="275.62931368747576" y1="100.31782945736435" x2="288.23419930205506" y2="100.12956810631229" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/visual/segment-7-8" x1="288.23419930205506" y1="100.12956810631229" x2="300.83908491663436" y2="100.18604651162792" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/visual/segment-8-9" x1="300.83908491663436" y1="100.18604651162792" x2="313.44397053121367" y2="100.11283376399655" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/visual/segment-9-10" x1="313.44397053121367" y1="100.11283376399655" x2="326" y2="100.10740597130672" stroke="#0072B2" stroke-width="1"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-1" cx="212.6048856145793" cy="99.52713178294573" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-2" cx="225.20977122915858" cy="100.05426356589146" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-3" cx="237.81465684373788" cy="100.22997416020672" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-4" cx="250.41954245831718" cy="100.31782945736435" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-5" cx="263.02442807289646" cy="100.26511627906976" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-6" cx="275.62931368747576" cy="100.31782945736435" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-7" cx="288.23419930205506" cy="100.12956810631229" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-8" cx="300.83908491663436" cy="100.18604651162792" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-9" cx="313.44397053121367" cy="100.11283376399655" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-10" cx="326" cy="100.10740597130672" r="1.85" fill="#0072B2"/>
+<text id="seed-2/visual/AURC" x="263" y="294" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">Visual 0.9921</text>
+<line id="university1652_street_to_satellite/seed-2/full/segment-1-2" x1="212.6048856145793" y1="101.10852713178295" x2="225.20977122915858" y2="100.58139534883722" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/full/segment-2-3" x1="225.20977122915858" y1="100.58139534883722" x2="237.81465684373788" y2="100.22997416020672" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/full/segment-3-4" x1="237.81465684373788" y1="100.22997416020672" x2="250.41954245831718" y2="100.05426356589146" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/full/segment-4-5" x1="250.41954245831718" y1="100.05426356589146" x2="263.02442807289646" y2="99.84341085271319" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/full/segment-5-6" x1="263.02442807289646" y1="99.84341085271319" x2="275.62931368747576" y2="99.87855297157623" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/full/segment-6-7" x1="275.62931368747576" y1="99.87855297157623" x2="288.23419930205506" y2="99.828349944629" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/full/segment-7-8" x1="288.23419930205506" y1="99.828349944629" x2="300.83908491663436" y2="100.05426356589146" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/full/segment-8-9" x1="300.83908491663436" y1="100.05426356589146" x2="313.44397053121367" y2="100.11283376399655" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-2/full/segment-9-10" x1="313.44397053121367" y1="100.11283376399655" x2="326" y2="100.3183404420318" stroke="#D55E00" stroke-width="1"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-1" x="210.7548856145793" y="99.25852713178296" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-2" x="223.35977122915858" y="98.73139534883722" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-3" x="235.96465684373788" y="98.37997416020673" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-4" x="248.5695424583172" y="98.20426356589147" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-5" x="261.17442807289643" y="97.9934108527132" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-6" x="273.77931368747574" y="98.02855297157623" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-7" x="286.38419930205504" y="97.978349944629" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-8" x="298.98908491663434" y="98.20426356589147" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-9" x="311.59397053121364" y="98.26283376399655" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-10" x="324.15" y="98.4683404420318" width="3.7" height="3.7" fill="#D55E00"/>
+<text id="seed-2/full/AURC" x="263" y="306" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">Full 0.9893</text>
+<text id="seed-2/AURC-label" x="263" y="282" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">All-prefix AURC (fraction)</text>
+<text id="seed-3/heading" x="421" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 3</text>
+<line id="seed-3/y-grid-0" x1="358" y1="235" x2="484" y2="235" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-0" x="353" y="237.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="seed-3/x-tick-0" x1="358" y1="235" x2="358" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-0" x="358" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="seed-3/y-grid-25" x1="358" y1="201" x2="484" y2="201" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-25" x="353" y="203.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="seed-3/x-tick-25" x1="389.5" y1="235" x2="389.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-25" x="389.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="seed-3/y-grid-50" x1="358" y1="167" x2="484" y2="167" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-50" x="353" y="169.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="seed-3/x-tick-50" x1="421" y1="235" x2="421" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-50" x="421" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="seed-3/y-grid-75" x1="358" y1="133" x2="484" y2="133" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-75" x="353" y="135.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="seed-3/x-tick-75" x1="452.5" y1="235" x2="452.5" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-75" x="452.5" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="seed-3/y-grid-100" x1="358" y1="99" x2="484" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="seed-3/y-label-100" x="353" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="seed-3/x-tick-100" x1="484" y1="235" x2="484" y2="238" stroke="#444444" stroke-width="0.6"/>
+<text id="seed-3/x-label-100" x="484" y="249" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="seed-3/y-axis" x1="358" y1="99" x2="358" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="seed-3/x-axis" x1="358" y1="235" x2="484" y2="235" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_street_to_satellite/seed-3/visual/segment-1-2" x1="370.6048856145793" y1="101.63565891472868" x2="383.2097712291586" y2="100.58139534883722" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/visual/segment-2-3" x1="383.2097712291586" y1="100.58139534883722" x2="395.8146568437379" y2="100.40568475452196" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/visual/segment-3-4" x1="395.8146568437379" y1="100.40568475452196" x2="408.41954245831715" y2="100.44961240310079" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/visual/segment-4-5" x1="408.41954245831715" y1="100.44961240310079" x2="421.02442807289646" y2="100.79224806201549" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/visual/segment-5-6" x1="421.02442807289646" y1="100.79224806201549" x2="433.62931368747576" y2="100.66925064599482" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/visual/segment-6-7" x1="433.62931368747576" y1="100.66925064599482" x2="446.23419930205506" y2="100.58139534883722" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/visual/segment-7-8" x1="446.23419930205506" y1="100.58139534883722" x2="458.83908491663436" y2="100.38372093023256" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/visual/segment-8-9" x1="458.83908491663436" y1="100.38372093023256" x2="471.44397053121367" y2="100.34711455641687" stroke="#0072B2" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/visual/segment-9-10" x1="471.44397053121367" y1="100.34711455641687" x2="484" y2="100.37107405971307" stroke="#0072B2" stroke-width="1"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-1" cx="370.6048856145793" cy="101.63565891472868" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-2" cx="383.2097712291586" cy="100.58139534883722" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-3" cx="395.8146568437379" cy="100.40568475452196" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-4" cx="408.41954245831715" cy="100.44961240310079" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-5" cx="421.02442807289646" cy="100.79224806201549" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-6" cx="433.62931368747576" cy="100.66925064599482" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-7" cx="446.23419930205506" cy="100.58139534883722" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-8" cx="458.83908491663436" cy="100.38372093023256" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-9" cx="471.44397053121367" cy="100.34711455641687" r="1.85" fill="#0072B2"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-10" cx="484" cy="100.37107405971307" r="1.85" fill="#0072B2"/>
+<text id="seed-3/visual/AURC" x="421" y="294" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">Visual 0.9879</text>
+<line id="university1652_street_to_satellite/seed-3/full/segment-1-2" x1="370.6048856145793" y1="100.05426356589146" x2="383.2097712291586" y2="100.31782945736435" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/full/segment-2-3" x1="383.2097712291586" y1="100.31782945736435" x2="395.8146568437379" y2="100.05426356589146" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/full/segment-3-4" x1="395.8146568437379" y1="100.05426356589146" x2="408.41954245831715" y2="100.71317829457365" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/full/segment-4-5" x1="408.41954245831715" y1="100.71317829457365" x2="421.02442807289646" y2="100.37054263565892" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/full/segment-5-6" x1="421.02442807289646" y1="100.37054263565892" x2="433.62931368747576" y2="100.22997416020672" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/full/segment-6-7" x1="433.62931368747576" y1="100.22997416020672" x2="446.23419930205506" y2="100.28017718715392" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/full/segment-7-8" x1="446.23419930205506" y1="100.28017718715392" x2="458.83908491663436" y2="100.25193798449612" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/full/segment-8-9" x1="458.83908491663436" y1="100.25193798449612" x2="471.44397053121367" y2="100.40568475452196" stroke="#D55E00" stroke-width="1"/>
+<line id="university1652_street_to_satellite/seed-3/full/segment-9-10" x1="471.44397053121367" y1="100.40568475452196" x2="484" y2="100.37107405971307" stroke="#D55E00" stroke-width="1"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-1" x="368.7548856145793" y="98.20426356589147" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-2" x="381.3597712291586" y="98.46782945736436" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-3" x="393.9646568437379" y="98.20426356589147" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-4" x="406.56954245831713" y="98.86317829457366" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-5" x="419.17442807289643" y="98.52054263565893" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-6" x="431.77931368747574" y="98.37997416020673" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-7" x="444.38419930205504" y="98.43017718715393" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-8" x="456.98908491663434" y="98.40193798449613" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-9" x="469.59397053121364" y="98.55568475452196" width="3.7" height="3.7" fill="#D55E00"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-10" x="482.15" y="98.52107405971307" width="3.7" height="3.7" fill="#D55E00"/>
+<text id="seed-3/full/AURC" x="421" y="306" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">Full 0.9909</text>
+<text id="seed-3/AURC-label" x="421" y="282" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">All-prefix AURC (fraction)</text>
+<text id="coverage-axis-label" x="257.8110236220473" y="266" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">Realized coverage = selected queries / N (%)</text>
+<text id="footnote-1" x="15" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Selection: top k = ceil(requested coverage × N), ranked by raw cosine Top-1 margin.</text>
+<text id="footnote-2" x="15" y="343" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Margin is not a calibrated probability. Ties retain the source query order.</text>
+<text id="footnote-3" x="15" y="356" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Points: ten registered coverage levels; connecting segments are visual guides only.</text>
+<text id="footnote-4" x="15" y="369" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Seeds and tasks stay separate. No CI or significance shown; AURC uses all prefixes.</text>
+</svg>

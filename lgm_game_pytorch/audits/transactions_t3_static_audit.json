@@ -1,0 +1,144 @@
+{
+  "adapter_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_cross_dataset_evaluation.py",
+  "adapter_sha256": "29cccd4ff3e975571b578288f7a691ceccaf4a8ed7ab9483812b68edbc4f5ed8",
+  "evaluation_executed": false,
+  "formal_core_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\lgm_game_pytorch\\formal_retrieval.py",
+  "formal_core_sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862",
+  "manuscript_result": false,
+  "matrix_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\transactions_t3_transfer_matrix.json",
+  "matrix_sha256": "4608df2075ab1bfd4f38c949935a4e0c2ca6516c9716b87376f39b1b951d4bf3",
+  "model_constructed": false,
+  "payload_sha256": "5bda60e9a3b1d977c5336e6daa8634e2af37a72de19cc7798bc429699ea707b7",
+  "protocol_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\TRANSACTIONS_EXTENSION_PROTOCOL.md",
+  "protocol_sha256": "76b0b29ce7a09710dd8e4495f1fbed36eef2fddce148ad463d83fb115e8a2f4b",
+  "python": "C:\\\u9879\u76ee\\.venvs\\lgm-baselines\\Scripts\\python.exe",
+  "registered_evaluation_count": 12,
+  "runner_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_transactions_t3_transfer_matrix.py",
+  "runner_sha256": "50e681a17bd21188ec059112a77653e04f0cd716a95f4e1c0dfbb486375cc84c",
+  "schema_version": "lgm-game.transactions-t3-static-audit.v1",
+  "source_gate": {
+    "all_source_checkpoints_complete": false,
+    "formal_core_sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862",
+    "gate_status": "not_checked_in_static_design_audit",
+    "registered_source_checkpoint_count": 12
+  },
+  "status": "static_design_verified_source_gate_pending",
+  "target_dataset_training_or_calibration": false,
+  "targets": {
+    "sues200": {
+      "data_root": "C:\\\u9879\u76ee\\IMTMN\\datasets\\SUES-200",
+      "evidence_meta_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.meta.json",
+      "evidence_meta_sha256": "3dc42892bbff9339d058fc0d6abaf2fd9e92cc94f9f9b7fd58ed0ae725b57dca",
+      "evidence_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.npz",
+      "evidence_sha256": "6c3a82fdcf59e401f5da4ed0f3d9dca99fdcbab0a46aa66fb47a055c832cdabd",
+      "protocol": {
+        "protocol_membership_sha256": "1f543fb48416204dacfb5ac48b3bbf3ce4080ce164e75e7a86be748e3d798772",
+        "sues_manifest": {
+          "official_source_url": "https://github.com/Reza-Zhu/SUES-200-Benchmark/blob/master/script/indexs.yaml",
+          "path_or_source": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\manifests\\sues200_official_train_ids.yaml",
+          "sha256": "c1386d5c746aca48bbb2793ed1ee19d6cd7330a7f5f1b27a5ec43727317ec226",
+          "test_id_count": 80,
+          "train_id_count": 120
+        },
+        "task_count": 8,
+        "task_names": [
+          "sues200_uav_150m_to_satellite",
+          "sues200_satellite_to_uav_150m",
+          "sues200_uav_200m_to_satellite",
+          "sues200_satellite_to_uav_200m",
+          "sues200_uav_250m_to_satellite",
+          "sues200_satellite_to_uav_250m",
+          "sues200_uav_300m_to_satellite",
+          "sues200_satellite_to_uav_300m"
+        ],
+        "task_scale": {
+          "sues200_satellite_to_uav_150m": {
+            "gallery_identities": 200,
+            "gallery_images": 10000,
+            "queries": 80,
+            "query_identities": 80
+          },
+          "sues200_satellite_to_uav_200m": {
+            "gallery_identities": 200,
+            "gallery_images": 10000,
+            "queries": 80,
+            "query_identities": 80
+          },
+          "sues200_satellite_to_uav_250m": {
+            "gallery_identities": 200,
+            "gallery_images": 10000,
+            "queries": 80,
+            "query_identities": 80
+          },
+          "sues200_satellite_to_uav_300m": {
+            "gallery_identities": 200,
+            "gallery_images": 10000,
+            "queries": 80,
+            "query_identities": 80
+          },
+          "sues200_uav_150m_to_satellite": {
+            "gallery_identities": 200,
+            "gallery_images": 200,
+            "queries": 4000,
+            "query_identities": 80
+          },
+          "sues200_uav_200m_to_satellite": {
+            "gallery_identities": 200,
+            "gallery_images": 200,
+            "queries": 4000,
+            "query_identities": 80
+          },
+          "sues200_uav_250m_to_satellite": {
+            "gallery_identities": 200,
+            "gallery_images": 200,
+            "queries": 4000,
+            "query_identities": 80
+          },
+          "sues200_uav_300m_to_satellite": {
+            "gallery_identities": 200,
+            "gallery_images": 200,
+            "queries": 4000,
+            "query_identities": 80
+          }
+        }
+      }
+    },
+    "university1652": {
+      "data_root": "C:\\\u9879\u76ee\\IMTMN\\datasets\\University-1652",
+      "evidence_meta_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.meta.json",
+      "evidence_meta_sha256": "3731072d3a1c8a3b9fe8d880fd791dfbe7eb82f2d93be85b82be229ff8512dbf",
+      "evidence_path": "C:\\\u9879\u76ee\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.npz",
+      "evidence_sha256": "8a2333d58dbb0ca56c5d5829159a32f294e11e686bb6b91d05098d4b170c2bc3",
+      "protocol": {
+        "protocol_membership_sha256": "c271b8b342a9642a8ee7bd767ace06f9d934cd58a4c83885d51db2e7b94221df",
+        "sues_manifest": null,
+        "task_count": 3,
+        "task_names": [
+          "university1652_drone_to_satellite",
+          "university1652_satellite_to_drone",
+          "university1652_street_to_satellite"
+        ],
+        "task_scale": {
+          "university1652_drone_to_satellite": {
+            "gallery_identities": 951,
+            "gallery_images": 951,
+            "queries": 37855,
+            "query_identities": 701
+          },
+          "university1652_satellite_to_drone": {
+            "gallery_identities": 951,
+            "gallery_images": 51355,
+            "queries": 701,
+            "query_identities": 701
+          },
+          "university1652_street_to_satellite": {
+            "gallery_identities": 951,
+            "gallery_images": 951,
+            "queries": 2579,
+            "query_identities": 701
+          }
+        }
+      }
+    }
+  }
+}

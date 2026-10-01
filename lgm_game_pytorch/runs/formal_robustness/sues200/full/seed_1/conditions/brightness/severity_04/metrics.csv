@@ -1,0 +1,9 @@
+task,queries,gallery,query_identities,gallery_identities,r_at_1,r_at_5,r_at_10,r_at_20,official_trapezoid_mAP,MRR,mean_top1_margin,protocol
+sues200_uav_150m_to_satellite,4000,200,80,200,0.2585,0.6095,0.7605,0.8915,0.341836154460907,0.4251722991466522,0.058453917503356934,official 80 test IDs as query; all 200 satellite IDs in gallery
+sues200_satellite_to_uav_150m,80,10000,80,200,0.35,0.45,0.525,0.575,0.20554204285144806,0.401253879070282,0.01166008971631527,official 80 test IDs as query; all 200 150m UAV IDs in gallery
+sues200_uav_200m_to_satellite,4000,200,80,200,0.30875,0.65725,0.80025,0.9115,0.3899725079536438,0.4711950123310089,0.060176849365234375,official 80 test IDs as query; all 200 satellite IDs in gallery
+sues200_satellite_to_uav_200m,80,10000,80,200,0.35,0.45,0.5,0.6,0.2385600358247757,0.4086265563964844,0.012336429208517075,official 80 test IDs as query; all 200 200m UAV IDs in gallery
+sues200_uav_250m_to_satellite,4000,200,80,200,0.331,0.69975,0.841,0.93,0.4151516258716583,0.4993031620979309,0.05884287506341934,official 80 test IDs as query; all 200 satellite IDs in gallery
+sues200_satellite_to_uav_250m,80,10000,80,200,0.325,0.4625,0.5125,0.575,0.2555921673774719,0.3998521864414215,0.01049566175788641,official 80 test IDs as query; all 200 250m UAV IDs in gallery
+sues200_uav_300m_to_satellite,4000,200,80,200,0.338,0.706,0.844,0.9375,0.42172327637672424,0.5054466128349304,0.05719267576932907,official 80 test IDs as query; all 200 satellite IDs in gallery
+sues200_satellite_to_uav_300m,80,10000,80,200,0.375,0.4625,0.5625,0.6125,0.2715817391872406,0.43442994356155396,0.010389870963990688,official 80 test IDs as query; all 200 300m UAV IDs in gallery

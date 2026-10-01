@@ -1,0 +1,87 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "status": "completed",
+  "completed_utc": "2026-09-29T11:55:06.062539+00:00",
+  "run_config_sha256": "d19283877ee9967fc36ca82155564cdc5945a44f7633273e119a661bf684f6d9",
+  "condition_sha256": "09632ab2486010b2bbc4e29bb41b140a3a5164b40fa7ae7109dfffba33070224",
+  "condition": {
+    "kind": "corruption",
+    "name": "contrast",
+    "display_name": "Contrast",
+    "severity_index": 4,
+    "parameter": "factor",
+    "value": 0.35,
+    "units": "multiplicative Pillow contrast factor",
+    "implementation": "Pillow ImageEnhance.Contrast is applied to the decoded RGB query.",
+    "corruption_seed": 20260727,
+    "query_only": true,
+    "gallery": "clean"
+  },
+  "query_coverage": {
+    "expected_unique_images": 16080,
+    "encoded_unique_images": 16080,
+    "coverage_fraction": 1.0,
+    "missing_images": 0,
+    "extra_images": 0,
+    "complete": true,
+    "path_membership_sha256": "40405ea014d1198d3b050b4891f34b12e5a172de37802a9778a40d22c8f5157b",
+    "encoded_feature_sha256": "fedc4181de1c871da74d56b7b668d911d27484fd1d57250133f4c0e2dfb3008d",
+    "embedding_dim": 512,
+    "embedding_storage_dtype_for_hash": "little-endian float32",
+    "pixels_decoded_for_every_active_visual_embedding": true,
+    "corruption_applied_before_all_model_preprocessing": true,
+    "query_content_style_evidence_mode": "not_used_by_visual_variant",
+    "elapsed_seconds": 85.69850340000266
+  },
+  "all_official_queries_used": true,
+  "clean_gallery_used": true,
+  "feature_level_corruption_used": false,
+  "elapsed_seconds": 86.52835989999585,
+  "artifacts": {
+    "degradation_vs_clean.csv": {
+      "sha256": "590179785acb0228854ce086dccdb2456200a27fd833333d14c28d109ceda7fd",
+      "bytes": 6580
+    },
+    "metrics.csv": {
+      "sha256": "1abdce9b8da0680c04790396faaab23f61d2f4d57c18cae49735cd0b21bcf2ea",
+      "bytes": 1707
+    },
+    "metrics.json": {
+      "sha256": "4b5870f7d1e78597ef1ca50d4c8190c8c95121d7b61936881269691649de8aa2",
+      "bytes": 19445
+    },
+    "per_query_arrays/sues200_satellite_to_uav_150m_per_query.npz": {
+      "sha256": "d286a2165b07ee837d7d7e6447ea584e19abc93849a0d5f8c88fe870c78966f0",
+      "bytes": 8125
+    },
+    "per_query_arrays/sues200_satellite_to_uav_200m_per_query.npz": {
+      "sha256": "456aa11302663d3427b2c35626c3e5f691ee48ca4b4eb06cce4b694036acab87",
+      "bytes": 7943
+    },
+    "per_query_arrays/sues200_satellite_to_uav_250m_per_query.npz": {
+      "sha256": "b46526e415eb1004b0f291cef8badbe913a61103bc3a558867fedff628768ff3",
+      "bytes": 7950
+    },
+    "per_query_arrays/sues200_satellite_to_uav_300m_per_query.npz": {
+      "sha256": "ac6a9521916104c3f595b6b295f41d119985c00af8fbf7d9e77921f8e1ae8a71",
+      "bytes": 7805
+    },
+    "per_query_arrays/sues200_uav_150m_to_satellite_per_query.npz": {
+      "sha256": "17710ee6c3ebf982478f62a9f41ebc728a77d2fa58e4a792819537b3aa3bbc1e",
+      "bytes": 92946
+    },
+    "per_query_arrays/sues200_uav_200m_to_satellite_per_query.npz": {
+      "sha256": "990920e839c557b85a917fc1453c818702617a47b46575fcbebba21b6b9bf900",
+      "bytes": 88533
+    },
+    "per_query_arrays/sues200_uav_250m_to_satellite_per_query.npz": {
+      "sha256": "c74b02d46435147b2eecdf53c3ae03652ba90b0de79329e08031a057de00e0f7",
+      "bytes": 85904
+    },
+    "per_query_arrays/sues200_uav_300m_to_satellite_per_query.npz": {
+      "sha256": "a4e3e4052a338e863127b08a99a94251705a0374d6a2c6059ba05ade9fec4ff7",
+      "bytes": 84511
+    }
+  },
+  "payload_sha256": "90817f28f5425a2b79a92a9b28d80383d840ce5784a7ae47b6f60d3ad3e3cc99"
+}

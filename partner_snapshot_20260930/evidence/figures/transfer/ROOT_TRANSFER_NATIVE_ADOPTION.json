@@ -1,0 +1,574 @@
+{
+  "schema": "root-native-transfer-figures-adoption.v1",
+  "time": "2026-09-29T18:01:08.326822+01:00",
+  "accepted": true,
+  "scope": {
+    "figures": 2,
+    "onePagePPTXFiles": 2,
+    "summaryGroups": 22,
+    "metricSummaries": 66,
+    "seedTaskRows": 66,
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "sampleSDDenominator": 2,
+    "nativePPTShapes": 485,
+    "nativeTextObjects": 144,
+    "minimumPhysicalFontPt": 8,
+    "widthMm": 181.9,
+    "heightsMm": [
+      195.0861111111111,
+      113.94722222222221
+    ]
+  },
+  "producer_delivery": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\DELIVERY.json",
+    "sha256": "66b1684b407d74802e823b92266e78b42635292614013bafca55b8d0d41e21b7",
+    "bytes": 5036
+  },
+  "independent_delivery": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\DELIVERY.json",
+    "sha256": "991b263d4ef353bbc7b8466ac782eb638d3b0cb1fbf30d9b0391ee496899155a",
+    "bytes": 10406
+  },
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\adopt_native_root.py",
+    "sha256": "c3150b4070a4d09d5365ccf6525e6f5ad38cf3518880656fb179487a34da4edc",
+    "bytes": 10256
+  },
+  "source_review": "Complete new builder, producer checker/packager/final sealer, independent data/geometry/seal sources and public documents read; no executed source revision occurred and original adopted statistics were not recomputed.",
+  "root_visual_reviews": [
+    {
+      "id": "university_to_sues",
+      "final_png": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\previews\\transfer_university_to_sues.png",
+        "sha256": "585d871e2a2d858731db591de47684f94e7edd60decfa49c61cf2b2fcb84cfc4",
+        "bytes": 199388
+      },
+      "actual_root_view_image_original": true,
+      "observed": "Both final pages viewed at original resolution. Direction labels, metric units, low street values, zeroSD and errorbars remain legible; no visible clipping or overlap."
+    },
+    {
+      "id": "sues_to_university",
+      "final_png": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\previews\\transfer_sues_to_university.png",
+        "sha256": "c612309debc01c477b531ffd1f0b31f667b4fa920bdba2540d084eee7cb6cee9",
+        "bytes": 109176
+      },
+      "actual_root_view_image_original": true,
+      "observed": "Both final pages viewed at original resolution. Direction labels, metric units, low street values, zeroSD and errorbars remain legible; no visible clipping or overlap."
+    }
+  ],
+  "checks": 570,
+  "unique_bound_files": 99,
+  "bindings": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\DELIVERY.json",
+      "sha256": "66b1684b407d74802e823b92266e78b42635292614013bafca55b8d0d41e21b7",
+      "bytes": 5036
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\transfer_university_to_sues_native_editable.pptx",
+      "sha256": "84331f1c2005d7b606364017f378c897561ebd1205ccc8b7be909a056ef01f58",
+      "bytes": 41732
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\transfer_sues_to_university_native_editable.pptx",
+      "sha256": "ae5d4100900c366d8e5cfd27b1df980572f8cf2a474e0f64f2e72501fe2d86a1",
+      "bytes": 32864
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\native_svg\\transfer_university_to_sues.svg",
+      "sha256": "44b895a8f12fc07fbafe80afafa32dc1db6cd7542ae9750ea5a0b666d336b6ea",
+      "bytes": 54147
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\native_svg\\transfer_sues_to_university.svg",
+      "sha256": "02934476b3f90471332d99381afe3b1d827c94e358ce203a2f032c68bb97ad13",
+      "bytes": 24592
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\transfer_native_editable_and_sources.zip",
+      "sha256": "85a3f5b22f8090eb9ff4b297df471326b5657694534f10ac66aa3f95163a596f",
+      "bytes": 124669
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\SOURCE_MANIFEST.json",
+      "sha256": "082cf4d21cc82c5a57fd5108396e50f382e1bdc02a391e697fd76d6e7d3c6aeb",
+      "bytes": 1263
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\ARTIFACT_MANIFEST.json",
+      "sha256": "db3aed824da0a0fc5c1213f372817309df410611b0fd1196ebdd072f18d2175c",
+      "bytes": 11173
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\PRODUCER_PACKAGE_REVIEW.json",
+      "sha256": "a4e23f1328fed69876d830feb96bb20c7e529a69a253fa4d83c1babaff11aea5",
+      "bytes": 3479
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\PRODUCER_VISUAL_REVIEW.json",
+      "sha256": "63d647a54b2108e587ab98e78b4c0a2188e77e8a5c85602e25e1a8948d2dc0f2",
+      "bytes": 1710
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\DELIVERY.json",
+      "sha256": "991b263d4ef353bbc7b8466ac782eb638d3b0cb1fbf30d9b0391ee496899155a",
+      "bytes": 10406
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\METADATA.json",
+      "sha256": "bddb77e07c7a86c6afa51c00ffa51ea761901d5c004c47121163de9ad8f1e9e5",
+      "bytes": 10551
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\README.md",
+      "sha256": "3f0f4c268f83ba65b26bbf6618c8886e659759c7358145f399e8739b459d9d94",
+      "bytes": 1934
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\DATA_CONTRACT.json",
+      "sha256": "89645c62dc3b8cd0710afc78abb3cdef0597dde8f50d94160cd192439e28ea62",
+      "bytes": 82769
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\ARTIFACT_REVIEW.json",
+      "sha256": "601eb1ef63e84592d5f33d25630c038643d8cd2f4305866ae56684052eaa4c0f",
+      "bytes": 36925
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\VISUAL_REVIEW.json",
+      "sha256": "54a49b1f21f97c59969e484f130c11a59f2bcb5a0873a4c6d2c77ddd43261ff5",
+      "bytes": 3252
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\SOURCE_REVIEW.json",
+      "sha256": "eb9271c2693a52014256ca70259621dc580f1229f2591083856e518204faa376",
+      "bytes": 2050
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\derive_figure_contract.py",
+      "sha256": "a1cfa5263df2bbebdb6b37166d69391d31a21eb4aa195353288f03114e485b76",
+      "bytes": 8658
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\review_artifacts.py",
+      "sha256": "78b8b73f9a1a2ddbb62c91b9c06eb903e95061a6353af281de22d69990b9f22d",
+      "bytes": 17536
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\seal_review.py",
+      "sha256": "f94a07fe1efac468affcffadf9eb51d6867f523f794a64eb1cc515245098364a",
+      "bytes": 11378
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\build\\build_transfer.mjs",
+      "sha256": "24616ec1dcb78b26d4dfbd9148ed44e22082e5056cb4be5a3bf3db66eec90ffc",
+      "bytes": 17961
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\BUILD_REPORT.json",
+      "sha256": "6d60bb61aeaa10b1b589d7c297dc49ef721c62c2738a55c36d44fa4508d84095",
+      "bytes": 223974
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\THREE_SEED_SUMMARY.csv",
+      "sha256": "98d5a22d45248b1c3c681b506dfb2fac80f710e2aff43f760763f455fb08bf9d",
+      "bytes": 6118
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\source_data\\THREE_SEED_SUMMARY.csv",
+      "sha256": "98d5a22d45248b1c3c681b506dfb2fac80f710e2aff43f760763f455fb08bf9d",
+      "bytes": 6118
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\THREE_SEED_SUMMARY.json",
+      "sha256": "751c773b8db9bb8fecb77f6342bc42685a535aed5393479c256be658dc16ad38",
+      "bytes": 14360
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\source_data\\THREE_SEED_SUMMARY.json",
+      "sha256": "751c773b8db9bb8fecb77f6342bc42685a535aed5393479c256be658dc16ad38",
+      "bytes": 14360
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\SEED_RESULTS.csv",
+      "sha256": "d182dc05da660e4846b69612e498195df3b12a9202fcdde5cbbc5fe79e706784",
+      "bytes": 13262
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\source_data\\SEED_RESULTS.csv",
+      "sha256": "d182dc05da660e4846b69612e498195df3b12a9202fcdde5cbbc5fe79e706784",
+      "bytes": 13262
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\SEED_RESULTS.json",
+      "sha256": "3b2bb2434e2741a69c67d1c0f93a17ab2310cd8862db64d346855452ba013e6e",
+      "bytes": 31530
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\source_data\\SEED_RESULTS.json",
+      "sha256": "3b2bb2434e2741a69c67d1c0f93a17ab2310cd8862db64d346855452ba013e6e",
+      "bytes": 31530
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\FULL_MINUS_VISUAL.csv",
+      "sha256": "f7db4997b5b0f9a40d49725d1af6d217a8acda0f0ae43e3431b70fb9d81457af",
+      "bytes": 6427
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\source_data\\FULL_MINUS_VISUAL.csv",
+      "sha256": "f7db4997b5b0f9a40d49725d1af6d217a8acda0f0ae43e3431b70fb9d81457af",
+      "bytes": 6427
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\FULL_MINUS_VISUAL.json",
+      "sha256": "7c10cfd97e7911952408abb34ad9c895442d21392512b2b78ac07a9d682f7dcd",
+      "bytes": 14970
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\source_data\\FULL_MINUS_VISUAL.json",
+      "sha256": "7c10cfd97e7911952408abb34ad9c895442d21392512b2b78ac07a9d682f7dcd",
+      "bytes": 14970
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\previews\\transfer_university_to_sues.png",
+      "sha256": "585d871e2a2d858731db591de47684f94e7edd60decfa49c61cf2b2fcb84cfc4",
+      "bytes": 199388
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\previews\\transfer_sues_to_university.png",
+      "sha256": "c612309debc01c477b531ffd1f0b31f667b4fa920bdba2540d084eee7cb6cee9",
+      "bytes": 109176
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\INPUT_PROVENANCE.json",
+      "sha256": "8181a16396a069f6471a0a42182e6ec24397c4849e9a9a4e22643e5063023dbc",
+      "bytes": 4914
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\build\\transfer_university_to_sues.validation.json",
+      "sha256": "0921f06480ff82edb8e57aa5e3957496c26a2fee43c819bb5e69d55c500c0528",
+      "bytes": 3661
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\build\\transfer_sues_to_university.validation.json",
+      "sha256": "e759034aed3b5780e41f925dd34496e76ac9259a6bbdb0cfbdf4ddbd3946f7c6",
+      "bytes": 3661
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\ROOT_AGGREGATION_ADOPTION.json",
+      "sha256": "a8867a9ebdf01061a55d143b79eff91196571c2275f4379902131a69dd4ce80c",
+      "bytes": 14766
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\raw\\THREE_SEED_SUMMARY.csv",
+      "sha256": "98d5a22d45248b1c3c681b506dfb2fac80f710e2aff43f760763f455fb08bf9d",
+      "bytes": 6118
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\raw\\THREE_SEED_SUMMARY.json",
+      "sha256": "751c773b8db9bb8fecb77f6342bc42685a535aed5393479c256be658dc16ad38",
+      "bytes": 14360
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\raw\\SEED_RESULTS.csv",
+      "sha256": "d182dc05da660e4846b69612e498195df3b12a9202fcdde5cbbc5fe79e706784",
+      "bytes": 13262
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\raw\\SEED_RESULTS.json",
+      "sha256": "3b2bb2434e2741a69c67d1c0f93a17ab2310cd8862db64d346855452ba013e6e",
+      "bytes": 31530
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\raw\\FULL_MINUS_VISUAL.csv",
+      "sha256": "f7db4997b5b0f9a40d49725d1af6d217a8acda0f0ae43e3431b70fb9d81457af",
+      "bytes": 6427
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\raw\\FULL_MINUS_VISUAL.json",
+      "sha256": "7c10cfd97e7911952408abb34ad9c895442d21392512b2b78ac07a9d682f7dcd",
+      "bytes": 14970
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\verify_package.py",
+      "sha256": "f58eb45d080cb13e3264ef2682fdcc01577f914a59c1b4d23b1d491851b0cc80",
+      "bytes": 7870
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\package_delivery.py",
+      "sha256": "a326bfea11a5fd295608ed943730355fc6f1dc25dfbba1f1467468900d5d745a",
+      "bytes": 9829
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\seal_final.py",
+      "sha256": "b88e4f5a4f6360689599cdff7fe7a39036963e8d41698842296392986d554931",
+      "bytes": 5088
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\CAPTIONS.md",
+      "sha256": "9d2f4923875176bdd749af5ca1cf0a855ca3a587206869d6fe9b80c7f5af6bdc",
+      "bytes": 3173
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\FIGURE_INDEX.json",
+      "sha256": "d4a765c3969ae8dd2192192525c4e068e56e0b04528a15cf590ac40acad7029f",
+      "bytes": 45567
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\INPUT_PROVENANCE.json",
+      "sha256": "8181a16396a069f6471a0a42182e6ec24397c4849e9a9a4e22643e5063023dbc",
+      "bytes": 4914
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\provenance\\ANALYSIS.md",
+      "sha256": "5b619154fe513121323296392503ed5835ae55fc50932f258a5cdc17cde8d42b",
+      "bytes": 6542
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\provenance\\DELIVERY.json",
+      "sha256": "d8fd7ab801ffb61f448f4bc12cc68f03d95e7f53a141d6ea0096bc96f4541c22",
+      "bytes": 6868
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\provenance\\ROOT_AGGREGATION_ADOPTION.json",
+      "sha256": "a8867a9ebdf01061a55d143b79eff91196571c2275f4379902131a69dd4ce80c",
+      "bytes": 14766
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\provenance\\SOURCE_README.md",
+      "sha256": "58bf8762dddface66fd67db0c2b85540a77e849310002611f98e7eb86d2c8a85",
+      "bytes": 2177
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\output\\README.md",
+      "sha256": "7e0f01ba46633175ea94ac6412618e768efb8891238661a46dc61d03d918d45f",
+      "bytes": 5527
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\ZIP_CONTENTS.json",
+      "sha256": "70bf2d351756f21f67c719ecdadce98c34af72261792d3cb372401b108d7d5c2",
+      "bytes": 7445
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\README.md",
+      "sha256": "58bf8762dddface66fd67db0c2b85540a77e849310002611f98e7eb86d2c8a85",
+      "bytes": 2177
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\DELIVERY.json",
+      "sha256": "d8fd7ab801ffb61f448f4bc12cc68f03d95e7f53a141d6ea0096bc96f4541c22",
+      "bytes": 6868
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\ANALYSIS.md",
+      "sha256": "5b619154fe513121323296392503ed5835ae55fc50932f258a5cdc17cde8d42b",
+      "bytes": 6542
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\01_ROOT_AGGREGATION_ADOPTION.json",
+      "sha256": "a8867a9ebdf01061a55d143b79eff91196571c2275f4379902131a69dd4ce80c",
+      "bytes": 14766
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\02_derive_figure_contract.py",
+      "sha256": "a1cfa5263df2bbebdb6b37166d69391d31a21eb4aa195353288f03114e485b76",
+      "bytes": 8658
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\03_review_artifacts.py",
+      "sha256": "78b8b73f9a1a2ddbb62c91b9c06eb903e95061a6353af281de22d69990b9f22d",
+      "bytes": 17536
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\04_seal_review.py",
+      "sha256": "f94a07fe1efac468affcffadf9eb51d6867f523f794a64eb1cc515245098364a",
+      "bytes": 11378
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\05_DATA_CONTRACT.json",
+      "sha256": "89645c62dc3b8cd0710afc78abb3cdef0597dde8f50d94160cd192439e28ea62",
+      "bytes": 82769
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\06_ARTIFACT_REVIEW.json",
+      "sha256": "601eb1ef63e84592d5f33d25630c038643d8cd2f4305866ae56684052eaa4c0f",
+      "bytes": 36925
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\07_build_transfer.mjs",
+      "sha256": "24616ec1dcb78b26d4dfbd9148ed44e22082e5056cb4be5a3bf3db66eec90ffc",
+      "bytes": 17961
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\08_BUILD_REPORT.json",
+      "sha256": "6d60bb61aeaa10b1b589d7c297dc49ef721c62c2738a55c36d44fa4508d84095",
+      "bytes": 223974
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\09_INPUT_PROVENANCE.json",
+      "sha256": "8181a16396a069f6471a0a42182e6ec24397c4849e9a9a4e22643e5063023dbc",
+      "bytes": 4914
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\10_transfer_university_to_sues.png",
+      "sha256": "585d871e2a2d858731db591de47684f94e7edd60decfa49c61cf2b2fcb84cfc4",
+      "bytes": 199388
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_native_review_20260929_1750\\sealed\\11_transfer_sues_to_university.png",
+      "sha256": "c612309debc01c477b531ffd1f0b31f667b4fa920bdba2540d084eee7cb6cee9",
+      "bytes": 109176
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\ROOT_STOPPED_OBSERVATION.json",
+      "sha256": "2f95c6c5fba2dab5ae6d6e258d404a8c5b840cdd2b87587e7b509f82f47d3e50",
+      "bytes": 6303
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\status.json",
+      "sha256": "0bd5b1b7b486fb442d7e9f6624839e7b2b2ce1600efd5f6bbbdf00cf22093d8a",
+      "bytes": 51769
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_status.json",
+      "sha256": "47fd31336b8e742da91891a87c28a0767989cb45c375aeb000854f50e37acf12",
+      "bytes": 7268
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\extension_status.json",
+      "sha256": "02a21093347100b5a17671f676cf5c9b7c5819a552729733677a1b4b52b2b074",
+      "bytes": 40092
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\latest_baseline_status.json",
+      "sha256": "83fd30e4d1b0efa0a806ceb033f20b6c49553f3c9a649004509929751d91e94a",
+      "bytes": 45792
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\independent_comparison_status.json",
+      "sha256": "a1389f862ec7560e32fb29aeb8dafb93349eaf19a6ae149979c50357760234ee",
+      "bytes": 72886
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\pipeline.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\pipeline.stderr.log",
+      "sha256": "ce6482a7a929ef5ca181de34ccfe8ce47e9668651c8f1ca51ffc39550702b67f",
+      "bytes": 723
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\extensions.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\extensions.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\latest.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\latest.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\independent.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\independent.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\stage_logs\\formal_efficiency_component.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\stage_logs\\formal_efficiency_component.stderr.log",
+      "sha256": "27cde8cc55651bab5bd2c2adbb8efb19002539f328c8bad753c8ac95350fc9ed",
+      "bytes": 2387
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\state_io_retry_20260920_v2\\io_retry_pipeline_14420.jsonl",
+      "sha256": "85cbb8f83edd26f52025fd263173f7f6b391811f06f2ba761802769dbc64a526",
+      "bytes": 4770
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\latest_baseline_gpu.lock",
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "bytes": 1
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_174948645\\OBSERVATION.json",
+      "sha256": "a763b86ce5435f9ea3e15caff4a488352c6480134d47b2968959ed75071fc118",
+      "bytes": 5381
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observe_stopped_incident.ps1",
+      "sha256": "e2adf515e61792fd15ff6a7cc8e65f778231a22cb836b674e2aa36a233e1d84b",
+      "bytes": 3874
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_174948645\\status.json",
+      "sha256": "0bd5b1b7b486fb442d7e9f6624839e7b2b2ce1600efd5f6bbbdf00cf22093d8a",
+      "bytes": 51769
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_174948645\\extension_status.json",
+      "sha256": "02a21093347100b5a17671f676cf5c9b7c5819a552729733677a1b4b52b2b074",
+      "bytes": 40092
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_174948645\\pipeline_status.json",
+      "sha256": "47fd31336b8e742da91891a87c28a0767989cb45c375aeb000854f50e37acf12",
+      "bytes": 7268
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_174948645\\independent_comparison_status.json",
+      "sha256": "a1389f862ec7560e32fb29aeb8dafb93349eaf19a6ae149979c50357760234ee",
+      "bytes": 72886
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_174948645\\latest_baseline_status.json",
+      "sha256": "83fd30e4d1b0efa0a806ceb033f20b6c49553f3c9a649004509929751d91e94a",
+      "bytes": 45792
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\efficiency_incident_20260929_1448\\observation_20260929_174948645\\gpu_compute_query.txt",
+      "sha256": "a5d7f9c700d5dec727515946af205c01950670f4bd3c301bcac7654a76e19c61",
+      "bytes": 1883
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\transfer_native_figures_20260929_1750\\adopt_native_root.py",
+      "sha256": "c3150b4070a4d09d5365ccf6525e6f5ad38cf3518880656fb179487a34da4edc",
+      "bytes": 10256
+    }
+  ],
+  "scientific_execution": false,
+  "recovery_or_native_execution": false,
+  "real_release_created": false,
+  "limits": [
+    "Only two new T3 graphical derivatives accepted; no old scientific suite, original metric/NPZ/checkpoint/cache/image read or model/full-ranking/AP recomputation.",
+    "Three-seed mean plus/minus sampleSD denominator2, not SE/CI/significance. No pooling across tasks/heights/directions/datasets.",
+    "R1/mAP percentages versus scaled MRR×100, independent zero-start metric axes. Full all11 lower meanR1 and low street absolute scores retained.",
+    "Flat native PPT objects and editable SVG; not Excel charts or grouped source objects. Both final PNGs actually viewed by root and separately independently; CPU render, not PowerPoint app.",
+    "All upstream inherited checkpoint/cache/image SHA and historical missing evidence-edge limits persist. Final manuscript/Overleaf/remaining experiments are unfinished.",
+    "Stopped observation and existing carrier are not future admission. No recovery release, native probe, live intent or queue mutation."
+  ]
+}

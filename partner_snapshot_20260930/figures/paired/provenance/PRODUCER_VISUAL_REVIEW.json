@@ -1,0 +1,109 @@
+{
+  "schema": "producer-paired-actual-visual-review.v1",
+  "utc": "2026-09-29T21:11:01.712061+00:00",
+  "passed": true,
+  "independent": false,
+  "method": "Actual view_image(original) of all 11 final PNGs in batches 1-3, 4-7 and 8-11; earlier two v1 samples separately.",
+  "finalPages": [
+    {
+      "page": 1,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\01_t5_paired_university1652_drone_to_satellite.png",
+        "sha256": "dcb40c6dbca66949d091f90306f393bde91ee5cf42b7457fe8caca09ca606b87",
+        "bytes": 173059
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 2,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\02_t5_paired_university1652_satellite_to_drone.png",
+        "sha256": "7a23bd11873456b4ca4153b4f8a8326ee19350933c11005b1256ad3237601342",
+        "bytes": 167547
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 3,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\03_t5_paired_university1652_street_to_satellite.png",
+        "sha256": "89d61a252c59f092a32526c585796704cd25cc541a55659bf764af61865697cd",
+        "bytes": 166950
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 4,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\04_t5_paired_sues200_uav_150m_to_satellite.png",
+        "sha256": "36719fdafb6c26d4b398dd58d24c4355302456cd8b269c3819d99059d3cd5966",
+        "bytes": 165313
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 5,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\05_t5_paired_sues200_satellite_to_uav_150m.png",
+        "sha256": "6afcfc49fce9784ae557bbba0618439756ac3b23f937c2c54e845b7d6d36a5a9",
+        "bytes": 161775
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 6,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\06_t5_paired_sues200_uav_200m_to_satellite.png",
+        "sha256": "9be2280a3c1945d124bcc2a5a60f1a90caae8ee8ee7e3e8197db307a96967fc9",
+        "bytes": 165082
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 7,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\07_t5_paired_sues200_satellite_to_uav_200m.png",
+        "sha256": "5ec3b63336fa009f4574e106a4f9ef980abb69bd500ae2b47c5fc9ee8fe9e226",
+        "bytes": 163777
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 8,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\08_t5_paired_sues200_uav_250m_to_satellite.png",
+        "sha256": "13c639a6eaf07f585cf90bc3c214e5f93a38107b0e1cb2b6595a9b7a6db2e82d",
+        "bytes": 165424
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 9,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\09_t5_paired_sues200_satellite_to_uav_250m.png",
+        "sha256": "49dce68d855a4f2f7889652d93307a0f87d5e3452da1ef22bcceaa0608aa3bbc",
+        "bytes": 163558
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 10,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\10_t5_paired_sues200_uav_300m_to_satellite.png",
+        "sha256": "f6ba2c04dc494e89dd1b54334a7b5dc4a987439964b7e2249852e73fcffdbc79",
+        "bytes": 165857
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    },
+    {
+      "page": 11,
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\previews\\11_t5_paired_sues200_satellite_to_uav_300m.png",
+        "sha256": "6b25bdb222c11faa217923b0f3e2be3ecce297a1baff33982317c105cc7651b5",
+        "bytes": 162237
+      },
+      "observed": "No visible text clipping or overlap; low street success values, full N, k/N, selected-set overlap and four requested-coverage labels legible. True point overlap retained."
+    }
+  ],
+  "limitation": "Visual readability is not new scientific or inference validation."
+}

@@ -1,0 +1,52 @@
+\begin{table*}[t]
+\centering
+\caption{Frozen sensitivity results on SUES-200, task by task. The main full seed-1 setting is included only as a reference. No task-level macro average is formed.}
+\label{tab:formal_sensitivity_sues200}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrr}
+\toprule
+Task & Setting & R@1 & R@5 & R@10 & R@20 & Official mAP \\
+\midrule
+UAV 150\,m$\rightarrow$Satellite & ResNet-18, 512-D (main reference) & 28.70 & 65.30 & 79.45 & 91.05 & 37.16 \\
+UAV 150\,m$\rightarrow$Satellite & ResNet-50, 512-D & 31.55 & 61.95 & 73.45 & 85.40 & 38.84 \\
+UAV 150\,m$\rightarrow$Satellite & ResNet-18, 256-D & 26.12 & 64.62 & 77.50 & 90.38 & 34.80 \\
+UAV 150\,m$\rightarrow$Satellite & ResNet-18, 1024-D & 29.80 & 69.27 & 83.47 & 93.80 & 38.43 \\
+\addlinespace
+Satellite$\rightarrow$UAV 150\,m & ResNet-18, 512-D (main reference) & 47.50 & 62.50 & 70.00 & 72.50 & 34.28 \\
+Satellite$\rightarrow$UAV 150\,m & ResNet-50, 512-D & 45.00 & 62.50 & 66.25 & 70.00 & 32.03 \\
+Satellite$\rightarrow$UAV 150\,m & ResNet-18, 256-D & 38.75 & 50.00 & 56.25 & 62.50 & 29.90 \\
+Satellite$\rightarrow$UAV 150\,m & ResNet-18, 1024-D & 50.00 & 58.75 & 61.25 & 72.50 & 32.11 \\
+\addlinespace
+UAV 200\,m$\rightarrow$Satellite & ResNet-18, 512-D (main reference) & 33.15 & 69.58 & 82.45 & 92.92 & 41.47 \\
+UAV 200\,m$\rightarrow$Satellite & ResNet-50, 512-D & 36.98 & 69.00 & 78.88 & 88.00 & 44.32 \\
+UAV 200\,m$\rightarrow$Satellite & ResNet-18, 256-D & 32.12 & 68.62 & 81.60 & 92.73 & 40.57 \\
+UAV 200\,m$\rightarrow$Satellite & ResNet-18, 1024-D & 34.92 & 73.85 & 87.33 & 94.73 & 43.46 \\
+\addlinespace
+Satellite$\rightarrow$UAV 200\,m & ResNet-18, 512-D (main reference) & 61.25 & 71.25 & 75.00 & 78.75 & 40.25 \\
+Satellite$\rightarrow$UAV 200\,m & ResNet-50, 512-D & 50.00 & 60.00 & 66.25 & 73.75 & 37.11 \\
+Satellite$\rightarrow$UAV 200\,m & ResNet-18, 256-D & 46.25 & 60.00 & 66.25 & 75.00 & 35.71 \\
+Satellite$\rightarrow$UAV 200\,m & ResNet-18, 1024-D & 43.75 & 62.50 & 67.50 & 71.25 & 36.90 \\
+\addlinespace
+UAV 250\,m$\rightarrow$Satellite & ResNet-18, 512-D (main reference) & 35.98 & 73.58 & 86.17 & 94.38 & 44.43 \\
+UAV 250\,m$\rightarrow$Satellite & ResNet-50, 512-D & 42.20 & 72.08 & 81.75 & 89.88 & 49.13 \\
+UAV 250\,m$\rightarrow$Satellite & ResNet-18, 256-D & 35.20 & 71.33 & 82.85 & 93.70 & 43.42 \\
+UAV 250\,m$\rightarrow$Satellite & ResNet-18, 1024-D & 35.70 & 75.80 & 89.00 & 96.15 & 44.46 \\
+\addlinespace
+Satellite$\rightarrow$UAV 250\,m & ResNet-18, 512-D (main reference) & 60.00 & 73.75 & 76.25 & 78.75 & 44.00 \\
+Satellite$\rightarrow$UAV 250\,m & ResNet-50, 512-D & 53.75 & 70.00 & 72.50 & 73.75 & 41.65 \\
+Satellite$\rightarrow$UAV 250\,m & ResNet-18, 256-D & 47.50 & 60.00 & 71.25 & 72.50 & 38.47 \\
+Satellite$\rightarrow$UAV 250\,m & ResNet-18, 1024-D & 50.00 & 66.25 & 71.25 & 81.25 & 39.41 \\
+\addlinespace
+UAV 300\,m$\rightarrow$Satellite & ResNet-18, 512-D (main reference) & 38.77 & 75.10 & 88.12 & 95.93 & 47.11 \\
+UAV 300\,m$\rightarrow$Satellite & ResNet-50, 512-D & 46.67 & 74.02 & 83.80 & 90.60 & 53.09 \\
+UAV 300\,m$\rightarrow$Satellite & ResNet-18, 256-D & 36.00 & 72.85 & 83.83 & 94.10 & 44.31 \\
+UAV 300\,m$\rightarrow$Satellite & ResNet-18, 1024-D & 36.20 & 77.55 & 90.92 & 98.28 & 45.02 \\
+\addlinespace
+Satellite$\rightarrow$UAV 300\,m & ResNet-18, 512-D (main reference) & 60.00 & 68.75 & 75.00 & 78.75 & 45.25 \\
+Satellite$\rightarrow$UAV 300\,m & ResNet-50, 512-D & 57.50 & 71.25 & 73.75 & 77.50 & 44.65 \\
+Satellite$\rightarrow$UAV 300\,m & ResNet-18, 256-D & 60.00 & 66.25 & 71.25 & 73.75 & 41.94 \\
+Satellite$\rightarrow$UAV 300\,m & ResNet-18, 1024-D & 55.00 & 61.25 & 66.25 & 76.25 & 40.99 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

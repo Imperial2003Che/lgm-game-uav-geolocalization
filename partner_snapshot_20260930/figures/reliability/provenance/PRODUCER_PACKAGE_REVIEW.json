@@ -1,0 +1,227 @@
+{
+  "schema": "producer-t5-reliability-package-review.v1",
+  "utc": "2026-09-29T20:03:58.264776+00:00",
+  "passed": true,
+  "independent": false,
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\verify_package.py",
+    "sha256": "aa2b8c7f235bc67e5d9ba8a001e3c531d5c0da78ed0798b0b0401357cb62b781",
+    "bytes": 11321
+  },
+  "build": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\BUILD_REPORT.json",
+    "sha256": "ad72763e388795c521dba217e3e1b19935aeaca509b1f0cb832c6c2e4ac8176c",
+    "bytes": 1854750
+  },
+  "assertions": 33862,
+  "figures": [
+    {
+      "page": 1,
+      "task": "university1652_drone_to_satellite",
+      "nativeShapes": 262,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 18,
+      "emptyBins": 72,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\01_t5_reliability_university1652_drone_to_satellite.png",
+        "sha256": "17402005b832122820129be7419d5acf22e40f0e8f763f13a5887122f4f30993",
+        "bytes": 174149
+      }
+    },
+    {
+      "page": 2,
+      "task": "university1652_satellite_to_drone",
+      "nativeShapes": 250,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 6,
+      "emptyBins": 84,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\02_t5_reliability_university1652_satellite_to_drone.png",
+        "sha256": "f91403c76627041b6bbf287a67844e79f000a03042b4ab807441b7d5197ff4dd",
+        "bytes": 161822
+      }
+    },
+    {
+      "page": 3,
+      "task": "university1652_street_to_satellite",
+      "nativeShapes": 257,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 13,
+      "emptyBins": 77,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\03_t5_reliability_university1652_street_to_satellite.png",
+        "sha256": "d2021c89ef826385e40a368c31a91e691968f872c871023188272e307b9124ae",
+        "bytes": 165922
+      }
+    },
+    {
+      "page": 4,
+      "task": "sues200_uav_150m_to_satellite",
+      "nativeShapes": 263,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 19,
+      "emptyBins": 71,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\04_t5_reliability_sues200_uav_150m_to_satellite.png",
+        "sha256": "bf0ad7071b8db6337c234b2889a9fba8fc516cd380a624a4813af038fb8d2d41",
+        "bytes": 170963
+      }
+    },
+    {
+      "page": 5,
+      "task": "sues200_satellite_to_uav_150m",
+      "nativeShapes": 250,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 6,
+      "emptyBins": 84,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\05_t5_reliability_sues200_satellite_to_uav_150m.png",
+        "sha256": "1b40a56419e8515fd753e2edba46784eecfb22c819be77c4d6f57e45202f4a8c",
+        "bytes": 162458
+      }
+    },
+    {
+      "page": 6,
+      "task": "sues200_uav_200m_to_satellite",
+      "nativeShapes": 265,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 21,
+      "emptyBins": 69,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\06_t5_reliability_sues200_uav_200m_to_satellite.png",
+        "sha256": "7eca5349765848397e2ca831229d1b8cc710e284eab71221a72f13080c9b827f",
+        "bytes": 172477
+      }
+    },
+    {
+      "page": 7,
+      "task": "sues200_satellite_to_uav_200m",
+      "nativeShapes": 250,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 6,
+      "emptyBins": 84,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\07_t5_reliability_sues200_satellite_to_uav_200m.png",
+        "sha256": "76b473661f5dd6abe44d45a4dd95cab7b0b2ee36365c3615a354874720a62b28",
+        "bytes": 162260
+      }
+    },
+    {
+      "page": 8,
+      "task": "sues200_uav_250m_to_satellite",
+      "nativeShapes": 263,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 19,
+      "emptyBins": 71,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\08_t5_reliability_sues200_uav_250m_to_satellite.png",
+        "sha256": "65668449e308631720a64b74d2f90ab3a7ff21dea6b92d8660d059ae92a75731",
+        "bytes": 170325
+      }
+    },
+    {
+      "page": 9,
+      "task": "sues200_satellite_to_uav_250m",
+      "nativeShapes": 250,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 6,
+      "emptyBins": 84,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\09_t5_reliability_sues200_satellite_to_uav_250m.png",
+        "sha256": "2b419b8559285624d103835adc6ecf2bfdd0c6fff3323c65af30e536def4531a",
+        "bytes": 162687
+      }
+    },
+    {
+      "page": 10,
+      "task": "sues200_uav_300m_to_satellite",
+      "nativeShapes": 264,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 20,
+      "emptyBins": 70,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\10_t5_reliability_sues200_uav_300m_to_satellite.png",
+        "sha256": "f5dde22e72ed43d54f201061b1070b534600463e2320a03620b540c13ed57c70",
+        "bytes": 170187
+      }
+    },
+    {
+      "page": 11,
+      "task": "sues200_satellite_to_uav_300m",
+      "nativeShapes": 250,
+      "textObjects": 199,
+      "minFontHundredthsPt": 800,
+      "occupiedBins": 6,
+      "emptyBins": 84,
+      "PNGDimensions": [
+        1375,
+        1611
+      ],
+      "preview": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\previews\\11_t5_reliability_sues200_satellite_to_uav_300m.png",
+        "sha256": "fccde3c474653659c1e24655c06766b1351c11250e3e84de73d20077d26bb111",
+        "bytes": 162132
+      }
+    }
+  ],
+  "totalNativeShapes": 2824,
+  "totalTexts": 2189,
+  "occupiedPoints": 140,
+  "emptyBinsNoPoint": 850,
+  "savedECE": 66,
+  "limits": [
+    "Producer export consistency check; independent/source/root acceptance separate.",
+    "No original bin assignments/accuracy/ECE/gap/NPZ/model/scientific control recomputation.",
+    "Actual visual inspection documented separately."
+  ]
+}

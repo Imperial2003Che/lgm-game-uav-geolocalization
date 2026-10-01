@@ -1,0 +1,86 @@
+{
+  "schema_version": "lgm-game.transactions-external-sources.v1",
+  "frozen_utc": null,
+  "archive_hash_algorithm": "sha256",
+  "tree_hash_algorithm": "sorted UTF-8 rows of relative_posix_path<TAB>file_sha256<TAB>byte_count<LF>, then SHA-256",
+  "sources": [
+    {
+      "id": "qdfl",
+      "method": "QDFL",
+      "role": "locally trained published-method baseline",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing, 2025",
+      "doi": "10.1109/TGRS.2025.3558924",
+      "repository": "https://github.com/Shuyu-Hu/QDFL",
+      "commit": "627296d5410eee1714760b213ce9ca0258c6ae50",
+      "commit_utc": "2025-04-15T09:00:07Z",
+      "archive_url": "https://codeload.github.com/Shuyu-Hu/QDFL/zip/627296d5410eee1714760b213ce9ca0258c6ae50",
+      "archive_filename": "QDFL-627296d5410eee1714760b213ce9ca0258c6ae50.zip",
+      "archive_bytes": 184410,
+      "archive_sha256": "9d521faa079d7bfcc8e6a605bd26d1cd0d82785e7a6aac2bd53d9dce6a0e95b2",
+      "source_file_count": 108,
+      "source_tree_sha256": "acfd5d0f60ce8a6131a03fa88e478ef378c77aa290a6c4d01e503b7cb4cf58d4",
+      "license_spdx": "MIT",
+      "redistribution": "permitted with the upstream license and notice retained",
+      "execution_status": "adapter required",
+      "audit_notes": [
+        "The upstream training entry point fixes seed 1 and attaches official-test evaluation at train end.",
+        "The upstream University-1652 paths and DINOv2 weight paths are hardcoded.",
+        "The delivery adapter must parameterize paths and seeds, omit test callbacks during fitting, and save the pre-specified final epoch."
+      ]
+    },
+    {
+      "id": "mccg",
+      "method": "MCCG",
+      "role": "locally trained published-method baseline replacing the non-executable SHAA fit",
+      "publication": "IEEE Transactions on Circuits and Systems for Video Technology, 2024",
+      "doi": "10.1109/TCSVT.2023.3296074",
+      "repository": "https://github.com/mode-str/crossview",
+      "commit": "e1c51b0178059087c66f7af9b0609df0c6ea646c",
+      "commit_utc": "2026-06-06T11:43:26Z",
+      "archive_url": "https://codeload.github.com/mode-str/crossview/zip/e1c51b0178059087c66f7af9b0609df0c6ea646c",
+      "archive_filename": "MCCG-e1c51b0178059087c66f7af9b0609df0c6ea646c.zip",
+      "archive_bytes": 98915,
+      "archive_sha256": "3b0c6bb3bfcd87334610c35d2da1987048b73173284d29928995874f76b6a3e4",
+      "source_file_count": 54,
+      "source_tree_sha256": "7c2fc7aeabcaeb62c5a0d89e1889c804564567a4d36e2ef209cdce859704a940",
+      "license_spdx": "NOASSERTION",
+      "redistribution": "not bundled; the exact commit is downloaded into a separate working directory",
+      "execution_status": "adapter required",
+      "audit_notes": [
+        "The repository contains the imported datasets, models, losses, and optimizer modules.",
+        "The upstream script selects checkpoints using training loss after epoch 90.",
+        "The delivery adapter must retain the published optimizer and schedule while saving only the pre-specified final epoch."
+      ]
+    },
+    {
+      "id": "shaa",
+      "method": "SHAA",
+      "role": "literature comparison only",
+      "publication": "IEEE Transactions on Circuits and Systems for Video Technology, 2025",
+      "doi": "10.1109/TCSVT.2025.3560637",
+      "repository": "https://github.com/chennanhua001/SHAA",
+      "commit": "980e79e113ffd8e9290025190460405e8b77e843",
+      "commit_utc": "2024-11-13T04:00:59Z",
+      "archive_url": "https://codeload.github.com/chennanhua001/SHAA/zip/980e79e113ffd8e9290025190460405e8b77e843",
+      "archive_filename": "SHAA-980e79e113ffd8e9290025190460405e8b77e843.zip",
+      "archive_bytes": 12613,
+      "archive_sha256": "847c37af29cfa19053d3dbc9283ae24c1e1738e8fde9040f3c650292adb7ef08",
+      "source_file_count": 7,
+      "source_tree_sha256": "25f60335eac160d8c10bac97726e25f94f5ea3258ebc6f1084a216e5022d0c5b",
+      "license_spdx": "NOASSERTION",
+      "redistribution": "not bundled",
+      "execution_status": "blocked_incomplete_upstream_source",
+      "missing_import_roots": [
+        "datasets",
+        "losses",
+        "models",
+        "optimizers"
+      ],
+      "audit_notes": [
+        "The frozen repository snapshot contains seven files.",
+        "Its training entry point imports four source trees that are absent from the repository.",
+        "No local score may be attributed to SHAA unless a complete attributable source release is independently verified."
+      ]
+    }
+  ]
+}

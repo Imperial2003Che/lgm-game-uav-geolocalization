@@ -276,12 +276,12 @@ class PromptProvider:
         altitude = altitude_from_path(query_path)
 
         content_text = (
-            f"VLGeo content description for place {class_id}. "
+            "VLGeo content description for a cross-view image pair. "
             f"UAV caption: {query_caption}. Satellite caption: {ref_caption}. "
             f"Stable geo-localization landmarks: {', '.join(label for label, _ in content_labels)}."
         )
         style_text = (
-            f"VLGeo style description for place {class_id}. "
+            "VLGeo style description for a cross-view image pair. "
             f"Cross-view nuisance factors: {', '.join(label for label, _ in style_labels)}. "
             f"UAV altitude cue: {altitude or 'unknown'}."
         )
@@ -309,9 +309,12 @@ class PromptProvider:
     ) -> PromptDescription:
         query_caption = self._caption(query_path)
         ref_caption = self._caption(ref_path)
-        content_text = f"BLIP content description for place {class_id}. UAV caption: {query_caption}. Satellite caption: {ref_caption}."
+        content_text = (
+            "BLIP content description for a cross-view image pair. "
+            f"UAV caption: {query_caption}. Satellite caption: {ref_caption}."
+        )
         style_text = (
-            f"BLIP style description for place {class_id}. "
+            "BLIP style description for a cross-view image pair. "
             f"The pair contains UAV and satellite viewpoint differences, sensor style differences, and altitude {altitude_from_path(query_path) or 'unknown'}."
         )
         return PromptDescription(
@@ -333,8 +336,14 @@ class PromptProvider:
     ) -> PromptDescription:
         content_labels = self._clip_labels([query_path, ref_path], CONTENT_CANDIDATES, top_k=6)
         style_labels = self._clip_labels([query_path, ref_path], STYLE_CANDIDATES, top_k=6)
-        content_text = f"CLIP content labels for place {class_id}: {', '.join(label for label, _ in content_labels)}."
-        style_text = f"CLIP style labels for place {class_id}: {', '.join(label for label, _ in style_labels)}."
+        content_text = (
+            "CLIP content labels for a cross-view image pair: "
+            f"{', '.join(label for label, _ in content_labels)}."
+        )
+        style_text = (
+            "CLIP style labels for a cross-view image pair: "
+            f"{', '.join(label for label, _ in style_labels)}."
+        )
         return PromptDescription(
             content_text=content_text,
             style_text=style_text,
@@ -354,9 +363,13 @@ class PromptProvider:
     ) -> PromptDescription:
         query_text = self._ollama_llava(query_path, "Describe stable geo-localization content and nuisance style factors in this UAV or satellite image.")
         ref_text = self._ollama_llava(ref_path, "Describe stable geo-localization content and nuisance style factors in this satellite or UAV image.")
-        content_text = f"LLaVA content description for place {class_id}. UAV image: {query_text}. Satellite image: {ref_text}."
+        content_text = (
+            "LLaVA content description for a cross-view image pair. "
+            f"UAV image: {query_text}. Satellite image: {ref_text}."
+        )
         style_text = (
-            f"LLaVA style description for place {class_id}. Extract viewpoint, altitude, illumination, season, weather, and sensor-style differences. "
+            "LLaVA style description for a cross-view image pair. "
+            "Extract viewpoint, altitude, illumination, season, weather, and sensor-style differences. "
             f"UAV image: {query_text}. Satellite image: {ref_text}. Altitude cue: {altitude_from_path(query_path) or 'unknown'}."
         )
         return PromptDescription(
@@ -443,10 +456,11 @@ def metadata_prompt(
 ) -> PromptDescription:
     altitude = altitude_from_path(query_path)
     content_text = (
-        f"Metadata content description for place {class_id}: campus buildings, roads, vegetation, parking areas, and stable spatial layout."
+        "Metadata content description: campus buildings, roads, vegetation, "
+        "parking areas, and stable spatial layout."
     )
     style_text = (
-        f"Metadata style description for place {class_id}: UAV to satellite viewpoint gap, sensor gap, oblique and nadir views, "
+        "Metadata style description: UAV to satellite viewpoint gap, sensor gap, oblique and nadir views, "
         f"altitude {altitude or 'unknown'}, unknown season and illumination."
     )
     content_tokens = tokens_from_text(content_text, extra=["campus", "building", "road", "vegetation", "stable_layout"] + class_token(class_id, use_class_token))

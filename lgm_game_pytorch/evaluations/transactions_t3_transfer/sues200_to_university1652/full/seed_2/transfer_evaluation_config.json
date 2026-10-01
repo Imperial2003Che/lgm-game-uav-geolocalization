@@ -1,0 +1,52 @@
+{
+  "adapter": {
+    "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\experiments\\run_cross_dataset_evaluation.py",
+    "sha256": "29cccd4ff3e975571b578288f7a691ceccaf4a8ed7ab9483812b68edbc4f5ed8"
+  },
+  "checkpoint": {
+    "bytes": 172338603,
+    "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\runs\\formal_main\\sues200\\full\\seed_2\\best.pt",
+    "selected_training_epoch": 79,
+    "sha256": "b92ffcece7107fbce537a7bc003104ee65ee88db8faf12c64ea5bd6f1e2dfa9b",
+    "training_manifest_payload_sha256": "a952f21d1800adfb29a6e1a7908bc218f9ab28a26efa6027f498df7677aaa486",
+    "training_run_config_sha256": "52f56fe4ad3192dca6993d71b8b83305abdaf418b8a9c90008a5a353ea176619"
+  },
+  "controls": {
+    "target_dataset_used_for_calibration": false,
+    "target_dataset_used_for_checkpoint_selection": false,
+    "target_dataset_used_for_training": false,
+    "target_labels_used_only_by_evaluator": true
+  },
+  "design": "bidirectional_zero_shot_cross_dataset_transfer",
+  "evaluation": {
+    "all_official_gallery_images": true,
+    "all_official_queries": true,
+    "amp": true,
+    "data_hash_mode": "content",
+    "device": "cuda:0",
+    "eval_batch_size": 128,
+    "eval_chunk_size": 128,
+    "workers": 8
+  },
+  "frozen_core": {
+    "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\lgm_game_pytorch\\formal_retrieval.py",
+    "sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862"
+  },
+  "schema_version": "lgm-game.cross-dataset-evaluation-config.v1",
+  "seed": 2,
+  "source_dataset": "sues200",
+  "target": {
+    "data_root": "C:\\\u9879\u76ee\\IMTMN\\datasets\\University-1652",
+    "evidence": {
+      "bytes": 6806658,
+      "meta_bytes": 6004,
+      "meta_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.meta.json",
+      "meta_sha256": "3731072d3a1c8a3b9fe8d880fd791dfbe7eb82f2d93be85b82be229ff8512dbf",
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.npz",
+      "sha256": "8a2333d58dbb0ca56c5d5829159a32f294e11e686bb6b91d05098d4b170c2bc3"
+    },
+    "sues_manifest": null
+  },
+  "target_dataset": "university1652",
+  "variant": "full"
+}

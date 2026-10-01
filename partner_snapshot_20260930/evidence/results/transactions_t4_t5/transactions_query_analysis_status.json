@@ -1,0 +1,7 @@
+{
+  "completed_utc": "2026-09-29T13:40:38.082253+00:00",
+  "config_sha256": "6f4fb2c91bd657eb0ff4c36b8644a1b3b7a9ac7752c811814ae9fb213cfdc1a7",
+  "manifest_sha256": "f9366052abb7489fc7eae40211ee7842917ada9c689fc01899db93e702b251e4",
+  "schema_version": "lgm-game.transactions-query-analysis-status.v1",
+  "status": "completed"
+}

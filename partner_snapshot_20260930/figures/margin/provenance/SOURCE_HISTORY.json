@@ -1,0 +1,29 @@
+{
+  "schema": "native-t4-source-history.v1",
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\build\\build_t4.mjs",
+    "sha256": "635d4449a2ae2270a6218fe270cb7ac21a605e1f9a3fd8b6a2182812ac0a4eb3",
+    "bytes": 20190
+  },
+  "sameSourceSampleAndFinal": true,
+  "sample": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\BUILD_REPORT_SAMPLE.json",
+    "sha256": "10bf810719dd3e829a765114e0584f34233b0d0f1cc3e70a0d540503e5c39453",
+    "bytes": 337940
+  },
+  "final": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\BUILD_REPORT.json",
+    "sha256": "0a3e4c2e55ce867e2ea35ca5221e8902a0bc0128e8d217dcc1fd9a3d58ff86a5",
+    "bytes": 1840448
+  },
+  "sampleScope": "2pages/18panels/144points",
+  "finalScope": "11pages/99panels/792points",
+  "actualBuildExitCodes": [
+    0,
+    0
+  ],
+  "revisions": [],
+  "failures": [],
+  "oldOutputsUnmodified": true,
+  "noOldSuiteRerun": true
+}

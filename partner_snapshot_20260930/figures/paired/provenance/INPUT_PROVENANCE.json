@@ -1,0 +1,127 @@
+{
+  "schema": "native-t5-paired-input-provenance.v1",
+  "mode": "final",
+  "rootSha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+  "inputs": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\ROOT_POST_ROBUSTNESS_ADOPTION.json",
+      "sha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+      "bytes": 221193
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\CAPTURE.json",
+      "sha256": "473d5fba90c3fc0d044733ffb19e1f2955f08df96f89d4c643ad54d6ff15ca09",
+      "bytes": 98212
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\query\\transactions_t5_selective_calibration.json",
+      "sha256": "033b6eaea71b3084ca043902f6ba03b6487bf1762a9180963357103097d172cc",
+      "bytes": 744943
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\README.md",
+      "sha256": "6042d5067a024781d8190a9a840bc2d5212f94ff4f03faa905a463eda8d8b877",
+      "bytes": 7452,
+      "role": "Contextual upstream report",
+      "rootBound": true
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\REVIEW.json",
+      "sha256": "e350ca764a7b6a053afbab3062eee6412306685ffeb2c5b9185578896ff451bc",
+      "bytes": 15161,
+      "role": "Contextual upstream report",
+      "rootBound": true
+    }
+  ],
+  "allPairedRows": 132,
+  "requestedCoverages": [
+    0.5,
+    0.75,
+    0.9,
+    1
+  ],
+  "plottedTasks": [
+    "university1652_drone_to_satellite",
+    "university1652_satellite_to_drone",
+    "university1652_street_to_satellite",
+    "sues200_uav_150m_to_satellite",
+    "sues200_satellite_to_uav_150m",
+    "sues200_uav_200m_to_satellite",
+    "sues200_satellite_to_uav_200m",
+    "sues200_uav_250m_to_satellite",
+    "sues200_satellite_to_uav_250m",
+    "sues200_uav_300m_to_satellite",
+    "sues200_satellite_to_uav_300m"
+  ],
+  "plottedRows": 132,
+  "plottedPanels": 33,
+  "plottedPoints": 264,
+  "derivedCSV": "Direct paired success fields and×100 only; N from exact matching native records. No query success, overlap, selective accuracy, inference or science recomputation.",
+  "copies": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\PAIRED_SUCCESS_132.csv",
+      "sha256": "f77e0d6ebd7038207f7f938285661890b44201f9d8402f6e721b155538f64d50",
+      "bytes": 32796
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_sues200_satellite_to_uav_150m__paired_success.csv",
+      "sha256": "aa3b42351cb0b168e5c857d839b3309425d1176c9bb7650d71f60a3829e0829e",
+      "bytes": 2938
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_sues200_satellite_to_uav_200m__paired_success.csv",
+      "sha256": "3638ea58e9e12f50ca884db800f333cf2800f4297543dd86278fae770ac94cd3",
+      "bytes": 2889
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_sues200_satellite_to_uav_250m__paired_success.csv",
+      "sha256": "26a419b9ec84661a1dd16c91804b22de14990bf971c3a9e63a983689e3991c31",
+      "bytes": 2863
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_sues200_satellite_to_uav_300m__paired_success.csv",
+      "sha256": "fd87ddc09d28f0036c31c69f8892415acb5576844d7d88bc188eeef1dea2af94",
+      "bytes": 2915
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_sues200_uav_150m_to_satellite__paired_success.csv",
+      "sha256": "e3eff9b783579268dbe9f249d3648041288baa890258f5f18c707af217a74958",
+      "bytes": 3040
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_sues200_uav_200m_to_satellite__paired_success.csv",
+      "sha256": "f0e1e5485834a78c95a9976fc0b5604815a96f258945f5f2c09e2f4ebe7faeaf",
+      "bytes": 3047
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_sues200_uav_250m_to_satellite__paired_success.csv",
+      "sha256": "dd98183eb7e050c0cd02745b037c53df12135946457d7ae65fa0fee3dbbf1f26",
+      "bytes": 3049
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_sues200_uav_300m_to_satellite__paired_success.csv",
+      "sha256": "455978c69524b915ae5e4737da12f2a1bdf155610983988667cb86f3273d0a1a",
+      "bytes": 3027
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_university1652_drone_to_satellite__paired_success.csv",
+      "sha256": "176c863fe3e7051d8b8a6a92c38cd46bb0d718b4006abe4cc5022c27b2f7d15c",
+      "bytes": 3978
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_university1652_satellite_to_drone__paired_success.csv",
+      "sha256": "8a96c214d05d6af2fe80bfdb2cc2911e2cd8e58fe5eb101b2c1438f02d90b7b8",
+      "bytes": 3914
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\t5_university1652_street_to_satellite__paired_success.csv",
+      "sha256": "92a84b52bf1c20064e3eed1f03095ffcf8dab02f2d031dea1201843bb2b0e9be",
+      "bytes": 4016
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_paired_native_figures_20260929_2157\\output\\source_data\\transactions_t5_selective_calibration.json",
+      "sha256": "033b6eaea71b3084ca043902f6ba03b6487bf1762a9180963357103097d172cc",
+      "bytes": 744943
+    }
+  ]
+}

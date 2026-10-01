@@ -1,0 +1,544 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "unit": "fraction",
+  "condition": {
+    "kind": "corruption",
+    "name": "brightness",
+    "display_name": "Brightness",
+    "severity_index": 5,
+    "parameter": "factor",
+    "value": 0.2,
+    "units": "multiplicative Pillow brightness factor",
+    "implementation": "Pillow ImageEnhance.Brightness is applied to the decoded RGB query.",
+    "corruption_seed": 20260727,
+    "query_only": true,
+    "gallery": "clean"
+  },
+  "full_gallery": true,
+  "clean_gallery_for_every_condition": true,
+  "AP_definition": "Official trapezoidal interpolation used by the University-1652/SUES reference evaluator.",
+  "results": {
+    "sues200_uav_150m_to_satellite": {
+      "unit": "fraction",
+      "queries": 4000,
+      "gallery": 200,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "r_at_1": 0.17125,
+      "r_at_5": 0.40675,
+      "r_at_10": 0.54025,
+      "r_at_20": 0.71375,
+      "official_trapezoid_mAP": 0.2330533117055893,
+      "MRR": 0.29485663771629333,
+      "mean_top1_margin": 0.049655791372060776,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+    },
+    "sues200_satellite_to_uav_150m": {
+      "unit": "fraction",
+      "queries": 80,
+      "gallery": 10000,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "r_at_1": 0.0375,
+      "r_at_5": 0.1,
+      "r_at_10": 0.1375,
+      "r_at_20": 0.1625,
+      "official_trapezoid_mAP": 0.059836674481630325,
+      "MRR": 0.07315979152917862,
+      "mean_top1_margin": 0.012139136902987957,
+      "protocol": "official 80 test IDs as query; all 200 150m UAV IDs in gallery"
+    },
+    "sues200_uav_200m_to_satellite": {
+      "unit": "fraction",
+      "queries": 4000,
+      "gallery": 200,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "r_at_1": 0.1965,
+      "r_at_5": 0.46225,
+      "r_at_10": 0.61625,
+      "r_at_20": 0.76925,
+      "official_trapezoid_mAP": 0.26355019211769104,
+      "MRR": 0.33060041069984436,
+      "mean_top1_margin": 0.04910558462142944,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+    },
+    "sues200_satellite_to_uav_200m": {
+      "unit": "fraction",
+      "queries": 80,
+      "gallery": 10000,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "r_at_1": 0.1125,
+      "r_at_5": 0.1625,
+      "r_at_10": 0.175,
+      "r_at_20": 0.2125,
+      "official_trapezoid_mAP": 0.08182264864444733,
+      "MRR": 0.14067907631397247,
+      "mean_top1_margin": 0.010868242010474205,
+      "protocol": "official 80 test IDs as query; all 200 200m UAV IDs in gallery"
+    },
+    "sues200_uav_250m_to_satellite": {
+      "unit": "fraction",
+      "queries": 4000,
+      "gallery": 200,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "r_at_1": 0.21075,
+      "r_at_5": 0.49225,
+      "r_at_10": 0.62425,
+      "r_at_20": 0.79075,
+      "official_trapezoid_mAP": 0.28055018186569214,
+      "MRR": 0.35035037994384766,
+      "mean_top1_margin": 0.05039733275771141,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+    },
+    "sues200_satellite_to_uav_250m": {
+      "unit": "fraction",
+      "queries": 80,
+      "gallery": 10000,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "r_at_1": 0.1375,
+      "r_at_5": 0.175,
+      "r_at_10": 0.1875,
+      "r_at_20": 0.1875,
+      "official_trapezoid_mAP": 0.09023512154817581,
+      "MRR": 0.1572318971157074,
+      "mean_top1_margin": 0.01360563188791275,
+      "protocol": "official 80 test IDs as query; all 200 250m UAV IDs in gallery"
+    },
+    "sues200_uav_300m_to_satellite": {
+      "unit": "fraction",
+      "queries": 4000,
+      "gallery": 200,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "r_at_1": 0.2275,
+      "r_at_5": 0.4935,
+      "r_at_10": 0.643,
+      "r_at_20": 0.798,
+      "official_trapezoid_mAP": 0.2940452992916107,
+      "MRR": 0.3605905771255493,
+      "mean_top1_margin": 0.0516250915825367,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery"
+    },
+    "sues200_satellite_to_uav_300m": {
+      "unit": "fraction",
+      "queries": 80,
+      "gallery": 10000,
+      "query_identities": 80,
+      "gallery_identities": 200,
+      "r_at_1": 0.125,
+      "r_at_5": 0.15,
+      "r_at_10": 0.175,
+      "r_at_20": 0.1875,
+      "official_trapezoid_mAP": 0.09971895068883896,
+      "MRR": 0.1416214406490326,
+      "mean_top1_margin": 0.011800602078437805,
+      "protocol": "official 80 test IDs as query; all 200 300m UAV IDs in gallery"
+    }
+  },
+  "degradation_vs_clean": {
+    "sues200_uav_150m_to_satellite": {
+      "r_at_1": {
+        "clean": 0.34075,
+        "corrupted": 0.17125,
+        "absolute_drop_fraction": 0.16949999999999998,
+        "percentage_point_drop": 16.95,
+        "relative_drop_fraction": 0.4974321349963316,
+        "relative_drop_percent": 49.74321349963316
+      },
+      "r_at_5": {
+        "clean": 0.7235,
+        "corrupted": 0.40675,
+        "absolute_drop_fraction": 0.31675000000000003,
+        "percentage_point_drop": 31.675000000000004,
+        "relative_drop_fraction": 0.43780234968901177,
+        "relative_drop_percent": 43.780234968901176
+      },
+      "r_at_10": {
+        "clean": 0.855,
+        "corrupted": 0.54025,
+        "absolute_drop_fraction": 0.31475,
+        "percentage_point_drop": 31.474999999999998,
+        "relative_drop_fraction": 0.3681286549707602,
+        "relative_drop_percent": 36.812865497076025
+      },
+      "r_at_20": {
+        "clean": 0.94175,
+        "corrupted": 0.71375,
+        "absolute_drop_fraction": 0.22799999999999998,
+        "percentage_point_drop": 22.799999999999997,
+        "relative_drop_fraction": 0.24210246880807007,
+        "relative_drop_percent": 24.210246880807006
+      },
+      "official_trapezoid_mAP": {
+        "clean": 0.4256778061389923,
+        "corrupted": 0.2330533117055893,
+        "absolute_drop_fraction": 0.19262449443340302,
+        "percentage_point_drop": 19.2624494433403,
+        "relative_drop_fraction": 0.45251242055712737,
+        "relative_drop_percent": 45.25124205571274
+      },
+      "MRR": {
+        "clean": 0.5106055736541748,
+        "corrupted": 0.29485663771629333,
+        "absolute_drop_fraction": 0.21574893593788147,
+        "percentage_point_drop": 21.574893593788147,
+        "relative_drop_fraction": 0.42253541102942377,
+        "relative_drop_percent": 42.25354110294238
+      }
+    },
+    "sues200_satellite_to_uav_150m": {
+      "r_at_1": {
+        "clean": 0.5375,
+        "corrupted": 0.0375,
+        "absolute_drop_fraction": 0.5,
+        "percentage_point_drop": 50.0,
+        "relative_drop_fraction": 0.9302325581395349,
+        "relative_drop_percent": 93.0232558139535
+      },
+      "r_at_5": {
+        "clean": 0.6875,
+        "corrupted": 0.1,
+        "absolute_drop_fraction": 0.5875,
+        "percentage_point_drop": 58.75,
+        "relative_drop_fraction": 0.8545454545454546,
+        "relative_drop_percent": 85.45454545454545
+      },
+      "r_at_10": {
+        "clean": 0.775,
+        "corrupted": 0.1375,
+        "absolute_drop_fraction": 0.6375,
+        "percentage_point_drop": 63.74999999999999,
+        "relative_drop_fraction": 0.8225806451612903,
+        "relative_drop_percent": 82.25806451612902
+      },
+      "r_at_20": {
+        "clean": 0.7875,
+        "corrupted": 0.1625,
+        "absolute_drop_fraction": 0.625,
+        "percentage_point_drop": 62.5,
+        "relative_drop_fraction": 0.7936507936507937,
+        "relative_drop_percent": 79.36507936507937
+      },
+      "official_trapezoid_mAP": {
+        "clean": 0.39359670877456665,
+        "corrupted": 0.059836674481630325,
+        "absolute_drop_fraction": 0.3337600342929363,
+        "percentage_point_drop": 33.37600342929363,
+        "relative_drop_fraction": 0.847974657440792,
+        "relative_drop_percent": 84.7974657440792
+      },
+      "MRR": {
+        "clean": 0.603905200958252,
+        "corrupted": 0.07315979152917862,
+        "absolute_drop_fraction": 0.5307454094290733,
+        "percentage_point_drop": 53.07454094290733,
+        "relative_drop_fraction": 0.8788555034580069,
+        "relative_drop_percent": 87.88555034580068
+      }
+    },
+    "sues200_uav_200m_to_satellite": {
+      "r_at_1": {
+        "clean": 0.4145,
+        "corrupted": 0.1965,
+        "absolute_drop_fraction": 0.21799999999999997,
+        "percentage_point_drop": 21.799999999999997,
+        "relative_drop_fraction": 0.525934861278649,
+        "relative_drop_percent": 52.59348612786489
+      },
+      "r_at_5": {
+        "clean": 0.817,
+        "corrupted": 0.46225,
+        "absolute_drop_fraction": 0.35474999999999995,
+        "percentage_point_drop": 35.474999999999994,
+        "relative_drop_fraction": 0.43421052631578944,
+        "relative_drop_percent": 43.421052631578945
+      },
+      "r_at_10": {
+        "clean": 0.91175,
+        "corrupted": 0.61625,
+        "absolute_drop_fraction": 0.2955,
+        "percentage_point_drop": 29.549999999999997,
+        "relative_drop_fraction": 0.3241020016451878,
+        "relative_drop_percent": 32.410200164518784
+      },
+      "r_at_20": {
+        "clean": 0.96625,
+        "corrupted": 0.76925,
+        "absolute_drop_fraction": 0.19700000000000006,
+        "percentage_point_drop": 19.700000000000006,
+        "relative_drop_fraction": 0.20388098318240627,
+        "relative_drop_percent": 20.388098318240626
+      },
+      "official_trapezoid_mAP": {
+        "clean": 0.501873791217804,
+        "corrupted": 0.26355019211769104,
+        "absolute_drop_fraction": 0.23832359910011292,
+        "percentage_point_drop": 23.83235991001129,
+        "relative_drop_fraction": 0.47486759275039503,
+        "relative_drop_percent": 47.4867592750395
+      },
+      "MRR": {
+        "clean": 0.5892475843429565,
+        "corrupted": 0.33060041069984436,
+        "absolute_drop_fraction": 0.2586471736431122,
+        "percentage_point_drop": 25.86471736431122,
+        "relative_drop_fraction": 0.4389448179605488,
+        "relative_drop_percent": 43.894481796054876
+      }
+    },
+    "sues200_satellite_to_uav_200m": {
+      "r_at_1": {
+        "clean": 0.6125,
+        "corrupted": 0.1125,
+        "absolute_drop_fraction": 0.5,
+        "percentage_point_drop": 50.0,
+        "relative_drop_fraction": 0.8163265306122448,
+        "relative_drop_percent": 81.63265306122449
+      },
+      "r_at_5": {
+        "clean": 0.7375,
+        "corrupted": 0.1625,
+        "absolute_drop_fraction": 0.5750000000000001,
+        "percentage_point_drop": 57.50000000000001,
+        "relative_drop_fraction": 0.7796610169491526,
+        "relative_drop_percent": 77.96610169491525
+      },
+      "r_at_10": {
+        "clean": 0.775,
+        "corrupted": 0.175,
+        "absolute_drop_fraction": 0.6000000000000001,
+        "percentage_point_drop": 60.00000000000001,
+        "relative_drop_fraction": 0.7741935483870969,
+        "relative_drop_percent": 77.41935483870968
+      },
+      "r_at_20": {
+        "clean": 0.85,
+        "corrupted": 0.2125,
+        "absolute_drop_fraction": 0.6375,
+        "percentage_point_drop": 63.74999999999999,
+        "relative_drop_fraction": 0.75,
+        "relative_drop_percent": 75.0
+      },
+      "official_trapezoid_mAP": {
+        "clean": 0.48770156502723694,
+        "corrupted": 0.08182264864444733,
+        "absolute_drop_fraction": 0.4058789163827896,
+        "percentage_point_drop": 40.58789163827896,
+        "relative_drop_fraction": 0.8322280375707268,
+        "relative_drop_percent": 83.22280375707268
+      },
+      "MRR": {
+        "clean": 0.6723024249076843,
+        "corrupted": 0.14067907631397247,
+        "absolute_drop_fraction": 0.5316233485937119,
+        "percentage_point_drop": 53.162334859371185,
+        "relative_drop_fraction": 0.7907503065554322,
+        "relative_drop_percent": 79.07503065554323
+      }
+    },
+    "sues200_uav_250m_to_satellite": {
+      "r_at_1": {
+        "clean": 0.481,
+        "corrupted": 0.21075,
+        "absolute_drop_fraction": 0.27025,
+        "percentage_point_drop": 27.025,
+        "relative_drop_fraction": 0.5618503118503119,
+        "relative_drop_percent": 56.185031185031185
+      },
+      "r_at_5": {
+        "clean": 0.849,
+        "corrupted": 0.49225,
+        "absolute_drop_fraction": 0.35674999999999996,
+        "percentage_point_drop": 35.675,
+        "relative_drop_fraction": 0.42020023557126024,
+        "relative_drop_percent": 42.02002355712603
+      },
+      "r_at_10": {
+        "clean": 0.9265,
+        "corrupted": 0.62425,
+        "absolute_drop_fraction": 0.30225,
+        "percentage_point_drop": 30.225,
+        "relative_drop_fraction": 0.32622773880194283,
+        "relative_drop_percent": 32.62277388019428
+      },
+      "r_at_20": {
+        "clean": 0.968,
+        "corrupted": 0.79075,
+        "absolute_drop_fraction": 0.17725000000000002,
+        "percentage_point_drop": 17.725,
+        "relative_drop_fraction": 0.18310950413223143,
+        "relative_drop_percent": 18.310950413223143
+      },
+      "official_trapezoid_mAP": {
+        "clean": 0.5596025586128235,
+        "corrupted": 0.28055018186569214,
+        "absolute_drop_fraction": 0.27905237674713135,
+        "percentage_point_drop": 27.905237674713135,
+        "relative_drop_fraction": 0.4986617242045197,
+        "relative_drop_percent": 49.86617242045197
+      },
+      "MRR": {
+        "clean": 0.6382049322128296,
+        "corrupted": 0.35035037994384766,
+        "absolute_drop_fraction": 0.28785455226898193,
+        "percentage_point_drop": 28.785455226898193,
+        "relative_drop_fraction": 0.451037805788984,
+        "relative_drop_percent": 45.1037805788984
+      }
+    },
+    "sues200_satellite_to_uav_250m": {
+      "r_at_1": {
+        "clean": 0.6875,
+        "corrupted": 0.1375,
+        "absolute_drop_fraction": 0.55,
+        "percentage_point_drop": 55.00000000000001,
+        "relative_drop_fraction": 0.8,
+        "relative_drop_percent": 80.00000000000001
+      },
+      "r_at_5": {
+        "clean": 0.7625,
+        "corrupted": 0.175,
+        "absolute_drop_fraction": 0.5874999999999999,
+        "percentage_point_drop": 58.74999999999999,
+        "relative_drop_fraction": 0.7704918032786885,
+        "relative_drop_percent": 77.04918032786885
+      },
+      "r_at_10": {
+        "clean": 0.825,
+        "corrupted": 0.1875,
+        "absolute_drop_fraction": 0.6375,
+        "percentage_point_drop": 63.74999999999999,
+        "relative_drop_fraction": 0.7727272727272727,
+        "relative_drop_percent": 77.27272727272727
+      },
+      "r_at_20": {
+        "clean": 0.8875,
+        "corrupted": 0.1875,
+        "absolute_drop_fraction": 0.7,
+        "percentage_point_drop": 70.0,
+        "relative_drop_fraction": 0.7887323943661971,
+        "relative_drop_percent": 78.87323943661973
+      },
+      "official_trapezoid_mAP": {
+        "clean": 0.5284179449081421,
+        "corrupted": 0.09023512154817581,
+        "absolute_drop_fraction": 0.4381828233599663,
+        "percentage_point_drop": 43.81828233599663,
+        "relative_drop_fraction": 0.8292353194707233,
+        "relative_drop_percent": 82.92353194707233
+      },
+      "MRR": {
+        "clean": 0.7299930453300476,
+        "corrupted": 0.1572318971157074,
+        "absolute_drop_fraction": 0.5727611482143402,
+        "percentage_point_drop": 57.27611482143402,
+        "relative_drop_fraction": 0.7846117875758405,
+        "relative_drop_percent": 78.46117875758405
+      }
+    },
+    "sues200_uav_300m_to_satellite": {
+      "r_at_1": {
+        "clean": 0.49675,
+        "corrupted": 0.2275,
+        "absolute_drop_fraction": 0.26925,
+        "percentage_point_drop": 26.924999999999997,
+        "relative_drop_fraction": 0.5420231504781077,
+        "relative_drop_percent": 54.202315047810764
+      },
+      "r_at_5": {
+        "clean": 0.86475,
+        "corrupted": 0.4935,
+        "absolute_drop_fraction": 0.37125,
+        "percentage_point_drop": 37.125,
+        "relative_drop_fraction": 0.4293148308759757,
+        "relative_drop_percent": 42.93148308759757
+      },
+      "r_at_10": {
+        "clean": 0.93225,
+        "corrupted": 0.643,
+        "absolute_drop_fraction": 0.28925,
+        "percentage_point_drop": 28.925,
+        "relative_drop_fraction": 0.31027085009385896,
+        "relative_drop_percent": 31.027085009385896
+      },
+      "r_at_20": {
+        "clean": 0.966,
+        "corrupted": 0.798,
+        "absolute_drop_fraction": 0.16799999999999993,
+        "percentage_point_drop": 16.799999999999994,
+        "relative_drop_fraction": 0.1739130434782608,
+        "relative_drop_percent": 17.391304347826082
+      },
+      "official_trapezoid_mAP": {
+        "clean": 0.576092541217804,
+        "corrupted": 0.2940452992916107,
+        "absolute_drop_fraction": 0.28204724192619324,
+        "percentage_point_drop": 28.204724192619324,
+        "relative_drop_fraction": 0.48958669266915456,
+        "relative_drop_percent": 48.95866926691546
+      },
+      "MRR": {
+        "clean": 0.6554350852966309,
+        "corrupted": 0.3605905771255493,
+        "absolute_drop_fraction": 0.29484450817108154,
+        "percentage_point_drop": 29.484450817108154,
+        "relative_drop_fraction": 0.44984547636421307,
+        "relative_drop_percent": 44.98454763642131
+      }
+    },
+    "sues200_satellite_to_uav_300m": {
+      "r_at_1": {
+        "clean": 0.7,
+        "corrupted": 0.125,
+        "absolute_drop_fraction": 0.575,
+        "percentage_point_drop": 57.49999999999999,
+        "relative_drop_fraction": 0.8214285714285714,
+        "relative_drop_percent": 82.14285714285714
+      },
+      "r_at_5": {
+        "clean": 0.8125,
+        "corrupted": 0.15,
+        "absolute_drop_fraction": 0.6625,
+        "percentage_point_drop": 66.25,
+        "relative_drop_fraction": 0.8153846153846154,
+        "relative_drop_percent": 81.53846153846153
+      },
+      "r_at_10": {
+        "clean": 0.85,
+        "corrupted": 0.175,
+        "absolute_drop_fraction": 0.675,
+        "percentage_point_drop": 67.5,
+        "relative_drop_fraction": 0.7941176470588236,
+        "relative_drop_percent": 79.41176470588235
+      },
+      "r_at_20": {
+        "clean": 0.8875,
+        "corrupted": 0.1875,
+        "absolute_drop_fraction": 0.7,
+        "percentage_point_drop": 70.0,
+        "relative_drop_fraction": 0.7887323943661971,
+        "relative_drop_percent": 78.87323943661973
+      },
+      "official_trapezoid_mAP": {
+        "clean": 0.5484455823898315,
+        "corrupted": 0.09971895068883896,
+        "absolute_drop_fraction": 0.4487266317009926,
+        "percentage_point_drop": 44.87266317009926,
+        "relative_drop_fraction": 0.81817895176707,
+        "relative_drop_percent": 81.817895176707
+      },
+      "MRR": {
+        "clean": 0.7563574910163879,
+        "corrupted": 0.1416214406490326,
+        "absolute_drop_fraction": 0.6147360503673553,
+        "percentage_point_drop": 61.473605036735535,
+        "relative_drop_fraction": 0.8127585932166512,
+        "relative_drop_percent": 81.27585932166512
+      }
+    }
+  }
+}

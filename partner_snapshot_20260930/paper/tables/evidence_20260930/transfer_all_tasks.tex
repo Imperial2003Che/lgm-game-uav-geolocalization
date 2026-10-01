@@ -1,0 +1,28 @@
+\begin{table*}[!t]
+\centering
+\caption{Cross-dataset transfer: all target tasks, with Visual (V) and Full (F) shown separately. Cells are three-seed mean $\pm$ sample SD. R@1 and official mAP are percentages; MRR$\times100$ is scaled reciprocal rank, not accuracy percent. SD is not a confidence interval. Training-dataset direction is given by the group headings. Values are rounded to three decimals; a positive value that would round to zero is shown as $<0.001$. An actual zero remains 0.000.}
+\label{tab:semantic-transfer}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{2}{c}{R@1 (\%)} & \multicolumn{2}{c}{mAP (\%)} & \multicolumn{2}{c}{MRR$\times100$} \\
+Target task & V & F & V & F & V & F \\
+\midrule
+\multicolumn{7}{l}{\textit{SUES-200-trained $\to$ University-1652}} \\
+University D2S & $11.009\pm0.117$ & $8.178\pm0.609$ & $14.861\pm0.063$ & $11.655\pm0.700$ & $18.714\pm0.038$ & $15.133\pm0.809$ \\
+University S2D & $25.678\pm1.753$ & $18.260\pm1.244$ & $9.543\pm0.467$ & $6.967\pm0.438$ & $33.549\pm1.667$ & $25.885\pm2.271$ \\
+University Street2S & $0.258\pm0.098$ & $0.233\pm0.000$ & $0.704\pm0.112$ & $0.743\pm0.045$ & $1.149\pm0.142$ & $1.254\pm0.091$ \\
+\midrule
+\multicolumn{7}{l}{\textit{University-1652-trained $\to$ SUES-200}} \\
+SUES U150$\to$S & $19.142\pm2.331$ & $14.592\pm0.927$ & $24.537\pm2.395$ & $19.659\pm0.666$ & $29.932\pm2.497$ & $24.727\pm0.663$ \\
+SUES S$\to$U150 & $19.583\pm4.018$ & $12.917\pm1.909$ & $12.802\pm1.671$ & $9.085\pm0.738$ & $25.403\pm3.849$ & $18.488\pm2.094$ \\
+SUES U200$\to$S & $23.900\pm2.718$ & $16.067\pm0.797$ & $29.546\pm2.784$ & $21.625\pm0.707$ & $35.193\pm2.883$ & $27.183\pm0.660$ \\
+SUES S$\to$U200 & $26.250\pm5.000$ & $15.417\pm1.443$ & $16.867\pm3.354$ & $12.097\pm0.558$ & $33.665\pm5.416$ & $21.401\pm1.810$ \\
+SUES U250$\to$S & $27.275\pm2.368$ & $18.608\pm0.986$ & $32.975\pm2.463$ & $24.333\pm0.777$ & $38.675\pm2.575$ & $30.058\pm0.598$ \\
+SUES S$\to$U250 & $30.000\pm3.750$ & $20.417\pm2.602$ & $21.294\pm2.895$ & $15.254\pm0.355$ & $36.850\pm3.121$ & $26.658\pm3.145$ \\
+SUES U300$\to$S & $29.950\pm2.792$ & $19.533\pm1.102$ & $35.602\pm2.919$ & $25.274\pm0.971$ & $41.255\pm3.059$ & $31.014\pm0.851$ \\
+SUES S$\to$U300 & $34.583\pm5.637$ & $19.583\pm1.909$ & $24.482\pm2.544$ & $16.477\pm0.371$ & $40.242\pm5.121$ & $26.014\pm0.605$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

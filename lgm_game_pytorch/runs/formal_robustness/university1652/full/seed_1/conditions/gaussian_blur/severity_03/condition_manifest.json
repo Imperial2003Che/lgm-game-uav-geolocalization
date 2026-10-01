@@ -1,0 +1,67 @@
+{
+  "schema_version": "lgm-game.image-level-robustness.v1",
+  "status": "completed",
+  "completed_utc": "2026-09-29T08:58:39.696364+00:00",
+  "run_config_sha256": "c7bfc6c41ccadf0f52cf79609a76ef921bf456c5d06334b78ece284a5b4c9ce1",
+  "condition_sha256": "d5fcb2bfe6cafff15333dea883f493c9d0d27722e7088a4f7b1c0760692d9373",
+  "condition": {
+    "kind": "corruption",
+    "name": "gaussian_blur",
+    "display_name": "Gaussian blur",
+    "severity_index": 3,
+    "parameter": "radius",
+    "value": 2.0,
+    "units": "pixels in the decoded source image",
+    "implementation": "Pillow GaussianBlur is applied to the decoded RGB query at the fixed radius.",
+    "corruption_seed": 20260727,
+    "query_only": true,
+    "gallery": "clean"
+  },
+  "query_coverage": {
+    "expected_unique_images": 41135,
+    "encoded_unique_images": 41135,
+    "coverage_fraction": 1.0,
+    "missing_images": 0,
+    "extra_images": 0,
+    "complete": true,
+    "path_membership_sha256": "1f83323bb372cd5c461c14c8b1de4676f0389dfa0d212ea45d5adddc47822b4a",
+    "encoded_feature_sha256": "8d9703d1f119278183d734a74a2bf92b9d9791767e4033dbba7d9fc1464da939",
+    "embedding_dim": 512,
+    "embedding_storage_dtype_for_hash": "little-endian float32",
+    "pixels_decoded_for_every_active_visual_embedding": true,
+    "corruption_applied_before_all_model_preprocessing": true,
+    "query_content_style_evidence_mode": "recomputed_from_corrupted_rgb_pixels",
+    "elapsed_seconds": 355.60893979999673
+  },
+  "all_official_queries_used": true,
+  "clean_gallery_used": true,
+  "feature_level_corruption_used": false,
+  "elapsed_seconds": 361.2092666000026,
+  "artifacts": {
+    "degradation_vs_clean.csv": {
+      "sha256": "8d126442ecbde6a4974a5266fd5e0e16a527cc9c336a7ce488cd771d60eb96ad",
+      "bytes": 3006
+    },
+    "metrics.csv": {
+      "sha256": "75a11ed1c9be76aa89b0130d7d2a540286a6f52cc5d2be3b5b85ca6a801abbfc",
+      "bytes": 878
+    },
+    "metrics.json": {
+      "sha256": "d377b6933ed89f9ff9e37e1a35cb5bac88afceeba971dcb59f5e19aa39c143d3",
+      "bytes": 8304
+    },
+    "per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "6b0af43cdd8d42c54dfe2935824723f48ba5ea1623c168062fb38af04a2d4154",
+      "bytes": 1020637
+    },
+    "per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "630d7f9b55307f16f05715382afb1015fe58ce7177cb0c9e7637c8e6300f7f55",
+      "bytes": 37235
+    },
+    "per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "76b0f5755e80fb1092c8dc1c1f25c6362371e1d09b534fd8ecfa4dce6ab408b1",
+      "bytes": 110964
+    }
+  },
+  "payload_sha256": "88b8f3537ac457f68d4499ecbbfc01c3e2846fe58a7b2313aeefb19dddfbc0e2"
+}

@@ -1,0 +1,67 @@
+source_dataset,target_dataset,task,variant,seed,protocol,queries,gallery,query_identities,gallery_identities,unit,r_at_1,official_trapezoid_mAP,MRR
+university1652,sues200,sues200_satellite_to_uav_150m,visual,1,official 80 test IDs as query; all 200 150m UAV IDs in gallery,80,10000,80,200,fraction,0.225,0.14510588347911835,0.28989744186401367
+university1652,sues200,sues200_satellite_to_uav_200m,visual,1,official 80 test IDs as query; all 200 200m UAV IDs in gallery,80,10000,80,200,fraction,0.3125,0.20738501846790314,0.3912224769592285
+university1652,sues200,sues200_satellite_to_uav_250m,visual,1,official 80 test IDs as query; all 200 250m UAV IDs in gallery,80,10000,80,200,fraction,0.3375,0.2456352710723877,0.40372127294540405
+university1652,sues200,sues200_satellite_to_uav_300m,visual,1,official 80 test IDs as query; all 200 300m UAV IDs in gallery,80,10000,80,200,fraction,0.4,0.2710656225681305,0.4560045599937439
+university1652,sues200,sues200_uav_150m_to_satellite,visual,1,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.21625,0.27205491065979004,0.3278597295284271
+university1652,sues200,sues200_uav_200m_to_satellite,visual,1,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.269,0.32705679535865784,0.38511359691619873
+university1652,sues200,sues200_uav_250m_to_satellite,visual,1,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.29975,0.35811299085617065,0.41647589206695557
+university1652,sues200,sues200_uav_300m_to_satellite,visual,1,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.329,0.38771703839302063,0.4464340806007385
+university1652,sues200,sues200_satellite_to_uav_150m,visual,2,official 80 test IDs as query; all 200 150m UAV IDs in gallery,80,10000,80,200,fraction,0.2125,0.12724530696868896,0.2588289678096771
+university1652,sues200,sues200_satellite_to_uav_200m,visual,2,official 80 test IDs as query; all 200 200m UAV IDs in gallery,80,10000,80,200,fraction,0.2125,0.14995434880256653,0.28291255235671997
+university1652,sues200,sues200_satellite_to_uav_250m,visual,2,official 80 test IDs as query; all 200 250m UAV IDs in gallery,80,10000,80,200,fraction,0.3,0.2025928497314453,0.3574565351009369
+university1652,sues200,sues200_satellite_to_uav_300m,visual,2,official 80 test IDs as query; all 200 300m UAV IDs in gallery,80,10000,80,200,fraction,0.2875,0.2202635556459427,0.3539794981479645
+university1652,sues200,sues200_uav_150m_to_satellite,visual,2,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.188,0.23830707371234894,0.2886141836643219
+university1652,sues200,sues200_uav_200m_to_satellite,visual,2,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.232,0.2848300039768219,0.3376600444316864
+university1652,sues200,sues200_uav_250m_to_satellite,visual,2,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.263,0.3173699975013733,0.3717399835586548
+university1652,sues200,sues200_uav_300m_to_satellite,visual,2,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.2735,0.33023473620414734,0.3869694769382477
+university1652,sues200,sues200_satellite_to_uav_150m,visual,3,official 80 test IDs as query; all 200 150m UAV IDs in gallery,80,10000,80,200,fraction,0.15,0.1117209941148758,0.21336980164051056
+university1652,sues200,sues200_satellite_to_uav_200m,visual,3,official 80 test IDs as query; all 200 200m UAV IDs in gallery,80,10000,80,200,fraction,0.2625,0.14865827560424805,0.33582350611686707
+university1652,sues200,sues200_satellite_to_uav_250m,visual,3,official 80 test IDs as query; all 200 250m UAV IDs in gallery,80,10000,80,200,fraction,0.2625,0.1905880719423294,0.3443104326725006
+university1652,sues200,sues200_satellite_to_uav_300m,visual,3,official 80 test IDs as query; all 200 300m UAV IDs in gallery,80,10000,80,200,fraction,0.35,0.24314455687999725,0.39726710319519043
+university1652,sues200,sues200_uav_150m_to_satellite,visual,3,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.17,0.2257392555475235,0.28147852420806885
+university1652,sues200,sues200_uav_200m_to_satellite,visual,3,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.216,0.2745053172111511,0.33301064372062683
+university1652,sues200,sues200_uav_250m_to_satellite,visual,3,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.2555,0.31376463174819946,0.37202924489974976
+university1652,sues200,sues200_uav_300m_to_satellite,visual,3,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.296,0.3501181900501251,0.404236376285553
+university1652,sues200,sues200_satellite_to_uav_150m,full,1,official 80 test IDs as query; all 200 150m UAV IDs in gallery,80,10000,80,200,fraction,0.1125,0.08296680450439453,0.16104421019554138
+university1652,sues200,sues200_satellite_to_uav_200m,full,1,official 80 test IDs as query; all 200 200m UAV IDs in gallery,80,10000,80,200,fraction,0.1625,0.11578498035669327,0.21508249640464783
+university1652,sues200,sues200_satellite_to_uav_250m,full,1,official 80 test IDs as query; all 200 250m UAV IDs in gallery,80,10000,80,200,fraction,0.175,0.1488778293132782,0.23133568465709686
+university1652,sues200,sues200_satellite_to_uav_300m,full,1,official 80 test IDs as query; all 200 300m UAV IDs in gallery,80,10000,80,200,fraction,0.175,0.1622217446565628,0.256194531917572
+university1652,sues200,sues200_uav_150m_to_satellite,full,1,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.1555,0.2011401355266571,0.24678030610084534
+university1652,sues200,sues200_uav_200m_to_satellite,full,1,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.1645,0.21794189512729645,0.27138376235961914
+university1652,sues200,sues200_uav_250m_to_satellite,full,1,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.195,0.2511157989501953,0.307231605052948
+university1652,sues200,sues200_uav_300m_to_satellite,full,1,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.206,0.26265111565589905,0.3193023204803467
+university1652,sues200,sues200_satellite_to_uav_150m,full,2,official 80 test IDs as query; all 200 150m UAV IDs in gallery,80,10000,80,200,fraction,0.125,0.09760072827339172,0.20033779740333557
+university1652,sues200,sues200_satellite_to_uav_200m,full,2,official 80 test IDs as query; all 200 200m UAV IDs in gallery,80,10000,80,200,fraction,0.1625,0.1268806755542755,0.2315557450056076
+university1652,sues200,sues200_satellite_to_uav_250m,full,2,official 80 test IDs as query; all 200 250m UAV IDs in gallery,80,10000,80,200,fraction,0.225,0.1527591198682785,0.29179906845092773
+university1652,sues200,sues200_satellite_to_uav_300m,full,2,official 80 test IDs as query; all 200 300m UAV IDs in gallery,80,10000,80,200,fraction,0.2125,0.1630547195672989,0.2671022415161133
+university1652,sues200,sues200_uav_150m_to_satellite,full,2,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.14525,0.19968894124031067,0.2541278600692749
+university1652,sues200,sues200_uav_200m_to_satellite,full,2,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.166,0.2223207950592041,0.27864164113998413
+university1652,sues200,sues200_uav_250m_to_satellite,full,2,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.18775,0.24330690503120422,0.29886379837989807
+university1652,sues200,sues200_uav_300m_to_satellite,full,2,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.196,0.2523142695426941,0.30862852931022644
+university1652,sues200,sues200_satellite_to_uav_150m,full,3,official 80 test IDs as query; all 200 150m UAV IDs in gallery,80,10000,80,200,fraction,0.15,0.09198427200317383,0.19324757158756256
+university1652,sues200,sues200_satellite_to_uav_200m,full,3,official 80 test IDs as query; all 200 200m UAV IDs in gallery,80,10000,80,200,fraction,0.1375,0.12024857848882675,0.1953982412815094
+university1652,sues200,sues200_satellite_to_uav_250m,full,3,official 80 test IDs as query; all 200 250m UAV IDs in gallery,80,10000,80,200,fraction,0.2125,0.1559772789478302,0.27659568190574646
+university1652,sues200,sues200_satellite_to_uav_300m,full,3,official 80 test IDs as query; all 200 300m UAV IDs in gallery,80,10000,80,200,fraction,0.2,0.16902656853199005,0.25712862610816956
+university1652,sues200,sues200_uav_150m_to_satellite,full,3,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.137,0.18894559144973755,0.24089117348194122
+university1652,sues200,sues200_uav_200m_to_satellite,full,3,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.1515,0.208479106426239,0.26545819640159607
+university1652,sues200,sues200_uav_250m_to_satellite,full,3,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.1755,0.23557870090007782,0.29565736651420593
+university1652,sues200,sues200_uav_300m_to_satellite,full,3,official 80 test IDs as query; all 200 satellite IDs in gallery,4000,200,80,200,fraction,0.184,0.2432452142238617,0.3024904131889343
+sues200,university1652,university1652_drone_to_satellite,visual,1,official test/query_drone -> test/gallery_satellite,37855,951,701,951,fraction,0.10960243032624488,0.14816203713417053,0.18672163784503937
+sues200,university1652,university1652_satellite_to_drone,visual,1,official test/query_satellite -> test/gallery_drone,701,51355,701,951,fraction,0.23680456490727533,0.09340917319059372,0.3162619471549988
+sues200,university1652,university1652_street_to_satellite,visual,1,official test/query_street -> test/gallery_satellite,2579,951,701,951,fraction,0.002714230321830167,0.007708859629929066,0.012703489512205124
+sues200,university1652,university1652_drone_to_satellite,visual,2,official test/query_drone -> test/gallery_satellite,37855,951,701,951,fraction,0.10923259807158896,0.14834623038768768,0.18745988607406616
+sues200,university1652,university1652_satellite_to_drone,visual,2,official test/query_satellite -> test/gallery_drone,701,51355,701,951,fraction,0.26961483594864477,0.10077102482318878,0.34588366746902466
+sues200,university1652,university1652_street_to_satellite,visual,2,official test/query_street -> test/gallery_satellite,2579,951,701,951,fraction,0.0034897246994959287,0.007660148665308952,0.01183057390153408
+sues200,university1652,university1652_drone_to_satellite,visual,3,official test/query_drone -> test/gallery_satellite,37855,951,701,951,fraction,0.11142517500990622,0.14933322370052338,0.18724128603935242
+sues200,university1652,university1652_satellite_to_drone,visual,3,official test/query_satellite -> test/gallery_drone,701,51355,701,951,fraction,0.26390870185449355,0.09211567789316177,0.3443148136138916
+sues200,university1652,university1652_street_to_satellite,visual,3,official test/query_street -> test/gallery_satellite,2579,951,701,951,fraction,0.0015509887553315238,0.005739414598792791,0.009927840903401375
+sues200,university1652,university1652_drone_to_satellite,full,1,official test/query_drone -> test/gallery_satellite,37855,951,701,951,fraction,0.08247259278827103,0.11883430927991867,0.15519599616527557
+sues200,university1652,university1652_satellite_to_drone,full,1,official test/query_satellite -> test/gallery_drone,701,51355,701,951,fraction,0.19686162624821682,0.07131051272153854,0.2846488058567047
+sues200,university1652,university1652_street_to_satellite,full,1,official test/query_street -> test/gallery_satellite,2579,951,701,951,fraction,0.0023264831329972858,0.007645847741514444,0.01296521071344614
+sues200,university1652,university1652_drone_to_satellite,full,2,official test/query_drone -> test/gallery_satellite,37855,951,701,951,fraction,0.07536653018095364,0.10869889706373215,0.14203126728534698
+sues200,university1652,university1652_satellite_to_drone,full,2,official test/query_satellite -> test/gallery_drone,701,51355,701,951,fraction,0.1768901569186876,0.06470777094364166,0.24187061190605164
+sues200,university1652,university1652_street_to_satellite,full,2,official test/query_street -> test/gallery_satellite,2579,951,701,951,fraction,0.0023264831329972858,0.006913135293871164,0.011499788612127304
+sues200,university1652,university1652_drone_to_satellite,full,3,official test/query_drone -> test/gallery_satellite,37855,951,701,951,fraction,0.08749174481574429,0.12212037295103073,0.15674899518489838
+sues200,university1652,university1652_satellite_to_drone,full,3,official test/query_satellite -> test/gallery_drone,701,51355,701,951,fraction,0.17403708987161198,0.07298558205366135,0.2500319182872772
+sues200,university1652,university1652_street_to_satellite,full,3,official test/query_street -> test/gallery_satellite,2579,951,701,951,fraction,0.0023264831329972858,0.007743972819298506,0.013161461800336838

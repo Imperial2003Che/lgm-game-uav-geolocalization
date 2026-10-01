@@ -1,0 +1,95 @@
+{
+  "schema": "lgm-game-partner-closeout.v1",
+  "created_utc": "2026-09-30T21:43:38.851749+00:00",
+  "human_instruction": "不要过度修改，完成这部分之后帮我完结工作，并提供给我一个交付给合作伙伴的最新版本压缩包，里面要包含最新的论文和实验、代码 包含项目所有的内容",
+  "scope": "Finish the adopted local reference-layout revision, freeze research, deliver all project contents; cease automated follow-up after archive verification.",
+  "latest_paper": {
+    "main": {
+      "archive": "latest_paper/manuscript/main.pdf",
+      "pages": 16,
+      "bytes": 7147305,
+      "sha256": "5c9ff9ab71417826490ea101cd23088094b55f7a42d2acbf22acb3567e82495f"
+    },
+    "supplement": {
+      "archive": "latest_paper/manuscript/supplementary.pdf",
+      "pages": 6,
+      "bytes": 273344,
+      "sha256": "34b94ffde568cb2f32b72f7b0905bec28cd2bdc83c8b30728b21cabad0a7e2f3"
+    },
+    "editable_source": "latest_paper/manuscript/",
+    "adoption": {
+      "archive": "latest_paper/ROOT_REFERENCE_LAYOUT_ADOPTION.json",
+      "sha256": "a8a9334fd4f2971ff600af934db05379e9ccf29fdda18eeb034e81014c2147d1"
+    },
+    "status": "Adopted local working draft; not final submission manuscript. No new compile or scientific adoption during packing."
+  },
+  "accepted_science": {
+    "training": {
+      "runs": 42,
+      "formal_main": 36,
+      "sensitivity": 6,
+      "epochs_each": 80
+    },
+    "official_evaluation": {
+      "runs": 42,
+      "tasks": 231
+    },
+    "bidirectional_transfer_t3": {
+      "runs": 12,
+      "tasks": 66
+    },
+    "robustness_seed1": {
+      "runs": 4,
+      "run_conditions": 120,
+      "corrupt_tasks": 660,
+      "clean_tasks": 22
+    },
+    "pipeline": {
+      "adopted_stages_with_report_scope": 6,
+      "stages_total": 7,
+      "original_t6_complete": false
+    }
+  },
+  "negative_results": [
+    "Full mean R@1 and mAP below Visual in 10 of 11 official tasks.",
+    "Full mean R@1 below Visual in all 11 T3 tasks."
+  ],
+  "pending_at_user_requested_closeout": [
+    "Original T6 efficiency stage and later serial pipeline layers.",
+    "LOHO: additional 24 fits and 192 tasks.",
+    "Real descriptor/t-SNE/Grad-CAM explanations.",
+    "Author-weight baseline reevaluation (20), independent baseline fits/evaluations (9/42 plus 5 resource prechecks), and extra DAC fits/evaluations (3/30).",
+    "Independent B1 six fresh workers, immutable admission and held launcher/interpreter ACK/exit/closed-stream evidence.",
+    "Fresh complete gallery encoding/ranking/parity, complete image-to-ranking timing and full online CLIP accuracy.",
+    "68 file-only Visio documents: complete XSD validation and actual repair-free open/render/export/edit/reopen.",
+    "Final scientific manuscript, final Overleaf update and final submission recommendations."
+  ],
+  "evidence_limits": [
+    "Each adopted report retains its own authority and inherited SHA chain; historical checkpoint whole-file chain gaps remain.",
+    "Three-seed sample SD is not SE or CI; no pooling across tasks/directions/heights or invented significance.",
+    "Robustness is seed 1; Full cached-clean versus online-corrupt is a mixed evidence path, not a pure pixel effect.",
+    "T4 only 132 visual-margin strata were query-recomputed; the other 330 stored strata have a narrower scope.",
+    "T5 fixed margin scores are not posterior probabilities; own selected subsets, denominators, empty-bin nulls and saved AURC/ECE definitions remain.",
+    "No new model/full-ranking/all-positive AP or independent bootstrap resampling verification is claimed.",
+    "Process absence is not an observed exit code; original primary own held exit remains unknown.",
+    "Source-only adapters/controllers and passed ordinary CPU controls are not B1/T6 scientific execution."
+  ],
+  "figures": {
+    "ppt_and_svg_adopted": 70,
+    "main_visio_actual_save_close_readonly_reopen_export": 2,
+    "other_visio_file_and_native_xml_only": 68,
+    "gui_edit_roundtrip_claimed": false
+  },
+  "overleaf": {
+    "url": "https://www.overleaf.com/project/6ab9825d2cb870b10bc95589",
+    "status": "Historical 14+4-page review project, not updated to the new local 16+6-page draft."
+  },
+  "research_restarted_during_delivery": false,
+  "automation_deletion": "Will be recorded outside the frozen archive after transport verification; earlier HANDOFF continuation instructions are historical and overridden by the direct human closeout request.",
+  "previous_full_archive": {
+    "bytes": 60465422034,
+    "sha256_inherited": "6d7f5f21dca03d06b406f557f1a0c6437d4652fae01cd92c7700d803eb967c26",
+    "read_or_modified_this_delivery": false
+  },
+  "scientific_handoff": "LGM/01_当前工作区/outputs/paper_evidence_rebuild_20260914/execution/HANDOFF.md"
+}

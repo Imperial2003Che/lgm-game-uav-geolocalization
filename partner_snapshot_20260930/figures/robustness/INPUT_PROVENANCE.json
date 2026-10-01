@@ -1,0 +1,2510 @@
+{
+  "schema": "robustness-native-inputs.v1",
+  "root_adoption_sha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+  "inputs": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\ROOT_POST_ROBUSTNESS_ADOPTION.json",
+      "sha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+      "bytes": 221193
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figure_index.json",
+      "sha256": "5b74650ed1a67512fe9e4c2c00e1134f730f823c26eb2743655bdcc72ed79833",
+      "bytes": 13265
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\aggregation_run_config.json",
+      "sha256": "2d70fb838b0b19a89ebeaa7f7fdafe0f66035de6b3bc06b49893a50d21677064",
+      "bytes": 3881
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_drone_to_satellite__r_at_1.csv",
+      "sha256": "c5387f6c5f627eb07596cbdd5e0d7909954cefa12f3c6d152c368a91968c9e47",
+      "bytes": 33109
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_drone_to_satellite__official_trapezoid_map.csv",
+      "sha256": "a6176b909ce2a1673c1cdb56f977835ee8a12e226cc8343c11ec629ee17fa838",
+      "bytes": 34075
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_satellite_to_drone__r_at_1.csv",
+      "sha256": "e3b7b23939b78260f18dc402b9badcd9da813d91e19a2113e9813e5a297ad29e",
+      "bytes": 32960
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_satellite_to_drone__official_trapezoid_map.csv",
+      "sha256": "17f81d49114e197b4a3e75b195c7980fb175b12000dfe9fcc9ada4f48a65d9a9",
+      "bytes": 34077
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_street_to_satellite__r_at_1.csv",
+      "sha256": "a013bcb71abeb6425b347f6f6c2249a14b5401552043d42a31892f6bbb55b40a",
+      "bytes": 32769
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_street_to_satellite__official_trapezoid_map.csv",
+      "sha256": "2898b494b574a144bbb8a70ec22ca604f9374a90afa013c3965b3caa24562c89",
+      "bytes": 34392
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_150m_to_satellite__r_at_1.csv",
+      "sha256": "c48e1326be92b725582f0439f79d12f5bda2c26717f3fc85a60bf6d5a4e3852a",
+      "bytes": 30644
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_150m_to_satellite__official_trapezoid_map.csv",
+      "sha256": "d71573bcb39f59489fed67c2a26587faac870d13a8bb9a0fd1fd4b4628dc3a3a",
+      "bytes": 33302
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_150m__r_at_1.csv",
+      "sha256": "5b19be3f2e54ee94ef1ac2c503edc71b1c0a8c5309b2faa16206247ed3cb3f7e",
+      "bytes": 29905
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_150m__official_trapezoid_map.csv",
+      "sha256": "0199a000da56d9dcdb577a4a93cf111d86172ba9761012db1df92a18128ef75f",
+      "bytes": 33330
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_200m_to_satellite__r_at_1.csv",
+      "sha256": "552b96d749a9379371a5f331657d6eecf33fa336ca8a1133c01c035cde7b5d65",
+      "bytes": 30687
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_200m_to_satellite__official_trapezoid_map.csv",
+      "sha256": "26ff6595885baedb4352feb24683bd5eefb4402cb4f83e412712bd59ae7d08bf",
+      "bytes": 33312
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_200m__r_at_1.csv",
+      "sha256": "2857b17c085a550306136d31ddfcff9f3876b0e054897e2c7e3574506a2cd771",
+      "bytes": 30267
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_200m__official_trapezoid_map.csv",
+      "sha256": "bbff07dcf1d46c2dc694718afc88159305affa85dcb0af636ea6fa67ab09555a",
+      "bytes": 33239
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_250m_to_satellite__r_at_1.csv",
+      "sha256": "bf0d79837d97a24ac130362b55e2ccd429fcf615313d9ba10f24d601046ad729",
+      "bytes": 30565
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_250m_to_satellite__official_trapezoid_map.csv",
+      "sha256": "7510ef6d868d58a6c737e64bf9704a91fad4a5b3800820798d788cd0a59f021e",
+      "bytes": 33340
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_250m__r_at_1.csv",
+      "sha256": "18150152356d786b9d2b66b3042e7d7912666bef0aa769fc38da543375a1c5bb",
+      "bytes": 29483
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_250m__official_trapezoid_map.csv",
+      "sha256": "3a29e393e64e4e2c5bec7ba74569f5c7096c510c61d9364caa46c3c97b95289a",
+      "bytes": 33261
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_300m_to_satellite__r_at_1.csv",
+      "sha256": "7679482275b54c94e3adce3a2fc10008c71665157c294c599011947cdf1416e6",
+      "bytes": 30575
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_300m_to_satellite__official_trapezoid_map.csv",
+      "sha256": "e4ed5d92ecc81daf9ac42d513c045712754bb7793131c1cf1d7f56f4c63ef368",
+      "bytes": 33307
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_300m__r_at_1.csv",
+      "sha256": "3ca6a7476fb536a47bef82f45da07fa99d91dce38b6d7eb443a8181a09218caa",
+      "bytes": 29348
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_300m__official_trapezoid_map.csv",
+      "sha256": "5b4f9d5a536b557dbc6e82ed776ca66761f7c741c9ac52874231471e0363dadd",
+      "bytes": 33188
+    }
+  ],
+  "figures": [
+    {
+      "ordinal": 1,
+      "dataset": "university1652",
+      "task": "university1652_drone_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\university1652_drone_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_drone_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\university1652\\university1652_drone_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\university1652\\university1652_drone_to_satellite\\r_at_1_retention.png"
+      },
+      "stem": "university1652_drone_to_satellite__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_drone_to_satellite__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_drone_to_satellite__r_at_1.csv",
+        "sha256": "c5387f6c5f627eb07596cbdd5e0d7909954cefa12f3c6d152c368a91968c9e47",
+        "bytes": 33109
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\university1652_drone_to_satellite__r_at_1.csv",
+        "sha256": "c5387f6c5f627eb07596cbdd5e0d7909954cefa12f3c6d152c368a91968c9e47",
+        "bytes": 33109
+      },
+      "clean": {
+        "visual": 0.3855501254788007,
+        "full": 0.31905956940958924
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 2,
+      "dataset": "university1652",
+      "task": "university1652_drone_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\university1652_drone_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_drone_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\university1652\\university1652_drone_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\university1652\\university1652_drone_to_satellite\\official_trapezoid_map_retention.png"
+      },
+      "stem": "university1652_drone_to_satellite__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_drone_to_satellite__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_drone_to_satellite__official_trapezoid_map.csv",
+        "sha256": "a6176b909ce2a1673c1cdb56f977835ee8a12e226cc8343c11ec629ee17fa838",
+        "bytes": 34075
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\university1652_drone_to_satellite__official_trapezoid_map.csv",
+        "sha256": "a6176b909ce2a1673c1cdb56f977835ee8a12e226cc8343c11ec629ee17fa838",
+        "bytes": 34075
+      },
+      "clean": {
+        "visual": 0.4424035847187042,
+        "full": 0.38141995668411255
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 3,
+      "dataset": "university1652",
+      "task": "university1652_satellite_to_drone",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\university1652_satellite_to_drone__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_satellite_to_drone\\r_at_1_retention.pdf",
+        "svg": "figures\\university1652\\university1652_satellite_to_drone\\r_at_1_retention.svg",
+        "png": "figures\\university1652\\university1652_satellite_to_drone\\r_at_1_retention.png"
+      },
+      "stem": "university1652_satellite_to_drone__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_satellite_to_drone__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_satellite_to_drone__r_at_1.csv",
+        "sha256": "e3b7b23939b78260f18dc402b9badcd9da813d91e19a2113e9813e5a297ad29e",
+        "bytes": 32960
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\university1652_satellite_to_drone__r_at_1.csv",
+        "sha256": "e3b7b23939b78260f18dc402b9badcd9da813d91e19a2113e9813e5a297ad29e",
+        "bytes": 32960
+      },
+      "clean": {
+        "visual": 0.5649072753209701,
+        "full": 0.4593437945791726
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 4,
+      "dataset": "university1652",
+      "task": "university1652_satellite_to_drone",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\university1652_satellite_to_drone__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_satellite_to_drone\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\university1652\\university1652_satellite_to_drone\\official_trapezoid_map_retention.svg",
+        "png": "figures\\university1652\\university1652_satellite_to_drone\\official_trapezoid_map_retention.png"
+      },
+      "stem": "university1652_satellite_to_drone__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_satellite_to_drone__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_satellite_to_drone__official_trapezoid_map.csv",
+        "sha256": "17f81d49114e197b4a3e75b195c7980fb175b12000dfe9fcc9ada4f48a65d9a9",
+        "bytes": 34077
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\university1652_satellite_to_drone__official_trapezoid_map.csv",
+        "sha256": "17f81d49114e197b4a3e75b195c7980fb175b12000dfe9fcc9ada4f48a65d9a9",
+        "bytes": 34077
+      },
+      "clean": {
+        "visual": 0.36636626720428467,
+        "full": 0.2924031913280487
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 5,
+      "dataset": "university1652",
+      "task": "university1652_street_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\university1652_street_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_street_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\university1652\\university1652_street_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\university1652\\university1652_street_to_satellite\\r_at_1_retention.png"
+      },
+      "stem": "university1652_street_to_satellite__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_street_to_satellite__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_street_to_satellite__r_at_1.csv",
+        "sha256": "a013bcb71abeb6425b347f6f6c2249a14b5401552043d42a31892f6bbb55b40a",
+        "bytes": 32769
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\university1652_street_to_satellite__r_at_1.csv",
+        "sha256": "a013bcb71abeb6425b347f6f6c2249a14b5401552043d42a31892f6bbb55b40a",
+        "bytes": 32769
+      },
+      "clean": {
+        "visual": 0.005428460643660334,
+        "full": 0.009305932531989143
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 6,
+      "dataset": "university1652",
+      "task": "university1652_street_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\university1652_street_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\university1652\\university1652_street_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\university1652\\university1652_street_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\university1652\\university1652_street_to_satellite\\official_trapezoid_map_retention.png"
+      },
+      "stem": "university1652_street_to_satellite__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_street_to_satellite__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\university1652_street_to_satellite__official_trapezoid_map.csv",
+        "sha256": "2898b494b574a144bbb8a70ec22ca604f9374a90afa013c3965b3caa24562c89",
+        "bytes": 34392
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\university1652_street_to_satellite__official_trapezoid_map.csv",
+        "sha256": "2898b494b574a144bbb8a70ec22ca604f9374a90afa013c3965b3caa24562c89",
+        "bytes": 34392
+      },
+      "clean": {
+        "visual": 0.017087433487176895,
+        "full": 0.021849311888217926
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 7,
+      "dataset": "sues200",
+      "task": "sues200_uav_150m_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_uav_150m_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_150m_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_150m_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_150m_to_satellite\\r_at_1_retention.png"
+      },
+      "stem": "sues200_uav_150m_to_satellite__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_150m_to_satellite__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_150m_to_satellite__r_at_1.csv",
+        "sha256": "c48e1326be92b725582f0439f79d12f5bda2c26717f3fc85a60bf6d5a4e3852a",
+        "bytes": 30644
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_uav_150m_to_satellite__r_at_1.csv",
+        "sha256": "c48e1326be92b725582f0439f79d12f5bda2c26717f3fc85a60bf6d5a4e3852a",
+        "bytes": 30644
+      },
+      "clean": {
+        "visual": 0.34075,
+        "full": 0.287
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 8,
+      "dataset": "sues200",
+      "task": "sues200_uav_150m_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_uav_150m_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_150m_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_150m_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_150m_to_satellite\\official_trapezoid_map_retention.png"
+      },
+      "stem": "sues200_uav_150m_to_satellite__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_150m_to_satellite__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_150m_to_satellite__official_trapezoid_map.csv",
+        "sha256": "d71573bcb39f59489fed67c2a26587faac870d13a8bb9a0fd1fd4b4628dc3a3a",
+        "bytes": 33302
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_uav_150m_to_satellite__official_trapezoid_map.csv",
+        "sha256": "d71573bcb39f59489fed67c2a26587faac870d13a8bb9a0fd1fd4b4628dc3a3a",
+        "bytes": 33302
+      },
+      "clean": {
+        "visual": 0.4256778061389923,
+        "full": 0.3715789318084717
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 9,
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_150m",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_150m__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_150m\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_150m\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_150m\\r_at_1_retention.png"
+      },
+      "stem": "sues200_satellite_to_uav_150m__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_150m__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_150m__r_at_1.csv",
+        "sha256": "5b19be3f2e54ee94ef1ac2c503edc71b1c0a8c5309b2faa16206247ed3cb3f7e",
+        "bytes": 29905
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_satellite_to_uav_150m__r_at_1.csv",
+        "sha256": "5b19be3f2e54ee94ef1ac2c503edc71b1c0a8c5309b2faa16206247ed3cb3f7e",
+        "bytes": 29905
+      },
+      "clean": {
+        "visual": 0.5375,
+        "full": 0.475
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 10,
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_150m",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_150m__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_150m\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_150m\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_150m\\official_trapezoid_map_retention.png"
+      },
+      "stem": "sues200_satellite_to_uav_150m__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_150m__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_150m__official_trapezoid_map.csv",
+        "sha256": "0199a000da56d9dcdb577a4a93cf111d86172ba9761012db1df92a18128ef75f",
+        "bytes": 33330
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_satellite_to_uav_150m__official_trapezoid_map.csv",
+        "sha256": "0199a000da56d9dcdb577a4a93cf111d86172ba9761012db1df92a18128ef75f",
+        "bytes": 33330
+      },
+      "clean": {
+        "visual": 0.39359670877456665,
+        "full": 0.34278807044029236
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 11,
+      "dataset": "sues200",
+      "task": "sues200_uav_200m_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_uav_200m_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_200m_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_200m_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_200m_to_satellite\\r_at_1_retention.png"
+      },
+      "stem": "sues200_uav_200m_to_satellite__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_200m_to_satellite__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_200m_to_satellite__r_at_1.csv",
+        "sha256": "552b96d749a9379371a5f331657d6eecf33fa336ca8a1133c01c035cde7b5d65",
+        "bytes": 30687
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_uav_200m_to_satellite__r_at_1.csv",
+        "sha256": "552b96d749a9379371a5f331657d6eecf33fa336ca8a1133c01c035cde7b5d65",
+        "bytes": 30687
+      },
+      "clean": {
+        "visual": 0.4145,
+        "full": 0.3315
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 12,
+      "dataset": "sues200",
+      "task": "sues200_uav_200m_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_uav_200m_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_200m_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_200m_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_200m_to_satellite\\official_trapezoid_map_retention.png"
+      },
+      "stem": "sues200_uav_200m_to_satellite__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_200m_to_satellite__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_200m_to_satellite__official_trapezoid_map.csv",
+        "sha256": "26ff6595885baedb4352feb24683bd5eefb4402cb4f83e412712bd59ae7d08bf",
+        "bytes": 33312
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_uav_200m_to_satellite__official_trapezoid_map.csv",
+        "sha256": "26ff6595885baedb4352feb24683bd5eefb4402cb4f83e412712bd59ae7d08bf",
+        "bytes": 33312
+      },
+      "clean": {
+        "visual": 0.501873791217804,
+        "full": 0.4146501421928406
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 13,
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_200m",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_200m__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_200m\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_200m\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_200m\\r_at_1_retention.png"
+      },
+      "stem": "sues200_satellite_to_uav_200m__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_200m__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_200m__r_at_1.csv",
+        "sha256": "2857b17c085a550306136d31ddfcff9f3876b0e054897e2c7e3574506a2cd771",
+        "bytes": 30267
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_satellite_to_uav_200m__r_at_1.csv",
+        "sha256": "2857b17c085a550306136d31ddfcff9f3876b0e054897e2c7e3574506a2cd771",
+        "bytes": 30267
+      },
+      "clean": {
+        "visual": 0.6125,
+        "full": 0.6125
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 14,
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_200m",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_200m__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_200m\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_200m\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_200m\\official_trapezoid_map_retention.png"
+      },
+      "stem": "sues200_satellite_to_uav_200m__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_200m__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_200m__official_trapezoid_map.csv",
+        "sha256": "bbff07dcf1d46c2dc694718afc88159305affa85dcb0af636ea6fa67ab09555a",
+        "bytes": 33239
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_satellite_to_uav_200m__official_trapezoid_map.csv",
+        "sha256": "bbff07dcf1d46c2dc694718afc88159305affa85dcb0af636ea6fa67ab09555a",
+        "bytes": 33239
+      },
+      "clean": {
+        "visual": 0.48770156502723694,
+        "full": 0.402458518743515
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 15,
+      "dataset": "sues200",
+      "task": "sues200_uav_250m_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_uav_250m_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_250m_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_250m_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_250m_to_satellite\\r_at_1_retention.png"
+      },
+      "stem": "sues200_uav_250m_to_satellite__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_250m_to_satellite__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_250m_to_satellite__r_at_1.csv",
+        "sha256": "bf0d79837d97a24ac130362b55e2ccd429fcf615313d9ba10f24d601046ad729",
+        "bytes": 30565
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_uav_250m_to_satellite__r_at_1.csv",
+        "sha256": "bf0d79837d97a24ac130362b55e2ccd429fcf615313d9ba10f24d601046ad729",
+        "bytes": 30565
+      },
+      "clean": {
+        "visual": 0.481,
+        "full": 0.35975
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 16,
+      "dataset": "sues200",
+      "task": "sues200_uav_250m_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_uav_250m_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_250m_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_250m_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_250m_to_satellite\\official_trapezoid_map_retention.png"
+      },
+      "stem": "sues200_uav_250m_to_satellite__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_250m_to_satellite__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_250m_to_satellite__official_trapezoid_map.csv",
+        "sha256": "7510ef6d868d58a6c737e64bf9704a91fad4a5b3800820798d788cd0a59f021e",
+        "bytes": 33340
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_uav_250m_to_satellite__official_trapezoid_map.csv",
+        "sha256": "7510ef6d868d58a6c737e64bf9704a91fad4a5b3800820798d788cd0a59f021e",
+        "bytes": 33340
+      },
+      "clean": {
+        "visual": 0.5596025586128235,
+        "full": 0.4443421959877014
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 17,
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_250m",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_250m__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_250m\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_250m\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_250m\\r_at_1_retention.png"
+      },
+      "stem": "sues200_satellite_to_uav_250m__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_250m__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_250m__r_at_1.csv",
+        "sha256": "18150152356d786b9d2b66b3042e7d7912666bef0aa769fc38da543375a1c5bb",
+        "bytes": 29483
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_satellite_to_uav_250m__r_at_1.csv",
+        "sha256": "18150152356d786b9d2b66b3042e7d7912666bef0aa769fc38da543375a1c5bb",
+        "bytes": 29483
+      },
+      "clean": {
+        "visual": 0.6875,
+        "full": 0.6
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 18,
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_250m",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_250m__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_250m\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_250m\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_250m\\official_trapezoid_map_retention.png"
+      },
+      "stem": "sues200_satellite_to_uav_250m__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_250m__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_250m__official_trapezoid_map.csv",
+        "sha256": "3a29e393e64e4e2c5bec7ba74569f5c7096c510c61d9364caa46c3c97b95289a",
+        "bytes": 33261
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_satellite_to_uav_250m__official_trapezoid_map.csv",
+        "sha256": "3a29e393e64e4e2c5bec7ba74569f5c7096c510c61d9364caa46c3c97b95289a",
+        "bytes": 33261
+      },
+      "clean": {
+        "visual": 0.5284179449081421,
+        "full": 0.4399527907371521
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 19,
+      "dataset": "sues200",
+      "task": "sues200_uav_300m_to_satellite",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_uav_300m_to_satellite__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_300m_to_satellite\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_300m_to_satellite\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_300m_to_satellite\\r_at_1_retention.png"
+      },
+      "stem": "sues200_uav_300m_to_satellite__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_300m_to_satellite__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_300m_to_satellite__r_at_1.csv",
+        "sha256": "7679482275b54c94e3adce3a2fc10008c71665157c294c599011947cdf1416e6",
+        "bytes": 30575
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_uav_300m_to_satellite__r_at_1.csv",
+        "sha256": "7679482275b54c94e3adce3a2fc10008c71665157c294c599011947cdf1416e6",
+        "bytes": 30575
+      },
+      "clean": {
+        "visual": 0.49675,
+        "full": 0.38775
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 20,
+      "dataset": "sues200",
+      "task": "sues200_uav_300m_to_satellite",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_uav_300m_to_satellite__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_uav_300m_to_satellite\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_uav_300m_to_satellite\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_uav_300m_to_satellite\\official_trapezoid_map_retention.png"
+      },
+      "stem": "sues200_uav_300m_to_satellite__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_300m_to_satellite__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_uav_300m_to_satellite__official_trapezoid_map.csv",
+        "sha256": "e4ed5d92ecc81daf9ac42d513c045712754bb7793131c1cf1d7f56f4c63ef368",
+        "bytes": 33307
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_uav_300m_to_satellite__official_trapezoid_map.csv",
+        "sha256": "e4ed5d92ecc81daf9ac42d513c045712754bb7793131c1cf1d7f56f4c63ef368",
+        "bytes": 33307
+      },
+      "clean": {
+        "visual": 0.576092541217804,
+        "full": 0.4710761606693268
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 21,
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_300m",
+      "metric": "r_at_1",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_300m__r_at_1.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_300m\\r_at_1_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_300m\\r_at_1_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_300m\\r_at_1_retention.png"
+      },
+      "stem": "sues200_satellite_to_uav_300m__r_at_1",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_300m__r_at_1.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_300m__r_at_1.csv",
+        "sha256": "3ca6a7476fb536a47bef82f45da07fa99d91dce38b6d7eb443a8181a09218caa",
+        "bytes": 29348
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_satellite_to_uav_300m__r_at_1.csv",
+        "sha256": "3ca6a7476fb536a47bef82f45da07fa99d91dce38b6d7eb443a8181a09218caa",
+        "bytes": 29348
+      },
+      "clean": {
+        "visual": 0.7,
+        "full": 0.6
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "ordinal": 22,
+      "dataset": "sues200",
+      "task": "sues200_satellite_to_uav_300m",
+      "metric": "official_trapezoid_mAP",
+      "source_csv": "figures\\source_data\\sues200_satellite_to_uav_300m__official_trapezoid_map.csv",
+      "outputs": {
+        "pdf": "figures\\sues200\\sues200_satellite_to_uav_300m\\official_trapezoid_map_retention.pdf",
+        "svg": "figures\\sues200\\sues200_satellite_to_uav_300m\\official_trapezoid_map_retention.svg",
+        "png": "figures\\sues200\\sues200_satellite_to_uav_300m\\official_trapezoid_map_retention.png"
+      },
+      "stem": "sues200_satellite_to_uav_300m__official_trapezoid_map",
+      "sourcePath": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_300m__official_trapezoid_map.csv",
+      "source": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\aggregate\\figures\\source_data\\sues200_satellite_to_uav_300m__official_trapezoid_map.csv",
+        "sha256": "5b4f9d5a536b557dbc6e82ed776ca66761f7c741c9ac52874231471e0363dadd",
+        "bytes": 33188
+      },
+      "sourceCopy": {
+        "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\robustness_native_figures_20260929_1650\\output\\source_data\\sues200_satellite_to_uav_300m__official_trapezoid_map.csv",
+        "sha256": "5b4f9d5a536b557dbc6e82ed776ca66761f7c741c9ac52874231471e0363dadd",
+        "bytes": 33188
+      },
+      "clean": {
+        "visual": 0.5484455823898315,
+        "full": 0.452476441860199
+      },
+      "conditions": [
+        {
+          "name": "gaussian_noise",
+          "display": "Gaussian noise",
+          "parameter": "standard_deviation",
+          "values": [
+            0.02,
+            0.04,
+            0.08,
+            0.12,
+            0.18
+          ],
+          "units": "fraction of the [0,1] RGB intensity range"
+        },
+        {
+          "name": "gaussian_blur",
+          "display": "Gaussian blur",
+          "parameter": "radius",
+          "values": [
+            0.5,
+            1,
+            2,
+            3,
+            4
+          ],
+          "units": "pixels in the decoded source image"
+        },
+        {
+          "name": "brightness",
+          "display": "Brightness",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow brightness factor"
+        },
+        {
+          "name": "contrast",
+          "display": "Contrast",
+          "parameter": "factor",
+          "values": [
+            0.8,
+            0.65,
+            0.5,
+            0.35,
+            0.2
+          ],
+          "units": "multiplicative Pillow contrast factor"
+        },
+        {
+          "name": "center_occlusion",
+          "display": "Center occlusion",
+          "parameter": "area_fraction",
+          "values": [
+            0.05,
+            0.1,
+            0.2,
+            0.3,
+            0.4
+          ],
+          "units": "fraction of decoded source-image area"
+        },
+        {
+          "name": "rotation",
+          "display": "Rotation",
+          "parameter": "magnitude",
+          "values": [
+            2,
+            5,
+            10,
+            15,
+            20
+          ],
+          "units": "degrees"
+        }
+      ]
+    }
+  ],
+  "scope": "22 figures, 1320 source rows only; remaining four metrics in 3960-row aggregate are not plotted."
+}

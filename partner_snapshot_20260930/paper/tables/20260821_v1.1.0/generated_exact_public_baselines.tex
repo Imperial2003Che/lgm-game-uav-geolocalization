@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Exact local reproduction of four fully trained University-1652 baselines. Scores use the public per-query CUDA operation \texttt{gallery @ query} and the official trapezoidal mAP definition. All metrics are percentages.}
+\label{tab:formal-baseline-exact}
+\begin{tabular}{llrrrrr}
+\toprule
+Direction & Method & R@1 & R@5 & R@10 & mAP & MRR \\
+\midrule
+D2S & Global CNN + Google & 61.91 & 81.92 & 87.35 & 66.42 & 70.93 \\
+D2S & LPN w/o Google & 76.62 & 90.37 & 93.60 & 79.72 & 82.82 \\
+D2S & LPN & 76.75 & 90.54 & 93.97 & 79.88 & 83.02 \\
+D2S & LPN + CA-HRS & 76.94 & 90.52 & 93.82 & 80.04 & 83.13 \\
+\midrule
+S2D & Global CNN + Google & 79.60 & 85.59 & 87.87 & 62.73 & 82.39 \\
+S2D & LPN w/o Google & 87.02 & 90.73 & 92.58 & 76.79 & 89.01 \\
+S2D & LPN & 86.73 & 91.30 & 93.30 & 76.42 & 88.97 \\
+S2D & LPN + CA-HRS & 87.45 & 91.87 & 93.15 & 76.58 & 89.51 \\
+\bottomrule
+\end{tabular}
+\end{table*}

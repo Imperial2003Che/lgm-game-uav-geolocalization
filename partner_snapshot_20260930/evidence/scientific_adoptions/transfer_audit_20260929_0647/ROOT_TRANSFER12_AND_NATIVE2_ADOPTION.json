@@ -1,0 +1,2696 @@
+{
+  "schema": "lgm.root.transfer12-native2-adoption.v1",
+  "time": "2026-09-29T07:06:56.6886418+01:00",
+  "accepted": true,
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\adopt_transfer_and_native_v2.ps1",
+    "sha256": "ace124f8153ecf1ca010e0442c34cb838d246304aee6ecc3c7a9794837cfeba9"
+  },
+  "independent_transfer_review": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\TRANSFER_REVIEW.json",
+    "bytes": 355525,
+    "sha256": "b0627920c9e8ab1da0dbc6d2d48795b3abe68cf3b79f7d7dba7afa9bba3847c7"
+  },
+  "metadata": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\METADATA.json",
+    "bytes": 73858,
+    "sha256": "5f268f24d14c272ed96c7b259fffe5fbef0082b9c708313f58ecf5ce4846f815"
+  },
+  "review_source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\review_transfer_v3.py",
+    "bytes": 35531,
+    "sha256": "0c98c9b4fab3a1d36c0a980699f1af0dd3d254f3c973a4b90ed0e507c421b6a7"
+  },
+  "full_candidate_diff": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\V1_TO_V3_FULL.patch",
+    "bytes": 11578,
+    "sha256": "14c36c5b33d2dcb865f7f4466d0308a6f315c4977323509608a886e4d6120792"
+  },
+  "accepted_transfer_runs": 12,
+  "accepted_transfer_tasks": 66,
+  "new_evaluation_artifact_count": 138,
+  "raw_snapshot_count": 231,
+  "retained_official_runs": 42,
+  "retained_official_tasks": 231,
+  "retained_training_fits": 42,
+  "pipeline_jobs_adopted": 3,
+  "transfer_identifiers": [
+    "university1652_to_sues200/visual/seed_1",
+    "university1652_to_sues200/visual/seed_2",
+    "university1652_to_sues200/visual/seed_3",
+    "university1652_to_sues200/full/seed_1",
+    "university1652_to_sues200/full/seed_2",
+    "university1652_to_sues200/full/seed_3",
+    "sues200_to_university1652/visual/seed_1",
+    "sues200_to_university1652/visual/seed_2",
+    "sues200_to_university1652/visual/seed_3",
+    "sues200_to_university1652/full/seed_1",
+    "sues200_to_university1652/full/seed_2",
+    "sues200_to_university1652/full/seed_3"
+  ],
+  "transfer_limits": [
+    "No checkpoint bytes loaded or rehashed; historical inherited SHA plus stable stat does not prove current bytes.",
+    "University visual sources retain original first12 inventory historical whole-file SHA edge gap; no new historical provenance invented.",
+    "Original source checkpoint loading/full-state inspection and producer source gate were not independently re-executed.",
+    "Full cache and image-content SHA inherited; actual metadata and memberships checked, not full cache/image-content rehash.",
+    "Stored AP/RR/margin aggregation checked; no model inference/full ranking/AP recomputation from all positive ranks.",
+    "Original subprocess.run child return0 and parent pipeline Popen exit0 plus current stage PID observation; no independent launcher/interpreter exit handles.",
+    "Actual NumPy runtime not imported; original completion functions ran in bounded stdlib compatibility environment."
+  ],
+  "validator_compatibility_limit": "Original AST function bodies executed unchanged with typed stdlib one-dimensional NPZ/vector facade. This is not a NumPy runtime rerun. Scalar binary64 and math.fsum means checked with original comparison tolerances.",
+  "review_method": "Root read full v3 source, candidate diff, frozen original completion helpers and independent contract review; verified sealed metadata, raw snapshots, new source/metric/NPZ/log originals and exact registered scope. No rerun of scientific model, original NumPy runtime, full ranking or checkpoint bytes.",
+  "current_observation": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\OBSERVATION.json",
+    "bytes": 28056,
+    "sha256": "201a4a131ffbaabb0d947d1c6000b9381dfdb8747dfdfc1cc5805ad89c601344"
+  },
+  "observer_root_adoption": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\ROOT_OBSERVER_ADOPTION.json",
+    "bytes": 18459,
+    "sha256": "2567f5c0f56838ad0563e08f427a8144a1f308f58c26a29e312bab07bf0dd766"
+  },
+  "current_identity_count": 12,
+  "current_identities": [
+    {
+      "pid": 14420,
+      "parent": 29784,
+      "creation": "2026-09-29T04:01:47.3457420+01:00",
+      "creation_utc_ticks": 639262477073457420,
+      "command": "\"C:\\Users\\17703\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\" \"-B\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\run_controller_with_state_retry_v2.py\" \"--role\" \"pipeline\" \"--io-manifest-sha256\" \"d8e6209f5ff2c2180d053e6444cb7df6ec0846405fea7ad6dee9b76a8fcb8dfb\""
+    },
+    {
+      "pid": 29784,
+      "parent": 34104,
+      "creation": "2026-09-29T04:01:47.3052210+01:00",
+      "creation_utc_ticks": 639262477073052210,
+      "command": "\"C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe\" \"-B\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\run_controller_with_state_retry_v2.py\" \"--role\" \"pipeline\" \"--io-manifest-sha256\" \"d8e6209f5ff2c2180d053e6444cb7df6ec0846405fea7ad6dee9b76a8fcb8dfb\""
+    },
+    {
+      "pid": 30388,
+      "parent": 7584,
+      "creation": "2026-09-29T04:02:02.3558970+01:00",
+      "creation_utc_ticks": 639262477223558970,
+      "command": "\"C:\\Users\\17703\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\" \"-B\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\run_controller_with_state_retry_v2.py\" \"--role\" \"extensions\" \"--io-manifest-sha256\" \"d8e6209f5ff2c2180d053e6444cb7df6ec0846405fea7ad6dee9b76a8fcb8dfb\" \"--manifest-sha256\" \"b985182c80577fa1a98a7511ce5de2a6a360f908ab063d6f6a0e5a2395be3640\""
+    },
+    {
+      "pid": 7584,
+      "parent": 31732,
+      "creation": "2026-09-29T04:02:02.3168790+01:00",
+      "creation_utc_ticks": 639262477223168790,
+      "command": "\"C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe\" \"-B\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\run_controller_with_state_retry_v2.py\" \"--role\" \"extensions\" \"--io-manifest-sha256\" \"d8e6209f5ff2c2180d053e6444cb7df6ec0846405fea7ad6dee9b76a8fcb8dfb\" \"--manifest-sha256\" \"b985182c80577fa1a98a7511ce5de2a6a360f908ab063d6f6a0e5a2395be3640\""
+    },
+    {
+      "pid": 33520,
+      "parent": 12896,
+      "creation": "2026-09-29T04:02:19.7853970+01:00",
+      "creation_utc_ticks": 639262477397853970,
+      "command": "\"C:\\Users\\17703\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\" \"-B\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\run_controller_with_state_retry_v2.py\" \"--role\" \"latest\" \"--io-manifest-sha256\" \"d8e6209f5ff2c2180d053e6444cb7df6ec0846405fea7ad6dee9b76a8fcb8dfb\" \"--addendum-sha256\" \"0c4217fefb33d6550bda2300bc201f1c869da0b8d5ff02d45ae7af45b7ef6d70\""
+    },
+    {
+      "pid": 12896,
+      "parent": 3388,
+      "creation": "2026-09-29T04:02:19.7423530+01:00",
+      "creation_utc_ticks": 639262477397423530,
+      "command": "\"C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe\" \"-B\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\run_controller_with_state_retry_v2.py\" \"--role\" \"latest\" \"--io-manifest-sha256\" \"d8e6209f5ff2c2180d053e6444cb7df6ec0846405fea7ad6dee9b76a8fcb8dfb\" \"--addendum-sha256\" \"0c4217fefb33d6550bda2300bc201f1c869da0b8d5ff02d45ae7af45b7ef6d70\""
+    },
+    {
+      "pid": 7484,
+      "parent": 21652,
+      "creation": "2026-09-29T04:02:37.3526100+01:00",
+      "creation_utc_ticks": 639262477573526100,
+      "command": "\"C:\\Users\\17703\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\" \"-B\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\run_controller_with_state_retry_v2.py\" \"--role\" \"independent\" \"--io-manifest-sha256\" \"d8e6209f5ff2c2180d053e6444cb7df6ec0846405fea7ad6dee9b76a8fcb8dfb\" \"--plan\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\independent_comparison_plan_v2.json\" \"--addendum-sha256\" \"0c4217fefb33d6550bda2300bc201f1c869da0b8d5ff02d45ae7af45b7ef6d70\""
+    },
+    {
+      "pid": 21652,
+      "parent": 13264,
+      "creation": "2026-09-29T04:02:37.3083510+01:00",
+      "creation_utc_ticks": 639262477573083510,
+      "command": "\"C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe\" \"-B\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\run_controller_with_state_retry_v2.py\" \"--role\" \"independent\" \"--io-manifest-sha256\" \"d8e6209f5ff2c2180d053e6444cb7df6ec0846405fea7ad6dee9b76a8fcb8dfb\" \"--plan\" \"C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\independent_comparison_plan_v2.json\" \"--addendum-sha256\" \"0c4217fefb33d6550bda2300bc201f1c869da0b8d5ff02d45ae7af45b7ef6d70\""
+    },
+    {
+      "pid": 24120,
+      "parent": 14420,
+      "creation": "2026-09-29T06:38:20.0923660+01:00",
+      "creation_utc_ticks": 639262571000923660,
+      "command": "C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_frozen_robustness_matrix.py --delivery-root C:\\项目\\LGM-GAME-Partner-Delivery-20260724 --university-root C:\\项目\\IMTMN\\datasets\\University-1652 --sues-root C:\\项目\\IMTMN\\datasets\\SUES-200 --python C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe --stage run"
+    },
+    {
+      "pid": 40780,
+      "parent": 24120,
+      "creation": "2026-09-29T06:38:20.1196180+01:00",
+      "creation_utc_ticks": 639262571001196180,
+      "command": "\"C:\\Users\\17703\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\" C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_frozen_robustness_matrix.py --delivery-root C:\\项目\\LGM-GAME-Partner-Delivery-20260724 --university-root C:\\项目\\IMTMN\\datasets\\University-1652 --sues-root C:\\项目\\IMTMN\\datasets\\SUES-200 --python C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe --stage run"
+    },
+    {
+      "pid": 27888,
+      "parent": 40780,
+      "creation": "2026-09-29T06:38:25.3553030+01:00",
+      "creation_utc_ticks": 639262571053553030,
+      "command": "C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\experiments\\run_image_level_robustness.py --dataset university1652 --data-root C:\\项目\\IMTMN\\datasets\\University-1652 --evidence C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.npz --checkpoint C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_1\\best.pt --output-dir C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_robustness\\university1652\\visual\\seed_1 --sues-manifest C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\manifests\\sues200_official_train_ids.yaml --device cuda --eval-batch-size 128 --eval-chunk-size 128 --image-workers 8 --corruption-seed 20260727 --clip-precision match-cache --clip-clean-audit-samples 64 --amp --clip-local-files-only"
+    },
+    {
+      "pid": 41564,
+      "parent": 27888,
+      "creation": "2026-09-29T06:38:25.3649490+01:00",
+      "creation_utc_ticks": 639262571053649490,
+      "command": "\"C:\\Users\\17703\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\" C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\experiments\\run_image_level_robustness.py --dataset university1652 --data-root C:\\项目\\IMTMN\\datasets\\University-1652 --evidence C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.npz --checkpoint C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_1\\best.pt --output-dir C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\runs\\formal_robustness\\university1652\\visual\\seed_1 --sues-manifest C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\manifests\\sues200_official_train_ids.yaml --device cuda --eval-batch-size 128 --eval-chunk-size 128 --image-workers 8 --corruption-seed 20260727 --clip-precision match-cache --clip-clean-audit-samples 64 --amp --clip-local-files-only"
+    }
+  ],
+  "current_old_t3_pid_number_matches": [],
+  "exit_limit": "T3 original pipeline Popen exit0 and 12 subprocess.run return0. No independent dual process handles. Primary own original exit code remains unknown; completed plus absence only.",
+  "native_figures": {
+    "accepted_count": 2,
+    "independent": {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\INDEPENDENT_NATIVE_SVG_REVIEW.json",
+      "bytes": 11243,
+      "sha256": "9dbcc7f38df2057e900f8a13571b00eadb867d2e890e8948f3eea6e1f6501977"
+    },
+    "root_review": {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\ROOT_NATIVE_SVG_REVIEW.json",
+      "bytes": 6821,
+      "sha256": "ac010cc27c27fa94a9fdd3e860af84c330a8e4cc6efa3c66b2e6a8000d6253ca"
+    },
+    "captions": {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\CAPTIONS.md",
+      "bytes": 2366,
+      "sha256": "2dd6fef4c13f2348256b68ede5e099e51ae307b65b93b0ead3afcc88cd3697a9"
+    },
+    "scope": "v2 native SVG only, 66 cells and 66 intervals, 216 editable texts, no raster. Source CSV and inherited upstream limits retained. No final PPT/Visio or manuscript delivery."
+  },
+  "primary_claim_note": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\PRIMARY_CLAIM_REVIEW.json",
+    "bytes": 5700,
+    "sha256": "0e29cdb0412b148100788b02276e9a9ef4a7aed4a1f5d892fb088a0ff184cdb6"
+  },
+  "actual_unique_file_checks": 501,
+  "bindings": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\TRANSFER_REVIEW.json",
+      "bytes": 355525,
+      "sha256": "b0627920c9e8ab1da0dbc6d2d48795b3abe68cf3b79f7d7dba7afa9bba3847c7"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\METADATA.json",
+      "bytes": 73858,
+      "sha256": "5f268f24d14c272ed96c7b259fffe5fbef0082b9c708313f58ecf5ce4846f815"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\review_transfer_v3.py",
+      "bytes": 35531,
+      "sha256": "0c98c9b4fab3a1d36c0a980699f1af0dd3d254f3c973a4b90ed0e507c421b6a7"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\V1_TO_V3_FULL.patch",
+      "bytes": 11578,
+      "sha256": "14c36c5b33d2dcb865f7f4466d0308a6f315c4977323509608a886e4d6120792"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b000_review_transfer.py",
+      "bytes": 33321,
+      "sha256": "3ccba056f279227aa0b425d318b77cab23123c92dabea55e4ada7d38ae012645"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b001_TRANSFER_REVIEW.json",
+      "bytes": 16313,
+      "sha256": "df43c200e9ec1a364ab2571eae73424b58997a6ac05747c6919feb0d47f5180a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b002_V1_TO_V2.patch",
+      "bytes": 5160,
+      "sha256": "c9c9d453d128ddc42fb6841dd6ffdf071e9e39b6051622f46b211a9e204136e0"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b003_V2_TO_V3.patch",
+      "bytes": 9080,
+      "sha256": "eee3e25f320e531f225a4c3b54f1c20054030635d6ccd042302d0e85e866c3bb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b004_review_transfer_v2.py",
+      "bytes": 34285,
+      "sha256": "51493d8e86df998581668e8485f7e8c23bfca7c17d469757a0dc4cf385310130"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b005_run_transactions_t3_transfer_matrix.py",
+      "bytes": 26297,
+      "sha256": "50e681a17bd21188ec059112a77653e04f0cd716a95f4e1c0dfbb486375cc84c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b006_run_cross_dataset_evaluation.py",
+      "bytes": 35922,
+      "sha256": "29cccd4ff3e975571b578288f7a691ceccaf4a8ed7ab9483812b68edbc4f5ed8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b007_formal_retrieval.py",
+      "bytes": 102924,
+      "sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b008_ROOT_OFFICIAL42_AND_PIPELINE2_ADOPTION_20260929.json",
+      "bytes": 677924,
+      "sha256": "3b2bb1629f5b769fcd956c08068fa8ab2c947c9b36898a4bec2742e21110c17e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b009_ROOT_FIT_42_ADOPTION_20260928.json",
+      "bytes": 15430,
+      "sha256": "ca54f91342f77d7d17f18a932c61681ae6f4d7c14f4ffd917c0c1594fc289e87"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b010_SUES_BATCH9_EVALUATION_REVIEW.json",
+      "bytes": 345189,
+      "sha256": "3cb6894e754bf9388519b5886491deca61e807472b7dbde9c2e93dd3ff65c074"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b011_ROOT_SUES_BATCH11_ADOPTION_20260929.json",
+      "bytes": 530804,
+      "sha256": "657968ef1cf457bdc0b052c45cd0b2fd4f22dc687dc012d6f8482286e1fb052b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b012_BATCH_COMPLETION_0013.json",
+      "bytes": 30975,
+      "sha256": "d0c73981bd2679d2d569bd37715f332384f9f2e62fa14290aa23ed659fef50e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b013_BATCH_COMPLETION_0944.json",
+      "bytes": 37338,
+      "sha256": "2183ab32674d171f0d7ce15ea96b5e72b1990ad7071404e89403108f28f96a25"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b014_ROOT_FIT_41_ADOPTION_20260928.json",
+      "bytes": 15647,
+      "sha256": "e5f1c6512f829a66e9dc73915627d985aec174dfe7f4226696b631298369bd05"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b015_ROOT_FIT_40_ADOPTION_20260928.json",
+      "bytes": 15637,
+      "sha256": "f3a6d7a2d3bec664c5cb6fd3f2ae7d0d2f7d5a1cb1bda82c337c6a575f062488"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b016_ROOT_FIT_39_ADOPTION_20260928.json",
+      "bytes": 15587,
+      "sha256": "825ba1aa69276c7e199f4af8d2a5a136f2d5c9d85e21cac3ca764902face3658"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b017_ROOT_FIT_38_ADOPTION_20260928.json",
+      "bytes": 15566,
+      "sha256": "c7eb61a1cf10063cf4dd41f70f973800d1dce26f1cb08439abfcf4d89c66ecc8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b018_ROOT_FIT_37_ADOPTION_20260927.json",
+      "bytes": 15517,
+      "sha256": "17eb5561cd85052b654aab96090c652aad5b9c8312a9fdc58fed5d5747009024"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b019_ROOT_BATCH_36_ADOPTION_20260922.json",
+      "bytes": 10353,
+      "sha256": "1c7bdd8e27328118789462a3db2f8283d6803e50c26a2914dd4674010ddf358f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b020_ROOT_BATCH_32_ADOPTION_20260922.json",
+      "bytes": 9633,
+      "sha256": "e07199cc5aaba3e041388f27a22c361375fb81bded303ffc25381ebc04bd0ff2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b021_ROOT_BATCH_29_ADOPTION_20260921.json",
+      "bytes": 20703,
+      "sha256": "913151ff2165b5e4b4fee2aee8aae4c0ae13fda42d5dfe9bc6ac7a8722fcea07"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b022_BATCH_COMPLETION_1611.json",
+      "bytes": 79651,
+      "sha256": "f88259d145316e76b36f63130800f2a47f91c0cbdf863fd9cabb2381bbca0bb2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b023_SUES_BATCH11_EVALUATION_REVIEW.json",
+      "bytes": 392632,
+      "sha256": "78b187ce0388f5d8d28ebcb7139039059cf897eb574051c38ee50e72a60e6a1a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b024_ROOT_SUES_CONTENT_SEED1_ADOPTION_20260929.json",
+      "bytes": 80184,
+      "sha256": "7acf3313c7d3950a3da9f0fe13166b9536dd5615f5b0137eaf09a25cd621e715"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b025_ROOT_BATCH6_ADOPTION_20260929.json",
+      "bytes": 150745,
+      "sha256": "c0735605a977e5ffcfd877e980a3773e9a747d4d7b4d68b9b682a0276f693fae"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b026_BATCH6_EVALUATION_REVIEW.json",
+      "bytes": 199501,
+      "sha256": "f2d578c904e14c99b4d5b4a00ace980d3ecca99c5ba43d2ebe6c7b228e98acf1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b027_ROOT_BATCH10_ADOPTION_20260928.json",
+      "bytes": 192417,
+      "sha256": "155610032a4e1951527206ee47c4366fbb202a7c175006209913cee86902173e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b028_ROOT_ADOPTION_20260920.json",
+      "bytes": 2665,
+      "sha256": "871c6b014a48463af26e1624badad591db191f8a57aedf5687e8636f3ec95f97"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b029_ROOT_SEED3_ADOPTION_20260920.json",
+      "bytes": 3840,
+      "sha256": "4ea57f0956af59749dd93c151108414f94e749d7ccb10fa8e75834b4c6196e7f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b030_ROOT_FULL_SEED1_ADOPTION_20260920.json",
+      "bytes": 3892,
+      "sha256": "772133fee742bb3b26825eb8e3c05760cf4ace5e28f22d729c013841be84a018"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b031_ROOT_FULL_SEED2_ADOPTION_20260921.json",
+      "bytes": 3897,
+      "sha256": "0474c03baf3170dab96b297b9d426bd6b6ce1e7ad30fe5525cab2651bf6a8437"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b032_BATCH10_EVALUATION_REVIEW.json",
+      "bytes": 293324,
+      "sha256": "7dc08f79d974394c95c53fca990fd55b3832981d72bc0d09a2b64b53206988c8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b033_ROOT_CONTENT_SEED12_ADOPTION_20260928.json",
+      "bytes": 59292,
+      "sha256": "1676ad826b902a0275f931834a33489d699c0690a9d5826be06401b9a62573f3"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b034_BATCH_0944_LEDGER_RAW.json",
+      "bytes": 271908,
+      "sha256": "55e5ffe63d9f4c907076552db832e2b4c0647fa10dadea8bcdaf7668c4be8187"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b035_transactions_t3_transfer_matrix.json",
+      "bytes": 3503,
+      "sha256": "4608df2075ab1bfd4f38c949935a4e0c2ca6516c9716b87376f39b1b951d4bf3"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b037_transactions_t3_transfer_matrix.json",
+      "bytes": 3503,
+      "sha256": "4608df2075ab1bfd4f38c949935a4e0c2ca6516c9716b87376f39b1b951d4bf3"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b038_run_transactions_t3_transfer_matrix.py",
+      "bytes": 26297,
+      "sha256": "50e681a17bd21188ec059112a77653e04f0cd716a95f4e1c0dfbb486375cc84c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b039_run_cross_dataset_evaluation.py",
+      "bytes": 35922,
+      "sha256": "29cccd4ff3e975571b578288f7a691ceccaf4a8ed7ab9483812b68edbc4f5ed8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b040_formal_retrieval.py",
+      "bytes": 102924,
+      "sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b041_TRANSACTIONS_EXTENSION_PROTOCOL.md",
+      "bytes": 25148,
+      "sha256": "76b0b29ce7a09710dd8e4495f1fbed36eef2fddce148ad463d83fb115e8a2f4b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b043_university1652_clip_image_evidence.meta.json",
+      "bytes": 6004,
+      "sha256": "3731072d3a1c8a3b9fe8d880fd791dfbe7eb82f2d93be85b82be229ff8512dbf"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\b044_sues200_clip_image_evidence.meta.json",
+      "bytes": 6662,
+      "sha256": "3dc42892bbff9339d058fc0d6abaf2fd9e92cc94f9f9b7fd58ed0ae725b57dca"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\PIPELINE_STATUS.json",
+      "bytes": 6539,
+      "sha256": "34f7fb325908e11cd2e53bb021e01c5cd46ced4c5fb10651bce2570cc518f41f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\sues200_MEMBERSHIP.json",
+      "bytes": 2097966,
+      "sha256": "185512b4eda1b5fe4c3ba7cb94a33e8621a7befca6c2faf3adfdb3737b1acf6c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\T3_LEDGER.json",
+      "bytes": 59877,
+      "sha256": "064a3d88dd01309f0cce36a23a91da903000135573fa98ecb64d29d0831cd75e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\university1652_MEMBERSHIP.json",
+      "bytes": 4051512,
+      "sha256": "94ace13daabf816e0585d42da0718cad86b3960e29a6f3f5d73fff533e622615"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\config.json",
+      "bytes": 2801,
+      "sha256": "f71e2e3ee4417fc1388cca539387a0682de858e6b5ebc8e76f002153ae2017bc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\manifest.json",
+      "bytes": 8750,
+      "sha256": "6e46536abffaac2a6789060deff9201dee6e3cf9129cadb1e23c4efc4cc3ab01"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\metrics.csv",
+      "bytes": 1716,
+      "sha256": "247a6e3c4dd80f0628ca6cc265b0db56eb39f5b6047b9495400c40f975d67286"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\metrics.json",
+      "bytes": 4377,
+      "sha256": "1bd1151be32b455f04e912d83dd3f794451874964c80a78ee610641464a8bcad"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\run.log",
+      "bytes": 1219,
+      "sha256": "76a669503bb7a125b6f22aa3c8d9d7f0f5fe2c1ba820cae3546d50b9db4d768e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\status.json",
+      "bytes": 326,
+      "sha256": "9273ab8c1dca43cf6f7f3a6435fe8c230260f85520af1eb839b7badc6c95c9d9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\stdout.log",
+      "bytes": 10129,
+      "sha256": "962bb354fb627de05f54e36a206527de928c82bf21c06f87b79b24023e5ecd3f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4396,
+      "sha256": "48ba94979dbf5c0aaf43131b31f3e0693dee203c9274e9692c9f716f6729f1ef"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4366,
+      "sha256": "cb5bd41bef25b2a16f2ba9169300f44d0098fb8523086e139003d9c7bed442f6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4346,
+      "sha256": "513a445c614c6e8b27edf0a0142aed32c9fb3acf43962f23f7a1a53324a21736"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4356,
+      "sha256": "3f6e1651262af75dbdbe4441f1f5bab1b75731fc75a734f31bd347be7effdb2e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52203,
+      "sha256": "fa148e380415fb04f07513091dd36516c30d6f33a701b52ebc1e01d2877b1d92"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 51352,
+      "sha256": "a3563da61e8b17c2ec7ec0a7194f6281705120789eb597c84798f2ff2e68e1a5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 50270,
+      "sha256": "32e2f0fc09ec5c2fe7e932c4f2b0057b0638e9983d902cf459ab807043a3c7ce"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 49392,
+      "sha256": "fa75b243373e89777c695ad66c506f2df6e4992206c9ab0a99b31cbdf9111280"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\training_run_config.json",
+      "bytes": 17161,
+      "sha256": "955aa9886c82a7bf3ce206a89e12dcf5a58151d0e03c60ed3e898aa112701e1b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\training_run_manifest.json",
+      "bytes": 2575,
+      "sha256": "1b148e7ccb794b5efd2aa76e0b86b1fa91730cf77fd4745174a0afe1a0a8e3e2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\config.json",
+      "bytes": 2801,
+      "sha256": "c1ba425b543638d51858f9d3830004b061c018e939559114b4475d45120eb493"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\manifest.json",
+      "bytes": 8751,
+      "sha256": "5fcf3eaa9432c06b924020e2c5e308aac8d33c7cf1059199933f341d29c9b870"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\metrics.csv",
+      "bytes": 1709,
+      "sha256": "3e44b1d64187c3db7a7b0ef201d5f5d1b6819727de91f451393b1bf415dd32fb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\metrics.json",
+      "bytes": 4370,
+      "sha256": "b1308b180e4fd90e33889492253f338a21b34549d0c83f94c4d14ca689eea663"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\run.log",
+      "bytes": 1219,
+      "sha256": "2f0eecc41b3f3f3a58d172c5dff9b6f8e54b745599fae245f39b835282931c19"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\status.json",
+      "bytes": 326,
+      "sha256": "84bd861cfd79265f3b72fd21fa3368a1166e070337a3907918324d80907c41d4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\stdout.log",
+      "bytes": 10130,
+      "sha256": "6f07881041c2bb205655a6454bf105fb07c8b7344e7be1d576e9bcc718c00a47"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4421,
+      "sha256": "05c98ed10b7685047b0a80ede75b40e633bfb5aef49a98418ea2a0f352b7e220"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4395,
+      "sha256": "52d6197bf01b0e182154c8cfca52cf3c7a7d2cd657a59fe43ad702581efdaa01"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4384,
+      "sha256": "e1f27f4c221bb8328eb01b26b4fb114e9f4bbbfbd9210eb73efd3fea690876d0"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4378,
+      "sha256": "0c0cd8d758aa03c88438b97f13ce3c555017de7a0ac079ffc3b54a66daeb0012"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52861,
+      "sha256": "6b8747f68c83c95096255a3d03ec83d9bf3d525cd0c45bb34ba3716b407c52a8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 52094,
+      "sha256": "cf6b93012aa771da67968e2fef6f8ece557259035104033837493a789453bc9e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51339,
+      "sha256": "5d9a898882fad0e5f7b5e0b2601b76efdfcecc1687f745c59081908db949d7ca"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 50735,
+      "sha256": "db63778d1b65b169a14efa98c3519113a0907a133f346bddaeb4256d9206c649"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\training_run_config.json",
+      "bytes": 17161,
+      "sha256": "4b31986135d9990c28166ac3c96311e0087f54f5103d40bb3147fe46c44c27c6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\training_run_manifest.json",
+      "bytes": 2580,
+      "sha256": "d87acabde19e44fbeb676ca65956f9e7faf05a5de43851b5244e9860b2fd3d78"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\config.json",
+      "bytes": 2801,
+      "sha256": "9ebd4362c82cb86a9bb38e4109fae893404d1f170e0829d05b919bc77a69dc5b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\manifest.json",
+      "bytes": 8751,
+      "sha256": "764a1a985f823ad56c1449fb6b783a439e86ae318e66a66e505ad1a97e632e55"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\metrics.csv",
+      "bytes": 1709,
+      "sha256": "070aea963cd1fb1c67687beb415ebc24ed030b78154df7ddffae8259f58570c9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\metrics.json",
+      "bytes": 4370,
+      "sha256": "87a8535d7aa1bf93597429694edad84a1550787a66120424ceb052ab03fab2de"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\run.log",
+      "bytes": 1219,
+      "sha256": "db6a7b9ddea05891c552566a96fff096d32c33c02d2a1784cf653a474fc06132"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\status.json",
+      "bytes": 326,
+      "sha256": "d86bd3f9e48488ce4d2228bdbe15e1944baed3d595cba04add0f947f8d77d44a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\stdout.log",
+      "bytes": 10130,
+      "sha256": "c1ef2f4155e2c2dd915f39dcf7de206dfe7454aeb58e6485d7a601287cf9ec2e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4420,
+      "sha256": "aa239f239fe31fde89135121765436b3464268c1c3002940fe55547e8106d746"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4386,
+      "sha256": "e5ac64348309eeaf17e438c854167760d9a875cebbdb936fed081d074e8e6b9a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4389,
+      "sha256": "a4d61350893284fbb5604ab745dbf3834bdeaa30abf7fcfffaff5953c8c6278f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4379,
+      "sha256": "1ca938265645ab833700436859c188687da39e3ae7d70845855314ec7342c8b4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52992,
+      "sha256": "a3a13f0fdf0bafa70791d8b2d6c14fb503756180000b8f3170a943d84f47274e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 52602,
+      "sha256": "067060ab616574b1d00d33bb4837e4368849c5f7a6315be7a992a47ad978a64b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51677,
+      "sha256": "fb70234409a034e4c3ffc589f514a123de90717282e3ffccbbe808828a23f486"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 50912,
+      "sha256": "88fad7c016f0ebaf23390b36424008adf85bd6973a89d23526484a2dc3bafd68"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\training_run_config.json",
+      "bytes": 17161,
+      "sha256": "fc521e93a8e2d13d12806fad041250724fd264c013446a0f8d73dd6c70453800"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\training_run_manifest.json",
+      "bytes": 2580,
+      "sha256": "856b0dd54fda49141072a2b21d051be969dba6e3de2ad728dde2e2390ee9661b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\config.json",
+      "bytes": 2797,
+      "sha256": "3a90b02798787dbbd95b2307437e0f9e90865ec867d148ca50071c4aef18210c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\manifest.json",
+      "bytes": 8725,
+      "sha256": "9395345cd9c5d42e65afae74660de20f239c0a0fa0b2d8cbe9ad3af8e455cc7a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\metrics.csv",
+      "bytes": 1714,
+      "sha256": "595f09ffdaa69b831ee7ffbdadef1e90d69e3e716464391d3a374f98f0369f92"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\metrics.json",
+      "bytes": 4373,
+      "sha256": "0933264bc79ee8aeb078b206d8cb29a0b516d10e7cb52e82a7318151d6461549"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\run.log",
+      "bytes": 1218,
+      "sha256": "86d17d425cafcadebe79b04748025d9f54d950856943355922b259c81ba7f014"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\status.json",
+      "bytes": 326,
+      "sha256": "19b2c9e8e9696dd5f433565e274768b61e82c59bbcb06b41cb4512670973c1f9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\stdout.log",
+      "bytes": 10103,
+      "sha256": "533570ba75909ae8c1e3bcc75b6b7a49e31e418bcf76a5b96a2056de93bfce8d"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4370,
+      "sha256": "d910130336cfc6a200c9c1e493eb6dab053fb1b99ded418a5722ad5c7e209a97"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4383,
+      "sha256": "d44562872d2a717cc9b6b23f09360cf2f30f6bdbe0e9e8dbfb8861a72e61c3be"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4385,
+      "sha256": "72a6d666d7f71b300fe8922c1258735a8f913ebbbfa0fa4e5b0abe2f660d53bc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4386,
+      "sha256": "0afd4de67602069e02ce3c4c0324a6b5dc084c0d22c68460567addb727d02eaa"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52594,
+      "sha256": "9cb0a7abd501376b430bdf0bdf5e3df357c1eacc5285cf99bf8f89182fc319cf"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 52348,
+      "sha256": "6c3b8b1e89dd3533824ae5ef9f2d25cc9823d71144ebc87f19d03d5c35b779ef"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51634,
+      "sha256": "805d25cf922450aca8076f476f906080521cb33a6c95b32b9ea65a6bb5d8ec32"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 50608,
+      "sha256": "32034c1595a21547737af9fca9d686645f97dab4d96c420fe0e654bfdda25a17"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\training_run_config.json",
+      "bytes": 17155,
+      "sha256": "6fa70b366ab34a52dc90aeaa6819fb98b2ce1db9d90a4c58b1be12f76acbacbb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\training_run_manifest.json",
+      "bytes": 2580,
+      "sha256": "1b8e982f3c5020d316ef15b6720f951a3975085b93680215adf3306b54aaa955"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\config.json",
+      "bytes": 2797,
+      "sha256": "d1c0c6333df087beff0e35a4b9572bf2e7d8bf457ee397a357ec00048cf39928"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\manifest.json",
+      "bytes": 8724,
+      "sha256": "893deb82d3a3e98664c37338bf3fdc53ee97bfc8b49cc871c0a6a55baf7579f6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\metrics.csv",
+      "bytes": 1710,
+      "sha256": "21824d511c3994307f8da057ee39968fce4bd4711470a3c5aae9b43745f377ff"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\metrics.json",
+      "bytes": 4369,
+      "sha256": "c2946118b7a5df71d1eb2e4276f2962094d698703a3e3398b20ca859d93294c7"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\run.log",
+      "bytes": 1218,
+      "sha256": "311b42f856816795bedffd2a5618bb595124c777198b4b15df03511bfb8d5de9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\status.json",
+      "bytes": 326,
+      "sha256": "6c5c25a161593f19ec5ff304eaefcd4bdeee80b54b03be8e654c374709f6b0a1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\stdout.log",
+      "bytes": 10102,
+      "sha256": "d28831da2140191bd606495dd93a0f90f0845277f76b704acdfe3db89f3e9acf"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4350,
+      "sha256": "126d7c728edd306b4f64ee86c80a9119f0b0d2cacef6a4b853d68d1bf9a1a2be"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4359,
+      "sha256": "de3c161b5c7e727b8a895039a52aaee403e57e2cf6b8e01877ce62f07bc321f2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4376,
+      "sha256": "846b4140752109dff42a029de8f1242f63a37427412b90caf6576e3ae5a5430e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4393,
+      "sha256": "8e6eaa74b550e59bf43e47eb3b5d19d99f32fdacc889b2a7bbe5459117a6c372"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52807,
+      "sha256": "7da9ee5aa9c0dff36ab150411b06aa1c28b197b24084a1adc9bb0512c82d802c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 52649,
+      "sha256": "f8ee86b7f8490ca6f587c3a094a989bde44dbb6f624ee210b30b964b9e231ae5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51694,
+      "sha256": "a42c73fd5aa6a1dcd355edb82cc5b81c959f033a58ec242ac2756759fc075a42"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 51294,
+      "sha256": "369eda0df4ef6250c995a965d4285ce34fca05dc4d3cdee949b615e6bccc0812"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\training_run_config.json",
+      "bytes": 17155,
+      "sha256": "1916699c2101383759fffb9b17a4bfbb1d483882e871848a7ddcfe84c38461e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\training_run_manifest.json",
+      "bytes": 2580,
+      "sha256": "2af2ed7bb1080d37e961f14780b624ba8dc1612c9638ea336307d71378a1819e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\config.json",
+      "bytes": 2797,
+      "sha256": "aa82be76efa46927d236892007deabab9301392757cb79d1c5559839e9e2ff17"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\manifest.json",
+      "bytes": 8725,
+      "sha256": "ec2a8e112e7feb08da11d20bbc9900f63b4b4409cf3750d9a41cb5f306ef646b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\metrics.csv",
+      "bytes": 1708,
+      "sha256": "327fbbd02bb76c77bb9003ddaad8c1b17fbdb38420cf37e46d5c43a9bc0bd8e3"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\metrics.json",
+      "bytes": 4367,
+      "sha256": "4a8ef7040c6ea7dad4d35c27f29ea72f9cd698e0e5b8425e919d7533700b8499"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\run.log",
+      "bytes": 1218,
+      "sha256": "4ec63e376914cc62d33ae43cfb22e3b4d44af4b5c754b1755f0a653f172d0f70"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\status.json",
+      "bytes": 326,
+      "sha256": "01b3006d6331dcb2fe65e39ed6b8f4dd9b4930467a514ca96a311ed596be26a1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\stdout.log",
+      "bytes": 10103,
+      "sha256": "a352e5459c22a193ce66d5ed3678b9e05bcb8f01bd75cb8b6ab900c222051405"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4401,
+      "sha256": "37e4995cf16be7b7499fcfbd04cf906011cfaf22a8136428a194dee105fc494a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4421,
+      "sha256": "9726009f3b8fd2692b2b2ab956c3d28492da2589d295dd160d99bae90e366818"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4387,
+      "sha256": "08013a5556514d1adc52176d3fb3ea7f5721c69b7a7cca8a382ec22e8d25c9ab"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4374,
+      "sha256": "25d05bafaf8adb8b22cab73dd09c2004eca354834a7e033f03ed6e8e8049fae3"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52699,
+      "sha256": "e9879dbbd6c83d9afb2d2879ae7e523ca50383a99343032dc7342ebd8eae63aa"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 51791,
+      "sha256": "b8c2304d56b3c817f092f8fd9d0221fd14af202529c2026f47cf171bd4dc6507"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51587,
+      "sha256": "7668f8c2241e9fad6279a557408aabcdb359861829f5355eb938cb44e4d00853"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 51147,
+      "sha256": "24875316e7cbf5e891ad4ae8a4b9701447489ca15f3aa8cbffe730e3365ebccc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\training_run_config.json",
+      "bytes": 17155,
+      "sha256": "754b0b26ee4ec189ef9bfd8b72b424e4e90f09d88fc7c1a3648f80db22aa630a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\training_run_manifest.json",
+      "bytes": 2580,
+      "sha256": "56eed53f2fc85d45fac7b07701eb2a287b0488ce5c693ad2762e7789c7562106"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\config.json",
+      "bytes": 2555,
+      "sha256": "f0b09d50d760e3be533e373cbbb24dd07ac9e7f2b84149c26589e8e57594d979"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\manifest.json",
+      "bytes": 4983,
+      "sha256": "1fffe0d052fbd8453622f29624c0278fa4ff114629617211836727f2eba34c61"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\metrics.csv",
+      "bytes": 877,
+      "sha256": "6efc20b3339deed98c89088c9479214ece4435ec214fce327b9836bf959fa310"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\metrics.json",
+      "bytes": 2053,
+      "sha256": "8fa16e1b1353b95f63be53d44a3809fcc7a11037d73dcee4b2502d7a0fa5ded8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\run.log",
+      "bytes": 539,
+      "sha256": "badc5afd32785fb73cedf1a78b937cf093bf0b01bbfe9066a57d31b5e5319508"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\status.json",
+      "bytes": 326,
+      "sha256": "9433e48bd2fac61d1ec7adcad882d6b3d53f2cb7ac8f9e3a27ba3b23f1169ddc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\stdout.log",
+      "bytes": 5616,
+      "sha256": "314cf2401146fbf61288446ff7da1fd764912b8322500830adcbf3bf4c096957"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\training_run_config.json",
+      "bytes": 9370,
+      "sha256": "51e737dadf8c621815a69df2c7042ade10a48a01610b9886c67ffa5f09d01efa"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\training_run_manifest.json",
+      "bytes": 2573,
+      "sha256": "d3a547da70e5d475967c1f7331a0a60f9373e672ac7cec4123e6946cf7ee9bd4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 602010,
+      "sha256": "b2442d794b4c9f03f490a8fda6caa629852a3f47be29bf46c75d4825af0fc54f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21498,
+      "sha256": "74e40657c045fa812c0df88e416e44ccc5e62b714ccfb9dc26ea5fba2ad80865"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59983,
+      "sha256": "67c1023fe898c1f6ff801296f08a8decffa6bb0d8489335a2056862598c87838"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\config.json",
+      "bytes": 2555,
+      "sha256": "8c3f4ef46a39d49b86669668782c38484bf4b4321a9a9bbcc16c98ced7681c30"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\manifest.json",
+      "bytes": 4981,
+      "sha256": "e590365d394fb318229936cb2079d7c1c7a15164c6bc41865efe13138654aaa4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\metrics.csv",
+      "bytes": 881,
+      "sha256": "c250a2163d4c967493e02f7e212ebff6363bdfb992cf77664c212f731fd76bf4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\metrics.json",
+      "bytes": 2057,
+      "sha256": "c76e6519c915046dde2130cc589f3168755ef5ac8072fd53b691099cfd307a36"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\run.log",
+      "bytes": 540,
+      "sha256": "4e10b1b2a649d4921e66071b6cf2f487a76c410bd5b8e08cd1920d570337710b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\status.json",
+      "bytes": 326,
+      "sha256": "7cb9b2c9004617de0ba066ccc79ffe9db8999539478fda0269850a277d886484"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\stdout.log",
+      "bytes": 5615,
+      "sha256": "e2566ad626ff0c8084f5daba81ad85f164c377debc8d258fc53172116357b1f6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\training_run_config.json",
+      "bytes": 9370,
+      "sha256": "9d6236180ee66fb84f2712fe9e67faf1929d7a82502c8c2ae800b0a8ed93edf5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\training_run_manifest.json",
+      "bytes": 2578,
+      "sha256": "e9f5782253a943afc1af9ef75193b0ca6bc1d6ab0525a8ff542b0b17892e0a99"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 600930,
+      "sha256": "f57094c0fffc9b045298d305ccc9e190c5db265f35f5dbbbec308478f1129346"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21474,
+      "sha256": "05b26055540f7c01e299a2b0cce7b1df675861344c762d9dc6c7f7019ca11395"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59263,
+      "sha256": "f2a18955246b99bf36be9b5127f1e572b6e9a8435eced430e518ee55f68710dc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\config.json",
+      "bytes": 2555,
+      "sha256": "993caa59b415935a548240d412f9ecf553e6765d279d5b1b2131f83b89b93daa"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\manifest.json",
+      "bytes": 4983,
+      "sha256": "4ba2f9c6c55482baf6583f9f07e90c3c2aca207e68dc2cf461ebf4ad7186ec3a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\metrics.csv",
+      "bytes": 883,
+      "sha256": "a7e5f8cecd01aefc6dbab26e48756e0f86646d95950281be8a45b28bc25c0620"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\metrics.json",
+      "bytes": 2059,
+      "sha256": "27929a323c9d6ed4bc02279e3cf74e6288fb2a396d8982fbabee4b996b376da6"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\run.log",
+      "bytes": 539,
+      "sha256": "5ae37cefd2a52336bbdfed8839700d3340ce14d9ff75f469bcdfe75381bce228"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\status.json",
+      "bytes": 326,
+      "sha256": "dd47f73bab115fae4b7950a22b5eeaaf65c4d25231a71dfbf755793e5487a9e4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\stdout.log",
+      "bytes": 5616,
+      "sha256": "345c38dc36efb3e2f811f07ae81857ba0ca627858bef1d9ab60b41932525bf5c"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\training_run_config.json",
+      "bytes": 9370,
+      "sha256": "dd24bca55fcd235d85ef4c8207bb17c4deefc55eda3abb917619ef6f2e1c503f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\training_run_manifest.json",
+      "bytes": 2578,
+      "sha256": "615fd3f7457768be4b9827df0ac7fde4eb2dac28308e337a09abbd9184b55932"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 601986,
+      "sha256": "64adc510bcb9c8c91d6c383b715d235cd490422d99f9ef4985e2b6ee9e8cda12"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21378,
+      "sha256": "30bf9645b865a86689749fe593080bcc1abb4dd682072fa296790e379419a0d8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59736,
+      "sha256": "8062c5201cda5238e4f38ef27a0e0b37b40dca64023972ed1c37716b6ff8c9f1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\config.json",
+      "bytes": 2551,
+      "sha256": "ec0ab5da33854ca30f2b1fdadd06de92df2f42fdeaf605baff9f3708691d8d7a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\manifest.json",
+      "bytes": 4966,
+      "sha256": "10c8769d46ed1c72f355742256d4361f4944f4a38e24a83223b7c694ad0afd76"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\metrics.csv",
+      "bytes": 876,
+      "sha256": "b9d685ddf4d0883df7cbae46f8356938e598fbc2eeba2f707bd7a28a692171cf"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\metrics.json",
+      "bytes": 2050,
+      "sha256": "0825ac601de218c5f235336b22de36752be7735d76bdc70c2133bbbdfb01b23f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\run.log",
+      "bytes": 538,
+      "sha256": "44c90da714aad61821b3b7472d46e07a34bae6f733c30afb13687dabca3a9256"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\status.json",
+      "bytes": 326,
+      "sha256": "b1b68819cb2f4a250ef9fcf88c25a1ad9e96b4bf00753163f8658ed877308d88"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\stdout.log",
+      "bytes": 5598,
+      "sha256": "7287233a191f9aa5f37ecbc0bdad60385518cbfebb05e675ffd4eed2a415055a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\training_run_config.json",
+      "bytes": 9364,
+      "sha256": "655048686b3f37882510f5006a7d8dfc5a687c08c912d2aff0d502fd4c6438f8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\training_run_manifest.json",
+      "bytes": 2578,
+      "sha256": "9d51c663dca507de2c2190ab9da839df6ad9472d1ed8eb44ed17219a91c7de64"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 610093,
+      "sha256": "20fd123b202c573e456345326e4b933c99b6ecc112995166f97cfdda613a6b81"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21608,
+      "sha256": "2dbecf3e6bce479e790016f0f01787b5812cd77a0e3ced2bf8061e9e00b2e291"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59631,
+      "sha256": "47d05c55b8830be0970c01efd595ae85ec338fb2e54efddcba8cde43e2bee2ce"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\config.json",
+      "bytes": 2551,
+      "sha256": "d00a5f220eb9a163d6ed7271c9c6e049004e812c2661744f5b678a70ebe5c889"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\manifest.json",
+      "bytes": 4967,
+      "sha256": "d0edefec0da353bea1ead924b975967ee4a0df406dd6ee66ec2c6816f39e6508"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\metrics.csv",
+      "bytes": 880,
+      "sha256": "059358879aedc72da1835b69a266c534cebc8025b49b2701a68ffd1ec864d7af"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\metrics.json",
+      "bytes": 2054,
+      "sha256": "d105646808a09790a20a288ba1c46dde4ab3511745a74fa908488dac5b4b4855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\run.log",
+      "bytes": 538,
+      "sha256": "4672f799e9c5c23af34e57accb36b6a38ea1baf2a77a16037274bb8563b8d1d5"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\status.json",
+      "bytes": 326,
+      "sha256": "bc0a8d52a08800565c660afcf9ea99d92c9010e6693429922b7b57e5946961cc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\stdout.log",
+      "bytes": 5599,
+      "sha256": "fd20a67a7ed9252fe6e7b90db4fb9d6c9dc76661a5373496a5fc0612c4e896af"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\training_run_config.json",
+      "bytes": 9364,
+      "sha256": "f061b40923f60790d704cca6f92bf94bc132c53ca61e5ceec21fd39eac98b829"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\training_run_manifest.json",
+      "bytes": 2578,
+      "sha256": "a828a50f07fedce553f22f207a19fad036d3642ac6c0a07d0aba6135ca31da1a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 611746,
+      "sha256": "539afc85628821f91aaccda1d445ca173df0f3424f91108c33e6056118ad28ec"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21738,
+      "sha256": "8f11e419ad8c73d08609938937503cf02743e7a06cd20ba4dc609bd52de6b261"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59932,
+      "sha256": "b019ed46006d1d70b83bcf4f0e6e5b08626e245fcbb2d20681fde1fd6e79ff13"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\config.json",
+      "bytes": 2551,
+      "sha256": "0a80aefc240dc5ed988b44c333b6d79175b66eaa443481ee5d7b5dfd7e62ee0f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\manifest.json",
+      "bytes": 4967,
+      "sha256": "85dd6ed7b62c81d2c8e27490a1912880d305e9feeeca8b2db280dfe1782b0df4"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\metrics.csv",
+      "bytes": 881,
+      "sha256": "1fbd71d87a5fd83e455573fc02784add09a9abd8d726a013fd1ece4d4882c981"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\metrics.json",
+      "bytes": 2055,
+      "sha256": "b892648f45de170ecac8efb74ac6579fa6c59f7e691d2cebf5e1399eedf518d0"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\run.log",
+      "bytes": 538,
+      "sha256": "1d980b37e34616c822adda7f870bb1a9a170cb0bb5e60480afe170a921365940"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\status.json",
+      "bytes": 326,
+      "sha256": "f573f4ae0ed4ced2a450d68dcb3cb8d5e9fba8cb1a7b6e7c4ecff9ed9d6708ac"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\stdout.log",
+      "bytes": 5599,
+      "sha256": "9d5c96c70beb17d847baefca0ccd7121c563460273342cbedaef51ebb55ad0e0"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\training_run_config.json",
+      "bytes": 9364,
+      "sha256": "19e449730406637893139646cd98e45ebf94451900d656b0fea493925048f1fc"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\training_run_manifest.json",
+      "bytes": 2578,
+      "sha256": "deccd08adcd70b893aed956256c8383eb745065116513912579b7df6e55697c2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 612629,
+      "sha256": "7e30b771b628f602322525ca98b1e38ae80599a9e80fe2a7416f328df7830593"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21647,
+      "sha256": "4dfc99072974bad977fea3ffe16e6d1dcc9950fdcaf2dd441100a24bbc746022"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59859,
+      "sha256": "aa4be44c98bd26540cff312f08130e7d917f3bb62ebe125b5505da55b7b16564"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\review_transfer.py",
+      "bytes": 33321,
+      "sha256": "3ccba056f279227aa0b425d318b77cab23123c92dabea55e4ada7d38ae012645"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055612_827811\\TRANSFER_REVIEW.json",
+      "bytes": 16313,
+      "sha256": "df43c200e9ec1a364ab2571eae73424b58997a6ac05747c6919feb0d47f5180a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\V1_TO_V2.patch",
+      "bytes": 5160,
+      "sha256": "c9c9d453d128ddc42fb6841dd6ffdf071e9e39b6051622f46b211a9e204136e0"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\V2_TO_V3.patch",
+      "bytes": 9080,
+      "sha256": "eee3e25f320e531f225a4c3b54f1c20054030635d6ccd042302d0e85e866c3bb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\review_transfer_v2.py",
+      "bytes": 34285,
+      "sha256": "51493d8e86df998581668e8485f7e8c23bfca7c17d469757a0dc4cf385310130"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_transactions_t3_transfer_matrix.py",
+      "bytes": 26297,
+      "sha256": "50e681a17bd21188ec059112a77653e04f0cd716a95f4e1c0dfbb486375cc84c"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_cross_dataset_evaluation.py",
+      "bytes": 35922,
+      "sha256": "29cccd4ff3e975571b578288f7a691ceccaf4a8ed7ab9483812b68edbc4f5ed8"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\lgm_game_pytorch\\formal_retrieval.py",
+      "bytes": 102924,
+      "sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\ROOT_OFFICIAL42_AND_PIPELINE2_ADOPTION_20260929.json",
+      "bytes": 677924,
+      "sha256": "3b2bb1629f5b769fcd956c08068fa8ab2c947c9b36898a4bec2742e21110c17e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\ROOT_FIT_42_ADOPTION_20260928.json",
+      "bytes": 15430,
+      "sha256": "ca54f91342f77d7d17f18a932c61681ae6f4d7c14f4ffd917c0c1594fc289e87"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\sues_batch9_v2_20260929_045155_947606\\SUES_BATCH9_EVALUATION_REVIEW.json",
+      "bytes": 345189,
+      "sha256": "3cb6894e754bf9388519b5886491deca61e807472b7dbde9c2e93dd3ff65c074"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\ROOT_SUES_BATCH11_ADOPTION_20260929.json",
+      "bytes": 530804,
+      "sha256": "657968ef1cf457bdc0b052c45cd0b2fd4f22dc687dc012d6f8482286e1fb052b"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260922\\BATCH_COMPLETION_0013.json",
+      "bytes": 30975,
+      "sha256": "d0c73981bd2679d2d569bd37715f332384f9f2e62fa14290aa23ed659fef50e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260922\\BATCH_COMPLETION_0944.json",
+      "bytes": 37338,
+      "sha256": "2183ab32674d171f0d7ce15ea96b5e72b1990ad7071404e89403108f28f96a25"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\ROOT_FIT_41_ADOPTION_20260928.json",
+      "bytes": 15647,
+      "sha256": "e5f1c6512f829a66e9dc73915627d985aec174dfe7f4226696b631298369bd05"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\ROOT_FIT_40_ADOPTION_20260928.json",
+      "bytes": 15637,
+      "sha256": "f3a6d7a2d3bec664c5cb6fd3f2ae7d0d2f7d5a1cb1bda82c337c6a575f062488"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\ROOT_FIT_39_ADOPTION_20260928.json",
+      "bytes": 15587,
+      "sha256": "825ba1aa69276c7e199f4af8d2a5a136f2d5c9d85e21cac3ca764902face3658"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260928\\ROOT_FIT_38_ADOPTION_20260928.json",
+      "bytes": 15566,
+      "sha256": "c7eb61a1cf10063cf4dd41f70f973800d1dce26f1cb08439abfcf4d89c66ecc8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260927\\ROOT_FIT_37_ADOPTION_20260927.json",
+      "bytes": 15517,
+      "sha256": "17eb5561cd85052b654aab96090c652aad5b9c8312a9fdc58fed5d5747009024"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260922\\ROOT_BATCH_36_ADOPTION_20260922.json",
+      "bytes": 10353,
+      "sha256": "1c7bdd8e27328118789462a3db2f8283d6803e50c26a2914dd4674010ddf358f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260922\\ROOT_BATCH_32_ADOPTION_20260922.json",
+      "bytes": 9633,
+      "sha256": "e07199cc5aaba3e041388f27a22c361375fb81bded303ffc25381ebc04bd0ff2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260921\\ROOT_BATCH_29_ADOPTION_20260921.json",
+      "bytes": 20703,
+      "sha256": "913151ff2165b5e4b4fee2aee8aae4c0ae13fda42d5dfe9bc6ac7a8722fcea07"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260921\\BATCH_COMPLETION_1611.json",
+      "bytes": 79651,
+      "sha256": "f88259d145316e76b36f63130800f2a47f91c0cbdf863fd9cabb2381bbca0bb2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\sues_batch11_20260929_034356_906951\\SUES_BATCH11_EVALUATION_REVIEW.json",
+      "bytes": 392632,
+      "sha256": "78b187ce0388f5d8d28ebcb7139039059cf897eb574051c38ee50e72a60e6a1a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\ROOT_SUES_CONTENT_SEED1_ADOPTION_20260929.json",
+      "bytes": 80184,
+      "sha256": "7acf3313c7d3950a3da9f0fe13166b9536dd5615f5b0137eaf09a25cd621e715"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\ROOT_BATCH6_ADOPTION_20260929.json",
+      "bytes": 150745,
+      "sha256": "c0735605a977e5ffcfd877e980a3773e9a747d4d7b4d68b9b682a0276f693fae"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\batch6_20260929_024917_529481\\BATCH6_EVALUATION_REVIEW.json",
+      "bytes": 199501,
+      "sha256": "f2d578c904e14c99b4d5b4a00ace980d3ecca99c5ba43d2ebe6c7b228e98acf1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260928\\ROOT_BATCH10_ADOPTION_20260928.json",
+      "bytes": 192417,
+      "sha256": "155610032a4e1951527206ee47c4366fbb202a7c175006209913cee86902173e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\state_write_recovery_20260920_0138\\ROOT_ADOPTION_20260920.json",
+      "bytes": 2665,
+      "sha256": "871c6b014a48463af26e1624badad591db191f8a57aedf5687e8636f3ec95f97"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260920\\ROOT_SEED3_ADOPTION_20260920.json",
+      "bytes": 3840,
+      "sha256": "4ea57f0956af59749dd93c151108414f94e749d7ccb10fa8e75834b4c6196e7f"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260920\\ROOT_FULL_SEED1_ADOPTION_20260920.json",
+      "bytes": 3892,
+      "sha256": "772133fee742bb3b26825eb8e3c05760cf4ace5e28f22d729c013841be84a018"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260920\\ROOT_FULL_SEED2_ADOPTION_20260921.json",
+      "bytes": 3897,
+      "sha256": "0474c03baf3170dab96b297b9d426bd6b6ce1e7ad30fe5525cab2651bf6a8437"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260928\\batch10_20260928_133806_171727\\BATCH10_EVALUATION_REVIEW.json",
+      "bytes": 293324,
+      "sha256": "7dc08f79d974394c95c53fca990fd55b3832981d72bc0d09a2b64b53206988c8"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260928\\ROOT_CONTENT_SEED12_ADOPTION_20260928.json",
+      "bytes": 59292,
+      "sha256": "1676ad826b902a0275f931834a33489d699c0690a9d5826be06401b9a62573f3"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\completion_audits_20260922\\BATCH_0944_LEDGER_RAW.json",
+      "bytes": 271908,
+      "sha256": "55e5ffe63d9f4c907076552db832e2b4c0647fa10dadea8bcdaf7668c4be8187"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\transactions_t3_transfer_matrix.json",
+      "bytes": 3503,
+      "sha256": "4608df2075ab1bfd4f38c949935a4e0c2ca6516c9716b87376f39b1b951d4bf3"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\transactions_t3_ledger.json",
+      "bytes": 59877,
+      "sha256": "064a3d88dd01309f0cce36a23a91da903000135573fa98ecb64d29d0831cd75e"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\experiments\\transactions_t3_transfer_matrix.json",
+      "bytes": 3503,
+      "sha256": "4608df2075ab1bfd4f38c949935a4e0c2ca6516c9716b87376f39b1b951d4bf3"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\experiments\\run_transactions_t3_transfer_matrix.py",
+      "bytes": 26297,
+      "sha256": "50e681a17bd21188ec059112a77653e04f0cd716a95f4e1c0dfbb486375cc84c"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\experiments\\run_cross_dataset_evaluation.py",
+      "bytes": 35922,
+      "sha256": "29cccd4ff3e975571b578288f7a691ceccaf4a8ed7ab9483812b68edbc4f5ed8"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\lgm_game_pytorch\\formal_retrieval.py",
+      "bytes": 102924,
+      "sha256": "081f327f8f83d79ab078adc61e76070c140f13e0ac9a0d8f423bfad15df59862"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\TRANSACTIONS_EXTENSION_PROTOCOL.md",
+      "bytes": 25148,
+      "sha256": "76b0b29ce7a09710dd8e4495f1fbed36eef2fddce148ad463d83fb115e8a2f4b"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.meta.json",
+      "bytes": 6004,
+      "sha256": "3731072d3a1c8a3b9fe8d880fd791dfbe7eb82f2d93be85b82be229ff8512dbf"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evidence_cache\\sues200_clip_image_evidence.meta.json",
+      "bytes": 6662,
+      "sha256": "3dc42892bbff9339d058fc0d6abaf2fd9e92cc94f9f9b7fd58ed0ae725b57dca"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_1\\run_config.json",
+      "bytes": 17161,
+      "sha256": "955aa9886c82a7bf3ce206a89e12dcf5a58151d0e03c60ed3e898aa112701e1b"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_1\\run_manifest.json",
+      "bytes": 2575,
+      "sha256": "1b148e7ccb794b5efd2aa76e0b86b1fa91730cf77fd4745174a0afe1a0a8e3e2"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\transfer_evaluation_config.json",
+      "bytes": 2801,
+      "sha256": "f71e2e3ee4417fc1388cca539387a0682de858e6b5ebc8e76f002153ae2017bc"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\transfer_evaluation_manifest.json",
+      "bytes": 8750,
+      "sha256": "6e46536abffaac2a6789060deff9201dee6e3cf9129cadb1e23c4efc4cc3ab01"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "9273ab8c1dca43cf6f7f3a6435fe8c230260f85520af1eb839b7badc6c95c9d9"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\visual\\seed_1\\attempt_1_stdout.log",
+      "bytes": 10129,
+      "sha256": "962bb354fb627de05f54e36a206527de928c82bf21c06f87b79b24023e5ecd3f"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\visual\\seed_1\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\run.log",
+      "bytes": 1219,
+      "sha256": "76a669503bb7a125b6f22aa3c8d9d7f0f5fe2c1ba820cae3546d50b9db4d768e"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\metrics.json",
+      "bytes": 4377,
+      "sha256": "1bd1151be32b455f04e912d83dd3f794451874964c80a78ee610641464a8bcad"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\metrics.csv",
+      "bytes": 1716,
+      "sha256": "247a6e3c4dd80f0628ca6cc265b0db56eb39f5b6047b9495400c40f975d67286"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52203,
+      "sha256": "fa148e380415fb04f07513091dd36516c30d6f33a701b52ebc1e01d2877b1d92"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4396,
+      "sha256": "48ba94979dbf5c0aaf43131b31f3e0693dee203c9274e9692c9f716f6729f1ef"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 51352,
+      "sha256": "a3563da61e8b17c2ec7ec0a7194f6281705120789eb597c84798f2ff2e68e1a5"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4366,
+      "sha256": "cb5bd41bef25b2a16f2ba9169300f44d0098fb8523086e139003d9c7bed442f6"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 50270,
+      "sha256": "32e2f0fc09ec5c2fe7e932c4f2b0057b0638e9983d902cf459ab807043a3c7ce"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4346,
+      "sha256": "513a445c614c6e8b27edf0a0142aed32c9fb3acf43962f23f7a1a53324a21736"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 49392,
+      "sha256": "fa75b243373e89777c695ad66c506f2df6e4992206c9ab0a99b31cbdf9111280"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4356,
+      "sha256": "3f6e1651262af75dbdbe4441f1f5bab1b75731fc75a734f31bd347be7effdb2e"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_2\\run_config.json",
+      "bytes": 17161,
+      "sha256": "4b31986135d9990c28166ac3c96311e0087f54f5103d40bb3147fe46c44c27c6"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_2\\run_manifest.json",
+      "bytes": 2580,
+      "sha256": "d87acabde19e44fbeb676ca65956f9e7faf05a5de43851b5244e9860b2fd3d78"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\transfer_evaluation_config.json",
+      "bytes": 2801,
+      "sha256": "c1ba425b543638d51858f9d3830004b061c018e939559114b4475d45120eb493"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\transfer_evaluation_manifest.json",
+      "bytes": 8751,
+      "sha256": "5fcf3eaa9432c06b924020e2c5e308aac8d33c7cf1059199933f341d29c9b870"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "84bd861cfd79265f3b72fd21fa3368a1166e070337a3907918324d80907c41d4"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\visual\\seed_2\\attempt_1_stdout.log",
+      "bytes": 10130,
+      "sha256": "6f07881041c2bb205655a6454bf105fb07c8b7344e7be1d576e9bcc718c00a47"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\visual\\seed_2\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\run.log",
+      "bytes": 1219,
+      "sha256": "2f0eecc41b3f3f3a58d172c5dff9b6f8e54b745599fae245f39b835282931c19"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\metrics.json",
+      "bytes": 4370,
+      "sha256": "b1308b180e4fd90e33889492253f338a21b34549d0c83f94c4d14ca689eea663"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\metrics.csv",
+      "bytes": 1709,
+      "sha256": "3e44b1d64187c3db7a7b0ef201d5f5d1b6819727de91f451393b1bf415dd32fb"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\per_query_arrays\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52861,
+      "sha256": "6b8747f68c83c95096255a3d03ec83d9bf3d525cd0c45bb34ba3716b407c52a8"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\per_query_arrays\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4421,
+      "sha256": "05c98ed10b7685047b0a80ede75b40e633bfb5aef49a98418ea2a0f352b7e220"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\per_query_arrays\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 52094,
+      "sha256": "cf6b93012aa771da67968e2fef6f8ece557259035104033837493a789453bc9e"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\per_query_arrays\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4395,
+      "sha256": "52d6197bf01b0e182154c8cfca52cf3c7a7d2cd657a59fe43ad702581efdaa01"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\per_query_arrays\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51339,
+      "sha256": "5d9a898882fad0e5f7b5e0b2601b76efdfcecc1687f745c59081908db949d7ca"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\per_query_arrays\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4384,
+      "sha256": "e1f27f4c221bb8328eb01b26b4fb114e9f4bbbfbd9210eb73efd3fea690876d0"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\per_query_arrays\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 50735,
+      "sha256": "db63778d1b65b169a14efa98c3519113a0907a133f346bddaeb4256d9206c649"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_2\\per_query_arrays\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4378,
+      "sha256": "0c0cd8d758aa03c88438b97f13ce3c555017de7a0ac079ffc3b54a66daeb0012"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_3\\run_config.json",
+      "bytes": 17161,
+      "sha256": "fc521e93a8e2d13d12806fad041250724fd264c013446a0f8d73dd6c70453800"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_3\\run_manifest.json",
+      "bytes": 2580,
+      "sha256": "856b0dd54fda49141072a2b21d051be969dba6e3de2ad728dde2e2390ee9661b"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\transfer_evaluation_config.json",
+      "bytes": 2801,
+      "sha256": "9ebd4362c82cb86a9bb38e4109fae893404d1f170e0829d05b919bc77a69dc5b"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\transfer_evaluation_manifest.json",
+      "bytes": 8751,
+      "sha256": "764a1a985f823ad56c1449fb6b783a439e86ae318e66a66e505ad1a97e632e55"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "d86bd3f9e48488ce4d2228bdbe15e1944baed3d595cba04add0f947f8d77d44a"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\visual\\seed_3\\attempt_1_stdout.log",
+      "bytes": 10130,
+      "sha256": "c1ef2f4155e2c2dd915f39dcf7de206dfe7454aeb58e6485d7a601287cf9ec2e"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\visual\\seed_3\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\run.log",
+      "bytes": 1219,
+      "sha256": "db6a7b9ddea05891c552566a96fff096d32c33c02d2a1784cf653a474fc06132"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\metrics.json",
+      "bytes": 4370,
+      "sha256": "87a8535d7aa1bf93597429694edad84a1550787a66120424ceb052ab03fab2de"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\metrics.csv",
+      "bytes": 1709,
+      "sha256": "070aea963cd1fb1c67687beb415ebc24ed030b78154df7ddffae8259f58570c9"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\per_query_arrays\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52992,
+      "sha256": "a3a13f0fdf0bafa70791d8b2d6c14fb503756180000b8f3170a943d84f47274e"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\per_query_arrays\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4420,
+      "sha256": "aa239f239fe31fde89135121765436b3464268c1c3002940fe55547e8106d746"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\per_query_arrays\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 52602,
+      "sha256": "067060ab616574b1d00d33bb4837e4368849c5f7a6315be7a992a47ad978a64b"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\per_query_arrays\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4386,
+      "sha256": "e5ac64348309eeaf17e438c854167760d9a875cebbdb936fed081d074e8e6b9a"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\per_query_arrays\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51677,
+      "sha256": "fb70234409a034e4c3ffc589f514a123de90717282e3ffccbbe808828a23f486"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\per_query_arrays\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4389,
+      "sha256": "a4d61350893284fbb5604ab745dbf3834bdeaa30abf7fcfffaff5953c8c6278f"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\per_query_arrays\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 50912,
+      "sha256": "88fad7c016f0ebaf23390b36424008adf85bd6973a89d23526484a2dc3bafd68"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_3\\per_query_arrays\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4379,
+      "sha256": "1ca938265645ab833700436859c188687da39e3ae7d70845855314ec7342c8b4"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\full\\seed_1\\run_config.json",
+      "bytes": 17155,
+      "sha256": "6fa70b366ab34a52dc90aeaa6819fb98b2ce1db9d90a4c58b1be12f76acbacbb"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\full\\seed_1\\run_manifest.json",
+      "bytes": 2580,
+      "sha256": "1b8e982f3c5020d316ef15b6720f951a3975085b93680215adf3306b54aaa955"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\transfer_evaluation_config.json",
+      "bytes": 2797,
+      "sha256": "3a90b02798787dbbd95b2307437e0f9e90865ec867d148ca50071c4aef18210c"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\transfer_evaluation_manifest.json",
+      "bytes": 8725,
+      "sha256": "9395345cd9c5d42e65afae74660de20f239c0a0fa0b2d8cbe9ad3af8e455cc7a"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "19b2c9e8e9696dd5f433565e274768b61e82c59bbcb06b41cb4512670973c1f9"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\full\\seed_1\\attempt_1_stdout.log",
+      "bytes": 10103,
+      "sha256": "533570ba75909ae8c1e3bcc75b6b7a49e31e418bcf76a5b96a2056de93bfce8d"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\full\\seed_1\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\run.log",
+      "bytes": 1218,
+      "sha256": "86d17d425cafcadebe79b04748025d9f54d950856943355922b259c81ba7f014"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\metrics.json",
+      "bytes": 4373,
+      "sha256": "0933264bc79ee8aeb078b206d8cb29a0b516d10e7cb52e82a7318151d6461549"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\metrics.csv",
+      "bytes": 1714,
+      "sha256": "595f09ffdaa69b831ee7ffbdadef1e90d69e3e716464391d3a374f98f0369f92"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\per_query_arrays\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52594,
+      "sha256": "9cb0a7abd501376b430bdf0bdf5e3df357c1eacc5285cf99bf8f89182fc319cf"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4370,
+      "sha256": "d910130336cfc6a200c9c1e493eb6dab053fb1b99ded418a5722ad5c7e209a97"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\per_query_arrays\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 52348,
+      "sha256": "6c3b8b1e89dd3533824ae5ef9f2d25cc9823d71144ebc87f19d03d5c35b779ef"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4383,
+      "sha256": "d44562872d2a717cc9b6b23f09360cf2f30f6bdbe0e9e8dbfb8861a72e61c3be"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\per_query_arrays\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51634,
+      "sha256": "805d25cf922450aca8076f476f906080521cb33a6c95b32b9ea65a6bb5d8ec32"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4385,
+      "sha256": "72a6d666d7f71b300fe8922c1258735a8f913ebbbfa0fa4e5b0abe2f660d53bc"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\per_query_arrays\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 50608,
+      "sha256": "32034c1595a21547737af9fca9d686645f97dab4d96c420fe0e654bfdda25a17"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4386,
+      "sha256": "0afd4de67602069e02ce3c4c0324a6b5dc084c0d22c68460567addb727d02eaa"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\full\\seed_2\\run_config.json",
+      "bytes": 17155,
+      "sha256": "1916699c2101383759fffb9b17a4bfbb1d483882e871848a7ddcfe84c38461e1"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\full\\seed_2\\run_manifest.json",
+      "bytes": 2580,
+      "sha256": "2af2ed7bb1080d37e961f14780b624ba8dc1612c9638ea336307d71378a1819e"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\transfer_evaluation_config.json",
+      "bytes": 2797,
+      "sha256": "d1c0c6333df087beff0e35a4b9572bf2e7d8bf457ee397a357ec00048cf39928"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\transfer_evaluation_manifest.json",
+      "bytes": 8724,
+      "sha256": "893deb82d3a3e98664c37338bf3fdc53ee97bfc8b49cc871c0a6a55baf7579f6"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "6c5c25a161593f19ec5ff304eaefcd4bdeee80b54b03be8e654c374709f6b0a1"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\full\\seed_2\\attempt_1_stdout.log",
+      "bytes": 10102,
+      "sha256": "d28831da2140191bd606495dd93a0f90f0845277f76b704acdfe3db89f3e9acf"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\full\\seed_2\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\run.log",
+      "bytes": 1218,
+      "sha256": "311b42f856816795bedffd2a5618bb595124c777198b4b15df03511bfb8d5de9"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\metrics.json",
+      "bytes": 4369,
+      "sha256": "c2946118b7a5df71d1eb2e4276f2962094d698703a3e3398b20ca859d93294c7"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\metrics.csv",
+      "bytes": 1710,
+      "sha256": "21824d511c3994307f8da057ee39968fce4bd4711470a3c5aae9b43745f377ff"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\per_query_arrays\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52807,
+      "sha256": "7da9ee5aa9c0dff36ab150411b06aa1c28b197b24084a1adc9bb0512c82d802c"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\per_query_arrays\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4350,
+      "sha256": "126d7c728edd306b4f64ee86c80a9119f0b0d2cacef6a4b853d68d1bf9a1a2be"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\per_query_arrays\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 52649,
+      "sha256": "f8ee86b7f8490ca6f587c3a094a989bde44dbb6f624ee210b30b964b9e231ae5"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\per_query_arrays\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4359,
+      "sha256": "de3c161b5c7e727b8a895039a52aaee403e57e2cf6b8e01877ce62f07bc321f2"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\per_query_arrays\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51694,
+      "sha256": "a42c73fd5aa6a1dcd355edb82cc5b81c959f033a58ec242ac2756759fc075a42"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\per_query_arrays\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4376,
+      "sha256": "846b4140752109dff42a029de8f1242f63a37427412b90caf6576e3ae5a5430e"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\per_query_arrays\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 51294,
+      "sha256": "369eda0df4ef6250c995a965d4285ce34fca05dc4d3cdee949b615e6bccc0812"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_2\\per_query_arrays\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4393,
+      "sha256": "8e6eaa74b550e59bf43e47eb3b5d19d99f32fdacc889b2a7bbe5459117a6c372"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\full\\seed_3\\run_config.json",
+      "bytes": 17155,
+      "sha256": "754b0b26ee4ec189ef9bfd8b72b424e4e90f09d88fc7c1a3648f80db22aa630a"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\full\\seed_3\\run_manifest.json",
+      "bytes": 2580,
+      "sha256": "56eed53f2fc85d45fac7b07701eb2a287b0488ce5c693ad2762e7789c7562106"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\transfer_evaluation_config.json",
+      "bytes": 2797,
+      "sha256": "aa82be76efa46927d236892007deabab9301392757cb79d1c5559839e9e2ff17"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\transfer_evaluation_manifest.json",
+      "bytes": 8725,
+      "sha256": "ec2a8e112e7feb08da11d20bbc9900f63b4b4409cf3750d9a41cb5f306ef646b"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "01b3006d6331dcb2fe65e39ed6b8f4dd9b4930467a514ca96a311ed596be26a1"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\full\\seed_3\\attempt_1_stdout.log",
+      "bytes": 10103,
+      "sha256": "a352e5459c22a193ce66d5ed3678b9e05bcb8f01bd75cb8b6ab900c222051405"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\university1652_to_sues200\\full\\seed_3\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\run.log",
+      "bytes": 1218,
+      "sha256": "4ec63e376914cc62d33ae43cfb22e3b4d44af4b5c754b1755f0a653f172d0f70"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\metrics.json",
+      "bytes": 4367,
+      "sha256": "4a8ef7040c6ea7dad4d35c27f29ea72f9cd698e0e5b8425e919d7533700b8499"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\metrics.csv",
+      "bytes": 1708,
+      "sha256": "327fbbd02bb76c77bb9003ddaad8c1b17fbdb38420cf37e46d5c43a9bc0bd8e3"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\per_query_arrays\\sues200_uav_150m_to_satellite_per_query.npz",
+      "bytes": 52699,
+      "sha256": "e9879dbbd6c83d9afb2d2879ae7e523ca50383a99343032dc7342ebd8eae63aa"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\per_query_arrays\\sues200_satellite_to_uav_150m_per_query.npz",
+      "bytes": 4401,
+      "sha256": "37e4995cf16be7b7499fcfbd04cf906011cfaf22a8136428a194dee105fc494a"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\per_query_arrays\\sues200_uav_200m_to_satellite_per_query.npz",
+      "bytes": 51791,
+      "sha256": "b8c2304d56b3c817f092f8fd9d0221fd14af202529c2026f47cf171bd4dc6507"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\per_query_arrays\\sues200_satellite_to_uav_200m_per_query.npz",
+      "bytes": 4421,
+      "sha256": "9726009f3b8fd2692b2b2ab956c3d28492da2589d295dd160d99bae90e366818"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\per_query_arrays\\sues200_uav_250m_to_satellite_per_query.npz",
+      "bytes": 51587,
+      "sha256": "7668f8c2241e9fad6279a557408aabcdb359861829f5355eb938cb44e4d00853"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\per_query_arrays\\sues200_satellite_to_uav_250m_per_query.npz",
+      "bytes": 4387,
+      "sha256": "08013a5556514d1adc52176d3fb3ea7f5721c69b7a7cca8a382ec22e8d25c9ab"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\per_query_arrays\\sues200_uav_300m_to_satellite_per_query.npz",
+      "bytes": 51147,
+      "sha256": "24875316e7cbf5e891ad4ae8a4b9701447489ca15f3aa8cbffe730e3365ebccc"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\full\\seed_3\\per_query_arrays\\sues200_satellite_to_uav_300m_per_query.npz",
+      "bytes": 4374,
+      "sha256": "25d05bafaf8adb8b22cab73dd09c2004eca354834a7e033f03ed6e8e8049fae3"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\visual\\seed_1\\run_config.json",
+      "bytes": 9370,
+      "sha256": "51e737dadf8c621815a69df2c7042ade10a48a01610b9886c67ffa5f09d01efa"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\visual\\seed_1\\run_manifest.json",
+      "bytes": 2573,
+      "sha256": "d3a547da70e5d475967c1f7331a0a60f9373e672ac7cec4123e6946cf7ee9bd4"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_1\\transfer_evaluation_config.json",
+      "bytes": 2555,
+      "sha256": "f0b09d50d760e3be533e373cbbb24dd07ac9e7f2b84149c26589e8e57594d979"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_1\\transfer_evaluation_manifest.json",
+      "bytes": 4983,
+      "sha256": "1fffe0d052fbd8453622f29624c0278fa4ff114629617211836727f2eba34c61"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_1\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "9433e48bd2fac61d1ec7adcad882d6b3d53f2cb7ac8f9e3a27ba3b23f1169ddc"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\visual\\seed_1\\attempt_1_stdout.log",
+      "bytes": 5616,
+      "sha256": "314cf2401146fbf61288446ff7da1fd764912b8322500830adcbf3bf4c096957"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\visual\\seed_1\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_1\\run.log",
+      "bytes": 539,
+      "sha256": "badc5afd32785fb73cedf1a78b937cf093bf0b01bbfe9066a57d31b5e5319508"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_1\\metrics.json",
+      "bytes": 2053,
+      "sha256": "8fa16e1b1353b95f63be53d44a3809fcc7a11037d73dcee4b2502d7a0fa5ded8"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_1\\metrics.csv",
+      "bytes": 877,
+      "sha256": "6efc20b3339deed98c89088c9479214ece4435ec214fce327b9836bf959fa310"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_1\\per_query_arrays\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 602010,
+      "sha256": "b2442d794b4c9f03f490a8fda6caa629852a3f47be29bf46c75d4825af0fc54f"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_1\\per_query_arrays\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21498,
+      "sha256": "74e40657c045fa812c0df88e416e44ccc5e62b714ccfb9dc26ea5fba2ad80865"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_1\\per_query_arrays\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59983,
+      "sha256": "67c1023fe898c1f6ff801296f08a8decffa6bb0d8489335a2056862598c87838"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\visual\\seed_2\\run_config.json",
+      "bytes": 9370,
+      "sha256": "9d6236180ee66fb84f2712fe9e67faf1929d7a82502c8c2ae800b0a8ed93edf5"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\visual\\seed_2\\run_manifest.json",
+      "bytes": 2578,
+      "sha256": "e9f5782253a943afc1af9ef75193b0ca6bc1d6ab0525a8ff542b0b17892e0a99"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\transfer_evaluation_config.json",
+      "bytes": 2555,
+      "sha256": "8c3f4ef46a39d49b86669668782c38484bf4b4321a9a9bbcc16c98ced7681c30"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\transfer_evaluation_manifest.json",
+      "bytes": 4981,
+      "sha256": "e590365d394fb318229936cb2079d7c1c7a15164c6bc41865efe13138654aaa4"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "7cb9b2c9004617de0ba066ccc79ffe9db8999539478fda0269850a277d886484"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\visual\\seed_2\\attempt_1_stdout.log",
+      "bytes": 5615,
+      "sha256": "e2566ad626ff0c8084f5daba81ad85f164c377debc8d258fc53172116357b1f6"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\visual\\seed_2\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\run.log",
+      "bytes": 540,
+      "sha256": "4e10b1b2a649d4921e66071b6cf2f487a76c410bd5b8e08cd1920d570337710b"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\metrics.json",
+      "bytes": 2057,
+      "sha256": "c76e6519c915046dde2130cc589f3168755ef5ac8072fd53b691099cfd307a36"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\metrics.csv",
+      "bytes": 881,
+      "sha256": "c250a2163d4c967493e02f7e212ebff6363bdfb992cf77664c212f731fd76bf4"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\per_query_arrays\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 600930,
+      "sha256": "f57094c0fffc9b045298d305ccc9e190c5db265f35f5dbbbec308478f1129346"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\per_query_arrays\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21474,
+      "sha256": "05b26055540f7c01e299a2b0cce7b1df675861344c762d9dc6c7f7019ca11395"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_2\\per_query_arrays\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59263,
+      "sha256": "f2a18955246b99bf36be9b5127f1e572b6e9a8435eced430e518ee55f68710dc"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\visual\\seed_3\\run_config.json",
+      "bytes": 9370,
+      "sha256": "dd24bca55fcd235d85ef4c8207bb17c4deefc55eda3abb917619ef6f2e1c503f"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\visual\\seed_3\\run_manifest.json",
+      "bytes": 2578,
+      "sha256": "615fd3f7457768be4b9827df0ac7fde4eb2dac28308e337a09abbd9184b55932"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_3\\transfer_evaluation_config.json",
+      "bytes": 2555,
+      "sha256": "993caa59b415935a548240d412f9ecf553e6765d279d5b1b2131f83b89b93daa"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_3\\transfer_evaluation_manifest.json",
+      "bytes": 4983,
+      "sha256": "4ba2f9c6c55482baf6583f9f07e90c3c2aca207e68dc2cf461ebf4ad7186ec3a"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_3\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "dd47f73bab115fae4b7950a22b5eeaaf65c4d25231a71dfbf755793e5487a9e4"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\visual\\seed_3\\attempt_1_stdout.log",
+      "bytes": 5616,
+      "sha256": "345c38dc36efb3e2f811f07ae81857ba0ca627858bef1d9ab60b41932525bf5c"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\visual\\seed_3\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_3\\run.log",
+      "bytes": 539,
+      "sha256": "5ae37cefd2a52336bbdfed8839700d3340ce14d9ff75f469bcdfe75381bce228"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_3\\metrics.json",
+      "bytes": 2059,
+      "sha256": "27929a323c9d6ed4bc02279e3cf74e6288fb2a396d8982fbabee4b996b376da6"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_3\\metrics.csv",
+      "bytes": 883,
+      "sha256": "a7e5f8cecd01aefc6dbab26e48756e0f86646d95950281be8a45b28bc25c0620"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_3\\per_query_arrays\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 601986,
+      "sha256": "64adc510bcb9c8c91d6c383b715d235cd490422d99f9ef4985e2b6ee9e8cda12"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_3\\per_query_arrays\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21378,
+      "sha256": "30bf9645b865a86689749fe593080bcc1abb4dd682072fa296790e379419a0d8"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\visual\\seed_3\\per_query_arrays\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59736,
+      "sha256": "8062c5201cda5238e4f38ef27a0e0b37b40dca64023972ed1c37716b6ff8c9f1"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\full\\seed_1\\run_config.json",
+      "bytes": 9364,
+      "sha256": "655048686b3f37882510f5006a7d8dfc5a687c08c912d2aff0d502fd4c6438f8"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\full\\seed_1\\run_manifest.json",
+      "bytes": 2578,
+      "sha256": "9d51c663dca507de2c2190ab9da839df6ad9472d1ed8eb44ed17219a91c7de64"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_1\\transfer_evaluation_config.json",
+      "bytes": 2551,
+      "sha256": "ec0ab5da33854ca30f2b1fdadd06de92df2f42fdeaf605baff9f3708691d8d7a"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_1\\transfer_evaluation_manifest.json",
+      "bytes": 4966,
+      "sha256": "10c8769d46ed1c72f355742256d4361f4944f4a38e24a83223b7c694ad0afd76"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_1\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "b1b68819cb2f4a250ef9fcf88c25a1ad9e96b4bf00753163f8658ed877308d88"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\full\\seed_1\\attempt_1_stdout.log",
+      "bytes": 5598,
+      "sha256": "7287233a191f9aa5f37ecbc0bdad60385518cbfebb05e675ffd4eed2a415055a"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\full\\seed_1\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_1\\run.log",
+      "bytes": 538,
+      "sha256": "44c90da714aad61821b3b7472d46e07a34bae6f733c30afb13687dabca3a9256"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_1\\metrics.json",
+      "bytes": 2050,
+      "sha256": "0825ac601de218c5f235336b22de36752be7735d76bdc70c2133bbbdfb01b23f"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_1\\metrics.csv",
+      "bytes": 876,
+      "sha256": "b9d685ddf4d0883df7cbae46f8356938e598fbc2eeba2f707bd7a28a692171cf"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_1\\per_query_arrays\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 610093,
+      "sha256": "20fd123b202c573e456345326e4b933c99b6ecc112995166f97cfdda613a6b81"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_1\\per_query_arrays\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21608,
+      "sha256": "2dbecf3e6bce479e790016f0f01787b5812cd77a0e3ced2bf8061e9e00b2e291"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_1\\per_query_arrays\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59631,
+      "sha256": "47d05c55b8830be0970c01efd595ae85ec338fb2e54efddcba8cde43e2bee2ce"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\full\\seed_2\\run_config.json",
+      "bytes": 9364,
+      "sha256": "f061b40923f60790d704cca6f92bf94bc132c53ca61e5ceec21fd39eac98b829"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\full\\seed_2\\run_manifest.json",
+      "bytes": 2578,
+      "sha256": "a828a50f07fedce553f22f207a19fad036d3642ac6c0a07d0aba6135ca31da1a"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_2\\transfer_evaluation_config.json",
+      "bytes": 2551,
+      "sha256": "d00a5f220eb9a163d6ed7271c9c6e049004e812c2661744f5b678a70ebe5c889"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_2\\transfer_evaluation_manifest.json",
+      "bytes": 4967,
+      "sha256": "d0edefec0da353bea1ead924b975967ee4a0df406dd6ee66ec2c6816f39e6508"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_2\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "bc0a8d52a08800565c660afcf9ea99d92c9010e6693429922b7b57e5946961cc"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\full\\seed_2\\attempt_1_stdout.log",
+      "bytes": 5599,
+      "sha256": "fd20a67a7ed9252fe6e7b90db4fb9d6c9dc76661a5373496a5fc0612c4e896af"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\full\\seed_2\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_2\\run.log",
+      "bytes": 538,
+      "sha256": "4672f799e9c5c23af34e57accb36b6a38ea1baf2a77a16037274bb8563b8d1d5"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_2\\metrics.json",
+      "bytes": 2054,
+      "sha256": "d105646808a09790a20a288ba1c46dde4ab3511745a74fa908488dac5b4b4855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_2\\metrics.csv",
+      "bytes": 880,
+      "sha256": "059358879aedc72da1835b69a266c534cebc8025b49b2701a68ffd1ec864d7af"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_2\\per_query_arrays\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 611746,
+      "sha256": "539afc85628821f91aaccda1d445ca173df0f3424f91108c33e6056118ad28ec"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_2\\per_query_arrays\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21738,
+      "sha256": "8f11e419ad8c73d08609938937503cf02743e7a06cd20ba4dc609bd52de6b261"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_2\\per_query_arrays\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59932,
+      "sha256": "b019ed46006d1d70b83bcf4f0e6e5b08626e245fcbb2d20681fde1fd6e79ff13"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\full\\seed_3\\run_config.json",
+      "bytes": 9364,
+      "sha256": "19e449730406637893139646cd98e45ebf94451900d656b0fea493925048f1fc"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\sues200\\full\\seed_3\\run_manifest.json",
+      "bytes": 2578,
+      "sha256": "deccd08adcd70b893aed956256c8383eb745065116513912579b7df6e55697c2"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_3\\transfer_evaluation_config.json",
+      "bytes": 2551,
+      "sha256": "0a80aefc240dc5ed988b44c333b6d79175b66eaa443481ee5d7b5dfd7e62ee0f"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_3\\transfer_evaluation_manifest.json",
+      "bytes": 4967,
+      "sha256": "85dd6ed7b62c81d2c8e27490a1912880d305e9feeeca8b2db280dfe1782b0df4"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_3\\transfer_evaluation_status.json",
+      "bytes": 326,
+      "sha256": "f573f4ae0ed4ced2a450d68dcb3cb8d5e9fba8cb1a7b6e7c4ecff9ed9d6708ac"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\full\\seed_3\\attempt_1_stdout.log",
+      "bytes": 5599,
+      "sha256": "9d5c96c70beb17d847baefca0ccd7121c563460273342cbedaef51ebb55ad0e0"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\process_logs\\sues200_to_university1652\\full\\seed_3\\attempt_1_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_3\\run.log",
+      "bytes": 538,
+      "sha256": "1d980b37e34616c822adda7f870bb1a9a170cb0bb5e60480afe170a921365940"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_3\\metrics.json",
+      "bytes": 2055,
+      "sha256": "b892648f45de170ecac8efb74ac6579fa6c59f7e691d2cebf5e1399eedf518d0"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_3\\metrics.csv",
+      "bytes": 881,
+      "sha256": "1fbd71d87a5fd83e455573fc02784add09a9abd8d726a013fd1ece4d4882c981"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_3\\per_query_arrays\\university1652_drone_to_satellite_per_query.npz",
+      "bytes": 612629,
+      "sha256": "7e30b771b628f602322525ca98b1e38ae80599a9e80fe2a7416f328df7830593"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_3\\per_query_arrays\\university1652_satellite_to_drone_per_query.npz",
+      "bytes": 21647,
+      "sha256": "4dfc99072974bad977fea3ffe16e6d1dcc9950fdcaf2dd441100a24bbc746022"
+    },
+    {
+      "path": "C:\\项目\\LGM\\02_代码与实验\\正式实验工程\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\sues200_to_university1652\\full\\seed_3\\per_query_arrays\\university1652_street_to_satellite_per_query.npz",
+      "bytes": 59859,
+      "sha256": "aa4be44c98bd26540cff312f08130e7d917f3bb62ebe125b5505da55b7b16564"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\OBSERVATION.json",
+      "bytes": 28056,
+      "sha256": "201a4a131ffbaabb0d947d1c6000b9381dfdb8747dfdfc1cc5805ad89c601344"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\ROOT_OBSERVER_ADOPTION.json",
+      "bytes": 18459,
+      "sha256": "2567f5c0f56838ad0563e08f427a8144a1f308f58c26a29e312bab07bf0dd766"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\primary_status.json",
+      "bytes": 51769,
+      "sha256": "0bd5b1b7b486fb442d7e9f6624839e7b2b2ce1600efd5f6bbbdf00cf22093d8a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\pipeline_status.json",
+      "bytes": 6539,
+      "sha256": "a88eac2960b75579b1a5cd2ab9ab176e7f40cdbafc3c1b741b82c51926956a4a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\extension_status.json",
+      "bytes": 40043,
+      "sha256": "b895efdf2b0a89f533812bd026076456d855ea56f0f5095518251d13f8dc1569"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\latest_baseline_status.json",
+      "bytes": 45733,
+      "sha256": "73cc5b490afae91f0034a527c786cedabe19bd780033427f2cdb895adeb2d636"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\independent_comparison_status.json",
+      "bytes": 72837,
+      "sha256": "966428a62c7fe0197225e9494dbe538be5ae152d1aa0d77271ec7547d3e7b878"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\frozen_robustness_matrix_ledger.json",
+      "bytes": 12856,
+      "sha256": "8b08baee5efda4d41af18ffaade58cca9e8748bbf91e3d23c629fb74f4bd4b64"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\pipeline_status_after.json",
+      "bytes": 6539,
+      "sha256": "a88eac2960b75579b1a5cd2ab9ab176e7f40cdbafc3c1b741b82c51926956a4a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\robustness_observation_20260929_0647\\snapshot_20260929_070430172\\frozen_robustness_matrix_ledger_after.json",
+      "bytes": 12856,
+      "sha256": "8b08baee5efda4d41af18ffaade58cca9e8748bbf91e3d23c629fb74f4bd4b64"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\extension_plan.json",
+      "bytes": 38242,
+      "sha256": "13ef69f90ef105db4e55a463532fd6ed38f573b3dbe8cd345fd64176318e46be"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\latest_baseline_plan.json",
+      "bytes": 44126,
+      "sha256": "80acc8d9eeb2f4fa15b6ff242c0a64acc180edf2386268aa277d55ffe58c6b1e"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\independent_comparison_plan_v2.json",
+      "bytes": 71229,
+      "sha256": "a5318f7a60497cc7c9ccb74b7cd82ef7f71fcb072c36a90fb192ea27acc6ca49"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\state_io_retry_20260920_v2\\SOURCE_MANIFEST.json",
+      "bytes": 3163,
+      "sha256": "d8e6209f5ff2c2180d053e6444cb7df6ec0846405fea7ad6dee9b76a8fcb8dfb"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\host_recovery_20260929_0341\\OWNER_SNAPSHOT_20260929_040832626.json",
+      "bytes": 11515,
+      "sha256": "8b54506101ec62a4542414e32e21d9ab458bd0ec0ea66158f27276142d0736eb"
+    },
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_frozen_robustness_matrix.py",
+      "bytes": 20717,
+      "sha256": "7d4be61b772f41853d7407c703af3ec11cbeca762947b53100f78a13266ff574"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\INDEPENDENT_NATIVE_SVG_REVIEW.json",
+      "bytes": 11243,
+      "sha256": "9dbcc7f38df2057e900f8a13571b00eadb867d2e890e8948f3eea6e1f6501977"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\independent_native_svg_review.py",
+      "bytes": 12868,
+      "sha256": "3ecabb9c54c703b9004861b1f5484001d7638d5ac361ea0a21fc7be7796e3884"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\build_native_figures_v2.py",
+      "bytes": 11480,
+      "sha256": "88d08587e3c43a45a9263c0ebc0fc5332a9704c665a340ed33d0d0436bf72b2a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\NATIVE_SVG_BUILD.json",
+      "bytes": 22242,
+      "sha256": "afc8f9f5137f57f8e04ac96f6e5bc6f8839b0f74f62b26c4341b21efab0769ef"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\PREVIEW_RENDER.json",
+      "bytes": 1608,
+      "sha256": "541f81ff937ce9973b19d44e276f5f59cf03f2aab30ea47a1873254d2111f867"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_transition_audit_20260929_0546\\REVIEW_FINAL.json",
+      "bytes": 43712,
+      "sha256": "40c23fe5e810ddb39afc4ff20626eb35fd870a2cdc2ae231e4f94373f6ef5811"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results\\formal_figure_manifest.json",
+      "bytes": 9683,
+      "sha256": "57439cc9b1c017964d74c115486f2fff48c167ee2e992bb6e46e5fe4bf51bfa2"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results\\formal_main_university1652_variants_source.csv",
+      "bytes": 5898,
+      "sha256": "364fd0c5c9f28e97e5d316ed96a847d2ed70cb691507e01797a7a3f0806154e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_university1652_variants_source.csv",
+      "bytes": 5898,
+      "sha256": "364fd0c5c9f28e97e5d316ed96a847d2ed70cb691507e01797a7a3f0806154e1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_university1652_variants_native.svg",
+      "bytes": 48737,
+      "sha256": "a103659da037e8edffd1c0ffd3f19bb1b3f431c04de323361164d4209e997a6a"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_university1652_variants_native_preview.png",
+      "bytes": 250434,
+      "sha256": "9801f6a3d2d5681c39e6f49138f3b526156ec4fd52034fb12a9d7bf138d4a156"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results\\formal_main_sues200_variants_source.csv",
+      "bytes": 13544,
+      "sha256": "3494bf630df6f81d8c00c63881335257e2d38a489d40ca15dbdc17c083c27730"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_sues200_variants_source.csv",
+      "bytes": 13544,
+      "sha256": "3494bf630df6f81d8c00c63881335257e2d38a489d40ca15dbdc17c083c27730"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_sues200_variants_native.svg",
+      "bytes": 89668,
+      "sha256": "b35c007fe48dc4508411fc4f1ad795a1c3fd13b9ac618167559c4ba4cf5294b1"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\formal_main_sues200_variants_native_preview.png",
+      "bytes": 493093,
+      "sha256": "827b790e58d74524ed28709e1d0ca99b15ff61c68062986d9ff8d9fb69478f12"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\ROOT_NATIVE_SVG_REVIEW.json",
+      "bytes": 6821,
+      "sha256": "ac010cc27c27fa94a9fdd3e860af84c330a8e4cc6efa3c66b2e6a8000d6253ca"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\v2\\CAPTIONS.md",
+      "bytes": 2366,
+      "sha256": "2dd6fef4c13f2348256b68ede5e099e51ae307b65b93b0ead3afcc88cd3697a9"
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\formal_results_native_20260929\\PRIMARY_CLAIM_REVIEW.json",
+      "bytes": 5700,
+      "sha256": "0e29cdb0412b148100788b02276e9a9ef4a7aed4a1f5d892fb088a0ff184cdb6"
+    }
+  ],
+  "checkpoint_bytes_rehashed": 0,
+  "scientific_execution": false,
+  "live_state_modified": false
+}

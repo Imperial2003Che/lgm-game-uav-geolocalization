@@ -1,0 +1,160 @@
+{
+  "all_official_gallery_images_used": true,
+  "all_official_queries_used": true,
+  "amp": true,
+  "checkpoint_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_1\\best.pt",
+  "checkpoint_sha256": "3845e67389e89f600edc8321ff7357341a48ec3ad6e411d8657506fd50b30103",
+  "completed_utc": "2026-09-29T04:40:58.444131+00:00",
+  "config_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\transfer_evaluation_config.json",
+  "config_sha256": "f71e2e3ee4417fc1388cca539387a0682de858e6b5ebc8e76f002153ae2017bc",
+  "elapsed_seconds": 223.8464778000016,
+  "environment": {
+    "device": {
+      "compute_capability": "8.9",
+      "cuda_runtime": "12.6",
+      "cudnn": 91002,
+      "device_index": 0,
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "requested_or_selected": "cuda:0",
+      "total_memory_bytes": 8585216000
+    },
+    "packages": {
+      "Pillow": "12.2.0",
+      "numpy": "2.4.4",
+      "torch": "2.11.0+cu126",
+      "torchvision": "0.26.0+cu126"
+    },
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "torch_cuda_available": true
+  },
+  "metrics_csv_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\metrics.csv",
+  "metrics_csv_sha256": "247a6e3c4dd80f0628ca6cc265b0db56eb39f5b6047b9495400c40f975d67286",
+  "metrics_path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\metrics.json",
+  "metrics_sha256": "1bd1151be32b455f04e912d83dd3f794451874964c80a78ee610641464a8bcad",
+  "payload_sha256": "84cea63894cec0c1c6729751abaa8a4dd453632f949ff3c71e1d60db23cd96c2",
+  "per_query_arrays": {
+    "sues200_satellite_to_uav_150m": {
+      "bytes": 4396,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_150m_per_query.npz",
+      "sha256": "48ba94979dbf5c0aaf43131b31f3e0693dee203c9274e9692c9f716f6729f1ef"
+    },
+    "sues200_satellite_to_uav_200m": {
+      "bytes": 4366,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_200m_per_query.npz",
+      "sha256": "cb5bd41bef25b2a16f2ba9169300f44d0098fb8523086e139003d9c7bed442f6"
+    },
+    "sues200_satellite_to_uav_250m": {
+      "bytes": 4346,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_250m_per_query.npz",
+      "sha256": "513a445c614c6e8b27edf0a0142aed32c9fb3acf43962f23f7a1a53324a21736"
+    },
+    "sues200_satellite_to_uav_300m": {
+      "bytes": 4356,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_satellite_to_uav_300m_per_query.npz",
+      "sha256": "3f6e1651262af75dbdbe4441f1f5bab1b75731fc75a734f31bd347be7effdb2e"
+    },
+    "sues200_uav_150m_to_satellite": {
+      "bytes": 52203,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_uav_150m_to_satellite_per_query.npz",
+      "sha256": "fa148e380415fb04f07513091dd36516c30d6f33a701b52ebc1e01d2877b1d92"
+    },
+    "sues200_uav_200m_to_satellite": {
+      "bytes": 51352,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_uav_200m_to_satellite_per_query.npz",
+      "sha256": "a3563da61e8b17c2ec7ec0a7194f6281705120789eb597c84798f2ff2e68e1a5"
+    },
+    "sues200_uav_250m_to_satellite": {
+      "bytes": 50270,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_uav_250m_to_satellite_per_query.npz",
+      "sha256": "32e2f0fc09ec5c2fe7e932c4f2b0057b0638e9983d902cf459ab807043a3c7ce"
+    },
+    "sues200_uav_300m_to_satellite": {
+      "bytes": 49392,
+      "path": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\evaluations\\transactions_t3_transfer\\university1652_to_sues200\\visual\\seed_1\\per_query_arrays\\sues200_uav_300m_to_satellite_per_query.npz",
+      "sha256": "fa75b243373e89777c695ad66c506f2df6e4992206c9ab0a99b31cbdf9111280"
+    }
+  },
+  "schema_version": "lgm-game.cross-dataset-evaluation.v1",
+  "seed": 1,
+  "selected_training_epoch": 79,
+  "source_dataset": "university1652",
+  "status": "completed",
+  "sues_manifest": {
+    "official_source_url": "https://github.com/Reza-Zhu/SUES-200-Benchmark/blob/master/script/indexs.yaml",
+    "path_or_source": "C:\\\u9879\u76ee\\LGM\\02_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\\u6b63\u5f0f\u5b9e\u9a8c\u5de5\u7a0b\\lgm_game_pytorch\\manifests\\sues200_official_train_ids.yaml",
+    "sha256": "c1386d5c746aca48bbb2793ed1ee19d6cd7330a7f5f1b27a5ec43727317ec226",
+    "test_id_count": 80,
+    "train_id_count": 120
+  },
+  "target_dataset": "sues200",
+  "target_dataset_used_for_selection_or_calibration": false,
+  "target_dataset_used_for_training": false,
+  "target_evidence_sha256": "6c3a82fdcf59e401f5da4ed0f3d9dca99fdcbab0a46aa66fb47a055c832cdabd",
+  "target_image_inventory": {
+    "file_count": 40200,
+    "mode": "content",
+    "sha256": "0688f8ffd16e9cc11f506faf4f993f80446904740a3b127251dd1d5f57b4b029",
+    "total_bytes": 5693433493
+  },
+  "target_protocol_membership_sha256": "1f543fb48416204dacfb5ac48b3bbf3ce4080ce164e75e7a86be748e3d798772",
+  "target_task_scale": {
+    "sues200_satellite_to_uav_150m": {
+      "gallery_identities": 200,
+      "gallery_images": 10000,
+      "protocol": "official 80 test IDs as query; all 200 150m UAV IDs in gallery",
+      "queries": 80,
+      "query_identities": 80
+    },
+    "sues200_satellite_to_uav_200m": {
+      "gallery_identities": 200,
+      "gallery_images": 10000,
+      "protocol": "official 80 test IDs as query; all 200 200m UAV IDs in gallery",
+      "queries": 80,
+      "query_identities": 80
+    },
+    "sues200_satellite_to_uav_250m": {
+      "gallery_identities": 200,
+      "gallery_images": 10000,
+      "protocol": "official 80 test IDs as query; all 200 250m UAV IDs in gallery",
+      "queries": 80,
+      "query_identities": 80
+    },
+    "sues200_satellite_to_uav_300m": {
+      "gallery_identities": 200,
+      "gallery_images": 10000,
+      "protocol": "official 80 test IDs as query; all 200 300m UAV IDs in gallery",
+      "queries": 80,
+      "query_identities": 80
+    },
+    "sues200_uav_150m_to_satellite": {
+      "gallery_identities": 200,
+      "gallery_images": 200,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery",
+      "queries": 4000,
+      "query_identities": 80
+    },
+    "sues200_uav_200m_to_satellite": {
+      "gallery_identities": 200,
+      "gallery_images": 200,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery",
+      "queries": 4000,
+      "query_identities": 80
+    },
+    "sues200_uav_250m_to_satellite": {
+      "gallery_identities": 200,
+      "gallery_images": 200,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery",
+      "queries": 4000,
+      "query_identities": 80
+    },
+    "sues200_uav_300m_to_satellite": {
+      "gallery_identities": 200,
+      "gallery_images": 200,
+      "protocol": "official 80 test IDs as query; all 200 satellite IDs in gallery",
+      "queries": 4000,
+      "query_identities": 80
+    }
+  },
+  "variant": "visual"
+}

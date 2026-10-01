@@ -1,0 +1,239 @@
+{
+  "schema_version": "lgm-game.transactions-t1-matrix.v1",
+  "status": "registered_not_executed",
+  "registered_run_count": 7,
+  "dataset": {
+    "name": "University-1652",
+    "split": "train",
+    "views": [
+      "satellite",
+      "street",
+      "drone"
+    ],
+    "excluded_auxiliary_views": [
+      "google"
+    ],
+    "class_count": 701,
+    "file_count": 41214,
+    "total_bytes": 2670030871,
+    "content_sha256": "61852ee531d095ae4fd7507c12555fe9cac130df84a1308cacf00b2ca97bf3a6"
+  },
+  "checkpoint_selection": "pre-specified final epoch",
+  "official_test_gate": "after all seven registered fits pass their framework completion audits",
+  "official_evaluation": {
+    "datasets": [
+      "University-1652",
+      "SUES-200"
+    ],
+    "registered_fits": 7,
+    "tasks_per_fit": 10,
+    "total_task_evaluations": 70,
+    "university1652": {
+      "split": "test",
+      "directions": [
+        {
+          "task": "university1652_drone_to_satellite",
+          "query_role": "query_drone",
+          "query_images": 37855,
+          "gallery_role": "gallery_satellite",
+          "gallery_images": 951
+        },
+        {
+          "task": "university1652_satellite_to_drone",
+          "query_role": "query_satellite",
+          "query_images": 701,
+          "gallery_role": "gallery_drone",
+          "gallery_images": 51355
+        }
+      ],
+      "task_evaluations_per_fit": 2,
+      "task_evaluations_total": 14,
+      "excluded_direction": "street_to_satellite",
+      "exclusion_reason": "The pinned public QDFL-framework and MCCG test entry points used for T1 implement only Drone-to-Satellite and Satellite-to-Drone."
+    },
+    "zero_shot_sues200": {
+      "split": "official fixed 120-train/80-test identity protocol",
+      "split_manifest_sha256": "c1386d5c746aca48bbb2793ed1ee19d6cd7330a7f5f1b27a5ec43727317ec226",
+      "target_domain_fitting": false,
+      "target_domain_model_selection": false,
+      "query_identity_count": 80,
+      "gallery_identity_count": 200,
+      "altitudes_m": [
+        150,
+        200,
+        250,
+        300
+      ],
+      "directions": [
+        {
+          "task": "sues200_uav_150m_to_satellite",
+          "query_role": "drone_150_all:test_ids",
+          "query_images": 4000,
+          "gallery_role": "satellite_all",
+          "gallery_images": 200
+        },
+        {
+          "task": "sues200_satellite_to_uav_150m",
+          "query_role": "satellite_all:test_ids",
+          "query_images": 80,
+          "gallery_role": "drone_150_all",
+          "gallery_images": 10000
+        },
+        {
+          "task": "sues200_uav_200m_to_satellite",
+          "query_role": "drone_200_all:test_ids",
+          "query_images": 4000,
+          "gallery_role": "satellite_all",
+          "gallery_images": 200
+        },
+        {
+          "task": "sues200_satellite_to_uav_200m",
+          "query_role": "satellite_all:test_ids",
+          "query_images": 80,
+          "gallery_role": "drone_200_all",
+          "gallery_images": 10000
+        },
+        {
+          "task": "sues200_uav_250m_to_satellite",
+          "query_role": "drone_250_all:test_ids",
+          "query_images": 4000,
+          "gallery_role": "satellite_all",
+          "gallery_images": 200
+        },
+        {
+          "task": "sues200_satellite_to_uav_250m",
+          "query_role": "satellite_all:test_ids",
+          "query_images": 80,
+          "gallery_role": "drone_250_all",
+          "gallery_images": 10000
+        },
+        {
+          "task": "sues200_uav_300m_to_satellite",
+          "query_role": "drone_300_all:test_ids",
+          "query_images": 4000,
+          "gallery_role": "satellite_all",
+          "gallery_images": 200
+        },
+        {
+          "task": "sues200_satellite_to_uav_300m",
+          "query_role": "satellite_all:test_ids",
+          "query_images": 80,
+          "gallery_role": "drone_300_all",
+          "gallery_images": 10000
+        }
+      ],
+      "task_evaluations_per_fit": 8,
+      "task_evaluations_total": 56
+    },
+    "all_queries_and_full_gallery": true,
+    "horizontal_flip_augmentation": true,
+    "test_content_freeze": "one full path-size-content inventory of both datasets after all seven completed-fit audits and before the first official evaluation",
+    "registered_test_inventory": {
+      "university1652": {
+        "images": 90862,
+        "bytes": 5704769123,
+        "membership_sha256": "19c26d413c79b77785ca05c02962ed30135c9e2c43a712a3db52c8dda59ff6b7"
+      },
+      "sues200": {
+        "images": 40200,
+        "bytes": 5693433493,
+        "membership_sha256": "dc6742e45599231b53f16730771cb5eab45d5b0ef6aed8d1663324207a15f706"
+      },
+      "combined": {
+        "images": 131062,
+        "bytes": 11398202616
+      }
+    },
+    "ranking": {
+      "qdfl_framework": "float32 squared L2, matching the public QDFL-framework evaluator",
+      "mccg": "float32 inner product, matching the public MCCG evaluator"
+    },
+    "metrics": [
+      "R@1",
+      "R@5",
+      "R@10",
+      "R@20",
+      "official trapezoidal mAP",
+      "MRR"
+    ]
+  },
+  "runs": [
+    {
+      "ordinal": 1,
+      "run_id": "qdfl_dinov2_b14/seed_1",
+      "framework": "qdfl",
+      "method": "QDFL",
+      "config_id": "qdfl_dinov2_b14",
+      "seed": 1,
+      "epochs": 160,
+      "initialization_id": "dinov2_vitb14",
+      "resource_profile_key": "qdfl_dinov2_b14"
+    },
+    {
+      "ordinal": 2,
+      "run_id": "qdfl_dinov2_b14/seed_2",
+      "framework": "qdfl",
+      "method": "QDFL",
+      "config_id": "qdfl_dinov2_b14",
+      "seed": 2,
+      "epochs": 160,
+      "initialization_id": "dinov2_vitb14",
+      "resource_profile_key": "qdfl_dinov2_b14"
+    },
+    {
+      "ordinal": 3,
+      "run_id": "qdfl_dinov2_b14/seed_3",
+      "framework": "qdfl",
+      "method": "QDFL",
+      "config_id": "qdfl_dinov2_b14",
+      "seed": 3,
+      "epochs": 160,
+      "initialization_id": "dinov2_vitb14",
+      "resource_profile_key": "qdfl_dinov2_b14"
+    },
+    {
+      "ordinal": 4,
+      "run_id": "fsra_vit/seed_1",
+      "framework": "qdfl",
+      "method": "FSRA",
+      "config_id": "fsra_vit",
+      "seed": 1,
+      "epochs": 120,
+      "initialization_id": "fsra_vit_base",
+      "resource_profile_key": "fsra_vit"
+    },
+    {
+      "ordinal": 5,
+      "run_id": "sdpl_swinv2_b/seed_1",
+      "framework": "qdfl",
+      "method": "SDPL",
+      "config_id": "sdpl_swinv2_b",
+      "seed": 1,
+      "epochs": 160,
+      "initialization_id": "swin_v2_b_imagenet1k_v1",
+      "resource_profile_key": "sdpl_swinv2_b"
+    },
+    {
+      "ordinal": 6,
+      "run_id": "ccr_convnext_b/seed_1",
+      "framework": "qdfl",
+      "method": "CCR",
+      "config_id": "ccr_convnext_b",
+      "seed": 1,
+      "epochs": 200,
+      "initialization_id": "convnext_base_22k_1k_224",
+      "resource_profile_key": "ccr_convnext_b"
+    },
+    {
+      "ordinal": 7,
+      "run_id": "mccg_convnext_tiny/seed_1",
+      "framework": "mccg",
+      "method": "MCCG",
+      "config_id": "mccg_convnext_tiny",
+      "seed": 1,
+      "epochs": 200,
+      "initialization_id": "mccg_convnext_tiny_22k_1k_224",
+      "resource_profile_key": "mccg_convnext_tiny"
+    }
+  ]
+}

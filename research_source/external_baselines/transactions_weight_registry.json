@@ -1,0 +1,55 @@
+{
+  "schema_version": "lgm-game.transactions-initialization-weights.v1",
+  "weights": [
+    {
+      "bytes": 346378731,
+      "id": "dinov2_vitb14",
+      "load_contract": "PyTorch state dictionary",
+      "method_configs": [
+        "qdfl_dinov2_b14"
+      ],
+      "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+      "source_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth"
+    },
+    {
+      "bytes": 346292833,
+      "id": "fsra_vit_base",
+      "load_contract": "FSRA ViT load_param checkpoint",
+      "method_configs": [
+        "fsra_vit"
+      ],
+      "sha256": "80ecf9dd5e3a58895e959af554c5666c4e7b4da4410de4f1f2b0025e93435d8c",
+      "source_url": "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth"
+    },
+    {
+      "bytes": 352711377,
+      "id": "swin_v2_b_imagenet1k_v1",
+      "load_contract": "torchvision Swin V2-B state dictionary",
+      "method_configs": [
+        "sdpl_swinv2_b"
+      ],
+      "sha256": "781e527929786d129968a5de1d494f7d3d4daba99610f7df2c575ae98df77648",
+      "source_url": "https://download.pytorch.org/models/swin_v2_b-781e5279.pth"
+    },
+    {
+      "bytes": 354476359,
+      "id": "convnext_base_22k_1k_224",
+      "load_contract": "mapping with model state dictionary",
+      "method_configs": [
+        "ccr_convnext_b"
+      ],
+      "sha256": "8afbd1fa254629e6db80df9822908a83c741bfe98778f58851a15c1639a80453",
+      "source_url": "https://dl.fbaipublicfiles.com/convnext/convnext_base_22k_1k_224.pth"
+    },
+    {
+      "bytes": 114414741,
+      "id": "mccg_convnext_tiny_22k_1k_224",
+      "load_contract": "mapping with model state dictionary",
+      "method_configs": [
+        "mccg_convnext_tiny"
+      ],
+      "sha256": "7ff80975b63ddbd30cdeb2f5c4b02ed537b1ba3f790d489817b7188fb2c3107a",
+      "source_url": "https://dl.fbaipublicfiles.com/convnext/convnext_tiny_22k_1k_224.pth"
+    }
+  ]
+}

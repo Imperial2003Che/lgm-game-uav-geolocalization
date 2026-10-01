@@ -1,0 +1,29 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Full-gallery reproduction of public visual baselines on
+University-1652. All values are percentages. Bold type indicates the
+largest value in each column. AP uses the official trapezoidal evaluator.}
+\label{tab:formal-baseline-exact}
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+\multirow{2}{*}{Method}
+& \multicolumn{5}{c}{Drone $\rightarrow$ Satellite}
+& \multicolumn{5}{c}{Satellite $\rightarrow$ Drone} \\
+\cmidrule(lr){2-6}\cmidrule(lr){7-11}
+& R@1 & R@5 & R@10 & AP & MRR
+& R@1 & R@5 & R@10 & AP & MRR \\
+\midrule
+Global CNN + Google & 61.91 & 81.92 & 87.35 & 66.42 & 70.93
+& 79.60 & 85.59 & 87.87 & 62.73 & 82.39 \\
+LPN w/o Google & 76.62 & 90.37 & 93.60 & 79.72 & 82.82
+& 87.02 & 90.73 & 92.58 & \textbf{76.79} & 89.01 \\
+LPN & 76.75 & \textbf{90.54} & \textbf{93.97} & 79.88 & 83.02
+& 86.73 & 91.30 & \textbf{93.30} & 76.42 & 88.97 \\
+LPN + CA-HRS & \textbf{76.94} & 90.52 & 93.82 & \textbf{80.04} & \textbf{83.13}
+& \textbf{87.45} & \textbf{91.87} & 93.15 & 76.58 & \textbf{89.51} \\
+\bottomrule
+\end{tabular}
+\end{table*}

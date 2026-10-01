@@ -1,0 +1,146 @@
+{
+  "schema_version": "formal-retrieval-v1",
+  "status": "completed",
+  "completed_utc": "2026-09-28T13:05:49.929547+00:00",
+  "dataset": "university1652",
+  "checkpoint": {
+    "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\runs\\formal_main\\university1652\\visual\\seed_2\\best.pt",
+    "sha256": "208cdab22c741c9ffa6027137e6cf0063233d2b634ed419c5e163dd283f8cae0",
+    "selected_training_epoch": 79,
+    "training_run_config_sha256": "e7059c19557f20b60e063074d866fb54e000c6061bddb2296f596458d2a079c9",
+    "variant": "visual"
+  },
+  "evidence_caches": [
+    {
+      "path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.npz",
+      "sha256": "8a2333d58dbb0ca56c5d5829159a32f294e11e686bb6b91d05098d4b170c2bc3",
+      "bytes": 6806658,
+      "meta_path": "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\evidence_cache\\university1652_clip_image_evidence.meta.json",
+      "meta_sha256": "3731072d3a1c8a3b9fe8d880fd791dfbe7eb82f2d93be85b82be229ff8512dbf",
+      "model": "{'architecture': 'CLIPModel', 'name': 'openai/clip-vit-base-patch32', 'pretrained_logit_scale': 100.0, 'revision_requested': '3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268', 'revision_resolved': '3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268'}",
+      "dataset_root_hint": "{'directory_name': 'University-1652', 'expected_layout': 'train/* and test/*', 'paths_are_relative_to_dataset_root': True}",
+      "rows": 146520
+    }
+  ],
+  "evidence_schema": {
+    "content_dim": 11,
+    "style_dim": 10,
+    "content_candidates": [
+      "{'id': 'campus', 'text': 'a university campus scene'}",
+      "{'id': 'building', 'text': 'campus buildings and rooftops'}",
+      "{'id': 'road', 'text': 'roads and paved paths'}",
+      "{'id': 'intersection', 'text': 'road intersections and geometric junctions'}",
+      "{'id': 'parking', 'text': 'parking lots and regular parked vehicles'}",
+      "{'id': 'vegetation', 'text': 'trees lawns and vegetation blocks'}",
+      "{'id': 'sports_field', 'text': 'sports field or playground'}",
+      "{'id': 'open_area', 'text': 'open plaza or square'}",
+      "{'id': 'water', 'text': 'water body or river boundary'}",
+      "{'id': 'dense_layout', 'text': 'dense urban layout'}",
+      "{'id': 'stable_layout', 'text': 'stable spatial layout useful for geo localization'}"
+    ],
+    "style_candidates": [
+      "{'id': 'uav_oblique', 'text': 'an oblique UAV aerial photograph'}",
+      "{'id': 'satellite_nadir', 'text': 'a nadir satellite image'}",
+      "{'id': 'viewpoint_gap', 'text': 'a large viewpoint difference between UAV and satellite'}",
+      "{'id': 'sensor_gap', 'text': 'different sensors and image styles'}",
+      "{'id': 'low_altitude', 'text': 'low altitude UAV image with detailed facade cues'}",
+      "{'id': 'high_altitude', 'text': 'high altitude UAV image with smaller objects'}",
+      "{'id': 'strong_shadow', 'text': 'strong building shadows'}",
+      "{'id': 'bright_light', 'text': 'bright daylight illumination'}",
+      "{'id': 'low_contrast', 'text': 'low contrast remote sensing image'}",
+      "{'id': 'seasonal_vegetation', 'text': 'seasonal vegetation appearance'}"
+    ]
+  },
+  "sues_manifest": null,
+  "protocol_membership_sha256": "c271b8b342a9642a8ee7bd767ace06f9d934cd58a4c83885d51db2e7b94221df",
+  "task_scale": {
+    "university1652_drone_to_satellite": {
+      "queries": 37855,
+      "gallery_images": 951,
+      "query_identities": 701,
+      "gallery_identities": 951,
+      "protocol": "official test/query_drone -> test/gallery_satellite"
+    },
+    "university1652_satellite_to_drone": {
+      "queries": 701,
+      "gallery_images": 51355,
+      "query_identities": 701,
+      "gallery_identities": 951,
+      "protocol": "official test/query_satellite -> test/gallery_drone"
+    },
+    "university1652_street_to_satellite": {
+      "queries": 2579,
+      "gallery_images": 951,
+      "query_identities": 701,
+      "gallery_identities": 951,
+      "protocol": "official test/query_street -> test/gallery_satellite"
+    }
+  },
+  "image_inventory": {
+    "mode": "content",
+    "sha256": "a720bfa1e1d545ba56b0b1e0912c83874b0200ec73a1b2c26a2c2616cd2edf50",
+    "file_count": 93441,
+    "total_bytes": 5826667007
+  },
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.4.4",
+      "Pillow": "12.2.0",
+      "torch": "2.11.0+cu126",
+      "torchvision": "0.26.0+cu126"
+    },
+    "torch_cuda_available": true,
+    "device": {
+      "requested_or_selected": "cuda",
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "total_memory_bytes": 8585216000,
+      "compute_capability": "8.9",
+      "cuda_runtime": "12.6",
+      "cudnn": 91002,
+      "device_index": 0
+    }
+  },
+  "amp": true,
+  "elapsed_seconds": 124.59119199999986,
+  "artifacts": {
+    "metrics.csv": {
+      "sha256": "9213f73e8c4b2d054d6a6d5134af90e49009d38a5eaf51b8e8f5b64bcac48ef0",
+      "bytes": 870
+    },
+    "metrics.json": {
+      "sha256": "fb817a788d8a4190a9ad0f08acfc9b3a128c074a1d8442c69b309738f3c578f4",
+      "bytes": 1942
+    },
+    "per_query_arrays/university1652_drone_to_satellite_per_query.npz": {
+      "sha256": "0274d5f00566488b77888f03b2aa7e01d2990e13f6a9a7bc3621cfe4a906012d",
+      "bytes": 499376
+    },
+    "per_query_arrays/university1652_satellite_to_drone_per_query.npz": {
+      "sha256": "14b99b7b45350842f9f7aad92472455507b3b4bcb521a211e83c3c783d97d28f",
+      "bytes": 20680
+    },
+    "per_query_arrays/university1652_street_to_satellite_per_query.npz": {
+      "sha256": "e89783dc5faa747308d9de56a7a7b955057cd99133f56f1e4f118d088ee7a573",
+      "bytes": 62232
+    },
+    "process_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "process_stdout.log": {
+      "sha256": "39d67c435909314b9ae4354d3b7cc6648fb56fb2ecd789589968d777c18d8316",
+      "bytes": 2800
+    }
+  },
+  "leakage_controls": {
+    "labels_and_splits_from_cache_used": false,
+    "labels_and_splits_derived_from_dataset_paths_and_official_manifest": true,
+    "each_image_encoded_independently": true,
+    "test_used_during_training_or_model_selection": false,
+    "all_official_queries_used": true,
+    "all_official_gallery_images_used": true
+  },
+  "payload_sha256": "8de17310afa7b57e1cf87d28bed168def57eea3dbada0fad2a71dab9dfbd9be6"
+}

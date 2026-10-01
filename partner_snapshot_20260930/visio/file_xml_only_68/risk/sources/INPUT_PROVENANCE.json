@@ -1,0 +1,103 @@
+{
+  "schema": "native-t5-input-provenance.v1",
+  "rootSha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+  "inputs": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\ROOT_POST_ROBUSTNESS_ADOPTION.json",
+      "sha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+      "bytes": 221193
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\CAPTURE.json",
+      "sha256": "473d5fba90c3fc0d044733ffb19e1f2955f08df96f89d4c643ad54d6ff15ca09",
+      "bytes": 98212
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\query\\transactions_t5_selective_calibration.json",
+      "sha256": "033b6eaea71b3084ca043902f6ba03b6487bf1762a9180963357103097d172cc",
+      "bytes": 744943
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\query\\transactions_t5_selective_comparisons.csv",
+      "sha256": "2dc5b6bf9fba1edbde657427f516e0b539b310fb93f49511444a2061e598b40e",
+      "bytes": 20814
+    }
+  ],
+  "plottedNativeRows": 66,
+  "plottedNativePoints": 660,
+  "pairedRowsPreservedNotPlotted": 132,
+  "derivedCSV": "Direct field flattening from the bound T5 JSON; no query-array or AURC recomputation.",
+  "copies": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\NATIVE_POINTS_660.csv",
+      "sha256": "44abc13ae35dced91b3832712c45f931bfa48ce77cd89af19f564aa9590f049a",
+      "bytes": 205956
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_sues200_satellite_to_uav_150m__native_points.csv",
+      "sha256": "839bf72da85d85c4c0d495226953a3f17ea9d106863cb438552dfd09069532f4",
+      "bytes": 17994
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_sues200_satellite_to_uav_200m__native_points.csv",
+      "sha256": "55442d99aec102719dee15896b90c9929b1b44717eda357bb2e14cdf0ad1e712",
+      "bytes": 17971
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_sues200_satellite_to_uav_250m__native_points.csv",
+      "sha256": "2b79c8447291baca24bccc19208e3acb97362d22d5f4395bf339486eab7cc0cb",
+      "bytes": 17984
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_sues200_satellite_to_uav_300m__native_points.csv",
+      "sha256": "39984f1267520f6a891cd49a0efd7ced13d2f1e33f0fd81ced4b8ba4d9726ef8",
+      "bytes": 18133
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_sues200_uav_150m_to_satellite__native_points.csv",
+      "sha256": "5b86ca729dbfc628ace683856491579e33244ff3981bf1ed04e83ece2f6e3f4b",
+      "bytes": 18466
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_sues200_uav_200m_to_satellite__native_points.csv",
+      "sha256": "610a00c5abe28b3054c262e5d7cffd09eaebde1718020dcf6f4b4ff04cf6630e",
+      "bytes": 18468
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_sues200_uav_250m_to_satellite__native_points.csv",
+      "sha256": "2dd1698d45b5a3c5d49f994facc53f22238ea8f960876c62e1ca21affe873992",
+      "bytes": 18607
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_sues200_uav_300m_to_satellite__native_points.csv",
+      "sha256": "4bd6388b4dcaea065ad133c3aedbd510d8df03ca7050232d9b23a2633f8fdfe0",
+      "bytes": 18560
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_university1652_drone_to_satellite__native_points.csv",
+      "sha256": "1392e5046d1216088ed55a08ad223d199fa8c56012e22a15cfc2717341677e9d",
+      "bytes": 20556
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_university1652_satellite_to_drone__native_points.csv",
+      "sha256": "6a9ec72b15d679857b17e88e1e1702ae21caf42a3aee12345dc0fd736bacc68e",
+      "bytes": 20682
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\t5_university1652_street_to_satellite__native_points.csv",
+      "sha256": "cd1e81736a39c540da02942838c2ae7b636d183a0f273053ca069d64166222eb",
+      "bytes": 20895
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\transactions_t5_selective_calibration.json",
+      "sha256": "033b6eaea71b3084ca043902f6ba03b6487bf1762a9180963357103097d172cc",
+      "bytes": 744943
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_native_figures_20260929_1856\\output_v2\\source_data\\transactions_t5_selective_comparisons.csv",
+      "sha256": "2dc5b6bf9fba1edbde657427f516e0b539b310fb93f49511444a2061e598b40e",
+      "bytes": 20814
+    }
+  ],
+  "limits": "Reads only adopted small JSON/CSV and adoption/capture metadata; no old metrics/NPZ/cache/image/checkpoint/scientific execution."
+}

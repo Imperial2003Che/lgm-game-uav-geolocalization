@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\caption{Published University-1652-to-SUES-200 transfer results (\%).}
+\label{tab:literature_transfer}
+\fontsize{9}{10.5}\selectfont
+\setlength{\tabcolsep}{3.3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{llrrrrrrrr}
+\toprule
+Method & Direction & \multicolumn{2}{c}{150 m} & \multicolumn{2}{c}{200 m} & \multicolumn{2}{c}{250 m} & \multicolumn{2}{c}{300 m} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-10} & & R@1 & AP & R@1 & AP & R@1 & AP & R@1 & AP \\
+\midrule
+InfoGeo \cite{infogeo2026} & UAV $\rightarrow$ sat. & 90.87 & 92.53 & 94.20 & 95.12 & 96.08 & 96.30 & 96.31 & 96.75 \\
+InfoGeo (+RD) \cite{infogeo2026} & UAV $\rightarrow$ sat. & 91.80 & 93.18 & 95.40 & 96.15 & 96.58 & 97.08 & 96.48 & 97.00 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\textwidth}\fontsize{9}{10.5}\selectfont Source: InfoGeo v5, Table 9. Training source: University-1652; evaluation target: SUES-200. RD denotes relational distillation. Input size is 448 pixels.\end{minipage}
+\end{table*}

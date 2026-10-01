@@ -1,0 +1,46 @@
+{
+  "schema": "native-reliability-source-manifest.v1",
+  "files": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\build\\build_reliability.mjs",
+      "sha256": "77db4571457189808e731b1f98743bddf25a29aa118ef68c50da64c9c92a1775",
+      "bytes": 20875
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\build\\build_reliability_v2.mjs",
+      "sha256": "4dfcb86b379719e564d224682cb23b23e36231c4f51ce8e5d2590db1ab79d779",
+      "bytes": 21312
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\prepare_revision.py",
+      "sha256": "c8144e122b07f26dae05ce3f84fa0521ac177b48959cd90755b507aca61111c2",
+      "bytes": 2630
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\verify_package.py",
+      "sha256": "aa2b8c7f235bc67e5d9ba8a001e3c531d5c0da78ed0798b0b0401357cb62b781",
+      "bytes": 11321
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\package_delivery.py",
+      "sha256": "375c54b0bc9a412bb6e9e8da0312f2450dbed0a751b63227efaf3442f229a2e3",
+      "bytes": 10022
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\seal_final.py",
+      "sha256": "e577398e137f5374a22414c795cf25c9bf9fcecb8465454eb2792722ed29ea13",
+      "bytes": 4018
+    }
+  ],
+  "revision": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\SOURCE_REVISION.json",
+    "sha256": "01c2e7b9daefed3bed83538f63ddc8b07fab09ff095559c19391e256c323c624",
+    "bytes": 1646
+  },
+  "fullDiff": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\V1_SAMPLE_TO_FINAL_V2.patch",
+    "sha256": "e18f63b7a9f802a8c212c097cf13e62fdd460a148835eb6e5e7c6e17a3921244",
+    "bytes": 10454
+  },
+  "rootOwnedFilesExcluded": true
+}

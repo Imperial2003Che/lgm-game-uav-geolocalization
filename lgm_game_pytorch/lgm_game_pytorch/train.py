@@ -18,7 +18,7 @@ from .utils import choose_device, save_json, seed_everything
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Train LGM-GAME PyTorch prototype.")
     parser.add_argument("--dataset", choices=["sues200", "university1652"], default="sues200")
-    parser.add_argument("--data-root", type=str, default="/Users/chenche/Documents/dataset/SUES-200")
+    parser.add_argument("--data-root", type=str, default="data/SUES-200")
     parser.add_argument("--output-dir", type=str, default="lgm_game_pytorch/runs/sues200_first")
     parser.add_argument("--epochs", type=int, default=1)
     parser.add_argument("--batch-size", type=int, default=8)
@@ -110,6 +110,7 @@ def main() -> None:
             llava_endpoint=args.llava_endpoint,
             prompt_device=args.prompt_device,
             allow_prompt_fallback=args.allow_prompt_fallback,
+            freeze_vocab=True,
         )
         eval_loader = DataLoader(
             eval_set,

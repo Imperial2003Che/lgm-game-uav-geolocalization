@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="181.9mm" height="113.94722222222221mm" viewBox="0 0 515.6220472440946 323">
+<title>Trained on SUES-200 → evaluated on University-1652</title>
+<desc>Three-seed mean and sample SD. SD uses denominator 2, not confidence intervals. Native editable text and shapes. R@1 and official trapezoidal mAP percentages; MRR multiplied by 100. Tasks remain separate.</desc>
+<rect id="background" x="0" y="0" width="515.6220472440946" height="323" fill="white"/>
+<text id="training-evaluation-direction" x="15" y="18" font-family="Arial" font-size="10" font-weight="bold" text-anchor="start" fill="#222222">Trained on SUES-200 → evaluated on University-1652</text>
+<text id="study-title" x="15" y="34" font-family="Arial" font-size="9" font-weight="bold" text-anchor="start" fill="#222222">Zero-shot cross-dataset retrieval</text>
+<circle id="legend/visual/marker" cx="18" cy="48" r="1.8" fill="#0072B2"/>
+<text id="legend/visual/text" x="25" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Visual</text>
+<rect id="legend/full/marker" x="84.2" y="46.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="legend/full/text" x="93" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Full</text>
+<text id="statistical-summary" x="153" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Mean ± sample SD; seeds 1, 2, 3</text>
+<text id="task-header" x="15" y="79" font-family="Arial" font-size="8" font-weight="bold" text-anchor="start" fill="#222222">Target retrieval</text>
+<text id="task-header-second" x="15" y="90" font-family="Arial" font-size="8" font-weight="bold" text-anchor="start" fill="#222222">task / height</text>
+<text id="r_at_1/heading" x="176" y="79" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">R@1 (%)</text>
+<line id="r_at_1/grid/0" x1="118" y1="104" x2="118" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/0" x1="118" y1="102" x2="118" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/0" x="118" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="r_at_1/grid/10" x1="156.66666666666666" y1="104" x2="156.66666666666666" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/10" x1="156.66666666666666" y1="102" x2="156.66666666666666" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/10" x="156.66666666666666" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">10</text>
+<line id="r_at_1/grid/20" x1="195.33333333333331" y1="104" x2="195.33333333333331" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/20" x1="195.33333333333331" y1="102" x2="195.33333333333331" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/20" x="195.33333333333331" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">20</text>
+<line id="r_at_1/grid/30" x1="234" y1="104" x2="234" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="r_at_1/tick/30" x1="234" y1="102" x2="234" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="r_at_1/tick-label/30" x="234" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">30</text>
+<line id="r_at_1/axis" x1="118" y1="104" x2="234" y2="104" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_drone_to_satellite/visual/r_at_1/sd-line" x1="160.11300876555595" y1="116" x2="161.02073255732816" y2="116" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_drone_to_satellite/visual/r_at_1/sd-cap-left" x1="160.11300876555595" y1="113.9" x2="160.11300876555595" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="university1652_drone_to_satellite/visual/r_at_1/sd-cap-right" x1="161.02073255732816" y1="113.9" x2="161.02073255732816" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="university1652_drone_to_satellite/visual/r_at_1/mean" cx="160.56687066144207" cy="116" r="1.8" fill="#0072B2"/>
+<text id="university1652_drone_to_satellite/visual/r_at_1/value" x="176" y="127" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">11.009 ± 0.117</text>
+<line id="university1652_drone_to_satellite/full/r_at_1/sd-line" x1="147.26466948640956" y1="136" x2="151.97617643149357" y2="136" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_drone_to_satellite/full/r_at_1/sd-cap-left" x1="147.26466948640956" y1="133.9" x2="147.26466948640956" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="university1652_drone_to_satellite/full/r_at_1/sd-cap-right" x1="151.97617643149357" y1="133.9" x2="151.97617643149357" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="university1652_drone_to_satellite/full/r_at_1/mean" x="147.82042295895155" y="134.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="university1652_drone_to_satellite/full/r_at_1/value" x="176" y="147" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">8.178 ± 0.609</text>
+<line id="university1652_satellite_to_drone/visual/r_at_1/sd-line" x1="210.50864543802396" y1="162" x2="224.06482103843825" y2="162" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_satellite_to_drone/visual/r_at_1/sd-cap-left" x1="210.50864543802396" y1="159.9" x2="210.50864543802396" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="university1652_satellite_to_drone/visual/r_at_1/sd-cap-right" x1="224.06482103843825" y1="159.9" x2="224.06482103843825" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="university1652_satellite_to_drone/visual/r_at_1/mean" cx="217.28673323823108" cy="162" r="1.8" fill="#0072B2"/>
+<text id="university1652_satellite_to_drone/visual/r_at_1/value" x="176" y="173" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">25.678 ± 1.753</text>
+<line id="university1652_satellite_to_drone/full/r_at_1/sd-line" x1="183.79522322918956" y1="182" x2="193.41257515407244" y2="182" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_satellite_to_drone/full/r_at_1/sd-cap-left" x1="183.79522322918956" y1="179.9" x2="183.79522322918956" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="university1652_satellite_to_drone/full/r_at_1/sd-cap-right" x1="193.41257515407244" y1="179.9" x2="193.41257515407244" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="university1652_satellite_to_drone/full/r_at_1/mean" x="186.803899191631" y="180.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="university1652_satellite_to_drone/full/r_at_1/value" x="176" y="193" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">18.260 ± 1.244</text>
+<line id="university1652_street_to_satellite/visual/r_at_1/sd-line" x1="118.62221326332713" y1="208" x2="119.37683891021128" y2="208" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/visual/r_at_1/sd-cap-left" x1="118.62221326332713" y1="205.9" x2="118.62221326332713" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="university1652_street_to_satellite/visual/r_at_1/sd-cap-right" x1="119.37683891021128" y1="205.9" x2="119.37683891021128" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="university1652_street_to_satellite/visual/r_at_1/mean" cx="118.99952608676921" cy="208" r="1.8" fill="#0072B2"/>
+<text id="university1652_street_to_satellite/visual/r_at_1/value" x="176" y="219" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.258 ± 0.098</text>
+<line id="university1652_street_to_satellite/full/r_at_1/sd-line" x1="118.89957347809228" y1="228" x2="118.89957347809228" y2="228" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/full/r_at_1/sd-cap-left" x1="118.89957347809228" y1="225.9" x2="118.89957347809228" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="university1652_street_to_satellite/full/r_at_1/sd-cap-right" x1="118.89957347809228" y1="225.9" x2="118.89957347809228" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="university1652_street_to_satellite/full/r_at_1/mean" x="117.09957347809228" y="226.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="university1652_street_to_satellite/full/r_at_1/value" x="176" y="239" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.233 ± 0.000</text>
+<text id="official_trapezoid_mAP/heading" x="306" y="79" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Official mAP (%)</text>
+<text id="official_trapezoid_mAP/semantics" x="306" y="90" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">Trapezoidal AP</text>
+<line id="official_trapezoid_mAP/grid/0" x1="248" y1="104" x2="248" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="official_trapezoid_mAP/tick/0" x1="248" y1="102" x2="248" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="official_trapezoid_mAP/tick-label/0" x="248" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="official_trapezoid_mAP/grid/10" x1="306" y1="104" x2="306" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="official_trapezoid_mAP/tick/10" x1="306" y1="102" x2="306" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="official_trapezoid_mAP/tick-label/10" x="306" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">10</text>
+<line id="official_trapezoid_mAP/grid/20" x1="364" y1="104" x2="364" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="official_trapezoid_mAP/tick/20" x1="364" y1="102" x2="364" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="official_trapezoid_mAP/tick-label/20" x="364" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">20</text>
+<line id="official_trapezoid_mAP/axis" x1="248" y1="104" x2="364" y2="104" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_drone_to_satellite/visual/official_trapezoid_mAP/sd-line" x1="333.8307474069261" y1="116" x2="334.56129586572814" y2="116" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_drone_to_satellite/visual/official_trapezoid_mAP/sd-cap-left" x1="333.8307474069261" y1="113.9" x2="333.8307474069261" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="university1652_drone_to_satellite/visual/official_trapezoid_mAP/sd-cap-right" x1="334.56129586572814" y1="113.9" x2="334.56129586572814" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="university1652_drone_to_satellite/visual/official_trapezoid_mAP/mean" cx="334.19602163632715" cy="116" r="1.8" fill="#0072B2"/>
+<text id="university1652_drone_to_satellite/visual/official_trapezoid_mAP/value" x="306" y="127" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">14.861 ± 0.063</text>
+<line id="university1652_drone_to_satellite/full/official_trapezoid_mAP/sd-line" x1="311.54203469742527" y1="136" x2="319.6573492965183" y2="136" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_drone_to_satellite/full/official_trapezoid_mAP/sd-cap-left" x1="311.54203469742527" y1="133.9" x2="311.54203469742527" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="university1652_drone_to_satellite/full/official_trapezoid_mAP/sd-cap-right" x1="319.6573492965183" y1="133.9" x2="319.6573492965183" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="university1652_drone_to_satellite/full/official_trapezoid_mAP/mean" x="313.7996919969718" y="134.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="university1652_drone_to_satellite/full/official_trapezoid_mAP/value" x="306" y="147" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">11.655 ± 0.700</text>
+<line id="university1652_satellite_to_drone/visual/official_trapezoid_mAP/sd-line" x1="300.642643816827" y1="162" x2="306.05842820052476" y2="162" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_satellite_to_drone/visual/official_trapezoid_mAP/sd-cap-left" x1="300.642643816827" y1="159.9" x2="300.642643816827" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="university1652_satellite_to_drone/visual/official_trapezoid_mAP/sd-cap-right" x1="306.05842820052476" y1="159.9" x2="306.05842820052476" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="university1652_satellite_to_drone/visual/official_trapezoid_mAP/mean" cx="303.3505360086759" cy="162" r="1.8" fill="#0072B2"/>
+<text id="university1652_satellite_to_drone/visual/official_trapezoid_mAP/value" x="306" y="173" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">9.543 ± 0.467</text>
+<line id="university1652_satellite_to_drone/full/official_trapezoid_mAP/sd-line" x1="285.8690252697629" y1="182" x2="290.9458028081891" y2="182" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_satellite_to_drone/full/official_trapezoid_mAP/sd-cap-left" x1="285.8690252697629" y1="179.9" x2="285.8690252697629" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="university1652_satellite_to_drone/full/official_trapezoid_mAP/sd-cap-right" x1="290.9458028081891" y1="179.9" x2="290.9458028081891" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="university1652_satellite_to_drone/full/official_trapezoid_mAP/mean" x="286.607414038976" y="180.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="university1652_satellite_to_drone/full/official_trapezoid_mAP/value" x="306" y="193" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">6.967 ± 0.438</text>
+<line id="university1652_street_to_satellite/visual/official_trapezoid_mAP/sd-line" x1="251.42946976856786" y1="208" x2="252.73245375045738" y2="208" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/visual/official_trapezoid_mAP/sd-cap-left" x1="251.42946976856786" y1="205.9" x2="251.42946976856786" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="university1652_street_to_satellite/visual/official_trapezoid_mAP/sd-cap-right" x1="252.73245375045738" y1="205.9" x2="252.73245375045738" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="university1652_street_to_satellite/visual/official_trapezoid_mAP/mean" cx="252.08096175951263" cy="208" r="1.8" fill="#0072B2"/>
+<text id="university1652_street_to_satellite/visual/official_trapezoid_mAP/value" x="306" y="219" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.704 ± 0.112</text>
+<line id="university1652_street_to_satellite/full/official_trapezoid_mAP/sd-line" x1="252.04857510488537" y1="228" x2="252.57523449225914" y2="228" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/full/official_trapezoid_mAP/sd-cap-left" x1="252.04857510488537" y1="225.9" x2="252.04857510488537" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="university1652_street_to_satellite/full/official_trapezoid_mAP/sd-cap-right" x1="252.57523449225914" y1="225.9" x2="252.57523449225914" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="university1652_street_to_satellite/full/official_trapezoid_mAP/mean" x="250.51190479857226" y="226.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="university1652_street_to_satellite/full/official_trapezoid_mAP/value" x="306" y="239" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.743 ± 0.045</text>
+<text id="MRR/heading" x="436" y="79" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">MRR × 100</text>
+<line id="MRR/grid/0" x1="378" y1="104" x2="378" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/0" x1="378" y1="102" x2="378" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/0" x="378" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="MRR/grid/10" x1="407" y1="104" x2="407" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/10" x1="407" y1="102" x2="407" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/10" x="407" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">10</text>
+<line id="MRR/grid/20" x1="436" y1="104" x2="436" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/20" x1="436" y1="102" x2="436" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/20" x="436" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">20</text>
+<line id="MRR/grid/30" x1="465" y1="104" x2="465" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/30" x1="465" y1="102" x2="465" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/30" x="465" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">30</text>
+<line id="MRR/grid/40" x1="494" y1="104" x2="494" y2="251" stroke="#E4E8ED" stroke-width="0.4"/>
+<line id="MRR/tick/40" x1="494" y1="102" x2="494" y2="104" stroke="#444444" stroke-width="0.6"/>
+<text id="MRR/tick-label/40" x="494" y="101" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">40</text>
+<line id="MRR/axis" x1="378" y1="104" x2="494" y2="104" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_drone_to_satellite/visual/MRR/sd-line" x1="432.1608988605391" y1="116" x2="432.38084439809614" y2="116" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_drone_to_satellite/visual/MRR/sd-cap-left" x1="432.1608988605391" y1="113.9" x2="432.1608988605391" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="university1652_drone_to_satellite/visual/MRR/sd-cap-right" x1="432.38084439809614" y1="113.9" x2="432.38084439809614" y2="118.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="university1652_drone_to_satellite/visual/MRR/mean" cx="432.2708716293176" cy="116" r="1.8" fill="#0072B2"/>
+<text id="university1652_drone_to_satellite/visual/MRR/value" x="436" y="127" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">18.714 ± 0.038</text>
+<line id="university1652_drone_to_satellite/full/MRR/sd-line" x1="419.5393329503844" y1="136" x2="424.2294103858163" y2="136" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_drone_to_satellite/full/MRR/sd-cap-left" x1="419.5393329503844" y1="133.9" x2="419.5393329503844" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="university1652_drone_to_satellite/full/MRR/sd-cap-right" x1="424.2294103858163" y1="133.9" x2="424.2294103858163" y2="138.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="university1652_drone_to_satellite/full/MRR/mean" x="420.08437166810035" y="134.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="university1652_drone_to_satellite/full/MRR/value" x="436" y="147" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">15.133 ± 0.809</text>
+<line id="university1652_satellite_to_drone/visual/MRR/sd-line" x1="470.4575452187277" y1="162" x2="480.12480424060254" y2="162" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_satellite_to_drone/visual/MRR/sd-cap-left" x1="470.4575452187277" y1="159.9" x2="470.4575452187277" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="university1652_satellite_to_drone/visual/MRR/sd-cap-right" x1="480.12480424060254" y1="159.9" x2="480.12480424060254" y2="164.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="university1652_satellite_to_drone/visual/MRR/mean" cx="475.29117472966516" cy="162" r="1.8" fill="#0072B2"/>
+<text id="university1652_satellite_to_drone/visual/MRR/value" x="436" y="173" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">33.549 ± 1.667</text>
+<line id="university1652_satellite_to_drone/full/MRR/sd-line" x1="446.4802555140817" y1="182" x2="459.65300278892477" y2="182" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_satellite_to_drone/full/MRR/sd-cap-left" x1="446.4802555140817" y1="179.9" x2="446.4802555140817" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="university1652_satellite_to_drone/full/MRR/sd-cap-right" x1="459.65300278892477" y1="179.9" x2="459.65300278892477" y2="184.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="university1652_satellite_to_drone/full/MRR/mean" x="451.2666291515032" y="180.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="university1652_satellite_to_drone/full/MRR/value" x="436" y="193" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">25.885 ± 2.271</text>
+<line id="university1652_street_to_satellite/visual/MRR/sd-line" x1="380.91971829259177" y1="208" x2="381.7429165420554" y2="208" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/visual/MRR/sd-cap-left" x1="380.91971829259177" y1="205.9" x2="380.91971829259177" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<line id="university1652_street_to_satellite/visual/MRR/sd-cap-right" x1="381.7429165420554" y1="205.9" x2="381.7429165420554" y2="210.1" stroke="#0072B2" stroke-width="0.8"/>
+<circle id="university1652_street_to_satellite/visual/MRR/mean" cx="381.3313174173236" cy="208" r="1.8" fill="#0072B2"/>
+<text id="university1652_street_to_satellite/visual/MRR/value" x="436" y="219" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">1.149 ± 0.142</text>
+<line id="university1652_street_to_satellite/full/MRR/sd-line" x1="381.3738952547738" y1="228" x2="381.9005538962355" y2="228" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/full/MRR/sd-cap-left" x1="381.3738952547738" y1="225.9" x2="381.3738952547738" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<line id="university1652_street_to_satellite/full/MRR/sd-cap-right" x1="381.9005538962355" y1="225.9" x2="381.9005538962355" y2="230.1" stroke="#D55E00" stroke-width="0.8"/>
+<rect id="university1652_street_to_satellite/full/MRR/mean" x="379.83722457550465" y="226.2" width="3.6" height="3.6" fill="#D55E00"/>
+<text id="university1652_street_to_satellite/full/MRR/value" x="436" y="239" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">1.254 ± 0.091</text>
+<text id="university1652_drone_to_satellite/label/0" x="15" y="125" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Drone → satellite</text>
+<line id="university1652_drone_to_satellite/separator" x1="15" y1="154" x2="500.6220472440946" y2="154" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="university1652_satellite_to_drone/label/0" x="15" y="171" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Satellite → drone</text>
+<line id="university1652_satellite_to_drone/separator" x1="15" y1="200" x2="500.6220472440946" y2="200" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="university1652_street_to_satellite/label/0" x="15" y="217" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Street → satellite</text>
+<text id="footnote/sd" x="15" y="268" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Bars are sample SD (n − 1 = 2), not confidence intervals or significance tests.</text>
+<text id="footnote/tasks" x="15" y="281" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Each retrieval task is separate; no pooling across heights, directions or datasets.</text>
+<text id="footnote/units" x="15" y="294" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">R@1 and mAP are percentages; MRR × 100 is scaled MRR, not an accuracy percentage.</text>
+<text id="footnote/numerics" x="15" y="307" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Labels show mean ± sample SD; exact fractions and all seed values are in the source tables.</text>
+</svg>

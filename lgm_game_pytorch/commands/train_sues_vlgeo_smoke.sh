@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+: "${SUES200_ROOT:?Set SUES200_ROOT to the SUES-200 dataset directory}"
+
 cd "$(dirname "$0")/../.."
 
 PYTHONPATH=lgm_game_pytorch python3 -m lgm_game_pytorch.train \
   --dataset sues200 \
-  --data-root /Users/chenche/Documents/dataset/SUES-200 \
+  --data-root "$SUES200_ROOT" \
   --output-dir lgm_game_pytorch/runs/sues200_vlgeo_smoke \
   --epochs 1 \
   --batch-size 2 \

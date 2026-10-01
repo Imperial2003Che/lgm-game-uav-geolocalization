@@ -1,0 +1,16 @@
+{
+  "schema": "offline-native-visio-attempt.v1",
+  "mode": "full68",
+  "input_manifest": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\INPUT_MANIFEST_v2.json",
+    "bytes": 1052344,
+    "sha256": "506aa8f9bee244714e61ec610a21345ecbdd89b91cf816d57db1c9c490b10bdd"
+  },
+  "builder": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\offline_native_visio_20260930_1030\\build_offline_vsdx_v2.py",
+    "bytes": 30425,
+    "sha256": "655f0ff75d14826c34eab2d41cee304bf2f656bc9c611468c6e0d997d02370e6"
+  },
+  "COM_or_Office_invoked": false,
+  "scientific_execution": false
+}

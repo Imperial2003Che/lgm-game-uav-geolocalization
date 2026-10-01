@@ -1,0 +1,244 @@
+{
+  "status": "root_adopted_descriptive_transfer_statistics",
+  "time": "2026-09-29T07:16:16.8930096+01:00",
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\adopt_transfer_statistics.ps1",
+    "sha256": "b116493dc9a79599b7bdfb26034d4a7f2dd6a77b546fa7749d40324ad1358e60"
+  },
+  "producer": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\aggregate_transfer.py",
+    "sha256": "d981b45c7ab7f1e4d7e018635771b63d84d307a14cdc2bcc5b4e5ec1f2e99bd3",
+    "bytes": 14034
+  },
+  "report": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\REPORT.json",
+    "sha256": "22d8578b17fa7d71bd2078a630b62b8e8e45c3082a7b86f608580bd0a4478c7c",
+    "bytes": 22699
+  },
+  "delivery": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\DELIVERY.json",
+    "sha256": "d8fd7ab801ffb61f448f4bc12cc68f03d95e7f53a141d6ea0096bc96f4541c22",
+    "bytes": 6868
+  },
+  "independent": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\contract_review\\INDEPENDENT_TRANSFER_AGGREGATION_DECIMAL_REVIEW_V2_20260929.json",
+    "sha256": "305d5f87dbe5fd7347c4c0e9944b1b020486d43e747a52f02ebbc24ac7bd380b",
+    "bytes": 9607
+  },
+  "independent_source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\contract_review\\independent_transfer_aggregation_decimal_review_v2.py",
+    "sha256": "569361a0e98faec3588eae0d7a5d187dc4b8364bb97f54681c7e6d7023f90024",
+    "bytes": 14589
+  },
+  "companion": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\README.md",
+    "sha256": "58bf8762dddface66fd67db0c2b85540a77e849310002611f98e7eb86d2c8a85",
+    "bytes": 2177
+  },
+  "retained_rejected_checker": {
+    "source": {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\contract_review\\independent_transfer_aggregation_decimal_review.py",
+      "sha256": "073e9d93b0d63d4cede208f807d8e1978c9941ec932600fa84ae048c06bb77a4",
+      "bytes": 14102
+    },
+    "reason": "V1 applied fraction tolerance to x100 units; v2 propagates the same tolerance by100 and sets Decimal50 globally. Producer and outputs unchanged.",
+    "report": {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\contract_review\\INDEPENDENT_TRANSFER_AGGREGATION_DECIMAL_REVIEW_20260929.json",
+      "sha256": "d5504619368309fa78946388b5755c1aa613d23ae9ee2a51b4612a7695990cc7",
+      "bytes": 8361
+    }
+  },
+  "scope": {
+    "within_task_contrasts": 11,
+    "seed_task_rows": 66,
+    "metrics": 3,
+    "accepted_runs": 12,
+    "three_seed_groups": 22
+  },
+  "independent_numerics": {
+    "precision": 50,
+    "sample_sd_denominator": 2,
+    "absolute_tolerance_fraction": "5E-16",
+    "absolute_tolerance_x100": "5.00E-14",
+    "max_abs_difference": "2.666666666666666666666666666666667E-15"
+  },
+  "independent_checks": {
+    "assertions": 2699,
+    "decimal_numeric_comparisons": 330,
+    "group_metric_summaries": 66,
+    "paired_metric_summaries": 33,
+    "csv_json_tables": 3
+  },
+  "descriptive_findings": {
+    "full_mean_official_mAP_below_visual_tasks": 10,
+    "no_significance_claim": true,
+    "positive_mAP_task": "university1652_street_to_satellite",
+    "no_task_pooling": true,
+    "full_mean_R1_below_visual_tasks": 11
+  },
+  "root_review": "Complete aggregation source, original independent checker and full v2 line diff read; all exact input/output/source/report/companion hashes verified; fixed scope and descriptive sign counts independently checked.",
+  "actual_unique_file_checks": 29,
+  "bindings": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\REPORT.json",
+      "sha256": "22d8578b17fa7d71bd2078a630b62b8e8e45c3082a7b86f608580bd0a4478c7c",
+      "bytes": 22699
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\DELIVERY.json",
+      "sha256": "d8fd7ab801ffb61f448f4bc12cc68f03d95e7f53a141d6ea0096bc96f4541c22",
+      "bytes": 6868
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\aggregate_transfer.py",
+      "sha256": "d981b45c7ab7f1e4d7e018635771b63d84d307a14cdc2bcc5b4e5ec1f2e99bd3",
+      "bytes": 14034
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\contract_review\\INDEPENDENT_TRANSFER_AGGREGATION_DECIMAL_REVIEW_V2_20260929.json",
+      "sha256": "305d5f87dbe5fd7347c4c0e9944b1b020486d43e747a52f02ebbc24ac7bd380b",
+      "bytes": 9607
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\contract_review\\independent_transfer_aggregation_decimal_review_v2.py",
+      "sha256": "569361a0e98faec3588eae0d7a5d187dc4b8364bb97f54681c7e6d7023f90024",
+      "bytes": 14589
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\ROOT_TRANSFER12_AND_NATIVE2_ADOPTION.json",
+      "sha256": "fb7588357afa3e225b67088437233db397c067131fb8bc6adf97ce9ccbdd3bdd",
+      "bytes": 172623
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\TRANSFER_REVIEW.json",
+      "sha256": "b0627920c9e8ab1da0dbc6d2d48795b3abe68cf3b79f7d7dba7afa9bba3847c7",
+      "bytes": 355525
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r01\\metrics.json",
+      "sha256": "1bd1151be32b455f04e912d83dd3f794451874964c80a78ee610641464a8bcad",
+      "bytes": 4377
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r02\\metrics.json",
+      "sha256": "b1308b180e4fd90e33889492253f338a21b34549d0c83f94c4d14ca689eea663",
+      "bytes": 4370
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r03\\metrics.json",
+      "sha256": "87a8535d7aa1bf93597429694edad84a1550787a66120424ceb052ab03fab2de",
+      "bytes": 4370
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r04\\metrics.json",
+      "sha256": "0933264bc79ee8aeb078b206d8cb29a0b516d10e7cb52e82a7318151d6461549",
+      "bytes": 4373
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r05\\metrics.json",
+      "sha256": "c2946118b7a5df71d1eb2e4276f2962094d698703a3e3398b20ca859d93294c7",
+      "bytes": 4369
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r06\\metrics.json",
+      "sha256": "4a8ef7040c6ea7dad4d35c27f29ea72f9cd698e0e5b8425e919d7533700b8499",
+      "bytes": 4367
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r07\\metrics.json",
+      "sha256": "8fa16e1b1353b95f63be53d44a3809fcc7a11037d73dcee4b2502d7a0fa5ded8",
+      "bytes": 2053
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r08\\metrics.json",
+      "sha256": "c76e6519c915046dde2130cc589f3168755ef5ac8072fd53b691099cfd307a36",
+      "bytes": 2057
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r09\\metrics.json",
+      "sha256": "27929a323c9d6ed4bc02279e3cf74e6288fb2a396d8982fbabee4b996b376da6",
+      "bytes": 2059
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r10\\metrics.json",
+      "sha256": "0825ac601de218c5f235336b22de36752be7735d76bdc70c2133bbbdfb01b23f",
+      "bytes": 2050
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r11\\metrics.json",
+      "sha256": "d105646808a09790a20a288ba1c46dde4ab3511745a74fa908488dac5b4b4855",
+      "bytes": 2054
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\attempt_20260929_055841_945130\\r12\\metrics.json",
+      "sha256": "b892648f45de170ecac8efb74ac6579fa6c59f7e691d2cebf5e1399eedf518d0",
+      "bytes": 2055
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\ANALYSIS.md",
+      "sha256": "5b619154fe513121323296392503ed5835ae55fc50932f258a5cdc17cde8d42b",
+      "bytes": 6542
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\FULL_MINUS_VISUAL.csv",
+      "sha256": "f7db4997b5b0f9a40d49725d1af6d217a8acda0f0ae43e3431b70fb9d81457af",
+      "bytes": 6427
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\FULL_MINUS_VISUAL.json",
+      "sha256": "7c10cfd97e7911952408abb34ad9c895442d21392512b2b78ac07a9d682f7dcd",
+      "bytes": 14970
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\SEED_RESULTS.csv",
+      "sha256": "d182dc05da660e4846b69612e498195df3b12a9202fcdde5cbbc5fe79e706784",
+      "bytes": 13262
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\SEED_RESULTS.json",
+      "sha256": "3b2bb2434e2741a69c67d1c0f93a17ab2310cd8862db64d346855452ba013e6e",
+      "bytes": 31530
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\THREE_SEED_SUMMARY.csv",
+      "sha256": "98d5a22d45248b1c3c681b506dfb2fac80f710e2aff43f760763f455fb08bf9d",
+      "bytes": 6118
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\result_20260929_061052_519928\\THREE_SEED_SUMMARY.json",
+      "sha256": "751c773b8db9bb8fecb77f6342bc42685a535aed5393479c256be658dc16ad38",
+      "bytes": 14360
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_results_20260929\\README.md",
+      "sha256": "58bf8762dddface66fd67db0c2b85540a77e849310002611f98e7eb86d2c8a85",
+      "bytes": 2177
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\contract_review\\independent_transfer_aggregation_decimal_review.py",
+      "sha256": "073e9d93b0d63d4cede208f807d8e1978c9941ec932600fa84ae048c06bb77a4",
+      "bytes": 14102
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\transfer_audit_20260929_0647\\contract_review\\INDEPENDENT_TRANSFER_AGGREGATION_DECIMAL_REVIEW_20260929.json",
+      "sha256": "d5504619368309fa78946388b5755c1aa613d23ae9ee2a51b4612a7695990cc7",
+      "bytes": 8361
+    }
+  ],
+  "limits": [
+    "No checkpoint bytes loaded or rehashed; historical inherited SHA plus stable stat does not prove current bytes.",
+    "University visual sources retain original first12 inventory historical whole-file SHA edge gap; no new historical provenance invented.",
+    "Original source checkpoint loading/full-state inspection and producer source gate were not independently re-executed.",
+    "Full cache and image-content SHA inherited; actual metadata and memberships checked, not full cache/image-content rehash.",
+    "Stored AP/RR/margin aggregation checked; no model inference/full ranking/AP recomputation from all positive ranks.",
+    "Original subprocess.run child return0 and parent pipeline Popen exit0 plus current stage PID observation; no independent launcher/interpreter exit handles.",
+    "Actual NumPy runtime not imported; original completion functions ran in bounded stdlib compatibility environment.",
+    "This aggregation reads only adopted sealed metrics; it does not rerun any completion gate, query audit, model, ranking or AP computation.",
+    "Each group contains seed 1/2/3 equally weighted. Sample SD has denominator n-1=2; it is not SE or a confidence interval.",
+    "Full-minus-Visual is descriptive within each identical transfer direction/task only, paired by seed number. No hypothesis test or significance claim.",
+    "No pooling across retrieval tasks, altitudes, directions, datasets or query counts. Metrics remain fractions in machine-readable tables.",
+    "Displayed R@1/mAP differences x100 are percentage points; MRR differences x100 are scaled MRR points, not relative percentage gains."
+  ],
+  "scientific_execution": false,
+  "live_state_modified": false
+}

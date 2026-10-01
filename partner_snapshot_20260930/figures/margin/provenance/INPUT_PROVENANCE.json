@@ -1,0 +1,134 @@
+{
+  "schema": "native-t4-margin-input-provenance.v1",
+  "mode": "final",
+  "rootSha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+  "inputs": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\ROOT_POST_ROBUSTNESS_ADOPTION.json",
+      "sha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+      "bytes": 221193
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\CAPTURE.json",
+      "sha256": "473d5fba90c3fc0d044733ffb19e1f2955f08df96f89d4c643ad54d6ff15ca09",
+      "bytes": 98212
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\query\\transactions_t4_strata.json",
+      "sha256": "42090c4ffdafedbfffd8ed2439e1e59756f0876e2c7ae612a87031a574b28cc8",
+      "bytes": 896696
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\query\\transactions_t4_strata.csv",
+      "sha256": "bc1725e7d5a1ce298f2de579240d65ced823b57d0d2af8bcb077a9d697d66530",
+      "bytes": 143708
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\README.md",
+      "sha256": "6042d5067a024781d8190a9a840bc2d5212f94ff4f03faa905a463eda8d8b877",
+      "bytes": 7452,
+      "role": "Contextual upstream report; JSON/CSV admission uses pinned root and capture",
+      "rootBound": true
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\REVIEW.json",
+      "sha256": "e350ca764a7b6a053afbab3062eee6412306685ffeb2c5b9185578896ff451bc",
+      "bytes": 15161,
+      "role": "Contextual upstream report; JSON/CSV admission uses pinned root and capture",
+      "rootBound": true
+    }
+  ],
+  "selectedStrata": 132,
+  "selectedEligible": 84,
+  "selectedIneligible": 48,
+  "plottedTasks": [
+    "university1652_drone_to_satellite",
+    "university1652_satellite_to_drone",
+    "university1652_street_to_satellite",
+    "sues200_uav_150m_to_satellite",
+    "sues200_satellite_to_uav_150m",
+    "sues200_uav_200m_to_satellite",
+    "sues200_satellite_to_uav_200m",
+    "sues200_uav_250m_to_satellite",
+    "sues200_satellite_to_uav_250m",
+    "sues200_uav_300m_to_satellite",
+    "sues200_satellite_to_uav_300m"
+  ],
+  "plottedStrata": 132,
+  "plottedPanels": 99,
+  "plottedValues": 792,
+  "otherStrataPreservedNotPlotted": 330,
+  "derivedCSV": "Direct field flattening and multiplication by100 only. No query-array, quantile, membership, mean or inference recomputation.",
+  "copies": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\MARGIN_STRATA_132.csv",
+      "sha256": "1b109b9068423c7f62604b2a95716a516da7abd53878fc49c03da85fa4cfcf07",
+      "bytes": 69592
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_sues200_satellite_to_uav_150m__margin_strata.csv",
+      "sha256": "386c4dc194eb7aecea7583feb01a96a41d3f9bcec499e5f7b6b5e6d0796da54a",
+      "bytes": 6489
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_sues200_satellite_to_uav_200m__margin_strata.csv",
+      "sha256": "be325bec3392c919a1dd530626aad9982300aa6b4ccdb39d0db5bd785b8c2e0f",
+      "bytes": 6461
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_sues200_satellite_to_uav_250m__margin_strata.csv",
+      "sha256": "a5e6a0734634b1b4de1407533f7e1721d4e1b397502a3cf87f62004490966784",
+      "bytes": 6437
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_sues200_satellite_to_uav_300m__margin_strata.csv",
+      "sha256": "56315688b589ccbe5580aed72474dac746e164305eb7a111614f77e957089ebe",
+      "bytes": 6444
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_sues200_uav_150m_to_satellite__margin_strata.csv",
+      "sha256": "8a9d75fd362482d7ff62a24e8716457f06f8b2660134e17d2ef28b2334796a60",
+      "bytes": 6563
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_sues200_uav_200m_to_satellite__margin_strata.csv",
+      "sha256": "78dc370514b1d158d4405ec5130a29a647624fb68c9d3ccb5da1f54ceb2753fa",
+      "bytes": 6609
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_sues200_uav_250m_to_satellite__margin_strata.csv",
+      "sha256": "ceb7b7d676db60d24403c5f2d2fc5862c4acdcb4e8cb430307e7f91a1485e4c9",
+      "bytes": 6598
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_sues200_uav_300m_to_satellite__margin_strata.csv",
+      "sha256": "37f42ae0f126cc6b3fc24b96dd45c6dee2fdcd388c53e75abc798947522df06c",
+      "bytes": 6636
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_university1652_drone_to_satellite__margin_strata.csv",
+      "sha256": "552e9795bf7e2912996423d50e9f4a6b90575961095d59321d107ac2cd484201",
+      "bytes": 7453
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_university1652_satellite_to_drone__margin_strata.csv",
+      "sha256": "54373a952d6671efad537adee176c537deee3545250b12e3f4bf18e124368cd3",
+      "bytes": 7324
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\t4_university1652_street_to_satellite__margin_strata.csv",
+      "sha256": "ebdd70a456d4062de7aa6f29f3fe9dac74dc56be2694e7115fd4883df2d98e1c",
+      "bytes": 7578
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\transactions_t4_strata.csv",
+      "sha256": "bc1725e7d5a1ce298f2de579240d65ced823b57d0d2af8bcb077a9d697d66530",
+      "bytes": 143708
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t4_margin_native_figures_20260929_1952\\output\\source_data\\transactions_t4_strata.json",
+      "sha256": "42090c4ffdafedbfffd8ed2439e1e59756f0876e2c7ae612a87031a574b28cc8",
+      "bytes": 896696
+    }
+  ]
+}

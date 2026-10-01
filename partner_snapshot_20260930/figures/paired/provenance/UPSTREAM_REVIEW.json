@@ -1,0 +1,484 @@
+{
+  "schema": "post-robustness-independent-bounded-review.v1",
+  "utc": "2026-09-29T13:58:59.070219+00:00",
+  "passed_with_stated_limits": true,
+  "root_adoption_pending": true,
+  "aggregate_SUES_Full_input_adoption_pending": true,
+  "source": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\review_post.py",
+    "sha256": "bb510281e547182ddc675d8ab34d7905625bb3ed4d7f540416b0cad5a7c36521"
+  },
+  "capture": {
+    "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\CAPTURE.json",
+    "sha256": "473d5fba90c3fc0d044733ffb19e1f2955f08df96f89d4c643ad54d6ff15ca09"
+  },
+  "assertions": 219452,
+  "numerical_comparisons": 49292,
+  "aggregate": {
+    "rows": 3960,
+    "new_artifacts": 94,
+    "figure_groups": 22,
+    "svg_review": [
+      {
+        "key": [
+          "university1652",
+          "university1652_drone_to_satellite",
+          "r_at_1"
+        ],
+        "text_count": 71,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "university1652",
+          "university1652_drone_to_satellite",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 71,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "university1652",
+          "university1652_satellite_to_drone",
+          "r_at_1"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "university1652",
+          "university1652_satellite_to_drone",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "university1652",
+          "university1652_street_to_satellite",
+          "r_at_1"
+        ],
+        "text_count": 77,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "university1652",
+          "university1652_street_to_satellite",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_uav_150m_to_satellite",
+          "r_at_1"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_uav_150m_to_satellite",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_satellite_to_uav_150m",
+          "r_at_1"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_satellite_to_uav_150m",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 71,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_uav_200m_to_satellite",
+          "r_at_1"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_uav_200m_to_satellite",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_satellite_to_uav_200m",
+          "r_at_1"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_satellite_to_uav_200m",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 71,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_uav_250m_to_satellite",
+          "r_at_1"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_uav_250m_to_satellite",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_satellite_to_uav_250m",
+          "r_at_1"
+        ],
+        "text_count": 71,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_satellite_to_uav_250m",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 71,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_uav_300m_to_satellite",
+          "r_at_1"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_uav_300m_to_satellite",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_satellite_to_uav_300m",
+          "r_at_1"
+        ],
+        "text_count": 73,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      },
+      {
+        "key": [
+          "sues200",
+          "sues200_satellite_to_uav_300m",
+          "official_trapezoid_mAP"
+        ],
+        "text_count": 71,
+        "image_count": 0,
+        "observed_style_sizes": [
+          6.0,
+          7.0,
+          8.0,
+          8.4
+        ],
+        "final_layout_or_geometry_validated": false
+      }
+    ],
+    "input_run_adoption_reconciliation": "Separate annex required, especially pending SUES Full root",
+    "figure_limit": "Source/CSV/text/raster/table consistency checked; exact plotted path geometry and final page preview not validated. Source fonts 6/7pt violate requested final minimum8pt, so these are not final figure delivery."
+  },
+  "query": {
+    "source_npz": 66,
+    "task_seed_pairs": 33,
+    "T4_rows": 462,
+    "T4_margin_strata_recomputed": 132,
+    "T4_other_strata_membership_and_values_recomputed": false,
+    "T4_eligible_Holm_family": 284,
+    "T5_native_query_recomputed": 66,
+    "T5_paired_query_recomputed": 132,
+    "bootstrap_CI_recomputed": false,
+    "source_authority": {
+      "metadata_nodes": 6,
+      "exact_input_path_sha_size_bindings": 66,
+      "not_directly_found": [],
+      "all_12_run_identifiers_adopted": true
+    },
+    "limits": [
+      "T4 entropy/semantic memberships and associated values are only aggregate/CSV/threshold consistency checked; no cache/image content is read.",
+      "All bootstrap intervals are retained producer values, checked only for eligibility/nulls/finite bounds, not resampled or independently accepted inference.",
+      "T4 McNemar recomputed from saved discordance counts, with actual query recount only for 132 visual-margin strata. T5 selection/calibration/AURC/discordance are independently recomputed from actual NPZ values.",
+      "Exact binomial integer sums replace producer lgamma/logsumexp; log10 agreement uses absolute/relative2e-8, ordinary means use math.fsum within2e-12; not bitwise NumPy reductions.",
+      "Saved AP/RR/margins are audited as source values; no model/full ranking/all-positive-rank AP recomputation or current checkpoint/cache/image SHA verification. All historical authority gaps remain."
+    ]
+  },
+  "metadata_chain_additions": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\ROOT_SUES_BATCH11_ADOPTION_20260929.json",
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\authority\\ROOT_SUES_BATCH11_ADOPTION_20260929.json",
+      "sha256": "657968ef1cf457bdc0b052c45cd0b2fd4f22dc687dc012d6f8482286e1fb052b",
+      "bytes": 530804
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\ROOT_SUES_CONTENT_SEED1_ADOPTION_20260929.json",
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\authority\\ROOT_SUES_CONTENT_SEED1_ADOPTION_20260929.json",
+      "sha256": "7acf3313c7d3950a3da9f0fe13166b9536dd5615f5b0137eaf09a25cd621e715",
+      "bytes": 80184
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260929\\ROOT_BATCH6_ADOPTION_20260929.json",
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\authority\\ROOT_BATCH6_ADOPTION_20260929.json",
+      "sha256": "c0735605a977e5ffcfd877e980a3773e9a747d4d7b4d68b9b682a0276f693fae",
+      "bytes": 150745
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260928\\ROOT_BATCH10_ADOPTION_20260928.json",
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\authority\\ROOT_BATCH10_ADOPTION_20260928.json",
+      "sha256": "155610032a4e1951527206ee47c4366fbb202a7c175006209913cee86902173e",
+      "bytes": 192417
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\evaluation_audits_20260928\\ROOT_CONTENT_SEED12_ADOPTION_20260928.json",
+      "snapshot": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\authority\\ROOT_CONTENT_SEED12_ADOPTION_20260928.json",
+      "sha256": "1676ad826b902a0275f931834a33489d699c0690a9d5826be06401b9a62573f3",
+      "bytes": 59292
+    }
+  ],
+  "parent_stage_records": {
+    "robustness_aggregate": {
+      "id": "robustness_aggregate",
+      "command": [
+        "C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe",
+        "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\aggregate_formal_robustness.py",
+        "--delivery-root",
+        "C:\\项目\\LGM-GAME-Partner-Delivery-20260724",
+        "--university-root",
+        "C:\\项目\\IMTMN\\datasets\\University-1652",
+        "--sues-root",
+        "C:\\项目\\IMTMN\\datasets\\SUES-200"
+      ],
+      "entrypoint_sha256": "1a3328aaf4aa6bbb55da567e4cac7bc59d3c491928e6b998000353545b699ebb",
+      "status": "completed",
+      "started_utc": "2026-09-29T13:36:22.495984+00:00",
+      "pid": 43500,
+      "exit_code": 0,
+      "finished_utc": "2026-09-29T13:37:22.508958+00:00"
+    },
+    "query_analysis": {
+      "id": "query_analysis",
+      "command": [
+        "C:\\项目\\.venvs\\lgm-baselines\\Scripts\\python.exe",
+        "C:\\项目\\LGM-GAME-Partner-Delivery-20260724\\lgm_game_pytorch\\experiments\\run_transactions_query_analysis.py",
+        "--delivery-root",
+        "C:\\项目\\LGM-GAME-Partner-Delivery-20260724",
+        "--university-root",
+        "C:\\项目\\IMTMN\\datasets\\University-1652",
+        "--sues-root",
+        "C:\\项目\\IMTMN\\datasets\\SUES-200"
+      ],
+      "entrypoint_sha256": "0592c3c1859d38b3cea542d6a5afd8e27bc2b5836dcc83103f4f239db363f561",
+      "status": "completed",
+      "started_utc": "2026-09-29T13:37:22.523679+00:00",
+      "pid": 40968,
+      "exit_code": 0,
+      "finished_utc": "2026-09-29T13:40:52.541624+00:00"
+    }
+  },
+  "original_parent_exit_only_not_independent_dual_handle_proof": true,
+  "scientific_imports": [],
+  "weights_cache_images_read": false,
+  "old_science_jobs_or_suites_rerun": false,
+  "live_state_modified": false,
+  "limits": [
+    "Aggregate numerical/table/source-CSV consistency is checked here; full 4-run root-adopted input reconciliation is a separate mandatory annex.",
+    "Producer manuscript_result fields and stage exit0 are not independently established scientific acceptance.",
+    "Original aggregate figures are not final 8pt editable-paper figure delivery; no final Overleaf/publication update is made."
+  ]
+}

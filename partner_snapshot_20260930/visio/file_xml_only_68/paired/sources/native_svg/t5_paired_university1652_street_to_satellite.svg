@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="181.9mm" height="188.38333333333333mm" viewBox="0 0 515.6220472440946 534">
+<title>University-1652: Street → satellite: coverage-constrained success</title>
+<desc>Three separate seeds, four stored coverage observations per variant. Success means selected AND correct over full common N. Equal selected counts do not imply equal membership. No added origin, inference or pooling.</desc>
+<rect id="background" x="0" y="0" width="515.6220472440946" height="534" fill="white"/>
+<text id="title" x="15" y="18" font-family="Arial" font-size="10" font-weight="bold" text-anchor="start" fill="#222222">University-1652: Street → satellite</text>
+<text id="subtitle" x="15" y="34" font-family="Arial" font-size="9" font-weight="bold" text-anchor="start" fill="#222222">Coverage-constrained success on the full query set</text>
+<circle id="legend/visual/marker" cx="18" cy="48" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<text id="legend/visual/text" x="27" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Visual (V)</text>
+<rect id="legend/full/marker" x="108.1" y="46.1" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<text id="legend/full/text" x="119" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Full (F)</text>
+<text id="y-axis-label" x="15" y="70" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Selected AND Top-1 correct / full query N (%)</text>
+<text id="university1652_street_to_satellite/seed-1/heading" x="105" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 1</text>
+<line id="university1652_street_to_satellite/seed-1/y-grid-0" x1="42" y1="227" x2="168" y2="227" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-1/y-label-0" x="37" y="229.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="university1652_street_to_satellite/seed-1/x-tick-0" x1="42" y1="227" x2="42" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-1/x-label-0" x="42" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="university1652_street_to_satellite/seed-1/y-grid-25" x1="42" y1="195" x2="168" y2="195" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-1/y-label-25" x="37" y="197.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="university1652_street_to_satellite/seed-1/x-tick-25" x1="73.5" y1="227" x2="73.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-1/x-label-25" x="73.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="university1652_street_to_satellite/seed-1/y-grid-50" x1="42" y1="163" x2="168" y2="163" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-1/y-label-50" x="37" y="165.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="university1652_street_to_satellite/seed-1/x-tick-50" x1="105" y1="227" x2="105" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-1/x-label-50" x="105" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="university1652_street_to_satellite/seed-1/y-grid-75" x1="42" y1="131" x2="168" y2="131" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-1/y-label-75" x="37" y="133.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="university1652_street_to_satellite/seed-1/x-tick-75" x1="136.5" y1="227" x2="136.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-1/x-label-75" x="136.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="university1652_street_to_satellite/seed-1/y-grid-100" x1="42" y1="99" x2="168" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-1/y-label-100" x="37" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="university1652_street_to_satellite/seed-1/x-tick-100" x1="168" y1="227" x2="168" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-1/x-label-100" x="168" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="university1652_street_to_satellite/seed-1/y-axis" x1="42" y1="99" x2="42" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_street_to_satellite/seed-1/x-axis" x1="42" y1="227" x2="168" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_street_to_satellite/seed-1/visual/guide-1-2" x1="105.02442807289648" y1="226.70221015897636" x2="136.5366421093447" y2="226.55331523846453" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-1/visual/guide-2-3" x1="136.5366421093447" y1="226.55331523846453" x2="155.44397053121367" y2="226.50368359829392" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-1/visual/guide-3-4" x1="155.44397053121367" y1="226.50368359829392" x2="168" y2="226.30515703761148" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-cov-0.5" cx="105.02442807289648" cy="226.70221015897636" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-cov-0.75" cx="136.5366421093447" cy="226.55331523846453" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-cov-0.9" cx="155.44397053121367" cy="226.50368359829392" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-1/visual/point-cov-1" cx="168" cy="226.30515703761148" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-1/full/guide-1-2" x1="105.02442807289648" y1="226.25552539744086" x2="136.5366421093447" y2="226.00736719658784" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-1/full/guide-2-3" x1="136.5366421093447" y1="226.00736719658784" x2="155.44397053121367" y2="225.9081039162466" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-1/full/guide-3-4" x1="155.44397053121367" y1="225.9081039162466" x2="168" y2="225.8088406359054" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-cov-0.5" x="103.12442807289648" y="224.35552539744086" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-cov-0.75" x="134.6366421093447" y="224.10736719658783" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-cov-0.9" x="153.54397053121366" y="224.0081039162466" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-1/full/point-cov-1" x="166.1" y="223.9088406359054" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<text id="university1652_street_to_satellite/seed-1/count/N" x="105" y="283" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Full query N = 2,579</text>
+<text id="university1652_street_to_satellite/seed-1/count/header/requested" x="49" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Req%</text>
+<text id="university1652_street_to_satellite/seed-1/count/header/kN" x="103" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Actual k / N</text>
+<text id="university1652_street_to_satellite/seed-1/count/header/overlap" x="153" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Overlap</text>
+<line id="university1652_street_to_satellite/seed-1/count/header/rule" x1="36" y1="305" x2="173" y2="305" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="university1652_street_to_satellite/seed-1/count/cov-0.5/requested" x="49" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-0.5/kN" x="103" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">1290/2579</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-0.5/overlap" x="153" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">662</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-0.75/requested" x="49" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-0.75/kN" x="103" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">1935/2579</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-0.75/overlap" x="153" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">1454</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-0.9/requested" x="49" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-0.9/kN" x="103" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2322/2579</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-0.9/overlap" x="153" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2089</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-1/requested" x="49" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-1/kN" x="103" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2579/2579</text>
+<text id="university1652_street_to_satellite/seed-1/count/cov-1/overlap" x="153" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2579</text>
+<text id="university1652_street_to_satellite/seed-1/success/heading" x="105" y="381" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Success% at requested coverage</text>
+<text id="university1652_street_to_satellite/seed-1/success/cov-0.5/heading" x="57.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="university1652_street_to_satellite/seed-1/visual/success-cov-0.5" x="57.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.233</text>
+<text id="university1652_street_to_satellite/seed-1/full/success-cov-0.5" x="57.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.582</text>
+<text id="university1652_street_to_satellite/seed-1/success/cov-0.75/heading" x="89.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="university1652_street_to_satellite/seed-1/visual/success-cov-0.75" x="89.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.349</text>
+<text id="university1652_street_to_satellite/seed-1/full/success-cov-0.75" x="89.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.775</text>
+<text id="university1652_street_to_satellite/seed-1/success/cov-0.9/heading" x="120.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="university1652_street_to_satellite/seed-1/visual/success-cov-0.9" x="120.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.388</text>
+<text id="university1652_street_to_satellite/seed-1/full/success-cov-0.9" x="120.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.853</text>
+<text id="university1652_street_to_satellite/seed-1/success/cov-1/heading" x="152.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="university1652_street_to_satellite/seed-1/visual/success-cov-1" x="152.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.543</text>
+<text id="university1652_street_to_satellite/seed-1/full/success-cov-1" x="152.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.931</text>
+<text id="university1652_street_to_satellite/seed-1/visual/success-prefix" x="34" y="408" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#0072B2">V</text>
+<text id="university1652_street_to_satellite/seed-1/full/success-prefix" x="34" y="421" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#D55E00">F</text>
+<text id="university1652_street_to_satellite/seed-2/heading" x="263" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 2</text>
+<line id="university1652_street_to_satellite/seed-2/y-grid-0" x1="200" y1="227" x2="326" y2="227" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-2/y-label-0" x="195" y="229.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="university1652_street_to_satellite/seed-2/x-tick-0" x1="200" y1="227" x2="200" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-2/x-label-0" x="200" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="university1652_street_to_satellite/seed-2/y-grid-25" x1="200" y1="195" x2="326" y2="195" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-2/y-label-25" x="195" y="197.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="university1652_street_to_satellite/seed-2/x-tick-25" x1="231.5" y1="227" x2="231.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-2/x-label-25" x="231.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="university1652_street_to_satellite/seed-2/y-grid-50" x1="200" y1="163" x2="326" y2="163" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-2/y-label-50" x="195" y="165.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="university1652_street_to_satellite/seed-2/x-tick-50" x1="263" y1="227" x2="263" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-2/x-label-50" x="263" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="university1652_street_to_satellite/seed-2/y-grid-75" x1="200" y1="131" x2="326" y2="131" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-2/y-label-75" x="195" y="133.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="university1652_street_to_satellite/seed-2/x-tick-75" x1="294.5" y1="227" x2="294.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-2/x-label-75" x="294.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="university1652_street_to_satellite/seed-2/y-grid-100" x1="200" y1="99" x2="326" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-2/y-label-100" x="195" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="university1652_street_to_satellite/seed-2/x-tick-100" x1="326" y1="227" x2="326" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-2/x-label-100" x="326" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="university1652_street_to_satellite/seed-2/y-axis" x1="200" y1="99" x2="200" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_street_to_satellite/seed-2/x-axis" x1="200" y1="227" x2="326" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_street_to_satellite/seed-2/visual/guide-1-2" x1="263.02442807289646" y1="226.40442031795268" x2="294.5366421093447" y2="226.15626211709966" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-2/visual/guide-2-3" x1="294.5366421093447" y1="226.15626211709966" x2="313.44397053121367" y2="226.05699883675842" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-2/visual/guide-3-4" x1="313.44397053121367" y1="226.05699883675842" x2="326" y2="225.95773555641722" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-cov-0.5" cx="263.02442807289646" cy="226.40442031795268" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-cov-0.75" cx="294.5366421093447" cy="226.15626211709966" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-cov-0.9" cx="313.44397053121367" cy="226.05699883675842" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-2/visual/point-cov-1" cx="326" cy="225.95773555641722" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-2/full/guide-1-2" x1="263.02442807289646" y1="226.60294687863512" x2="294.5366421093447" y2="226.30515703761148" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-2/full/guide-2-3" x1="294.5366421093447" y1="226.30515703761148" x2="313.44397053121367" y2="226.05699883675842" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-2/full/guide-3-4" x1="313.44397053121367" y1="226.05699883675842" x2="326" y2="225.75920899573478" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-cov-0.5" x="261.1244280728965" y="224.70294687863512" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-cov-0.75" x="292.63664210934473" y="224.40515703761147" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-cov-0.9" x="311.5439705312137" y="224.15699883675842" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-2/full/point-cov-1" x="324.1" y="223.85920899573478" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<text id="university1652_street_to_satellite/seed-2/count/N" x="263" y="283" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Full query N = 2,579</text>
+<text id="university1652_street_to_satellite/seed-2/count/header/requested" x="207" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Req%</text>
+<text id="university1652_street_to_satellite/seed-2/count/header/kN" x="261" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Actual k / N</text>
+<text id="university1652_street_to_satellite/seed-2/count/header/overlap" x="311" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Overlap</text>
+<line id="university1652_street_to_satellite/seed-2/count/header/rule" x1="194" y1="305" x2="331" y2="305" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="university1652_street_to_satellite/seed-2/count/cov-0.5/requested" x="207" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-0.5/kN" x="261" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">1290/2579</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-0.5/overlap" x="311" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">647</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-0.75/requested" x="207" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-0.75/kN" x="261" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">1935/2579</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-0.75/overlap" x="311" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">1455</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-0.9/requested" x="207" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-0.9/kN" x="261" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2322/2579</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-0.9/overlap" x="311" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2090</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-1/requested" x="207" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-1/kN" x="261" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2579/2579</text>
+<text id="university1652_street_to_satellite/seed-2/count/cov-1/overlap" x="311" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2579</text>
+<text id="university1652_street_to_satellite/seed-2/success/heading" x="263" y="381" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Success% at requested coverage</text>
+<text id="university1652_street_to_satellite/seed-2/success/cov-0.5/heading" x="215.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="university1652_street_to_satellite/seed-2/visual/success-cov-0.5" x="215.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.465</text>
+<text id="university1652_street_to_satellite/seed-2/full/success-cov-0.5" x="215.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.310</text>
+<text id="university1652_street_to_satellite/seed-2/success/cov-0.75/heading" x="247.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="university1652_street_to_satellite/seed-2/visual/success-cov-0.75" x="247.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.659</text>
+<text id="university1652_street_to_satellite/seed-2/full/success-cov-0.75" x="247.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.543</text>
+<text id="university1652_street_to_satellite/seed-2/success/cov-0.9/heading" x="278.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="university1652_street_to_satellite/seed-2/visual/success-cov-0.9" x="278.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.737</text>
+<text id="university1652_street_to_satellite/seed-2/full/success-cov-0.9" x="278.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.737</text>
+<text id="university1652_street_to_satellite/seed-2/success/cov-1/heading" x="310.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="university1652_street_to_satellite/seed-2/visual/success-cov-1" x="310.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.814</text>
+<text id="university1652_street_to_satellite/seed-2/full/success-cov-1" x="310.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.969</text>
+<text id="university1652_street_to_satellite/seed-2/visual/success-prefix" x="192" y="408" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#0072B2">V</text>
+<text id="university1652_street_to_satellite/seed-2/full/success-prefix" x="192" y="421" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#D55E00">F</text>
+<text id="university1652_street_to_satellite/seed-3/heading" x="421" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 3</text>
+<line id="university1652_street_to_satellite/seed-3/y-grid-0" x1="358" y1="227" x2="484" y2="227" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-3/y-label-0" x="353" y="229.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="university1652_street_to_satellite/seed-3/x-tick-0" x1="358" y1="227" x2="358" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-3/x-label-0" x="358" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="university1652_street_to_satellite/seed-3/y-grid-25" x1="358" y1="195" x2="484" y2="195" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-3/y-label-25" x="353" y="197.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="university1652_street_to_satellite/seed-3/x-tick-25" x1="389.5" y1="227" x2="389.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-3/x-label-25" x="389.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="university1652_street_to_satellite/seed-3/y-grid-50" x1="358" y1="163" x2="484" y2="163" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-3/y-label-50" x="353" y="165.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="university1652_street_to_satellite/seed-3/x-tick-50" x1="421" y1="227" x2="421" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-3/x-label-50" x="421" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="university1652_street_to_satellite/seed-3/y-grid-75" x1="358" y1="131" x2="484" y2="131" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-3/y-label-75" x="353" y="133.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="university1652_street_to_satellite/seed-3/x-tick-75" x1="452.5" y1="227" x2="452.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-3/x-label-75" x="452.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="university1652_street_to_satellite/seed-3/y-grid-100" x1="358" y1="99" x2="484" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="university1652_street_to_satellite/seed-3/y-label-100" x="353" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="university1652_street_to_satellite/seed-3/x-tick-100" x1="484" y1="227" x2="484" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="university1652_street_to_satellite/seed-3/x-label-100" x="484" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="university1652_street_to_satellite/seed-3/y-axis" x1="358" y1="99" x2="358" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_street_to_satellite/seed-3/x-axis" x1="358" y1="227" x2="484" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="university1652_street_to_satellite/seed-3/visual/guide-1-2" x1="421.02442807289646" y1="226.15626211709966" x2="452.5366421093447" y2="225.95773555641722" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-3/visual/guide-2-3" x1="452.5366421093447" y1="225.95773555641722" x2="471.44397053121367" y2="225.858472276076" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-3/visual/guide-3-4" x1="471.44397053121367" y1="225.858472276076" x2="484" y2="225.70957735556416" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-cov-0.5" cx="421.02442807289646" cy="226.15626211709966" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-cov-0.75" cx="452.5366421093447" cy="225.95773555641722" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-cov-0.9" cx="471.44397053121367" cy="225.858472276076" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="university1652_street_to_satellite/seed-3/visual/point-cov-1" cx="484" cy="225.70957735556416" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-3/full/guide-1-2" x1="421.02442807289646" y1="226.3547886777821" x2="452.5366421093447" y2="226.05699883675842" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-3/full/guide-2-3" x1="452.5366421093447" y1="226.05699883675842" x2="471.44397053121367" y2="225.8088406359054" stroke="#D55E00" stroke-width="0.9"/>
+<line id="university1652_street_to_satellite/seed-3/full/guide-3-4" x1="471.44397053121367" y1="225.8088406359054" x2="484" y2="225.70957735556416" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-cov-0.5" x="419.1244280728965" y="224.4547886777821" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-cov-0.75" x="450.63664210934473" y="224.15699883675842" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-cov-0.9" x="469.5439705312137" y="223.9088406359054" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="university1652_street_to_satellite/seed-3/full/point-cov-1" x="482.1" y="223.80957735556416" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<text id="university1652_street_to_satellite/seed-3/count/N" x="421" y="283" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Full query N = 2,579</text>
+<text id="university1652_street_to_satellite/seed-3/count/header/requested" x="365" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Req%</text>
+<text id="university1652_street_to_satellite/seed-3/count/header/kN" x="419" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Actual k / N</text>
+<text id="university1652_street_to_satellite/seed-3/count/header/overlap" x="469" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Overlap</text>
+<line id="university1652_street_to_satellite/seed-3/count/header/rule" x1="352" y1="305" x2="489" y2="305" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="university1652_street_to_satellite/seed-3/count/cov-0.5/requested" x="365" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-0.5/kN" x="419" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">1290/2579</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-0.5/overlap" x="469" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">624</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-0.75/requested" x="365" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-0.75/kN" x="419" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">1935/2579</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-0.75/overlap" x="469" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">1443</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-0.9/requested" x="365" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-0.9/kN" x="419" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2322/2579</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-0.9/overlap" x="469" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2090</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-1/requested" x="365" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-1/kN" x="419" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2579/2579</text>
+<text id="university1652_street_to_satellite/seed-3/count/cov-1/overlap" x="469" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">2579</text>
+<text id="university1652_street_to_satellite/seed-3/success/heading" x="421" y="381" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Success% at requested coverage</text>
+<text id="university1652_street_to_satellite/seed-3/success/cov-0.5/heading" x="373.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="university1652_street_to_satellite/seed-3/visual/success-cov-0.5" x="373.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.659</text>
+<text id="university1652_street_to_satellite/seed-3/full/success-cov-0.5" x="373.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.504</text>
+<text id="university1652_street_to_satellite/seed-3/success/cov-0.75/heading" x="405.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="university1652_street_to_satellite/seed-3/visual/success-cov-0.75" x="405.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.814</text>
+<text id="university1652_street_to_satellite/seed-3/full/success-cov-0.75" x="405.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.737</text>
+<text id="university1652_street_to_satellite/seed-3/success/cov-0.9/heading" x="436.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="university1652_street_to_satellite/seed-3/visual/success-cov-0.9" x="436.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">0.892</text>
+<text id="university1652_street_to_satellite/seed-3/full/success-cov-0.9" x="436.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">0.931</text>
+<text id="university1652_street_to_satellite/seed-3/success/cov-1/heading" x="468.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="university1652_street_to_satellite/seed-3/visual/success-cov-1" x="468.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">1.008</text>
+<text id="university1652_street_to_satellite/seed-3/full/success-cov-1" x="468.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">1.008</text>
+<text id="university1652_street_to_satellite/seed-3/visual/success-prefix" x="350" y="408" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#0072B2">V</text>
+<text id="university1652_street_to_satellite/seed-3/full/success-prefix" x="350" y="421" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#D55E00">F</text>
+<text id="x-axis-label" x="257.8110236220473" y="260" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">Realized selected coverage = k / N (%)</text>
+<text id="footnote-1" x="15" y="448" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Success uses all N queries as denominator, not accuracy among the selected k.</text>
+<text id="footnote-2" x="15" y="461" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Variants select their own queries by margin; equal k does not mean equal members.</text>
+<text id="footnote-3" x="15" y="474" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Overlap counts shared selected members, not shared correct predictions.</text>
+<text id="footnote-4" x="15" y="487" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Four saved coverage points only; connecting lines guide the eye. No added origin.</text>
+<text id="footnote-5" x="15" y="500" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Higher coverage admits more queries; rising success need not mean better ranking.</text>
+<text id="footnote-6" x="15" y="513" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Seeds/tasks stay separate. No pooled statistics, SD, CI, bootstrap or p-values shown.</text>
+</svg>

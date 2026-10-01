@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="181.9mm" height="188.38333333333333mm" viewBox="0 0 515.6220472440946 534">
+<title>SUES-200: Satellite → UAV 200 m: coverage-constrained success</title>
+<desc>Three separate seeds, four stored coverage observations per variant. Success means selected AND correct over full common N. Equal selected counts do not imply equal membership. No added origin, inference or pooling.</desc>
+<rect id="background" x="0" y="0" width="515.6220472440946" height="534" fill="white"/>
+<text id="title" x="15" y="18" font-family="Arial" font-size="10" font-weight="bold" text-anchor="start" fill="#222222">SUES-200: Satellite → UAV 200 m</text>
+<text id="subtitle" x="15" y="34" font-family="Arial" font-size="9" font-weight="bold" text-anchor="start" fill="#222222">Coverage-constrained success on the full query set</text>
+<circle id="legend/visual/marker" cx="18" cy="48" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<text id="legend/visual/text" x="27" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Visual (V)</text>
+<rect id="legend/full/marker" x="108.1" y="46.1" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<text id="legend/full/text" x="119" y="51" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Full (F)</text>
+<text id="y-axis-label" x="15" y="70" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Selected AND Top-1 correct / full query N (%)</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/heading" x="105" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 1</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/y-grid-0" x1="42" y1="227" x2="168" y2="227" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/y-label-0" x="37" y="229.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/x-tick-0" x1="42" y1="227" x2="42" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/x-label-0" x="42" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/y-grid-25" x1="42" y1="195" x2="168" y2="195" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/y-label-25" x="37" y="197.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/x-tick-25" x1="73.5" y1="227" x2="73.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/x-label-25" x="73.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/y-grid-50" x1="42" y1="163" x2="168" y2="163" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/y-label-50" x="37" y="165.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/x-tick-50" x1="105" y1="227" x2="105" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/x-label-50" x="105" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/y-grid-75" x1="42" y1="131" x2="168" y2="131" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/y-label-75" x="37" y="133.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/x-tick-75" x1="136.5" y1="227" x2="136.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/x-label-75" x="136.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/y-grid-100" x1="42" y1="99" x2="168" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/y-label-100" x="37" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/x-tick-100" x1="168" y1="227" x2="168" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/x-label-100" x="168" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/y-axis" x1="42" y1="99" x2="42" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="sues200_satellite_to_uav_200m/seed-1/x-axis" x1="42" y1="227" x2="168" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="sues200_satellite_to_uav_200m/seed-1/visual/guide-1-2" x1="105" y1="185.4" x2="136.5" y2="169.4" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-1/visual/guide-2-3" x1="136.5" y1="169.4" x2="155.4" y2="155" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-1/visual/guide-3-4" x1="155.4" y1="155" x2="168" y2="148.6" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-1/visual/point-cov-0.5" cx="105" cy="185.4" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-1/visual/point-cov-0.75" cx="136.5" cy="169.4" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-1/visual/point-cov-0.9" cx="155.4" cy="155" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-1/visual/point-cov-1" cx="168" cy="148.6" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-1/full/guide-1-2" x1="105" y1="188.6" x2="136.5" y2="164.6" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-1/full/guide-2-3" x1="136.5" y1="164.6" x2="155.4" y2="155" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-1/full/guide-3-4" x1="155.4" y1="155" x2="168" y2="148.6" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-1/full/point-cov-0.5" x="103.1" y="186.7" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-1/full/point-cov-0.75" x="134.6" y="162.7" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-1/full/point-cov-0.9" x="153.5" y="153.1" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-1/full/point-cov-1" x="166.1" y="146.7" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/N" x="105" y="283" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Full query N = 80</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/header/requested" x="49" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Req%</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/header/kN" x="103" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Actual k / N</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/header/overlap" x="153" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Overlap</text>
+<line id="sues200_satellite_to_uav_200m/seed-1/count/header/rule" x1="36" y1="305" x2="173" y2="305" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-0.5/requested" x="49" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-0.5/kN" x="103" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">40/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-0.5/overlap" x="153" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">20</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-0.75/requested" x="49" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-0.75/kN" x="103" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">60/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-0.75/overlap" x="153" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">45</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-0.9/requested" x="49" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-0.9/kN" x="103" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">72/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-0.9/overlap" x="153" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">65</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-1/requested" x="49" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-1/kN" x="103" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">80/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/count/cov-1/overlap" x="153" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">80</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/success/heading" x="105" y="381" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Success% at requested coverage</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/success/cov-0.5/heading" x="57.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/visual/success-cov-0.5" x="57.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">32.500</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/full/success-cov-0.5" x="57.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">30.000</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/success/cov-0.75/heading" x="89.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/visual/success-cov-0.75" x="89.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">45.000</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/full/success-cov-0.75" x="89.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">48.750</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/success/cov-0.9/heading" x="120.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/visual/success-cov-0.9" x="120.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">56.250</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/full/success-cov-0.9" x="120.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">56.250</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/success/cov-1/heading" x="152.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/visual/success-cov-1" x="152.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">61.250</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/full/success-cov-1" x="152.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">61.250</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/visual/success-prefix" x="34" y="408" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#0072B2">V</text>
+<text id="sues200_satellite_to_uav_200m/seed-1/full/success-prefix" x="34" y="421" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#D55E00">F</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/heading" x="263" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 2</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/y-grid-0" x1="200" y1="227" x2="326" y2="227" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/y-label-0" x="195" y="229.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/x-tick-0" x1="200" y1="227" x2="200" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/x-label-0" x="200" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/y-grid-25" x1="200" y1="195" x2="326" y2="195" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/y-label-25" x="195" y="197.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/x-tick-25" x1="231.5" y1="227" x2="231.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/x-label-25" x="231.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/y-grid-50" x1="200" y1="163" x2="326" y2="163" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/y-label-50" x="195" y="165.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/x-tick-50" x1="263" y1="227" x2="263" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/x-label-50" x="263" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/y-grid-75" x1="200" y1="131" x2="326" y2="131" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/y-label-75" x="195" y="133.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/x-tick-75" x1="294.5" y1="227" x2="294.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/x-label-75" x="294.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/y-grid-100" x1="200" y1="99" x2="326" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/y-label-100" x="195" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/x-tick-100" x1="326" y1="227" x2="326" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/x-label-100" x="326" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/y-axis" x1="200" y1="99" x2="200" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="sues200_satellite_to_uav_200m/seed-2/x-axis" x1="200" y1="227" x2="326" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="sues200_satellite_to_uav_200m/seed-2/visual/guide-1-2" x1="263" y1="180.6" x2="294.5" y2="161.4" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-2/visual/guide-2-3" x1="294.5" y1="161.4" x2="313.4" y2="147" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-2/visual/guide-3-4" x1="313.4" y1="147" x2="326" y2="142.2" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-2/visual/point-cov-0.5" cx="263" cy="180.6" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-2/visual/point-cov-0.75" cx="294.5" cy="161.4" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-2/visual/point-cov-0.9" cx="313.4" cy="147" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-2/visual/point-cov-1" cx="326" cy="142.2" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-2/full/guide-1-2" x1="263" y1="198.2" x2="294.5" y2="175.8" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-2/full/guide-2-3" x1="294.5" y1="175.8" x2="313.4" y2="164.6" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-2/full/guide-3-4" x1="313.4" y1="164.6" x2="326" y2="159.8" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-2/full/point-cov-0.5" x="261.1" y="196.29999999999998" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-2/full/point-cov-0.75" x="292.6" y="173.9" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-2/full/point-cov-0.9" x="311.5" y="162.7" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-2/full/point-cov-1" x="324.1" y="157.9" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/N" x="263" y="283" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Full query N = 80</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/header/requested" x="207" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Req%</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/header/kN" x="261" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Actual k / N</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/header/overlap" x="311" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Overlap</text>
+<line id="sues200_satellite_to_uav_200m/seed-2/count/header/rule" x1="194" y1="305" x2="331" y2="305" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-0.5/requested" x="207" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-0.5/kN" x="261" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">40/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-0.5/overlap" x="311" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">21</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-0.75/requested" x="207" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-0.75/kN" x="261" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">60/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-0.75/overlap" x="311" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">47</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-0.9/requested" x="207" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-0.9/kN" x="261" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">72/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-0.9/overlap" x="311" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">66</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-1/requested" x="207" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-1/kN" x="261" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">80/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/count/cov-1/overlap" x="311" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">80</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/success/heading" x="263" y="381" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Success% at requested coverage</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/success/cov-0.5/heading" x="215.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/visual/success-cov-0.5" x="215.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">36.250</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/full/success-cov-0.5" x="215.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">22.500</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/success/cov-0.75/heading" x="247.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/visual/success-cov-0.75" x="247.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">51.250</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/full/success-cov-0.75" x="247.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">40.000</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/success/cov-0.9/heading" x="278.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/visual/success-cov-0.9" x="278.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">62.500</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/full/success-cov-0.9" x="278.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">48.750</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/success/cov-1/heading" x="310.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/visual/success-cov-1" x="310.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">66.250</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/full/success-cov-1" x="310.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">52.500</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/visual/success-prefix" x="192" y="408" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#0072B2">V</text>
+<text id="sues200_satellite_to_uav_200m/seed-2/full/success-prefix" x="192" y="421" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#D55E00">F</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/heading" x="421" y="86" font-family="Arial" font-size="9" font-weight="bold" text-anchor="middle" fill="#222222">Seed 3</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/y-grid-0" x1="358" y1="227" x2="484" y2="227" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/y-label-0" x="353" y="229.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">0</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/x-tick-0" x1="358" y1="227" x2="358" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/x-label-0" x="358" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">0</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/y-grid-25" x1="358" y1="195" x2="484" y2="195" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/y-label-25" x="353" y="197.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">25</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/x-tick-25" x1="389.5" y1="227" x2="389.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/x-label-25" x="389.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">25</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/y-grid-50" x1="358" y1="163" x2="484" y2="163" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/y-label-50" x="353" y="165.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">50</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/x-tick-50" x1="421" y1="227" x2="421" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/x-label-50" x="421" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/y-grid-75" x1="358" y1="131" x2="484" y2="131" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/y-label-75" x="353" y="133.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">75</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/x-tick-75" x1="452.5" y1="227" x2="452.5" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/x-label-75" x="452.5" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/y-grid-100" x1="358" y1="99" x2="484" y2="99" stroke="#E0E6EC" stroke-width="0.45"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/y-label-100" x="353" y="101.7" font-family="Arial" font-size="8" font-weight="normal" text-anchor="end" fill="#222222">100</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/x-tick-100" x1="484" y1="227" x2="484" y2="230" stroke="#444444" stroke-width="0.6"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/x-label-100" x="484" y="241" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/y-axis" x1="358" y1="99" x2="358" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="sues200_satellite_to_uav_200m/seed-3/x-axis" x1="358" y1="227" x2="484" y2="227" stroke="#444444" stroke-width="0.6"/>
+<line id="sues200_satellite_to_uav_200m/seed-3/visual/guide-1-2" x1="421" y1="185.4" x2="452.5" y2="169.4" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-3/visual/guide-2-3" x1="452.5" y1="169.4" x2="471.4" y2="158.2" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-3/visual/guide-3-4" x1="471.4" y1="158.2" x2="484" y2="147" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-3/visual/point-cov-0.5" cx="421" cy="185.4" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-3/visual/point-cov-0.75" cx="452.5" cy="169.4" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-3/visual/point-cov-0.9" cx="471.4" cy="158.2" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<circle id="sues200_satellite_to_uav_200m/seed-3/visual/point-cov-1" cx="484" cy="147" r="2.35" fill="#FFFFFF" stroke="#0072B2" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-3/full/guide-1-2" x1="421" y1="196.6" x2="452.5" y2="177.4" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-3/full/guide-2-3" x1="452.5" y1="177.4" x2="471.4" y2="166.2" stroke="#D55E00" stroke-width="0.9"/>
+<line id="sues200_satellite_to_uav_200m/seed-3/full/guide-3-4" x1="471.4" y1="166.2" x2="484" y2="161.4" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-3/full/point-cov-0.5" x="419.1" y="194.7" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-3/full/point-cov-0.75" x="450.6" y="175.5" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-3/full/point-cov-0.9" x="469.5" y="164.29999999999998" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<rect id="sues200_satellite_to_uav_200m/seed-3/full/point-cov-1" x="482.1" y="159.5" width="3.8" height="3.8" fill="none" stroke="#D55E00" stroke-width="0.9"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/N" x="421" y="283" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Full query N = 80</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/header/requested" x="365" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Req%</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/header/kN" x="419" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Actual k / N</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/header/overlap" x="469" y="300" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Overlap</text>
+<line id="sues200_satellite_to_uav_200m/seed-3/count/header/rule" x1="352" y1="305" x2="489" y2="305" stroke="#CAD2DA" stroke-width="0.5"/>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-0.5/requested" x="365" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-0.5/kN" x="419" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">40/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-0.5/overlap" x="469" y="316" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">26</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-0.75/requested" x="365" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-0.75/kN" x="419" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">60/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-0.75/overlap" x="469" y="330" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">46</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-0.9/requested" x="365" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-0.9/kN" x="419" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">72/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-0.9/overlap" x="469" y="344" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">66</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-1/requested" x="365" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-1/kN" x="419" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">80/80</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/count/cov-1/overlap" x="469" y="358" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">80</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/success/heading" x="421" y="381" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" fill="#222222">Success% at requested coverage</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/success/cov-0.5/heading" x="373.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">50</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/visual/success-cov-0.5" x="373.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">32.500</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/full/success-cov-0.5" x="373.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">23.750</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/success/cov-0.75/heading" x="405.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">75</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/visual/success-cov-0.75" x="405.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">45.000</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/full/success-cov-0.75" x="405.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">38.750</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/success/cov-0.9/heading" x="436.75" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">90</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/visual/success-cov-0.9" x="436.75" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">53.750</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/full/success-cov-0.9" x="436.75" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">47.500</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/success/cov-1/heading" x="468.25" y="395" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">100</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/visual/success-cov-1" x="468.25" y="408" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#0072B2">62.500</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/full/success-cov-1" x="468.25" y="421" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#D55E00">51.250</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/visual/success-prefix" x="350" y="408" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#0072B2">V</text>
+<text id="sues200_satellite_to_uav_200m/seed-3/full/success-prefix" x="350" y="421" font-family="Arial" font-size="8" font-weight="bold" text-anchor="end" fill="#D55E00">F</text>
+<text id="x-axis-label" x="257.8110236220473" y="260" font-family="Arial" font-size="8" font-weight="normal" text-anchor="middle" fill="#222222">Realized selected coverage = k / N (%)</text>
+<text id="footnote-1" x="15" y="448" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Success uses all N queries as denominator, not accuracy among the selected k.</text>
+<text id="footnote-2" x="15" y="461" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Variants select their own queries by margin; equal k does not mean equal members.</text>
+<text id="footnote-3" x="15" y="474" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Overlap counts shared selected members, not shared correct predictions.</text>
+<text id="footnote-4" x="15" y="487" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Four saved coverage points only; connecting lines guide the eye. No added origin.</text>
+<text id="footnote-5" x="15" y="500" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Higher coverage admits more queries; rising success need not mean better ranking.</text>
+<text id="footnote-6" x="15" y="513" font-family="Arial" font-size="8" font-weight="normal" text-anchor="start" fill="#222222">Seeds/tasks stay separate. No pooled statistics, SD, CI, bootstrap or p-values shown.</text>
+</svg>

@@ -1,0 +1,461 @@
+{
+  "schema": "native-t5-figure-index.v1",
+  "nativeRows": 66,
+  "nativePoints": 660,
+  "guideSegments": 594,
+  "savedAllPrefixAURCValues": 66,
+  "pairedComparisonsPreservedNotPlotted": 132,
+  "figures": [
+    {
+      "page": 1,
+      "task": "university1652_drone_to_satellite",
+      "title": "University-1652: Drone → satellite",
+      "queries": 37855,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_university1652_drone_to_satellite__native_points.csv",
+      "sourceCSVsha256": "1392e5046d1216088ed55a08ad223d199fa8c56012e22a15cfc2717341677e9d",
+      "svg": "native_svg/t5_university1652_drone_to_satellite.svg",
+      "svgSha256": "ba360301326dd99f6ff485dd6fce90b5ad8bf959e3cf4c00be1eb0b11edf1837",
+      "preview": "previews/01_t5_university1652_drone_to_satellite.png",
+      "caption": "University-1652: Drone → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=37855. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "University-1652: Drone → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=37855. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.395781519993478,
+            "full": 0.5040662830204696
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.41693635991410394,
+            "full": 0.5006319855587447
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.4028141922471154,
+            "full": 0.49383543846739986
+          }
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "task": "university1652_satellite_to_drone",
+      "title": "University-1652: Satellite → drone",
+      "queries": 701,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_university1652_satellite_to_drone__native_points.csv",
+      "sourceCSVsha256": "6a9ec72b15d679857b17e88e1e1702ae21caf42a3aee12345dc0fd736bacc68e",
+      "svg": "native_svg/t5_university1652_satellite_to_drone.svg",
+      "svgSha256": "48f5882bc39721700bee1a1d06ee18644cc8ddc17ef74a29921eef18d7608bdb",
+      "preview": "previews/02_t5_university1652_satellite_to_drone.png",
+      "caption": "University-1652: Satellite → drone. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=701. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "University-1652: Satellite → drone. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=701. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.4209904024468978,
+            "full": 0.5621450450775446
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.5041489560601946,
+            "full": 0.5829504273523309
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.4413793916542514,
+            "full": 0.5834967049311724
+          }
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "task": "university1652_street_to_satellite",
+      "title": "University-1652: Street → satellite",
+      "queries": 2579,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_university1652_street_to_satellite__native_points.csv",
+      "sourceCSVsha256": "cd1e81736a39c540da02942838c2ae7b636d183a0f273053ca069d64166222eb",
+      "svg": "native_svg/t5_university1652_street_to_satellite.svg",
+      "svgSha256": "a2fa14dd8ab91538d82d2773ddaadb16395bc89781e04279946fac17ab0468a1",
+      "preview": "previews/03_t5_university1652_street_to_satellite.png",
+      "caption": "University-1652: Street → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=2579. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "University-1652: Street → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=2579. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.9958381221196138,
+            "full": 0.989618066389436
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.9920645851913051,
+            "full": 0.9892659767228483
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.987886195819964,
+            "full": 0.990858537398467
+          }
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "task": "sues200_uav_150m_to_satellite",
+      "title": "SUES-200: UAV 150 m → satellite",
+      "queries": 4000,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_sues200_uav_150m_to_satellite__native_points.csv",
+      "sourceCSVsha256": "5b86ca729dbfc628ace683856491579e33244ff3981bf1ed04e83ece2f6e3f4b",
+      "svg": "native_svg/t5_sues200_uav_150m_to_satellite.svg",
+      "svgSha256": "f32c5795aa98a6dd9aa3f35448579b4ba9861ac9d8e995385e22fc8cbf209caf",
+      "preview": "previews/04_t5_sues200_uav_150m_to_satellite.png",
+      "caption": "SUES-200: UAV 150 m → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=4000. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "SUES-200: UAV 150 m → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=4000. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.5484578645750969,
+            "full": 0.6403168826703068
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.5596042492796269,
+            "full": 0.6450122832686199
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.4634146880216576,
+            "full": 0.5917190512703048
+          }
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "task": "sues200_satellite_to_uav_150m",
+      "title": "SUES-200: Satellite → UAV 150 m",
+      "queries": 80,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_sues200_satellite_to_uav_150m__native_points.csv",
+      "sourceCSVsha256": "839bf72da85d85c4c0d495226953a3f17ea9d106863cb438552dfd09069532f4",
+      "svg": "native_svg/t5_sues200_satellite_to_uav_150m.svg",
+      "svgSha256": "ee0912f429db50b4d48bb381e314abb2630651747734dd825ca146ae6a34d881",
+      "preview": "previews/05_t5_sues200_satellite_to_uav_150m.png",
+      "caption": "SUES-200: Satellite → UAV 150 m. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=80. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "SUES-200: Satellite → UAV 150 m. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=80. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.45146986381581833,
+            "full": 0.5470888749808376
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.4268339891688327,
+            "full": 0.4473109667540382
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.4129950239293608,
+            "full": 0.45208858250856
+          }
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "task": "sues200_uav_200m_to_satellite",
+      "title": "SUES-200: UAV 200 m → satellite",
+      "queries": 4000,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_sues200_uav_200m_to_satellite__native_points.csv",
+      "sourceCSVsha256": "610a00c5abe28b3054c262e5d7cffd09eaebde1718020dcf6f4b4ff04cf6630e",
+      "svg": "native_svg/t5_sues200_uav_200m_to_satellite.svg",
+      "svgSha256": "e0ba8b60b1bb7d7d58e3f8701d9117948af55644f90eed6b08ad3d4cce26c208",
+      "preview": "previews/06_t5_sues200_uav_200m_to_satellite.png",
+      "caption": "SUES-200: UAV 200 m → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=4000. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "SUES-200: UAV 200 m → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=4000. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.4713633785790132,
+            "full": 0.5899499320850647
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.4625959613924091,
+            "full": 0.582845637674643
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.40162158943879583,
+            "full": 0.5317177549503102
+          }
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "task": "sues200_satellite_to_uav_200m",
+      "title": "SUES-200: Satellite → UAV 200 m",
+      "queries": 80,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_sues200_satellite_to_uav_200m__native_points.csv",
+      "sourceCSVsha256": "55442d99aec102719dee15896b90c9929b1b44717eda357bb2e14cdf0ad1e712",
+      "svg": "native_svg/t5_sues200_satellite_to_uav_200m.svg",
+      "svgSha256": "b2530fb36877ed67c522ba2a91b384a491b9e40960e37934e3bf5251926b6938",
+      "preview": "previews/07_t5_sues200_satellite_to_uav_200m.png",
+      "caption": "SUES-200: Satellite → UAV 200 m. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=80. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "SUES-200: Satellite → UAV 200 m. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=80. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.3091777083464426,
+            "full": 0.3166319936661994
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.2814277602229378,
+            "full": 0.5797594960775377
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.3448579673801839,
+            "full": 0.5162229114438116
+          }
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "task": "sues200_uav_250m_to_satellite",
+      "title": "SUES-200: UAV 250 m → satellite",
+      "queries": 4000,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_sues200_uav_250m_to_satellite__native_points.csv",
+      "sourceCSVsha256": "2dd1698d45b5a3c5d49f994facc53f22238ea8f960876c62e1ca21affe873992",
+      "svg": "native_svg/t5_sues200_uav_250m_to_satellite.svg",
+      "svgSha256": "af9c261a6b16664722f722801075de7f3111d27f98f8ca826195c7e7a5e2c50a",
+      "preview": "previews/08_t5_sues200_uav_250m_to_satellite.png",
+      "caption": "SUES-200: UAV 250 m → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=4000. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "SUES-200: UAV 250 m → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=4000. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.3931429704180373,
+            "full": 0.5547856798302876
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.3966618035749516,
+            "full": 0.5107682494279221
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.350426223024916,
+            "full": 0.513968166939283
+          }
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "task": "sues200_satellite_to_uav_250m",
+      "title": "SUES-200: Satellite → UAV 250 m",
+      "queries": 80,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_sues200_satellite_to_uav_250m__native_points.csv",
+      "sourceCSVsha256": "2b79c8447291baca24bccc19208e3acb97362d22d5f4395bf339486eab7cc0cb",
+      "svg": "native_svg/t5_sues200_satellite_to_uav_250m.svg",
+      "svgSha256": "7b997a9378c92962bdbd40d64af74f9eb3bb5b089a479224e9aba2ad0b9d7808",
+      "preview": "previews/09_t5_sues200_satellite_to_uav_250m.png",
+      "caption": "SUES-200: Satellite → UAV 250 m. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=80. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "SUES-200: Satellite → UAV 250 m. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=80. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.21627069142540542,
+            "full": 0.428065308853971
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.3271733763104236,
+            "full": 0.3272941982069404
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.242506566773653,
+            "full": 0.39172932233229546
+          }
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "task": "sues200_uav_300m_to_satellite",
+      "title": "SUES-200: UAV 300 m → satellite",
+      "queries": 4000,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_sues200_uav_300m_to_satellite__native_points.csv",
+      "sourceCSVsha256": "4bd6388b4dcaea065ad133c3aedbd510d8df03ca7050232d9b23a2633f8fdfe0",
+      "svg": "native_svg/t5_sues200_uav_300m_to_satellite.svg",
+      "svgSha256": "56a5e9d671c9bbb27f9606c0c3607be70aea749d4bcb279e69a1d017e033025b",
+      "preview": "previews/10_t5_sues200_uav_300m_to_satellite.png",
+      "caption": "SUES-200: UAV 300 m → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=4000. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "SUES-200: UAV 300 m → satellite. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=4000. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.3331995281284556,
+            "full": 0.519108942159186
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.34355857947268365,
+            "full": 0.5141849016353711
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.320222881300539,
+            "full": 0.4884313670124064
+          }
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "task": "sues200_satellite_to_uav_300m",
+      "title": "SUES-200: Satellite → UAV 300 m",
+      "queries": 80,
+      "nativeRows": 6,
+      "nativePoints": 60,
+      "widthMm": 181.9,
+      "heightMm": 135.11388888888888,
+      "minFontPt": 8,
+      "sourceCSV": "source_data/t5_sues200_satellite_to_uav_300m__native_points.csv",
+      "sourceCSVsha256": "39984f1267520f6a891cd49a0efd7ced13d2f1e33f0fd81ced4b8ba4d9726ef8",
+      "svg": "native_svg/t5_sues200_satellite_to_uav_300m.svg",
+      "svgSha256": "46dbd2bf3e7a2a7a5cad5a2d65a952ec7df32d3b86a41e6c8b1daff819053eaf",
+      "preview": "previews/11_t5_sues200_satellite_to_uav_300m.png",
+      "caption": "SUES-200: Satellite → UAV 300 m. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=80. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here. Visual and Full each select their own margin-ranked subset; matching realized coverage does not imply identical selected query memberships. Risk compares conditional accuracy on those selected subsets, not the separate coverage-constrained paired success statistic.",
+      "slideNotesCaption": "SUES-200: Satellite → UAV 300 m. Native selective-risk results for seeds 1, 2 and 3 shown separately, with Visual and Full distinct in each panel. Each series contains the ten saved native requested coverage levels 0.1, 0.2, ..., 1.0. Its horizontal coordinate is the saved realized coverage k/N multiplied by 100, where k=ceil(requested coverage×N); it is not the nominal request when ceiling changes the fraction. N=80. The vertical coordinate is saved selective risk=1−selected-query R@1, multiplied by 100. Queries are selected in descending raw cosine Top-1 minus Top-2 margin, using stable original query-order ties. Margin ranking is not a calibrated posterior probability or a fitted calibration model. Markers denote only the ten registered observations; straight connecting segments are visual guides and do not represent every selection prefix or justify interpolated performance claims. The displayed AURC values are saved upstream discrete all-prefix AURC fractions, rounded to four decimal places; they are not a trapezoidal integral of these ten plotted points and are not recomputed in this conversion. The original exact AURC and point values are in the per-task CSV and source JSON. No seed/task/direction/height pooling, SD/CI/error bars, bootstrap intervals, p-values or significance claims are displayed. The 132 paired comparisons, including their 75% requests and inferential fields, are preserved in the exact input JSON/CSV but are outside the plotted native66/660point scope. Calibration/ECE/reliability bins are also not plotted. Upstream query recomputation authority, saved-value limitations, inherited checkpoint/cache/image SHA and historical evidence-chain gaps remain unchanged; no query NPZ, model, full ranking or AP computation is repeated here.",
+      "seeds": [
+        {
+          "seed": 1,
+          "savedAllPrefixAURC": {
+            "visual": 0.28575765777362455,
+            "full": 0.36959076985948913
+          }
+        },
+        {
+          "seed": 2,
+          "savedAllPrefixAURC": {
+            "visual": 0.22040411623429446,
+            "full": 0.38968341513802873
+          }
+        },
+        {
+          "seed": 3,
+          "savedAllPrefixAURC": {
+            "visual": 0.21830190310540482,
+            "full": 0.3723062177479216
+          }
+        }
+      ]
+    }
+  ]
+}

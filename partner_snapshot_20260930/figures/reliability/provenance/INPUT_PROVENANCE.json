@@ -1,0 +1,133 @@
+{
+  "schema": "native-t5-reliability-input-provenance.v1",
+  "mode": "final",
+  "rootSha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+  "inputs": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\ROOT_POST_ROBUSTNESS_ADOPTION.json",
+      "sha256": "f55b05559de3ca536170de4ea0be79988dd7c5cf0c822be5f3572eb31a57af0a",
+      "bytes": 221193
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\CAPTURE.json",
+      "sha256": "473d5fba90c3fc0d044733ffb19e1f2955f08df96f89d4c643ad54d6ff15ca09",
+      "bytes": 98212
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\a1\\query\\transactions_t5_selective_calibration.json",
+      "sha256": "033b6eaea71b3084ca043902f6ba03b6487bf1762a9180963357103097d172cc",
+      "bytes": 744943
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\README.md",
+      "sha256": "6042d5067a024781d8190a9a840bc2d5212f94ff4f03faa905a463eda8d8b877",
+      "bytes": 7452,
+      "role": "Contextual upstream report",
+      "rootBound": true
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\pipeline_post_robustness_audit_20260929_1448\\REVIEW.json",
+      "sha256": "e350ca764a7b6a053afbab3062eee6412306685ffeb2c5b9185578896ff451bc",
+      "bytes": 15161,
+      "role": "Contextual upstream report",
+      "rootBound": true
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\remaining_delivery_dependency_review_20260929_1952\\ROOT_DEPENDENCY_REVIEW_ADOPTION.json",
+      "sha256": "b660eb44e4dd868782a9a98142176f2b1c09f7ff8d6e76b2e612fda6fc9953be",
+      "bytes": 7605
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\remaining_delivery_dependency_review_20260929_1952\\REVIEW.md",
+      "sha256": "d63e40a71b1f17de3eafa33e346cee0726d430b9d30364a76d16886d6d04d8db",
+      "bytes": 6805
+    }
+  ],
+  "allNativeRecords": 66,
+  "allBinRecords": 990,
+  "allOccupiedBins": 140,
+  "allEmptyBins": 850,
+  "plottedTasks": [
+    "university1652_drone_to_satellite",
+    "university1652_satellite_to_drone",
+    "university1652_street_to_satellite",
+    "sues200_uav_150m_to_satellite",
+    "sues200_satellite_to_uav_150m",
+    "sues200_uav_200m_to_satellite",
+    "sues200_satellite_to_uav_200m",
+    "sues200_uav_250m_to_satellite",
+    "sues200_satellite_to_uav_250m",
+    "sues200_uav_300m_to_satellite",
+    "sues200_satellite_to_uav_300m"
+  ],
+  "plottedBinRecords": 990,
+  "plottedPanels": 33,
+  "derivedCSV": "Direct stored fields; null explicitly serialized as null. Counts checked for coverage only; no ECE, gap, accuracy, bin assignment or model statistic recomputation.",
+  "copies": [
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\RELIABILITY_BINS_990.csv",
+      "sha256": "7732a7d85a76a947dced14b01b8ef089c500924189b4728a5838efd70dd92e09",
+      "bytes": 251361
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_sues200_satellite_to_uav_150m__reliability_bins.csv",
+      "sha256": "86ed0530b0510f436efd3a9601fa58252b53a81f92d66249959d0f02075c8c11",
+      "bytes": 22301
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_sues200_satellite_to_uav_200m__reliability_bins.csv",
+      "sha256": "6539a8514baa06bc695e3b0d18ee29eb468d40e8f75c4dc37bfd4cb497022553",
+      "bytes": 22254
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_sues200_satellite_to_uav_250m__reliability_bins.csv",
+      "sha256": "966dc9df021a05002f57fe99a6e9de5e930b091ca8c604f86beb797031876671",
+      "bytes": 22235
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_sues200_satellite_to_uav_300m__reliability_bins.csv",
+      "sha256": "d1ff3e4607d166f309f778dd50b85cc778f5fd28465464e9817fa2f710ce15b4",
+      "bytes": 22248
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_sues200_uav_150m_to_satellite__reliability_bins.csv",
+      "sha256": "cb49691e3fb6efc70cf5d100022bc4a49e764761232de78a8477b6f524f413cd",
+      "bytes": 23202
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_sues200_uav_200m_to_satellite__reliability_bins.csv",
+      "sha256": "140b56f459914f83612ff0d1e4f73a8695c86577607c4e754203e86594969fd1",
+      "bytes": 23223
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_sues200_uav_250m_to_satellite__reliability_bins.csv",
+      "sha256": "306a6ebd557196c06fc3fdc6f0d050d61d923ec5538e705d39407a05748a98b2",
+      "bytes": 23185
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_sues200_uav_300m_to_satellite__reliability_bins.csv",
+      "sha256": "d43b36e06b952bf319465bf09fac2f04640508b7c2e19bcc5aad6b1b83d7855a",
+      "bytes": 23155
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_university1652_drone_to_satellite__reliability_bins.csv",
+      "sha256": "d1e1f11f8ce842659f55fbff37370cf01789da3e46565a1817d4772fe50924da",
+      "bytes": 24195
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_university1652_satellite_to_drone__reliability_bins.csv",
+      "sha256": "26727c12249af19798afa0d48ca23f5a4f576bbff66e161164ce1bac523edf2f",
+      "bytes": 23448
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\t5_university1652_street_to_satellite__reliability_bins.csv",
+      "sha256": "b7a1a12257e3cd1ccd14454877b6a35c0e4f77dbf7a32e910e7d8e8fffb02a25",
+      "bytes": 24035
+    },
+    {
+      "path": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\query_t5_reliability_native_figures_20260929_2054\\output\\source_data\\transactions_t5_selective_calibration.json",
+      "sha256": "033b6eaea71b3084ca043902f6ba03b6487bf1762a9180963357103097d172cc",
+      "bytes": 744943
+    }
+  ]
+}
