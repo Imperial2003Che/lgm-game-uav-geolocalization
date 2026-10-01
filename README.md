@@ -43,6 +43,6 @@ University-1652作者的数据说明明确禁止原数据或其部分再分发�
 
 ## 论文编译与历史项目
 
-编译当前论文时在 `partner_snapshot_20260930/paper/` 运行 `pdflatex main`、`bibtex main`、再两次 `pdflatex main`；补充材料同理。保留 `ieee_controls.bib`、`IEEEtran_lgm_display.bst` 和原 `IEEEtran.bst`。本次上传未重新编译，继承已采用正文16页与补充6页的编译/视觉记录。
+编译当前论文时在 `partner_snapshot_20260930/paper/` 运行 `pdflatex main`、`bibtex main`、再两次 `pdflatex main`；补充材料同理。保留 `ieee_controls.bib`、`IEEEtran_lgm_display.bst`。本次上传未重新编译，继承已采用正文16页与补充6页的编译/视觉记录。
 
 原Overleaf审阅项目仍是历史14+4页版本，本次16+6页以此仓库论文目录为准。早期概念原型的模拟输出不属于上述正式实验计数。

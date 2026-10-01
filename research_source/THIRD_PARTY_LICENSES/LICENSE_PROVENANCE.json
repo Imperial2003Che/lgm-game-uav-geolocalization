@@ -1,0 +1,100 @@
+{
+  "schema": "public-third-party-license-preservation.v1",
+  "created_utc": "2026-10-01T16:50:20.376805+00:00",
+  "copied_files": [
+    {
+      "relative": "research_source/execution/baseline_preparation/compatibility_v3/work/patched_sources/qdfl-627296d5-adapter-v4/LICENSE",
+      "source": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\baseline_preparation\\compatibility_v3\\work\\patched_sources\\qdfl-627296d5-adapter-v4\\LICENSE",
+      "bytes": 1065,
+      "sha256": "8afc4f80217554bbe4d8208e02f769a0062f7b19054a59fe8e59f3feda336cbc",
+      "readback_exact": true,
+      "method": "Exact local original bytes; original source unchanged"
+    },
+    {
+      "relative": "research_source/execution/dac_training_preparation_v1/scientific_source/LICENSE",
+      "source": "C:\\OneDrive\\文档\\LGM-GAME\\outputs\\paper_evidence_rebuild_20260914\\execution\\dac_training_preparation_v1\\scientific_source\\LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "readback_exact": true,
+      "method": "Exact local original bytes; original source unchanged"
+    },
+    {
+      "relative": "research_source/THIRD_PARTY_LICENSES/dinov2/LICENSE",
+      "source": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/LICENSE",
+      "bytes": 11359,
+      "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+      "readback_exact": true,
+      "upstream_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "method": "Current official upstream LICENSE fetched at immutable commit; not claimed to reconstruct original historical source commit"
+    },
+    {
+      "relative": "research_source/THIRD_PARTY_LICENSES/Swin-Transformer/LICENSE",
+      "source": "https://raw.githubusercontent.com/microsoft/Swin-Transformer/f82860bfb5225915aca09c3227159ee9e1df874d/LICENSE",
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "readback_exact": true,
+      "upstream_commit": "f82860bfb5225915aca09c3227159ee9e1df874d",
+      "method": "Current official upstream LICENSE fetched at immutable commit; not claimed to reconstruct original historical source commit"
+    },
+    {
+      "relative": "research_source/THIRD_PARTY_LICENSES/ConvNeXt/LICENSE",
+      "source": "https://raw.githubusercontent.com/facebookresearch/ConvNeXt/048efcea897d999aed302f2639b6270aedf8d4c8/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "readback_exact": true,
+      "upstream_commit": "048efcea897d999aed302f2639b6270aedf8d4c8",
+      "method": "Current official upstream LICENSE fetched at immutable commit; not claimed to reconstruct original historical source commit"
+    },
+    {
+      "relative": "research_source/THIRD_PARTY_LICENSES/NOTICE.md",
+      "source": "New distribution scope note",
+      "bytes": 1648,
+      "sha256": "369fae5d82ce08c92c1847ef8a882a1c231e028994a2d4362ac1f91815521440",
+      "readback_exact": true
+    }
+  ],
+  "upstream": [
+    {
+      "project": "facebookresearch/dinov2",
+      "commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "license_url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/LICENSE"
+    },
+    {
+      "project": "microsoft/Swin-Transformer",
+      "commit": "f82860bfb5225915aca09c3227159ee9e1df874d",
+      "license_url": "https://raw.githubusercontent.com/microsoft/Swin-Transformer/f82860bfb5225915aca09c3227159ee9e1df874d/LICENSE"
+    },
+    {
+      "project": "facebookresearch/ConvNeXt",
+      "commit": "048efcea897d999aed302f2639b6270aedf8d4c8",
+      "license_url": "https://raw.githubusercontent.com/facebookresearch/ConvNeXt/048efcea897d999aed302f2639b6270aedf8d4c8/LICENSE"
+    }
+  ],
+  "root_notice_checks": [
+    {
+      "project": "facebookresearch/dinov2",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/NOTICE",
+      "status": 404,
+      "copied": false,
+      "scope": "Only this exact root NOTICE path at current recorded commit; not a full historical notice inventory"
+    },
+    {
+      "project": "microsoft/Swin-Transformer",
+      "url": "https://raw.githubusercontent.com/microsoft/Swin-Transformer/f82860bfb5225915aca09c3227159ee9e1df874d/NOTICE",
+      "status": 404,
+      "copied": false,
+      "scope": "Only this exact root NOTICE path at current recorded commit; not a full historical notice inventory"
+    },
+    {
+      "project": "facebookresearch/ConvNeXt",
+      "url": "https://raw.githubusercontent.com/facebookresearch/ConvNeXt/048efcea897d999aed302f2639b6270aedf8d4c8/NOTICE",
+      "status": 404,
+      "copied": false,
+      "scope": "Only this exact root NOTICE path at current recorded commit; not a full historical notice inventory"
+    }
+  ],
+  "scientific_source_modified": false,
+  "new_project_license_granted": false,
+  "scientific_execution": false,
+  "git_operations": false
+}
